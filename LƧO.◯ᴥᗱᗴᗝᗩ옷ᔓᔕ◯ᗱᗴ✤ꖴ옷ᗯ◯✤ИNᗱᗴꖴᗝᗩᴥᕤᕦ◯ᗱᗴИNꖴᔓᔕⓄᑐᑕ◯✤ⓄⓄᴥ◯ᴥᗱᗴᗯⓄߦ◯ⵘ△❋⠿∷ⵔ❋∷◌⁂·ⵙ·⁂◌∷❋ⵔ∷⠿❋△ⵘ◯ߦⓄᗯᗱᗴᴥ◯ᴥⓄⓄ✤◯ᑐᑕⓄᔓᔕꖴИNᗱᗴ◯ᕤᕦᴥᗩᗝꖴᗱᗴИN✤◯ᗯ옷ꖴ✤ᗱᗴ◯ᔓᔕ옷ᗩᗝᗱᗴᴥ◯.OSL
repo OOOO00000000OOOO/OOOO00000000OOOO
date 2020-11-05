@@ -1,0 +1,13 @@
+shader O_REDAHS_ETIHW_TNEIDARG_ENISOC_TOOR_REWOP_57864084_91_O_19_48046875_POWER_ROOT_COSINE_GRADIENT_WHITE_SHADER_O
+(
+float O_REWOP_O_POWER_O = 19.48046875,
+output float O_REDAHS_O_SHADER_O = 0.0 
+)
+
+{
+O_REDAHS_O_SHADER_O = 
+
+(pow    (    (cos(.5*M_PI*(                (-sqrt(cos(.5*M_PI*(    dot(N,I)    )))+1.)            -1.    )))    ,    1.    /    (    O_REWOP_O_POWER_O    )    ))
+
+;
+}
