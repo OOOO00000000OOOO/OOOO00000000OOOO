@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="-4" y="-4" w="3360" h="2081" maximized="1" screen="0">
+        <splitter orientation="2">
+            <split size="54"/>
+            <splitter orientation="2">
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="346"/>
+                    <dock id="" activePageId="uk.co.thefoundry.histogram.11">
+                        <page id="uk.co.thefoundry.histogram.11"/>
+                    </dock>
+                    <split size="767"/>
+                    <dock id="" activePageId="DopeSheet.1">
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                    <split size="1118"/>
+                    <dock id="" activePageId="uk.co.thefoundry.sequenceviewer.1">
+                        <page id="uk.co.thefoundry.sequenceviewer.1"/>
+                    </dock>
+                    <split size="767"/>
+                    <dock id="" activePageId="uk.co.thefoundry.spreadsheetview.1">
+                        <page id="uk.co.thefoundry.spreadsheetview.1"/>
+                    </dock>
+                    <split size="346"/>
+                    <dock id="" activePageId="uk.co.thefoundry.waveformscope.11">
+                        <page id="uk.co.thefoundry.waveformscope.11"/>
+                    </dock>
+                </splitter>
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="1678"/>
+                    <dock id="" activePageId="uk.co.thefoundry.timeline.1">
+                        <page id="uk.co.thefoundry.timeline.1" layout="splitter(837,837)"/>
+                    </dock>
+                    <split size="1678"/>
+                    <dock id="" activePageId="uk.co.thefoundry.project.2">
+                        <page id="uk.co.thefoundry.project.2" layout="splitter(601,1051)"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="1908"/>
+            <splitter orientation="1">
+                <split size="1117"/>
+                <splitter orientation="2">
+                    <split size="952"/>
+                    <splitter orientation="1">
+                        <split size="346"/>
+                        <splitter orientation="2">
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.waveformscope.12">
+                                <page id="uk.co.thefoundry.waveformscope.12"/>
+                            </dock>
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.histogram.12">
+                                <page id="uk.co.thefoundry.histogram.12"/>
+                            </dock>
+                        </splitter>
+                        <split size="767"/>
+                        <dock id="" activePageId="Viewer.1">
+                            <page id="Viewer.1"/>
+                        </dock>
+                    </splitter>
+                    <split size="952"/>
+                    <splitter orientation="1">
+                        <split size="346"/>
+                        <splitter orientation="2">
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.histogram.13">
+                                <page id="uk.co.thefoundry.histogram.13"/>
+                            </dock>
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.waveformscope.13">
+                                <page id="uk.co.thefoundry.waveformscope.13"/>
+                            </dock>
+                        </splitter>
+                        <split size="767"/>
+                        <splitter orientation="2">
+                            <split size="952"/>
+                            <dock id="" activePageId="Viewer.4">
+                                <page id="Viewer.4"/>
+                            </dock>
+                        </splitter>
+                    </splitter>
+                </splitter>
+                <split size="1118"/>
+                <splitter orientation="2">
+                    <split size="952"/>
+                    <dock id="" activePageId="Properties.1" focus="true">
+                        <page id="Curve Editor.1"/>
+                        <page id="Properties.1"/>
+                        <page id="Pixel Analyzer.1"/>
+                    </dock>
+                    <split size="818"/>
+                    <dock id="" activePageId="DAG.1">
+                        <page id="DAG.1"/>
+                    </dock>
+                    <split size="130"/>
+                    <dock id="" activePageId="uk.co.thefoundry.scripteditor.2">
+                        <page id="uk.co.thefoundry.scripteditor.2"/>
+                    </dock>
+                </splitter>
+                <split size="1117"/>
+                <splitter orientation="2">
+                    <split size="952"/>
+                    <splitter orientation="1">
+                        <split size="767"/>
+                        <dock id="" activePageId="Viewer.2">
+                            <page id="Viewer.2"/>
+                        </dock>
+                        <split size="346"/>
+                        <splitter orientation="2">
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.waveformscope.14">
+                                <page id="uk.co.thefoundry.waveformscope.14"/>
+                            </dock>
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.histogram.14">
+                                <page id="uk.co.thefoundry.histogram.14"/>
+                            </dock>
+                        </splitter>
+                    </splitter>
+                    <split size="952"/>
+                    <splitter orientation="1">
+                        <split size="767"/>
+                        <splitter orientation="2">
+                            <split size="952"/>
+                            <dock id="" activePageId="Viewer.3">
+                                <page id="Viewer.3"/>
+                            </dock>
+                        </splitter>
+                        <split size="346"/>
+                        <splitter orientation="2">
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.histogram.15">
+                                <page id="uk.co.thefoundry.histogram.15"/>
+                            </dock>
+                            <split size="474"/>
+                            <dock id="" activePageId="uk.co.thefoundry.waveformscope.15">
+                                <page id="uk.co.thefoundry.waveformscope.15"/>
+                            </dock>
+                        </splitter>
+                    </splitter>
+                </splitter>
+            </splitter>
+            <split size="83"/>
+            <splitter orientation="1">
+                <split size="1678"/>
+                <dock id="" activePageId="Error Console.1">
+                    <page id="Error Console.1"/>
+                </dock>
+                <split size="1678"/>
+                <dock id="" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+            </splitter>
+        </splitter>
+    </window>
+</layout>

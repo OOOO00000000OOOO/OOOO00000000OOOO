@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="-4" y="-4" w="1680" h="1031" maximized="1" screen="0">
+        <splitter orientation="2">
+            <split size="54"/>
+            <splitter orientation="2">
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.histogram.1">
+                        <page id="uk.co.thefoundry.histogram.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="DopeSheet.1">
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                    <split size="558"/>
+                    <dock id="" activePageId="uk.co.thefoundry.sequenceviewer.1">
+                        <page id="uk.co.thefoundry.sequenceviewer.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="uk.co.thefoundry.spreadsheetview.1">
+                        <page id="uk.co.thefoundry.spreadsheetview.1"/>
+                    </dock>
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.waveformscope.1">
+                        <page id="uk.co.thefoundry.waveformscope.1"/>
+                    </dock>
+                </splitter>
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.timeline.1">
+                        <page id="uk.co.thefoundry.timeline.1" layout="splitter(417,417)"/>
+                    </dock>
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.project.2">
+                        <page id="uk.co.thefoundry.project.2" layout="splitter(406,406)"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="858"/>
+            <splitter orientation="1">
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.2">
+                            <page id="uk.co.thefoundry.histogram.2"/>
+                            <page id="uk.co.thefoundry.waveformscope.2"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.3">
+                            <page id="Viewer.3"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.3">
+                            <page id="uk.co.thefoundry.histogram.3"/>
+                            <page id="uk.co.thefoundry.waveformscope.3"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.2">
+                            <page id="Viewer.2"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+                <split size="558"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <dock id="" activePageId="Properties.1" focus="true">
+                        <page id="Curve Editor.1"/>
+                        <page id="Properties.1"/>
+                        <page id="Pixel Analyzer.1"/>
+                    </dock>
+                    <split size="293"/>
+                    <dock id="" activePageId="DAG.1">
+                        <page id="DAG.1"/>
+                    </dock>
+                    <split size="130"/>
+                    <dock id="" activePageId="uk.co.thefoundry.scripteditor.2">
+                        <page id="uk.co.thefoundry.scripteditor.2"/>
+                    </dock>
+                </splitter>
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.4">
+                            <page id="Viewer.4"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.4">
+                            <page id="uk.co.thefoundry.waveformscope.4"/>
+                            <page id="uk.co.thefoundry.histogram.4"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.1">
+                            <page id="Viewer.1"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.5">
+                            <page id="uk.co.thefoundry.waveformscope.5"/>
+                            <page id="uk.co.thefoundry.histogram.5"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+            </splitter>
+            <split size="83"/>
+            <splitter orientation="1">
+                <split size="838"/>
+                <dock id="" activePageId="Error Console.1">
+                    <page id="Error Console.1"/>
+                </dock>
+                <split size="838"/>
+                <dock id="" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+            </splitter>
+        </splitter>
+    </window>
+</layout>
