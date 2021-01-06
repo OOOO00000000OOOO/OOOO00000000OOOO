@@ -14,13 +14,24 @@
     },
     {
       "type": "link",
-      "name": "◯ᴥᗱᗴ✻ИNᑎᙁߦ◯⚪◯ߦᙁᑎИN✻ᗱᗴᴥ◯ⵙ◯ᴥᗱᗴ✻ИNᑎᙁߦ◯⚪◯ߦᙁᑎИN✻ᗱᗴᴥ◯",
+      "name": "◯ИNᗱᗴߦᗱᗴᗝⓄᑐᑕ◯⚪◯ᑐᑕⓄᗝᗱᗴߦᗱᗴИN◯ⵙ◯ИNᗱᗴߦᗱᗴᗝⓄᑐᑕ◯⚪◯ᑐᑕⓄᗝᗱᗴߦᗱᗴИN◯",
+      "address": "CⓄDEPEN.IⓄ/search/pens?q=",
+      "contexts": [
+        "selection"
+      ],
+      "id": 64,
+      "icon": "HTTP://CPWEBASSETS.CⓄDEPEN.IⓄ/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico",
+      "popup": true
+    },
+    {
       "address": "PLNKR.CⓄ/collections/plunker/public?q=",
       "contexts": [
         "selection"
       ],
       "id": 63,
-      "popup": true
+      "name": "◯ᴥᗱᗴ✻ИNᑎᙁߦ◯⚪◯ߦᙁᑎИN✻ᗱᗴᴥ◯ⵙ◯ᴥᗱᗴ✻ИNᑎᙁߦ◯⚪◯ߦᙁᑎИN✻ᗱᗴᴥ◯",
+      "popup": true,
+      "type": "link"
     },
     {
       "address": "WⓄLFRAMALPHA.CⓄM/input/?i=",
