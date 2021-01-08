@@ -11,7 +11,7 @@ slider1:    -11.313708498984760390413509793678    <    -181.01933598375616624661
     
     
     
-    O_LEVEL_EMULOV_O_VOLUME_LEVEL_O=2^(SLIDER1/6);
+    O_LEVEL_EMULOV_O_VOLUME_LEVEL_O    =    2    ^    (    SLIDER1    /    6    )    ;    
     
     O_ESION_O_NOISE_O    =    (    FLOOR    (    RAND    (    2    )    )    -    0.5    )    *    4    ;
     
