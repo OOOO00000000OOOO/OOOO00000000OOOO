@@ -1,0 +1,1186 @@
+#! C:/O/O_ERAWTFOS_O_SOFTWARE_O/O_SMARGORP_O_PROGRAMS_O/O_AIDIV_O_VIDIA_O/O_D3_O_3D_O/O_YRDNUOF_O_FOUNDRY_O/O_EKUN_O_NUKE_O/O_6V3.11_O_11.3V6_O/nuke-11.3.6.dll -nx
+version 11.3 v6
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="-4" y="-4" w="1680" h="1031" maximized="1" screen="0">
+        <splitter orientation="2">
+            <split size="54"/>
+            <splitter orientation="2">
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.histogram.1">
+                        <page id="uk.co.thefoundry.histogram.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="DopeSheet.1">
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                    <split size="558"/>
+                    <dock id="" activePageId="uk.co.thefoundry.sequenceviewer.1">
+                        <page id="uk.co.thefoundry.sequenceviewer.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="uk.co.thefoundry.spreadsheetview.1">
+                        <page id="uk.co.thefoundry.spreadsheetview.1"/>
+                    </dock>
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.waveformscope.1">
+                        <page id="uk.co.thefoundry.waveformscope.1"/>
+                    </dock>
+                </splitter>
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.timeline.1">
+                        <page id="uk.co.thefoundry.timeline.1"/>
+                    </dock>
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.project.2">
+                        <page id="uk.co.thefoundry.project.2"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="858"/>
+            <splitter orientation="1">
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.histogram.2">
+                            <page id="uk.co.thefoundry.histogram.2"/>
+                            <page id="uk.co.thefoundry.waveformscope.2"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.2">
+                            <page id="Viewer.2"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.histogram.3">
+                            <page id="uk.co.thefoundry.histogram.3"/>
+                            <page id="uk.co.thefoundry.waveformscope.3"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.1">
+                            <page id="Viewer.1"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+                <split size="558"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <dock id="" activePageId="Properties.1">
+                        <page id="Properties.1"/>
+                    </dock>
+                    <split size="293"/>
+                    <dock id="" activePageId="DAG.1" focus="true">
+                        <page id="DAG.1"/>
+                    </dock>
+                    <split size="130"/>
+                    <dock id="" activePageId="uk.co.thefoundry.scripteditor.2">
+                        <page id="uk.co.thefoundry.scripteditor.2"/>
+                    </dock>
+                </splitter>
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.3">
+                            <page id="Viewer.3"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.4">
+                            <page id="uk.co.thefoundry.waveformscope.4"/>
+                            <page id="uk.co.thefoundry.histogram.4"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.4">
+                            <page id="Viewer.4"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.5">
+                            <page id="uk.co.thefoundry.waveformscope.5"/>
+                            <page id="uk.co.thefoundry.histogram.5"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+            </splitter>
+            <split size="83"/>
+            <splitter orientation="1">
+                <split size="838"/>
+                <dock id="" activePageId="Error Console.1">
+                    <page id="Error Console.1"/>
+                </dock>
+                <split size="838"/>
+                <dock id="" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+            </splitter>
+        </splitter>
+    </window>
+</layout>
+}
+LiveGroupInfo {
+ inputs 0
+ mapsize {0.1487455197 1}
+ frame 2913
+ last_frame 5824
+ lock_range true
+ fps 69
+ format "1024 1024 0 0 1024 1024 1 square_1K"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ proxySetting never
+ is_live true
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut linear
+ int8Lut linear
+ int16Lut linear
+ logLut linear
+ floatLut linear
+ views_colours true
+}
+Group {
+ inputs 0
+ name ⵙᔓᔕᕤᕦИNꖴᴥⵙᴥꖴИNᕤᕦᔓᔕⵙ
+ xpos -56
+ ypos -53
+ postage_stamp true
+}
+ Constant {
+  inputs 0
+  color 1
+  name ⵙTИNᗩTᔓᔕИNⵔᑐᑕⵙᑐᑕⵔИNᔓᔕTᗩИNTⵙ
+  xpos -168
+  ypos 683
+ }
+set N3f1f5000 [stack 0]
+ Expression {
+  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+  temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+  temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+  temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+  temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+  temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+  temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+  channel0 rgba
+  expr0 "((-cos(1.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )   )    *  ( -1. /  (3280.5 / 9841.5)  )  , 0. , 1. )  ) /2. +.5 ) *1. )  **  (1./(4.59375*19.48046875))"
+  channel1 {-rgba.red -rgba.green -rgba.blue none}
+  expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+  channel2 {-rgba.red -rgba.green -rgba.blue none}
+  expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+  channel3 {none none none -rgba.alpha}
+  expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+  name ⵔ
+  help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+  xpos -168
+  ypos 619
+  postage_stamp true
+  addUserKnob {20 O l "" +STARTLINE}
+  addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+  O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+  addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+  O_Y_EZIS_O_SIZE_Y_O 2
+  addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+  O_ROSIVID_O_DIVISOR_O 11
+  addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+  O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+  addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+  O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+  addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+  O_1_SNOISIVID_O_DIVISION_1_O 4
+  addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+  O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+  addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+  O_REBMUN_O_NUMBER_O 2.718281828
+  addUserKnob {12 O_NOITISOP_O_POSITION_O}
+  O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+  O_EZIS_O_SIZE_O 2048
+ }
+push $N3f1f5000
+ Group {
+  inputs 2
+  name ⵙ
+  selected true
+  xpos -168
+  ypos 558
+ }
+  Input {
+   inputs 0
+   name ⵙTᑎᑫᑭИNꖴⵙꖴИNᑫᑭᑎTⵙ
+   xpos -122
+   ypos 158
+   number 1
+  }
+  Input {
+   inputs 0
+   name ⵙTИNᗩTᔓᔕИNⵔᑐᑕⵙᑐᑕⵔИNᔓᔕTᗩИNTⵙ
+   xpos -122
+   ypos 182
+  }
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 2187. / 9841.5 )  )    *  ( 1. / ( 2187. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (1.+(1.59375 / 1.35546875)  )  *19.48046875))"
+   channel1 {-rgba.red -rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵔ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos -122
+   ypos 89
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+  Grade {
+   channels alpha
+   multiply {{"-cos(   ( (1/84.406022589954030768899117092091000289089388918088900852079)*(3**6) ) *    (1/69)*2*PI*( (x) -1))/2+.5" L x1 0 x70 1}}
+   name ⵙᗱᗴᗝᗩᴥᕤᕦⵙⵔⵙᕤᕦᴥᗩᗝᗱᗴⵙ
+   selected true
+   xpos -122
+   ypos 25
+   postage_stamp true
+  }
+  Merge2 {
+   inputs 2
+   name ⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙ
+   xpos -122
+   ypos -37
+   postage_stamp true
+  }
+  Output {
+   name Output1
+   xpos -122
+   ypos -66
+  }
+ end_group
+push $N3f1f5000
+push $N3f1f5000
+ Group {
+  inputs 3
+  name ⵙⵙ
+  xpos -168
+  ypos 510
+ }
+  Input {
+   inputs 0
+   name ⵙ
+   xpos -111
+   ypos -10
+   number 2
+  }
+  Input {
+   inputs 0
+   name ⵙTИNᗩTᔓᔕИNⵔᑐᑕⵙᑐᑕⵔИNᔓᔕTᗩИNTⵙ
+   xpos -112
+   ypos 158
+  }
+set N53ce6000 [stack 0]
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 729. / 9841.5 )  -  ( 4374. / 9841.5 )  )    *  ( 1. / ( 729. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(1.40625*19.48046875))"
+   channel1 {-rgba.red -rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙⵔᗯTⵙⵔᗯTⵙTᗯⵔⵙTᗯⵔⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos -247
+   ypos 89
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N53ce6000
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 729. / 9841.5 )  )    *  ( 1. / ( 729. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(1.40625*19.48046875))"
+   channel1 {-rgba.red -rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᗱᗴИNⵔⵙⵔᗯTⵙTᗯⵔⵙⵔИNᗱᗴⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 24
+   ypos 89
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+  Merge2 {
+   inputs 2
+   metainput All
+   rangeinput All
+   name ⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙ1
+   xpos -111
+   ypos 89
+   postage_stamp true
+  }
+  Grade {
+   channels alpha
+   multiply {{"-cos(   ( (1/84.406022589954030768899117092091000289089388918088900852079)*(3**4) ) *    (1/69)*2*PI*( (x) -1))/2+.5" L x1 0 x70 1}}
+   name ⵙⵙᗱᗴᗝᗩᴥᕤᕦⵙⵔⵙᕤᕦᴥᗩᗝᗱᗴⵙⵙ
+   xpos -111
+   ypos 25
+   postage_stamp true
+  }
+  Merge2 {
+   inputs 2
+   name ⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙ
+   xpos -111
+   ypos -85
+   postage_stamp true
+  }
+  Output {
+   name Output1
+   xpos -111
+   ypos -122
+  }
+ end_group
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+ Group {
+  inputs 5
+  name ⵙⵙⵙ
+  xpos -168
+  ypos 462
+ }
+  Input {
+   inputs 0
+   name ⵙⵙ
+   xpos 272
+   ypos -26
+   number 4
+  }
+  Input {
+   inputs 0
+   name ⵙTИNᗩTᔓᔕИNⵔᑐᑕⵙᑐᑕⵔИNᔓᔕTᗩИNTⵙ
+   xpos 272
+   ypos 6
+  }
+set N51e3e800 [stack 0]
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 243. / 9841.5 )  -  ( 1458. / 9841.5 )  -  ( 2916. / 9841.5 )  -  ( 1458. / 9841.5 )  )    *  ( 1. / ( 243. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./((.78125)*19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᗱᗴᴥ옷Tⵙᗱᗴᴥ옷TⵙT옷ᴥᗱᗴⵙT옷ᴥᗱᗴⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 152
+   ypos -165
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N51e3e800
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 243. / 9841.5 )  )    *  ( 1. / ( 243. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./((.78125)*19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙⵔᗯTⵙᗱᗴᴥ옷TⵙT옷ᴥᗱᗴⵙTᗯⵔⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 392
+   ypos -165
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push 0
+push $N51e3e800
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O   -  ( 3280.5 / 9841.5 )  -  ( 243. / 9841.5 )  -  ( 1458. / 9841.5 )  -  ( 2916. / 9841.5 )  )    *  ( 1. / ( 243. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./((.78125)*19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᴥᑎⵔΦⵙᗱᗴᴥ옷TⵙT옷ᴥᗱᗴⵙΦⵔᑎᴥⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 152
+   ypos -29
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N51e3e800
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 243. / 9841.5 )  -  ( 1458. / 9841.5 )  )    *  ( 1. / ( 243. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./((.78125)*19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᗱᗴИNⵔⵙᗱᗴᴥ옷TⵙT옷ᴥᗱᗴⵙⵔИNᗱᗴⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 392
+   ypos -29
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+  Merge2 {
+   inputs 4+1
+   name ⵙⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙⵙ1
+   xpos 272
+   ypos -93
+   postage_stamp true
+  }
+  Grade {
+   channels alpha
+   multiply {{"-cos(   ( (1/84.406022589954030768899117092091000289089388918088900852079)*(3**2) ) *    (1/69)*2*PI*( (x) -1))/2+.5" L x1 0 x70 1}}
+   name ⵙⵙᗱᗴᗝᗩᴥᕤᕦⵙⵔⵙᕤᕦᴥᗩᗝᗱᗴⵙⵙ
+   selected true
+   xpos 272
+   ypos -165
+   postage_stamp true
+  }
+  Merge2 {
+   inputs 2
+   name ⵙⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙⵙ
+   xpos 272
+   ypos -269
+   postage_stamp true
+  }
+  Output {
+   name Output1
+   xpos 272
+   ypos -314
+  }
+ end_group
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+push $N3f1f5000
+ Group {
+  inputs 9
+  name ⵙⵙⵙⵙ
+  xpos -168
+  ypos 414
+ }
+  Input {
+   inputs 0
+   name ⵙⵙⵙ
+   xpos 432
+   ypos 102
+   number 8
+  }
+  Input {
+   inputs 0
+   name ⵙTИNᗩTᔓᔕИNⵔᑐᑕⵙᑐᑕⵔИNᔓᔕTᗩИNTⵙ
+   xpos 432
+   ypos 190
+  }
+set N3f23dc00 [stack 0]
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 2430. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  -  ( 486. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙꕤꖴᔓᔕⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙᔓᔕꖴꕤⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 183
+   ypos -146
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N3f23dc00
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 2430. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᗱᗴΛꖴΦⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙΦꖴΛᗱᗴⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 303
+   ypos -146
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N3f23dc00
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 2430. / 9841.5 )  -  ( 486. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᗱᗴᴥ옷TⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙT옷ᴥᗱᗴⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 559
+   ypos -146
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N3f23dc00
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 2430. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᴥᑎⵔΦⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙΦⵔᑌᴥⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 687
+   ypos -146
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N3f23dc00
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  -  ( 486. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙT옷ᕤᕦꖴᗱᗴⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙᗱᗴꖴᕤᕦ옷Tⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 183
+   ypos 94
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N3f23dc00
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  -  ( 486. / 9841.5 )  -  ( 972. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙИNᗱᗴΛᗱᗴᔓᔕⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙᔓᔕᗱᗴΛᗱᗴИNⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 303
+   ypos 94
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push $N3f23dc00
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O      -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  -  ( 486. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙⵔᗯTⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙTᗯⵔⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 687
+   ypos 94
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+push 0
+push 0
+push $N3f23dc00
+  Expression {
+   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+   temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+   temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+   temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+   temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+   temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+   channel0 rgba
+   expr0 "((-cos(2.*PI*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )  -  ( 81. / 9841.5 )  )    *  ( 1. / ( 81. / 9841.5 ) )  , 0. , 1. )  ) /2. + .5 ) *1. )  **  (1./(  (.625)  *19.48046875))"
+   channel1 {-rgba.red rgba.green -rgba.blue none}
+   expr1 "(-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)"
+   channel2 {-rgba.red -rgba.green -rgba.blue none}
+   expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+   channel3 {none none none -rgba.alpha}
+   expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+   name ⵙᗱᗴИNⵔⵙᴥᑎⵔΦⵙΦⵔᑎᴥⵙⵔИNᗱᗴⵙ
+   help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+   xpos 559
+   ypos 94
+   postage_stamp true
+   addUserKnob {20 O l "" +STARTLINE}
+   addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+   O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+   addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+   O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+   addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+   O_Y_EZIS_O_SIZE_Y_O 2
+   addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+   O_ROSIVID_O_DIVISOR_O 11
+   addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+   O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+   addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+   O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+   addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+   O_1_SNOISIVID_O_DIVISION_1_O 4
+   addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+   O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+   addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+   O_REBMUN_O_NUMBER_O 2.718281828
+   addUserKnob {12 O_NOITISOP_O_POSITION_O}
+   O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+   O_EZIS_O_SIZE_O 2048
+  }
+  Merge2 {
+   inputs 9+1
+   name ⵙⵙⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙⵙⵙ
+   xpos 432
+   ypos 35
+   postage_stamp true
+  }
+  Grade {
+   channels alpha
+   multiply {{"-cos(   ( (1/84.406022589954030768899117092091000289089388918088900852079)*(3**0) ) *    (1/69)*2*PI*( (x) -1))/2+.5" L x1 0 x70 1}}
+   name ⵙⵙᗱᗴᗝᗩᴥᕤᕦⵙⵔⵙᕤᕦᴥᗩᗝᗱᗴⵙⵙ
+   selected true
+   xpos 432
+   ypos -29
+   postage_stamp true
+  }
+  Merge2 {
+   inputs 2
+   name ⵙⵙⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙⵙⵙ1
+   xpos 432
+   ypos -93
+   postage_stamp true
+  }
+  Output {
+   name Output1
+   xpos 432
+   ypos -122
+  }
+ end_group
+ Histogram {
+  out {0.9375 1}
+  name ⵙᙏᗩᴥᕤᕦⵔTᔓᔕꖴ옷ⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙ옷ꖴᔓᔕTⵔᕤᕦᴥᗩᙏⵙ
+  xpos -168
+  ypos 347
+  disable true
+  postage_stamp true
+ }
+push $N3f1f5000
+ Merge2 {
+  inputs 2
+  operation matte
+  metainput All
+  rangeinput All
+  name ⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙ
+  xpos -168
+  ypos 283
+  postage_stamp true
+ }
+ Output {
+  name ⵙTᑎᑫᑭTᑎⵔⵙⵔᑎTᑫᑭᑎTⵙ
+  xpos -168
+  ypos 238
+ }
+end_group
+set N53c9d180 [stack 0]
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙⵙ
+ xpos -112
+ ypos -74
+}
+push $N53c9d180
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙ
+ xpos -112
+ ypos 6
+}
+push $N53c9d180
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙ
+ xpos 0
+ ypos 6
+}
+push $N53c9d180
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙ
+ xpos 0
+ ypos -74
+}
