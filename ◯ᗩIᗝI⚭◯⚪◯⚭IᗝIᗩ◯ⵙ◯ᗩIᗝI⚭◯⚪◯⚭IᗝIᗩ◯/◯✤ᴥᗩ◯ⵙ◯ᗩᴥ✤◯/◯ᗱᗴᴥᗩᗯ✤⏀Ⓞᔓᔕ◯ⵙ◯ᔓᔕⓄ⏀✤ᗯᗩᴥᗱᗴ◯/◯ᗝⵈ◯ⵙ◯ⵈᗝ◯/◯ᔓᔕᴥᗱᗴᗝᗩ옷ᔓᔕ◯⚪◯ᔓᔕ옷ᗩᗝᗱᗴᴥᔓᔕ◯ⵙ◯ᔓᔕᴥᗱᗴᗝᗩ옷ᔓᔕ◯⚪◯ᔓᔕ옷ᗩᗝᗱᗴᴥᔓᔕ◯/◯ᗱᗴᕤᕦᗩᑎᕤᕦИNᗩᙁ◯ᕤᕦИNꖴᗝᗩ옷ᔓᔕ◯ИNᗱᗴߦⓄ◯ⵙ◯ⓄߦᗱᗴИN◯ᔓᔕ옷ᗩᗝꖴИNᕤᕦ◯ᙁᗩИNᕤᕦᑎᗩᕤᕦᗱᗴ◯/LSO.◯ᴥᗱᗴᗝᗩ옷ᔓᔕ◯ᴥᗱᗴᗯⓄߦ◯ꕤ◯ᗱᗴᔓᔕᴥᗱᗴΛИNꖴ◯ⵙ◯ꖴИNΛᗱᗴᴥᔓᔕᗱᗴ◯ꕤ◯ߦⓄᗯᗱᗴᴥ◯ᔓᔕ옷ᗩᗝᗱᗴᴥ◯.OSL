@@ -1,0 +1,17 @@
+shader O_REDAHS_REWOP_X_ESREVNI_O_INVERSE_X_POWER_SHADER_O
+(
+float O_REWOP_O_POWER_O =(   (  sqrt(5.)  -1.  )  /2.  ),
+float O_ELACS_O_SCALE_O = -3.375,
+float O_SENTHGIRB_O_BRIGHTNES_O = 1.0,
+output float O_REDAHS_O_SHADER_O = 0.0 
+)
+
+{
+
+O_REDAHS_O_SHADER_O = 
+
+(                (1.-((pow((        1./ (clamp(        (                (-sqrt(cos(.5*(4*atan(1))*(    dot(N,I)    )))+1.)            -.0)*1.        ,0.,1.)    +    ((sqrt	(	pow(2.,	(O_ELACS_O_SCALE_O)	)	+1.)	-1.)/2.)    )/    ((((		pow(2.,	(-O_ELACS_O_SCALE_O+2.)		)))))    -    ((sqrt	(	pow(2.,	(O_ELACS_O_SCALE_O)	)	+1.)	-1.)/2.)),O_REWOP_O_POWER_O)/1.)+.0))                    *    (1./O_SENTHGIRB_O_BRIGHTNES_O)    )    +    (    1.-    (1./O_SENTHGIRB_O_BRIGHTNES_O)    )
+
+;
+
+}
