@@ -13,17 +13,6 @@
       "type": "link"
     },
     {
-      "address": "CⓄDEPEN.IⓄ/search/pens?q=",
-      "contexts": [
-        "selection"
-      ],
-      "icon": "HTTP://CPWEBASSETS.CⓄDEPEN.IⓄ/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico",
-      "id": 64,
-      "name": "◯ИNᗱᗴߦᗱᗴᗝⓄᑐᑕ◯⚪◯ᑐᑕⓄᗝᗱᗴߦᗱᗴИN◯ⵙ◯ИNᗱᗴߦᗱᗴᗝⓄᑐᑕ◯⚪◯ᑐᑕⓄᗝᗱᗴߦᗱᗴИN◯",
-      "popup": true,
-      "type": "link"
-    },
-    {
       "address": "PLNKR.CⓄ/collections/plunker/public?q=",
       "contexts": [
         "selection"
@@ -151,35 +140,6 @@
       "type": "link"
     },
     {
-      "address": "REDDIT.CⓄM/search/?q=",
-      "contexts": [
-        "selection"
-      ],
-      "icon": "HTTP://WWW.REDDITSTATIC.CⓄM/desktop2x/img/favicon/apple-icon-180x180.png",
-      "id": 50,
-      "name": "◯✤ꖴᗝᗱᗴᴥ◯⚪◯ᴥᗱᗴᗝꖴ✤◯ⵙ◯✤ꖴᗝᗱᗴᴥ◯⚪◯ᴥᗱᗴᗝꖴ✤◯",
-      "type": "link"
-    },
-    {
-      "address": "GRABCAD.CⓄM/library?&query=",
-      "contexts": [
-        "selection"
-      ],
-      "id": 54,
-      "name": "◯ᗝᗩᑐᑕ⚭ᗩᴥᕤᕦ◯⚪◯ᕤᕦᴥᗩ⚭ᑐᑕᗩᗝ◯ⵙ◯ᗝᗩᑐᑕ⚭ᗩᴥᕤᕦ◯⚪◯ᕤᕦᴥᗩ⚭ᑐᑕᗩᗝ◯",
-      "type": "link"
-    },
-    {
-      "address": "SKETCHFAB.CⓄM/search?q=",
-      "contexts": [
-        "selection"
-      ],
-      "icon": "HTTP://STATIC.SKETCHFAB.CⓄM/static/builds/web/dist/static/assets/images/favicon/android-chrome-192x192-1e910764ed1b5e9b99c272e4ce357c37.png",
-      "id": 42,
-      "name": "◯⚭ᗩ⏀옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ◯⚪◯ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷⏀ᗩ⚭◯ⵙ◯⚭ᗩ⏀옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ◯⚪◯ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷⏀ᗩ⚭◯",
-      "type": "link"
-    },
-    {
       "address": "TRANSLATE.GⓄⓄGLE.GR/?hl=ru&sl=auto&tl=ru&text=",
       "contexts": [
         "selection",
@@ -212,29 +172,6 @@
       "icon": "HTTP://WWW.GⓄⓄGLE.GR/s2/favicons?domain=WWW.GⓄⓄGLE.GR",
       "id": 38,
       "name": "◯ᗱᗴᙁᕤᕦⓄᕤᕦ◯⚪◯ᕤᕦⓄᕤᕦᙁᗱᗴ◯ⵙ◯ᗱᗴᙁᕤᕦⓄᕤᕦ◯⚪◯ᕤᕦⓄᕤᕦᙁᗱᗴ◯",
-      "popup": true,
-      "type": "link"
-    },
-    {
-      "address": "YANDEX.BY/images/search?text=",
-      "contexts": [
-        "selection",
-        "image"
-      ],
-      "icon": "HTTP://YASTATIC.NET/iconostasis/_/8lFaTHLDzmsEZz-5XaQg9iTWZGE.png",
-      "id": 48,
-      "name": "◯І❁ІНІ✤ߦᗩ✻◯⚪◯✻ᗩߦ✤ІНІ❁І◯ⵙ◯І❁ІНІ✤ߦᗩ✻◯⚪◯✻ᗩߦ✤ІНІ❁І◯",
-      "popup": true,
-      "type": "link"
-    },
-    {
-      "address": "YANDEX.BY/search/?text=",
-      "contexts": [
-        "selection"
-      ],
-      "icon": "HTTP://YASTATIC.NET/iconostasis/_/8lFaTHLDzmsEZz-5XaQg9iTWZGE.png",
-      "id": 47,
-      "name": "◯ᑐᑕ✻ЭЄᗝНꖴ◯⚪◯ꖴНᗝЭЄ✻ᑐᑕ◯ⵙ◯ᑐᑕ✻ЭЄᗝНꖴ◯⚪◯ꖴНᗝЭЄ✻ᑐᑕ◯",
       "popup": true,
       "type": "link"
     },
