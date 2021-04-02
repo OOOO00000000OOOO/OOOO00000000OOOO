@@ -176,7 +176,7 @@ Group {
   xpos -168
   ypos 619
  }
-set N31d6000 [stack 0]
+set N3146000 [stack 0]
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -223,7 +223,7 @@ set N31d6000 [stack 0]
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -270,7 +270,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -317,7 +317,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -364,7 +364,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -411,7 +411,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -458,7 +458,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -506,7 +506,7 @@ push $N31d6000
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -553,7 +553,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -600,7 +600,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -648,7 +648,7 @@ push $N31d6000
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -696,7 +696,7 @@ push $N31d6000
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -743,7 +743,7 @@ push $N31d6000
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -797,7 +797,7 @@ push $N31d6000
   ypos 427
   postage_stamp true
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -851,7 +851,7 @@ push $N31d6000
   ypos 347
   postage_stamp true
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -905,7 +905,7 @@ push $N31d6000
   ypos 163
   postage_stamp true
  }
-push $N31d6000
+push $N3146000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -974,7 +974,7 @@ ColorWheel {
  xpos 64
  ypos -493
 }
-set N730ab800 [stack 0]
+set N73d9b800 [stack 0]
 ColorLookup {
  lut {master {"(  clamp((curve-0)*2)  )" C 0 1}
    red {}
@@ -992,8 +992,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N730ab400 [stack 0]
-push $N730ab800
+set N73d9b400 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {(clamp(curve)) C 0 1}
    red {}
@@ -1011,9 +1011,9 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N730ab000 [stack 0]
-push $N730ab400
-push $N730ab800
+set N73d9b000 [stack 0]
+push $N73d9b400
+push $N73d9b800
 ColorLookup {
  inputs 1+1
  lut {master {"(  clamp((curve-0)*2)-clamp((curve-.5)*2)  )" C 0 1}
@@ -1032,8 +1032,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N730aac00 [stack 0]
-push $N730ab800
+set N73d9ac00 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {(clamp(1-curve)) C 0 1}
    red {}
@@ -1051,7 +1051,7 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N730aa800 [stack 0]
+set N73d9a800 [stack 0]
 Switch {
  inputs 4
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙᴥᗩᗱᗴИNꖴᙁⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙᙁꖴИNᗱᗴᗩᴥⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -1059,7 +1059,7 @@ Switch {
  xpos 16
  ypos -706
 }
-set N730aa400 [stack 0]
+set N73d9a400 [stack 0]
 ColorLookup {
  lut {master {"clamp(    (-pow    (    clamp(cos(.5*(4.*atan(1.))*(                x*1            -0.    )),0.,1)    ,    1./    (    O_REWOP_O_POWER_O    )    )+1))" C 0 1}
    red {}
@@ -1171,7 +1171,7 @@ Switch {
  xpos 16
  ypos -1482
 }
-push $N730ab800
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp(((pow((        1./ (1.-clamp(        (        curve        -.0)*2.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/1.)+.0))" C 0 1}
    red {}
@@ -1189,8 +1189,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c524400 [stack 0]
-push $N730ab800
+set N384f4400 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp(1.-((pow((        1./ (clamp(        (        curve        -.0)*1.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/1.)+.0))" C 0 1}
    red {}
@@ -1208,8 +1208,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c524000 [stack 0]
-push $N730ab800
+set N384f4000 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp(                ((                (pow((        1./ (1.-clamp(                curve        *2.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/2.)                +                1.-((pow((        1./ (clamp(        (        curve        -.5)*2.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/2.)+0.)                )-.5)                ,0.,1.)" C 0 1}
    red {}
@@ -1227,8 +1227,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c563c00 [stack 0]
-push $N730ab800
+set N38533c00 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp((                ((pow((        1./ (1.-clamp(        (        curve        -.0)*2.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/1.)+.0)                +                (((pow((        1./ (clamp(        (        curve        -.5)*2.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/1.)+0.0))                )-1.)" C 0 1}
    red {}
@@ -1246,8 +1246,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c563800 [stack 0]
-push $N730ab800
+set N38533800 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp((                (1.-((pow((        1./ (clamp(        (        curve        -0.)*2.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/2.)+0.5))                +                ((pow((        1./ (1.-clamp(        (        curve        -.5)*2.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/2.)+.5)                )-.5)" C 0 1}
    red {}
@@ -1265,8 +1265,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c563400 [stack 0]
-push $N730ab800
+set N38533400 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp((pow((        1./ (1.-clamp(        (        curve        -.0)*1.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/1.)+.0)" C 0 1}
    red {}
@@ -1284,8 +1284,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c563000 [stack 0]
-push $N730ab800
+set N38533000 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp(((pow((        1./ (clamp(        (        curve        -.0)*1.        ,0.,1.)    +    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)    )/    ((((        pow(2.,    (-O_ELACS_O_SCALE_O+2.)        )))))    -    ((sqrt    (    pow(2.,    (O_ELACS_O_SCALE_O)    )    +1.)    -1.)/2.)),O_REWOP_O_POWER_O)/1.)+.0))" C 0 1}
    red {}
@@ -1303,7 +1303,7 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c562c00 [stack 0]
+set N38532c00 [stack 0]
 Switch {
  inputs 7
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙꕤⵙᗱᗴᔓᔕᴥᗱᗴΛИNꖴⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙꖴИNΛᗱᗴᴥᔓᔕᗱᗴⵙꕤⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -1311,7 +1311,7 @@ Switch {
  xpos 16
  ypos -1026
 }
-push $N730ab800
+push $N73d9b800
 ColorLookup {
  lut {master {"( ((1-(acos((clamp(curve,0,.5)-.25)*4)/(1*(4.*atan(1.)))))+0))**2" C 0 1}
    red {}
@@ -1329,8 +1329,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c562400 [stack 0]
-push $N730ab800
+set N38532400 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {(clamp((1-(acos((curve-0)*1)/(.5*(4.*atan(1.)))))+0)) C 0 1}
    red {}
@@ -1348,8 +1348,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c562000 [stack 0]
-push $N730ab800
+set N38532000 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"(clamp (((cos(.5*(4.*atan(1.))*(curve-1)))/1)+0))" C 0 1}
    red {}
@@ -1367,8 +1367,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5a7c00 [stack 0]
-push $N730ab800
+set N38577c00 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {(-cos((4.*atan(1.))*(curve))/2+.5) C 0 1}
    red {}
@@ -1386,8 +1386,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5a7800 [stack 0]
-push $N730ab800
+set N38577800 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"((    ( ((1-(acos((clamp((curve)**1,0,.5)-.25)*4)/(1*(4.*atan(1.)))))+0))  +  (1-( ((1-(acos((clamp((curve)**1,.5,1)-.75)*4)/(1*(4.*atan(1.)))))+0)))    )-1)**O_REWOP_O_POWER_O" C 0 1}
    red {}
@@ -1405,8 +1405,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5a7400 [stack 0]
-push $N730ab800
+set N38577400 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"clamp( ((1-(acos((curve-.5)*2)/(1*(4.*atan(1.)))))+0))" C 0 1}
    red {}
@@ -1424,8 +1424,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5a7000 [stack 0]
-push $N730ab800
+set N38577000 [stack 0]
+push $N73d9b800
 NoOp {
  name ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ
  xpos 64
@@ -1437,7 +1437,7 @@ NoOp {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R -16 16}
  O_ELACS_O_SCALE_O -3.375
 }
-set N3c5a6c00 [stack 0]
+set N38576c00 [stack 0]
 ColorLookup {
  lut {master {"clamp(( ((1-(acos((curve-.5)*2)/(1*(4.*atan(1.)))))+0))**2)" C 0 1}
    red {}
@@ -1455,8 +1455,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5a6800 [stack 0]
-push $N3c5a6c00
+set N38576800 [stack 0]
+push $N38576c00
 ColorLookup {
  lut {master {(clamp(((cos(.5*(4.*atan(1.))*(curve+2)))/1)+1)) C 0 1}
    red {}
@@ -1474,8 +1474,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5a6400 [stack 0]
-push $N730ab800
+set N38576400 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {(clamp((1-(acos((curve-1)*1)/(.5*(4.*atan(1.)))))+1)) C 0 1}
    red {}
@@ -1493,8 +1493,8 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5a6000 [stack 0]
-push $N730ab800
+set N38576000 [stack 0]
+push $N73d9b800
 ColorLookup {
  lut {master {"(((    (1-( ((1-(acos((clamp(curve+0,0,1)-.5)*2)/(1*(4.*atan(1.)))))+0)))    ))**2)" C 0 1}
    red {}
@@ -1512,7 +1512,7 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
 }
-set N3c5e1c00 [stack 0]
+set N385b1c00 [stack 0]
 Switch {
  inputs 10
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙᙁᗩᗝꖴⵔᔓᔕᑎИNꖴᔓᔕⵔᑐᑕⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙᑐᑕⵔᔓᔕꖴИNᑎᔓᔕⵔꖴᗝᗩᙁⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -1520,7 +1520,7 @@ Switch {
  xpos 16
  ypos -866
 }
-push $N730aa400
+push $N73d9a400
 Switch {
  inputs 4
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -1697,7 +1697,7 @@ Group {
   ypos -137
   postage_stamp true
  }
-set N3d6d2800 [stack 0]
+set N3a6d2800 [stack 0]
  Sampler {
   sampler {{width/2} {height/2 x1 128.1}}
   lut {red {curve 0 x0.003921568859 0.00390625 0.0078125 0.01171875 0.015625 0.01953125 x0.02352941409 0.0234375 x0.02745098248 0.02734375 0.03125 0.03515625 0.0390625 0.04296875 x0.04705882818 0.046875 x0.05098039657 0.05078125 0.0546875 0.05859375 0.0625 0.06640625 0.0703125 0.07421875 0.078125 0.08203125 0.0859375 0.08984375 x0.09411765635 0.09375 x0.09803922474 0.09765625 0.1015625 0.10546875 0.109375 0.11328125 0.1171875 0.12109375 0.125 0.12890625 0.1328125 0.13671875 0.140625 0.14453125 0.1484375 0.15234375 0.15625 0.16015625 0.1640625 0.16796875 0.171875 0.17578125 0.1796875 0.18359375 x0.1882353127 0.1875 x0.1921568811 0.19140625 0.1953125 0.19921875 0.203125 0.20703125 0.2109375 0.21484375 0.21875 0.22265625 0.2265625 0.23046875 0.234375 0.23828125 0.2421875 0.24609375 0.25 0.25390625 0.2578125 0.26171875 0.265625 0.26953125 0.2734375 0.27734375 0.28125 0.28515625 0.2890625 0.29296875 0.296875 0.30078125 0.3046875 0.30859375 0.3125 0.31640625 0.3203125 0.32421875 0.328125 0.33203125 0.3359375 0.33984375 0.34375 0.34765625 0.3515625 0.35546875 0.359375 0.36328125 0.3671875 0.37109375 x0.3764706254 0.375 x0.3803921938 0.37890625 0.3828125 0.38671875 0.390625 0.39453125 0.3984375 0.40234375 0.40625 0.41015625 0.4140625 0.41796875 0.421875 0.42578125 0.4296875 0.43359375 0.4375 0.44140625 0.4453125 0.44921875 0.453125 0.45703125 0.4609375 0.46484375 0.46875 0.47265625 0.4765625 0.48046875 0.484375 0.48828125 0.4921875 0.49609375 0.5 0.50390625 0.5078125 0.51171875 0.515625 0.51953125 0.5234375 0.52734375 0.53125 0.53515625 0.5390625 0.54296875 0.546875 0.55078125 0.5546875 0.55859375 0.5625 0.56640625 0.5703125 0.57421875 0.578125 0.58203125 0.5859375 0.58984375 0.59375 0.59765625 0.6015625 0.60546875 0.609375 0.61328125 0.6171875 0.62109375 0.625 0.62890625 0.6328125 0.63671875 0.640625 0.64453125 0.6484375 0.65234375 0.65625 0.66015625 0.6640625 0.66796875 0.671875 0.67578125 0.6796875 0.68359375 0.6875 0.69140625 0.6953125 0.69921875 0.703125 0.70703125 0.7109375 0.71484375 0.71875 0.72265625 0.7265625 0.73046875 0.734375 0.73828125 0.7421875 0.74609375 x0.7529412508 0.75 x0.7568628192 0.75390625 0.7578125 0.76171875 0.765625 0.76953125 0.7734375 0.77734375 0.78125 0.78515625 0.7890625 0.79296875 0.796875 0.80078125 0.8046875 0.80859375 0.8125 0.81640625 0.8203125 0.82421875 0.828125 0.83203125 0.8359375 0.83984375 0.84375 0.84765625 0.8515625 0.85546875 0.859375 0.86328125 0.8671875 0.87109375 0.875 0.87890625 0.8828125 0.88671875 0.890625 0.89453125 0.8984375 0.90234375 0.90625 0.91015625 0.9140625 0.91796875 0.921875 0.92578125 0.9296875 0.93359375 0.9375 0.94140625 0.9453125 0.94921875 0.953125 0.95703125 0.9609375 0.96484375 0.96875 0.97265625 0.9765625 0.98046875 0.984375 0.98828125 0.9921875 0.99609375}
@@ -1708,7 +1708,7 @@ set N3d6d2800 [stack 0]
   ypos -65
   postage_stamp true
  }
-push $N3d6d2800
+push $N3a6d2800
  Colorspace {
   channels rgba
   colorspace_out BT1886
@@ -1729,7 +1729,7 @@ push $N3d6d2800
   disable {{1-O_ECAPSROLOC_OT_RAENIL_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_LINEAR_TO_COLORSPACE_O}}
   postage_stamp true
  }
-push $N3d6d2800
+push $N3a6d2800
  Colorspace {
   channels rgba
   colorspace_in BT1886
@@ -1750,7 +1750,7 @@ push $N3d6d2800
   disable {{1-O_RAENIL_OT_ECAPSROLOC_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_COLORSPACE_TO_LINEAR_O}}
   postage_stamp true
  }
-push $N3d6d2800
+push $N3a6d2800
  RolloffContrast {
   contrast {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.contrast}}
   center {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.center}}
@@ -1773,7 +1773,7 @@ push $N3d6d2800
   ypos 87
   postage_stamp true
  }
-push $N3d6d2800
+push $N3a6d2800
  RolloffContrast {
   contrast {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.contrast}}
   center {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.center}}
@@ -1796,7 +1796,7 @@ push $N3d6d2800
   ypos 143
   postage_stamp true
  }
-push $N3d6d2800
+push $N3a6d2800
  RolloffContrast {
   contrast {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.contrast}}
   center {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.center}}
@@ -1819,7 +1819,7 @@ push $N3d6d2800
   ypos 201
   postage_stamp true
  }
-push $N3d6d2800
+push $N3a6d2800
  RolloffContrast {
   contrast {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.contrast}}
   center {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.center}}
@@ -1842,7 +1842,7 @@ push $N3d6d2800
   ypos 259
   postage_stamp true
  }
-push $N3d6d2800
+push $N3a6d2800
  RolloffContrast {
   contrast {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.contrast}}
   center {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.center}}
@@ -1870,20 +1870,10 @@ end_group
 Group {
  inputs 0
  name ⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙᔓᔕᗱᗴᙁⵔ옷ⵙᗱᗴTꖴ옷ᗯⵙИNⵔꖴTᗩᴥᗱ�1
- selected true
  xpos 216
  ypos 371
  postage_stamp true
 }
- Read {
-  inputs 0
-  file_type png
-  file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/0...PNG
-  origset true
-  name Read1
-  xpos -248
-  ypos 612
- }
  Constant {
   inputs 0
   color 1
@@ -1891,7 +1881,75 @@ Group {
   xpos -168
   ypos 683
  }
-set N3d73a400 [stack 0]
+set N3a73a800 [stack 0]
+ Expression {
+  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+  temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+  temp_expr1 (-cos((4.*atan(1.))*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+  temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+  temp_expr2 "(((exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.))    +    (-(exp(2.*(4.*atan(1.))))/exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.+1.)-0.5)"
+  temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+  temp_expr3 "(  (  (    -pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+  channel0 rgba
+  expr0 "((-cos(1.*(4.*atan(1.))*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )   )    *  ( -1. /  (3280.5 / 9841.5)  )  , 0. , 1. )  ) /2. +.5 ) *1. )  **  (1./(4.59375*19.48046875))"
+  channel1 {-rgba.red -rgba.green -rgba.blue none}
+  expr1 "(-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)"
+  channel2 {-rgba.red -rgba.green -rgba.blue none}
+  expr2 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)"
+  channel3 {none none none -rgba.alpha}
+  expr3 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)    +    (-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)/1-.5"
+  name ⵔ
+  help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+  xpos -120
+  ypos 611
+  postage_stamp true
+  addUserKnob {20 O l "" +STARTLINE}
+  addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+  O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+  addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+  O_Y_EZIS_O_SIZE_Y_O 2
+  addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+  O_ROSIVID_O_DIVISOR_O 11
+  addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+  O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+  addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+  O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+  addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+  O_1_SNOISIVID_O_DIVISION_1_O 4
+  addUserKnob {7 O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O R 0 4}
+  O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O 2
+  addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+  O_REBMUN_O_NUMBER_O 2.718281828
+  addUserKnob {12 O_NOITISOP_O_POSITION_O}
+  O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+  O_EZIS_O_SIZE_O 2048
+ }
+ Read {
+  inputs 0
+  file_type png
+  file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/0....PNG
+  format "622 622 0 0 622 622 1 "
+  origset true
+  in_colorspace linear
+  out_colorspace linear
+  name Read2
+  xpos -343
+  ypos 610
+ }
+ Read {
+  inputs 0
+  file_type png
+  file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/0...PNG
+  origset true
+  name Read1
+  xpos -248
+  ypos 612
+ }
+push $N3a73a800
  Group {
   inputs 2
   name ⵙ
@@ -1908,9 +1966,10 @@ set N3d73a400 [stack 0]
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/1...PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/1...PNG
    origset true
    name Read1
+   selected true
    xpos 8
    ypos 12
   }
@@ -1918,7 +1977,6 @@ set N3d73a400 [stack 0]
    channels alpha
    multiply {{"-cos(   ( (1/84.406022589954030768899117092091000289089388918088900852079)*(3**6) ) *    (1/69)*2*(4.*atan(1.))*( (x) -1))/2+.5" L x1 0 x70 1}}
    name ⵙᗱᗴᗝᗩᴥᕤᕦⵙⵔⵙᕤᕦᴥᗩᗝᗱᗴⵙ
-   selected true
    xpos -122
    ypos 27
    postage_stamp true
@@ -1990,7 +2048,7 @@ set N3d73a400 [stack 0]
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/1....PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/1....PNG
    format "622 622 0 0 622 622 1 "
    origset true
    in_colorspace linear
@@ -2000,8 +2058,8 @@ set N3d73a400 [stack 0]
    ypos 12
   }
  end_group
-push $N3d73a400
-push $N3d73a400
+push $N3a73a800
+push $N3a73a800
  Group {
   inputs 3
   name ⵙⵙ
@@ -2018,7 +2076,7 @@ push $N3d73a400
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/2...PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/2...PNG
    origset true
    name Read1
    xpos 24
@@ -2050,7 +2108,7 @@ push $N3d73a400
    xpos -112
    ypos 158
   }
-set N3d7acc00 [stack 0]
+set N3b7f0400 [stack 0]
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2097,7 +2155,7 @@ set N3d7acc00 [stack 0]
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3d7acc00
+push $N3b7f0400
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2156,7 +2214,7 @@ push $N3d7acc00
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/2....PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/2....PNG
    format "622 622 0 0 622 622 1 "
    origset true
    in_colorspace linear
@@ -2167,10 +2225,10 @@ push $N3d7acc00
    ypos 4
   }
  end_group
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
  Group {
   inputs 5
   name ⵙⵙⵙ
@@ -2187,7 +2245,7 @@ push $N3d73a400
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/3...PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/3...PNG
    origset true
    name Read1
    selected true
@@ -2220,7 +2278,7 @@ push $N3d73a400
    xpos 272
    ypos 6
   }
-set N3f8c6400 [stack 0]
+set N3b879c00 [stack 0]
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2267,7 +2325,7 @@ set N3f8c6400 [stack 0]
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f8c6400
+push $N3b879c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2315,7 +2373,7 @@ push $N3f8c6400
    O_EZIS_O_SIZE_O 2048
   }
 push 0
-push $N3f8c6400
+push $N3b879c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2362,7 +2420,7 @@ push $N3f8c6400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f8c6400
+push $N3b879c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2419,7 +2477,7 @@ push $N3f8c6400
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/3....PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/3....PNG
    format "622 622 0 0 622 622 1 "
    origset true
    in_colorspace linear
@@ -2429,14 +2487,14 @@ push $N3f8c6400
    ypos -252
   }
  end_group
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
-push $N3d73a400
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
+push $N3a73a800
  Group {
   inputs 9
   name ⵙⵙⵙⵙ
@@ -2453,7 +2511,7 @@ push $N3d73a400
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/4...PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/4...PNG
    origset true
    name Read1
    xpos 680
@@ -2463,6 +2521,7 @@ push $N3d73a400
    channels alpha
    multiply {{"-cos(   ( (1/84.406022589954030768899117092091000289089388918088900852079)*(3**0) ) *    (1/69)*2*(4.*atan(1.))*( (x) -1))/2+.5" L x1 0 x70 1}}
    name ⵙⵙᗱᗴᗝᗩᴥᕤᕦⵙⵔⵙᕤᕦᴥᗩᗝᗱᗴⵙⵙ
+   selected true
    xpos 432
    ypos -29
    postage_stamp true
@@ -2485,7 +2544,7 @@ push $N3d73a400
    xpos 432
    ypos 190
   }
-set N3f953400 [stack 0]
+set N3b8c0c00 [stack 0]
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2532,7 +2591,7 @@ set N3f953400 [stack 0]
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f953400
+push $N3b8c0c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2579,7 +2638,7 @@ push $N3f953400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f953400
+push $N3b8c0c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2626,7 +2685,7 @@ push $N3f953400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f953400
+push $N3b8c0c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2673,7 +2732,7 @@ push $N3f953400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f953400
+push $N3b8c0c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2720,7 +2779,7 @@ push $N3f953400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f953400
+push $N3b8c0c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2767,7 +2826,7 @@ push $N3f953400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N3f953400
+push $N3b8c0c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2816,7 +2875,7 @@ push $N3f953400
   }
 push 0
 push 0
-push $N3f953400
+push $N3b8c0c00
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -2873,22 +2932,29 @@ push $N3f953400
   Read {
    inputs 0
    file_type png
-   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/4....PNG
+   file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯∞⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂∞◯/4....PNG
    format "622 622 0 0 622 622 1 "
    origset true
    in_colorspace linear
    out_colorspace linear
    name Read2
-   selected true
    xpos 184
    ypos -36
   }
  end_group
+ Grade {
+  channels alpha
+  multiply {{"-cos(   ( (1/84.406022589954030768899117092091000289089388918088900852079)*(3**0) ) *    (1/69)*2*(4.*atan(1.))*( (x) -1))/2+.5" L x1 0 x70 1}}
+  name ⵙⵙⵙⵙⵙᗱᗴᗝᗩᴥᕤᕦⵙⵔⵙᕤᕦᴥᗩᗝᗱᗴⵙⵙⵙⵙⵙ
+  xpos -168
+  ypos 347
+  postage_stamp true
+ }
  Histogram {
   out {0.9375 1}
   name ⵙᙏᗩᴥᕤᕦⵔTᔓᔕꖴ옷ⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙ옷ꖴᔓᔕTⵔᕤᕦᴥᗩᙏⵙ
   xpos -168
-  ypos 347
+  ypos 283
   disable true
   postage_stamp true
  }
@@ -2899,13 +2965,13 @@ push $N3f953400
   black_outside false
   name Transform1
   selected true
-  xpos -216
-  ypos 267
+  xpos -168
+  ypos 219
   disable true
   postage_stamp true
  }
 push 0
-push $N3d73a400
+push $N3a73a800
 push 0
  Merge2 {
   inputs 3+1
@@ -2913,74 +2979,17 @@ push 0
   metainput All
   rangeinput All
   name ⵙⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙⵙ
-  xpos -56
-  ypos 219
+  xpos -168
+  ypos 155
   postage_stamp true
  }
  Output {
   name ⵙTᑎᑫᑭTᑎⵔⵙⵔᑎTᑫᑭᑎTⵙ
   xpos -168
-  ypos 190
- }
-push $N3d73a400
- Expression {
-  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
-  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
-  temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
-  temp_expr1 (-cos((4.*atan(1.))*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
-  temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
-  temp_expr2 "(((exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.))    +    (-(exp(2.*(4.*atan(1.))))/exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.+1.)-0.5)"
-  temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
-  temp_expr3 "(  (  (    -pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
-  channel0 rgba
-  expr0 "((-cos(1.*(4.*atan(1.))*  clamp(    ( 1.- O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O  -  ( 3280.5 / 9841.5 )   )    *  ( -1. /  (3280.5 / 9841.5)  )  , 0. , 1. )  ) /2. +.5 ) *1. )  **  (1./(4.59375*19.48046875))"
-  channel1 {-rgba.red -rgba.green -rgba.blue none}
-  expr1 "(-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*0.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)"
-  channel2 {-rgba.red -rgba.green -rgba.blue none}
-  expr2 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)"
-  channel3 {none none none -rgba.alpha}
-  expr3 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)    +    (-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)/1-.5"
-  name ⵔ
-  help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
-  xpos -120
-  ypos 611
-  postage_stamp true
-  addUserKnob {20 O l "" +STARTLINE}
-  addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
-  O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
-  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
-  O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
-  addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
-  O_Y_EZIS_O_SIZE_Y_O 2
-  addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
-  O_ROSIVID_O_DIVISOR_O 11
-  addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
-  O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
-  addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
-  O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
-  addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
-  O_1_SNOISIVID_O_DIVISION_1_O 4
-  addUserKnob {7 O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O R 0 4}
-  O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O 2
-  addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
-  O_REBMUN_O_NUMBER_O 2.718281828
-  addUserKnob {12 O_NOITISOP_O_POSITION_O}
-  O_NOITISOP_O_POSITION_O {2047.5 2047.5}
-  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
-  O_EZIS_O_SIZE_O 2048
- }
- Read {
-  inputs 0
-  file_type png
-  file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯⁂ᐃⵔ꞉ⵘ❋ⵔⵔ⁂❋❋ⵔ❋·⁂❋❋ⵈ⁂❋ⵔ⁂❋꞉ⵔⵔⵔ·⁂ⵔ꞉⁂ⵔᐃ··⁂⁂❋❋⠿ᐃⵔⵈⵔ∷ⵘ⁂⁂❋ⵘ꞉꞉ⵔ⠿ⵔ∷◌∷❋◯ⵙ◯❋∷◌∷ⵔ⠿ⵔ꞉꞉ⵘ❋⁂⁂ⵘ∷ⵔⵈⵔᐃ⠿❋❋⁂⁂··ᐃⵔ⁂꞉ⵔ⁂·ⵔⵔⵔ꞉❋⁂ⵔ❋⁂ⵈ❋❋⁂·❋ⵔ❋❋⁂ⵔⵔ❋ⵘ꞉ⵔᐃ⁂◯/0....PNG
-  format "622 622 0 0 622 622 1 "
-  origset true
-  name Read2
-  xpos -343
-  ypos 610
+  ypos 118
  }
 end_group
-set N3201200 [stack 0]
+set N73c61200 [stack 0]
 Group {
  inputs 0
  name ⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙᔓᔕᗱᗴᙁⵔ옷ⵙᗱᗴTꖴ옷ᗯⵙИNⵔꖴTᗩᴥᗱᗴ8ᴥᗱᗴΛᗱᗴᴥⵙᴥᗱᗴΛᗱᗴᴥ8ᗱᗴᴥᗩTꖴⵔИNⵙᗯ옷ꖴTᗱᗴⵙ옷ⵔᙁᗱᗴᔓᔕⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙ
@@ -2995,7 +3004,7 @@ Group {
   xpos -168
   ypos 683
  }
-set N44d1b000 [stack 0]
+set N3c9e0c00 [stack 0]
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3042,7 +3051,7 @@ set N44d1b000 [stack 0]
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N44d1b000
+push $N3c9e0c00
  Group {
   inputs 2
   name ⵙ
@@ -3131,8 +3140,8 @@ push $N44d1b000
    ypos -66
   }
  end_group
-push $N44d1b000
-push $N44d1b000
+push $N3c9e0c00
+push $N3c9e0c00
  Group {
   inputs 3
   name ⵙⵙ
@@ -3152,7 +3161,7 @@ push $N44d1b000
    xpos -112
    ypos 158
   }
-set N44d54c00 [stack 0]
+set N3ca12800 [stack 0]
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3199,7 +3208,7 @@ set N44d54c00 [stack 0]
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44d54c00
+push $N3ca12800
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3276,10 +3285,10 @@ push $N44d54c00
    ypos -122
   }
  end_group
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
  Group {
   inputs 5
   name ⵙⵙⵙ
@@ -3299,7 +3308,7 @@ push $N44d1b000
    xpos 272
    ypos 6
   }
-set N44d8ec00 [stack 0]
+set N3ca54800 [stack 0]
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3346,7 +3355,7 @@ set N44d8ec00 [stack 0]
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44d8ec00
+push $N3ca54800
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3394,7 +3403,7 @@ push $N44d8ec00
    O_EZIS_O_SIZE_O 2048
   }
 push 0
-push $N44d8ec00
+push $N3ca54800
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3441,7 +3450,7 @@ push $N44d8ec00
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44d8ec00
+push $N3ca54800
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3517,14 +3526,14 @@ push $N44d8ec00
    ypos -314
   }
  end_group
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
-push $N44d1b000
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
+push $N3c9e0c00
  Group {
   inputs 9
   name ⵙⵙⵙⵙ
@@ -3544,7 +3553,7 @@ push $N44d1b000
    xpos 432
    ypos 190
   }
-set N44dce400 [stack 0]
+set N3db18000 [stack 0]
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3591,7 +3600,7 @@ set N44dce400 [stack 0]
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44dce400
+push $N3db18000
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3638,7 +3647,7 @@ push $N44dce400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44dce400
+push $N3db18000
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3685,7 +3694,7 @@ push $N44dce400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44dce400
+push $N3db18000
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3732,7 +3741,7 @@ push $N44dce400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44dce400
+push $N3db18000
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3779,7 +3788,7 @@ push $N44dce400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44dce400
+push $N3db18000
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3826,7 +3835,7 @@ push $N44dce400
    addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
    O_EZIS_O_SIZE_O 2048
   }
-push $N44dce400
+push $N3db18000
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3875,7 +3884,7 @@ push $N44dce400
   }
 push 0
 push 0
-push $N44dce400
+push $N3db18000
   Expression {
    temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
    temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -3978,7 +3987,7 @@ push 0
   ypos 238
  }
 end_group
-push $N3c5a6c00
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4025,8 +4034,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4a1e4400 [stack 0]
-push $N3c5a6c00
+set N3dba6000 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4073,8 +4082,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4a1e4000 [stack 0]
-push $N3c5a6c00
+set N3dbdfc00 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4121,8 +4130,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4a21fc00 [stack 0]
-push $N3c5a6c00
+set N3dbdf800 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4169,7 +4178,7 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4a21f800 [stack 0]
+set N3dbdf400 [stack 0]
 Switch {
  inputs 4
  which 1
@@ -4177,7 +4186,7 @@ Switch {
  xpos 16
  ypos -330
 }
-set N4a21f400 [stack 0]
+set N3dbdf000 [stack 0]
 ColorLookup {
  lut {master {"clamp(    (-pow    (    clamp(cos(.5*(4.*atan(1.))*(                x*1            -0.    )),0.,1)    ,    1./    (    O_REWOP_O_POWER_O    )    )+1))" C 0 1}
    red {}
@@ -4289,7 +4298,7 @@ Switch {
  xpos 16
  ypos 446
 }
-push $N730ab800
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4336,8 +4345,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d353400 [stack 0]
-push $N730ab800
+set N3ec63000 [stack 0]
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4384,8 +4393,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d353000 [stack 0]
-push $N730ab800
+set N3ec62c00 [stack 0]
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4432,8 +4441,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d352c00 [stack 0]
-push $N730ab800
+set N3ec62800 [stack 0]
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4480,8 +4489,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d352800 [stack 0]
-push $N730ab800
+set N3ec62400 [stack 0]
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4528,8 +4537,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d352400 [stack 0]
-push $N730ab800
+set N3ec62000 [stack 0]
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4576,8 +4585,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d352000 [stack 0]
-push $N730ab800
+set N3ecafc00 [stack 0]
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4624,7 +4633,7 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d39fc00 [stack 0]
+set N3ecaf800 [stack 0]
 Switch {
  inputs 7
  which 3
@@ -4632,7 +4641,7 @@ Switch {
  xpos 16
  ypos -10
 }
-push $N3c5a6c00
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4679,8 +4688,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d39f400 [stack 0]
-push $N3c5a6c00
+set N3ecaf000 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4727,8 +4736,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d39f000 [stack 0]
-push $N3c5a6c00
+set N3ecaec00 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4775,8 +4784,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d39ec00 [stack 0]
-push $N3c5a6c00
+set N3ecae800 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4823,8 +4832,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d39e800 [stack 0]
-push $N3c5a6c00
+set N3ecae400 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4871,8 +4880,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d39e400 [stack 0]
-push $N3c5a6c00
+set N3ecae000 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4919,8 +4928,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d39e000 [stack 0]
-push $N3c5a6c00
+set N3ecfbc00 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -4967,8 +4976,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d3ebc00 [stack 0]
-push $N3c5a6c00
+set N3ecfb800 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -5015,8 +5024,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d3eb800 [stack 0]
-push $N3c5a6c00
+set N3ecfb400 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -5063,8 +5072,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d3eb400 [stack 0]
-push $N3c5a6c00
+set N3ecfb000 [stack 0]
+push $N38576c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -5111,7 +5120,7 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N4d3eb000 [stack 0]
+set N3ecfac00 [stack 0]
 Switch {
  inputs 10
  which 6
@@ -5119,7 +5128,7 @@ Switch {
  xpos 16
  ypos -170
 }
-push $N4a21f400
+push $N3dbdf000
 Switch {
  inputs 4
  which 3
@@ -5296,7 +5305,7 @@ Group {
   ypos -137
   postage_stamp true
  }
-set N506c9c00 [stack 0]
+set N3fdb3800 [stack 0]
  Sampler {
   sampler {{width/2} {height/2 x1 128.1}}
   lut {red {curve 0 x0.003921568859 0.00390625 0.0078125 0.01171875 0.015625 0.01953125 x0.02352941409 0.0234375 x0.02745098248 0.02734375 0.03125 0.03515625 0.0390625 0.04296875 x0.04705882818 0.046875 x0.05098039657 0.05078125 0.0546875 0.05859375 0.0625 0.06640625 0.0703125 0.07421875 0.078125 0.08203125 0.0859375 0.08984375 x0.09411765635 0.09375 x0.09803922474 0.09765625 0.1015625 0.10546875 0.109375 0.11328125 0.1171875 0.12109375 0.125 0.12890625 0.1328125 0.13671875 0.140625 0.14453125 0.1484375 0.15234375 0.15625 0.16015625 0.1640625 0.16796875 0.171875 0.17578125 0.1796875 0.18359375 x0.1882353127 0.1875 x0.1921568811 0.19140625 0.1953125 0.19921875 0.203125 0.20703125 0.2109375 0.21484375 0.21875 0.22265625 0.2265625 0.23046875 0.234375 0.23828125 0.2421875 0.24609375 0.25 0.25390625 0.2578125 0.26171875 0.265625 0.26953125 0.2734375 0.27734375 0.28125 0.28515625 0.2890625 0.29296875 0.296875 0.30078125 0.3046875 0.30859375 0.3125 0.31640625 0.3203125 0.32421875 0.328125 0.33203125 0.3359375 0.33984375 0.34375 0.34765625 0.3515625 0.35546875 0.359375 0.36328125 0.3671875 0.37109375 x0.3764706254 0.375 x0.3803921938 0.37890625 0.3828125 0.38671875 0.390625 0.39453125 0.3984375 0.40234375 0.40625 0.41015625 0.4140625 0.41796875 0.421875 0.42578125 0.4296875 0.43359375 0.4375 0.44140625 0.4453125 0.44921875 0.453125 0.45703125 0.4609375 0.46484375 0.46875 0.47265625 0.4765625 0.48046875 0.484375 0.48828125 0.4921875 0.49609375 0.5 0.50390625 0.5078125 0.51171875 0.515625 0.51953125 0.5234375 0.52734375 0.53125 0.53515625 0.5390625 0.54296875 0.546875 0.55078125 0.5546875 0.55859375 0.5625 0.56640625 0.5703125 0.57421875 0.578125 0.58203125 0.5859375 0.58984375 0.59375 0.59765625 0.6015625 0.60546875 0.609375 0.61328125 0.6171875 0.62109375 0.625 0.62890625 0.6328125 0.63671875 0.640625 0.64453125 0.6484375 0.65234375 0.65625 0.66015625 0.6640625 0.66796875 0.671875 0.67578125 0.6796875 0.68359375 0.6875 0.69140625 0.6953125 0.69921875 0.703125 0.70703125 0.7109375 0.71484375 0.71875 0.72265625 0.7265625 0.73046875 0.734375 0.73828125 0.7421875 0.74609375 x0.7529412508 0.75 x0.7568628192 0.75390625 0.7578125 0.76171875 0.765625 0.76953125 0.7734375 0.77734375 0.78125 0.78515625 0.7890625 0.79296875 0.796875 0.80078125 0.8046875 0.80859375 0.8125 0.81640625 0.8203125 0.82421875 0.828125 0.83203125 0.8359375 0.83984375 0.84375 0.84765625 0.8515625 0.85546875 0.859375 0.86328125 0.8671875 0.87109375 0.875 0.87890625 0.8828125 0.88671875 0.890625 0.89453125 0.8984375 0.90234375 0.90625 0.91015625 0.9140625 0.91796875 0.921875 0.92578125 0.9296875 0.93359375 0.9375 0.94140625 0.9453125 0.94921875 0.953125 0.95703125 0.9609375 0.96484375 0.96875 0.97265625 0.9765625 0.98046875 0.984375 0.98828125 0.9921875 0.99609375}
@@ -5307,7 +5316,7 @@ set N506c9c00 [stack 0]
   ypos -65
   postage_stamp true
  }
-push $N506c9c00
+push $N3fdb3800
  Colorspace {
   channels rgba
   colorspace_out BT1886
@@ -5328,7 +5337,7 @@ push $N506c9c00
   disable {{1-O_ECAPSROLOC_OT_RAENIL_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_LINEAR_TO_COLORSPACE_O}}
   postage_stamp true
  }
-push $N506c9c00
+push $N3fdb3800
  Colorspace {
   channels rgba
   colorspace_in BT1886
@@ -5349,7 +5358,7 @@ push $N506c9c00
   disable {{1-O_RAENIL_OT_ECAPSROLOC_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_COLORSPACE_TO_LINEAR_O}}
   postage_stamp true
  }
-push $N506c9c00
+push $N3fdb3800
  RolloffContrast {
   contrast {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.contrast}}
   center {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.center}}
@@ -5372,7 +5381,7 @@ push $N506c9c00
   ypos 87
   postage_stamp true
  }
-push $N506c9c00
+push $N3fdb3800
  RolloffContrast {
   contrast {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.contrast}}
   center {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.center}}
@@ -5395,7 +5404,7 @@ push $N506c9c00
   ypos 143
   postage_stamp true
  }
-push $N506c9c00
+push $N3fdb3800
  RolloffContrast {
   contrast {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.contrast}}
   center {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.center}}
@@ -5418,7 +5427,7 @@ push $N506c9c00
   ypos 201
   postage_stamp true
  }
-push $N506c9c00
+push $N3fdb3800
  RolloffContrast {
   contrast {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.contrast}}
   center {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.center}}
@@ -5441,7 +5450,7 @@ push $N506c9c00
   ypos 259
   postage_stamp true
  }
-push $N506c9c00
+push $N3fdb3800
  RolloffContrast {
   contrast {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.contrast}}
   center {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.center}}
@@ -5485,7 +5494,7 @@ Copy {
  ypos 651
  postage_stamp true
 }
-set N50731c00 [stack 0]
+set N3fe19800 [stack 0]
 ShuffleCopy {
  inputs 2
  red red
@@ -5535,7 +5544,7 @@ Histogram {
  disable true
  postage_stamp true
 }
-set N50730c00 [stack 0]
+set N3fe18800 [stack 0]
 Constant {
  inputs 0
  color 1
@@ -5543,7 +5552,7 @@ Constant {
  xpos 64
  ypos -573
 }
-set N50730800 [stack 0]
+set N3fe18400 [stack 0]
 Merge2 {
  inputs 2
  operation matte
@@ -5554,7 +5563,7 @@ Merge2 {
  ypos -1965
  postage_stamp true
 }
-push $N50730c00
+push $N3fe18800
 Switch {
  inputs 2
  name ⵙⵙⵙⵙ옷ᑐᑕTꖴᗯᔓᔕⵙⵙⵙⵙᗝИNᑎᴥᕤᕦЖᑐᑕᗩ8ⵙ옷TꖴᗯⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙᗯꖴT옷ⵙ8ᗩᑐᑕЖᕤᕦᴥⵔᑎИNᗝⵙⵙⵙⵙᔓᔕᗯꖴTᑐᑕ옷ⵙⵙⵙⵙ
@@ -5618,7 +5627,7 @@ Group {
   xpos 195
   ypos 235
  }
-set N50769000 [stack 0]
+set N3fe4ec00 [stack 0]
  Group {
   name ⵙᙁⵔTⵙᗱᗴᑐᑕꖴᙁᔓᔕⵙᔓᔕᙁꖴᑐᑕᗱᗴⵙTⵔᙁⵙ
   tile_color 0xffffffff
@@ -5640,7 +5649,7 @@ set N50769000 [stack 0]
    xpos -386
    ypos -489
   }
-set N50768c00 [stack 0]
+set N3fe4e800 [stack 0]
   Transform {
    translate {{0 x1 0} {-parent.pos}}
    black_outside false
@@ -5687,25 +5696,25 @@ set N50768c00 [stack 0]
    addUserKnob {7 tolerance}
    tolerance {{parent.thickness/100}}
   }
-set N5078f800 [stack 0]
+set N3fe7f400 [stack 0]
   Dot {
    name Dot3
    xpos -293
    ypos -44
   }
-set N5078f400 [stack 0]
+set N3fe7f000 [stack 0]
   Dot {
    name Dot4
    xpos -192
    ypos -44
   }
-set N5078f000 [stack 0]
+set N3fe7ec00 [stack 0]
   Dot {
    name Dot6
    xpos -93
    ypos -44
   }
-set N5078ec00 [stack 0]
+set N3fe7e800 [stack 0]
   Dot {
    name Dot9
    xpos 29
@@ -5732,7 +5741,7 @@ set N5078ec00 [stack 0]
    xpos -794
    ypos -344
   }
-push $N50768c00
+push $N3fe4e800
   Merge2 {
    inputs 2
    operation plus
@@ -5751,19 +5760,19 @@ push $N50768c00
    xpos -249
    ypos -252
   }
-set N52917000 [stack 0]
+set N41fa0c00 [stack 0]
   Dot {
    name Dot5
    xpos -136
    ypos -252
   }
-set N52916c00 [stack 0]
+set N41fa0800 [stack 0]
   Dot {
    name Dot8
    xpos -26
    ypos -252
   }
-set N52916800 [stack 0]
+set N41fa0400 [stack 0]
   Dot {
    name Dot7
    xpos 90
@@ -5780,8 +5789,8 @@ set N52916800 [stack 0]
    xpos 56
    ypos -23
   }
-push $N5078ec00
-push $N52916800
+push $N3fe7e800
+push $N41fa0400
   ContactSheet {
    inputs 2
    width {{Input1.width}}
@@ -5792,8 +5801,8 @@ push $N52916800
    xpos -56
    ypos -21
   }
-push $N5078f000
-push $N52916c00
+push $N3fe7ec00
+push $N41fa0800
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -5805,8 +5814,8 @@ push $N52916c00
    xpos -170
    ypos -16
   }
-push $N5078f400
-push $N52917000
+push $N3fe7f000
+push $N41fa0c00
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -5817,8 +5826,8 @@ push $N52917000
    xpos -283
    ypos -18
   }
-push $N5078f800
-push $N5078f800
+push $N3fe7f400
+push $N3fe7f400
   ChannelMerge {
    inputs 2
    A rgba.red
@@ -5827,8 +5836,8 @@ push $N5078f800
    xpos -536
    ypos -9
   }
-set N5293d000 [stack 0]
-push $N5293d000
+set N41fc0c00 [stack 0]
+push $N41fc0c00
   ChannelMerge {
    inputs 2
    B rgba.blue
@@ -5858,7 +5867,7 @@ push 0
    ypos 171
   }
  end_group
-set N44d26000 [stack 0]
+set N3c9ca000 [stack 0]
  Transform {
   translate {{-height/3} 0}
   rotate 90
@@ -5872,7 +5881,7 @@ set N44d26000 [stack 0]
   ypos -29
   postage_stamp true
  }
-push $N44d26000
+push $N3c9ca000
  Transform {
   translate {{height/3} 0}
   rotate -90
@@ -5886,7 +5895,7 @@ push $N44d26000
   ypos -29
   postage_stamp true
  }
-push $N44d26000
+push $N3c9ca000
  Transform {
   translate {0 {-height/3}}
   rotate 180
@@ -5900,7 +5909,7 @@ push $N44d26000
   ypos 35
   postage_stamp true
  }
-push $N44d26000
+push $N3c9ca000
  Transform {
   translate {0 {height/3}}
   scale 0.3333333333
@@ -5913,7 +5922,7 @@ push $N44d26000
   ypos -93
   postage_stamp true
  }
-push $N50769000
+push $N3fe4ec00
  Transform {
   scale 0.3333333333
   center {{width/2} {height/2}}
@@ -6035,7 +6044,7 @@ Group {
   xpos -168
   ypos 619
  }
-set N529a2400 [stack 0]
+set N42026000 [stack 0]
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6082,7 +6091,7 @@ set N529a2400 [stack 0]
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6129,7 +6138,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6176,7 +6185,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6223,7 +6232,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6270,7 +6279,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6317,7 +6326,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6365,7 +6374,7 @@ push $N529a2400
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6412,7 +6421,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6459,7 +6468,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6507,7 +6516,7 @@ push $N529a2400
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6555,7 +6564,7 @@ push $N529a2400
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6602,7 +6611,7 @@ push $N529a2400
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6656,7 +6665,7 @@ push $N529a2400
   ypos 427
   postage_stamp true
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6710,7 +6719,7 @@ push $N529a2400
   ypos 347
   postage_stamp true
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6764,7 +6773,7 @@ push $N529a2400
   ypos 163
   postage_stamp true
  }
-push $N529a2400
+push $N42026000
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -6825,10 +6834,10 @@ push $N529a2400
   ypos -346
  }
 end_group
-push $N730ab400
-push $N730ab000
-push $N730aac00
-push $N730aa800
+push $N73d9b400
+push $N73d9b000
+push $N73d9ac00
+push $N73d9a800
 Switch {
  inputs 4
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙᴥᗩᗱᗴИNꖴᙁⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᙁꖴИNᗱᗴᗩᴥⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -6836,7 +6845,7 @@ Switch {
  xpos 112
  ypos -706
 }
-set N53ad4c00 [stack 0]
+set N47630800 [stack 0]
 ColorLookup {
  lut {master {"clamp(    (-pow    (    clamp(cos(.5*(4.*atan(1.))*(                x*1            -0.    )),0.,1)    ,    1./    (    O_REWOP_O_POWER_O    )    )+1))" C 0 1}
    red {}
@@ -6948,13 +6957,13 @@ Switch {
  xpos 112
  ypos -1482
 }
-push $N3c524400
-push $N3c524000
-push $N3c563c00
-push $N3c563800
-push $N3c563400
-push $N3c563000
-push $N3c562c00
+push $N384f4400
+push $N384f4000
+push $N38533c00
+push $N38533800
+push $N38533400
+push $N38533000
+push $N38532c00
 Switch {
  inputs 7
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙꕤⵙᗱᗴᔓᔕᴥᗱᗴΛИNꖴⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙꖴИNΛᗱᗴᴥᔓᔕᗱᗴⵙꕤⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -6962,16 +6971,16 @@ Switch {
  xpos 112
  ypos -1026
 }
-push $N3c562400
-push $N3c562000
-push $N3c5a7c00
-push $N3c5a7800
-push $N3c5a7400
-push $N3c5a7000
-push $N3c5a6800
-push $N3c5a6400
-push $N3c5a6000
-push $N3c5e1c00
+push $N38532400
+push $N38532000
+push $N38577c00
+push $N38577800
+push $N38577400
+push $N38577000
+push $N38576800
+push $N38576400
+push $N38576000
+push $N385b1c00
 Switch {
  inputs 10
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙᙁᗩᗝꖴⵔᔓᔕᑎИNꖴᔓᔕⵔᑐᑕⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᑐᑕⵔᔓᔕꖴИNᑎᔓᔕⵔꖴᗝᗩᙁⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -6979,7 +6988,7 @@ Switch {
  xpos 112
  ypos -866
 }
-push $N53ad4c00
+push $N47630800
 Switch {
  inputs 4
  which {{ⵙᴥᗱᗴ옷ᑐᑕTꖴᗯᔓᔕⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᕤᕦᴥᗩᗝꖴᗱᗴИNTⵙᔓᔕᗯꖴTᑐᑕ옷ᗱᗴᴥⵙ.which}}
@@ -7070,7 +7079,7 @@ Group {
   ypos -201
   postage_stamp true
  }
-set N53b0a000 [stack 0]
+set N486b5c00 [stack 0]
  Colorspace {
   channels rgba
   colorspace_out BT1886
@@ -7091,7 +7100,7 @@ set N53b0a000 [stack 0]
   disable {{1-O_ECAPSROLOC_OT_RAENIL_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_LINEAR_TO_COLORSPACE_O}}
   postage_stamp true
  }
-push $N53b0a000
+push $N486b5c00
  Colorspace {
   channels rgba
   colorspace_in BT1886
@@ -7112,7 +7121,7 @@ push $N53b0a000
   disable {{1-O_RAENIL_OT_ECAPSROLOC_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_COLORSPACE_TO_LINEAR_O}}
   postage_stamp true
  }
-push $N53b0a000
+push $N486b5c00
  RolloffContrast {
   contrast {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.contrast}}
   center {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.center}}
@@ -7136,7 +7145,7 @@ push $N53b0a000
   ypos 87
   postage_stamp true
  }
-push $N53b0a000
+push $N486b5c00
  RolloffContrast {
   contrast {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.contrast}}
   center {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.center}}
@@ -7159,7 +7168,7 @@ push $N53b0a000
   ypos 143
   postage_stamp true
  }
-push $N53b0a000
+push $N486b5c00
  RolloffContrast {
   contrast {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.contrast}}
   center {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.center}}
@@ -7182,7 +7191,7 @@ push $N53b0a000
   ypos 201
   postage_stamp true
  }
-push $N53b0a000
+push $N486b5c00
  RolloffContrast {
   contrast {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.contrast}}
   center {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.center}}
@@ -7205,7 +7214,7 @@ push $N53b0a000
   ypos 259
   postage_stamp true
  }
-push $N53b0a000
+push $N486b5c00
  RolloffContrast {
   contrast {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.contrast}}
   center {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.center}}
@@ -7331,7 +7340,7 @@ push $N53b0a000
   xpos 147
   ypos 514
  }
-push $N53b0a000
+push $N486b5c00
  Sampler {
   sampler {{width/2} {height/2 x1 128.1}}
   lut {red {curve 0 x0.003921568859 0.00390625 0.0078125 0.01171875 0.015625 0.01953125 x0.02352941409 0.0234375 x0.02745098248 0.02734375 0.03125 0.03515625 0.0390625 0.04296875 x0.04705882818 0.046875 x0.05098039657 0.05078125 0.0546875 0.05859375 0.0625 0.06640625 0.0703125 0.07421875 0.078125 0.08203125 0.0859375 0.08984375 x0.09411765635 0.09375 x0.09803922474 0.09765625 0.1015625 0.10546875 0.109375 0.11328125 0.1171875 0.12109375 0.125 0.12890625 0.1328125 0.13671875 0.140625 0.14453125 0.1484375 0.15234375 0.15625 0.16015625 0.1640625 0.16796875 0.171875 0.17578125 0.1796875 0.18359375 x0.1882353127 0.1875 x0.1921568811 0.19140625 0.1953125 0.19921875 0.203125 0.20703125 0.2109375 0.21484375 0.21875 0.22265625 0.2265625 0.23046875 0.234375 0.23828125 0.2421875 0.24609375 0.25 0.25390625 0.2578125 0.26171875 0.265625 0.26953125 0.2734375 0.27734375 0.28125 0.28515625 0.2890625 0.29296875 0.296875 0.30078125 0.3046875 0.30859375 0.3125 0.31640625 0.3203125 0.32421875 0.328125 0.33203125 0.3359375 0.33984375 0.34375 0.34765625 0.3515625 0.35546875 0.359375 0.36328125 0.3671875 0.37109375 x0.3764706254 0.375 x0.3803921938 0.37890625 0.3828125 0.38671875 0.390625 0.39453125 0.3984375 0.40234375 0.40625 0.41015625 0.4140625 0.41796875 0.421875 0.42578125 0.4296875 0.43359375 0.4375 0.44140625 0.4453125 0.44921875 0.453125 0.45703125 0.4609375 0.46484375 0.46875 0.47265625 0.4765625 0.48046875 0.484375 0.48828125 0.4921875 0.49609375 0.5 0.50390625 0.5078125 0.51171875 0.515625 0.51953125 0.5234375 0.52734375 0.53125 0.53515625 0.5390625 0.54296875 0.546875 0.55078125 0.5546875 0.55859375 0.5625 0.56640625 0.5703125 0.57421875 0.578125 0.58203125 0.5859375 0.58984375 0.59375 0.59765625 0.6015625 0.60546875 0.609375 0.61328125 0.6171875 0.62109375 0.625 0.62890625 0.6328125 0.63671875 0.640625 0.64453125 0.6484375 0.65234375 0.65625 0.66015625 0.6640625 0.66796875 0.671875 0.67578125 0.6796875 0.68359375 0.6875 0.69140625 0.6953125 0.69921875 0.703125 0.70703125 0.7109375 0.71484375 0.71875 0.72265625 0.7265625 0.73046875 0.734375 0.73828125 0.7421875 0.74609375 x0.7529412508 0.75 x0.7568628192 0.75390625 0.7578125 0.76171875 0.765625 0.76953125 0.7734375 0.77734375 0.78125 0.78515625 0.7890625 0.79296875 0.796875 0.80078125 0.8046875 0.80859375 0.8125 0.81640625 0.8203125 0.82421875 0.828125 0.83203125 0.8359375 0.83984375 0.84375 0.84765625 0.8515625 0.85546875 0.859375 0.86328125 0.8671875 0.87109375 0.875 0.87890625 0.8828125 0.88671875 0.890625 0.89453125 0.8984375 0.90234375 0.90625 0.91015625 0.9140625 0.91796875 0.921875 0.92578125 0.9296875 0.93359375 0.9375 0.94140625 0.9453125 0.94921875 0.953125 0.95703125 0.9609375 0.96484375 0.96875 0.97265625 0.9765625 0.98046875 0.984375 0.98828125 0.9921875 0.99609375}
@@ -7343,8 +7352,8 @@ push $N53b0a000
   postage_stamp true
  }
 end_group
-push $N3201200
-push $N730ab800
+push $N73c61200
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -7478,7 +7487,7 @@ ColorLookup {
  addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 4}
  O_ELACS_O_SCALE_O 3
 }
-push $N730ab800
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -7525,8 +7534,8 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N54ea3c00 [stack 0]
-push $N730ab800
+set N48797800 [stack 0]
+push $N73d9b800
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -7668,12 +7677,12 @@ Merge2 {
  disable true
  postage_stamp true
 }
-push $N54ea3c00
+push $N48797800
 push 0
-push $N4a1e4400
-push $N4a1e4000
-push $N4a21fc00
-push $N4a21f800
+push $N3dba6000
+push $N3dbdfc00
+push $N3dbdf800
+push $N3dbdf400
 Switch {
  inputs 4
  which 1
@@ -7681,7 +7690,7 @@ Switch {
  xpos 112
  ypos -330
 }
-set N57f81c00 [stack 0]
+set N49893800 [stack 0]
 ColorLookup {
  lut {master {"clamp(    (-pow    (    clamp(cos(.5*(4.*atan(1.))*(                x*1            -0.    )),0.,1)    ,    1./    (    O_REWOP_O_POWER_O    )    )+1))" C 0 1}
    red {}
@@ -7793,13 +7802,13 @@ Switch {
  xpos 112
  ypos 446
 }
-push $N4d353400
-push $N4d353000
-push $N4d352c00
-push $N4d352800
-push $N4d352400
-push $N4d352000
-push $N4d39fc00
+push $N3ec63000
+push $N3ec62c00
+push $N3ec62800
+push $N3ec62400
+push $N3ec62000
+push $N3ecafc00
+push $N3ecaf800
 Switch {
  inputs 7
  which 3
@@ -7807,16 +7816,16 @@ Switch {
  xpos 112
  ypos -10
 }
-push $N4d39f400
-push $N4d39f000
-push $N4d39ec00
-push $N4d39e800
-push $N4d39e400
-push $N4d39e000
-push $N4d3ebc00
-push $N4d3eb800
-push $N4d3eb400
-push $N4d3eb000
+push $N3ecaf000
+push $N3ecaec00
+push $N3ecae800
+push $N3ecae400
+push $N3ecae000
+push $N3ecfbc00
+push $N3ecfb800
+push $N3ecfb400
+push $N3ecfb000
+push $N3ecfac00
 Switch {
  inputs 10
  which 6
@@ -7824,7 +7833,7 @@ Switch {
  xpos 112
  ypos -170
 }
-push $N57f81c00
+push $N49893800
 Switch {
  inputs 4
  which 3
@@ -7915,7 +7924,7 @@ Group {
   ypos -201
   postage_stamp true
  }
-set N57fbb000 [stack 0]
+set N498d0c00 [stack 0]
  Colorspace {
   channels rgba
   colorspace_out BT1886
@@ -7936,7 +7945,7 @@ set N57fbb000 [stack 0]
   disable {{1-O_ECAPSROLOC_OT_RAENIL_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_LINEAR_TO_COLORSPACE_O}}
   postage_stamp true
  }
-push $N57fbb000
+push $N498d0c00
  Colorspace {
   channels rgba
   colorspace_in BT1886
@@ -7957,7 +7966,7 @@ push $N57fbb000
   disable {{1-O_RAENIL_OT_ECAPSROLOC_TSARTNOC_FOLOR_1_REWEIV_O_VIEWER_1_ROLOF_CONTRAST_COLORSPACE_TO_LINEAR_O}}
   postage_stamp true
  }
-push $N57fbb000
+push $N498d0c00
  RolloffContrast {
   contrast {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.contrast}}
   center {{ⵙ1ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ1ⵙ.center}}
@@ -7981,7 +7990,7 @@ push $N57fbb000
   ypos 87
   postage_stamp true
  }
-push $N57fbb000
+push $N498d0c00
  RolloffContrast {
   contrast {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.contrast}}
   center {{ⵙਟ70ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ075ⵙ.center}}
@@ -8004,7 +8013,7 @@ push $N57fbb000
   ypos 143
   postage_stamp true
  }
-push $N57fbb000
+push $N498d0c00
  RolloffContrast {
   contrast {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.contrast}}
   center {{ⵙਟ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ05ⵙ.center}}
@@ -8027,7 +8036,7 @@ push $N57fbb000
   ypos 201
   postage_stamp true
  }
-push $N57fbb000
+push $N498d0c00
  RolloffContrast {
   contrast {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.contrast}}
   center {{ⵙਟ20ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ025ⵙ.center}}
@@ -8050,7 +8059,7 @@ push $N57fbb000
   ypos 259
   postage_stamp true
  }
-push $N57fbb000
+push $N498d0c00
  RolloffContrast {
   contrast {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.contrast}}
   center {{ⵙ0ⵙᴥᗱᗴTИNᗱᗴᑐᑕⵙTᔓᔕᗩᴥTИNⵔᑐᑕⵙΦⵔᙁⵔᴥⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᴥⵔᙁⵔΦⵙᑐᑕⵔИNTᴥᗩᔓᔕTⵙᑐᑕᗱᗴИNTᗱᗴᴥⵙ0ⵙ.center}}
@@ -8177,7 +8186,7 @@ push $N57fbb000
   xpos 147
   ypos 514
  }
-push $N57fbb000
+push $N498d0c00
  Sampler {
   sampler {{width/2} {height/2 x1 128.1}}
   lut {red {curve 0 x0.003921568859 0.00390625 0.0078125 0.01171875 0.015625 0.01953125 x0.02352941409 0.0234375 x0.02745098248 0.02734375 0.03125 0.03515625 0.0390625 0.04296875 x0.04705882818 0.046875 x0.05098039657 0.05078125 0.0546875 0.05859375 0.0625 0.06640625 0.0703125 0.07421875 0.078125 0.08203125 0.0859375 0.08984375 x0.09411765635 0.09375 x0.09803922474 0.09765625 0.1015625 0.10546875 0.109375 0.11328125 0.1171875 0.12109375 0.125 0.12890625 0.1328125 0.13671875 0.140625 0.14453125 0.1484375 0.15234375 0.15625 0.16015625 0.1640625 0.16796875 0.171875 0.17578125 0.1796875 0.18359375 x0.1882353127 0.1875 x0.1921568811 0.19140625 0.1953125 0.19921875 0.203125 0.20703125 0.2109375 0.21484375 0.21875 0.22265625 0.2265625 0.23046875 0.234375 0.23828125 0.2421875 0.24609375 0.25 0.25390625 0.2578125 0.26171875 0.265625 0.26953125 0.2734375 0.27734375 0.28125 0.28515625 0.2890625 0.29296875 0.296875 0.30078125 0.3046875 0.30859375 0.3125 0.31640625 0.3203125 0.32421875 0.328125 0.33203125 0.3359375 0.33984375 0.34375 0.34765625 0.3515625 0.35546875 0.359375 0.36328125 0.3671875 0.37109375 x0.3764706254 0.375 x0.3803921938 0.37890625 0.3828125 0.38671875 0.390625 0.39453125 0.3984375 0.40234375 0.40625 0.41015625 0.4140625 0.41796875 0.421875 0.42578125 0.4296875 0.43359375 0.4375 0.44140625 0.4453125 0.44921875 0.453125 0.45703125 0.4609375 0.46484375 0.46875 0.47265625 0.4765625 0.48046875 0.484375 0.48828125 0.4921875 0.49609375 0.5 0.50390625 0.5078125 0.51171875 0.515625 0.51953125 0.5234375 0.52734375 0.53125 0.53515625 0.5390625 0.54296875 0.546875 0.55078125 0.5546875 0.55859375 0.5625 0.56640625 0.5703125 0.57421875 0.578125 0.58203125 0.5859375 0.58984375 0.59375 0.59765625 0.6015625 0.60546875 0.609375 0.61328125 0.6171875 0.62109375 0.625 0.62890625 0.6328125 0.63671875 0.640625 0.64453125 0.6484375 0.65234375 0.65625 0.66015625 0.6640625 0.66796875 0.671875 0.67578125 0.6796875 0.68359375 0.6875 0.69140625 0.6953125 0.69921875 0.703125 0.70703125 0.7109375 0.71484375 0.71875 0.72265625 0.7265625 0.73046875 0.734375 0.73828125 0.7421875 0.74609375 x0.7529412508 0.75 x0.7568628192 0.75390625 0.7578125 0.76171875 0.765625 0.76953125 0.7734375 0.77734375 0.78125 0.78515625 0.7890625 0.79296875 0.796875 0.80078125 0.8046875 0.80859375 0.8125 0.81640625 0.8203125 0.82421875 0.828125 0.83203125 0.8359375 0.83984375 0.84375 0.84765625 0.8515625 0.85546875 0.859375 0.86328125 0.8671875 0.87109375 0.875 0.87890625 0.8828125 0.88671875 0.890625 0.89453125 0.8984375 0.90234375 0.90625 0.91015625 0.9140625 0.91796875 0.921875 0.92578125 0.9296875 0.93359375 0.9375 0.94140625 0.9453125 0.94921875 0.953125 0.95703125 0.9609375 0.96484375 0.96875 0.97265625 0.9765625 0.98046875 0.984375 0.98828125 0.9921875 0.99609375}
@@ -8208,7 +8217,7 @@ Copy {
  ypos 651
  postage_stamp true
 }
-set N59114400 [stack 0]
+set N4abe6000 [stack 0]
 ShuffleCopy {
  inputs 2
  red red
@@ -8256,8 +8265,8 @@ Histogram {
  disable true
  postage_stamp true
 }
-set N59147400 [stack 0]
-push $N50730800
+set N4ac19000 [stack 0]
+push $N3fe18400
 Merge2 {
  inputs 2
  operation matte
@@ -8268,7 +8277,7 @@ Merge2 {
  ypos -1965
  postage_stamp true
 }
-push $N59147400
+push $N4ac19000
 Switch {
  inputs 2
  name ⵙⵙ옷ᑐᑕTꖴᗯᔓᔕⵙⵙᗝИNᑎᴥᕤᕦЖᑐᑕᗩ8ⵙ옷TꖴᗯⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙᗯꖴT옷ⵙ8ᗩᑐᑕЖᕤᕦᴥⵔᑎИNᗝⵙⵙᔓᔕᗯꖴTᑐᑕ옷ⵙⵙ
@@ -8331,7 +8340,7 @@ Group {
   xpos 195
   ypos 235
  }
-set N5917fc00 [stack 0]
+set N4ac55800 [stack 0]
  Group {
   name ⵙᙁⵔTⵙᗱᗴᑐᑕꖴᙁᔓᔕⵙᔓᔕᙁꖴᑐᑕᗱᗴⵙTⵔᙁⵙ
   tile_color 0xffffffff
@@ -8353,7 +8362,7 @@ set N5917fc00 [stack 0]
    xpos -386
    ypos -489
   }
-set N5917f800 [stack 0]
+set N4ac55400 [stack 0]
   Transform {
    translate {{0 x1 0} {-parent.pos}}
    black_outside false
@@ -8401,25 +8410,25 @@ set N5917f800 [stack 0]
    addUserKnob {7 tolerance}
    tolerance {{parent.thickness/100}}
   }
-set N5917e400 [stack 0]
+set N4ac54000 [stack 0]
   Dot {
    name Dot3
    xpos -293
    ypos -44
   }
-set N5917e000 [stack 0]
+set N4ac7fc00 [stack 0]
   Dot {
    name Dot4
    xpos -192
    ypos -44
   }
-set N591a7c00 [stack 0]
+set N4ac7f800 [stack 0]
   Dot {
    name Dot6
    xpos -93
    ypos -44
   }
-set N591a7800 [stack 0]
+set N4ac7f400 [stack 0]
   Dot {
    name Dot9
    xpos 29
@@ -8446,7 +8455,7 @@ set N591a7800 [stack 0]
    xpos -794
    ypos -344
   }
-push $N5917f800
+push $N4ac55400
   Merge2 {
    inputs 2
    operation plus
@@ -8465,19 +8474,19 @@ push $N5917f800
    xpos -249
    ypos -252
   }
-set N591cbc00 [stack 0]
+set N4aca3800 [stack 0]
   Dot {
    name Dot5
    xpos -136
    ypos -252
   }
-set N591cb800 [stack 0]
+set N4aca3400 [stack 0]
   Dot {
    name Dot8
    xpos -26
    ypos -252
   }
-set N591cb400 [stack 0]
+set N4aca3000 [stack 0]
   Dot {
    name Dot7
    xpos 90
@@ -8494,8 +8503,8 @@ set N591cb400 [stack 0]
    xpos 56
    ypos -23
   }
-push $N591a7800
-push $N591cb400
+push $N4ac7f400
+push $N4aca3000
   ContactSheet {
    inputs 2
    width {{Input1.width}}
@@ -8506,8 +8515,8 @@ push $N591cb400
    xpos -56
    ypos -21
   }
-push $N591a7c00
-push $N591cb800
+push $N4ac7f800
+push $N4aca3400
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -8519,8 +8528,8 @@ push $N591cb800
    xpos -170
    ypos -16
   }
-push $N5917e000
-push $N591cbc00
+push $N4ac7fc00
+push $N4aca3800
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -8531,8 +8540,8 @@ push $N591cbc00
    xpos -283
    ypos -18
   }
-push $N5917e400
-push $N5917e400
+push $N4ac54000
+push $N4ac54000
   ChannelMerge {
    inputs 2
    A rgba.red
@@ -8541,8 +8550,8 @@ push $N5917e400
    xpos -536
    ypos -9
   }
-set N591edc00 [stack 0]
-push $N591edc00
+set N4acc5800 [stack 0]
+push $N4acc5800
   ChannelMerge {
    inputs 2
    B rgba.blue
@@ -8572,7 +8581,7 @@ push 0
    ypos 171
   }
  end_group
-set N57fcc400 [stack 0]
+set N498e8400 [stack 0]
  Transform {
   translate {{-height/3} 0}
   rotate 90
@@ -8586,7 +8595,7 @@ set N57fcc400 [stack 0]
   ypos -29
   postage_stamp true
  }
-push $N57fcc400
+push $N498e8400
  Transform {
   translate {{height/3} 0}
   rotate -90
@@ -8600,7 +8609,7 @@ push $N57fcc400
   ypos -29
   postage_stamp true
  }
-push $N57fcc400
+push $N498e8400
  Transform {
   translate {0 {-height/3}}
   rotate 180
@@ -8614,7 +8623,7 @@ push $N57fcc400
   ypos 35
   postage_stamp true
  }
-push $N57fcc400
+push $N498e8400
  Transform {
   translate {0 {height/3}}
   scale 0.3333333333
@@ -8627,7 +8636,7 @@ push $N57fcc400
   ypos -93
   postage_stamp true
  }
-push $N5917fc00
+push $N4ac55800
  Transform {
   scale 0.3333333333
   center {{width/2} {height/2}}
@@ -8756,7 +8765,7 @@ Read {
  ypos 1059
  disable true
 }
-push $N50731c00
+push $N3fe19800
 CurveTool {
  operation "Max Luma Pixel"
  avgframes 1
@@ -8794,8 +8803,8 @@ Histogram {
  disable true
  postage_stamp true
 }
-set N5a2b0400 [stack 0]
-push $N50730800
+set N4db12000 [stack 0]
+push $N3fe18400
 Merge2 {
  inputs 2
  operation matte
@@ -8806,7 +8815,7 @@ Merge2 {
  ypos 907
  postage_stamp true
 }
-push $N5a2b0400
+push $N4db12000
 Switch {
  inputs 2
  name ⵙⵙⵙ옷ᑐᑕTꖴᗯᔓᔕⵙⵙⵙᗝИNᑎᴥᕤᕦЖᑐᑕᗩ8ⵙ옷TꖴᗯⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙᗯꖴT옷ⵙ8ᗩᑐᑕЖᕤᕦᴥⵔᑎИNᗝⵙⵙⵙᔓᔕᗯꖴTᑐᑕ옷ⵙⵙⵙ
@@ -8869,7 +8878,7 @@ Group {
   xpos 195
   ypos 235
  }
-set N5a306c00 [stack 0]
+set N4db68800 [stack 0]
  Group {
   name ⵙᙁⵔTⵙᗱᗴᑐᑕꖴᙁᔓᔕⵙᔓᔕᙁꖴᑐᑕᗱᗴⵙTⵔᙁⵙ
   tile_color 0xffffffff
@@ -8891,7 +8900,7 @@ set N5a306c00 [stack 0]
    xpos -386
    ypos -489
   }
-set N5a306800 [stack 0]
+set N4db68400 [stack 0]
   Transform {
    translate {{0 x1 0} {-parent.pos}}
    black_outside false
@@ -8938,25 +8947,25 @@ set N5a306800 [stack 0]
    addUserKnob {7 tolerance}
    tolerance {{parent.thickness/100}}
   }
-set N5a33d400 [stack 0]
+set N4db9b000 [stack 0]
   Dot {
    name Dot3
    xpos -293
    ypos -44
   }
-set N5a33d000 [stack 0]
+set N4db9ac00 [stack 0]
   Dot {
    name Dot4
    xpos -192
    ypos -44
   }
-set N5a33cc00 [stack 0]
+set N4db9a800 [stack 0]
   Dot {
    name Dot6
    xpos -93
    ypos -44
   }
-set N5a33c800 [stack 0]
+set N4db9a400 [stack 0]
   Dot {
    name Dot9
    xpos 29
@@ -8983,7 +8992,7 @@ set N5a33c800 [stack 0]
    xpos -794
    ypos -344
   }
-push $N5a306800
+push $N4db68400
   Merge2 {
    inputs 2
    operation plus
@@ -9002,19 +9011,19 @@ push $N5a306800
    xpos -249
    ypos -252
   }
-set N5a358c00 [stack 0]
+set N4dbba800 [stack 0]
   Dot {
    name Dot5
    xpos -136
    ypos -252
   }
-set N5a358800 [stack 0]
+set N4dbba400 [stack 0]
   Dot {
    name Dot8
    xpos -26
    ypos -252
   }
-set N5a358400 [stack 0]
+set N4dbba000 [stack 0]
   Dot {
    name Dot7
    xpos 90
@@ -9031,8 +9040,8 @@ set N5a358400 [stack 0]
    xpos 56
    ypos -23
   }
-push $N5a33c800
-push $N5a358400
+push $N4db9a400
+push $N4dbba000
   ContactSheet {
    inputs 2
    width {{Input1.width}}
@@ -9043,8 +9052,8 @@ push $N5a358400
    xpos -56
    ypos -21
   }
-push $N5a33cc00
-push $N5a358800
+push $N4db9a800
+push $N4dbba400
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -9056,8 +9065,8 @@ push $N5a358800
    xpos -170
    ypos -16
   }
-push $N5a33d000
-push $N5a358c00
+push $N4db9ac00
+push $N4dbba800
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -9068,8 +9077,8 @@ push $N5a358c00
    xpos -283
    ypos -18
   }
-push $N5a33d400
-push $N5a33d400
+push $N4db9b000
+push $N4db9b000
   ChannelMerge {
    inputs 2
    A rgba.red
@@ -9078,8 +9087,8 @@ push $N5a33d400
    xpos -536
    ypos -9
   }
-set N5b388c00 [stack 0]
-push $N5b388c00
+set N4fd5c800 [stack 0]
+push $N4fd5c800
   ChannelMerge {
    inputs 2
    B rgba.blue
@@ -9109,7 +9118,7 @@ push 0
    ypos 171
   }
  end_group
-set N57fcad80 [stack 0]
+set N498e6d80 [stack 0]
  Transform {
   translate {{-height/3} 0}
   rotate 90
@@ -9123,7 +9132,7 @@ set N57fcad80 [stack 0]
   ypos -29
   postage_stamp true
  }
-push $N57fcad80
+push $N498e6d80
  Transform {
   translate {{height/3} 0}
   rotate -90
@@ -9137,7 +9146,7 @@ push $N57fcad80
   ypos -29
   postage_stamp true
  }
-push $N57fcad80
+push $N498e6d80
  Transform {
   translate {0 {-height/3}}
   rotate 180
@@ -9151,7 +9160,7 @@ push $N57fcad80
   ypos 35
   postage_stamp true
  }
-push $N57fcad80
+push $N498e6d80
  Transform {
   translate {0 {height/3}}
   scale 0.3333333333
@@ -9164,7 +9173,7 @@ push $N57fcad80
   ypos -93
   postage_stamp true
  }
-push $N5a306c00
+push $N4db68800
  Transform {
   scale 0.3333333333
   center {{width/2} {height/2}}
@@ -9272,7 +9281,7 @@ Read {
  xpos 208
  ypos 1059
 }
-push $N59114400
+push $N4abe6000
 CurveTool {
  operation "Max Luma Pixel"
  avgframes 0
@@ -9310,8 +9319,8 @@ Histogram {
  disable true
  postage_stamp true
 }
-set N5b43d800 [stack 0]
-push $N50730800
+set N4fe05400 [stack 0]
+push $N3fe18400
 Merge2 {
  inputs 2
  operation matte
@@ -9322,7 +9331,7 @@ Merge2 {
  ypos 907
  postage_stamp true
 }
-push $N5b43d800
+push $N4fe05400
 Switch {
  inputs 2
  name ⵙ옷ᑐᑕTꖴᗯᔓᔕⵙᗝИNᑎᴥᕤᕦЖᑐᑕᗩ8ⵙ옷TꖴᗯⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙᗯꖴT옷ⵙ8ᗩᑐᑕЖᕤᕦᴥⵔᑎИNᗝⵙᔓᔕᗯꖴTᑐᑕ옷ⵙ
@@ -9385,7 +9394,7 @@ Group {
   xpos 195
   ypos 235
  }
-set N5b43c000 [stack 0]
+set N51f73c00 [stack 0]
  Group {
   name ⵙᙁⵔTⵙᗱᗴᑐᑕꖴᙁᔓᔕⵙᔓᔕᙁꖴᑐᑕᗱᗴⵙTⵔᙁⵙ
   tile_color 0xffffffff
@@ -9407,7 +9416,7 @@ set N5b43c000 [stack 0]
    xpos -386
    ypos -489
   }
-set N5b471c00 [stack 0]
+set N51f73800 [stack 0]
   Transform {
    translate {{0 x1 0} {-parent.pos}}
    black_outside false
@@ -9455,25 +9464,25 @@ set N5b471c00 [stack 0]
    addUserKnob {7 tolerance}
    tolerance {{parent.thickness/100}}
   }
-set N5b470800 [stack 0]
+set N51f72400 [stack 0]
   Dot {
    name Dot3
    xpos -293
    ypos -44
   }
-set N5b470400 [stack 0]
+set N51f72000 [stack 0]
   Dot {
    name Dot4
    xpos -192
    ypos -44
   }
-set N5b470000 [stack 0]
+set N51f9dc00 [stack 0]
   Dot {
    name Dot6
    xpos -93
    ypos -44
   }
-set N5c497c00 [stack 0]
+set N51f9d800 [stack 0]
   Dot {
    name Dot9
    xpos 29
@@ -9500,7 +9509,7 @@ set N5c497c00 [stack 0]
    xpos -794
    ypos -344
   }
-push $N5b471c00
+push $N51f73800
   Merge2 {
    inputs 2
    operation plus
@@ -9519,19 +9528,19 @@ push $N5b471c00
    xpos -249
    ypos -252
   }
-set N5c496000 [stack 0]
+set N51fc3c00 [stack 0]
   Dot {
    name Dot5
    xpos -136
    ypos -252
   }
-set N5c4bdc00 [stack 0]
+set N51fc3800 [stack 0]
   Dot {
    name Dot8
    xpos -26
    ypos -252
   }
-set N5c4bd800 [stack 0]
+set N51fc3400 [stack 0]
   Dot {
    name Dot7
    xpos 90
@@ -9548,8 +9557,8 @@ set N5c4bd800 [stack 0]
    xpos 56
    ypos -23
   }
-push $N5c497c00
-push $N5c4bd800
+push $N51f9d800
+push $N51fc3400
   ContactSheet {
    inputs 2
    width {{Input1.width}}
@@ -9560,8 +9569,8 @@ push $N5c4bd800
    xpos -56
    ypos -21
   }
-push $N5b470000
-push $N5c4bdc00
+push $N51f9dc00
+push $N51fc3800
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -9573,8 +9582,8 @@ push $N5c4bdc00
    xpos -170
    ypos -16
   }
-push $N5b470400
-push $N5c496000
+push $N51f72000
+push $N51fc3c00
   ContactSheet {
    inputs 2
    width {{Input1.width*2}}
@@ -9585,8 +9594,8 @@ push $N5c496000
    xpos -283
    ypos -18
   }
-push $N5b470800
-push $N5b470800
+push $N51f72400
+push $N51f72400
   ChannelMerge {
    inputs 2
    A rgba.red
@@ -9595,8 +9604,8 @@ push $N5b470800
    xpos -536
    ypos -9
   }
-set N5c4bc000 [stack 0]
-push $N5c4bc000
+set N51febc00 [stack 0]
+push $N51febc00
   ChannelMerge {
    inputs 2
    B rgba.blue
@@ -9626,7 +9635,7 @@ push 0
    ypos 171
   }
  end_group
-set N57fcd600 [stack 0]
+set N498e9600 [stack 0]
  Transform {
   translate {{-height/3} 0}
   rotate 90
@@ -9640,7 +9649,7 @@ set N57fcd600 [stack 0]
   ypos -29
   postage_stamp true
  }
-push $N57fcd600
+push $N498e9600
  Transform {
   translate {{height/3} 0}
   rotate -90
@@ -9654,7 +9663,7 @@ push $N57fcd600
   ypos -29
   postage_stamp true
  }
-push $N57fcd600
+push $N498e9600
  Transform {
   translate {0 {-height/3}}
   rotate 180
@@ -9668,7 +9677,7 @@ push $N57fcd600
   ypos 35
   postage_stamp true
  }
-push $N57fcd600
+push $N498e9600
  Transform {
   translate {0 {height/3}}
   scale 0.3333333333
@@ -9681,7 +9690,7 @@ push $N57fcd600
   ypos -93
   postage_stamp true
  }
-push $N5b43c000
+push $N51f73c00
  Transform {
   scale 0.3333333333
   center {{width/2} {height/2}}
@@ -9747,7 +9756,7 @@ push 0
 end_group
 Write {
  channels all
- file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯·◯ᴥᗱᗴᗯᗱᗴꖴΛ◯ⵙ◯Λꖴᗱᗴᗯᗱᗴᴥ◯·◯/◯ᗱᗴ✤ꖴᴥᗯ◯ⵙ◯ᗯᴥꖴ✤ᗱᗴ◯/4PM....GИP....◯·◯ᴥᗱᗴᗯᗱᗴꖴΛ◯ⵙ◯Λꖴᗱᗴᗯᗱᗴᴥ◯·◯....PNG....MP4
+ file C:/O/O_AIDIV_O_VIDIA_O/◯ᗱᗴ✻ᑎИN◯ⵙ◯ИNᑎ✻ᗱᗴ◯/◯·◯ᴥᗱᗴᗯᗱᗴꖴΛ◯ⵙ◯Λꖴᗱᗴᗯᗱᗴᴥ◯·◯/◯ᗱᗴ✤ꖴᴥᗯ◯ⵙ◯ᗯᴥꖴ✤ᗱᗴ◯/4PM.....GИP....◯·◯ᴥᗱᗴᗯᗱᗴꖴΛ◯ⵙ◯Λꖴᗱᗴᗯᗱᗴᴥ◯·◯....PNG.....MP4
  colorspace linear
  raw true
  file_type mov
@@ -9775,8 +9784,9 @@ Write {
  mov64_write_nclc false
  create_directories true
  checkHashOnRead false
- version 60
+ version 63
  name ⵙᗱᗴTꖴᴥᗯⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙᗯᴥꖴTᗱᗴⵙ
+ selected true
  xpos 112
  ypos 1059
  postage_stamp true
@@ -9813,7 +9823,7 @@ Group {
   xpos -168
   ypos 619
  }
-set N5c54f800 [stack 0]
+set N52043400 [stack 0]
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -9860,7 +9870,7 @@ set N5c54f800 [stack 0]
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -9907,7 +9917,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -9954,7 +9964,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10001,7 +10011,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10048,7 +10058,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10095,7 +10105,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10143,7 +10153,7 @@ push $N5c54f800
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10190,7 +10200,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10237,7 +10247,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10285,7 +10295,7 @@ push $N5c54f800
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10333,7 +10343,7 @@ push $N5c54f800
   O_EZIS_O_SIZE_O 2048
  }
 push 0
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10380,7 +10390,7 @@ push $N5c54f800
   addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
   O_EZIS_O_SIZE_O 2048
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10434,7 +10444,7 @@ push $N5c54f800
   ypos 427
   postage_stamp true
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10488,7 +10498,7 @@ push $N5c54f800
   ypos 347
   postage_stamp true
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -10542,7 +10552,7 @@ push $N5c54f800
   ypos 163
   postage_stamp true
  }
-push $N5c54f800
+push $N52043400
  Expression {
   temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
   temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
