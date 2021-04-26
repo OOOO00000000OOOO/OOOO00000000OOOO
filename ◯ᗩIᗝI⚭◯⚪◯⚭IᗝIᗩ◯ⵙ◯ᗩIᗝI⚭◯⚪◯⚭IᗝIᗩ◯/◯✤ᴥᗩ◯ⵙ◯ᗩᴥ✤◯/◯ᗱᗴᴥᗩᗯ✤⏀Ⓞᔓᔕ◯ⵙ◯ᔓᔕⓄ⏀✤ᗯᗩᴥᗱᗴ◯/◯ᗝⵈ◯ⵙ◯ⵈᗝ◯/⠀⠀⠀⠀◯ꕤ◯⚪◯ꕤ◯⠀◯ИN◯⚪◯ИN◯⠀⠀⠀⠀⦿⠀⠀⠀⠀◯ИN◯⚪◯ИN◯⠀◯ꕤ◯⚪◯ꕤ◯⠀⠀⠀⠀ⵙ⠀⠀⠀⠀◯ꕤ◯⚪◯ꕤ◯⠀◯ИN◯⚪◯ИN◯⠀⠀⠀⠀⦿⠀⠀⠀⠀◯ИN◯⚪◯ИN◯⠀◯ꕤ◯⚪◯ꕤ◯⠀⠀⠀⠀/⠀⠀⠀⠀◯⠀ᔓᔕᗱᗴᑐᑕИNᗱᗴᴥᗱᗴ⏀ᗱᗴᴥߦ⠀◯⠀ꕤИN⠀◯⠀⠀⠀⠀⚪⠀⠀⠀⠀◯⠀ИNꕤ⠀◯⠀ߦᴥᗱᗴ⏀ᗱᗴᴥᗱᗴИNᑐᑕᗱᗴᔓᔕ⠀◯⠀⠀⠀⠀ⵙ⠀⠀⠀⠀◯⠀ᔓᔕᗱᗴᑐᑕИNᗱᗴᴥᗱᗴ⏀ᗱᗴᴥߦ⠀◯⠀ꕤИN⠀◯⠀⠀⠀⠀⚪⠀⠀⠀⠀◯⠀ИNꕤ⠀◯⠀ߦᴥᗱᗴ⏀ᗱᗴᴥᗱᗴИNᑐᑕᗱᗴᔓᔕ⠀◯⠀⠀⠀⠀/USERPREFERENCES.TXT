@@ -47,7 +47,7 @@
 "ShowToolbarPath"=dword:00000001
 "CurrentApplicationOnly"=dword:00000000
 "ExcludeDuplicateCommands"=dword:00000001
-"SettingsGroupExpanded"=dword:00000000
+"SettingsGroupExpanded"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\DBW]
 "Detailed View Display Mode"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Drafting\Dynamic Alignment]
@@ -61,6 +61,11 @@
 ".DateValue..UGS::GatewayUI::Properties"="100 100 10"
 ".FeatureReferences.UGS::ModlFeatureUI::ReplaceFeature"="10 235"
 "Displayed Part"="150 150"
+"..UGS::ModlFeatureUI::CopyPaste"="10 49"
+"PatternSpacingsList::list"="10 10 175"
+"TermsList"="120 120 120 120 120 120 120 120 10"
+"GroupsList"="10 100 10 10 100 100 10 10"
+"ModlFeatureUI::Mirror::ReusableReferencesList"="264"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FILENEW\Tab Name]
 "Tab Name"="Model"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FILENEW\Template Name]
@@ -107,7 +112,7 @@
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PARTNT\WindowState\Dialogs\UGS::PARTNAV::SearchUI]
 "Expanded"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PARTNT\WindowState]
-"DialogsVisible"=dword:00000001
+"DialogsVisible"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PMI\Application]
 "Status"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette1]
@@ -134,12 +139,8 @@
 "URL"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\mach\samples\CAM_Machine_Samples.pax"
 "TNL_WIDTH"=dword:0000011e
 "TNL_VIEW"=dword:00000000
-[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette7]
-"URL"="UG/IR_SYS_MATERIAL_PAL:C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\ugphoto\IrayPlus_ug_canned_mattex\"
-"TNL_WIDTH"=dword:0000011e
-"TNL_VIEW"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PartNT\Columns]
-"Column Headers"="NAME,On,340CURRENT_FEATURE,On,78OUT_OF_DATE,On,62FEATURE_TYPE,Off,200TIMESTAMP,On,62LAYER,On,35COLOR,On,36STATE,Off,100PARENT_INTERFACE,Off,100CREATED,On,67MODIFIED,On,65COMMENT,On,57REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,Off,100VIEW_REPRESENTATION,Off,100SHEET_NUMBER,Off,100SHEET_REVISION,Off,100SHEET_EFFECTIVITY,Off,100ARRANGEMENT,Off,100FORMULA,On,48DISCLOSURE,Off,100DISCLOSURE_PURPOSE,Off,100MASS,Off,100MASS_STATUS,Off,100MASS_SOURCE_TYPE,Off,100"
+"Column Headers"="NAME,On,430CURRENT_FEATURE,On,78OUT_OF_DATE,On,62FEATURE_TYPE,Off,200TIMESTAMP,On,62LAYER,On,35COLOR,On,36STATE,Off,100PARENT_INTERFACE,Off,100CREATED,On,67MODIFIED,On,65COMMENT,On,57REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,Off,100VIEW_REPRESENTATION,Off,100SHEET_NUMBER,Off,100SHEET_REVISION,Off,100SHEET_EFFECTIVITY,Off,100ARRANGEMENT,Off,100FORMULA,On,48DISCLOSURE,Off,100DISCLOSURE_PURPOSE,Off,100MASS,Off,100MASS_STATUS,Off,100MASS_SOURCE_TYPE,Off,100"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PartNT\Filters]
 "num_filters"=dword:00000006
 "filter:1"="Only Failed FeaturesUGS::PARTNAV_category_filterExcludeAllFeaturesUGS::PARTNAV_state_filterIncludeFailed"
@@ -162,14 +163,14 @@
 "TreeMode"="body"
 "ShowExpressionsGroup"="No"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Parts\Recent\Native]
-"UG Native part name 1"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.PRT"
-"UG Native desc name 1"="<TЯP.O>"
+"UG Native part name 1"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀.prt"
+"UG Native desc name 1"="<TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀>"
 "UG Native pin state 1"=dword:00000000
-"UG Native part name 2"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.prt"
+"UG Native part name 2"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.PRT"
 "UG Native desc name 2"="<TЯP.O>"
 "UG Native pin state 2"=dword:00000000
-"UG Native part name 3"=""
-"UG Native desc name 3"=""
+"UG Native part name 3"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.prt"
+"UG Native desc name 3"="<TЯP.O>"
 "UG Native pin state 3"=dword:00000000
 "UG Native part name 4"=""
 "UG Native desc name 4"=""
@@ -238,16 +239,25 @@
 "Information"="0,873x517+294+0,0x0+0+0"
 "DA1"="1700x1700+-10+-10"
 "DA2"="1700x1700+270+199"
-"FLOAT"="1700x1700+919+468"
+"FLOAT"="1700x1700+669+123"
 "FSB"="0x0+0+0"
 "DevelopmentExchange"=dword:00000001
 "Horizon Windows Style"=dword:00000000
 "Horizon Scheme Style"=dword:00000000
 "WelcomePageUserResponse"=dword:00000000
+"SketchWelcomePageCount"=dword:00000002
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Selection]
+"QuickPick Dialog X Position"=dword:00000342
+"QuickPick Dialog Y Position"=dword:000000d4
+"QuickPick Horizontal Snap"=dword:00000006
+"QuickPick Vertical Snap"=dword:00000004
+"QuickPick Show Search"=dword:00000000
+"QuickPick Show Filter"=dword:00000000
+"QuickPick Show Highlight"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Visualization]
 "Default Date"=dword:01329016
 "Standard Font Date"=dword:0132b72b
-"o o:0.0 GeForce GTX 460/PCIe/SSE2 configuration"="polyline_set=vbo,8:tri_set=vbo,8:tri_strip_set=vbo,8:"
+"o o:0.0 GeForce GTX 460/PCIe/SSE2 configuration"="polyline_set=vbo,0:tri_set=vbo,0:tri_strip_set=vbo,0:"
 "Moving Frame Detail"="0.000000"
 "Moving Screen Cull"="0.000200"
 "Enable Moving Screen Cull"=dword:00000000
@@ -258,7 +268,7 @@
 "Enable Still Screen Cull"=dword:00000000
 "Still Size Cull"="0.000000"
 "Enable Still Size Cull"=dword:00000000
-"Fixed Frame Rate"=dword:00000003
+"Fixed Frame Rate"=dword:00000000
 "ViewAnimationSpeed"="0.000000"
 "EnableHighPrecisionRotation"=dword:00000000
 "LockVerticalAxis"=dword:00000001
@@ -269,3 +279,13 @@
 "Translucency"=dword:00000000
 "Hidden Geometry Highlight Mode"=dword:00000000
 "Wireframe Contrast"=dword:00000001
+"Backface Culling"=dword:00000000
+"X Resolution o:0.0"="0.147503"
+"Y Resolution o:0.0"="0.147503"
+"Disable Dynamic Shadow Update"=dword:00000000
+"Disable Dynamic Soft Shadows"=dword:00000000
+"Disable Dynamic Camera Direction Plane Texture Space Update"=dword:00000000
+"Disable Dynamic Advanced Studio Ambient Shadows Update"=dword:00000000
+"Disable Dynamic Advanced Studio Floor Reflection Update"=dword:00000000
+"Disable Dynamic Advanced Studio Image-based Lighting Update"=dword:00000000
+"ExcludeDatumsFromFit"=dword:00000001
