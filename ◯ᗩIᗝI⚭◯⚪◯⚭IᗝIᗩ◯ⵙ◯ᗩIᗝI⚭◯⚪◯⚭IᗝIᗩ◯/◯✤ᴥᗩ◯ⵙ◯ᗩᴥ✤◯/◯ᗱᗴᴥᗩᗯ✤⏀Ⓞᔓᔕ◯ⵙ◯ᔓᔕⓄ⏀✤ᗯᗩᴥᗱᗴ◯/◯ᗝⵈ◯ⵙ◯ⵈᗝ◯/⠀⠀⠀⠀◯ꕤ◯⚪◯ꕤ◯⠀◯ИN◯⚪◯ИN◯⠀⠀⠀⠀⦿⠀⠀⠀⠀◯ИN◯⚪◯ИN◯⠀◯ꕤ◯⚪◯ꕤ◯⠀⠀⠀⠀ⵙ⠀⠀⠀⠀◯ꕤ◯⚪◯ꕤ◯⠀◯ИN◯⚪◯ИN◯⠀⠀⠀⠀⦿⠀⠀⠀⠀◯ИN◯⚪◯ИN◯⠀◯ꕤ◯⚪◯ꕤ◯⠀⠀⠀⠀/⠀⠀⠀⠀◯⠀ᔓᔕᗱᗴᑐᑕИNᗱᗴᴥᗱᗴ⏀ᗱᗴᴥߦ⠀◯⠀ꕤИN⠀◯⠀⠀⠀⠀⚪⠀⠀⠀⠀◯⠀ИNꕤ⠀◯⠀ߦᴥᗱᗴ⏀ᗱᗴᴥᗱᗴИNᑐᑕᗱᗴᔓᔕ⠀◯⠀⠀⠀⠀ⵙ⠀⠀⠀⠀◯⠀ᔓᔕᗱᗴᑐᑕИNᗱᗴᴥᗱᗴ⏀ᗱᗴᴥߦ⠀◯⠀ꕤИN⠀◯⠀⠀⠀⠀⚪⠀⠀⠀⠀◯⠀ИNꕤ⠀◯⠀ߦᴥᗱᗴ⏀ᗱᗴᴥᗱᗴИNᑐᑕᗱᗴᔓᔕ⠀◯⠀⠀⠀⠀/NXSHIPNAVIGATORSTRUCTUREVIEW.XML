@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  -->
+
+<!--
+
+This is the customer default configuration file for ship structure view navigator. 
+The xml file define the structure hierarchy to be shown in the navigator.
+
+The top element "View" define the overall content of the navigator.
+
+The following table describes the use of each sub elements of "View" element.
+
+    "node"                Define levels of the navigator and what data is included in the level.
+    "contextMenu"         Define context menu item list for each node (and its child nodes).
+    "assignRules"         Define assign rules for ship part node to be reassigned.
+    "partRuleItem"        Define part rule item. A part rule item contain 5 attributes:
+                          1.  System type of referenced part
+                          2.  Context attribute of referenced part
+                          3.  By Part Attribute
+                              For instance, byPartAttribute="SAW_SECTION_BLOCK=*" to find all parts with attribute tile but ignore the value,
+                              byPartAttribute="SAW_SECTION_BLOCK=69" to find all parts with attribute and specific value.
+                              Attribute value is string type only in ship.
+                          4.  By Part Name
+                              For instance, byPartName="*Fr61*" means to find parts with name contains Fr61.
+                              This will help collect all structures on such frame.
+                          5.  Container node ID
+                              It is used to define the target container node to collect all part nodes which represent parts have the matched name or matched attributes.
+                          
+                          System type attribute (SAW_NAME) and context attribute (SAW_SUB_NAME) are assigned to the bodies of referenced part when creating ship features. 
+                          Please refer to nxship/data/NX_ShipAttribute.xml for valid Sysetm types (featureTitle) and Context attributes.
+
+    "primaryView"         Define the information of primary view window in this navigator.
+    "column"              Define the information to be displayed in the columns of the navigator for ship data.
+                          1. The application attribute value in column can be "Basic Design" and "Detail Design".
+                          2. If the value is equal to "Basic Design", then the column is only visible in Ship Basic Design application.
+                          3. If the value is equal to "Detail Design", then the column is only visible in Ship Detail Design application.
+                          4. If no application attribute provided, the column is visible in all application.
+
+
+-->
+
+<view name="Ship Structures" nodeId="SSN_ShipStructures" icon="nx_ship_generic" expand="true" defaultNavigator="true" modifiable="false">
+    <node name="Basic Design" nodeId="BasicDesign" icon="nx_ship_generic" expand="true"  modifiable="true" application="Basic Design">
+        <contextMenu>
+            <!-- standard actions -->
+            <!-- system will provide following standard actions.  -->
+            <!-- the key words below are reserved for system:   -->
+            <!--     CreateHull:                     Pop up basic design Hull UI -->
+            <!--     CreateDeck:                     Pop up basic design Deck UI -->
+            <!--     CreateTransverseBulkhead:       Pop up basic design Transverse Bulkhead UI -->
+            <!--     CreateLongitudinalBulkhead:     Pop up basic design Longitudinal Bulkhead UI -->
+            <!--     CreateStiffenerSystem:          Pop up basic design stiffener system UI --> 
+            <!--     CreateEdgeReinforcementSystem:  Pop up basic design Edge Reinforcement system UI -->
+            <!--     CreatePillarSystem:             Pop up basic design Pillar system UI -->
+            <!--     CreateSeam:                     Pop up basic design Seam UI -->
+            <!--     DeleteSeam:                     Pop up basic design Delete Seam UI -->
+            <!--     EditStock:                      Pop up basic design Edit Stock UI -->
+            <!--     EditContextAttributes:          Pop up basic design Edit Context Attributes UI -->
+            <!--     CalculateWeightAndCOG:          Pop up basic design Weight and COG UI -->
+            <!--     TransitionParts:                Pop up basic design Transition UI -->
+            <!--     CopyBasicDesignObjects:         Pop up basic design Copy Basic Design Objects UI -->
+            <!--     CAEPrepation:                   Pop up basic design CAE Prep UI -->
+            <!--     MaterialEstimate:               Pop up basic design Material Estimate UI -->
+            
+            <!--     CreatePlate:                    Pop up detail design Plate UI -->
+            <!--     CreatePillar:                   Pop up detail design Pillar UI -->
+            <!--     CreateStiffener:                Pop up detail design Stiffener UI -->
+            <!--     CreatePlateChamfer:             Pop up detail design Plate Chamfer UI -->
+            <!--     CreateEndCut:                   Pop up detail design End Cut UI -->
+            <!--     CreateCornerCut:                Pop up detail design Corner Cut UI -->
+            <!--     CreateAlongGuideCut:            Pop up detail design Along Guide Cut UI -->
+            <!--     CreateEdgeCut:                  Pop up detail design Edge Cut UI -->
+            <!--     CreateSteelInsulation:          Pop up detail design Steel Insulation UI -->
+            <!--     ConvertToSheetMetal:            Pop up detail design Convert to Sheet Metal UI -->
+            <!--     CreateFlange:                   Pop up detail design Flange UI -->
+            <!--     CreateClosedCorner:             Pop up detail design Closed Corner UI -->
+            <!--     CopyDetailDesignObjects:        Pop up detail design Copy Detail Design Objects UI -->
+            <!--     SplitShipStructure:             Pop up detail design Stiffener Split Ship Structure UI -->
+            <!--     RemoveSplit:                    Pop up detail design Remove Split UI -->
+            <!--     ProfileTransition:              Pop up detail design Profile Transition UI -->
+            
+            <!--     CreateProfileCutout:            Pop up basic/detail design Profile Cutout UI -->
+            <!--     CreateStandardPart:             Pop up basic/detail design standard part UI -->
+            <!--     CreateBracket:                  Pop up basic/detail design Bracket UI -->
+            <!--     CreateCollarPlate:              Pop up basic/detail design Collar Plate UI -->
+            <!--     CreateCutout:                   Pop up basic/detail design Cutout UI -->
+            <!--     CreateBreakdown:                Pop up Spatial Breakdown UI with type Breakdown -->
+            <!--     SetContainer:                   Pop up basic/detail design Ship Container UI -->
+            <!--     MirrorShipStructure:            Pop up basic/detail design Mirror Ship structure UI -->
+            <!--     ExamineSteelFeatures:           Pop up basic/detail design Examine Steel Features UI -->
+            
+            <!--     AddNode:                        Pop up Node definition UI -->
+            <!--     EditNode:                       Pop up Node definition UI with information on this node-->
+            <!--     DeletetNode:                    Delete selected node not delete underline ship data-->
+            <!--     SetActiveNode:                  Set selected node as active node -->
+            <!--     CopyNode:                       Put the ship data node on the clipboard to allow 
+                                                     you to paste it within another structure node. -->
+            <!--     PasteNode:                      Add the ship data node that is on the clipboard to 
+                                                     this node in the hierarchy.  -->
+            <!--
+            <item name="Create Ship Deck..." function="CreateDeck@Standard"/>
+            -->
+            <!-- customizable actions can be defined using following format:                    -->
+            <!--      CustomerAPIName@CustomerLibraryName                                       -->
+            <!--           CustomerAPIName:   defines c++ extern/exported API method name       -->
+            <!--           CustomerLibraryName: customer library name, for instance, libCCS.dll -->
+            <!--
+            <item name="Do customer action 1..." function="CustomerAPIName1@CustomerLibraryName"/>
+            <item name="Do customer action 2..." function="CustomerAPIName2@CustomerLibraryName"/>
+            -->
+            <item name="Add Node..." function="AddNode@Standard" defaultName="New" />
+            <item name="Edit Node..." function="EditNode@Standard"/>
+            <item name="Delete Node..." function="DeleteNode@Standard"/>
+            <item name="Copy Node..." function="CopyNode@Standard"/>
+            <item name="Cut Node..." function="CutNode@Standard"/>
+            <item name="Paste Node..." function="PasteNode@Standard"/>
+            <item name="Set Active Node..." function="SetActiveNode@Standard"/>
+        </contextMenu>
+        <node name="Hull" nodeId="BD_Hull" expand="false" modifiable="true"/>
+        <node name="Transverse Systems" nodeId="BD_TransverseSystems" expand="false" modifiable="true">
+            <node name="Transverse Bulkheads" nodeId="BD_TransverseBulkheads" expand="false" modifiable="true"/>
+            <node name="Transverse Girders" nodeId="BD_TransverseGirders" expand="false" modifiable="true"/>
+            <node name="Transverse Plates" nodeId="BD_TransversePlates" expand="false" modifiable="true"/>
+            <node name="Web Frames" nodeId="BD_WebFrames" expand="false" modifiable="true"/>
+            <node name="Corrugated Plates" nodeId="BD_CorrugatedPlates" expand="false" modifiable="true"/>
+            <node name="Foundations" nodeId="BD_Foundations" expand="false" modifiable="true"/>
+            <node name="Swashes" nodeId="BD_Swashes" expand="false" modifiable="true"/>
+            <node name="Transverse Stools" nodeId="BD_TransverseStools" expand="false" modifiable="true"/>
+        </node>
+        <node name="Longitudinal Systems" nodeId="BD_LongitudinalSystems" expand="false" modifiable="true">
+            <node name="Longitudinal Bulkheads" nodeId="BD_LongitudinalBulkheads" expand="false" modifiable="true"/>
+            <node name="Longitudinal Plates" nodeId="BD_LongitudinalPlates" expand="false" modifiable="true"/>
+            <node name="Longitudinal Girders" nodeId="BD_LongitudinalGirders" expand="false" modifiable="true"/>
+            <node name="Longitudinal Strengthes" nodeId="BD_LongitudinalStrengthes" expand="false" modifiable="true"/>
+        </node>
+        <node name="Horizontal Systems" nodeId="BD_HorizontalSystems" expand="false" modifiable="true">
+            <node name="Decks" nodeId="BD_Decks" expand="false" modifiable="true"/>
+            <node name="Horizontal Plates" nodeId="BD_HorizontalPlates" expand="false" modifiable="true"/>
+            <node name="Platforms" nodeId="BD_Platforms" expand="false" modifiable="true"/>
+            <node name="Flats" nodeId="BD_Flats" expand="false" modifiable="true"/>
+            <node name="Horizontal Girders" nodeId="BD_HorizontalGirders" expand="false" modifiable="true"/>
+            <node name="Tank Tops" nodeId="BD_TankTops" expand="false" modifiable="true"/>
+            <node name="Horizontal Stools" nodeId="BD_HorizontalStools" expand="false" modifiable="true"/>
+            <node name="Gratings" nodeId="BD_Gratings" expand="false" modifiable="true"/>
+        </node>
+        <node name="Generic Systems" nodeId="BD_GenericSystems" expand="false" modifiable="true">
+            <node name="Generic Plate Systems" nodeId="BD_GenericPlateSystems" expand="false" modifiable="true"/>
+            <node name="Superstructures" nodeId="BD_Superstructures" expand="false" modifiable="true"/>
+            <node name="Stack" nodeId="BD_Stacks" expand="false" modifiable="true"/>
+            <node name="Hawse Pipes" nodeId="BD_HawsePipes" expand="false" modifiable="true"/>
+            <node name="Chain Lockers" nodeId="BD_ChainLockers" expand="false" modifiable="true"/>
+            <node name="Fairwaters" nodeId="BD_Fairwaters" expand="false" modifiable="true"/>
+        </node>
+    </node>
+    <node name="Detail Design" nodeId="DetailDesign" icon="nx_ship_generic" expand="true"  modifiable="true" application="Detail Design">
+        <contextMenu>
+            <item name="Add Node..." function="AddNode@Standard" defaultName="New" />
+            <item name="Edit Node..." function="EditNode@Standard"/>
+            <item name="Delete Node..." function="DeleteNode@Standard"/>
+            <item name="Copy Node..." function="CopyNode@Standard"/>
+            <item name="Cut Node..." function="CutNode@Standard"/>
+            <item name="Paste Node..." function="PasteNode@Standard"/>
+            <item name="Set Active Node..." function="SetActiveNode@Standard"/>
+        </contextMenu>
+        <node name="BLK-83" nodeId="DD_BLK-83" expand="true" modifiable="true">
+            <node name="Plates" nodeId="DD_Plates" expand="true" modifiable="true">
+                <node name="Hull Plates" nodeId="DD_HullPlates" expand="false" modifiable="true"/>
+                <node name="Transverse Plates" nodeId="DD_TransversePlates" expand="false" modifiable="true">
+                    <node name="Transverse Bulkheads" nodeId="DD_TransverseBulkheads" expand="false" modifiable="true"/>
+                    <node name="Transverse Girders" nodeId="DD_TransverseGirders" expand="false" modifiable="true"/>
+                    <node name="Transverse Plates" nodeId="DD_TransversePlates" expand="false" modifiable="true"/>
+                    <node name="Web Frames" nodeId="DD_WebFrames" expand="false" modifiable="true"/>
+                    <node name="Corrugated Plates" nodeId="DD_CorrugatedPlates" expand="false" modifiable="true"/>
+                    <node name="Foundations" nodeId="DD_Foundations" expand="false" modifiable="true"/>
+                    <node name="Swashes" nodeId="DD_Swashes" expand="false" modifiable="true"/>
+                    <node name="Transverse Stools" nodeId="DD_TransverseStools" expand="false" modifiable="true"/>
+                </node>
+                <node name="Longitudinal Plates" nodeId="DD_LongitudinalPlates" expand="false" modifiable="true">
+                    <node name="Longitudinal Bulkheads" nodeId="DD_LongitudinalBulkheads" expand="false" modifiable="true"/>
+                    <node name="Longitudinal Plates" nodeId="DD_LongitudinalPlates" expand="false" modifiable="true"/>
+                    <node name="Longitudinal Girders" nodeId="DD_LongitudinalGirders" expand="false" modifiable="true"/>
+                    <node name="Longitudinal Strengthes" nodeId="DD_LongitudinalStrengthes" expand="false" modifiable="true"/>
+                </node>
+                <node name="Horizontal Plates" nodeId="DD_HorizontalPlates" expand="false" modifiable="true">
+                    <node name="Decks" nodeId="DD_Decks" expand="false" modifiable="true"/>
+                    <node name="Horizontal Plates" nodeId="DD_HorizontalPlates" expand="false" modifiable="true"/>
+                    <node name="Platforms" nodeId="DD_Platforms" expand="false" modifiable="true"/>
+                    <node name="Flats" nodeId="DD_Flats" expand="false" modifiable="true"/>
+                    <node name="Horizontal Girders" nodeId="DD_HorizontalGirders" expand="false" modifiable="true"/>
+                    <node name="Tank Tops" nodeId="DD_TankTops" expand="false" modifiable="true"/>
+                    <node name="Horizontal Stools" nodeId="DD_HorizontalStools" expand="false" modifiable="true"/>
+                    <node name="Gratings" nodeId="DD_Gratings" expand="false" modifiable="true"/>
+                </node>
+                <node name="Generic Plates" nodeId="DD_GenericPlates" expand="false" modifiable="true">
+                    <node name="Generic Plate Systems" nodeId="DD_GenericPlateSystems" expand="false" modifiable="true"/>
+                    <node name="Superstructures" nodeId="DD_Superstructures" expand="false" modifiable="true"/>
+                    <node name="Stacks" nodeId="DD_Stacks" expand="false" modifiable="true"/>
+                    <node name="Hawse Pipes" nodeId="DD_HawsePipes" expand="false" modifiable="true"/>
+                    <node name="Chain Lockers" nodeId="DD_ChainLockers" expand="false" modifiable="true"/>
+                    <node name="Fairwaters" nodeId="DD_Fairwaters" expand="false" modifiable="true"/>
+                </node>
+                <node name="Brackets" nodeId="DD_Brackets" expand="false" modifiable="true"/>
+                <node name="Collar Plates" nodeId="DD_CollarPlates" expand="false" modifiable="true"/>
+            </node>
+            <node name="Stiffeners" nodeId="DD_Stiffeners" expand="false" modifiable="true">
+                <node name="Stiffener Systems" nodeId="DD_StiffenerSystems" expand="false" modifiable="true"/>
+                <node name="Longitudinals" nodeId="DD_Longitudinals" expand="false" modifiable="true"/>
+                <node name="Longitudinal Strengthes" nodeId="DD_Stiffener_LongitudinalStrengthes" expand="false" modifiable="true"/>
+                <node name="Transverses" nodeId="DD_Transverses" expand="false" modifiable="true"/>
+                <node name="Verticals" nodeId="DD_Verticals" expand="false" modifiable="true"/>
+                <node name="Foundations" nodeId="DD_Stiffener_Foundations" expand="false" modifiable="true"/>
+                <node name="Headers" nodeId="DD_Headers" expand="false" modifiable="true"/>
+                <node name="Corner Supports" nodeId="DD_CornerSupports" expand="false" modifiable="true"/>
+                <node name="Bummers" nodeId="DD_Bummers" expand="false" modifiable="true"/>
+            </node>
+            <node name="Edge Reinforcements" nodeId="DD_EdgeReinforcements" expand="false" modifiable="true">
+                <node name="Edge Reinforcement Systems" nodeId="DD_EdgeReinforcementSystems" expand="false" modifiable="true"/>
+                <node name="Face Plates" nodeId="DD_FacePlates" expand="false" modifiable="true"/>
+                <node name="Flange Plates" nodeId="DD_FlangePlates" expand="false" modifiable="true"/>
+                <node name="Coamings" nodeId="DD_Coamings" expand="false" modifiable="true"/>
+                <node name="Splash Guards" nodeId="DD_SplashGuards" expand="false" modifiable="true"/>
+            </node>
+            <node name="Pillars" nodeId="DD_Pillars" expand="false" modifiable="true"/>
+        </node>
+    </node>
+    <node name="Breakdown Structures" nodeId="SpatialBreakdown" expand="false" icon="connection" modifiable="false" application="General Arrangement" BreakdownType="None;Tank;Compartment" BreakdownSubType="None;fuel oil,waste water,ballast water,marine diesel oil;Watertight Compartment,Free Flood Compartment,Buoyant Bodies">
+        <contextMenu>
+            <item function="CreateBreakdown@Standard" name="Add Breakdown"/>
+            <item function="CreateVolume@Standard" name="Add Volume"/>
+            <item function="EditNode@Standard" name="Edit Node..."/>
+            <item function="CutNode@Standard" name="Cut Node..."/>
+            <item function="CopyNode@Standard" name="Copy Node..."/>
+            <item function="PasteNode@Standard" name="Paste Node..."/>
+            <item function="DeleteNode@Standard" name="Delete Node..."/>
+            <item function="SetActiveNode@Standard" name="Set Active Node..."/>
+            <item function="CreatePhysicalCompartment@Standard" name="Physical Compartment..."/>
+        </contextMenu>
+        <node expand="true" icon="folder" modifiable="true" name="Tanks" nodeId="BS_Tanks">
+            <node BreakdownSubType="waste water" BreakdownType="Tank" color="" draggable="true" expand="true" icon="folder" modifiable="true" name="WasteWaterTank" nodeId="Node_WWTank">
+                <node BreakdownSubType="waste water" BreakdownType="Tank" color="" draggable="true" expand="true" icon="folder" modifiable="true" name="Purpose 1" nodeId="Node_WWTank_P1"/>
+            </node>
+        </node>
+        <node expand="true" icon="folder" modifiable="true" name="Compartments" nodeId="BS_Compartments"/>
+    </node>
+
+    <assignRules>
+        <!-- Define the mapping rules to automatically assign node with specific attribute to the destination container -->
+        <!-- For instance, if a plate system with system type attribute, SAW_NAME=Hull, when assigning node  per rule, it will be moved to the container with containerNodeId=SSN_MainStructures_ExternalHull-->
+        
+        <!-- ********************************************* Basic Design Assign Rule ************************************************** -->
+        <!-- define the rule to gather hull -->
+        <partRuleItem systemType="Hull" containerNodeId="BD_Hull"/>
+        <!-- define the rule to gather all the transverse plate systems -->
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Transverse Bulkhead" containerNodeId="BD_TransverseBulkheads"/>
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Transverse Girder" containerNodeId="BD_TransverseGirders"/>
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Transverse Plate" containerNodeId="BD_TransversePlates"/>
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Web Frame" containerNodeId="BD_WebFrames"/>
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Corrugated" containerNodeId="BD_CorrugatedPlates"/>
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Foundation" containerNodeId="BD_Foundations"/>
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Swash" containerNodeId="BD_Swashes"/>
+        <partRuleItem systemType="TransverseBulkhead" contextAttribute="Stool" containerNodeId="BD_TransverseStools"/>
+        <partRuleItem systemType="TransverseBulkhead" containerNodeId="BD_TransverseSystems"/>
+        <!-- define the rule to gather all the longitudinal plate systems -->
+        <partRuleItem systemType="LongitudinalBulkhead" contextAttribute="Longitudinal Bulkhead" containerNodeId="BD_LongitudinalBulkheads"/>
+        <partRuleItem systemType="LongitudinalBulkhead" contextAttribute="Longitudinal Plate" containerNodeId="BD_LongitudinalPlates"/>
+        <partRuleItem systemType="LongitudinalBulkhead" contextAttribute="Longitudinal Girder" containerNodeId="BD_LongitudinalGirders"/>
+        <partRuleItem systemType="LongitudinalBulkhead" contextAttribute="Longitudinal Strength" containerNodeId="BD_LongitudinalStrengthes"/>
+        <partRuleItem systemType="LongitudinalBulkhead" containerNodeId="BD_LongitudinalSystems"/>
+        <!-- define the rule to gather all the horizontal plate systems -->
+        <partRuleItem systemType="Deck" contextAttribute="Deck" containerNodeId="BD_Decks"/>
+        <partRuleItem systemType="Deck" contextAttribute="Horizontal Plate" containerNodeId="BD_HorizontalPlates"/>
+        <partRuleItem systemType="Deck" contextAttribute="Platform" containerNodeId="BD_Platforms"/>
+        <partRuleItem systemType="Deck" contextAttribute="Flat" containerNodeId="BD_Flats"/>
+        <partRuleItem systemType="Deck" contextAttribute="Horizontal Girder" containerNodeId="BD_HorizontalGirders"/>
+        <partRuleItem systemType="Deck" contextAttribute="Tank Top" containerNodeId="BD_TankTops"/>
+        <partRuleItem systemType="Deck" contextAttribute="Stool" containerNodeId="BD_HorizontalStools"/>
+        <partRuleItem systemType="Deck" contextAttribute="Grating" containerNodeId="BD_Gratings"/>
+        <partRuleItem systemType="Deck" containerNodeId="BD_HorizontalSystems"/>
+        <!-- define the rule to gather all the generic plate systems -->
+        <partRuleItem systemType="GenericPlateSystem" contextAttribute="Generic Plate System" containerNodeId="BD_GenericPlateSystems"/>
+        <partRuleItem systemType="GenericPlateSystem" contextAttribute="Superstructure" containerNodeId="BD_Superstructures"/>
+        <partRuleItem systemType="GenericPlateSystem" contextAttribute="Stack" containerNodeId="BD_Stacks"/>
+        <partRuleItem systemType="GenericPlateSystem" contextAttribute="Hawse Pipe" containerNodeId="BD_HawsePipes"/>
+        <partRuleItem systemType="GenericPlateSystem" contextAttribute="Chain Locker" containerNodeId="BD_ChainLockers"/>
+        <partRuleItem systemType="GenericPlateSystem" contextAttribute="Fairwater" containerNodeId="BD_Fairwaters"/>
+        <partRuleItem systemType="GenericPlateSystem" containerNodeId="BD_GenericSystems"/>
+        <!-- ********************************************* Basic Design Assign Rule ************************************************** -->
+        
+        <!-- ********************************************* Detail Design Assign Rule ************************************************** -->
+        <!-- the rules concerning gathering detail design profiles -->
+        <!-- define the rule to gather all the detail profiles -->
+        <partRuleItem systemType="Profile" byPartName="*Stiffener System*" containerNodeId="DD_StiffenerSystems"/>
+        <partRuleItem systemType="Profile" byPartName="*Longitudinal*" containerNodeId="DD_Longitudinals"/>
+        <partRuleItem systemType="Profile" byPartName="*Longitudinal Strength*" containerNodeId="DD_Stiffener_LongitudinalStrengthes"/>
+        <partRuleItem systemType="Profile" byPartName="*Transverse*" containerNodeId="DD_Transverses"/>
+        <partRuleItem systemType="Profile" byPartName="*Vertical*" containerNodeId="DD_Verticals"/>
+        <partRuleItem systemType="Profile" byPartName="*Foundation*" containerNodeId="DD_Stiffener_Foundations"/>
+        <partRuleItem systemType="Profile" byPartName="*Header*" containerNodeId="DD_Headers"/>
+        <partRuleItem systemType="Profile" byPartName="*Corner Support*" containerNodeId="DD_CornerSupports"/>
+        <partRuleItem systemType="Profile" byPartName="*Bummer*" containerNodeId="DD_Bummers"/>
+        <!-- define the rule to gather all the detail edge reinforcements -->
+        <partRuleItem systemType="Profile" byPartName="*Edge Reinforcement System*" containerNodeId="DD_EdgeReinforcementSystems"/>
+        <partRuleItem systemType="Profile" byPartName="*Face Plate*" containerNodeId="DD_FacePlates"/>
+        <partRuleItem systemType="Profile" byPartName="*BummFlange Plateer*" containerNodeId="DD_FlangePlates"/>
+        <partRuleItem systemType="Profile" byPartName="*Coaming*" containerNodeId="DD_Coamings"/>
+        <partRuleItem systemType="Profile" byPartName="*Splash Guard*" containerNodeId="DD_SplashGuards"/>
+        <!-- define the rule to gather all the detail pillars -->
+        <partRuleItem systemType="Profile" byPartName="*Pillar*" containerNodeId="DD_Pillars"/>
+        <!-- define the rule to gather all the profile of plate stock -->
+        <partRuleItem systemType="Plate" byPartAttribute = "SAW_SUB_NAME = Profile" byPartName = "*-on-*" containerNodeId="DD_EdgeReinforcementSystems"/>
+        <partRuleItem systemType="Plate" byPartAttribute = "SAW_SUB_NAME = Profile" containerNodeId="DD_StiffenerSystems"/>
+        
+        <!-- the rules concerning gathering detail design plates -->
+        <!-- define the rule to gather all the detail plates of hull -->
+        <partRuleItem systemType="Plate" byPartName = "*Hull*" containerNodeId="DD_HullPlates"/>
+        <!-- define the rule to gather all the transverse detail plates -->
+        <partRuleItem systemType="Plate" byPartName="*Transverse Bulkhead*" containerNodeId="DD_TransversePlates"/>
+        <partRuleItem systemType="Plate" byPartName="*Transverse Girder*" containerNodeId="DD_TransverseGirders"/>
+        <partRuleItem systemType="Plate" byPartName="*Transverse Plate*" containerNodeId="DD_TransversePlates"/>
+        <partRuleItem systemType="Plate" byPartName="*Web Frame*" containerNodeId="DD_WebFrames"/>
+        <partRuleItem systemType="Plate" byPartName="*Corrugated*" containerNodeId="DD_CorrugatedPlates"/>
+        <partRuleItem systemType="Plate" byPartName="*Foundation*" containerNodeId="DD_Foundations"/>
+        <partRuleItem systemType="Plate" byPartName="*Swash*" containerNodeId="DD_Swashes"/>
+        <partRuleItem systemType="Plate" byPartName="*Stool*" byPartAttribute = "SAW_NAME = TransverseBulkhead" containerNodeId="DD_TransverseStools"/>
+        <!-- define the rule to gather all the longitudinal detail plates -->
+        <partRuleItem systemType="Plate" byPartName="*Longitudinal Bulkhead*" containerNodeId="DD_LongitudinalBulkheads"/>
+        <partRuleItem systemType="Plate" byPartName="*Longitudinal Plate*" containerNodeId="DD_LongitudinalPlates"/>
+        <partRuleItem systemType="Plate" byPartName="*Longitudinal Girder*" containerNodeId="DD_LongitudinalGirders"/>
+        <partRuleItem systemType="Plate" byPartName="*Longitudinal Strength*" containerNodeId="DD_LongitudinalStrengthes"/>
+        <!-- define the rule to gather all the horizontal detail plates -->
+        <partRuleItem systemType="Plate" byPartName="*Deck*" containerNodeId="DD_Decks"/>
+        <partRuleItem systemType="Plate" byPartName="*Horizontal Plate*" containerNodeId="DD_HorizontalPlates"/>
+        <partRuleItem systemType="Plate" byPartName="*Platform*" containerNodeId="DD_Platforms"/>
+        <partRuleItem systemType="Plate" byPartName="*Flat*" containerNodeId="DD_Flats"/>
+        <partRuleItem systemType="Plate" byPartName="*Horizontal Girder*" containerNodeId="DD_HorizontalGirders"/>
+        <partRuleItem systemType="Plate" byPartName="*Tank Top*" containerNodeId="DD_TankTops"/>
+        <partRuleItem systemType="Plate" byPartName="*Stool*" byPartAttribute = "SAW_NAME = Deck" containerNodeId="DD_HorizontalStools"/>
+        <partRuleItem systemType="Plate" byPartName="*Grating*" containerNodeId="DD_Gratings"/>
+        <!-- define the rule to gather all the generic detail plates -->
+        <partRuleItem systemType="Plate" byPartName="*Generic Plate System*" containerNodeId="DD_GenericPlateSystems"/>
+        <partRuleItem systemType="Plate" byPartName="*Superstructure*" containerNodeId="DD_Superstructures"/>
+        <partRuleItem systemType="Plate" byPartName="*Stack*" containerNodeId="DD_Stacks"/>
+        <partRuleItem systemType="Plate" byPartName="*Hawse Pipe*" containerNodeId="DD_HawsePipes"/>
+        <partRuleItem systemType="Plate" byPartName="*Chain Locker*" containerNodeId="DD_ChainLockers"/>
+        <partRuleItem systemType="Plate" byPartName="*Fairwater*" containerNodeId="DD_Fairwaters"/>
+        <!-- define the rule to gather all the standard part plates -->
+        <partRuleItem systemType="Bracket" byPartName="*Bracket*" containerNodeId="DD_Brackets"/>
+        <partRuleItem systemType="Standard Part Bracket" byPartName="*Bracket*" containerNodeId="DD_Brackets"/>
+        <partRuleItem systemType="CollarPlate" byPartName="*Collar*" containerNodeId="DD_CollarPlates"/>
+        <!-- define the rule to gather all the plates that haven't been classified -->
+        <partRuleItem systemType="Plate" containerNodeId="DD_Plates"/>
+        <!-- ********************************************* Detail Design Assign Rule ************************************************** -->
+
+        <!-- ********************************************* General Arrangement Assign Rule ************************************************** -->
+        <!-- the rules concerning gathering GA rooms -->
+        <!-- define the rule to gather the rooms -->
+        <partRuleItem byPartAttribute = "RoomSubPurpose = waste water" containerNodeId="Node_WWTank_P1"/>
+        <!-- ********************************************* Detail Design Assign Rule ************************************************** -->
+    </assignRules>
+
+    <primaryView>
+        <column name="Material" attribute="SAW_MATERIAL" visible="true" sortable="false" application="Detail Design"/>
+        <column name="Stock" attribute="SAW_SIZE" visible="true" sortable="false" application="Detail Design"/>
+        <column name="System Type" attribute="SAW_NAME" visible="true" application="Basic Design"/>
+        <column name="Count" attribute="SHIPNAV_PART_COUNT" visible="true" sortable="false"/>
+    </primaryView>
+</view>

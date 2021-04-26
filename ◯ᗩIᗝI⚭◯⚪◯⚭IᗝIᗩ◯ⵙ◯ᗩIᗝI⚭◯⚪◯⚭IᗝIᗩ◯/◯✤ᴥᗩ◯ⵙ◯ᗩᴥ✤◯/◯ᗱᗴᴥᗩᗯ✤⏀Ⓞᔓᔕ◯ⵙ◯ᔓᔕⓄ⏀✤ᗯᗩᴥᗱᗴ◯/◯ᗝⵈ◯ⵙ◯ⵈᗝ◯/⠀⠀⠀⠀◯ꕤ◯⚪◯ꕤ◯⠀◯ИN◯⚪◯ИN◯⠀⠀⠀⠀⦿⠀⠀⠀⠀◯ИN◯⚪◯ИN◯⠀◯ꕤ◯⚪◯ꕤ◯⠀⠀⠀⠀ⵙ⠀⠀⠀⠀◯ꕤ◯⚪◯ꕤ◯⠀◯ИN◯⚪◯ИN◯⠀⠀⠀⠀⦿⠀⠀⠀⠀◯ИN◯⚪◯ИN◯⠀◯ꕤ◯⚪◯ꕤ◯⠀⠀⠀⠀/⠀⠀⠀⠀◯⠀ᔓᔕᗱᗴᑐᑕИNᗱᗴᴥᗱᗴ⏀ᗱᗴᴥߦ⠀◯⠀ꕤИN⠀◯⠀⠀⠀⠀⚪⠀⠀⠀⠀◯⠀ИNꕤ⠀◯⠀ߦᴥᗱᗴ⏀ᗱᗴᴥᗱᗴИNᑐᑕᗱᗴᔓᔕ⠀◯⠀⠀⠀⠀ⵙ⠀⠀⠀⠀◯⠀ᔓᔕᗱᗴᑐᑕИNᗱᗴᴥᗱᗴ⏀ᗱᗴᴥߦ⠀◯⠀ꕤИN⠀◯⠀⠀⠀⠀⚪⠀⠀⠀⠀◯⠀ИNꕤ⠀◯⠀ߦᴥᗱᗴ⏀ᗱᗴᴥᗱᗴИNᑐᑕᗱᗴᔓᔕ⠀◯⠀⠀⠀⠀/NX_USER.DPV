@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="NX_user.xsl"?>
+<PrefValues defaultLockStatus="unlocked">
+<Pref Application="Gateway" Category="User Interface" Tab="Options" displayValue="14" modified="2021-04-25T18:08:11" name="UG_listingDecimalPlaces_MU" title="Information Window - Number of Decimal Places" value="14"/>
+<Pref Application="Gateway" Category="User Interface" Tab="Options" displayValue="On" modified="2021-04-25T18:08:46" name="UG_undoConfirmation" title="User Feedback - Confirm Undo" value="1"/>
+<Pref Application="Gateway" Category="User Interface" Tab="Options" displayValue="11" modified="2021-04-25T18:07:55" name="UG_textFieldDecimalPlaces" title="Dialog Boxes - Number of Decimal Places" value="11"/>
+<Pref Application="Gateway" Category="User Interface" Tab="Options" displayValue="11" modified="2021-04-25T18:08:16" name="UG_dialogBarDecimalPlaces" title="Tracking Bar - Number of Decimal Places" value="11"/>
+<Pref Application="Gateway" Category="User Interface" Tab="Options" displayValue="0" modified="2021-04-25T18:08:33" name="NX_welcomePageDisplayTimes" title="User Feedback - Welcome Page Duration" value="0"/>
+</PrefValues>
