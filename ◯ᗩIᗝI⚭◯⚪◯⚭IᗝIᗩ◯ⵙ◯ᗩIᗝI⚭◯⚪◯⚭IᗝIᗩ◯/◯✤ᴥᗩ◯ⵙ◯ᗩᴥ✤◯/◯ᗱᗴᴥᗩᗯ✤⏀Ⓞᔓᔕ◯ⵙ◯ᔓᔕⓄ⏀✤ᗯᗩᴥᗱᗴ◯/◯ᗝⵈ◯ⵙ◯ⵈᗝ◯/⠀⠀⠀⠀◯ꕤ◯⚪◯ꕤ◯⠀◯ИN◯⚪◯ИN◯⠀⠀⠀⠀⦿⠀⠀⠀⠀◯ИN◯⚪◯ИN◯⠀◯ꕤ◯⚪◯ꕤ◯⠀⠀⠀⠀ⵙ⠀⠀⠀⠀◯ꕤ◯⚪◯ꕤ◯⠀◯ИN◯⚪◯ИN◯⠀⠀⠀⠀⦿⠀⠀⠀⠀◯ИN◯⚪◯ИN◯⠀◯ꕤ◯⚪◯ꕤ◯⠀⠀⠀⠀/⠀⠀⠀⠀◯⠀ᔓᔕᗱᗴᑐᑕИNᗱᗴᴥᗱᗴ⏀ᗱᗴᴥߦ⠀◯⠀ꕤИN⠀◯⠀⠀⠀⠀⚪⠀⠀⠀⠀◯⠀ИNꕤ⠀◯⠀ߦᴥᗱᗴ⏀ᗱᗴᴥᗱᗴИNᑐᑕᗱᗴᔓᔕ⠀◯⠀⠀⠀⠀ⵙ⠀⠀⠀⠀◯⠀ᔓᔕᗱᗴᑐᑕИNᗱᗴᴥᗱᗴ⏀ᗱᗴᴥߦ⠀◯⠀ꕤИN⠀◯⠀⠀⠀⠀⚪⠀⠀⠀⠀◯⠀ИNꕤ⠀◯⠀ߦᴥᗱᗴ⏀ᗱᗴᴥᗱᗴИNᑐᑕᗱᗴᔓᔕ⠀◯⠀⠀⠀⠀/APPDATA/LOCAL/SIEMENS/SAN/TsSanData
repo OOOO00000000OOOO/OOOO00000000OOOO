@@ -1,0 +1,25 @@
+{
+    "Products": [
+        {
+            "Name": "SolidEdge",
+            "Version": "220.00.00.104",
+            "Platform": "wntx64",
+            "LastAccess": 18258.0
+        },
+        {
+            "Name": "NX",
+            "Version": "1888",
+            "Platform": "wntx64",
+            "LastConfigAccess": 18368.0
+        },
+        {
+            "Name": "NX",
+            "Version": "1969",
+            "Platform": "wntx64",
+            "LastConfigAccess": 18743.0,
+            "LastServerAccess": 18743.0,
+            "LastActive": 18743.0
+        }
+    ],
+    "LastClientQuery": 18742.0
+}
