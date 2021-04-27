@@ -187,8 +187,12 @@
 "URL"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\mach\samples\CAM_Machine_Samples.pax"
 "TNL_WIDTH"=dword:0000011e
 "TNL_VIEW"=dword:00000000
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette7]
+"URL"="UG/IR_SYS_MATERIAL_PAL:C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\ugphoto\IrayPlus_ug_canned_mattex\"
+"TNL_WIDTH"=dword:0000011e
+"TNL_VIEW"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PartNT\Columns]
-"Column Headers"="NAME,On,430CURRENT_FEATURE,On,78OUT_OF_DATE,On,62FEATURE_TYPE,Off,200TIMESTAMP,On,62LAYER,On,35COLOR,On,36STATE,Off,100PARENT_INTERFACE,Off,100CREATED,On,67MODIFIED,On,65COMMENT,On,57REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,Off,100VIEW_REPRESENTATION,Off,100SHEET_NUMBER,Off,100SHEET_REVISION,Off,100SHEET_EFFECTIVITY,Off,100ARRANGEMENT,Off,100FORMULA,On,48DISCLOSURE,Off,100DISCLOSURE_PURPOSE,Off,100MASS,Off,100MASS_STATUS,Off,100MASS_SOURCE_TYPE,Off,100"
+"Column Headers"="NAME,On,789CURRENT_FEATURE,On,78OUT_OF_DATE,On,62FEATURE_TYPE,Off,200TIMESTAMP,On,62LAYER,On,35COLOR,On,36STATE,Off,100PARENT_INTERFACE,Off,100CREATED,On,67MODIFIED,On,65COMMENT,On,57REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,Off,100VIEW_REPRESENTATION,Off,100SHEET_NUMBER,Off,100SHEET_REVISION,Off,100SHEET_EFFECTIVITY,Off,100ARRANGEMENT,Off,100FORMULA,On,48DISCLOSURE,Off,100DISCLOSURE_PURPOSE,Off,100MASS,Off,100MASS_STATUS,Off,100MASS_SOURCE_TYPE,Off,100"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PartNT\Filters]
 "num_filters"=dword:00000006
 "filter:1"="Only Failed FeaturesUGS::PARTNAV_category_filterExcludeAllFeaturesUGS::PARTNAV_state_filterIncludeFailed"
@@ -299,6 +303,7 @@
 "Sketch_PersistentRelationDeleted"="-2,1"
 "SnipAtBoundaryHasBeenSelected"="-2,1"
 "Modeling_SketchPreferences"="-2,1"
+"Modeling_DisplayObjectColor"="-2,1"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Layout\Railing]
 "Frame Marker"=dword:ffffffff
 "Frame Pos X"=dword:00007fff
@@ -323,13 +328,13 @@
 "Information"="0,873x517+294+0,0x0+0+0"
 "DA1"="1700x1700+-10+-10"
 "DA2"="1700x1700+242+54"
-"FLOAT"="1700x1700+549+818"
+"FLOAT"="1700x1700+469+238"
 "FSB"="0x0+0+0"
 "DevelopmentExchange"=dword:00000001
 "Horizon Windows Style"=dword:00000000
 "Horizon Scheme Style"=dword:00000000
 "WelcomePageUserResponse"=dword:00000000
-"SketchWelcomePageCount"=dword:00000009
+"SketchWelcomePageCount"=dword:0000000a
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Selection]
 "QuickPick Dialog X Position"=dword:00000342
 "QuickPick Dialog Y Position"=dword:000000d4
@@ -407,3 +412,4 @@
 "Standard Font Style"="Regular"
 "Standard Font Size"=dword:00000006
 "Model Size Profile"=dword:00000000
+"Line Antialiasing"=dword:00000000

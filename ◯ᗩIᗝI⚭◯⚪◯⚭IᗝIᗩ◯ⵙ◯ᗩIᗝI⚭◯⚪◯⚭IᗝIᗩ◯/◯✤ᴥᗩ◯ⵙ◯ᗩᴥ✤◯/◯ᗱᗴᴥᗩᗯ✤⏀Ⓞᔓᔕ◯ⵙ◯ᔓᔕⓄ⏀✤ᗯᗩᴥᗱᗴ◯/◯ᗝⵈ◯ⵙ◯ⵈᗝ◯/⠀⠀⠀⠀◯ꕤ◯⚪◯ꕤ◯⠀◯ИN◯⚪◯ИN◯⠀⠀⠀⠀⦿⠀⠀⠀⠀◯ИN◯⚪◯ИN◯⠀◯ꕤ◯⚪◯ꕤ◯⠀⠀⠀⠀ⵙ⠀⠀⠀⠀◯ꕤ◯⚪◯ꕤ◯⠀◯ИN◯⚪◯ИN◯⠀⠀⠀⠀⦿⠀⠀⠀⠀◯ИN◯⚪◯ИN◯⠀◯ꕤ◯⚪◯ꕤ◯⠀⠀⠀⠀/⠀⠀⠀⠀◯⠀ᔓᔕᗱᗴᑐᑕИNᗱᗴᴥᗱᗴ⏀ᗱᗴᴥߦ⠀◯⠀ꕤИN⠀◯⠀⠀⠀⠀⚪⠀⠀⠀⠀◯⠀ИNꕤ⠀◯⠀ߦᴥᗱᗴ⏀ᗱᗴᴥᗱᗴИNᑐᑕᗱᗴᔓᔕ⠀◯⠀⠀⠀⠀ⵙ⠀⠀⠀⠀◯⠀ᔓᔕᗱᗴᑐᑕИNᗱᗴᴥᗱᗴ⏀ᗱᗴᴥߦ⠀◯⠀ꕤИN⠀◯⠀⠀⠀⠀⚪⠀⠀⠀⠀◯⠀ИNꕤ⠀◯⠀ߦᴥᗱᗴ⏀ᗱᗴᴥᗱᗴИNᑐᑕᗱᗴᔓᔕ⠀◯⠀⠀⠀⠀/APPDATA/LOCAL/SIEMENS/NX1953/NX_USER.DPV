@@ -27,7 +27,7 @@
 <Pref Application="Gateway" Category="Object" Tab="Solid Body" displayValue="Default" modified="2021-04-27T16:32:03" name="UG_solidBodyWidth" title="Width" value="2147483647"/>
 <Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="Yes" modified="2021-04-26T02:22:40" name="Sketch_dynamicRelationDisplay" title="Dynamic Sketch Display" value="1"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Rendering" Tab="Graphics" displayValue="No" modified="2021-04-26T20:03:13" name="UG_disableDynamicUpdateAdvancedStudio" title="Graphics - Disable Dynamic Update Advanced Studio" value="false"/>
-<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="◯옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ◯ⵙ◯ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷◯" modified="2021-04-26T02:27:56" name="Sketch_sketchNamePrefix" title="Name Prefixes - Sketch" value="◯옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ◯ⵙ◯ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷◯"/>
+<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="⠀⠀⠀⠀◯⠀옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷⠀◯⠀⠀⠀⠀" modified="2021-04-27T20:31:06" name="Sketch_sketchNamePrefix" title="Name Prefixes - Sketch" value="⠀⠀⠀⠀◯⠀옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷⠀◯⠀⠀⠀⠀"/>
 <Pref Application="Gateway" Category="User Interface" Tab="Layer Dialog Box" displayValue="Yes" modified="2021-04-27T16:33:42" name="UG_showCategoryNames" title="Show Category Names" value="1"/>
 <Pref Application="Gateway" Category="Translators" Tab="STL Export" displayValue="1e-05" modified="2021-04-27T17:01:37" name="RPI_CleanNonManifoldsTol_MU" title="Tolerance" value="1e-05"/>
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner Origin" Tab="ANSI D" displayValue="Center" modified="2021-04-27T16:56:17" name="UG_plot_banner_origin_Y_D" title="Y Origin" value="1"/>
@@ -58,6 +58,7 @@
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner" Tab="Justification" displayValue="Center" modified="2021-04-27T16:54:41" name="UG_plot_banner_justification_E" title="ANSI Drawing Sheets - E" value="1"/>
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner" Tab="Justification" displayValue="Center" modified="2021-04-27T16:54:41" name="UG_plot_banner_justification_H" title="ANSI Drawing Sheets - H" value="1"/>
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner" Tab="Justification" displayValue="Center" modified="2021-04-27T16:54:41" name="UG_plot_banner_justification_J" title="ANSI Drawing Sheets - J" value="1"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Studio Rendering" Tab="Ray Traced Studio" displayValue="VCA" modified="2021-04-27T20:29:14" name="UG_type" title="Remote Render - Type" value="1"/>
 <Pref Application="Gateway" Category="Grid" Tab="Drawing and Layout" displayValue="1.0" modified="2021-04-27T16:43:46" name="UG_drawingGridRadialMajorSpacing_MU" title="Polar Grid - Major Grid Spacing" value="1.0"/>
 <Pref Application="Gateway" Category="Translators" Tab="STL Export" displayValue="1.40625" modified="2021-04-27T17:01:49" name="UG_STL_EXPORT_AngularTol" title="Angular Tolerance" value="1.40625"/>
 <Pref Application="Analysis" Category="Analyze Formability - One-step" Tab="Mesh" displayValue="Quadrilateral" modified="2021-04-27T18:52:23" name="Onestep_Analysis_MeshElementType" title="2D Element Type" value="1"/>
@@ -94,9 +95,9 @@
 <Pref Application="Gateway" Category="Reuse Library" Tab="General" displayValue="16" modified="2021-04-27T16:53:11" name="KRU_MemberSelectPageSize" title="Items in Member Select Area per Page" value="16"/>
 <Pref Application="Modeling" Category="Feature Parameters" SubCategory="Design Features" Tab="Cylinder" displayValue="1.0" modified="2021-04-26T21:50:42" name="Model_CylinderHeight_MU" title="Height" value="1.0"/>
 <Pref Application="Modeling" Category="Feature Parameters" SubCategory="Design Features" Tab="Offset Emboss" displayValue="1.0" modified="2021-04-26T21:52:22" name="Model_Offset_Emboss_Left_Width_MU" title="Left Width" value="1.0"/>
-<Pref Application="Modeling" Category="General" Tab="Additive Manufacturing" displayValue="159" modified="2021-04-27T17:15:38" name="Print_CSYS_Color" title="Print CSYS Color" value="159"/>
+<Pref Application="Modeling" Category="General" Tab="Additive Manufacturing" displayValue="44" modified="2021-04-27T19:30:20" name="Print_CSYS_Color" title="Print CSYS Color" value="44"/>
 <Pref Application="Gateway" Category="Part Navigator" Tab="All" displayValue="123" modified="2021-04-27T16:50:50" name="UG_PartNav_ParentFontColor" title="Parent Objects Color" value="123"/>
-<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="No" modified="2021-04-27T16:36:51" name="UG_widthDisplay" title="Line Widths - Show Widths" value="2"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="No" modified="2021-04-27T20:28:41" name="UG_widthDisplay" title="Line Widths - Show Widths" value="2"/>
 <Pref Application="Gateway" Category="User Interface" Tab="Resource Bar" displayValue="On Right" modified="2021-04-26T02:03:54" name="UG_alignResourceBar" title="Resource Bar - Display Resource Bar" value="1"/>
 <Pref Application="Gateway" Category="Grid" Tab="Sketch" displayValue="159" modified="2021-04-27T16:43:46" name="UG_sketchGridColor" title="Grid Settings - Grid Color" value="159"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Color" Tab="Geometry" displayValue="Original" modified="2021-04-27T16:37:33" name="UG_attentionColor" title="Geometry Colors - Attention" value="-1"/>
@@ -105,10 +106,10 @@
 <Pref Application="Gateway" Category="Grid" Tab="Model" displayValue="16" modified="2021-04-27T16:42:29" name="UG_modelGridSnapPointsPerMinorY_MU" title="Rectangular Grid - Snap Points per Minor" value="16"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Performance" Tab="Accuracy" displayValue="All Objects" modified="2021-04-27T16:35:49" name="UG_advVisTolUpdMode" title="Advanced Visualization Views - Update" value="1"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Performance" Tab="Accuracy" displayValue="5e-05" modified="2021-04-27T16:35:49" name="UG_analysisEdgeTol" title="Advanced Visualization Views - Edge" value="5e-05"/>
-<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="◯ᗱᗴИNꖴᙁ◯ⵙ◯ᙁꖴИNᗱᗴ◯" modified="2021-04-26T02:28:33" name="Sketch_lineNamePrefix" title="Name Prefixes - Line" value="◯ᗱᗴИNꖴᙁ◯ⵙ◯ᙁꖴИNᗱᗴ◯"/>
+<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="⠀⠀⠀⠀◯⠀ᗱᗴИNꖴᙁ⠀◯⠀⠀⠀⠀ⵙ⠀◯⠀ᙁꖴИNᗱᗴ⠀◯⠀⠀⠀⠀" modified="2021-04-27T20:31:42" name="Sketch_lineNamePrefix" title="Name Prefixes - Line" value="⠀⠀⠀⠀◯⠀ᗱᗴИNꖴᙁ⠀◯⠀⠀⠀⠀ⵙ⠀◯⠀ᙁꖴИNᗱᗴ⠀◯⠀⠀⠀⠀"/>
 <Pref Application="Gateway" Category="Grid" Tab="Model" displayValue="256" modified="2021-04-27T16:42:29" name="UG_modelGridAngularSnapPointsPerMinor" title="Polar Grid - Snap Points per Minor" value="256"/>
 <Pref Application="Gateway" Category="Grid" Tab="Drawing and Layout" displayValue="16" modified="2021-04-27T16:43:46" name="UG_drawingGridSnapPointsPerMinorY_MU" title="Rectangular Grid - Snap Points per Minor" value="16"/>
-<Pref Application="Gateway" Category="Lights" Tab="General" displayValue="0.8 0.05 0.05 0.05 0.05 0.05 0.05 0.05" modified="2021-04-27T16:48:07" name="UG_light_default_intensities" title="Intensities" value="0.8 0.05 0.05 0.05 0.05 0.05 0.05 0.05"/>
+<Pref Application="Gateway" Category="Lights" Tab="General" displayValue="0.3 0.15 0.15 0.15 0.15 0.15 0.15 0.15" modified="2021-04-27T19:38:36" name="UG_light_default_intensities" title="Intensities" value="0.3 0.15 0.15 0.15 0.15 0.15 0.15 0.15"/>
 <Pref Application="Gateway" Category="User Interface" Tab="Layer Dialog Box" displayValue="All Layers" modified="2021-04-27T16:33:18" name="UG_layersInList" title="Layers in List" value="0"/>
 <Pref Application="Gateway" Category="Grid" Tab="Drawing and Layout" displayValue="1.0" modified="2021-04-27T16:43:46" name="UG_drawingGridMajorSpacingY_MU" title="Rectangular Grid - Major Grid Spacing" value="1.0"/>
 <Pref Application="Gateway" Category="Edit Object Display" Tab="All" displayValue="Yes" modified="2021-04-27T16:48:27" name="UG_applyToOwningParts" title="Apply Changes to Owning Part" value="1"/>
@@ -133,13 +134,13 @@
 <Pref Application="Analysis" Category="Model Compare" Tab="Options" displayValue="Fine" modified="2021-04-27T18:51:13" name="Analysis_MdlCmp_Accuracy" title="Accuracy" value="2"/>
 <Pref Application="Gateway" Category="User Interface" Tab="Options" displayValue="14" modified="2021-04-25T18:08:11" name="UG_listingDecimalPlaces_MU" title="Information Window - Number of Decimal Places" value="14"/>
 <Pref Application="Gateway" Category="Grid" Tab="Model" displayValue="4" modified="2021-04-27T16:42:48" name="UG_modelGridRadialMinorsPerMajor_MU" title="Polar Grid - Minor Lines per Major" value="4"/>
-<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="◯ᑐᑕꖴИNⓄᑐᑕ◯ⵙ◯ᑐᑕⓄИNꖴᑐᑕ◯" modified="2021-04-26T02:29:41" name="Sketch_conicNamePrefix" title="Name Prefixes - Conic" value="◯ᑐᑕꖴИNⓄᑐᑕ◯ⵙ◯ᑐᑕⓄИNꖴᑐᑕ◯"/>
+<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="⠀⠀⠀⠀◯⠀ᑐᑕꖴИNⓄᑐᑕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᑐᑕⓄИNꖴᑐᑕ⠀◯⠀⠀⠀⠀" modified="2021-04-27T20:32:10" name="Sketch_conicNamePrefix" title="Name Prefixes - Conic" value="⠀⠀⠀⠀◯⠀ᑐᑕꖴИNⓄᑐᑕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᑐᑕⓄИNꖴᑐᑕ⠀◯⠀⠀⠀⠀"/>
 <Pref Application="Analysis" Category="Measurement" Tab="General" displayValue="On" modified="2021-04-27T17:58:31" name="UG_measurementExtremeFilter" title="Settings - Extreme Measurements" value="true"/>
 <Pref Application="Gateway" Category="Object" Tab="Datum/Plane" displayValue="Default" modified="2021-04-27T16:29:48" name="UG_planeAndDatumColor" title="Color" value="2147483647"/>
 <Pref Application="Modeling" Category="Human Modeling" Tab="General" displayValue="H-point" modified="2021-04-27T17:39:16" name="HM_REFERENCE_POINT" title="Reference Point" value="2"/>
 <Pref Application="Gateway" Category="Translators" Tab="STL Export" displayValue="0.0625" modified="2021-04-27T17:02:00" name="UG_STL_EXPORT_AdjacencyTol_MU" title="Adjacency Tolerance" value="0.0625"/>
 <Pref Application="Gateway" Category="Grid" Tab="Model" displayValue="159" modified="2021-04-27T16:46:18" name="UG_modelGridColor" title="Grid Settings - Grid Color" value="159"/>
-<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="◯✤ИNꖴⓄߦ◯ⵙ◯ߦⓄꖴИN✤◯" modified="2021-04-26T02:28:33" name="Sketch_vertexNamePrefix" title="Name Prefixes - Point" value="◯✤ИNꖴⓄߦ◯ⵙ◯ߦⓄꖴИN✤◯"/>
+<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="⠀⠀⠀⠀◯⠀✤ИNꖴⓄߦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ߦⓄꖴИN✤⠀◯⠀⠀⠀⠀" modified="2021-04-27T20:31:22" name="Sketch_vertexNamePrefix" title="Name Prefixes - Point" value="⠀⠀⠀⠀◯⠀✤ИNꖴⓄߦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ߦⓄꖴИN✤⠀◯⠀⠀⠀⠀"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="View" Tab="Interaction" displayValue="Yes" modified="2021-04-26T02:05:49" name="UG_ignoreLockVerticalAxis" title="Rotation - Ignore Lock Vertical Axis when Model is Tilted" value="true"/>
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner Origin" Tab="Other" displayValue="Center" modified="2021-04-27T16:56:17" name="UG_plot_banner_origin_X_display" title="X Origin" value="1"/>
 <Pref Application="Gateway" Category="Grid" Tab="Model" displayValue="1.0" modified="2021-04-27T16:42:29" name="UG_modelGridMajorSpacingY_MU" title="Rectangular Grid - Major Grid Spacing" value="1.0"/>
@@ -151,7 +152,7 @@
 <Pref Application="Modeling" Category="Freeform Modeling" Tab="General" displayValue="No" modified="2021-04-26T21:53:51" name="Model_Enable_Trimmed_Animation" title="Animation - Enable Trimmed Animation" value="0"/>
 <Pref Application="Gateway" Category="Object" Tab="Reference Point Cloud" displayValue="Default" modified="2021-04-27T16:30:01" name="UG_PointCloudColor" title="Color" value="2147483647"/>
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner Origin" Tab="ISO A0" displayValue="0.0" modified="2021-04-27T16:56:17" name="UG_plot_banner_offset_X_A0_MU" title="X Offset" value="0.0"/>
-<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="◯ᗱᗴИNꖴᙁߦᔓᔕ◯ⵙ◯ᔓᔕߦᙁꖴИNᗱᗴ◯" modified="2021-04-26T02:29:41" name="Sketch_splineNamePrefix" title="Name Prefixes - Spline" value="◯ᗱᗴИNꖴᙁߦᔓᔕ◯ⵙ◯ᔓᔕߦᙁꖴИNᗱᗴ◯"/>
+<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="⠀⠀⠀⠀◯⠀ᗱᗴИNꖴᙁߦᔓᔕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᔓᔕߦᙁꖴИNᗱᗴ⠀◯⠀⠀⠀⠀" modified="2021-04-27T20:32:22" name="Sketch_splineNamePrefix" title="Name Prefixes - Spline" value="⠀⠀⠀⠀◯⠀ᗱᗴИNꖴᙁߦᔓᔕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᔓᔕߦᙁꖴИNᗱᗴ⠀◯⠀⠀⠀⠀"/>
 <Pref Application="Gateway" Category="Translators" Tab="STL Export" displayValue="1e-05" modified="2021-04-27T17:01:30" name="RPI_CleanDegeneraciesTol_MU" title="Tolerance" value="1e-05"/>
 <Pref Application="Gateway" Category="View Operations" Tab="View Operations" displayValue="Yes" modified="2021-04-26T02:02:14" name="UG_navigateAutoPerspOff" title="Navigate Options - Auto Perspective Off" value="1"/>
 <Pref Application="Animation Designer" Category="General" Tab="Solver" displayValue="No" modified="2021-04-27T17:56:22" name="MD_DefaultDelayAnimationUpdate" title="Delay Animation Update" value="false"/>
@@ -212,7 +213,7 @@
 <Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="Yes" modified="2021-04-27T17:55:12" name="Sketch_maintainBlank" title="Task Environment - Maintain Hide Status" value="1"/>
 <Pref Application="Gateway" Category="Grid" Tab="Model" displayValue="4" modified="2021-04-27T16:42:29" name="UG_modelGridMinorsPerMajorX_MU" title="Rectangular Grid - Minor Lines per Major" value="4"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Color" Tab="Background" displayValue="255" modified="2021-04-27T16:40:14" name="UG_shaded_graduated_background_color1_R" title="Shaded Views - Top, Red RGB Value" value="255"/>
-<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="◯ᑐᑕᴥᗩ◯ⵙ◯ᗩᴥᑐᑕ◯" modified="2021-04-26T02:29:41" name="Sketch_arcNamePrefix" title="Name Prefixes - Arc" value="◯ᑐᑕᴥᗩ◯ⵙ◯ᗩᴥᑐᑕ◯"/>
+<Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="⠀⠀⠀⠀◯⠀ᑐᑕᴥᗩ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᗩᴥᑐᑕ⠀◯⠀⠀⠀⠀" modified="2021-04-27T20:31:55" name="Sketch_arcNamePrefix" title="Name Prefixes - Arc" value="⠀⠀⠀⠀◯⠀ᑐᑕᴥᗩ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᗩᴥᑐᑕ⠀◯⠀⠀⠀⠀"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Performance" Tab="Accuracy" displayValue="5e-05" modified="2021-04-27T16:35:11" name="UG_facetChordTol" title="Shaded Views - Face" value="5e-05"/>
 <Pref Application="Modeling" Category="Feature Parameters" SubCategory="Design Features" Tab="Dart" displayValue="0.5" modified="2021-04-26T21:51:56" name="Model_Dart_Radius_MU" title="Radius" value="0.5"/>
 <Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="No" modified="2021-04-26T21:36:44" name="Sketch_viewOrientation" title="Task Environment - Change View Orientation" value="0"/>
@@ -280,6 +281,7 @@
 <Pref Application="Modeling" Category="Feature Parameters" SubCategory="Hole" Tab="Custom Hole" displayValue="0.5" modified="2021-04-26T21:52:52" name="Model_SimpleHoleDepth_MU" title="Simple Hole - Depth" value="0.5"/>
 <Pref Application="Gateway" Category="Object" Tab="Datum Coordinate System" displayValue="Default" modified="2021-04-27T16:32:03" name="UG_datumCsysWidth" title="Width" value="2147483647"/>
 <Pref Application="Gateway" Category="Part Navigator" Tab="All" displayValue="Yes" modified="2021-04-27T16:50:05" name="UG_PartNav_DisplayReferenceSetsFolder" title="Display Reference Sets Folder" value="true"/>
+<Pref Application="Curves" Category="General" Tab="All" displayValue="Yes" modified="2021-04-27T19:24:13" name="Solids_EnableLegacyEditCurveParameters" title="Enable Legacy Edit Curve Parameters" value="true"/>
 <Pref Application="Gateway" Category="General" Tab="Miscellaneous" displayValue="On" modified="2021-04-27T16:26:39" name="UG_autoPatUpdate" title="Automatic Update of Patterns" value="1"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="View" Tab="General" displayValue="100" modified="2021-04-26T02:03:29" name="NX_Flythrough_NavigationSpeed" title="Fly-through - Navigation Speed" value="100"/>
 <Pref Application="Gateway" Category="General" Tab="Directories" displayValue="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O" modified="2021-04-26T06:29:52" name="UG_initialGripDir_WIN" title="GRIP Program Directory" value="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O"/>
