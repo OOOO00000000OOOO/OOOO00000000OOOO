@@ -118,7 +118,7 @@
             "Name": "NX",
             "Version": "1969",
             "Platform": "wntx64",
-            "Registered": "1619478042",
+            "Registered": "1619543033",
             "Server": "https://sangwc.industrysoftware.automation.siemens.com/",
             "Values": {
                 "CCD.Disable_Plane_Translucency": "Yes",
@@ -287,7 +287,7 @@
                 "Kits:ugweb": "",
                 "Kits:ugweld": "",
                 "Kits:unfold": "",
-                "Participating": "true",
+                "Participating": "false",
                 "RAM (GB)": 7.9912605285644531,
                 "SDKVersion": "2.7.0.969602",
                 "UIPreferenceSettings.Applied Role": "Welcome",
@@ -305,11 +305,11 @@
                 "UIPreferenceSettings.Insert Menu Comments": "On",
                 "UIPreferenceSettings.Journal File Format": "Unicode",
                 "UIPreferenceSettings.Journal Language": "Visual Basic",
-                "UIPreferenceSettings.Macro Playback Display Dialogs": "Off",
+                "UIPreferenceSettings.Macro Playback Display Dialogs": "On",
                 "UIPreferenceSettings.Macro Playback Pause Duration": "60",
                 "UIPreferenceSettings.Macro Playback Pause Indefinite": "Off",
-                "UIPreferenceSettings.Macro Record Transforms": "Off",
-                "UIPreferenceSettings.Resource Bar Display": "On Right",
+                "UIPreferenceSettings.Macro Record Transforms": "On",
+                "UIPreferenceSettings.Resource Bar Display": "As Ribbon Tab",
                 "UIPreferenceSettings.Resource Bar Flyout": "On",
                 "UIPreferenceSettings.Resource Bar on 2nd Monitor": "No Change",
                 "UIPreferenceSettings.Save Layout": "On",
@@ -323,7 +323,11 @@
                 "std-AppLanguage": "en_US",
                 "std-FullVersion": "1953.2802",
                 "std-OptOut": "false"
-            }
+            },
+            "Settings": {
+                "disable_certificates": 1.0
+            },
+            "Inhibit": []
         }
     ],
     "Endpoint": "02X627516dfd657d3b44b00ebd016b21311564f9",

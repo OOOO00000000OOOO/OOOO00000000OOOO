@@ -1,7 +1,7 @@
 ﻿REGEDIT4
 
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\ANT\Columns]
-"Column Headers"="PART_NAME,On,112VR_COLOR,Off,24VR_REPORT_PROPERTY,Off,75VR_RESULTS_BELOW,Off,24INFO,On,36COMPONENT_NAME,Off,100COMPONENT_REFLECTION_STATE,Off,24FILE_NAME,Off,250WRITABLE,On,24MODIFIED,On,24POSITION,Off,24COUNT,On,50REFERENCE_SET,On,100OUT_OF_DATE,Off,24FILE_DESCRIPTION,Off,75UNITS,Off,30MASS_LB,Off,50MASS_GM,Off,50MASS_KG,Off,50MASS_STATUS,Off,24MASS_SOURCE_TYPE,Off,50MASS_CENTER_OF_MASS,Off,50MASS_CENTER_OF_MASS_X,Off,50MASS_CENTER_OF_MASS_Y,Off,50MASS_CENTER_OF_MASS_Z,Off,50COLOR,Off,50LAYER,Off,50SHAPE,Off,24CONFIG,Off,50POSITION_CONTROL,Off,100SUPPRESSION_CONTROL,Off,100FILTERED_NODE,Off,24MULTI_CAD,Off,24PRODUCT INTERFACES,Off,24ALERTS,Off,100CALLOUT,Off,50QUANTITY,Off,24LOAD STATE,Off,75CHECKMATE RESULT,Off,24REPRESENTATION,Off,150DRAWINGS_SECONDARY_COMPONENT,Off,24NAVIGATOR ORDER,Off,50"
+"Column Headers"="PART_NAME,On,118VR_COLOR,Off,24VR_REPORT_PROPERTY,Off,75VR_RESULTS_BELOW,Off,24INFO,On,36COMPONENT_NAME,Off,100COMPONENT_REFLECTION_STATE,Off,24FILE_NAME,Off,250WRITABLE,On,57MODIFIED,On,24POSITION,Off,24COUNT,On,50REFERENCE_SET,On,100OUT_OF_DATE,Off,24FILE_DESCRIPTION,Off,75UNITS,Off,30MASS_LB,Off,50MASS_GM,Off,50MASS_KG,Off,50MASS_STATUS,Off,24MASS_SOURCE_TYPE,Off,50MASS_CENTER_OF_MASS,Off,50MASS_CENTER_OF_MASS_X,Off,50MASS_CENTER_OF_MASS_Y,Off,50MASS_CENTER_OF_MASS_Z,Off,50COLOR,Off,50LAYER,Off,50SHAPE,Off,24CONFIG,Off,50POSITION_CONTROL,Off,100SUPPRESSION_CONTROL,Off,100FILTERED_NODE,Off,24MULTI_CAD,Off,24PRODUCT INTERFACES,Off,24ALERTS,Off,100CALLOUT,Off,50QUANTITY,Off,24LOAD STATE,Off,75CHECKMATE RESULT,Off,24REPRESENTATION,Off,150DRAWINGS_SECONDARY_COMPONENT,Off,24NAVIGATOR ORDER,Off,50"
 "FrozenColumns"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\ANT\Mode]
 "Mode"="Normal"
@@ -36,7 +36,7 @@
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\CDV\WindowState]
 "DialogsVisible"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\CNAV\Columns]
-"Column Headers"="CONSTRAINT NAME,On,230CONSTRAINT STATUS,On,24CONSTRAINT DIRECTION TO FIXED,On,24CONSTRAINT TYPE,Off,24CONSTRAINT LOADED,On,24LAYER,Off,50ALERTS,Off,100CONSTRAINT CREATION DATE,On,100CONSTRAINT MODIFIED DATE,Off,100CONSTRAINT ARRANGEMENT SPECIFIC,Off,24CONSTRAINT EXPRESSION,Off,100CONSTRAINT SECOND EXPRESSION,Off,100CONSTRAINT OFFSET,Off,100CONSTRAINT DRIVEN,Off,24CONSTRAINT LOWER LIMIT,Off,100CONSTRAINT UPPER LIMIT,Off,100CONSTRAINT SECOND LOWER LIMIT,Off,100CONSTRAINT SECOND UPPER LIMIT,Off,100CONSTRAINT USER DEFINED NAME,Off,100CONSTRAINT INHERITED FROM,Off,100"
+"Column Headers"="CONSTRAINT NAME,On,230CONSTRAINT STATUS,On,47CONSTRAINT DIRECTION TO FIXED,On,93CONSTRAINT TYPE,Off,24CONSTRAINT LOADED,On,48LAYER,Off,50ALERTS,Off,100CONSTRAINT CREATION DATE,On,100CONSTRAINT MODIFIED DATE,Off,100CONSTRAINT ARRANGEMENT SPECIFIC,Off,24CONSTRAINT EXPRESSION,Off,100CONSTRAINT SECOND EXPRESSION,Off,100CONSTRAINT OFFSET,Off,100CONSTRAINT DRIVEN,Off,24CONSTRAINT LOWER LIMIT,Off,100CONSTRAINT UPPER LIMIT,Off,100CONSTRAINT SECOND LOWER LIMIT,Off,100CONSTRAINT SECOND UPPER LIMIT,Off,100CONSTRAINT USER DEFINED NAME,Off,100CONSTRAINT INHERITED FROM,Off,100"
 "FrozenColumns"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\CNAV\Mode]
 "Mode"=dword:00000001
@@ -84,6 +84,10 @@
 "TermsList"="120 120 120 120 120 120 120 120 10"
 "GroupsList"="10 100 10 10 100 100 10 10"
 "ModlFeatureUI::Mirror::ReusableReferencesList"="264"
+"Voronoi Lattice Item List"="75 75 75 10"
+"SectionList::sectionList"="10 209"
+"MultiTransitionLaw::NodeList"="10 10 10 10 10 145"
+"JtCreator::lodList"="100 97"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FCNTLNAV\WindowState]
 "DialogsVisible"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FILENEW\Tab Name]
@@ -125,6 +129,26 @@
 "Expanded"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\KRUNAV\WindowState]
 "DialogsVisible"=dword:00000001
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\NXG_PREF\IDEAS]
+"IDEASUG_CHECK_FIDELITY"=dword:00000000
+"IDEASUG_RETAIN_FC_DATA"=dword:00000000
+"IDEASUG_CHECK_TDM_REVISION"=dword:00000000
+"IDEASUG_HEAL_GEOM"=dword:00000000
+"IDEASUG_IMPORT_PMI"=dword:00000001
+"IDEASUG_IMPORT_CGEOM"=dword:00000001
+"IDEASUG_VIEW_CREATE"=dword:00000001
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\NXG_PREF\INTEROP]
+"INTEROPUG_WFRAME_LAYER"=dword:00000001
+"INTEROPUG_WFRAME_COLOR"=dword:00000003
+"INTEROPUG_REF_GEOM_LAYER"=dword:00000001
+"INTEROPUG_REF_GEOM_COLOR"=dword:00000004
+"INTEROPUG_IGNORE_SAME_PART"=dword:00000000
+"INTEROPUG_SAVE_COMP_ON_LOAD"=dword:00000000
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\NXG_PREF\SOLIDEDGE]
+"SEUG_IMPORT_PMI"=dword:00000001
+"SEUG_IMPORT_CGEOM"=dword:00000001
+"SEUG_IMPORT_DES_PART"=dword:00000000
+"SEUG_IMPORT_ASSM_FEAT"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\OmniCAD for NX\Application]
 "Status"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PARTNT\WindowState\Dialogs\Dependencies]
@@ -149,11 +173,11 @@
 "TNL_VIEW"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette3]
 "URL"="UG/CAM_WIZARD_PAL:Manufacturing Wizards"
-"TNL_WIDTH"=dword:0000011e
+"TNL_WIDTH"=dword:00000200
 "TNL_VIEW"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette4]
 "URL"="UG/ROLE_SYSTEM_PAL:Roles"
-"TNL_WIDTH"=dword:0000011e
+"TNL_WIDTH"=dword:00000200
 "TNL_VIEW"=dword:00000003
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette5]
 "URL"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\ugphoto\system_scene_data_dir\prepackaged_scenes.pax"
@@ -184,7 +208,7 @@
 "NameDisplay"="name_and_type"
 "FeatureCheckBoxAction"="hide"
 "HideOnUse"="No"
-"TreeMode"="timestamp"
+"TreeMode"="body"
 "ShowExpressionsGroup"="No"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Parts\Recent\Native]
 "UG Native part name 1"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀✤ᔓᔕᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᔓᔕ✤⠀◯⠀⠀⠀⠀ .PRT"
@@ -245,6 +269,13 @@
 "Expanded"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\SPPNT\WindowState]
 "DialogsVisible"=dword:00000001
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\UDF Li]
+"Native Event File"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\ugii\udf\dbc_udf_ascii.tcl"
+"Native Definition File"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\NXBIN\dbc_udf_ascii.def"
+"Native Database File"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\NXBIN\udf_database.txt"
+"Native Current UDF Library"="No Library"
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\UGS::MBD::UI::DataBrowser::Frame\WindowState]
+"DialogsVisible"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\UGS::Mfg::VSA::UI::VSANavigator\WindowState]
 "DialogsVisible"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\UGS::MotionDesignerUI::Nav::Navigator\WindowState]
@@ -265,6 +296,7 @@
 "ColorPaletteWarning"="-2,1"
 "Modeling_CurveTrimRecipe"="-2,1"
 "Sketch_PersistentRelationDeleted"="-2,1"
+"SnipAtBoundaryHasBeenSelected"="-2,1"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Layout\Railing]
 "Frame Marker"=dword:ffffffff
 "Frame Pos X"=dword:00007fff
@@ -289,13 +321,13 @@
 "Information"="0,873x517+294+0,0x0+0+0"
 "DA1"="1700x1700+-10+-10"
 "DA2"="1700x1700+270+199"
-"FLOAT"="1700x1700+730+138"
+"FLOAT"="1700x1700+549+818"
 "FSB"="0x0+0+0"
 "DevelopmentExchange"=dword:00000001
 "Horizon Windows Style"=dword:00000000
 "Horizon Scheme Style"=dword:00000000
 "WelcomePageUserResponse"=dword:00000000
-"SketchWelcomePageCount"=dword:00000006
+"SketchWelcomePageCount"=dword:00000008
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Selection]
 "QuickPick Dialog X Position"=dword:00000342
 "QuickPick Dialog Y Position"=dword:000000d4
@@ -307,11 +339,32 @@
 "Multi-Select Gesture"=dword:00000001
 "Rollover Highlight"=dword:00000001
 "Rollover Tooltip"=dword:00000001
-"Rollover Delay"=dword:00000001
-"QuickPick Delay Percent"=dword:0000003c
+"Rollover Delay"=dword:00000000
+"QuickPick Delay Percent"=dword:00000000
 "QuickPick Show as See-Thru"=dword:00000001
 "Radius"=dword:00000002
 "Crosshairs"=dword:00000000
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\VR]
+"SINGLE_EYE_VR_WINDOW_DISPLAY"=dword:00000001
+"DEVICE"=dword:00000003
+"UP_VECTOR_KEY"=dword:00000002
+"PRESELECTION_COLOR_0"="0.850980"
+"PRESELECTION_COLOR_1"="0.337255"
+"PRESELECTION_COLOR_2"="0.298039"
+"SELECTION_COLOR_0"="0.964706"
+"SELECTION_COLOR_1"="0.627451"
+"SELECTION_COLOR_2"="0.286275"
+"SECTION_CAP_COLOR_0"="0.800000"
+"SECTION_CAP_COLOR_1"="1.000000"
+"SECTION_CAP_COLOR_2"="0.600000"
+"BACKGROUND_COLOR"=dword:00000000
+"MINIMUM_SCALE_KEY"="0.100000"
+"MAXIMUM_SCALE_KEY"="10.000000"
+"PERFORMANCE_KEY"=dword:00000003
+"ADDRESS_KEY"=""
+"USERNAME_KEY"="Administrator"
+"ACCEPT_PARTICIPANTS_KEY"=dword:00000001
+"ENABLE_AUDIO"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Visualization]
 "Default Date"=dword:01329016
 "Standard Font Date"=dword:0132b72b
@@ -338,8 +391,8 @@
 "Hidden Geometry Highlight Mode"=dword:00000000
 "Wireframe Contrast"=dword:00000000
 "Backface Culling"=dword:00000000
-"X Resolution o:0.0"="0.147503"
-"Y Resolution o:0.0"="0.147503"
+"X Resolution o:0.0"="0.264583"
+"Y Resolution o:0.0"="0.264583"
 "Disable Dynamic Shadow Update"=dword:00000000
 "Disable Dynamic Soft Shadows"=dword:00000000
 "Disable Dynamic Camera Direction Plane Texture Space Update"=dword:00000000
@@ -351,3 +404,4 @@
 "Standard Font Family"="Quivira"
 "Standard Font Style"="Regular"
 "Standard Font Size"=dword:00000006
+"Model Size Profile"=dword:00000000
