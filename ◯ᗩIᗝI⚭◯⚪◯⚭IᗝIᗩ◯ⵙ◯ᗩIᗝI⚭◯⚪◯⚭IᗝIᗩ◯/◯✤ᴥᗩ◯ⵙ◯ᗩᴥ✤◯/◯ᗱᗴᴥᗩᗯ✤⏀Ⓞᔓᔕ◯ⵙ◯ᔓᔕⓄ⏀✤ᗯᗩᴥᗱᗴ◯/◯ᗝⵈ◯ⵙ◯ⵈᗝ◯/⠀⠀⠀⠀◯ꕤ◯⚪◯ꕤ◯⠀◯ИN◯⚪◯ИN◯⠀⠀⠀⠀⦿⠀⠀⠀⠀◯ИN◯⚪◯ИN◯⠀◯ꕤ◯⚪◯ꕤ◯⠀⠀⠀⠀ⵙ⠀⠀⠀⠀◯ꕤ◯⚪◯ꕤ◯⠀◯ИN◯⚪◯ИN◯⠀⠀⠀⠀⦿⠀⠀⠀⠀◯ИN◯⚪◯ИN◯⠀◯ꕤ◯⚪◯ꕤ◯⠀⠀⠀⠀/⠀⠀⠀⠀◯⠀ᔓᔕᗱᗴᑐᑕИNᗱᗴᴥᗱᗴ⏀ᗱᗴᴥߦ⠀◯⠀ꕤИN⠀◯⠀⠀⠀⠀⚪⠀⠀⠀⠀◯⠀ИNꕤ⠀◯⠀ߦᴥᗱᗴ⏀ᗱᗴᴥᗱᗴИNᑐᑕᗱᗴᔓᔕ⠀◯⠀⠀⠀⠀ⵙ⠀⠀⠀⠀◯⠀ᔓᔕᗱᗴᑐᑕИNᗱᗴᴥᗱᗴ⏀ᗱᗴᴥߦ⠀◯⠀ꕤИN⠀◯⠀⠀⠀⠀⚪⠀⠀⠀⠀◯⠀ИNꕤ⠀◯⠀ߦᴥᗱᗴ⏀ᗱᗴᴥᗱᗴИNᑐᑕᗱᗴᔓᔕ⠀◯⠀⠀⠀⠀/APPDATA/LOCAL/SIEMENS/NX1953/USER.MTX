@@ -2,7 +2,7 @@
 
 <NX_PROFILES>
     <Profile name="UG_APP_NOPART">
-        <Layout activeBarInRibbonStack="rbn_nopart_home.rtb">
+        <Layout activeBarInRibbonStack="RESOURCE_BAR_TAB">
             <ActionLists>
                 <ActionList name="NX_RBN_NOPART_STANDARD_GROUP" type="popupbar">
                     <ActionItems>
@@ -5426,7 +5426,7 @@
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="CDV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="CNAV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="DSTA" show="0"/>
-                <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" show="0"/>
+                <ControlBar dockedPos="1684x200@-2.-2" dockedStyle="1" floatPos="360x580@300.350" name="DockingDialog:C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" show="1"/>
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:NX_GADGET_AREA" show="0"/>
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/CAM_WIZARD_PAL:Manufacturing Wizards" show="0"/>
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/ProcessStudioWizard:Process Studio" show="0"/>
@@ -5565,22 +5565,25 @@
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DependenciesView_layout_Dependencies_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UGS::UI::Comp::PartsBrowserBlock::UGS::UI::Comp::GridPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window COL_1609031="Name,On,200,0" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DependenciesView_layout_Dependencies_View_Layout::TreeColumns"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-6PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window COL_1609031="Name,On,200,0" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DependenciesView_layout_Dependencies_View_Layout::TreeColumns"/>
             <Window bottom="250" id="UGS::UI::Comp::PartsBrowserBlock::UGS::UI::Comp::TileListPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="250" id="NX_VISUAL_REPORTING::UGS::UI::Comp::ExplorerShortCutBarPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="NX_VISUAL_REPORTING::UGS::UI::Comp::ExplorerShortCutBarPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window COL_1609031="Name,On,300,0" id="UICOMPNAV_view_UGS_RuleUI_NodeNavigatorNodesView_layout_NXDefaultNavigatorViewLayoutAppId::TreeColumns"/>
+            <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="0" id="RadialTouchPad" left="0" right="0" snappedHorizontal="-1" snappedVertical="-1" top="0"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="NX_VISUAL_REPORTING::UGS::UI::Comp::TileListPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="1016" horzSnap="0" id="ExpMgr" left="0" right="1105" state="0" top="253" type="3" vertSnap="-1"/>
-            <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="1016" horzSnap="0" id="ExpMgr" left="0" right="1105" state="0" top="253" type="3" vertSnap="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window COL_1262697856="Title,On,200,0|Validation Comment,On,150,1" id="UICOMPNAV_view_UGS_Mfg_VSA_UI_VsaNavigatorView_layout_Initial_Assy_View_Layout::TreeColumns"/>
-            <Window COL_3820384630="Name,On,200,0|Alerts,On,150,1" id="UICOMPNAV_view_UGS_MBD_UI_DataBrowser_DependenciesView_layout_Dependencies_property::TreeColumns"/>
+            <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window COL_3820384630="Name,On,200,0|Alerts,On,150,1" id="UICOMPNAV_view_UGS_MBD_UI_DataBrowser_DependenciesView_layout_Dependencies_property::TreeColumns"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-0PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UICOMPNAV_view_UGS_Mfg_VSA_UI_VsaNavigatorView_layout_Initial_Assy_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
@@ -5591,6 +5594,7 @@
             <Window COL_55780458="Parameter,On,200,0|Value,On,150,1|Expression,On,150,2" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DetailsView_layout_Details_View_Layout::TreeColumns"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-6PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-0PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ExpUtilsUI-InterpartExpressions#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-5PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
@@ -5603,6 +5607,7 @@
             <Window bottom="250" id="UICOMPNAV_view_UGS_Mfg_VSA_UI_VsaNavigatorView_layout_Initial_Assy_View_Layout::UGS::UI::Comp::TileListPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-6PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-2PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-6PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
@@ -5614,8 +5619,8 @@
             <Window COL_706291268="Name,On,200,0|Standard,On,150,1" id="UICOMPNAV_view_UGS_ToolingUI_MemberSelectView_layout_Member_Select_View_Layout::TreeColumns"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UICOMPNAV_view_UGS_RuleUI_NodeNavigatorNodesView_layout_NXDefaultNavigatorViewLayoutAppId::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_NavigatorView_layout_Initial_Animation_Designer_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-5PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_NavigatorView_layout_Initial_Animation_Designer_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window id="DefaultDialogRail" posX="0" posY="244" snappedHorizontal="0" snappedVertical="-1"/>
         </Setting>
     </SessionSettings>

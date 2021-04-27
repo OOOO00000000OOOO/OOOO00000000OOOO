@@ -91,9 +91,9 @@
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FCNTLNAV\WindowState]
 "DialogsVisible"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FILENEW\Tab Name]
-"Tab Name"="Simulation"
+"Tab Name"="Model"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FILENEW\Template Name]
-"Template Name"="FemNxNastranAeroelasticMetric.fem"
+"Template Name"="model-plain-1-mm-template.prt"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\KFNT\WindowState\Dialogs\Dependencies]
 "Expanded"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\KFNT\WindowState]
@@ -202,13 +202,13 @@
 "AutomaticallyCollapseGroups"="Yes"
 "DragDrop"="Yes"
 "MarkParents"="Yes"
-"ParentColor"=dword:00000098
+"ParentColor"=dword:0000007b
 "MarkChildren"="Yes"
-"ChildColor"=dword:00000068
+"ChildColor"=dword:00000032
 "NameDisplay"="name_and_type"
 "FeatureCheckBoxAction"="hide"
 "HideOnUse"="No"
-"TreeMode"="body"
+"TreeMode"="timestamp"
 "ShowExpressionsGroup"="No"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Parts\Recent\Native]
 "UG Native part name 1"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀✤ᔓᔕᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᔓᔕ✤⠀◯⠀⠀⠀⠀ .PRT"
@@ -237,6 +237,7 @@
 "UG Native pin state 8"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Product Excellence Program]
 "Popup Handled"=dword:00000001
+"USER HAS OPTED OUT"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Routing\Cabling\Application]
 "Status"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Routing\HVAC\Application]
@@ -297,6 +298,7 @@
 "Modeling_CurveTrimRecipe"="-2,1"
 "Sketch_PersistentRelationDeleted"="-2,1"
 "SnipAtBoundaryHasBeenSelected"="-2,1"
+"Modeling_SketchPreferences"="-2,1"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Layout\Railing]
 "Frame Marker"=dword:ffffffff
 "Frame Pos X"=dword:00007fff
@@ -320,14 +322,14 @@
 "UseTransparency"=dword:00000000
 "Information"="0,873x517+294+0,0x0+0+0"
 "DA1"="1700x1700+-10+-10"
-"DA2"="1700x1700+270+199"
+"DA2"="1700x1700+242+54"
 "FLOAT"="1700x1700+549+818"
 "FSB"="0x0+0+0"
 "DevelopmentExchange"=dword:00000001
 "Horizon Windows Style"=dword:00000000
 "Horizon Scheme Style"=dword:00000000
 "WelcomePageUserResponse"=dword:00000000
-"SketchWelcomePageCount"=dword:00000008
+"SketchWelcomePageCount"=dword:00000009
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Selection]
 "QuickPick Dialog X Position"=dword:00000342
 "QuickPick Dialog Y Position"=dword:000000d4
@@ -382,7 +384,7 @@
 "Fixed Frame Rate"=dword:00000000
 "ViewAnimationSpeed"="0.000000"
 "EnableHighPrecisionRotation"=dword:00000000
-"LockVerticalAxis"=dword:00000001
+"LockVerticalAxis"=dword:00000000
 "IgnoreLockVerticalAxis"=dword:00000000
 "Full-Scene Antialiasing"=dword:00000000
 "Fit to Environment Walls"=dword:00000001
