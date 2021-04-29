@@ -239,7 +239,7 @@
                 <ActionList name="rbn_analyze.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_application.rtb" type="ribbontab">
@@ -287,7 +287,7 @@
                 <ActionList name="rbn_visualization.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
@@ -835,7 +835,7 @@
                 <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
                     <BarInfo position="top" visibility="1">
                         <FloatInfo width="1680" x="1376" y="33"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="28" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="29" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="QuickAccessBar" type="popupbar">
@@ -858,13 +858,13 @@
                 <ActionList name="rbn_analyze.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_application.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
-                        <FloatInfo width="1680" x="101" y="36"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="29" ribbonPopupWidth="0" visibility="1"/>
+                        <FloatInfo width="1680" x="0" y="43"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                     <ActionItems>
                         <ActionItem name="NX_RBN_APP_DESIGN_GROUP" style="3" type="group" visibility="1"/>
@@ -879,109 +879,109 @@
                 <ActionList name="rbn_curves.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_developer.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_internal.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="22" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_render.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_selection.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_tools.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visualization.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="1680" x="0" y="40"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_assemblies.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_pmi.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_design_for_additive_manufacturing.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_polygon_modeling.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_reverse_engineering.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_am_homogenization_modl.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_mateng_modl.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_advanced_vehicle_design_automation.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="22" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="23" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_home.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="1680" x="0" y="35"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                     <ActionItems>
                         <ActionItem collapsed="0" name="rbn_construction.grb" style="3" type="group"/>
@@ -991,37 +991,37 @@
                 <ActionList name="rbn_modeling_industry.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_surface.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_vehicle_design_automation.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="23" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="24" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="24" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="25" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="25" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="26" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="MenuBar" type="menubar">
@@ -2051,13 +2051,13 @@
                 <ActionList name="rbn_animation_designer.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_omnicad_for_nx.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="26" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="27" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="TopBorderBar" type="popupbar">
@@ -2130,7 +2130,7 @@
                 <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="27" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="28" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_adv_sim_aerostruct.rtb" type="ribbontab">
@@ -2228,122 +2228,174 @@
                 <ActionList name="rbn_analyze.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_application.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
+                        <FloatInfo width="1680" x="-1218" y="38"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_curves.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_developer.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_internal.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_render.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_selection.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_tools.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visualization.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
+                        <FloatInfo width="1680" x="-538" y="35"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
                     <BarInfo position="top" visibility="1">
                         <FloatInfo width="1680" x="1376" y="33"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_assemblies.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_pmi.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_omnicad_for_nx.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_design_for_additive_manufacturing.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_polygon_modeling.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_reverse_engineering.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_shape_studio_feature.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_shape_studio_home.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
+                </ActionList>
+                <ActionList name="NX_RBN_MODELING_DATUM_DROPDOWN" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_DATUM_PLANE_RESIZE" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_PRINT_CSYS_FEATURE" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_ASSO_POINT" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_POINT_SET" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POINT_CLOUD" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_DATUM_PLANE_GRID" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_construction.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_SKETCH_PROFILE" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_SKETCH_RECTANGLE" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_SKETCH_CIRCLE" type="toggle" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_SHAPE_STUDIO_SWEEP_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_SWEEP_FEATURE" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_SURFACE_MIDSURFACE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_FF_MIDSURFACE_OLD" type="button" visibility="0"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_SHAPE_STUDIO_BASE_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="NX_RBN_SHAPE_STUDIO_SURFACE_MORE_GALLERY" type="gallery" visibility="1"/>
+                        <ActionItem name="rbn_section_surface.gly" type="gallery" visibility="1"/>
+                        <ActionItem name="NX_RBN_SURFACE_MIDSURFACE_GALLERY" type="gallery" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_SHAPE_STUDIO_EDIT_SHAPE_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_FF_GLOBAL_DEFORM" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_SHAPE_STUDIO_BOUNDARY_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FF_BOUNDARY" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_CHANGE_EDGE" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_SHAPE_STUDIO_EDIT_SURFACE_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FF_POLE_REG" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_CHANGE_DEGREE" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_CHANGE_STIFFNESS" type="button" visibility="1"/>
+                    </ActionItems>
                 </ActionList>
             </ActionLists>
         </Layout>
@@ -4551,7 +4603,7 @@
     </Preferences>
     <SessionSettings>
         <Setting name="RibbonMinimized" ribbonFullscreenMinimized="1" ribbonMinimized="0"/>
-        <Setting enforceGalleryStyle="1" enforceGalleryStyleFullScreen="1" name="MiscRibbon" useSlimRibbonStyle="1" useSlimRibbonStyleInFullScreen="1"/>
+        <Setting enforceGalleryStyle="1" enforceGalleryStyleFullScreen="1" name="MiscRibbon" useSlimRibbonStyle="0" useSlimRibbonStyleInFullScreen="1"/>
         <Setting name="Tooltips" showScreenMessages="1" showScreenMessagesOnDialog="1" showScreenTips="1" showShortcutKeysInScreenTips="1"/>
         <Setting defaultModeSetup="1" name="UserInterfaceMode"/>
         <Setting name="Ribbon" ribbonDocked="1">
@@ -5430,7 +5482,7 @@
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="FCNTLNAV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="KFNT" show="0"/>
                 <ControlBar dockedPos="201x863@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
-                <ControlBar dockedPos="1684x316@-2.4" dockedStyle="2" floatPos="450x500@342.1013" name="PARTNT" show="1"/>
+                <ControlBar dockedPos="1684x273@-2.4" dockedStyle="2" floatPos="450x500@342.485" name="PARTNT" show="1"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="SDRDSDV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MBD::UI::DataBrowser::Frame" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MotionDesignerUI::Nav::Navigator" show="0"/>
@@ -5497,7 +5549,7 @@
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/ROLE_SYSTEM_PAL:Roles" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="KFNT" show="0"/>
                 <ControlBar dockedPos="201x863@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
-                <ControlBar dockedPos="295x879@4.-2" dockedStyle="4" floatPos="450x500@300.350" name="PARTNT" show="1"/>
+                <ControlBar dockedPos="1684x332@-2.4" dockedStyle="2" floatPos="450x500@300.350" name="PARTNT" show="1"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MBD::UI::DataBrowser::Frame" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MotionDesignerUI::Nav::Navigator" show="0"/>
             </Application>
@@ -5512,7 +5564,7 @@
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/ROLE_SYSTEM_PAL:Roles" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="KFNT" show="0"/>
                 <ControlBar dockedPos="201x863@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
-                <ControlBar dockedPos="295x861@4.-2" dockedStyle="4" floatPos="450x500@300.350" name="PARTNT" show="1"/>
+                <ControlBar dockedPos="1684x273@-2.4" dockedStyle="2" floatPos="450x500@300.350" name="PARTNT" show="1"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MBD::UI::DataBrowser::Frame" show="0"/>
             </Application>
             <Application fullScreen="0" name="UG_APP_VSA">
@@ -5571,7 +5623,7 @@
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-5PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-2PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window ListHeight="400" bottom="1032" horzSnap="-1" id="CommandFinder" left="358" right="813" state="0" top="299" type="1" vertSnap="-1"/>
+            <Window ListHeight="400" bottom="806" horzSnap="-1" id="CommandFinder" left="100" right="555" state="0" top="73" type="1" vertSnap="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-0PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-5PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-5PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
@@ -5595,6 +5647,7 @@
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="758" horzSnap="0" id="UGS::GatewayUI::UIFeatureToggle" left="0" right="1550" state="0" top="240" type="3" vertSnap="-1"/>
             <Window COL_1262697856="Title,On,200,0|Validation Comment,On,150,1" id="UICOMPNAV_view_UGS_Mfg_VSA_UI_VsaNavigatorView_layout_Initial_Assy_View_Layout::TreeColumns"/>
             <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
@@ -5637,7 +5690,7 @@
             <Window bottom="250" id="UICOMPNAV_view_UGS_RuleUI_NodeNavigatorNodesView_layout_NXDefaultNavigatorViewLayoutAppId::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_NavigatorView_layout_Initial_Animation_Designer_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-5PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window id="DefaultDialogRail" posX="0" posY="244" snappedHorizontal="0" snappedVertical="-1"/>
+            <Window id="DefaultDialogRail" posX="1246" posY="226" snappedHorizontal="-1" snappedVertical="4"/>
         </Setting>
     </SessionSettings>
     <TouchSessionSettings>

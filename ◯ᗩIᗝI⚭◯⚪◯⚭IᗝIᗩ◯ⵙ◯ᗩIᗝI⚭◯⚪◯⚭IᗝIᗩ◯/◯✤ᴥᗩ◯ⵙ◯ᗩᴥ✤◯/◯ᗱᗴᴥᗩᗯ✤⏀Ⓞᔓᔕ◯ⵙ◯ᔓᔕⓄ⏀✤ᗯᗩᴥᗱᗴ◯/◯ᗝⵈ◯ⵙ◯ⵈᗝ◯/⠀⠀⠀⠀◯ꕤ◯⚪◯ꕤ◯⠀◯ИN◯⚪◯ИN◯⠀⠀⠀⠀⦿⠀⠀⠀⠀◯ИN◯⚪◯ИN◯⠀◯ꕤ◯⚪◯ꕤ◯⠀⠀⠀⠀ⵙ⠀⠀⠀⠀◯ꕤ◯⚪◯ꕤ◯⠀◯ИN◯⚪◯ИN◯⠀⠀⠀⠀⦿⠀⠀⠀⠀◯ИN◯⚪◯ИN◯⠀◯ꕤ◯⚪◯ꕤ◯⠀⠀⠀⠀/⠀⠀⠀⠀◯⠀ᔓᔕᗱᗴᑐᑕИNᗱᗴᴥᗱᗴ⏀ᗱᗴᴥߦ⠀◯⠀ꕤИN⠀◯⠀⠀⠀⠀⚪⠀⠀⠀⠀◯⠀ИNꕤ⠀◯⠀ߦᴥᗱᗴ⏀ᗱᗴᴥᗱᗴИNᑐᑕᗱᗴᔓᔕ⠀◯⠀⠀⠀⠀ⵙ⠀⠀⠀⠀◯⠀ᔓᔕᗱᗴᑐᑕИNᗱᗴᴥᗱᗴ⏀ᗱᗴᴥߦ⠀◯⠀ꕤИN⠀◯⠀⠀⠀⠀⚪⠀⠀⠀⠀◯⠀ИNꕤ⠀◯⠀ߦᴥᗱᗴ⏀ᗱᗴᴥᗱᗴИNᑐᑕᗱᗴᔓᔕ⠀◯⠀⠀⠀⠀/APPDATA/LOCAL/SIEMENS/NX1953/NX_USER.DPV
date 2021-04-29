@@ -28,6 +28,7 @@
 <Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="Yes" modified="2021-04-26T02:22:40" name="Sketch_dynamicRelationDisplay" title="Dynamic Sketch Display" value="1"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Rendering" Tab="Graphics" displayValue="No" modified="2021-04-26T20:03:13" name="UG_disableDynamicUpdateAdvancedStudio" title="Graphics - Disable Dynamic Update Advanced Studio" value="false"/>
 <Pref Application="Sketch" Category="General" Tab="Session Settings" displayValue="⠀⠀⠀⠀◯⠀옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷⠀◯⠀⠀⠀⠀" modified="2021-04-27T20:31:06" name="Sketch_sketchNamePrefix" title="Name Prefixes - Sketch" value="⠀⠀⠀⠀◯⠀옷ᑐᑕ✤ᗱᗴ✻ᔓᔕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᔓᔕ✻ᗱᗴ✤ᑐᑕ옷⠀◯⠀⠀⠀⠀"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="3" modified="2021-04-29T03:13:07" name="UG_pixelWidth3" title="Line Widths - Width 3" value="3"/>
 <Pref Application="Gateway" Category="User Interface" Tab="Layer Dialog Box" displayValue="Yes" modified="2021-04-27T16:33:42" name="UG_showCategoryNames" title="Show Category Names" value="1"/>
 <Pref Application="Gateway" Category="Translators" Tab="STL Export" displayValue="1e-05" modified="2021-04-27T17:01:37" name="RPI_CleanNonManifoldsTol_MU" title="Tolerance" value="1e-05"/>
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner Origin" Tab="ANSI D" displayValue="Center" modified="2021-04-27T16:56:17" name="UG_plot_banner_origin_Y_D" title="Y Origin" value="1"/>
@@ -36,6 +37,7 @@
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plotting" Tab="General" displayValue="1e-05" modified="2021-04-27T16:53:56" name="UG_plot_tolerance" title="Tolerance" value="1e-05"/>
 <Pref Application="Gateway" Category="Grid" Tab="Sketch" displayValue="4" modified="2021-04-27T16:43:12" name="UG_sketchGridMinorsPerMajorY_MU" title="Rectangular Grid - Minor Lines per Major" value="4"/>
 <Pref Application="Gateway" Category="VR" Tab="Colors" displayValue="13816530" modified="2021-04-27T16:41:03" name="NX_VRSectionCapColor" title="Section - Cap" value="13816530"/>
+<Pref Application="Analysis" Category="Measurement" Tab="Legacy" displayValue="31" modified="2021-04-27T23:58:14" name="UG_measurementErrorBoxColor" title="Error Box Color" value="31"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="View" Tab="General" displayValue="Front" modified="2021-04-26T20:03:42" name="UG_initialView" title="Camera - Initial View" value="1"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Color" Tab="Background" displayValue="255" modified="2021-04-27T16:40:14" name="UG_shaded_graduated_background_color1_B" title="Shaded Views - Top, Blue RGB Value" value="255"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Color" Tab="Background" displayValue="255" modified="2021-04-27T16:40:14" name="UG_shaded_graduated_background_color1_G" title="Shaded Views - Top, Green RGB Value" value="255"/>
@@ -67,6 +69,13 @@
 <Pref Application="Gateway" Category="General" Tab="Miscellaneous" displayValue="No" modified="2021-04-27T16:27:07" name="NX_ProductExcellenceProgram" title="Product Excellence Program - Participate" value="false"/>
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner Origin" Tab="ANSI F" displayValue="0.0" modified="2021-04-27T16:56:17" name="UG_plot_banner_offset_X_F_MU" title="X Offset" value="0.0"/>
 <Pref Application="Gateway" Category="Grid" Tab="Drawing and Layout" displayValue="4" modified="2021-04-27T16:43:46" name="UG_drawingGridMinorsPerMajorY_MU" title="Rectangular Grid - Minor Lines per Major" value="4"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="2" modified="2021-04-29T03:13:07" name="UG_pixelWidth2" title="Line Widths - Width 2" value="2"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="4" modified="2021-04-29T03:13:07" name="UG_pixelWidth4" title="Line Widths - Width 4" value="4"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="5" modified="2021-04-29T03:13:07" name="UG_pixelWidth5" title="Line Widths - Width 5" value="5"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="6" modified="2021-04-29T03:13:07" name="UG_pixelWidth6" title="Line Widths - Width 6" value="6"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="7" modified="2021-04-29T03:13:07" name="UG_pixelWidth7" title="Line Widths - Width 7" value="7"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="8" modified="2021-04-29T03:13:07" name="UG_pixelWidth8" title="Line Widths - Width 8" value="8"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="9" modified="2021-04-29T03:13:07" name="UG_pixelWidth9" title="Line Widths - Width 9" value="9"/>
 <Pref Application="Modeling" Category="Part Families" Tab="All" displayValue="Yes" modified="2021-04-27T17:53:43" name="SubdivisionModeling_KeepAllAddInsInSpreadsheet" title="Keep All Part Family Add-ins in Spreadsheet" value="true"/>
 <Pref Application="Analysis" Category="Draft" Tab="Positive Limit" displayValue="Yes" modified="2021-04-27T18:01:03" name="Analysis_Draft_Isocline_1" title="Show Isocline" value="1"/>
 <Pref Application="Analysis" Category="Draft" Tab="Negative Limit" displayValue="Yes" modified="2021-04-27T18:01:03" name="Analysis_Draft_Isocline_3" title="Show Isocline" value="1"/>
@@ -97,7 +106,7 @@
 <Pref Application="Modeling" Category="Feature Parameters" SubCategory="Design Features" Tab="Offset Emboss" displayValue="1.0" modified="2021-04-26T21:52:22" name="Model_Offset_Emboss_Left_Width_MU" title="Left Width" value="1.0"/>
 <Pref Application="Modeling" Category="General" Tab="Additive Manufacturing" displayValue="44" modified="2021-04-27T19:30:20" name="Print_CSYS_Color" title="Print CSYS Color" value="44"/>
 <Pref Application="Gateway" Category="Part Navigator" Tab="All" displayValue="123" modified="2021-04-27T16:50:50" name="UG_PartNav_ParentFontColor" title="Parent Objects Color" value="123"/>
-<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="No" modified="2021-04-27T20:28:41" name="UG_widthDisplay" title="Line Widths - Show Widths" value="2"/>
+<Pref Application="Gateway" Category="Visualization" SubCategory="Line" Tab="All" displayValue="Yes" modified="2021-04-29T03:12:58" name="UG_widthDisplay" title="Line Widths - Show Widths" value="1"/>
 <Pref Application="Gateway" Category="User Interface" Tab="Resource Bar" displayValue="On Right" modified="2021-04-26T02:03:54" name="UG_alignResourceBar" title="Resource Bar - Display Resource Bar" value="1"/>
 <Pref Application="Gateway" Category="Grid" Tab="Sketch" displayValue="159" modified="2021-04-27T16:43:46" name="UG_sketchGridColor" title="Grid Settings - Grid Color" value="159"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Color" Tab="Geometry" displayValue="Original" modified="2021-04-27T16:37:33" name="UG_attentionColor" title="Geometry Colors - Attention" value="-1"/>
@@ -308,6 +317,7 @@
 <Pref Application="Gateway" Category="Plotting/Printing" SubCategory="Plot Banner Origin" Tab="Other" displayValue="Center" modified="2021-04-27T16:56:17" name="UG_plot_banner_origin_Y_display" title="Y Origin" value="1"/>
 <Pref Application="Gateway" Category="Object" Tab="Default" displayValue="50" modified="2021-04-27T16:29:30" name="UG_objectColor" title="Color" value="50"/>
 <Pref Application="Gateway" Category="Visualization" SubCategory="Studio Rendering" Tab="Ray Traced Studio" displayValue="Lossless" modified="2021-04-27T16:40:27" name="UG_format" title="Remote Render - Format" value="1"/>
+<Pref Application="Analysis" Category="Measurement" Tab="Display" displayValue="31" modified="2021-04-27T23:58:14" name="UG_measurementSDErrorBGColor" title="Requirement Check Validation - Error Background Color" value="31"/>
 <Pref Application="Analysis" Category="Optimization" Tab="Control Parameters" displayValue="Yes" modified="2021-04-27T18:51:51" name="Opt_showGraph" title="Show Graph while Optimizing" value="1"/>
 <Pref Application="Modeling" Category="Freeform Modeling" Tab="Color and Style" displayValue="Default" modified="2021-04-27T17:37:51" name="Model_grid_line_font" title="Face Display, Grid Lines - Style" value="2"/>
 <Pref Application="Gateway" Category="User Interface" Tab="Options" displayValue="Yes" modified="2021-04-26T02:04:14" name="UG_showAllOutOfFocusHandleInputFields" title="Show All Out-of-Focus Handle Input Fields" value="1"/>
