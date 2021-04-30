@@ -139,6 +139,10 @@
 "Expanded"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\KRUNAV\WindowState]
 "DialogsVisible"=dword:00000001
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Layers And Categories\Columns]
+"Column Headers"="NAME,On,150VISIBLE_ONLY,On,85OBJECT_COUNT,On,150CATEGORY_NAME,On,150DESCRIPTION,Off,150"
+[HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Layers And Categories\Dialog Dimensions]
+"Dialog Dimensions"="286721"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\NXG_PREF\IDEAS]
 "IDEASUG_CHECK_FIDELITY"=dword:00000000
 "IDEASUG_RETAIN_FC_DATA"=dword:00000000
@@ -172,7 +176,7 @@
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PARTNT\WindowState]
 "DialogsVisible"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PMI\Application]
-"Status"=dword:00000000
+"Status"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette1]
 "URL"="C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax"
 "TNL_WIDTH"=dword:00000200
@@ -336,13 +340,13 @@
 "Information"="0,873x517+294+0,0x0+0+0"
 "DA1"="1700x1700+-10+-10"
 "DA2"="1700x1700+242+54"
-"FLOAT"="1700x1700+954+58"
+"FLOAT"="1700x1700+750+127"
 "FSB"="0x0+0+0"
 "DevelopmentExchange"=dword:00000001
 "Horizon Windows Style"=dword:00000000
 "Horizon Scheme Style"=dword:00000000
 "WelcomePageUserResponse"=dword:00000000
-"SketchWelcomePageCount"=dword:0000000f
+"SketchWelcomePageCount"=dword:00000010
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Selection]
 "QuickPick Dialog X Position"=dword:00000342
 "QuickPick Dialog Y Position"=dword:000000d4
