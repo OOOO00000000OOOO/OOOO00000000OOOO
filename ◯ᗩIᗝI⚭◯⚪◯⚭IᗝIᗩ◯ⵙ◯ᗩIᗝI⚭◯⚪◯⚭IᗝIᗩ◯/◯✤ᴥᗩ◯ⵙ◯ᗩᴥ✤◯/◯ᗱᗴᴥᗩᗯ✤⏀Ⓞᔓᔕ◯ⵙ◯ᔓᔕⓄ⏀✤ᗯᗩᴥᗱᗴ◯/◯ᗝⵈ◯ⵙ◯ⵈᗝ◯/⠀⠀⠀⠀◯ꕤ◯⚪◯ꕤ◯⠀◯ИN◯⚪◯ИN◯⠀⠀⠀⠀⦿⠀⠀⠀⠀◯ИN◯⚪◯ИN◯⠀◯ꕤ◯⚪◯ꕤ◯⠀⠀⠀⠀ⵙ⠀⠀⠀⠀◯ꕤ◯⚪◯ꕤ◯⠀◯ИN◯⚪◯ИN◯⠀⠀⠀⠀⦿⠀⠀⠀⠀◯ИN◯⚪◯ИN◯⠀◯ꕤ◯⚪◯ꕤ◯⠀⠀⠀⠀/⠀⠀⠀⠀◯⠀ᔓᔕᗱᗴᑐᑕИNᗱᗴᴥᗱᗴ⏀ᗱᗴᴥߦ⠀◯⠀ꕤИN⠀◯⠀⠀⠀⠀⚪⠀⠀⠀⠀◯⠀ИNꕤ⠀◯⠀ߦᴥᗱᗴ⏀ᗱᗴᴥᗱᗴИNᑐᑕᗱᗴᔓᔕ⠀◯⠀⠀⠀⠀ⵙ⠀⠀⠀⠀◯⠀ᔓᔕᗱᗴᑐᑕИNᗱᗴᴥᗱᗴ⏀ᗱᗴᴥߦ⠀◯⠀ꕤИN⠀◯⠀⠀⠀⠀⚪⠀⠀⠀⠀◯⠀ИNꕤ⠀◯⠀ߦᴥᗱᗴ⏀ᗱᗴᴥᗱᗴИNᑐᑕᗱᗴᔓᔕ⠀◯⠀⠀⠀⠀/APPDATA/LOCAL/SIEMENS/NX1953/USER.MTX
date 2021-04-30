@@ -2,6 +2,13 @@
 
 <NX_PROFILES>
     <Profile name="UG_APP_NOPART">
+        <Content mode="edit">
+            <Actions>
+                <Action name="NX_RBN_VIS_TRUE_STUDIO_MORE_GALLERY" type="gallery">
+                    <ActionData inPopupColumns="1" inPopupRows="3"/>
+                </Action>
+            </Actions>
+        </Content>
         <Layout activeBarInRibbonStack="rbn_nopart_home.rtb">
             <ActionLists>
                 <ActionList name="NX_RBN_NOPART_STANDARD_GROUP" type="popupbar">
@@ -166,7 +173,7 @@
                 <ActionList name="rbn_omnicad_for_nx.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
@@ -197,6 +204,13 @@
                     <ActionData inPopupColumns="1" inPopupRows="3"/>
                 </Action>
             </Actions>
+            <ActionLists>
+                <ActionList name="RECENTLY_USED::NX_RBN_VIEW_ORIENTATION_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="0" name="UG_VIEW_ORIENT" ribbon_style="0" style="0" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+            </ActionLists>
         </Content>
         <Layout activeBarInRibbonStack="rbn_sketch_te_home.rtb" activeSceneBar="rbn_sketch_main.stb">
             <ActionLists>
@@ -481,6 +495,21 @@
                         <ActionItem name="UG_VIEW_TOUCH_MODE" type="toggle" visibility="0"/>
                         <ActionItem name="UG_WINDOW_SWITCH" type="button" visibility="0"/>
                         <ActionItem name="UG_WINDOW" type="cascade" visibility="0"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_VIEW_OPERATION_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_VIEW_REFRESH" type="button" visibility="1"/>
+                        <ActionItem name="UG_SEL_FIT_VIEW" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_EXCLUDE_DATUMS" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_ZOOM_IN_OUT" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_VIEW_ROTATION_PRECISION_TOGGLE" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_RESTORE_ORIGINAL" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="RECENTLY_USED::NX_RBN_VIEW_ORIENTATION_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="0" name="UG_VIEW_ORIENT" ribbon_style="0" style="0" type="button" visibility="1"/>
                     </ActionItems>
                 </ActionList>
             </ActionLists>
@@ -809,6 +838,7 @@
                 <ActionList applications="" name="rbn_modeling_home.rtb" type="ribbontab">
                     <ActionItems>
                         <ActionItem index="1" name="sep_1" type="separator" visibility="1"/>
+                        <ActionItem index="5" name="sep_5" type="separator" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList applications="" name="RECENTLY_USED::rbn_feature_more.gly" type="popupbar">
@@ -822,20 +852,57 @@
                         <ActionItem index="1" name="UG_MODELING_FF_FILL_HOLE" ribbon_style="0" style="0" type="button" visibility="1"/>
                     </ActionItems>
                 </ActionList>
+                <ActionList name="rbn_view.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="16" name="UG_VIEW_POPUP_ORIENT_TFRTRI" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="17" name="UG_VIEW_POPUP_ORIENT_TFRISO" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="18" name="UG_VIEW_POPUP_ORIENT_TOP" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="19" name="UG_VIEW_POPUP_ORIENT_LEFT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="20" name="UG_VIEW_POPUP_ORIENT_FRONT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="21" name="UG_VIEW_POPUP_ORIENT_RIGHT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="22" name="UG_VIEW_POPUP_ORIENT_BACK" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="23" name="UG_VIEW_POPUP_ORIENT_BOTTOM" ribbon_style="0" style="3" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_ASSEMBLIES_COMPONENTS_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="5" name="sep_5" type="separator" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="RECENTLY_USED::rbn_synchronous_modeling_more.gly" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="0" name="UG_ADM_EDIT_CROSS_SECTION_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_feature.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="5" name="UG_MODELING_INTERSECT_FEATURE" ribbon_style="2" style="0" type="button" visibility="1"/>
+                        <ActionItem index="6" name="UG_MODELING_TRIM_FEATURE" ribbon_style="2" style="0" type="button" visibility="1"/>
+                        <ActionItem index="9" name="UG_MODELING_FF_FACE_BLEND" ribbon_style="2" style="0" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_surface_tools.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="5" name="sep_5" type="separator" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
             </ActionLists>
         </Content>
-        <Layout activeBarInRibbonStack="rbn_visualization.rtb" activeSceneBar="SCENE::CTX_TOOL_OBJECT_DISPLAY">
+        <Layout activeBarInRibbonStack="rbn_modeling_polygon_modeling.rtb" activeSceneBar="SCENE::CTX_TOOL_OBJECT_DISPLAY">
             <ActionLists>
                 <ActionList name="SelectionBar" type="toolbar">
                     <ActionItems>
+                        <ActionItem name="UG_SEL_TYPE_FILTER" type="combobox" visibility="0"/>
+                        <ActionItem name="UG_SEL_RESET" type="button" visibility="0"/>
+                        <ActionItem name="UG_SEL_SCOPE_FILTER" type="combobox" visibility="0"/>
                         <ActionItem name="UG_SEL_ALLOW_AUTOMATIC_WORK_PART_CHANGE" type="toggle" visibility="0"/>
                         <ActionItem name="UG_SEL_ASSOCIATIVE_INTERPART" type="toggle" visibility="0"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
                     <BarInfo position="top" visibility="1">
-                        <FloatInfo width="1680" x="1376" y="33"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="29" ribbonPopupWidth="0" visibility="1"/>
+                        <FloatInfo width="1680" x="0" y="38"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="QuickAccessBar" type="popupbar">
@@ -858,7 +925,7 @@
                 <ActionList name="rbn_analyze.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_application.rtb" type="ribbontab">
@@ -879,149 +946,184 @@
                 <ActionList name="rbn_curves.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
+                    <ActionItems>
+                        <ActionItem name="rbn_construction.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_curve_advanced.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_curve_edit.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_curve_non_associative.grb" type="group" visibility="1"/>
+                    </ActionItems>
                 </ActionList>
                 <ActionList name="rbn_developer.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_internal.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="22" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_render.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_selection.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_tools.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_visualization.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="1">
-                        <FloatInfo width="1680" x="0" y="40"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_assemblies.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_pmi.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
                         <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
-                <ActionList name="rbn_modeling_design_for_additive_manufacturing.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_modeling_polygon_modeling.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_modeling_reverse_engineering.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_am_homogenization_modl.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_mateng_modl.rtb" type="ribbontab">
-                    <BarInfo position="top" visibility="0">
-                        <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="1"/>
-                    </BarInfo>
-                </ActionList>
-                <ActionList name="rbn_modeling_advanced_vehicle_design_automation.rtb" type="ribbontab">
+                <ActionList name="rbn_internal.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
                         <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="23" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
-                <ActionList name="rbn_modeling_home.rtb" type="ribbontab">
+                <ActionList name="rbn_render.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
-                        <FloatInfo width="1680" x="0" y="35"/>
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_selection.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tools.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visualization.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="1680" x="0" y="40"/>
                         <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                     <ActionItems>
-                        <ActionItem collapsed="0" name="rbn_construction.grb" style="3" type="group"/>
-                        <ActionItem index="1" name="sep_1" type="separator" visibility="1"/>
+                        <ActionItem name="rbn_view_layer.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_view_image.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_virtual_reality.grb" type="group" visibility="1"/>
                     </ActionItems>
                 </ActionList>
-                <ActionList name="rbn_modeling_industry.rtb" type="ribbontab">
+                <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
                         <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
-                <ActionList name="rbn_modeling_surface.rtb" type="ribbontab">
+                <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
-                <ActionList name="rbn_modeling_vehicle_design_automation.rtb" type="ribbontab">
+                <ActionList name="rbn_assemblies.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                    <ActionItems>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_CONTEXT_CONTROL_GROUP" type="group" visibility="1"/>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_WAVE_GROUP" type="group" visibility="1"/>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_SIMPLIFY_GROUP" type="group" visibility="1"/>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_CLEARANCE_ANALYSIS_GROUP" type="group" visibility="1"/>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_EXPLODED_VIEWS_GROUP" type="group" visibility="1"/>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_SEQUENCE_GROUP" type="group" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_pmi.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
-                <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
+                <ActionList name="rbn_modeling_design_for_additive_manufacturing.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_polygon_modeling.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                    <ActionItems>
+                        <ActionItem name="NX_POLYGON_MODELING" ribbon_style="2" type="button"/>
+                        <ActionItem name="NX_MORPH_MESH" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_modeling_reverse_engineering.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_am_homogenization_modl.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_mateng_modl.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="22" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_advanced_vehicle_design_automation.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
                         <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="24" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
-                <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
+                <ActionList name="rbn_modeling_home.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="1680" x="0" y="35"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                    <ActionItems>
+                        <ActionItem collapsed="0" name="rbn_construction.grb" style="3" type="group"/>
+                        <ActionItem index="1" name="sep_1" type="separator" visibility="1"/>
+                        <ActionItem collapsed="0" name="rbn_feature.grb" type="group"/>
+                        <ActionItem collapsed="1" name="rbn_organize_feature_dg.grb" type="group" visibility="1"/>
+                        <ActionItem index="5" name="sep_5" type="separator" visibility="1"/>
+                        <ActionItem collapsed="1" name="rbn_edit_feature.grb" type="group" visibility="1"/>
+                        <ActionItem collapsed="1" name="rbn_feature_replay.grb" type="group" visibility="1"/>
+                        <ActionItem collapsed="0" name="rbn_modeling_aero_design.grb" type="group" visibility="1"/>
+                        <ActionItem collapsed="1" name="rbn_modeling_home_analysis.grb" type="group" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_modeling_industry.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_surface.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                    <ActionItems>
+                        <ActionItem name="rbn_construction.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_edit_surface.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_realize_shape.grb" type="group" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_modeling_vehicle_design_automation.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
                         <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="25" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
-                <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
+                <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
                         <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="26" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="27" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="MenuBar" type="menubar">
@@ -1458,22 +1560,36 @@
                 </ActionList>
                 <ActionList name="rbn_construction.grb" type="popupbar">
                     <ActionItems>
-                        <ActionItem name="NX_RBN_MODELING_DATUM_DROPDOWN" type="substdropdown" visibility="1"/>
-                        <ActionItem name="UG_SKETCH_PROFILE" type="toggle" visibility="1"/>
-                        <ActionItem name="UG_SKETCH_RECTANGLE" type="toggle" visibility="1"/>
-                        <ActionItem name="UG_SKETCH_CIRCLE" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_CREATE_SKETCH" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_SKETCH_PROFILE" ribbon_style="2" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_SKETCH_RECTANGLE" ribbon_style="2" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_SKETCH_CIRCLE" ribbon_style="2" type="toggle" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="NX_RBN_MODELING_BLEND_DROPDOWN" type="popupbar">
                     <ActionItems>
                         <ActionItem name="UG_MODELING_BLEND_FEATURE" type="button" visibility="1"/>
-                        <ActionItem name="UG_MODELING_FF_FACE_BLEND" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_FF_FACE_BLEND" type="button" visibility="0"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="rbn_feature.grb" type="popupbar">
                     <ActionItems>
-                        <ActionItem name="NX_RBN_MODELING_COMBINE_DROPDOWN" type="substdropdown" visibility="1"/>
-                        <ActionItem name="NX_RBN_MODELING_BLEND_DROPDOWN" type="substdropdown" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EXTRUDED_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_REVOLVED_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_HOLE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_UNITE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_SUBTRACT_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem index="5" name="UG_MODELING_INTERSECT_FEATURE" ribbon_style="2" style="0" type="button" visibility="1"/>
+                        <ActionItem index="6" name="UG_MODELING_TRIM_FEATURE" ribbon_style="2" style="0" type="button" visibility="1"/>
+                        <ActionItem name="NX_RBN_MODELING_COMBINE_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_MODELING_BLEND_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem index="9" name="UG_MODELING_FF_FACE_BLEND" ribbon_style="2" style="0" type="button" visibility="1"/>
+                        <ActionItem name="NX_RBN_MODELING_BLEND_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_MODELING_CHAMFER_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_TAPER_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_HOLLOW_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_PATTERNFEATURE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_MIRRORFEATURE_FEATURE" ribbon_style="2" type="button"/>
                         <ActionItem name="rbn_feature_more.gly" type="gallery" visibility="1"/>
                     </ActionItems>
                 </ActionList>
@@ -1545,8 +1661,16 @@
                 </ActionList>
                 <ActionList name="rbn_surface.grb" type="popupbar">
                     <ActionItems>
-                        <ActionItem name="UG_MODELING_FF_STUSRF_NXN" type="button" visibility="1"/>
-                        <ActionItem name="UG_MODELING_FF_LAWEXT" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EXTRUDED_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_SWEPT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_THROUGH_CURVES" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_CURVE_MESH" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_BLEND_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_FACE_BLEND" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_OFFSET" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_THICKEN" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_STUSRF_NXN" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_FF_LAWEXT" ribbon_style="2" type="button" visibility="1"/>
                         <ActionItem name="rbn_surface_more.gly" type="gallery" visibility="1"/>
                     </ActionItems>
                 </ActionList>
@@ -1582,6 +1706,12 @@
                 </ActionList>
                 <ActionList name="rbn_surface_tools.grb" type="popupbar">
                     <ActionItems>
+                        <ActionItem name="UG_MODELING_FF_COMBINE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_TRIMMED" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_EXTEND_SHEET" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FF_TRIM_AND_EXTEND" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_SEW_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem index="5" name="sep_5" type="separator" visibility="1"/>
                         <ActionItem name="rbn_surface_tools_more.gly" type="gallery" visibility="1"/>
                     </ActionItems>
                 </ActionList>
@@ -1598,7 +1728,12 @@
                 </ActionList>
                 <ActionList name="rbn_synchronous_modeling.grb" type="popupbar">
                     <ActionItems>
-                        <ActionItem name="rbn_synchronous_modeling_more.gly" type="gallery" visibility="1"/>
+                        <ActionItem name="UG_ADM_MOVE_FACE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_DELETE_FACE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_REPLACE_FACE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_ADM_OFFSET_REGION_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_RESIZE_BLEND_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem collapsed="1" name="rbn_synchronous_modeling_more.gly" type="gallery" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="NX_RBN_SYNCHRONOUS_MODELING_MOVE_GALLERY" type="popupbar">
@@ -1616,7 +1751,9 @@
                 </ActionList>
                 <ActionList name="rbn_synchronous_modeling_more.gly" type="popupbar">
                     <ActionItems>
+                        <ActionItem name="NX_RBN_SYNCHRONOUS_MODELING_MOVE_GALLERY" type="gallery" visibility="1"/>
                         <ActionItem name="NX_RBN_SYNCHRONOUS_MODELING_DIMENSION_GALLERY" type="gallery" visibility="1"/>
+                        <ActionItem name="NX_RBN_SYNCHRONOUS_MODELING_DETAIL_FEATURES_GALLERY" type="gallery" visibility="1"/>
                         <ActionItem name="NX_RBN_SYNCHRONOUS_MODELING_REUSE_GALLERY" type="gallery" visibility="1"/>
                         <ActionItem name="NX_RBN_SYNCHRONOUS_MODELING_RELATE_GALLERY" type="gallery" visibility="1"/>
                         <ActionItem name="NX_RBN_SYNCHRONOUS_MODELING_OPTIMIZE_GALLERY" type="gallery" visibility="1"/>
@@ -1631,9 +1768,13 @@
                 </ActionList>
                 <ActionList name="rbn_curve_derived.grb" type="popupbar">
                     <ActionItems>
-                        <ActionItem name="UG_CURVE_SHADOW" type="button" visibility="1"/>
-                        <ActionItem name="UG_CURVE_OFFSET_FACE" type="button" visibility="1"/>
-                        <ActionItem name="UG_MODELING_COMPOSITE_CURVE" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_PROJECT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_CURVE_INTERSECT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_CURVE_SHADOW" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_OFFSET" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_CURVE_OFFSET_FACE" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_BRIDGE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_COMPOSITE_CURVE" ribbon_style="2" type="button" visibility="1"/>
                         <ActionItem name="NX_RBN_CURVE_DERIVED_MORE_GALLERY" type="gallery" visibility="1"/>
                     </ActionItems>
                 </ActionList>
@@ -1647,6 +1788,9 @@
                         <ActionItem name="NX_RBN_CURVE_POINT_DROPDOWN" type="substdropdown" visibility="1"/>
                         <ActionItem name="UG_CURVE_ASSO_LINE" type="button" visibility="1"/>
                         <ActionItem name="UG_CURVE_ASSO_ARC" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_ASSO_POINT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_CURVE_STUDIO_SPLINE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_CURVE_TEXT" ribbon_style="2" type="button"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="rbn_reuse_library_user.grb" type="popupbar">
@@ -1800,11 +1944,17 @@
                 </ActionList>
                 <ActionList name="NX_RBN_ASSEMBLIES_BASE_GROUP" type="popupbar">
                     <ActionItems>
-                        <ActionItem name="UG_ASSY_CREATE_DMU_WORKSET" type="button" visibility="1"/>
+                        <ActionItem name="UG_ASSY_INSERT_COMPONENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_ASSY_INSERT_NEW_COMPONENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_ASSY_CREATE_NEW_PARENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_ASSY_CREATE_DMU_WORKSET" ribbon_style="2" type="button" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="NX_RBN_ASSEMBLIES_COMPONENT_POSITION_GROUP" type="popupbar">
                     <ActionItems>
+                        <ActionItem name="UG_NXPOS_MOVE_COMPONENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_NXPOS_ASSEMBLY_CONSTRAINTS" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_ASSY_EDIT_ARRANGEMENTS" ribbon_style="2" type="button"/>
                         <ActionItem name="NX_RBN_ASSEMBLIES_COMPONENT_POSITION_MORE_GALLERY" type="gallery" visibility="1"/>
                     </ActionItems>
                 </ActionList>
@@ -1817,6 +1967,7 @@
                 <ActionList name="NX_RBN_ASSEMBLIES_COMPONENTS_GROUP" type="popupbar">
                     <ActionItems>
                         <ActionItem name="UG_ASSY_MAKE_UNIQUE" type="button" visibility="1"/>
+                        <ActionItem index="5" name="sep_5" type="separator" visibility="1"/>
                         <ActionItem name="NX_RBN_ASSEMBLIES_COMPONENT_MORE_GALLERY" type="gallery" visibility="1"/>
                     </ActionItems>
                 </ActionList>
@@ -2051,19 +2202,21 @@
                 <ActionList name="rbn_animation_designer.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_omnicad_for_nx.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="27" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="28" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="TopBorderBar" type="popupbar">
                     <ActionItems>
                         <ActionItem name="MenuBar" style="3" type="cascade"/>
                         <ActionItem name="SelectionBar" type="group" visibility="0"/>
+                        <ActionItem name="rbn_view.grb" type="group" visibility="1"/>
+                        <ActionItem name="rbn_utilities_tbb.grb" type="group" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="NX_RBN_APP_DESIGN_GROUP" type="popupbar">
@@ -2110,8 +2263,8 @@
                 </ActionList>
                 <ActionList name="NX_RBN_MODELING_COMBINE_DROPDOWN" type="popupbar">
                     <ActionItems>
-                        <ActionItem name="UG_MODELING_TRIM_FEATURE" type="button" visibility="1"/>
-                        <ActionItem name="UG_MODELING_INTERSECT_FEATURE" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_TRIM_FEATURE" type="button" visibility="0"/>
+                        <ActionItem name="UG_MODELING_INTERSECT_FEATURE" type="button" visibility="0"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="NX_RBN_MODELING_FEATURE_WAVE_GALLERY" type="popupbar">
@@ -2130,7 +2283,7 @@
                 <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="28" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="29" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_adv_sim_aerostruct.rtb" type="ribbontab">
@@ -2162,6 +2315,258 @@
                         <ActionItem name="UG_MODELING_EDIT_COLOR_FEATURE" type="button" visibility="1"/>
                         <ActionItem name="UG_EDIT_COPY" type="button" visibility="1"/>
                         <ActionItem name="UG_EDIT_PROPERTIES" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_CURVE_ADVANCED_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_CURVE_LAW_CURVE" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_SPINE_CURVE" type="button" visibility="1"/>
+                        <ActionItem name="UG_CURVE_FIT_CURVE" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_curve_advanced.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_CURVE_ON_SURFACE" ribbon_style="2" type="button"/>
+                        <ActionItem name="NX_DRAW_SHAPE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_CURVE_HELIX" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="NX_RBN_CURVE_ADVANCED_MORE_GALLERY" type="gallery" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_curve_edit.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_EDIT_CURVE_TRIM" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_EDIT_CURVE_ARC_LENGTH" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_POLE_EDITING" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="NX_RBN_CURVE_EDIT_MORE_GALLERY" type="gallery" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_curve_non_associative.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_CURVE_PARABOLA" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_CURVE_HYPERBOLA" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_EDIT_CURVE_DIVIDE" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_utilities_tbb.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="NX_RBN_UTILITY_WCS_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_PREFERENCES_OBJECT" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_EDIT_OBJECT_DISPLAY" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_INFO_GEOMETRIC_MEASUREMENT" style="3" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_VIEW_ORIENT_VIEW_DROPDOWN" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_TFRTRI" style="3" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_TOP" style="3" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_TFRISO" style="3" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_LEFT" style="3" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_FRONT" style="3" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_RIGHT" style="3" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_BACK" style="3" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ORIENT_BOTTOM" style="3" type="button" visibility="0"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_VIEW_RENDERING_STYLE_DROPDOWN" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_VIEW_POPUP_SHADED_WITH_EDGES" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_SHADED" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_PARTIALLY_SHADED" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_WIREFRAME_WITH_HIDDEN_EDGES" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_WIREFRAME_WITH_DIM_EDGES" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_STATIC_WIREFRAME" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_STUDIO" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_FACE_ANALYSIS" type="button" visibility="0"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_view.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="NX_RBN_VIEW_OPERATION_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ZOOM" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ZOOM_IN_OUT" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_PAN" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_ROTATE" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_ROTATION_PRECISION_TOGGLE" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_PERSPECTIVE" style="3" type="toggle"/>
+                        <ActionItem name="UG_VIEW_PERSPECTIVE_OPTIONS" style="3" type="button"/>
+                        <ActionItem name="NX_RBN_VIEW_FIT_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_VIEW_FIT" type="button" visibility="0"/>
+                        <ActionItem name="UG_LAYOUT_FIT_ALL_VIEWS" type="button" visibility="0"/>
+                        <ActionItem name="UG_VIEW_EXCLUDE_DATUMS" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_FIT_TO_SECTIONING" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_FIT_ON_HIDE_OR_SHOW" type="toggle" visibility="0"/>
+                        <ActionItem name="NX_RBN_VIEW_ORIENT_VIEW_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem index="16" name="UG_VIEW_POPUP_ORIENT_TFRTRI" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="17" name="UG_VIEW_POPUP_ORIENT_TFRISO" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="18" name="UG_VIEW_POPUP_ORIENT_TOP" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="19" name="UG_VIEW_POPUP_ORIENT_LEFT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="20" name="UG_VIEW_POPUP_ORIENT_FRONT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="21" name="UG_VIEW_POPUP_ORIENT_RIGHT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="22" name="UG_VIEW_POPUP_ORIENT_BACK" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="23" name="UG_VIEW_POPUP_ORIENT_BOTTOM" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem name="NX_RBN_VIEW_RENDERING_STYLE_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_VIEW_POPUP_SHADED_WITH_EDGES" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_SHADED" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_PARTIALLY_SHADED" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_WIREFRAME_WITH_HIDDEN_EDGES" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_WIREFRAME_WITH_DIM_EDGES" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_STATIC_WIREFRAME" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_STUDIO" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_POPUP_FACE_ANALYSIS" style="3" type="button" visibility="1"/>
+                        <ActionItem name="UG_VIEW_WIREFRAME_CONTRAST" style="3" type="toggle" visibility="1"/>
+                        <ActionItem name="NX_RBN_VIEW_SHOWHIDE_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="NX_RBN_VIEW_LAYER_DROPDOWN" type="substdropdown" visibility="1"/>
+                        <ActionItem name="UG_VIEW_SEE_THRU_ALL" style="3" type="toggle" visibility="1"/>
+                        <ActionItem name="NX_RBN_VIEW_SEE_THRU_STYLE_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_PREFERENCES_SHOW_GRID" style="3" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_PREFERENCES_SNAP_TO_GRID" style="3" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_PREFERENCES_DIM_OBJS_OFF_PLANE" style="3" type="toggle" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_ASSEMBLIES_CONTEXT_CONTROL_MORE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_CONTEXT_GALLERY" type="gallery" visibility="1"/>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_CONTEXT_CONTROL_SAVE_GALLERY" type="gallery" visibility="1"/>
+                        <ActionItem name="NX_RBN_ASSEMBLIES_CONTEXT_CONTROL_OUTLINE_GALLERY" type="gallery" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_ASSEMBLIES_CONTEXT_CONTROL_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_ASSY_WORK_ON_DISPLAYED_ASSEMBLY" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="UG_ASSY_REFERENCE_SETS" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="UG_ASSY_ISOLATE_COMPONENTS" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_ASSEMBLIES_WAVE_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_ASSY_WAVE_LINKER" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_ASSEMBLIES_SIMPLIFY_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_ASSY_ENVELOPE_WRAP" ribbon_style="0" type="button"/>
+                        <ActionItem name="UG_ASSY_REFERENCE_SET_COMBO" type="combobox" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_ASSEMBLIES_EXPLODED_VIEWS_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_ASSY_MANAGE_EXPLOSION" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_ASSEMBLIES_SEQUENCE_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_ASSY_SEQ_MOT" ribbon_style="0" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="RECENTLY_USED::rbn_synchronous_modeling_more.gly" type="popupbar">
+                    <ActionItems>
+                        <ActionItem index="0" name="UG_ADM_EDIT_CROSS_SECTION_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_EDIT_FEATURE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FEATURE_REMOVE_MISSING_PARENTS" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_edit_feature.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_EDIT_FEATURE_DIMENSION" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_FEATURE_REPLACE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_FEATURE_DELAYED_UPDATE" ribbon_style="2" type="toggle" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EDIT_FEATURE_UPDATE" ribbon_style="2" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_edit_surface.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FF_POLE_EDITING" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_IFORM" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_MATCH_EDGE" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_EDGE_SYMMETRY" ribbon_style="2" type="button" visibility="1"/>
+                        <ActionItem name="rbn_edit_surface_more.gly" type="gallery" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_EDIT_SURFACE_BOUNDARY_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FF_BOUNDARY" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_CHANGE_EDGE" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_EDIT_SURFACE_SURFACE_GALLERY" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FF_CHANGE_DEGREE" type="button" visibility="1"/>
+                        <ActionItem name="UG_MODELING_EDIT_FF_CHANGE_STIFFNESS" type="button" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_edit_surface_more.gly" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="NX_RBN_EDIT_SURFACE_SHAPE_GALLERY" type="gallery" visibility="1"/>
+                        <ActionItem name="NX_RBN_EDIT_SURFACE_BOUNDARY_GALLERY" type="gallery" visibility="1"/>
+                        <ActionItem name="NX_RBN_EDIT_SURFACE_SURFACE_GALLERY" type="gallery" visibility="1"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_feature_replay.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_FEATURE_REPLAY_MAKE_FIRST_CURRENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FEATURE_REPLAY_MAKE_PREVIOUS_CURRENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FEATURE_REPLAY_MAKE_NEXT_BOOLEAN_CURRENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FEATURE_REPLAY_MAKE_LAST_CURRENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FEATURE_REPLAY_MAKE_NEXT_CURRENT" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FEATURE_REPLAY_AUTOMATIC_FEATURE_REPLAY" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_MODELING_POL_MOD_CLEANUP_PREPARE_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_FACET_CLEANUP_FACET_BODY" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FACET_CONVERT_FACET_BODY" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_FACET_BODY_FROM_BODY" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_MESH_FROM_CLOUD" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_MAKE_SOLID_FEATURE" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_MODELING_POL_MOD_OPERATIONS_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FACET_OFFSET" ribbon_style="2" type="button"/>
+                        <ActionItem name="NX_TEXTURE_MODELING" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="NX_RBN_MODELING_POL_MOD_TOPOLOGY_GROUP" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_EDIT_FACET_DIVIDE_FACET_FACE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_FACET_MERGE_FACET_FACES" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_DIVIDEFACE_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_REPLACE_MESH_WITH_FACE" ribbon_style="0" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_modeling_segment_and_edit.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_INFO_ANALYSIS_FACET_SHAPEDETECTION" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_INFO_ANALYSIS_FACET_CURVATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_EDIT_FACET_PAINT_FACET_BODY" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_organize_feature_dg.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_MODELING_NEW_DESIGN_GROUP" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_RECENT_DG_COMBODROPDOWN" ribbon_style="2" type="combodropdown"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_realize_shape.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_SUBDIVISION_MODELING" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_modeling_aero_design.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_AERO_FLANGE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_AERO_RIB" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_AERO_SHELF" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_AERO_STEP_FEATURE" ribbon_style="2" type="button"/>
+                        <ActionItem name="UG_MODELING_BLEND_POCKET" ribbon_style="2" type="button"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_modeling_home_analysis.grb" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_INFO_GEOMETRIC_MEASUREMENT" ribbon_style="2" type="button"/>
                     </ActionItems>
                 </ActionList>
             </ActionLists>
@@ -2619,7 +3024,7 @@
                 </Action>
             </Actions>
         </Content>
-        <Layout activeBarInRibbonStack="rbn_application.rtb">
+        <Layout activeBarInRibbonStack="rbn_application.rtb" activeSceneBar="SCENE::CTX_TOOL_OBJECT_DISPLAY">
             <ActionLists>
                 <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
@@ -2630,31 +3035,31 @@
                 <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="0"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="0"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="0"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_analyze.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_application.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_curves.rtb" type="ribbontab">
@@ -2666,61 +3071,61 @@
                 <ActionList name="rbn_developer.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_internal.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_render.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_selection.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_tools.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visualization.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
                     <BarInfo position="top" visibility="1">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_assemblies.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_pmi.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_omnicad_for_nx.rtb" type="ribbontab">
@@ -2745,6 +3150,29 @@
                     <ActionItems>
                         <ActionItem name="UG_VIEW_SHED_MATERIAL_GLOBAL_WASH_ANALYSIS" type="button" visibility="1"/>
                     </ActionItems>
+                </ActionList>
+                <ActionList name="QuickAccessBar" type="popupbar">
+                    <ActionItems>
+                        <ActionItem name="UG_FILE_SAVE_PART" type="button" visibility="0"/>
+                        <ActionItem name="UG_UNDO_COMBODROPDOWN" type="combodropdown" visibility="0"/>
+                        <ActionItem name="UG_EDIT_REDO" type="button" visibility="0"/>
+                        <ActionItem name="UG_EDIT_CUT" type="button" visibility="0"/>
+                        <ActionItem name="UG_EDIT_COPY" type="button" visibility="0"/>
+                        <ActionItem name="UG_EDIT_PASTE" type="button" visibility="0"/>
+                        <ActionItem name="UG_SEL_DRAG_DROP" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_FILE_PRINT" type="button" visibility="0"/>
+                        <ActionItem name="UG_STANDARD_REPEAT_DROPDOWN" type="substdropdown" visibility="0"/>
+                        <ActionItem name="UG_SPEECH_RECOGNIZER" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_VIEW_TOUCH_MODE" type="toggle" visibility="0"/>
+                        <ActionItem name="UG_WINDOW_SWITCH" type="button" visibility="0"/>
+                        <ActionItem name="UG_WINDOW" type="cascade" visibility="0"/>
+                    </ActionItems>
+                </ActionList>
+                <ActionList name="rbn_object_display_context_tab.crb" type="ribbontab">
+                    <BarInfo position="float" visibility="1">
+                        <FloatInfo width="0" x="22" y="18"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="-1" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
                 </ActionList>
             </ActionLists>
         </Layout>
@@ -5332,6 +5760,18 @@
                 <State app="UG_APP_VSA" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_SUBDIVISION_MODELING" expanded="0" suppressed="0" width="-1"/>
             </Tab>
+            <Tab id="C:\Program Files\O_9691_XN_SNEMEIS_O_SIEMENS_NX_1969_O\mach\samples\CAM_Machine_Samples.pax" type="6">
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="C:\Program Files\O_9691_XN_SNEMEIS_O_SIEMENS_NX_1969_O\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" type="6">
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
             <Tab id="C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" type="6">
                 <State app="APP_STRUCTUREDESIGNER" expanded="0" suppressed="0" width="-1"/>
                 <State app="NX_IMPLICIT_MODELING" expanded="0" suppressed="0" width="-1"/>
@@ -5424,7 +5864,7 @@
             <BorderBar name="LeftBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
             <BorderBar name="RightBorderBar" ribbonFullscreenVisibility="0" ribbonVisibility="1"/>
         </Setting>
-        <Setting bitmap="24" dialogBitmap="16" horzBorderBitmap="16" menuBitmap="16" minibarBitmap="16" name="IconSize" ribbonBitmap="32" slimRibbonBitmap="24" vertBorderBitmap="16"/>
+        <Setting bitmap="16" dialogBitmap="16" horzBorderBitmap="16" menuBitmap="16" minibarBitmap="16" name="IconSize" ribbonBitmap="32" slimRibbonBitmap="16" vertBorderBitmap="16"/>
         <Setting name="ControlBars">
             <Application fullScreen="0" name="APP_STRUCTUREDESIGNER">
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="ANT" show="0"/>
@@ -5460,7 +5900,8 @@
             <Application fullScreen="0" name="UG_APP_GATEWAY">
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="ANT" show="0"/>
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" show="0"/>
-                <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="PARTNT" show="0"/>
+                <ControlBar dockedPos="327x492@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
+                <ControlBar dockedPos="1684x294@-2.4" dockedStyle="2" floatPos="450x500@300.350" name="PARTNT" show="1"/>
             </Application>
             <Application fullScreen="0" name="UG_APP_LOGIC_EDITOR">
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="ANT" show="0"/>
@@ -5469,7 +5910,7 @@
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::RuleUI::NodeNavigatorFrame" show="0"/>
             </Application>
             <Application fullScreen="0" name="UG_APP_MODELING">
-                <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="ANT" show="0"/>
+                <ControlBar dockedPos="352x492@4.-2" dockedStyle="4" floatPos="450x500@300.350" name="ANT" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="CDV" show="0"/>
                 <ControlBar dockedPos="295x425@4.-2" dockedStyle="4" floatPos="450x500@300.350" name="CNAV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="DSTA" show="0"/>
@@ -5481,8 +5922,8 @@
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/ROLE_SYSTEM_PAL:Roles" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="FCNTLNAV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="KFNT" show="0"/>
-                <ControlBar dockedPos="201x863@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
-                <ControlBar dockedPos="1684x273@-2.4" dockedStyle="2" floatPos="450x500@342.485" name="PARTNT" show="1"/>
+                <ControlBar dockedPos="327x492@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
+                <ControlBar dockedPos="1684x357@-2.4" dockedStyle="2" floatPos="450x500@342.485" name="PARTNT" show="1"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="SDRDSDV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MBD::UI::DataBrowser::Frame" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MotionDesignerUI::Nav::Navigator" show="0"/>

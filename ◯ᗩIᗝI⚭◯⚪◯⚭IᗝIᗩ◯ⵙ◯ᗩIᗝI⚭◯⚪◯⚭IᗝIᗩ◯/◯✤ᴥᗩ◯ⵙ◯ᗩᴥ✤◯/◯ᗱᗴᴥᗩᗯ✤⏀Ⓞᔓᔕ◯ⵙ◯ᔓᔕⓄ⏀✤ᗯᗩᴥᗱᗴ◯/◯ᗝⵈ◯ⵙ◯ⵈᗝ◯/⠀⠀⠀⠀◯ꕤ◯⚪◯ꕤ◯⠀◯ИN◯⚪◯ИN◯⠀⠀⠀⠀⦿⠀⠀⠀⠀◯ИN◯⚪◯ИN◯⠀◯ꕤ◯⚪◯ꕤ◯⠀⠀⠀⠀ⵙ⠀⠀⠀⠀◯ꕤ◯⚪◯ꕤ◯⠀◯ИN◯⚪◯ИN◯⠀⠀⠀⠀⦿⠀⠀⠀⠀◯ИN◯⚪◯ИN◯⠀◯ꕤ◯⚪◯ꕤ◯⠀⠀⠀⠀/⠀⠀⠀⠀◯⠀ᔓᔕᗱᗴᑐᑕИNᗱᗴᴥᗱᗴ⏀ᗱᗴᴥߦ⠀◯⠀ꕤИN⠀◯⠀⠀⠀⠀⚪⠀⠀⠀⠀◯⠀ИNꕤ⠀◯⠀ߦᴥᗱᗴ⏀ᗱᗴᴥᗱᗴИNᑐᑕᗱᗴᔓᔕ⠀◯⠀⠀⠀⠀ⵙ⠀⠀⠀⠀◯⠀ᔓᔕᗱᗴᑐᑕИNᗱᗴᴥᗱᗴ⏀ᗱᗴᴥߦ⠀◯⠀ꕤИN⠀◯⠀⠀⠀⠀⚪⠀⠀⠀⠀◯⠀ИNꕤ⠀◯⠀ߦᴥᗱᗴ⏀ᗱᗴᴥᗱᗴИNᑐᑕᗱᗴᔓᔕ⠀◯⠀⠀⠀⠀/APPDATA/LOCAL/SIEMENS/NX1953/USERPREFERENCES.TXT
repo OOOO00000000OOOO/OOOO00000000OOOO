@@ -190,15 +190,15 @@
 "TNL_WIDTH"=dword:00000200
 "TNL_VIEW"=dword:00000003
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette5]
-"URL"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\ugphoto\system_scene_data_dir\prepackaged_scenes.pax"
+"URL"="C:\Program Files\O_9691_XN_SNEMEIS_O_SIEMENS_NX_1969_O\ugphoto\system_scene_data_dir\prepackaged_scenes.pax"
 "TNL_WIDTH"=dword:0000011e
 "TNL_VIEW"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Palettes\Standard\Palette6]
-"URL"="C:\Program Files\O_3591_XN_SNEMEIS_O_SIEMENS_NX_1953_O\mach\samples\CAM_Machine_Samples.pax"
+"URL"="C:\Program Files\O_9691_XN_SNEMEIS_O_SIEMENS_NX_1969_O\mach\samples\CAM_Machine_Samples.pax"
 "TNL_WIDTH"=dword:0000011e
 "TNL_VIEW"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PartNT\Columns]
-"Column Headers"="NAME,On,789CURRENT_FEATURE,On,78OUT_OF_DATE,Off,62FEATURE_TYPE,Off,200TIMESTAMP,On,62LAYER,Off,35COLOR,On,36STATE,Off,100PARENT_INTERFACE,Off,100CREATED,On,67MODIFIED,On,65COMMENT,Off,57REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,Off,100VIEW_REPRESENTATION,Off,100SHEET_NUMBER,Off,100SHEET_REVISION,Off,100SHEET_EFFECTIVITY,Off,100ARRANGEMENT,Off,100FORMULA,Off,48DISCLOSURE,Off,100DISCLOSURE_PURPOSE,Off,100MASS,Off,100MASS_STATUS,Off,100MASS_SOURCE_TYPE,Off,100"
+"Column Headers"="NAME,On,919CURRENT_FEATURE,On,78OUT_OF_DATE,Off,62FEATURE_TYPE,Off,200TIMESTAMP,On,62LAYER,Off,35COLOR,On,36STATE,Off,100PARENT_INTERFACE,Off,100CREATED,On,67MODIFIED,On,65COMMENT,Off,57REQUIREMENT_ID,Off,100PART_NAME,Off,100VALUE,Off,100CREATEDBY,Off,100MODIFIEDBY,Off,100ALERTS,Off,100VIEW_REPRESENTATION,Off,100SHEET_NUMBER,Off,100SHEET_REVISION,Off,100SHEET_EFFECTIVITY,Off,100ARRANGEMENT,Off,100FORMULA,Off,48DISCLOSURE,Off,100DISCLOSURE_PURPOSE,Off,100MASS,Off,100MASS_STATUS,Off,100MASS_SOURCE_TYPE,Off,100"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\PartNT\Filters]
 "num_filters"=dword:00000006
 "filter:1"="Only Failed FeaturesUGS::PARTNAV_category_filterExcludeAllFeaturesUGS::PARTNAV_state_filterIncludeFailed"
@@ -221,29 +221,29 @@
 "TreeMode"="timestamp"
 "ShowExpressionsGroup"="No"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Parts\Recent\Native]
-"UG Native part name 1"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀✤ᔓᔕᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᔓᔕ✤⠀◯⠀⠀⠀⠀ .PRT"
-"UG Native desc name 1"="<TЯP.⠀⠀⠀⠀◯⠀✤ᔓᔕᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᔓᔕ✤⠀◯⠀⠀⠀⠀ >"
+"UG Native part name 1"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦᴥᗱᗴߦ人옷⠀◯⠀ᙁᗩᴥᗝᗱᗴ옷ᗩ✤ᑐᑕⓄ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀Ⓞᑐᑕ✤ᗩ옷ᗱᗴᗝᴥᗩᙁ⠀◯⠀옷人ߦᗱᗴᴥᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀.PRT"
+"UG Native desc name 1"="<TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦᴥᗱᗴߦ人옷⠀◯⠀ᙁᗩᴥᗝᗱᗴ옷ᗩ✤ᑐᑕⓄ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀Ⓞᑐᑕ✤ᗩ옷ᗱᗴᗝᴥᗩᙁ⠀◯⠀옷人ߦᗱᗴᴥᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀>"
 "UG Native pin state 1"=dword:00000000
-"UG Native part name 2"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP..⠀⠀⠀⠀◯⠀ᗱᗴ✤ᗩᙁߦᙏᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᙏߦᙁᗩ✤ᗱᗴ⠀◯⠀⠀⠀⠀..prt"
-"UG Native desc name 2"="<TЯP..⠀⠀⠀⠀◯⠀ᗱᗴ✤ᗩᙁߦᙏᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᙏߦᙁᗩ✤ᗱᗴ⠀◯⠀⠀⠀⠀.>"
+"UG Native part name 2"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀ᗱᗴ✤ᗩᙁߦᙏᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᙏߦᙁᗩ✤ᗱᗴ⠀◯⠀⠀⠀⠀.PRT"
+"UG Native desc name 2"="<TЯP.⠀⠀⠀⠀◯⠀ᗱᗴ✤ᗩᙁߦᙏᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᙏߦᙁᗩ✤ᗱᗴ⠀◯⠀⠀⠀⠀>"
 "UG Native pin state 2"=dword:00000000
-"UG Native part name 3"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀.prt"
-"UG Native desc name 3"="<TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀>"
+"UG Native part name 3"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀✤ᔓᔕᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᔓᔕ✤⠀◯⠀⠀⠀⠀ .PRT"
+"UG Native desc name 3"="<TЯP.⠀⠀⠀⠀◯⠀✤ᔓᔕᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᔓᔕ✤⠀◯⠀⠀⠀⠀ >"
 "UG Native pin state 3"=dword:00000000
-"UG Native part name 4"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.PRT"
-"UG Native desc name 4"="<TЯP.O>"
+"UG Native part name 4"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀.PRT"
+"UG Native desc name 4"="<TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀>"
 "UG Native pin state 4"=dword:00000000
-"UG Native part name 5"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.prt"
-"UG Native desc name 5"="<TЯP.O>"
+"UG Native part name 5"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP..⠀⠀⠀⠀◯⠀ᗱᗴ✤ᗩᙁߦᙏᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᙏߦᙁᗩ✤ᗱᗴ⠀◯⠀⠀⠀⠀..prt"
+"UG Native desc name 5"="<TЯP..⠀⠀⠀⠀◯⠀ᗱᗴ✤ᗩᙁߦᙏᗱᗴ✤⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀✤ᗱᗴᙏߦᙁᗩ✤ᗱᗴ⠀◯⠀⠀⠀⠀.>"
 "UG Native pin state 5"=dword:00000000
-"UG Native part name 6"=""
-"UG Native desc name 6"=""
+"UG Native part name 6"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀.prt"
+"UG Native desc name 6"="<TЯP.⠀⠀⠀⠀◯⠀ⵘ⠀◯⠀ᔓᔕᑎИNᗱᗴᕤᕦ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᕤᕦᗱᗴИNᑎᔓᔕ⠀◯⠀ⵘ⠀◯⠀⠀⠀⠀>"
 "UG Native pin state 6"=dword:00000000
-"UG Native part name 7"=""
-"UG Native desc name 7"=""
+"UG Native part name 7"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.PRT"
+"UG Native desc name 7"="<TЯP.O>"
 "UG Native pin state 7"=dword:00000000
-"UG Native part name 8"=""
-"UG Native desc name 8"=""
+"UG Native part name 8"="C:\O\O_AIDIV_O_VIDIA_O\O_XN_O_NX_O\TЯP.O.prt"
+"UG Native desc name 8"="<TЯP.O>"
 "UG Native pin state 8"=dword:00000000
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\Product Excellence Program]
 "Popup Handled"=dword:00000001
@@ -310,6 +310,8 @@
 "SnipAtBoundaryHasBeenSelected"="-2,1"
 "Modeling_SketchPreferences"="-2,1"
 "Modeling_DisplayObjectColor"="-2,1"
+"Gateway_WarnSaveModifiedFile"="-2,1"
+"MakeRelationWarning"="-2,1"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Layout\Railing]
 "Frame Marker"=dword:ffffffff
 "Frame Pos X"=dword:00007fff
@@ -334,13 +336,13 @@
 "Information"="0,873x517+294+0,0x0+0+0"
 "DA1"="1700x1700+-10+-10"
 "DA2"="1700x1700+242+54"
-"FLOAT"="1700x1700+587+258"
+"FLOAT"="1700x1700+954+58"
 "FSB"="0x0+0+0"
 "DevelopmentExchange"=dword:00000001
 "Horizon Windows Style"=dword:00000000
 "Horizon Scheme Style"=dword:00000000
 "WelcomePageUserResponse"=dword:00000000
-"SketchWelcomePageCount"=dword:0000000d
+"SketchWelcomePageCount"=dword:0000000f
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Selection]
 "QuickPick Dialog X Position"=dword:00000342
 "QuickPick Dialog Y Position"=dword:000000d4
