@@ -98,6 +98,7 @@
 "Blend_ss_list"="10 10 10 10 179"
 "Blend Limits List"="10 10 10 165"
 "AlongSpineBuilder::SpinePointList"="10 10 10 10 155"
+"Chain"="10 10 10 165"
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FCNTLNAV\WindowState]
 "DialogsVisible"=dword:00000001
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\General\FILENEW\Tab Name]
@@ -340,13 +341,13 @@
 "Information"="0,873x517+294+0,0x0+0+0"
 "DA1"="1700x1700+-10+-10"
 "DA2"="1700x1700+242+54"
-"FLOAT"="1700x1700+750+127"
+"FLOAT"="1700x1700+429+438"
 "FSB"="0x0+0+0"
 "DevelopmentExchange"=dword:00000001
 "Horizon Windows Style"=dword:00000000
 "Horizon Scheme Style"=dword:00000000
 "WelcomePageUserResponse"=dword:00000000
-"SketchWelcomePageCount"=dword:00000010
+"SketchWelcomePageCount"=dword:00000011
 [HKEY_CURRENT_USER\Software\Unigraphics Solutions\NX\1953\Selection]
 "QuickPick Dialog X Position"=dword:00000342
 "QuickPick Dialog Y Position"=dword:000000d4
@@ -418,7 +419,7 @@
 "Disable Dynamic Advanced Studio Ambient Shadows Update"=dword:00000000
 "Disable Dynamic Advanced Studio Floor Reflection Update"=dword:00000000
 "Disable Dynamic Advanced Studio Image-based Lighting Update"=dword:00000000
-"ExcludeDatumsFromFit"=dword:00000000
+"ExcludeDatumsFromFit"=dword:00000001
 "Analysis Edge Highlight Mode"=dword:00000000
 "Standard Font Family"="Quivira"
 "Standard Font Style"="Regular"
