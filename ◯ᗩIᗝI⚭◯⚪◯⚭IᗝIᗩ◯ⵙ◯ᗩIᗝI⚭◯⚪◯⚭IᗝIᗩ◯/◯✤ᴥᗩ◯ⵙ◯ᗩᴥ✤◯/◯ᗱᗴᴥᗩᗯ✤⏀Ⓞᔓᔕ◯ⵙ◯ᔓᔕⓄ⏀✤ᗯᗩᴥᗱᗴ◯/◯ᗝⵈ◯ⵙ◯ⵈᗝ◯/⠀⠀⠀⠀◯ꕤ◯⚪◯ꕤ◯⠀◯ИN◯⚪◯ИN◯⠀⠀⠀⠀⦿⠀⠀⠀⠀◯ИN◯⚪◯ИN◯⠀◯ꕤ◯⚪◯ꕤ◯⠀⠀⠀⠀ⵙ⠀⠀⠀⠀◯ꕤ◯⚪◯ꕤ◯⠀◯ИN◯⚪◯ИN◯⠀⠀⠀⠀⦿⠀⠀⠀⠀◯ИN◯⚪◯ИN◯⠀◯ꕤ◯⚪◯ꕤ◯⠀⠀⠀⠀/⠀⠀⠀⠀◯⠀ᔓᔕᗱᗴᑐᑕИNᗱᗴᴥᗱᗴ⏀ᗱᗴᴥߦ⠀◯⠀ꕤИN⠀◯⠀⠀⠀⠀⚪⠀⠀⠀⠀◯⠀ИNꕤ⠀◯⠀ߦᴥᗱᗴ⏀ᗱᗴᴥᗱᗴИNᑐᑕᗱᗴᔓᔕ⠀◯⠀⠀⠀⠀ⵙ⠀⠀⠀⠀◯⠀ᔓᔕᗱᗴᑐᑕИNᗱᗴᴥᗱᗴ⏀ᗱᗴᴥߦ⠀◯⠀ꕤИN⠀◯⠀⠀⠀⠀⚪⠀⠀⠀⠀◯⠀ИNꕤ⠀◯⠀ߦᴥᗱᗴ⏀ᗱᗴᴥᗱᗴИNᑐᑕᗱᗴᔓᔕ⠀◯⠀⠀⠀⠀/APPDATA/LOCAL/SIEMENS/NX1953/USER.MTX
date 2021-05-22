@@ -357,7 +357,7 @@
                 <ActionList name="rbn_pmi.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="0"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_selection_intent.stb" type="scenebar">
@@ -369,7 +369,7 @@
                 <ActionList name="rbn_analyze.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                     <ActionItems>
                         <ActionItem name="rbn_analyze_display.grb" type="group" visibility="1"/>
@@ -379,49 +379,49 @@
                 <ActionList name="rbn_application.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="1">
                         <FloatInfo width="0" x="408" y="359"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_curves.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="1">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_developer.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_internal.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_render.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="1">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_selection.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_tools.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visualization.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                     <ActionItems>
                         <ActionItem name="rbn_window.grb" type="group" visibility="1"/>
@@ -432,61 +432,61 @@
                 <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
                     <BarInfo position="top" visibility="1">
-                        <FloatInfo width="1680" x="0" y="36"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                        <FloatInfo width="1680" x="133" y="40"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="0"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_assemblies.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_omnicad_for_nx.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_animation_designer.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="1">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_sketch_main.stb" type="scenebar">
@@ -511,7 +511,7 @@
                 <ActionList name="rbn_sketch_te_home.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="0" x="300" y="200"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="rbn_object_display_context_tab.crb" type="ribbontab">
@@ -1169,7 +1169,11 @@
                 </ActionList>
                 <ActionList applications="" name="RECENTLY_USED::rbn_feature_more.gly" type="popupbar">
                     <ActionItems>
-                        <ActionItem index="0" name="UG_MODELING_UDF_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="0" name="UG_MODELING_RIB_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="1" name="UG_MODELING_NX_EMBOSS_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="2" name="UG_MODELING_OFFSET_EMBOSS_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="3" name="UG_MODELING_EMBOSS_BODY_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="4" name="UG_MODELING_UDF_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList applications="" name="RECENTLY_USED::rbn_surface_more.gly" type="popupbar">
@@ -1180,14 +1184,14 @@
                 </ActionList>
                 <ActionList applications="" name="rbn_view.grb" type="popupbar">
                     <ActionItems>
-                        <ActionItem index="16" name="UG_VIEW_POPUP_ORIENT_TFRTRI" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="17" name="UG_VIEW_POPUP_ORIENT_TFRISO" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="18" name="UG_VIEW_POPUP_ORIENT_TOP" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="19" name="UG_VIEW_POPUP_ORIENT_LEFT" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="20" name="UG_VIEW_POPUP_ORIENT_FRONT" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="21" name="UG_VIEW_POPUP_ORIENT_RIGHT" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="22" name="UG_VIEW_POPUP_ORIENT_BACK" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="23" name="UG_VIEW_POPUP_ORIENT_BOTTOM" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="16" name="UG_VIEW_POPUP_ORIENT_BACK" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="23" name="UG_VIEW_POPUP_ORIENT_TFRTRI" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="24" name="UG_VIEW_POPUP_ORIENT_TOP" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="25" name="UG_VIEW_POPUP_ORIENT_LEFT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="26" name="UG_VIEW_POPUP_ORIENT_TFRISO" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="27" name="UG_VIEW_POPUP_ORIENT_FRONT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="28" name="UG_VIEW_POPUP_ORIENT_BOTTOM" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="29" name="UG_VIEW_POPUP_ORIENT_RIGHT" ribbon_style="0" style="3" type="button" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList applications="" name="NX_RBN_ASSEMBLIES_COMPONENTS_GROUP" type="popupbar">
@@ -1219,7 +1223,7 @@
                 </ActionList>
             </ActionLists>
         </Content>
-        <Layout activeBarInRibbonStack="rbn_modeling_home.rtb" activeSceneBar="SCENE::CTX_TOOL_OBJECT_DISPLAY">
+        <Layout activeBarInRibbonStack="RESOURCE_BAR_TAB" activeSceneBar="SCENE::CTX_TOOL_OBJECT_DISPLAY">
             <ActionLists>
                 <ActionList name="SelectionBar" type="toolbar">
                     <ActionItems>
@@ -1232,8 +1236,8 @@
                 </ActionList>
                 <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
                     <BarInfo position="top" visibility="1">
-                        <FloatInfo width="1680" x="0" y="38"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                        <FloatInfo width="1680" x="19" y="30"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                 </ActionList>
                 <ActionList name="QuickAccessBar" type="popupbar">
@@ -1271,7 +1275,7 @@
                 <ActionList name="rbn_application.rtb" type="ribbontab">
                     <BarInfo position="top" visibility="0">
                         <FloatInfo width="1680" x="0" y="43"/>
-                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
                     </BarInfo>
                     <ActionItems>
                         <ActionItem name="NX_RBN_APP_DESIGN_GROUP" style="3" type="group" visibility="1"/>
@@ -2659,7 +2663,11 @@
                 </ActionList>
                 <ActionList name="RECENTLY_USED::rbn_feature_more.gly" type="popupbar">
                     <ActionItems>
-                        <ActionItem index="0" name="UG_MODELING_UDF_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="0" name="UG_MODELING_RIB_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="1" name="UG_MODELING_NX_EMBOSS_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="2" name="UG_MODELING_OFFSET_EMBOSS_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="3" name="UG_MODELING_EMBOSS_BODY_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
+                        <ActionItem index="4" name="UG_MODELING_UDF_FEATURE" ribbon_style="0" style="0" type="button" visibility="1"/>
                     </ActionItems>
                 </ActionList>
                 <ActionList name="RECENTLY_USED::rbn_surface_more.gly" type="popupbar">
@@ -2755,20 +2763,20 @@
                         <ActionItem name="UG_VIEW_FIT_TO_SECTIONING" type="toggle" visibility="0"/>
                         <ActionItem name="UG_VIEW_FIT_ON_HIDE_OR_SHOW" type="toggle" visibility="0"/>
                         <ActionItem name="NX_RBN_VIEW_ORIENT_VIEW_DROPDOWN" type="substdropdown" visibility="0"/>
-                        <ActionItem index="16" name="UG_VIEW_POPUP_ORIENT_TFRTRI" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="17" name="UG_VIEW_POPUP_ORIENT_TFRISO" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="18" name="UG_VIEW_POPUP_ORIENT_TOP" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="19" name="UG_VIEW_POPUP_ORIENT_LEFT" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="20" name="UG_VIEW_POPUP_ORIENT_FRONT" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="21" name="UG_VIEW_POPUP_ORIENT_RIGHT" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="22" name="UG_VIEW_POPUP_ORIENT_BACK" ribbon_style="0" style="3" type="button" visibility="1"/>
-                        <ActionItem index="23" name="UG_VIEW_POPUP_ORIENT_BOTTOM" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="16" name="UG_VIEW_POPUP_ORIENT_BACK" ribbon_style="0" style="3" type="button" visibility="1"/>
                         <ActionItem name="NX_RBN_VIEW_RENDERING_STYLE_DROPDOWN" type="substdropdown" visibility="0"/>
                         <ActionItem name="UG_VIEW_POPUP_SHADED_WITH_EDGES" style="3" type="button" visibility="1"/>
                         <ActionItem name="UG_VIEW_POPUP_SHADED" style="3" type="button" visibility="1"/>
                         <ActionItem name="UG_VIEW_POPUP_PARTIALLY_SHADED" style="3" type="button" visibility="1"/>
                         <ActionItem name="UG_VIEW_POPUP_WIREFRAME_WITH_HIDDEN_EDGES" style="3" type="button" visibility="1"/>
-                        <ActionItem name="UG_VIEW_POPUP_WIREFRAME_WITH_DIM_EDGES" style="3" type="button" visibility="1"/>
+                        <ActionItem index="22" name="UG_VIEW_POPUP_WIREFRAME_WITH_DIM_EDGES" style="3" type="button" visibility="1"/>
+                        <ActionItem index="23" name="UG_VIEW_POPUP_ORIENT_TFRTRI" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="24" name="UG_VIEW_POPUP_ORIENT_TOP" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="25" name="UG_VIEW_POPUP_ORIENT_LEFT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="26" name="UG_VIEW_POPUP_ORIENT_TFRISO" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="27" name="UG_VIEW_POPUP_ORIENT_FRONT" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="28" name="UG_VIEW_POPUP_ORIENT_BOTTOM" ribbon_style="0" style="3" type="button" visibility="1"/>
+                        <ActionItem index="29" name="UG_VIEW_POPUP_ORIENT_RIGHT" ribbon_style="0" style="3" type="button" visibility="1"/>
                         <ActionItem name="UG_VIEW_POPUP_STATIC_WIREFRAME" style="3" type="button" visibility="1"/>
                         <ActionItem name="UG_VIEW_POPUP_STUDIO" style="3" type="button" visibility="1"/>
                         <ActionItem name="UG_VIEW_POPUP_FACE_ANALYSIS" style="3" type="button" visibility="1"/>
@@ -5033,6 +5041,163 @@
             </ActionLists>
         </Layout>
     </Profile>
+    <Profile name="UG_APP_MECHANISMS">
+        <Content mode="edit">
+            <Actions>
+                <Action name="NX_RBN_VIS_TRUE_STUDIO_MORE_GALLERY" type="gallery">
+                    <ActionData inPopupColumns="1" inPopupRows="3"/>
+                </Action>
+            </Actions>
+        </Content>
+        <Layout activeBarInRibbonStack="rbn_application.rtb">
+            <ActionLists>
+                <ActionList name="rbn_modeling_join.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="20" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_weld_assistant.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_structure_welding.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="0" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_modeling_biw_locator.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="21" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_analyze.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="19" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_application.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="10" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_curves.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="5" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_developer.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="12" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_internal.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="17" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_render.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="8" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_selection.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="7" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_tools.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="9" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visualization.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="6" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="RESOURCE_BAR_TAB" type="ribbontab">
+                    <BarInfo position="top" visibility="1">
+                        <FloatInfo width="1680" x="19" y="30"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="18" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_visual_reporting.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="11" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_assemblies.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="13" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_pmi.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="14" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_omnicad_for_nx.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="15" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_automated_testing.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="16" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_motion_sim_analysis.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="1" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_motion_sim_home.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="0" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_motion_sim_modeling.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="3" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_motion_sim_results.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="2" ribbonPopupWidth="0" visibility="1"/>
+                    </BarInfo>
+                </ActionList>
+                <ActionList name="rbn_motion_vertical_apps.rtb" type="ribbontab">
+                    <BarInfo position="top" visibility="0">
+                        <FloatInfo width="0" x="300" y="200"/>
+                        <RibbonStackInfo detached="0" detachedFullScreen="0" floatVertical="0" floatVerticalWidth="0" index="4" ribbonPopupWidth="0" visibility="0"/>
+                    </BarInfo>
+                </ActionList>
+            </ActionLists>
+        </Layout>
+    </Profile>
     <Repository>
         <Content mode="edit">
             <Actions>
@@ -5613,6 +5778,7 @@
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LAYOUT_EDIT_IN_ISOLATION" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
@@ -5630,6 +5796,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5647,6 +5814,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5666,6 +5834,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
@@ -5684,6 +5853,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5701,6 +5871,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5718,6 +5889,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5735,6 +5907,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5752,6 +5925,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5769,6 +5943,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5789,6 +5964,7 @@
                 <State app="UG_APP_DRAFTING" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
@@ -5808,6 +5984,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5825,6 +6002,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5842,6 +6020,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5859,6 +6038,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5876,6 +6056,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5893,6 +6074,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5910,6 +6092,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5927,6 +6110,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5944,6 +6128,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5961,6 +6146,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5978,6 +6164,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -5995,6 +6182,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6013,6 +6201,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="559"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6030,6 +6219,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6047,6 +6237,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6064,6 +6255,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6081,6 +6273,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6098,6 +6291,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6115,6 +6309,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6132,6 +6327,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6150,6 +6346,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6175,6 +6372,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6192,6 +6390,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6227,6 +6426,7 @@
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_LAYOUT_EDIT_IN_ISOLATION" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
@@ -6247,6 +6447,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6315,6 +6516,20 @@
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
             </Tab>
+            <Tab id="C:\Program Files\O__9691_XN_SNEMEIS__O__SIEMENS_NX_1969__O\mach\samples\CAM_Machine_Samples.pax" type="6">
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
+            <Tab id="C:\Program Files\O__9691_XN_SNEMEIS__O__SIEMENS_NX_1969__O\ugphoto\system_scene_data_dir\prepackaged_scenes.pax" type="6">
+                <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_SKETCH_TASK" expanded="0" suppressed="0" width="-1"/>
+            </Tab>
             <Tab id="C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" type="6">
                 <State app="APP_STRUCTUREDESIGNER" expanded="0" suppressed="0" width="-1"/>
                 <State app="NX_IMPLICIT_MODELING" expanded="0" suppressed="0" width="-1"/>
@@ -6322,6 +6537,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6341,6 +6557,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
@@ -6372,6 +6589,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="1" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="1" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="1" width="-1"/>
@@ -6390,6 +6608,7 @@
                 <State app="UG_APP_DESFEM" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_GATEWAY" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_LOGIC_EDITOR" expanded="0" suppressed="0" width="-1"/>
+                <State app="UG_APP_MECHANISMS" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_MODELING" expanded="0" suppressed="0" width="512"/>
                 <State app="UG_APP_NOPART" expanded="0" suppressed="0" width="-1"/>
                 <State app="UG_APP_NX_LAYOUT" expanded="0" suppressed="0" width="-1"/>
@@ -6452,6 +6671,14 @@
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="PARTNT" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::RuleUI::NodeNavigatorFrame" show="0"/>
             </Application>
+            <Application fullScreen="0" name="UG_APP_MECHANISMS">
+                <ControlBar dockedPos="352x492@4.-2" dockedStyle="4" floatPos="450x500@300.350" name="ANT" show="0"/>
+                <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" show="0"/>
+                <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="FCNTLNAV" show="0"/>
+                <ControlBar dockedPos="1684x357@-2.4" dockedStyle="2" floatPos="450x500@342.485" name="MOTION_SNT" show="1"/>
+                <ControlBar dockedPos="1684x357@-2.4" dockedStyle="2" floatPos="450x500@342.485" name="PARTNT" show="0"/>
+                <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="SPPNT" show="0"/>
+            </Application>
             <Application fullScreen="0" name="UG_APP_MODELING">
                 <ControlBar dockedPos="352x492@4.-2" dockedStyle="4" floatPos="450x500@300.350" name="ANT" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="CDV" show="0"/>
@@ -6466,7 +6693,7 @@
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="FCNTLNAV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="KFNT" show="0"/>
                 <ControlBar dockedPos="327x492@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
-                <ControlBar dockedPos="1684x357@-2.4" dockedStyle="2" floatPos="450x500@342.485" name="PARTNT" show="1"/>
+                <ControlBar dockedPos="1684x287@-2.4" dockedStyle="2" floatPos="450x500@342.485" name="PARTNT" show="1"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="SDRDSDV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MBD::UI::DataBrowser::Frame" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MotionDesignerUI::Nav::Navigator" show="0"/>
@@ -6477,7 +6704,7 @@
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="CDV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="CNAV" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="DSTA" show="0"/>
-                <ControlBar dockedPos="1684x225@-2.-2" dockedStyle="1" floatPos="360x580@300.350" name="DockingDialog:C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" show="1"/>
+                <ControlBar dockedPos="1684x225@-2.4" dockedStyle="2" floatPos="360x580@300.350" name="DockingDialog:C:\Users\Administrator\AppData\Local\Siemens\NX1953\history.pax" show="1"/>
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:NX_GADGET_AREA" show="0"/>
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/CAM_WIZARD_PAL:Manufacturing Wizards" show="0"/>
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/ProcessStudioWizard:Process Studio" show="0"/>
@@ -6533,7 +6760,7 @@
                 <ControlBar dockedPos="360x580@0.0" dockedStyle="0" floatPos="360x580@300.350" name="DockingDialog:UG/ROLE_SYSTEM_PAL:Roles" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="KFNT" show="0"/>
                 <ControlBar dockedPos="201x863@-2.-2" dockedStyle="3" floatPos="450x500@300.350" name="KRUNAV" show="0"/>
-                <ControlBar dockedPos="1684x332@-2.4" dockedStyle="2" floatPos="450x500@300.350" name="PARTNT" show="1"/>
+                <ControlBar dockedPos="1684x284@-2.4" dockedStyle="2" floatPos="450x500@300.350" name="PARTNT" show="1"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MBD::UI::DataBrowser::Frame" show="0"/>
                 <ControlBar dockedPos="450x500@0.0" dockedStyle="0" floatPos="450x500@300.350" name="UGS::MotionDesignerUI::Nav::Navigator" show="0"/>
             </Application>
@@ -6581,7 +6808,7 @@
             </Application>
         </Setting>
         <Setting homePage="" name="WebBrowser" usePerSiteZoom="1">
-            <WebSite lastVisit="27-04-2021" name="siemens.com" zoomPercent="80"/>
+            <WebSite lastVisit="21-05-2021" name="siemens.com" zoomPercent="80"/>
         </Setting>
         <Setting enableQuickPickOnDelay="0" name="QuickPickOnDelay"/>
         <Setting commandDialogFavoriteOption="1" name="Favorites"/>
@@ -6616,20 +6843,20 @@
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DependenciesView_layout_Dependencies_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UGS::UI::Comp::PartsBrowserBlock::UGS::UI::Comp::GridPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window COL_1609031="Name,On,200,0" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DependenciesView_layout_Dependencies_View_Layout::TreeColumns"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-6PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window COL_1609031="Name,On,200,0" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DependenciesView_layout_Dependencies_View_Layout::TreeColumns"/>
             <Window bottom="250" id="UGS::UI::Comp::PartsBrowserBlock::UGS::UI::Comp::TileListPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="250" id="NX_VISUAL_REPORTING::UGS::UI::Comp::ExplorerShortCutBarPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="NX_VISUAL_REPORTING::UGS::UI::Comp::ExplorerShortCutBarPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window COL_1609031="Name,On,300,0" id="UICOMPNAV_view_UGS_RuleUI_NodeNavigatorNodesView_layout_NXDefaultNavigatorViewLayoutAppId::TreeColumns"/>
             <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="0" id="RadialTouchPad" left="0" right="0" snappedHorizontal="-1" snappedVertical="-1" top="0"/>
             <Window bottom="250" id="#UGS-GatewayUI-CloseSelectedParts#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlockPartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="0" id="RadialTouchPad" left="0" right="0" snappedHorizontal="-1" snappedVertical="-1" top="0"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridExtraSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="NX_VISUAL_REPORTING::UGS::UI::Comp::TileListPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="1016" horzSnap="0" id="ExpMgr" left="0" right="1105" state="0" top="253" type="3" vertSnap="-1"/>
-            <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="882" horzSnap="-1" id="ExpMgr" left="101" right="561" state="0" top="174" type="3" vertSnap="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="758" horzSnap="0" id="UGS::GatewayUI::UIFeatureToggle" left="0" right="1550" state="0" top="240" type="3" vertSnap="-1"/>
             <Window COL_1262697856="Title,On,200,0|Validation Comment,On,150,1" id="UICOMPNAV_view_UGS_Mfg_VSA_UI_VsaNavigatorView_layout_Initial_Assy_View_Layout::TreeColumns"/>
@@ -6664,17 +6891,17 @@
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-6PartsBrowserPresentation::ListView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-3PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-4PartsBrowserPresentation::GridSmallView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DetailsView_layout_Details_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="NX_VISUAL_REPORTING::UGS::UI::Comp::ExplorerSummaryPresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_DetailsView_layout_Details_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window COL_1864395469="Name,On,200,0|Description,On,80,1" id="UICOMPNAV_view_UGS_ToolingUI_MemberSelectView_layout_Member_Select_View_Layout_for_LogicalRule::TreeColumns"/>
             <Window COL_3269772213="Name,On,200,0|Library Status,Off,50,1|Created,Off,150,2|Modified,Off,150,3|Updated,Off,150,4|Alerts,On,150,5" id="UICOMPNAV_view_UGS_MBD_UI_DataBrowser_PrimaryObjectsView_layout_MBD_Navigator_Property::TreeColumns"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-6PartsBrowserPresentation::TileView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window COL_706291268="Name,On,200,0|Standard,On,150,1" id="UICOMPNAV_view_UGS_ToolingUI_MemberSelectView_layout_Member_Select_View_Layout::TreeColumns"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-1PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="UICOMPNAV_view_UGS_RuleUI_NodeNavigatorNodesView_layout_NXDefaultNavigatorViewLayoutAppId::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_NavigatorView_layout_Initial_Animation_Designer_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
             <Window bottom="250" id="#UGS-ModlFeatureUI-WaveLink#UGS-ModlUtilsUI-ProdIntSelectService#UGS-GatewayUI-SelectPart#UGS-GatewayUI-LoadedPartsListUGS-UI-Comp-PartsBrowserBlock-5PartsBrowserPresentation::GridMediumView" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
-            <Window id="DefaultDialogRail" posX="1023" posY="151" snappedHorizontal="-1" snappedVertical="-1"/>
+            <Window bottom="250" id="UICOMPNAV_view_UGS_MotionDesignerUI_Nav_NavigatorView_layout_Initial_Animation_Designer_View_Layout::UGS::UI::Comp::MFW::TreePresentation" isDetached="0" left="-1" right="200" snappedHorizontal="-1" snappedVertical="-1" top="-1"/>
+            <Window id="DefaultDialogRail" posX="124" posY="4" snappedHorizontal="-1" snappedVertical="-1"/>
         </Setting>
     </SessionSettings>
     <TouchSessionSettings>
