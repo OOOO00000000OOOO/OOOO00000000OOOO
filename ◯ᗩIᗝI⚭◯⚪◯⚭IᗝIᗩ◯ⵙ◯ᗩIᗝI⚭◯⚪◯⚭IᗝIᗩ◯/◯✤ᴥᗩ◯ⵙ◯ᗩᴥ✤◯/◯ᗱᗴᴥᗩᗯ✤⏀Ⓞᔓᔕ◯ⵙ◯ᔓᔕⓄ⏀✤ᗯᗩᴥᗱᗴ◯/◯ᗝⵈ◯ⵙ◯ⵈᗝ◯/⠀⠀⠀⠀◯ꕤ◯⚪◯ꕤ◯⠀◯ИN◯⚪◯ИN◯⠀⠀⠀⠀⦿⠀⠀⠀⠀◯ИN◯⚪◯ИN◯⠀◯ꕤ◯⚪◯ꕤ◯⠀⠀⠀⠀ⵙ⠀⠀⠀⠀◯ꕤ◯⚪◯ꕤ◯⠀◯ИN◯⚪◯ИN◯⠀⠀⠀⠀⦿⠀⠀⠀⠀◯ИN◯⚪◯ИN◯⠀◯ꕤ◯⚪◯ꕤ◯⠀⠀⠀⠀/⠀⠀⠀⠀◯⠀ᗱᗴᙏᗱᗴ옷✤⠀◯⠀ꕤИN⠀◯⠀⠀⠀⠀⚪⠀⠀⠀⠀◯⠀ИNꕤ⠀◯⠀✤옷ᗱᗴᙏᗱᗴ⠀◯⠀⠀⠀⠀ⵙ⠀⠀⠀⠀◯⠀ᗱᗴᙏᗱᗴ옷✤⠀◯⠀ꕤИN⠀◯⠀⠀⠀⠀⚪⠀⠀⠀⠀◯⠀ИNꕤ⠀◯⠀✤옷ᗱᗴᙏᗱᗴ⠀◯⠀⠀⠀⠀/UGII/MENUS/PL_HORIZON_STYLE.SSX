@@ -23,7 +23,7 @@
     <UIVariable name="$primaryBorderColor5" value="rgb(210,210,210)"/> 
     <UIVariable name="$hotColor" value="rgb(239,239,239)"/>
     <UIVariable name="$selectionColor" value="rgb(239,239,239)"/>
-    <UIVariable name="$pressedColor" value="rgb(205,230,235)"/>
+    <UIVariable name="$pressedColor" value="rgb(239,239,239)"/>
 	
     <UIVariable name="$accentColor1" value="rgb(127,127,127)"/>  
     <UIVariable name="$accentColor2" value="rgb(127,127,127)"/>
