@@ -60,8 +60,8 @@
     <UIVariable name="$secondaryAccentFillColor" value="$accentColor2"/>
     <UIVariable name="$secondaryAccentTextColor" value="$primaryTextColor"/>
 	
-    <UIVariable name="$defaultProgressFillColor" value="rgb(115,180,200)"/>
-    <UIVariable name="$defaultProgressBorderColor" value="rgb(115,180,200)"/>
+    <UIVariable name="$defaultProgressFillColor" value="rgb(239,239,239)"/>
+    <UIVariable name="$defaultProgressBorderColor" value="rgb(239,239,239)"/>
 	
     <UIVariable name="$selectBlockFillColor" value="rgb(255,225,120)"/>
     <UIVariable name="$selectBlockTextColor" value="$strongTextColor"/>
