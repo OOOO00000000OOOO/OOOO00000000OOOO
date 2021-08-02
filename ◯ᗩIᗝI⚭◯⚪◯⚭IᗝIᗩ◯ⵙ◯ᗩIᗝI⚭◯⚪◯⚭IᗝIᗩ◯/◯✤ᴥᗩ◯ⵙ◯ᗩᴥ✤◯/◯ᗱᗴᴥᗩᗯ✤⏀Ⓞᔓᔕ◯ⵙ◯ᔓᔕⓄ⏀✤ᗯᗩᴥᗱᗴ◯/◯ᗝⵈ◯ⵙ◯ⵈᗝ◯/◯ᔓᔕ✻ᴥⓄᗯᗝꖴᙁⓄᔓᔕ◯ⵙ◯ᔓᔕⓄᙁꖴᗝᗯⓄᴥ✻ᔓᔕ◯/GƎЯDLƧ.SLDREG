@@ -46,7 +46,7 @@ REGEDIT4
 "ClearanceDisplayOption"=dword:00000001
 "Save New Comp To External File"=dword:00000000
 "Envelope Components Transparency"=dword:00000000
-"Load Envelope Components Lightweight"=dword:00000000
+"Load Envelope Components Lightweight"=dword:00000001
 "Load Envelope Components read-Only"=dword:00000000
 "Update External Files Display List"=dword:00000000
 "Allow misaligned mates"=dword:00000001
@@ -1266,7 +1266,7 @@ REGEDIT4
 "UserExperienceLevel"=dword:00000001
 "Check Crash Fixes"=dword:00000000
 "MenuVersion"="SOLIDWORKS 2020"
-"Last Splash Id"=dword:00000000
+"Last Splash Id"=dword:00000002
 "Show Arrow In Ansi Weld"=dword:00000001
 "Sketch Infer From Model"=dword:00000001
 "Transparency Level for In-context Edit"=dword:0000005a
@@ -1599,7 +1599,7 @@ REGEDIT4
 "Add Dimensions To Circle Entity"=dword:00000000
 "Add Dimensions To Slot Entity"=dword:00000000
 "Use specified color for changed dimensions"=dword:00000001
-"Display Ambient Occlusion Shadows"=dword:00000001
+"Display Ambient Occlusion Shadows"=dword:00000000
 "Draft Quality Ambient Occlusion"=dword:00000000
 "Use Fast Import"=dword:00000000
 "Add Driven Dimensions To Sketch Entity"=dword:00000000
@@ -1660,7 +1660,7 @@ REGEDIT4
 "SaveNotiModeChanged"=dword:00000000
 "AutoRecoverModeChanged"=dword:00000000
 "EnableRemoveBackups"=dword:00000001
-"Intersection Sectioning"=dword:00000001
+"Intersection Sectioning"=dword:00000000
 "EnableAutoRepair"=dword:00000001
 "Display Sectioning Zones"=dword:00000000
 "Enhance Small Face Selection Precision"=dword:00000001
@@ -1695,7 +1695,7 @@ REGEDIT4
 "Sketch Entity Click Click Distance"="24"
 "Show Proofsheet Dynamic Help"=dword:00000001
 "Display Sketch Dims 2D & 3D"=dword:00000001
-"DeleteBodies_OR_KeepBodies_Type"=dword:00000000
+"DeleteBodies_OR_KeepBodies_Type"=dword:00000001
 "Print 3D Support Angle"="0.78539816339745"
 "Print 3D Striation Size"="0.0003"
 "Print 3D Slicing Minimum Edge Size"="0.0039370078740157"
@@ -1882,7 +1882,6 @@ REGEDIT4
 "MSG_EXIT_SKETCH%*^%$&13924"=dword:00000006
 "MSG_CONFIRM_DELETE_SKETCH_ITEM%*^%$&47000"=dword:00000069
 "MSG_LM_LICEXPIRATION%*^%$&12964"=dword:00000001
-"MSG_NEEDS_UPDATE_ON_OPEN%*^%$&10772"=dword:00000001
 "MSG_MOVECOPY_BODY_ZERO_TRANS_CONFIRM%*^%$&12398"=dword:00000001
 "MSG_PART_UPDATE_ERROR_ON_SAVE%*^%$&10792"=dword:00000001
 "IDS_VISTA_PERSPECTIVE_WARNING_TITLE%*^%$&30062"=dword:00000000
@@ -5934,6 +5933,21 @@ REGEDIT4
 "33161"=dword:00000000
 "33173"=dword:00000000
 "33170"=dword:00000000
+"65540"=dword:00000000
+"53898"=dword:00000000
+"33818"=dword:00000000
+"33737"=dword:00000000
+"123200"=dword:00000000
+"106313"=dword:00000000
+"106377"=dword:00000000
+"109196"=dword:00000000
+"118047"=dword:00000000
+"118661"=dword:00000000
+"106378"=dword:00000000
+"59927"=dword:00000000
+"52008"=dword:00000000
+"164648"=dword:00000000
+"169449"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\Motion Study]
 "Motion Analysis Show All Messages"=dword:00000001
@@ -6022,9 +6036,9 @@ REGEDIT4
 "Transparency Quality"=dword:00000000
 "Dynamic On Move"=dword:00000000
 "OpenGL Display Lists"=dword:00000000
-"Verify On Rebuild"=dword:00000001
+"Verify On Rebuild"=dword:00000000
 "EMD Save"=dword:00000000
-"Autoload Components"=dword:00000000
+"Autoload Components"=dword:00000001
 "Speedpak Subassemblies"=dword:00000000
 "Enable MCD"=dword:00000000
 "Autoload Sub Assembly"=dword:00000001
@@ -6072,7 +6086,7 @@ REGEDIT4
 "Drawing Shares Model Tessellation"=dword:00000001
 "Graphics Dynamic Section"=dword:00000000
 "Large Assembly Settings"=dword:51161e1c
-"Large Assembly Settings2"=dword:00000000
+"Large Assembly Settings2"=dword:00000084
 "Highlight All of Feature"=dword:00000000
 "Enable Export To AEC"=dword:00000000
 "Enable Context Tips"=dword:00000000
@@ -6093,8 +6107,8 @@ REGEDIT4
 "Allow Mixed Mode Model"=dword:00000000
 "Use Office 365 Online"=dword:00000000
 "Angular Tessellation Number"=dword:00000007
-"Saved OGL Settings"=dword:00000287
-"OGL Display Shaders"=dword:00000001
+"Saved OGL Settings"=dword:00000087
+"OGL Display Shaders"=dword:00000000
 "Enable Smart Config Copy 1"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\Performance\Graphics]
@@ -9545,10 +9559,9 @@ REGEDIT4
 "Snapshot dialog enabled"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\Recent Folder List]
-"Folder1"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\"Folder2"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\"Folder3"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\"Folder4"="C:\\O\\O_ERAWTFOS_O_SOFTWARE_O\\O_SMARGORP_O_PROGRAMS_O\\O_AIDIV_O_VIDIA_O\\O_D3_O_3D_O\\O_TLUASAD_O_DASAULT_O\\O_0202_SKROWDILOS_O_SOLIDWORKS_2020_O\\SOLIDWORKS\\lang\\english|0"
-"Folder5"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O|0"
-"Folder6"="C:|0"
-"Folder7"=""
+"Folder1"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\"Folder2"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\"Folder3"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\"Folder4"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\"Folder5"="C:\\O\\O_ERAWTFOS_O_SOFTWARE_O\\O_SMARGORP_O_PROGRAMS_O\\O_AIDIV_O_VIDIA_O\\O_D3_O_3D_O\\O_TLUASAD_O_DASAULT_O\\O_0202_SKROWDILOS_O_SOLIDWORKS_2020_O\\SOLIDWORKS\\lang\\english|0"
+"Folder6"="C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O|0"
+"Folder7"="C:|0"
 "Folder8"=""
 "Folder9"=""
 "Folder10"=""
@@ -9754,12 +9767,14 @@ REGEDIT4
 "Show Launch Quicktip"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\Search\Recent Command Searches]
-"Search Strings"="HE;PATT;CONNECT;MIDPO;SMOO;"
+"Search Strings"="HE;PATT;CONNECT;MIDPO;SMOO;REA;GRAPH;"
 "HE"="33074"
 "PATT"="33634"
 "CONNECT"="37864"
 "MIDPO"="52013"
 "SMOO"="2147483647"
+"REA"="38308"
+"GRAPH"="38308"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\Security]
 "EULA Accepted 2020 SP5.0 O Administrator"="Yes"
@@ -9815,7 +9830,7 @@ REGEDIT4
 "New Dump File Available"=dword:00000000
 "Finished Last Time"=dword:00000000
 "Last Date Code"="28/2020296"
-"Check In"=dword:00000c2c
+"Check In"=dword:00001391
 "Idle"=dword:00000000
 "Last Settings Time"=dword:60f6f22a
 "Send Feedback Enabled"=dword:00000000
@@ -11240,7 +11255,7 @@ REGEDIT4
 "Btn0"="2,33551"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext]
-"Active Tab Index"="3"
+"Active Tab Index"="5"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab0]
 "Tab Props"="23255,1,1,24"
@@ -11265,38 +11280,38 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab0\GB2]
 "Btn0"="2,54111"
 "Btn1"="2,54112"
-"Btn2"="3,34247"
-"Btn3"="3,38496"
+"Btn2"="3,37914"
+"Btn3"="3,34247"
 "Btn4"="3,32778"
-"Btn5"="3,33332"
-"Btn6"="3,40722"
-"Btn7"="3,38240"
-"Btn8"="3,41631"
-"Btn9"="3,37915"
-"Btn10"="3,38179"
-"Btn11"="3,52673"
-"Btn12"="3,33233"
-"Btn13"="3,32867"
-"Btn14"="3,32842"
-"Btn15"="3,38179"
-"Btn16"="3,51844"
-"Btn17"="3,33008"
-"Btn18"="3,32807"
-"Btn19"="3,32952"
-"Btn20"="3,37626"
-"Btn21"="3,33915"
-"Btn22"="3,37866"
-"Btn23"="3,37911"
-"Btn24"="3,33137"
-"Btn25"="3,38111"
-"Btn26"="3,38430"
+"Btn5"="3,40722"
+"Btn6"="3,33332"
+"Btn7"="3,32773"
+"Btn8"="3,38240"
+"Btn9"="3,41631"
+"Btn10"="3,37915"
+"Btn11"="3,32952"
+"Btn12"="3,32807"
+"Btn13"="3,33008"
+"Btn14"="3,38179"
+"Btn15"="3,52673"
+"Btn16"="3,33233"
+"Btn17"="3,32867"
+"Btn18"="3,32842"
+"Btn19"="3,38179"
+"Btn20"="3,51844"
+"Btn21"="3,37626"
+"Btn22"="3,33915"
+"Btn23"="3,37866"
+"Btn24"="3,38111"
+"Btn25"="3,37911"
+"Btn26"="3,33137"
+"Btn27"="3,38430"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab0\GB3]
 "Btn0"="2,38290"
 "Btn1"="2,38282"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab0\GB4]
-"Btn0"="2,37847"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab0\GB5]
 "Btn0"="2,250"
@@ -11990,10 +12005,10 @@ REGEDIT4
 "Btn1"="2,54105"
 "Btn2"="3,32885"
 "Btn3"="3,38593"
-"Btn4"="3,32880"
-"Btn5"="3,33052"
-"Btn6"="3,33051"
-"Btn7"="3,32940"
+"Btn4"="3,33052"
+"Btn5"="3,32880"
+"Btn6"="3,32940"
+"Btn7"="3,33051"
 "Btn8"="3,32980"
 "Btn9"="3,32886"
 "Btn10"="3,49118"
@@ -12003,39 +12018,39 @@ REGEDIT4
 "Btn14"="3,33918"
 "Btn15"="3,33532"
 "Btn16"="3,40763"
-"Btn17"="3,38542"
-"Btn18"="3,52536"
-"Btn19"="3,37665"
+"Btn17"="3,43658"
+"Btn18"="3,43659"
+"Btn19"="3,43660"
+"Btn20"="3,33634"
+"Btn21"="3,33633"
+"Btn22"="3,32928"
+"Btn23"="3,38542"
+"Btn24"="3,52536"
+"Btn25"="3,37665"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab2\GB3]
-"Btn0"="3,32923"
-"Btn1"="3,52622"
-"Btn2"="3,33921"
+"Btn0"="3,52622"
+"Btn1"="3,33921"
+"Btn2"="3,32923"
 "Btn3"="3,54108"
 "Btn4"="3,54107"
-"Btn5"="3,33634"
-"Btn6"="3,33633"
-"Btn7"="3,32928"
-"Btn8"="3,32964"
-"Btn9"="3,32931"
-"Btn10"="3,32926"
-"Btn11"="3,38667"
-"Btn12"="3,38326"
-"Btn13"="3,38327"
-"Btn14"="3,38328"
-"Btn15"="3,51645"
-"Btn16"="3,32929"
-"Btn17"="3,38478"
-"Btn18"="3,45700"
-"Btn19"="3,41649"
+"Btn5"="3,32964"
+"Btn6"="3,32931"
+"Btn7"="3,32926"
+"Btn8"="3,38667"
+"Btn9"="3,38326"
+"Btn10"="3,38327"
+"Btn11"="3,38328"
+"Btn12"="3,51645"
+"Btn13"="3,32929"
+"Btn14"="2,38478"
+"Btn15"="2,45700"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab2\GB4]
 "Btn0"="2,54114"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab2\GB5]
-"Btn0"="3,51572"
-"Btn1"="3,37848"
-"Btn2"="3,37849"
+"Btn0"="2,37849"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab20]
 "ModuleName"="{CCAC6208-0E19-6455-2017-2020CEB541FA}"
@@ -12349,6 +12364,8 @@ REGEDIT4
 "Btn0"="3,37856"
 "Btn1"="3,37774"
 "Btn2"="3,52554"
+"Btn3"="3,38496"
+"Btn4"="3,38230"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\CommandManager\PartContext\Tab4\GB3]
 "Btn0"="3,33899"
@@ -12555,12 +12572,12 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\Dialogs]
 "uiWelcomeScreenDlg_c"="0,1,-1,-1,-1,-1,272,95,1072,712"
 "uiNewDocDlg_c"="0,1,-1,-1,-1,-1,339,285,1047,808"
-"swCommandMgrDockWnd"="0,1,-1,-1,-1,-1,1259,229,1680,984"
+"swCommandMgrDockWnd"="0,1,-1,-1,-1,-1,697,62,1118,817"
 "uiModelessDialog_c"="0,1,-1,-1,-1,-1,989,83,1405,280"
-"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,316,54"
+"uiDVEDefaultDialog_c"="0,1,-1,-1,-1,-1,0,0,330,54"
 "uiCustomizePropSheet_c"="0,1,-1,-1,-1,-1,429,371,1078,1031"
-"uiArcPropDlg_c"="0,1,-1,-1,-1,-1,0,0,323,304"
-"uiArcPropDlg_copts"="dexps_8343_"
+"uiArcPropDlg_c"="0,1,-1,-1,-1,-1,0,0,337,554"
+"uiArcPropDlg_copts"="dexps_151_"
 "uiUnitsDimStdDlg_c"="0,1,-1,-1,-1,-1,488,350,788,607"
 "uiAddInDlg_c"="0,1,-1,-1,-1,-1,483,244,902,757"
 "uiInsertCompExistingDveDlg3_c"="0,1,-1,-1,-1,-1,0,-117,320,443"
@@ -12581,11 +12598,11 @@ REGEDIT4
 "uiSummaryInfoDlg_c"="0,1,-1,-1,-1,-1,468,306,1213,792"
 "uiDimTolDlg_c"="0,1,-1,-1,-1,-1,713,321,1153,747"
 "sld3dviewopts"="dexps_0_"
-"uiDynSectionViewDlg_c"="0,1,-1,-1,-1,-1,0,0,404,775"
+"uiDynSectionViewDlg_c"="0,1,-1,-1,-1,-1,0,0,324,736"
 "uiDynSectionViewDlg_copts"="tfmexps_0_dexps_722_"
 "apUserJobDlg_c"="0,1,-1,-1,-1,-1,658,423,1023,627"
 "amFeatPropDlg"="0,1,-1,-1,-1,-1,1048,472,1306,729"
-"WPFPage_c"="0,1,-1,-1,-1,-1,3,34,319,43"
+"WPFPage_c"="0,1,-1,-1,-1,-1,3,34,336,43"
 "WPFPage_copts"="dexps_0_"
 "uiEquationDlg_c"="0,1,-1,-1,-1,-1,293,430,1098,754"
 "uiEquationDlg_copts"="AR_0_GV_1_GC1U_30_GC2U_32_GC3U_15_"
@@ -12595,14 +12612,14 @@ REGEDIT4
 "uiSketchPropertyManager_copts"="dexps_6_"
 "opticalPropsDlg_c"="0,1,-1,-1,-1,-1,0,0,368,515"
 "opticalPropsDlg_copts"="dexps_71_tfmexps_0_"
-"uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,316,132"
+"uiDveSketchMessageDlg_c"="0,1,-1,-1,-1,-1,0,0,337,132"
 "uiDveSketchMessageDlg_copts"="dexps_3_"
 "uiDveEndSpecDlg_copts"="tfmexps_0_dexps_32498_"
-"uiDveEndSpecDlg_c"="0,1,-1,-1,-1,-1,0,0,316,297"
-"uiPreviewDlg_c"="0,1,-1,-1,-1,-1,0,0,316,80"
+"uiDveEndSpecDlg_c"="0,1,-1,-1,-1,-1,0,0,337,337"
+"uiPreviewDlg_c"="0,1,-1,-1,-1,-1,0,0,337,80"
 "uiPreviewDlg_copts"="dexps_2_"
-"uiDveFilletDlg_c"="0,1,-1,-1,-1,-1,0,-158,275,775"
-"uiDveFilletDlg_copts"="dexps_254_tfmexps_0_fltype_1_"
+"uiDveFilletDlg_c"="0,1,-1,-1,-1,-1,0,0,324,637"
+"uiDveFilletDlg_copts"="dexps_206_tfmexps_0_fltype_0_"
 "uiFilletMgrAdd_copts"="tfmexps_0_dexps_14_"
 "uiFilletCornerDlg_copts"="highlightCandidates_0_dexps_6_"
 "uiFilletMgrAdd_c"="0,1,-1,-1,-1,-1,0,0,554,334"
@@ -12613,15 +12630,15 @@ REGEDIT4
 "uiCurvatureDialog_c"="0,1,-1,-1,-1,-1,812,339,1055,730"
 "uiColorAdvancedDialog_c"="0,1,-1,-1,-1,-1,760,408,1107,661"
 "uiLinePropDlg_copts"="dexps_87_tfmexps_0_"
-"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,323,487"
-"uiParamDlg"="0,1,-1,-1,-1,-1,554,130,758,261"
-"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,316,484"
+"uiLinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,337,487"
+"uiParamDlg"="0,1,-1,-1,-1,-1,824,508,1028,640"
+"uiDVEMultiDimPropPageValue_c"="0,1,-1,-1,-1,-1,0,0,337,484"
 "uiDVEMultiDimPropPageValue_copts"="dexps_62635_"
 "uiDVEMultiDimPropPageLeaders_c"="0,1,-1,-1,-1,-1,0,0,272,484"
 "uiDVEMultiDimPropPageLeaders_copts"="dexps_9229_"
 "uiDVEMultiDimPropPageOther_c"="0,1,-1,-1,-1,-1,0,0,265,239"
 "uiDVEMultiDimPropPageOther_copts"="dexps_3649_"
-"uiPMDocumentPane_c"="0,1,-1,-1,-1,-1,1347,468,1681,981"
+"uiPMDocumentPane_c"="0,1,-1,-1,-1,-1,1333,606,1681,981"
 "uiPMDockingPaneMiniWnd"="0,1,-1,-1,-1,-1,1259,229,1680,984"
 "uiDVEDefaultDialog_copts"="dexps_1_"
 "uiMeasureDlg_c"="0,1,-1,-1,-1,-1,0,0,406,335"
@@ -12638,8 +12655,8 @@ REGEDIT4
 "uiSketchLoopsDve_c"="0,1,-1,-1,-1,-1,0,0,405,133"
 "uiSketchLoopsDve_copts"="tfmexps_0_dexps_3_"
 "uiDveSketchConvertEntDlg_copts"="tfmexps_0_"
-"uiDveSketchConvertEntDlg_c"="0,1,-1,-1,-1,-1,0,0,295,157"
-"uiComPropSkSegDlg_c"="0,1,-1,-1,-1,-1,0,0,323,449"
+"uiDveSketchConvertEntDlg_c"="0,1,-1,-1,-1,-1,0,0,337,140"
+"uiComPropSkSegDlg_c"="0,1,-1,-1,-1,-1,0,0,337,423"
 "uiComPropSkSegDlg_copts"="dexps_119_tfmexps_0_"
 "uiSketchCurvPropDlg_c"="0,1,-1,-1,-1,-1,0,0,316,190"
 "uiSketchCurvPropDlg_copts"="dexps_6_tfmexps_0_"
@@ -12648,7 +12665,7 @@ REGEDIT4
 "uiWWGridCtrl_copts"="75,99"
 "uiNewWhatsWrongDlg_c"="0,1,-1,-1,-1,-1,0,0,736,200"
 "uiRevDveDlg_copts"="tfmexps_0_a1_6.28318530717960044_a2_0.00000000000000000_rt_0_tft_0_dexps_2162_"
-"uiRevDveDlg_c"="0,1,-1,-1,-1,-1,0,0,316,315"
+"uiRevDveDlg_c"="0,1,-1,-1,-1,-1,0,0,337,276"
 "uiDveSunLightProps_c"="0,1,-1,-1,-1,-1,0,0,405,647"
 "uiDveSunLightProps_copts"="dexps_127_"
 "uiDvePVSunLightProps_c"="0,1,-1,-1,-1,-1,0,0,405,281"
@@ -12688,7 +12705,7 @@ REGEDIT4
 "uiFindDetailItemText_c"="0,1,-1,-1,-1,-1,0,0,363,152"
 "publishContentDlg_c"="0,1,-1,-1,-1,-1,0,0,398,578"
 "publishContentDlg_copts"="dexps_14_tfmexps_0_"
-"uiConfigTable_c"="0,1,-1,-1,-1,-1,237,131,764,293"
+"uiConfigTable_c"="0,1,-1,-1,-1,-1,326,131,853,293"
 "uiTXDimSelectionDve_c"="0,1,-1,-1,-1,-1,0,0,396,190"
 "uiTXDimSelectionDve_copts"="dexps_2_"
 "uiAnnotationOrientDlg_c"="0,1,-1,-1,-1,-1,0,0,398,167"
@@ -12704,14 +12721,14 @@ REGEDIT4
 "uiCoordSysDveDlg_c"="0,1,-1,-1,-1,-1,0,0,518,233"
 "uiCoordSysDveDlg_copts"="dexps_2_pin_0_tfmexps_0_"
 "uiSimpConfDeleteDlg_c"="0,1,-1,-1,-1,-1,665,418,1015,630"
-"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,352,809"
+"uiSkRectangleProp_c"="0,1,-1,-1,-1,-1,0,0,324,928"
 "uiSkRectangleProp_copts"="dexps_8343_"
 "uiPosGroupDlg_c"="0,1,-1,-1,-1,-1,0,0,375,437"
 "uiPosGroupDlg_copts"="dexps_62_tfmexps_0_"
 "uiDveSketchMirrorDlg_copts"="tfmexps_0_pin_0_"
-"uiDveSketchMirrorDlg_c"="0,1,-1,-1,-1,-1,0,0,323,236"
+"uiDveSketchMirrorDlg_c"="0,1,-1,-1,-1,-1,0,0,337,284"
 "uiDveSketchSilhouetteEntDlg_c"="0,1,-1,-1,-1,-1,0,0,355,103"
-"uiTrimChoicesDlg_c"="0,1,-1,-1,-1,-1,0,0,323,425"
+"uiTrimChoicesDlg_c"="0,1,-1,-1,-1,-1,0,0,337,425"
 "uiTrimChoicesDlg_copts"="dexps_3_trimMode_0_"
 "uiNetDveDlg_c"="0,1,-1,-1,-1,-1,0,0,297,839"
 "uiNetDveDlg_copts"="dexps_1610_tfmexps_0_"
@@ -12722,16 +12739,16 @@ REGEDIT4
 "uiPPGordonDveDlg_copts"="dexps_30_tfmexps_0_"
 "uiRuledSrfFromEdgeDlg_c"="0,1,-1,-1,-1,-1,0,0,458,512"
 "uiRuledSrfFromEdgeDlg_copts"="dexps_30_"
-"uiLoftDveDlg_c"="0,1,-1,-1,-1,-1,0,0,288,707"
-"uiLoftDveDlg_copts"="tfmexps_0_dexps_1048398_"
+"uiLoftDveDlg_c"="0,1,-1,-1,-1,-1,0,-338,310,596"
+"uiLoftDveDlg_copts"="tfmexps_0_dexps_1048430_"
 "uiSweepDveDlg_c"="0,1,-1,-1,-1,-1,0,0,288,762"
 "uiSweepDveDlg_copts"="dexps_2007_tfmexps_0_st_1_et_1_"
 "uiSewRefSurfaceDlg_copts"="tfmexps_0_dexps_3_"
-"uiSewRefSurfaceDlg_c"="0,1,-1,-1,-1,-1,0,0,288,239"
-"uiDveMoveCopyDlg_c"="0,1,-1,-1,-1,-1,0,0,323,351"
-"uiDveMoveCopyDlg_copts"="dexps_71_pin_1_operation_2_solvemove_0_copyents_0_relativemove_0_scale_1.000000_copycount_1_rotateaxisx_0.000000_rotateaxisy_0.000000_rotateaxisz_1.000000_tfmexps_0_"
+"uiSewRefSurfaceDlg_c"="0,1,-1,-1,-1,-1,0,0,323,207"
+"uiDveMoveCopyDlg_c"="0,1,-1,-1,-1,-1,0,0,324,601"
+"uiDveMoveCopyDlg_copts"="dexps_71_pin_1_operation_0_solvemove_0_copyents_0_relativemove_1_scale_1.000000_copycount_1_rotateaxisx_0.000000_rotateaxisy_0.000000_rotateaxisz_1.000000_tfmexps_0_"
 "uiGeomDiagnosticsDlg_c"="0,1,-1,-1,-1,-1,354,272,591,387"
-"uiMirrPatternDveDlg_c"="0,1,-1,-1,-1,-1,0,0,302,369"
+"uiMirrPatternDveDlg_c"="0,1,-1,-1,-1,-1,0,0,337,369"
 "uiMirrPatternDveDlg_copts"="dexps_906_tfmexps_0_"
 "uiTrimRefSurfaceDlg_c"="0,1,-1,-1,-1,-1,0,0,288,365"
 "uiTrimRefSurfaceDlg_copts"="dexps_14_tfmexps_0_tt_0_ts_0_sa_0_no_1_"
@@ -12749,7 +12766,7 @@ REGEDIT4
 "uiRadiateSurfaceDveDlg_c"="0,1,-1,-1,-1,-1,0,0,236,196"
 "uiRadiateSurfaceDveDlg_copts"="tfmexps_0_dexps_2_"
 "uiDveApiPage2_copts"="tfmexps_0_"
-"uiSplinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,303,695"
+"uiSplinePropDlg_c"="0,1,-1,-1,-1,-1,0,0,323,556"
 "uiSplinePropDlg_copts"="dexps_159_"
 "insertCVSplineDlgopts"="tfmexps_0_dexps_3_"
 "insertCVSplineDlg"="0,1,-1,-1,-1,-1,0,0,316,157"
@@ -12770,10 +12787,10 @@ REGEDIT4
 "uiDveHwHoleSpec_copts"="dexps_1023_"
 "uiDveHwInsertHole_c"="0,1,-1,-1,-1,-1,0,0,333,137"
 "uiDveHwInsertHole_copts"="dexps_62_"
-"uiMoveCopyBodyDlg_c"="0,1,-1,-1,-1,-1,0,0,302,394"
+"uiMoveCopyBodyDlg_c"="0,1,-1,-1,-1,-1,0,0,337,329"
 "uiMoveCopyBodyDlg_copts"="dexps_55_tfmexps_0_mo_0_mp_1_co_0_se_0_ke_0_"
-"uiCombineBodiesDveDlg_c"="0,1,-1,-1,-1,-1,0,0,278,441"
-"uiCombineBodiesDveDlg_copts"="dexps_70_tfmexps_0_ot_1_"
+"uiCombineBodiesDveDlg_c"="0,1,-1,-1,-1,-1,0,0,337,227"
+"uiCombineBodiesDveDlg_copts"="dexps_70_tfmexps_0_ot_0_"
 "parentChildDlg_c"="0,1,-1,-1,-1,-1,1144,398,1503,718"
 "uiMoveFaceDlg_New_c"="0,1,-1,-1,-1,-1,0,0,435,399"
 "uiMoveFaceDlg_New_copts"="dexps_7_tfmexps_0_"
@@ -12788,7 +12805,7 @@ REGEDIT4
 "uiSurfCutDlg_c"="0,1,-1,-1,-1,-1,0,0,414,64"
 "uiSurfCutDlg_copts"="tfmexps_0_dexps_6_"
 "uiDeleteBodyDlg_copts"="tfmexps_0_dexps_6_"
-"uiDeleteBodyDlg_c"="0,1,-1,-1,-1,-1,0,0,316,156"
+"uiDeleteBodyDlg_c"="0,1,-1,-1,-1,-1,0,0,323,157"
 "uiCrNamedView_c"="0,1,-1,-1,-1,-1,713,464,968,585"
 "uiScaleDlg_copts"="tfmexps_0_dexps_6_"
 "uiScaleDlg_c"="0,1,-1,-1,-1,-1,0,0,324,484"
@@ -12798,7 +12815,7 @@ REGEDIT4
 "uiMidSurfaceDveDlg_copts"="dexps_6_"
 "uiParabolaPropDlg_c"="0,1,-1,-1,-1,-1,0,0,491,541"
 "uiParabolaPropDlg_copts"="dexps_31_"
-"uiPlanarSurfaceDlg_c"="0,1,-1,-1,-1,-1,0,0,458,79"
+"uiPlanarSurfaceDlg_c"="0,1,-1,-1,-1,-1,0,0,323,79"
 "uiPlanarSurfaceDlg_copts"="dexps_2_tfmexps_0_"
 "ui3dBoundingBoxDlg_c"="0,1,-1,-1,-1,-1,0,0,592,234"
 "ui3dBoundingBoxDlg_copts"="dexps_7_tfmexps_0_"
@@ -12831,7 +12848,7 @@ REGEDIT4
 "uiSelectOtherDlg"="0,1,-1,-1,-1,-1,1145,825,1417,1211"
 "uiBodyComparisonDveDlg_c"="0,1,-1,-1,-1,-1,0,0,555,713"
 "uiBodyComparisonDveDlg_copts"="dexps_34_"
-"uiLinearSketchPatternDlg_c"="0,1,-1,-1,-1,-1,0,-114,303,596"
+"uiLinearSketchPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,337,566"
 "uiLinearSketchPatternDlg_copts"="dexps_14_tfmexps_0_"
 "uiDveSketchDynamicMirrorDlg_copts"="tfmexps_0_"
 "uiDveSketchDynamicMirrorDlg_c"="0,1,-1,-1,-1,-1,0,0,367,54"
@@ -12851,7 +12868,7 @@ REGEDIT4
 "uiSurfFromMeshDlg_c"="0,1,-1,-1,-1,-1,0,0,473,385"
 "uiSurfFromMeshDlg_copts"="ip_1_dexps_3_"
 "uiSaveModifiedDlg_c"="0,1,-1,-1,-1,-1,658,469,1023,579"
-"srfuiZebraPropsDlg_c"="0,1,-1,-1,-1,-1,0,0,366,320"
+"srfuiZebraPropsDlg_c"="0,1,-1,-1,-1,-1,0,0,323,320"
 "srfuiZebraPropsDlg_copts"="dexps_2_tfmexps_0_"
 "uiUnTrimRefSurfDlg_c"="0,1,-1,-1,-1,-1,0,0,592,164"
 "uiUnTrimRefSurfDlg_copts"="dexps_6_"
@@ -12866,7 +12883,7 @@ REGEDIT4
 "uiConicPropDlg_c"="0,1,-1,-1,-1,-1,0,0,414,298"
 "uiConicPropDlg_copts"="dexps_23_"
 "uiMoveConfirmDlg_c"="0,1,-1,-1,-1,-1,698,442,983,607"
-"uiCircularSketchPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,316,456"
+"uiCircularSketchPatternDlg_c"="0,1,-1,-1,-1,-1,0,0,337,456"
 "uiCircularSketchPatternDlg_copts"="dexps_18_tfmexps_0_"
 "uiAbbrViewDialog_c"="0,1,-1,-1,-1,-1,0,0,414,466"
 "uiAbbrViewDialog_copts"="dexps_14_"
@@ -12936,7 +12953,7 @@ REGEDIT4
 "skSlotCreateDialog_copts"="dexps_407_"
 "skSlotEditDialog_c"="0,1,-1,-1,-1,-1,0,0,375,497"
 "skSlotEditDialog_copts"="dexps_407_"
-"uiDVEskSlicesDlg_c"="0,1,-1,-1,-1,-1,0,0,316,536"
+"uiDVEskSlicesDlg_c"="0,1,-1,-1,-1,-1,0,0,323,536"
 "uiDVEskSlicesDlg_copts"="dexps_7_"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\General]
@@ -13181,8 +13198,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:000002ef
-"YPos"=dword:00000206
+"XPos"=dword:000002eb
+"YPos"=dword:00000240
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e855
@@ -13192,8 +13209,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000030b
-"YPos"=dword:00000180
+"XPos"=dword:00000314
+"YPos"=dword:00000120
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e857
@@ -13203,8 +13220,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000031e
-"YPos"=dword:000001ee
+"XPos"=dword:00000327
+"YPos"=dword:0000018e
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e856
@@ -13214,8 +13231,8 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:000002ec
-"YPos"=dword:00000241
+"XPos"=dword:000002f5
+"YPos"=dword:000001e1
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
 "Bar#1"=dword:0000e858
@@ -13265,7 +13282,7 @@ REGEDIT4
 "BarID"=dword:0000e81f
 "Horz"=dword:00000001
 "Floating"=dword:00000001
-"XPos"=dword:0000058c
+"XPos"=dword:0000058e
 "YPos"=dword:000003fb
 "Bars"=dword:00000003
 "Bar#0"=dword:00000000
@@ -13440,10 +13457,10 @@ REGEDIT4
 "MRUWidth"=dword:00000073
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81e
-"MRUDockLeftPos"=dword:00000000
-"MRUDockTopPos"=dword:00000000
-"MRUDockRightPos"=dword:000000d4
-"MRUDockBottomPos"=dword:00000022
+"MRUDockLeftPos"=dword:ffffffff
+"MRUDockTopPos"=dword:ffffffff
+"MRUDockRightPos"=dword:000000d3
+"MRUDockBottomPos"=dword:00000021
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:00000564
 "MRUFloatYPos"=dword:000003d4
@@ -14367,8 +14384,8 @@ REGEDIT4
 "MRUDockID"=dword:00000000
 "MRUDockLeftPos"=dword:ffffffff
 "MRUDockTopPos"=dword:ffffffff
-"MRUDockRightPos"=dword:ffffffff
-"MRUDockBottomPos"=dword:ffffffe9
+"MRUDockRightPos"=dword:0000068f
+"MRUDockBottomPos"=dword:00000051
 "MRUFloatStyle"=dword:00002000
 "MRUFloatXPos"=dword:fffffffe
 "MRUFloatYPos"=dword:00000000
@@ -14433,7 +14450,8 @@ REGEDIT4
 "BarID"=dword:0000e80c
 "Visible"=dword:00000000
 "XPos"=dword:fffffffe
-"MRUWidth"=dword:00000144
+"YPos"=dword:fffffffe
+"MRUWidth"=dword:00000129
 "Docking"=dword:00000001
 "MRUDockID"=dword:0000e81b
 "MRUDockLeftPos"=dword:00000000
@@ -14644,14 +14662,14 @@ REGEDIT4
 "Push Pin View Comment Dialog"=dword:00000000
 "Push Pin Measure Dialog"=dword:00000000
 "Allow PM Switch For Param Dlg"=dword:00000000
-"PreviousFileDlg"=dword:00000001
+"PreviousFileDlg"=dword:00000000
 "swCMgrMiniDockWnd_AutoCollaping"=dword:00000001
 "SaveDlgLimits"="4294967295,4294967295"
-"WindowPos"="2,3,-1,-1,-1,-1,0,0,1344,840"
+"WindowPos"="2,3,-1,-1,-1,-1,0,2,1680,1050"
 "FeaturePaletteState"="0"
 "uiPMDockingPaneMiniWnd_Pinned"=dword:00000001
 "uiPMDockingPaneMiniWnd_AutoCollaping"=dword:00000000
-
+"document1"="2,3,-1,-1,-4,-23,0,0,1605,975,C:\\O\\O_AIDIV_O_VIDIA_O\\O_SKROWDILOS_O_SOLIDWORKS_O\\
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\Settings\Dial]
 "XOffset"=dword:00000190
 "YOffset"=dword:0000001e
@@ -14858,7 +14876,7 @@ REGEDIT4
 "UseLargeToolTips"=dword:00000001
 "uiFilterToolBar_c"=hex: e8,83,00,00,e9,83,00,00,ea,83,00,00,50,85,00,00,23,97,00,00,ff,ff,ff,ff,eb,83,00,00,ec,83,00,00,ed,83,00,00,74,84,00,00,d1,94,00,00,ee,83,00,00,ef,83,00,00,f0,83,00,00,df,d5,00,00,f1,83,00,00,f2,83,00,00,f3,83,00,00,17,95,00,00,f4,83,00,00,f5,83,00,00,f6,83,00,00,f7,83,00,00,f8,83,00,00,f9,83,00,00,de,ce,00,00,fa,83,00,00,fb,83,00,00,f7,92,00,00,ae,93,00,00,66,95,00,00,67,95,00,00,78,cc,00,00,79,cc,00,00,7a,cc,00,00,
 "uiAnnotationToolBar_c"=hex: c7,cd,00,00,e6,95,00,00,ff,ff,ff,ff,57,96,00,00,d0,d4,00,00,ff,ff,ff,ff,53,80,00,00,54,80,00,00,32,95,00,00,59,81,00,00,15,82,00,00,9d,80,00,00,65,81,00,00,a5,81,00,00,93,81,00,00,64,95,00,00,cf,93,00,00,9,97,00,00,ff,ff,ff,ff,3d,81,00,00,e3,94,00,00,ff,ff,ff,ff,e5,00,00,00,
-"uiViewToolBar_c"=hex: 17,b1,00,00,f9,cc,00,00,90,ac,00,00,8a,ac,00,00,bd,ac,00,00,77,bf,00,00,35,cb,00,00,2c,cb,00,00,42,85,00,00,34,85,00,00,36,cb,00,00,1e,83,00,00,ff,ff,ff,ff,d2,96,00,00,ce,81,00,00,b6,a2,00,00,71,d2,00,00,8a,d2,00,00,a0,c9,00,00,8c,c9,00,00,
+"uiViewToolBar_c"=hex: 17,b1,00,00,f9,cc,00,00,8a,ac,00,00,bd,ac,00,00,77,bf,00,00,35,cb,00,00,2c,cb,00,00,42,85,00,00,34,85,00,00,36,cb,00,00,1e,83,00,00,ff,ff,ff,ff,ce,81,00,00,b6,a2,00,00,71,d2,00,00,8a,d2,00,00,a0,c9,00,00,8c,c9,00,00,
 "ui2dTo3dToolBar_c"=hex: 9c,93,00,00,9d,93,00,00,9e,93,00,00,a0,93,00,00,9f,93,00,00,a1,93,00,00,de,93,00,00,ff,ff,ff,ff,a6,93,00,00,a5,93,00,00,a2,93,00,00,ff,ff,ff,ff,df,93,00,00,e4,93,00,00,
 "uiToolsToolBar_c"=hex: 57,96,00,00,2c,81,00,00,4d,85,00,00,cb,93,00,00,9c,e9,00,00,e9,94,00,00,18,82,00,00,1a,aa,00,00,8a,80,00,00,59,94,00,00,1c,aa,00,00,1b,aa,00,00,17,aa,00,00,60,94,00,00,ff,ff,ff,ff,ff,ff,ff,ff,b,95,00,00,96,d4,00,00,98,d4,00,00,97,d4,00,00,eb,d4,00,00,
 "uiDrawingToolBar_c"=hex: cd,80,00,00,44,80,00,00,4f,80,00,00,50,80,00,00,35,cd,00,00,51,80,00,00,40,80,00,00,ff,ff,ff,ff,67,80,00,00,ff,ff,ff,ff,1,85,00,00,57,81,00,00,8e,84,00,00,31,92,00,00,ff,ff,ff,ff,d9,85,00,00,ea,94,00,00,ff,ff,ff,ff,d5,93,00,00,ff,ff,ff,ff,c5,bf,00,00,
@@ -15334,7 +15352,10 @@ REGEDIT4
 "Btn29"="53898"
 "Btn30"="51616"
 "Btn31"="51596"
-"Btn32"="54306"
+"Btn32"="38308"
+"Btn33"="44176"
+"Btn34"="37869"
+"Btn35"="38610"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\User Interface\ViewTools\XHeadsUp]
 "Btn0"="52350"
@@ -15391,34 +15412,34 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0\Angle]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0\Angle"="1.5707963267949"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry0\Angle"="0.78539816339745"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle"="1.5707963267949"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry1\Angle"="0.78539816339745"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2\Angle]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2\Angle"="1.5707963267949"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Geometry2\Angle"="0.78539816339745"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0\Distance]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0\Distance"="0.001"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry0\Distance"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1\Distance]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1\Distance"="0.001"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry1\Distance"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2\Distance]
-"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2\Distance"="0.001"
+"ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Geometry2\Distance"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\FeatureWPF]
 
@@ -15494,13 +15515,13 @@ REGEDIT4
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Boolean Reverse0AutoGeometry2"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry0"="1.5707963267949"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry0"="0.78539816339745"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1"="1.5707963267949"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry1"="0.78539816339745"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2"="1.5707963267949"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Double Angle0AutoGeometry2"="0.78539816339745"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Int32 Count0AutoGeometry0]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\AngleGeom_c\Int32 Count0AutoGeometry0"="1"
@@ -15517,7 +15538,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean DragFlip0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean DragFlip0AutoGeometry0"="0.001"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean DragFlip0AutoGeometry0"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean Reverse0AutoGeometry0]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean Reverse0AutoGeometry0"="0"
@@ -15529,13 +15550,13 @@ REGEDIT4
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Boolean Reverse0AutoGeometry2"="0"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry0"="0.001"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry0"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry1]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry1"="0.001"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry1"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry2]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry2"="0.001"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Double Distance0AutoGeometry2"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Int32 Count0AutoGeometry0]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\Int32 Count0AutoGeometry0"="1"
@@ -15549,15 +15570,15 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore\CoreVector_s DragDirection0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore\CoreVector_s DragDirection0AutoGeometry0"="0.001"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\DistanceGeom_c\SolidCore\CoreVector_s DragDirection0AutoGeometry0"="0.1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c]
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry0]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry0"="0"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry0"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry1]
-"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry1"="0"
+"SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry1"="1"
 
 [HKEY_CURRENT_USER\Software\SolidWorks\SOLIDWORKS 2020\WPF\SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry2]
 "SolidCore\ConstrRefPlaneRequest_c\GeometryConstraintTriplet_c\MidPlaneGeom_c\Boolean Direction0AutoGeometry2"="0"
