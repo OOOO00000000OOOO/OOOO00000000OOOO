@@ -18,7 +18,7 @@
     <CustomColors>
         <category name="Appearance">
             <color id="1" value="#7f7f7f" disabled="#8f8f8f" name="Text" />
-            <color id="4" value="#5f8ac1" name="Active Command" />
+            <color id="4" value="#dfdfdf" name="Active Command" />
             <color id="5" value="#efefef" name="3D Highlight" />
             <color id="6" value="#7f7f7f" name="3D Shadow" />
             <color id="8" value="#7f7f7f" name="Active Caption" />
@@ -26,21 +26,21 @@
             <color id="10" value="#7f7f7f" name="ToolTip Text" />
             <color id="11" value="#b2b2b2" name="Highlight Text" />
             <color id="13" value="#1e6edc" name="Item Highlight" />
-            <color id="14" value="#5f8ac1" name="Modifier Sub-object Selection" />
+            <color id="14" value="#dfdfdf" name="Modifier Sub-object Selection" />
             <color id="15" value="#5f5f5f" name="3D Dark Shadow" />
             <color id="16" value="#dfdfdf" name="3D Light" />
             <color id="17" value="#ffffff" name="App Workspace" />
-            <color id="25" value="#5f8ac1" disabled="#4f6076" hover="#496a93" name="Pressed Buttons" />
+            <color id="25" value="#dfdfdf" disabled="#4f6076" name="Pressed Buttons" />
             <color id="26" value="#ffffff" name="Time slider Background" />
             <color id="33" value="#efefef" name="Selection Rubber Band" />
             <color id="34" value="#efefef" name="Modifier Selection" />
-            <color id="38" value="#5f8ac1" name="Pressed Hierarchy Button" />
+            <color id="38" value="#dfdfdf" name="Pressed Hierarchy Button" />
             <color id="93" value="#33ffff" name="Adaptive Degradation Active" />
             <color id="111" value="#ffffff" disabled="#dfdfdf" hover="#efefef" name="Background Odd" />
             <color id="112" value="#ffffff" disabled="#dfdfdf" hover="#efefef" name="Background Even" />
-            <color id="113" value="#efefef" disabled="#bfbfbf" hover="#dfdfdf" name="Button" />
-            <color id="114" value="#7f7f7f" disabled="#bfbfbf" hover="#dfdfdf" name="Button Text" />
-            <color id="115" value="#dcdcdc" disabled="#bfbfbf" hover="#ffffff" name="Button Text Pressed" />
+            <color id="113" value="#efefef" disabled="#e8e8e8" hover="#dfdfdf" name="Button" />
+            <color id="114" value="#7f7f7f" disabled="#e8e8e8" hover="#606060" name="Button Text" />
+            <color id="115" value="#dcdcdc" disabled="#e8e8e8" hover="#606060" name="Button Text Pressed" />
             <color id="116" value="#d0d0d0" name="Focus Border" />
             <color id="117" value="#7f7f7f" name="UI Borders" />
             <color id="118" value="#8f2f2f" name="Animation Key Brackets" />
@@ -49,10 +49,10 @@
             <color id="17424" value="#3a843e" name="Set Key Mode" />
         </category>
         <category name="Trackbar">
-            <color id="18" value="#2a2a2a" name="Trackbar Background" />
-            <color id="19" value="#354657" name="Trackbar Selected Background" />
-            <color id="20" value="#bcbcbc" name="Trackbar Text" />
-            <color id="21" value="#646464" name="Trackbar Ticks" />
+            <color id="18" value="#ffffff" name="Trackbar Background" />
+            <color id="19" value="#ffffff" name="Trackbar Selected Background" />
+            <color id="20" value="#7f7f7f" name="Trackbar Text" />
+            <color id="21" value="#7f7f7f" name="Trackbar Ticks" />
             <color id="22" value="#000000" name="Keys: Unknown" />
             <color id="23" value="#ffffff" name="Keys: Selected" />
             <color id="24" value="#fdea12" name="Trackbar Cursor" />
@@ -87,7 +87,7 @@
             <color id="17392" value="#eecc55" name="Viewport Clipping" />
             <color id="17395" value="#e100e1" name="Cross Hair Cursor" />
             <color id="17443" value="#e5cc19" name="Statistics" />
-            <color id="17446" value="#bfbfbf" name="Hidden Line Unselected" />
+            <color id="17446" value="#e8e8e8" name="Hidden Line Unselected" />
             <color id="17447" value="#e5cc19" name="Viewport Label Highlight" />
         </category>
         <category name="ActiveShade">
