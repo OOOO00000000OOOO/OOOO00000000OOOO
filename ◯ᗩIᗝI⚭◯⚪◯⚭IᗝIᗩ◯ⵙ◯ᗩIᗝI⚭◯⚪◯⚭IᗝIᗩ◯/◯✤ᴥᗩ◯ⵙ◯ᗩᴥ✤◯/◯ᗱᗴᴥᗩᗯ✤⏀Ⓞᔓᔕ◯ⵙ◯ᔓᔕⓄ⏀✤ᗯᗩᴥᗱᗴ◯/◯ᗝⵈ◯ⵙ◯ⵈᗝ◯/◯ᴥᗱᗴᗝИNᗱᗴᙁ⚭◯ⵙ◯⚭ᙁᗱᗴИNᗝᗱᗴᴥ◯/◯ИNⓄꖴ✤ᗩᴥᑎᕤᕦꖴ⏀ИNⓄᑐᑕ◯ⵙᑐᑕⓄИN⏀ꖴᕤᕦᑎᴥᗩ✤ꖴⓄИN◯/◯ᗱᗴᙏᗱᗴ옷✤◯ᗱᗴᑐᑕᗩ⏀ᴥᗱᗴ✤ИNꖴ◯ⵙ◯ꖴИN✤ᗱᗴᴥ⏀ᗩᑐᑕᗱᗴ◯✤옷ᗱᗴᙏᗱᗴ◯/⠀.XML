@@ -794,7 +794,7 @@
     </image_editor>
     <sequence_editor>
       <ThemeSequenceEditor
-        grid="#bfbfbf"
+        grid="#212121"
         window_sliders="#606060"
         movie_strip="#606060"
         movieclip_strip="#606060"
@@ -854,8 +854,8 @@
     </sequence_editor>
     <properties>
       <ThemeProperties
-        match="#5680c2"
-        active_modifier="#5680c2ff"
+        match="#bfbfbf"
+        active_modifier="#bfbfbfff"
         >
         <space>
           <ThemeSpaceGeneric
@@ -939,11 +939,11 @@
     <node_editor>
       <ThemeNodeEditor
         grid="#ffffff"
-        node_selected="#efefef"
-        node_active="#efefef"
+        node_selected="#606060"
+        node_active="#000000"
         wire="#808080"
         wire_inner="#ffffff"
-        wire_select="#efefef"
+        wire_select="#606060"
         selected_text="#606060"
         node_backdrop="#ffffffff"
         converter_node="#ffffff"
