@@ -1,0 +1,914 @@
+#! C:/O/O_ERAWTFOS_O_SOFTWARE_O/O_SMARGORP_O_PROGRAMS_O/O_AIDIV_O_VIDIA_O/O_D3_O_3D_O/O_YRDNUOF_O_FOUNDRY_O/O_EKUN_O_NUKE_O/O_6W3.11_O_11.3W6_O/nuke-11.3.6.dll -nx
+version 11.3 v6
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="-4" y="-4" w="1680" h="1031" maximized="1" screen="0">
+        <splitter orientation="2">
+            <split size="54"/>
+            <splitter orientation="2">
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.histogram.1">
+                        <page id="uk.co.thefoundry.histogram.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="DopeSheet.1">
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                    <split size="558"/>
+                    <dock id="" activePageId="uk.co.thefoundry.sequenceviewer.1">
+                        <page id="uk.co.thefoundry.sequenceviewer.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="uk.co.thefoundry.spreadsheetview.1">
+                        <page id="uk.co.thefoundry.spreadsheetview.1"/>
+                    </dock>
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.waveformscope.1">
+                        <page id="uk.co.thefoundry.waveformscope.1"/>
+                    </dock>
+                </splitter>
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.timeline.1">
+                        <page id="uk.co.thefoundry.timeline.1" layout="splitter(417,417)"/>
+                    </dock>
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.project.2">
+                        <page id="uk.co.thefoundry.project.2" layout="splitter(406,406)"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="858"/>
+            <splitter orientation="1">
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.2">
+                            <page id="uk.co.thefoundry.histogram.2"/>
+                            <page id="uk.co.thefoundry.waveformscope.2"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.3">
+                            <page id="Viewer.3"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.3">
+                            <page id="uk.co.thefoundry.histogram.3"/>
+                            <page id="uk.co.thefoundry.waveformscope.3"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.4">
+                            <page id="Viewer.4"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+                <split size="558"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <dock id="" activePageId="Properties.1">
+                        <page id="Curve Editor.1"/>
+                        <page id="Properties.1"/>
+                        <page id="Pixel Analyzer.1"/>
+                    </dock>
+                    <split size="293"/>
+                    <dock id="" activePageId="DAG.1" focus="true">
+                        <page id="DAG.1"/>
+                    </dock>
+                    <split size="130"/>
+                    <dock id="" activePageId="Progress.1">
+                        <page id="uk.co.thefoundry.scripteditor.2"/>
+                        <page id="Progress.1"/>
+                    </dock>
+                </splitter>
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.2">
+                            <page id="Viewer.2"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.4">
+                            <page id="uk.co.thefoundry.waveformscope.4"/>
+                            <page id="uk.co.thefoundry.histogram.4"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.1">
+                            <page id="Viewer.1"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.5">
+                            <page id="uk.co.thefoundry.waveformscope.5"/>
+                            <page id="uk.co.thefoundry.histogram.5"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+            </splitter>
+            <split size="83"/>
+            <splitter orientation="1">
+                <split size="838"/>
+                <dock id="" activePageId="Error Console.1">
+                    <page id="Error Console.1"/>
+                </dock>
+                <split size="838"/>
+                <dock id="" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+            </splitter>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name C:/KИ..◯ᙁᗩ✤ᑐᑕᗩᴥꗳ◯ᔓᔕⓄᴥᑐᑕ◯ⵙ◯ᑐᑕᴥⓄᔓᔕ◯ꗳᴥᗩᑐᑕ✤ᗩᙁ◯..NK
+ mapsize {0.1523297491 0.2846441948}
+ last_frame 5824
+ fps 69
+ format "1024 1024 0 0 1024 1024 1 square_1K"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut linear
+ int8Lut linear
+ int16Lut linear
+ logLut linear
+ floatLut linear
+ views_colours true
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode1
+ xpos 1318
+ ypos -110
+}
+BackdropNode {
+ inputs 0
+ name BackdropNode2
+ tile_color 0x7171c600
+ note_font_size 42
+ note_font_color 0xfefefeff
+ xpos 886
+ ypos 317
+ bdwidth 315
+ bdheight 198
+}
+Read {
+ inputs 0
+ file_type exr
+ file D:/RXE....8....KN.NK....8....EXR
+ format "512 512 0 0 512 512 1 square_512"
+ origset true
+ premultiplied true
+ raw true
+ auto_alpha true
+ name Read1
+ xpos 1016
+ ypos 164
+}
+set N3177c00 [stack 0]
+Constant {
+ inputs 0
+ color 1
+ name Constant1
+ xpos 1016
+ ypos -133
+}
+set N3177800 [stack 0]
+Expression {
+ temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+ temp_expr0 (clamp(((height/2/1)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2/1)))
+ temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr1 (-cos((4.*atan(1.))*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+ temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+ temp_expr2 "(((exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.))    +    (-(exp(2.*(4.*atan(1.))))/exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.+1.)-0.5)"
+ temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr3 "(  (  (    -pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+ channel0 rgba
+ expr0 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ channel1 {-rgba.red -rgba.green -rgba.blue -rgba.alpha}
+ expr1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ channel2 {-rgba.red -rgba.green -rgba.blue none}
+ expr2 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)"
+ channel3 {none none none -rgba.alpha}
+ expr3 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)    +    (-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)/1-.5"
+ maskChannelInput -rgba.alpha
+ name ⵙᗱᗴᴥᗱᗴ옷ᑫᑭᔓᔕⵙᔓᔕᑫᑭ옷ᗱᗴᴥᗱᗴⵙ1
+ help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+ xpos 1144
+ ypos -13
+ postage_stamp true
+ addUserKnob {20 O l "" +STARTLINE}
+ addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+ O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+ addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+ O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+ addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+ O_Y_EZIS_O_SIZE_Y_O 2
+ addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+ O_ROSIVID_O_DIVISOR_O 11
+ addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+ O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+ addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+ O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+ addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+ O_1_SNOISIVID_O_DIVISION_1_O 4
+ addUserKnob {7 O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O R 0 4}
+ O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O 2
+ addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+ O_REBMUN_O_NUMBER_O 2.718281828
+ addUserKnob {12 O_NOITISOP_O_POSITION_O}
+ O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+ addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+ O_EZIS_O_SIZE_O 2048
+}
+Expression {
+ temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+ temp_expr0 (clamp(((height/2/1)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2/1)))
+ temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr1 (-cos((4.*atan(1.))*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+ temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+ temp_expr2 "(((exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.))    +    (-(exp(2.*(4.*atan(1.))))/exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.+1.)-0.5)"
+ temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr3 "(  (  (    -pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+ channel0 rgba
+ expr0 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ channel1 {-rgba.red -rgba.green -rgba.blue -rgba.alpha}
+ expr1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ channel2 {-rgba.red -rgba.green -rgba.blue none}
+ expr2 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)"
+ channel3 {none none none -rgba.alpha}
+ expr3 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)    +    (-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)/1-.5"
+ maskChannelInput -rgba.alpha
+ name ⵙᗱᗴᴥᗱᗴ옷ᑫᑭᔓᔕⵙᔓᔕᑫᑭ옷ᗱᗴᴥᗱᗴⵙ2
+ help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+ xpos 1144
+ ypos 107
+ postage_stamp true
+ addUserKnob {20 O l "" +STARTLINE}
+ addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+ O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+ addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+ O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+ addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+ O_Y_EZIS_O_SIZE_Y_O 2
+ addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+ O_ROSIVID_O_DIVISOR_O 11
+ addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+ O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+ addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+ O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+ addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+ O_1_SNOISIVID_O_DIVISION_1_O 4
+ addUserKnob {7 O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O R 0 4}
+ O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O 2
+ addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+ O_REBMUN_O_NUMBER_O 2.718281828
+ addUserKnob {12 O_NOITISOP_O_POSITION_O}
+ O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+ addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+ O_EZIS_O_SIZE_O 2048
+}
+push $N3177800
+Expression {
+ temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+ temp_expr0 (clamp(((height/2/1)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2/1)))
+ temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr1 (-cos((4.*atan(1.))*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+ temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+ temp_expr2 "(((exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.))    +    (-(exp(2.*(4.*atan(1.))))/exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.+1.)-0.5)"
+ temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr3 "(  (  (    -pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+ channel0 {rgba.red rgba.green rgba.blue -rgba.alpha}
+ expr0 "pow(    (1.-  pow(-(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O-1.),  3.  )  )    ,    pow(3.,-1.) )        *        (1.-        log((4.*atan(1.))-1.)        )  +  1.  -  (1. -         log((4.*atan(1.))-1.)        )"
+ channel1 {-rgba.red -rgba.green -rgba.blue rgba.alpha}
+ expr1 (clamp(((height/2/1)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))))
+ channel2 {-rgba.red -rgba.green -rgba.blue none}
+ expr2 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)"
+ channel3 {none none none -rgba.alpha}
+ expr3 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)    +    (-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)/1-.5"
+ name ⵙЖᔓᔕᗩᙏⵙᗱᗴᴥᗱᗴ옷ᑫᑭᔓᔕⵙᔓᔕᑫᑭ옷ᗱᗴᴥᗱᗴⵙᙏᗩᔓᔕЖⵙ
+ help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+ xpos 888
+ ypos -13
+ postage_stamp true
+ addUserKnob {20 O l "" +STARTLINE}
+ addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+ O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+ addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+ O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+ addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+ O_Y_EZIS_O_SIZE_Y_O 2
+ addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+ O_ROSIVID_O_DIVISOR_O 11
+ addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+ O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+ addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+ O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+ addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+ O_1_SNOISIVID_O_DIVISION_1_O 4
+ addUserKnob {7 O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O R 0 4}
+ O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O 2
+ addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+ O_REBMUN_O_NUMBER_O 2.718281828
+ addUserKnob {12 O_NOITISOP_O_POSITION_O}
+ O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+ addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+ O_EZIS_O_SIZE_O 2048
+}
+push 0
+Expression {
+ inputs 1+1
+ temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+ temp_expr0 (clamp(((height/2/1)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2/1)))
+ temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr1 (-cos((4.*atan(1.))*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+ temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+ temp_expr2 "(((exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.))    +    (-(exp(2.*(4.*atan(1.))))/exp(2.*(4.*atan(1.))*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*(4.*atan(1.))))/2.+1.)-0.5)"
+ temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr3 "(  (  (    -pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*(4.*atan(1.))*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+ channel0 {rgba.red rgba.green rgba.blue -rgba.alpha}
+ expr0 "pow(    (1.-  pow(-(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O-1.),  3.  )  )    ,    pow(3.,-1.) )        *        (1.-        log((4.*atan(1.))-1.)        )  +  1.  -  (1. -         log((4.*atan(1.))-1.)        )"
+ channel1 {-rgba.red -rgba.green -rgba.blue rgba.alpha}
+ expr1 (clamp(((height/2/1)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))))
+ channel2 {-rgba.red -rgba.green -rgba.blue none}
+ expr2 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)"
+ channel3 {none none none -rgba.alpha}
+ expr3 "((exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2-0)/1)    +    (-(exp(2*(4.*atan(1.))))/exp(2*(4.*atan(1.))*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*(4.*atan(1.))))/2+1)/1-.5"
+ maskChannelInput -rgba.alpha
+ name ⵙᗱᗴᴥᗱᗴ옷ᑫᑭᔓᔕⵙᔓᔕᑫᑭ옷ᗱᗴᴥᗱᗴⵙ
+ help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+ xpos 888
+ ypos 107
+ postage_stamp true
+ addUserKnob {20 O l "" +STARTLINE}
+ addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+ O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+ addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+ O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+ addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+ O_Y_EZIS_O_SIZE_Y_O 2
+ addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+ O_ROSIVID_O_DIVISOR_O 11
+ addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+ O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+ addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+ O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+ addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+ O_1_SNOISIVID_O_DIVISION_1_O 4
+ addUserKnob {7 O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O R 0 4}
+ O_REILPITLUM_IP_O_(4.*atan(1.))_MULTIPLIER_O 2
+ addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+ O_REBMUN_O_NUMBER_O 2.718281828
+ addUserKnob {12 O_NOITISOP_O_POSITION_O}
+ O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+ addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+ O_EZIS_O_SIZE_O 2048
+}
+Switch {
+ inputs 3
+ which 2
+ name Switch1
+ xpos 1016
+ ypos 278
+}
+Transform {
+ scale {{1/3}}
+ center {{width/2} {height/2}}
+ clamp true
+ name ⵙⵈⵙИNⵔⵙᗱᗴⴵꖴᔓᔕⵙᗱᗴᗝꖴΛꖴᗝⵙᗝꖴΛꖴᗝᗱᗴⵙᔓᔕꖴⴵᗱᗴⵙⵔИNⵙⵈⵙ
+ xpos 1016
+ ypos 341
+ disable true
+ postage_stamp true
+}
+Crop {
+ box {{width/2} {height/2} {width} {height}}
+ reformat true
+ crop false
+ name ⵙᑫᑭⵔᴥᑐᑕⵙᑐᑕᴥⵔᑫᑭⵙ
+ xpos 1016
+ ypos 427
+ disable true
+ postage_stamp true
+}
+Reformat {
+ type scale
+ scale 2
+ resize none
+ center false
+ flip true
+ flop true
+ filter Impulse
+ clamp true
+ black_outside true
+ pbb true
+ name ⵙTᗩᙏᴥⵔΦᗱᗴᴥⵙᗱᗴⴵꖴᔓᔕⵙᔓᔕᗩΛИNᗩᑐᑕⵙᗱᗴᙁ8ᑎⵔᗝⵙᗝⵔᑎ8ᙁᗱᗴⵙᑐᑕᗩИNΛᗩᔓᔕⵙᔓᔕꖴⴵᗱᗴⵙᴥᗱᗴΦⵔᴥᙏᗩTⵙ
+ xpos 1016
+ ypos 651
+ postage_stamp true
+}
+set N6326400 [stack 0]
+Reformat {
+ type scale
+ resize none
+ flop true
+ filter Impulse
+ clamp true
+ black_outside true
+ pbb true
+ name ⵙTᗩᙏᴥⵔΦᗱᗴᴥⵙᑫᑭꖴᙁΦⵙᙁᗩTИNⵔⴵꖴᴥⵔ옷ⵙ옷ⵔᴥꖴⴵⵔИNTᗩᙁⵙΦᙁꖴᑫᑭⵙᴥᗱᗴΦⵔᴥᙏᗩTⵙ
+ xpos 464
+ ypos 651
+ postage_stamp true
+}
+set N6327c00 [stack 0]
+push $N6326400
+Merge2 {
+ inputs 2
+ operation conjoint-over
+ metainput A
+ name ⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙTᗩᙏᴥⵔΦᗱᗴᴥⵙᑫᑭꖴᙁΦⵙᙁᗩTИNⵔⴵꖴᴥⵔ옷ⵙ옷ⵔᴥꖴⴵⵔИNTᗩᙁⵙΦᙁꖴᑫᑭⵙᴥᗱᗴΦⵔᴥᙏᗩTⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙ
+ xpos 464
+ ypos 755
+ postage_stamp true
+}
+Reformat {
+ type scale
+ resize none
+ flip true
+ filter Impulse
+ clamp true
+ black_outside true
+ pbb true
+ name ⵙTᗩᙏᴥⵔΦᗱᗴᴥⵙᑫᑭꖴᙁΦⵙᙁᗩᑐᑕꖴTᴥᗱᗴΛⵙΛᗱᗴᴥTꖴᑐᑕᗩᙁⵙΦᙁꖴᑫᑭⵙᴥᗱᗴΦⵔᴥᙏᗩTⵙ
+ xpos 464
+ ypos 859
+ postage_stamp true
+}
+push $N6327c00
+push 0
+push $N6327c00
+push $N6326400
+Merge2 {
+ inputs 4+1
+ operation conjoint-over
+ metainput A
+ name ⵙᗱᗴᕤᕦᴥᗱᗴᙏᴥⵙᔓᔕTᴥᗩᑫᑭⵙᗝᗱᗴᑫᑭꖴᙁΦⵙΦᙁꖴᑫᑭᗱᗴᗝⵙᑫᑭᗩᴥTᔓᔕⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙ
+ xpos 1016
+ ypos 755
+ postage_stamp true
+}
+Transform {
+ scale {{1/3}}
+ center {{width/2} {height/2}}
+ clamp true
+ name ⵙⵈⵙИNⵔⵙᗱᗴⴵꖴᔓᔕⵙᗱᗴᗝꖴΛꖴᗝⵙᗝꖴΛꖴᗝᗱᗴⵙᔓᔕꖴⴵ�1
+ xpos 1016
+ ypos 835
+ disable true
+ postage_stamp true
+}
+Group {
+ name ⵙᗝᗩᗱᗴᴥᑫᑭᔓᔕⵙᔓᔕᑫᑭᴥᗱᗴᗩᗝⵙ
+ xpos 1016
+ ypos 1019
+ disable true
+ postage_stamp true
+}
+ Input {
+  inputs 0
+  name ⵙTᑎᑫᑭИNꖴⵙᗝᗩᗱᗴᴥᑫᑭᔓᔕⵙᔓᔕᑫᑭᴥᗱᗴᗩᗝⵙꖴИNᑫᑭᑎTⵙ
+  xpos -512
+  ypos -394
+ }
+ PostageStamp {
+  name ⵙᑫᑭᙏᗩTᔓᔕⵙTᑎᑫᑭИNꖴⵙꖴИNᑫᑭᑎTⵙᔓᔕTᗩᙏᑫᑭⵙ
+  xpos -512
+  ypos -341
+  postage_stamp true
+ }
+set N6354000 [stack 0]
+ Transform {
+  scale {{1/3}}
+  center {{width/2} {height/2}}
+  clamp true
+  shutter 0
+  name ⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTИNⵔᴥΦⵙΦᴥⵔИNTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙ
+  xpos 24
+  ypos 3
+  postage_stamp true
+ }
+set N6381c00 [stack 0]
+ Transform {
+  translate {{width/3} 0}
+  center {{width/2} {height/2}}
+  filter Impulse
+  clamp true
+  shutter 0
+  name ⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙT옷ᕤᕦꖴᴥⵙᴥꖴᕤᕦ옷TⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙ
+  xpos 488
+  ypos -53
+  postage_stamp true
+ }
+set N6381800 [stack 0]
+ Reformat {
+  type scale
+  resize none
+  flop true
+  filter Impulse
+  clamp true
+  black_outside true
+  pbb true
+  name ⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTΦᗱᗴᙁⵙᙁᗱᗴΦTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙ
+  xpos -1184
+  ypos 35
+  postage_stamp true
+ }
+ NoOp {
+  inputs 0
+  name ⵙᑫᑭⵔИNⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTΦᗱᗴᙁⵙᙁᗱᗴΦTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙИNⵔᑫᑭⵙ
+  xpos -832
+  ypos 134
+  hide_input true
+ }
+ Switch {
+  inputs 2
+  name ⵙ옷ᑐᑕTꖴᗯᔓᔕⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTΦᗱᗴᙁⵙᙁᗱᗴΦTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙᔓᔕᗯꖴTᑐᑕ옷ⵙ
+  xpos -1184
+  ypos 134
+ }
+push $N6381c00
+ Transform {
+  translate {0 {height/3}}
+  center {{width/2} {height/2}}
+  filter Impulse
+  clamp true
+  shutter 0
+  name ⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙᑫᑭⵔTⵙTⵔᑫᑭⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙ
+  xpos 112
+  ypos -237
+  postage_stamp true
+ }
+set N6380400 [stack 0]
+ Reformat {
+  type scale
+  resize none
+  flip true
+  filter Impulse
+  clamp true
+  black_outside true
+  pbb true
+  name ⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙᙏⵔTⵔ8ⵙ8ⵔTⵔᙏⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙ
+  xpos -296
+  ypos 91
+  postage_stamp true
+ }
+ NoOp {
+  inputs 0
+  name ⵙᑫᑭⵔИNⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙᙏⵔTⵔ8ⵙ8ⵔTⵔᙏⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙИNⵔᑫᑭⵙ
+  xpos -264
+  ypos 158
+  hide_input true
+ }
+ Switch {
+  inputs 2
+  name ⵙ옷ᑐᑕTꖴᗯᔓᔕⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙᙏⵔTⵔ8ⵙ8ⵔTⵔᙏⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙᔓᔕᗯꖴTᑐᑕ옷ⵙ
+  xpos -296
+  ypos 174
+ }
+push $N6380400
+ NoOp {
+  inputs 0
+  name NoOp3
+  xpos 200
+  ypos -138
+  hide_input true
+ }
+ Switch {
+  inputs 2
+  which 1
+  name Switch3
+  xpos 112
+  ypos -138
+ }
+push $N6381800
+ NoOp {
+  inputs 0
+  name NoOp2
+  xpos 536
+  ypos 22
+  hide_input true
+ }
+ Switch {
+  inputs 2
+  which 1
+  name Switch2
+  xpos 504
+  ypos 38
+ }
+push 0
+push $N6381c00
+push $N6354000
+ NoOp {
+  inputs 0
+  name ⵙᑫᑭⵔИNⵙTᑎᑫᑭИNꖴⵙꖴИNᑫᑭᑎTⵙИNⵔᑫᑭⵙ
+  xpos -288
+  ypos -42
+  hide_input true
+ }
+ Switch {
+  inputs 2
+  which 1
+  name ⵙ옷ᑐᑕTꖴᗯᔓᔕⵙTᑎᑫᑭИNꖴⵙꖴИNᑫᑭᑎTⵙᔓᔕᗯꖴTᑐᑕ옷ⵙ
+  xpos -512
+  ypos -42
+ }
+set N63c7c00 [stack 0]
+ Merge2 {
+  inputs 2
+  screen_alpha true
+  metainput All
+  rangeinput All
+  maskChannelMask -rgba.alpha
+  maskChannelInput -rgba.alpha
+  name ⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᔓᔕᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏᔓᔕ1
+  xpos -48
+  ypos 99
+  postage_stamp true
+ }
+push $N63c7c00
+ Switch {
+  inputs 2
+  name Switch1
+  selected true
+  xpos -16
+  ypos 190
+ }
+ NoOp {
+  inputs 0
+  name ⵙᑫᑭⵔИNⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᔓᔕᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏᔓᔕⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙИNⵔᑫᑭⵙ
+  xpos -312
+  ypos 342
+  hide_input true
+ }
+ Merge2 {
+  inputs 4+1
+  operation conjoint-over
+  screen_alpha true
+  metainput All
+  rangeinput All
+  maskChannelMask -rgba.alpha
+  maskChannelInput -rgba.alpha
+  name ⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᔓᔕᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏᔓᔕⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙ
+  xpos 96
+  ypos 179
+  postage_stamp true
+ }
+ Clamp {
+  channels rgba
+  name ⵙᑫᑭᙏᗩᙁᑐᑕⵙᑐᑕᙁᗩᙏᑫᑭⵙ
+  xpos 168
+  ypos 270
+  postage_stamp true
+ }
+ Crop {
+  box {{width/2} {height/2} {width} {height}}
+  name ⵙᕤᕦИNꖴ人ᴥTᗱᗴᙏ人ᔓᔕⵙᴥⵔΦⵙᑫᑭⵔᴥᑐᑕⵙᑐᑕᴥⵔᑫᑭⵙΦⵔᴥⵙᔓᔕ人ᙏᗱᗴTᴥ人ꖴИNᕤᕦⵙ
+  xpos 440
+  ypos 283
+  postage_stamp true
+ }
+set N63c6400 [stack 0]
+ Reformat {
+  type scale
+  resize none
+  flip true
+  filter Impulse
+  clamp true
+  black_outside true
+  pbb true
+  name ⵙTᗩᙏᴥⵔΦᗱᗴᴥⵙᑫᑭꖴᙁΦⵙᙁᗩᑐᑕꖴTᴥᗱᗴΛⵙᕤᕦИNꖴ人ᴥTᗱᗴᙏ人ᔓᔕⵙᴥⵔΦⵙᑫᑭⵔᴥᑐᑕⵙᑐᑕᴥⵔᑫᑭⵙΦⵔᴥⵙᔓᔕ人ᙏᗱᗴTᴥ人ꖴИNᕤᕦⵙΛᗱᗴᴥTꖴᑐᑕᗩᙁⵙΦᙁꖴᑫᑭⵙᴥᗱᗴΦⵔᴥᙏᗩTⵙ
+  xpos 168
+  ypos 579
+  postage_stamp true
+ }
+push $N63c6400
+ Reformat {
+  type scale
+  resize none
+  flip true
+  flop true
+  filter Impulse
+  clamp true
+  black_outside true
+  pbb true
+  name ⵙTᗩᙏᴥⵔΦᗱᗴᴥⵙᑫᑭꖴᙁΦⵙᙁᗩᑐᑕꖴTᴥᗱᗴΛⵙᗝИNᗩⵙᙁᗩTИNⵔⴵꖴᴥⵔ옷ⵙᕤᕦИNꖴ人ᴥTᗱᗴᙏ人ᔓᔕⵙᴥⵔΦⵙᑫᑭⵔᴥᑐᑕⵙᑐᑕᴥⵔᑫᑭⵙΦⵔᴥⵙᔓᔕ人ᙏᗱᗴTᴥ人ꖴИNᕤᕦⵙ옷ⵔᴥꖴⴵⵔИNTᗩᙁⵙᗩИNᗝⵙΛᗱᗴᴥTꖴᑐᑕᗩᙁⵙΦᙁꖴᑫᑭⵙᴥᗱᗴΦⵔᴥᙏᗩTⵙ
+  xpos 168
+  ypos 491
+  postage_stamp true
+ }
+push 0
+push $N63c6400
+ Reformat {
+  type scale
+  resize none
+  flop true
+  filter Impulse
+  clamp true
+  black_outside true
+  pbb true
+  name ⵙTᗩᙏᴥⵔΦᗱᗴᴥⵙᑫᑭꖴᙁΦⵙᙁᗩTИNⵔⴵꖴᴥⵔ옷ⵙᕤᕦИNꖴ人ᴥTᗱᗴᙏ人ᔓᔕⵙᴥⵔΦⵙᑫᑭⵔᴥᑐᑕⵙᑐᑕᴥⵔᑫᑭⵙΦⵔᴥⵙᔓᔕ人ᙏᗱᗴTᴥ人ꖴИNᕤᕦⵙ옷ⵔᴥꖴⴵⵔИNTᗩᙁⵙΦᙁꖴᑫᑭⵙᴥᗱᗴΦⵔᴥᙏᗩTⵙ
+  xpos 168
+  ypos 403
+  postage_stamp true
+ }
+push $N63c6400
+ Merge2 {
+  inputs 4+1
+  screen_alpha true
+  metainput A
+  maskChannelMask -rgba.alpha
+  maskChannelInput -rgba.alpha
+  name ⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᔓᔕTᗩᙏᴥⵔΦᗱᗴᴥⵙᕤᕦИNꖴ人ᴥTᗱᗴᙏ人ᔓᔕⵙᴥⵔΦⵙᑫᑭⵔᴥᑐᑕⵙᑐᑕᴥⵔᑫᑭⵙΦⵔᴥⵙᔓᔕ人ᙏᗱᗴTᴥ人ꖴИNᕤᕦⵙᴥᗱᗴΦⵔᴥᙏᗩTᔓᔕⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙ
+  xpos 448
+  ypos 675
+  postage_stamp true
+ }
+ Output {
+  name ⵙTᑎᑫᑭTᑎⵔⵙᗝᗩᗱᗴᴥᑫᑭᔓᔕⵙᔓᔕᑫᑭᴥᗱᗴᗩᗝⵙⵔᑎTᑫᑭᑎTⵙ
+  xpos 448
+  ypos 766
+ }
+push $N6381c00
+ NoOp {
+  inputs 0
+  name ⵙᑫᑭⵔИNⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTИNⵔᴥΦⵙΦᴥⵔИNTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙИNⵔᑫᑭⵙ
+  xpos 64
+  ypos 62
+  hide_input true
+ }
+ Switch {
+  inputs 2
+  which 1
+  name ⵙ옷ᑐᑕTꖴᗯᔓᔕⵙᙏᴥⵔΦᔓᔕИNᗩᴥTⵙTИNⵔᴥΦⵙΦᴥⵔИNTⵙTᴥᗩИNᔓᔕΦⵔᴥᙏⵙᔓᔕᗯꖴTᑐᑕ옷ⵙ
+  xpos 32
+  ypos 78
+ }
+end_group
+Crop {
+ box {{width/2} {height/2} {width} {height}}
+ reformat true
+ crop false
+ name ⵙⵙᑫᑭⵔᴥᑐᑕⵙᑐᑕᴥⵔᑫᑭⵙⵙ
+ xpos 1016
+ ypos 1123
+ disable true
+ postage_stamp true
+}
+set N6413800 [stack 0]
+Constant {
+ inputs 0
+ color 1
+ name ᔓᔕИNⵔᑐᑕⵙ
+ xpos 768
+ ypos 1227
+}
+Merge2 {
+ inputs 2
+ operation matte
+ metainput All
+ rangeinput All
+ name ⵙᗝИNᑎᴥᕤᕦЖᑐᑕᗩ8ⵙ옷TꖴᗯⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙᗯꖴT옷ⵙ8ᗩᑐᑕЖᕤᕦᴥⵔᑎИNᗝⵙ
+ xpos 768
+ ypos 1323
+ postage_stamp true
+}
+push $N6413800
+Switch {
+ inputs 2
+ name ⵙⵙⵙ옷ᑐᑕTꖴᗯᔓᔕⵙⵙⵙᗝИNᑎᴥᕤᕦЖᑐᑕᗩ8ⵙ옷TꖴᗯⵙᗱᗴᕤᕦᴥᗱᗴᙏⵙᙏᗱᗴᴥᕤᕦᗱᗴⵙᗯꖴT옷ⵙ8ᗩᑐᑕЖᕤᕦᴥⵔᑎИNᗝⵙⵙⵙᔓᔕᗯꖴTᑐᑕ옷ⵙⵙⵙ
+ xpos 1016
+ ypos 1422
+}
+Reformat {
+ type scale
+ scale 0.5
+ name Reformat1
+ xpos 1016
+ ypos 1475
+ postage_stamp true
+}
+Histogram {
+ out {0.9375 1}
+ name Histogram1
+ xpos 1016
+ ypos 1555
+ postage_stamp true
+}
+Write {
+ channels rgba
+ file D:/GNP.RXE....48361.86723.TAMROFER.MARGOTSIH.4.8....KN.NK....8.4.HISTOGRAM.REFORMAT.32768.16384....EXR.PNG
+ colorspace linear
+ raw true
+ file_type png
+ datatype "16 bit"
+ checkHashOnRead false
+ version 151
+ name ⵙᗱᗴTꖴᴥᗯⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙᗯᴥꖴTᗱᗴⵙ
+ xpos 1016
+ ypos 1635
+ postage_stamp true
+}
+Viewer {
+ frame_range 1-5824
+ fps 0
+ full_frame_processing true
+ viewerProcess None
+ input_process false
+ name ⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙ
+ xpos 1016
+ ypos 1750
+}
+push $N3177c00
+Histogram {
+ out {0.9375 1}
+ name Histogram2
+ xpos 1016
+ ypos 75
+ postage_stamp true
+}
+Write {
+ channels all
+ file D:/RXE.MARGOTSIH.8.KN.NK.8.HISTOGRAM.EXR
+ raw true
+ file_type exr
+ datatype "32 bit float"
+ metadata "no metadata"
+ interleave channels
+ first_part none
+ version 1
+ name Write1
+ xpos 1016
+ ypos -28
+ postage_stamp true
+}
+Read {
+ inputs 0
+ file_type exr
+ file D:/RXE.MARGOTSIH.8.KN.NK.8.HISTOGRAM.EXR
+ format "16384 16384 0 0 16384 16384 1 "
+ origset true
+ raw true
+ auto_alpha true
+ name Read2
+ xpos 648
+ ypos -4
+}
+set N3d51b000 [stack 0]
+Write {
+ channels all
+ file D:/FIT.CPB32.RXE.MARGOTSIH.8.KN.NK.8.HISTOGRAM.EXR.32BPC.TIF
+ raw true
+ file_type tiff
+ datatype "32 bit float"
+ checkHashOnRead false
+ version 1
+ name Write2
+ xpos 728
+ ypos -124
+ postage_stamp true
+}
+push $N3d51b000
+Write {
+ channels all
+ file D:/GNP.CPB61.RXE.MARGOTSIH.8.KN.NK.8.HISTOGRAM.EXR.16BPC.PNG
+ raw true
+ file_type png
+ datatype "16 bit"
+ checkHashOnRead false
+ version 1
+ name Write3
+ xpos 576
+ ypos -124
+ postage_stamp true
+}
+NoOp {
+ inputs 0
+ name NoOp1
+ xpos 1249
+ ypos 757
+}
