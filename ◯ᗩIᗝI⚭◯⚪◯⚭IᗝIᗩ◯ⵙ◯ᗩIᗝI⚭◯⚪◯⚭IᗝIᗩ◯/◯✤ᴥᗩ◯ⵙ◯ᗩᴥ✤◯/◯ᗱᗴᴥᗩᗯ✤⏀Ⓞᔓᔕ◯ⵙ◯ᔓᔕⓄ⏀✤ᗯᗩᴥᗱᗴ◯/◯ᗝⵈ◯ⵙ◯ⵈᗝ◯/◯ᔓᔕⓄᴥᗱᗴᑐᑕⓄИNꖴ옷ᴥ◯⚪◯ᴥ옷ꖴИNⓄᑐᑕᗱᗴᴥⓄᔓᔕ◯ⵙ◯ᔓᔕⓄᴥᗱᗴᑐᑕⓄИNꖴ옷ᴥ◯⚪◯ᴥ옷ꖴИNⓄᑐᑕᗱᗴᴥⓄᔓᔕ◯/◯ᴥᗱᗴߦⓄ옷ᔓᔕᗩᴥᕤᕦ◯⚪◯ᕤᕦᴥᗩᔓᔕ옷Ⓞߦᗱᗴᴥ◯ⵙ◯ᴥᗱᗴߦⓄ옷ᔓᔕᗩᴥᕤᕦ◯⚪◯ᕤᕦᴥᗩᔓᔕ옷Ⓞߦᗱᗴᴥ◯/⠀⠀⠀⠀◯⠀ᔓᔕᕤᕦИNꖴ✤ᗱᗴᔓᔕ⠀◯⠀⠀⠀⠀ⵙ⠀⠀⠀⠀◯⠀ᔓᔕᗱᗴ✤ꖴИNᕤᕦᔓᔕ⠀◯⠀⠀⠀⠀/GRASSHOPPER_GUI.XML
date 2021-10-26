@@ -122,10 +122,10 @@
       <ARGB>255;128;128;128</ARGB>
     </item>
     <item name="hidden.std.edge" type_name="gh_drawing_color" type_code="36">
-      <ARGB>0;128;128;128</ARGB>
+      <ARGB>127;128;128;128</ARGB>
     </item>
     <item name="hidden.std.fill" type_name="gh_drawing_color" type_code="36">
-      <ARGB>31;255;255;255</ARGB>
+      <ARGB>255;255;255;255</ARGB>
     </item>
     <item name="hidden.std.text" type_name="gh_drawing_color" type_code="36">
       <ARGB>0;128;128;128</ARGB>
