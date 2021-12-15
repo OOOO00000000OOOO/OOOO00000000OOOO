@@ -1653,7 +1653,7 @@ on init
   set_control_par(get_ui_id($vjofa),$CONTROL_PAR_WIDTH,$dyt1q-1)
   set_control_par(get_ui_id($vjofa),$CONTROL_PAR_HEIGHT,get_control_par(get_ui_id(%pyeoz),$CONTROL_PAR_HEIGHT)-6)
   declare $y1xwz
-  declare ui_slider $bpkqt(0, 3000) 
+  declare ui_slider $bpkqt(0, 3473) 
   make_persistent($bpkqt)
   declare ui_slider $g345d(-3000, 3000) 
   make_persistent($g345d)
@@ -1697,7 +1697,7 @@ on init
   %fogcg[12] := 0
   %5zak5[12] := 0
   %dwdw3[12] := 0
-  %sbnwu[12] := 3000
+  %sbnwu[12] := 3473
   %jeswc[12] := 19
   %mnk53[12] := 0
   declare %ammgx[10] := (get_ui_id($bpkqt), get_ui_id($g345d), get_ui_id($wuxr3), get_ui_id($wkt5g), get_ui_id($qjkh4), get_ui_id($3pyb3), -1)
@@ -1707,7 +1707,7 @@ on init
     %cqg2m[0] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $m2mpa(0, 16384) 
+  declare ui_slider $m2mpa(0, 3126) 
   make_persistent($m2mpa)
   declare ui_slider $n0kha(-999, 999) 
   make_persistent($n0kha)
@@ -1751,7 +1751,7 @@ on init
   %fogcg[13] := 0
   %5zak5[13] := 0
   %dwdw3[13] := 0
-  %sbnwu[13] := 16384
+  %sbnwu[13] := 3126
   %jeswc[13] := 22
   %mnk53[13] := 1
   declare %iuemu[10] := (get_ui_id($m2mpa), get_ui_id($n0kha), get_ui_id($pwrfd), get_ui_id($kzwh4), get_ui_id($quyti), get_ui_id($u2pwx), -1)
@@ -2276,7 +2276,7 @@ on init
     %cqg2m[137] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $ppaoe(1, 3000) 
+  declare ui_slider $ppaoe(0, 9378) 
   make_persistent($ppaoe)
   set_control_par(get_ui_id($ppaoe),$CONTROL_PAR_DEFAULT_VALUE,1)
   set_control_par_str(get_ui_id($ppaoe),$CONTROL_PAR_PICTURE,"GE_ADSR_SLIDER")
@@ -2286,7 +2286,7 @@ on init
   set_control_par_str(get_ui_id($g2ztw),$CONTROL_PAR_TEXT,"")
   set_control_par_str(get_ui_id($g2ztw),$CONTROL_PAR_PICTURE,"MK_Mask" & "")
   %qdiwi[1] := 0
-  %ha0dc[1] := 3000
+  %ha0dc[1] := 9378
   %cy2pa[1] := 1
   !5hawr[1] := "ms"
   !znpd1[1] := ""
@@ -2295,7 +2295,7 @@ on init
   %bjbtn[1] := -1
   %c40o1[1] := -1
   %aebtw[1] := 1
-  %hgu5c[1] := 3000
+  %hgu5c[1] := 9378
   %gndxq[1] := 58
   %ipim0[1] := 11
   declare %jshdi[2] := (get_ui_id($ppaoe), get_ui_id($g2ztw))
@@ -2305,7 +2305,7 @@ on init
     %cqg2m[11] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $ork5f(1, 8000) 
+  declare ui_slider $ork5f(0, 3126) 
   make_persistent($ork5f)
   set_control_par(get_ui_id($ork5f),$CONTROL_PAR_DEFAULT_VALUE,2000)
   set_control_par_str(get_ui_id($ork5f),$CONTROL_PAR_PICTURE,"GE_ADSR_SLIDER")
@@ -2315,7 +2315,7 @@ on init
   set_control_par_str(get_ui_id($uzij3),$CONTROL_PAR_TEXT,"")
   set_control_par_str(get_ui_id($uzij3),$CONTROL_PAR_PICTURE,"MK_Mask" & "")
   %qdiwi[2] := 0
-  %ha0dc[2] := 8000
+  %ha0dc[2] := 3126
   %cy2pa[2] := 1
   !5hawr[2] := "ms"
   !znpd1[2] := ""
@@ -2323,8 +2323,8 @@ on init
   %qpgwq[2] := 100000
   %bjbtn[2] := -1
   %c40o1[2] := -1
-  %aebtw[2] := 1
-  %hgu5c[2] := 8000
+  %aebtw[2] := 0
+  %hgu5c[2] := 3126
   %gndxq[2] := 59
   %ipim0[2] := 12
   declare %oqg14[2] := (get_ui_id($ork5f), get_ui_id($uzij3))
@@ -2363,7 +2363,7 @@ on init
     %cqg2m[13] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $p3vhn(1, 6000) 
+  declare ui_slider $p3vhn(0, 9378) 
   make_persistent($p3vhn)
   set_control_par(get_ui_id($p3vhn),$CONTROL_PAR_DEFAULT_VALUE,3000)
   set_control_par_str(get_ui_id($p3vhn),$CONTROL_PAR_PICTURE,"GE_ADSR_SLIDER")
@@ -2373,7 +2373,7 @@ on init
   set_control_par_str(get_ui_id($l2rkq),$CONTROL_PAR_TEXT,"")
   set_control_par_str(get_ui_id($l2rkq),$CONTROL_PAR_PICTURE,"MK_Mask" & "")
   %qdiwi[4] := 0
-  %ha0dc[4] := 6000
+  %ha0dc[4] := 9378
   %cy2pa[4] := 1
   !5hawr[4] := "ms"
   !znpd1[4] := ""
@@ -2381,8 +2381,8 @@ on init
   %qpgwq[4] := 100000
   %bjbtn[4] := -1
   %c40o1[4] := -1
-  %aebtw[4] := 1
-  %hgu5c[4] := 6000
+  %aebtw[4] := 0
+  %hgu5c[4] := 9378
   %gndxq[4] := 61
   %ipim0[4] := 14
   declare %jxdrd[2] := (get_ui_id($p3vhn), get_ui_id($l2rkq))
@@ -23292,7 +23292,7 @@ on ui_control($ydeyc)
 end on
 
 on ui_control($ppaoe)
-  $4djds := 1
+  $4djds := 1 
   call _on_norm_knob_for_gl_nk_ep_id
 end on
 
