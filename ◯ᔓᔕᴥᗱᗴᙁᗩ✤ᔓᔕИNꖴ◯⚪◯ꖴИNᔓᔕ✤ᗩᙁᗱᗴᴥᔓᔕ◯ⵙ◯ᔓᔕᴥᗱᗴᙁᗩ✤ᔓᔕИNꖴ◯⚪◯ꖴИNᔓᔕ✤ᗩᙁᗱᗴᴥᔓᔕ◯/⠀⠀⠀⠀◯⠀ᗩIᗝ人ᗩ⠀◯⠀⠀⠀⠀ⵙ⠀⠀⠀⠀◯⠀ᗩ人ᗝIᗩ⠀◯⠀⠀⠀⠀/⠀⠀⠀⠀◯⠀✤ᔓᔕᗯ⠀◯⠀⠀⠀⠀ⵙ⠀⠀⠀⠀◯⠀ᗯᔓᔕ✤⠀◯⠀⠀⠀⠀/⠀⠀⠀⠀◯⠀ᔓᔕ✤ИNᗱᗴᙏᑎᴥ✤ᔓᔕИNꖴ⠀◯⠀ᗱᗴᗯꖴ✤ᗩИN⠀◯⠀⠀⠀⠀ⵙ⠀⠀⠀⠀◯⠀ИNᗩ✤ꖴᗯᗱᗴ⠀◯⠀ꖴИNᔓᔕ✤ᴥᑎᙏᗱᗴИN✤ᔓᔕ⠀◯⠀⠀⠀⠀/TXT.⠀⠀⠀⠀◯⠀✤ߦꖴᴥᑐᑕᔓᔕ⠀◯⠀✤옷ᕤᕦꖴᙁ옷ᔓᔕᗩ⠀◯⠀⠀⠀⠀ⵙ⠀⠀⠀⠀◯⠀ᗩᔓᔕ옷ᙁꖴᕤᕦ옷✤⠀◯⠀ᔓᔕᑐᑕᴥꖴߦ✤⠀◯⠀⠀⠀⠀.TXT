@@ -2276,7 +2276,7 @@ on init
     %cqg2m[137] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $ppaoe(0, 9378) 
+  declare ui_slider $ppaoe(0, 84406) 
   make_persistent($ppaoe)
   set_control_par(get_ui_id($ppaoe),$CONTROL_PAR_DEFAULT_VALUE,1)
   set_control_par_str(get_ui_id($ppaoe),$CONTROL_PAR_PICTURE,"GE_ADSR_SLIDER")
@@ -2286,7 +2286,7 @@ on init
   set_control_par_str(get_ui_id($g2ztw),$CONTROL_PAR_TEXT,"")
   set_control_par_str(get_ui_id($g2ztw),$CONTROL_PAR_PICTURE,"MK_Mask" & "")
   %qdiwi[1] := 0
-  %ha0dc[1] := 9378
+  %ha0dc[1] := 84406
   %cy2pa[1] := 1
   !5hawr[1] := "ms"
   !znpd1[1] := ""
@@ -2295,7 +2295,7 @@ on init
   %bjbtn[1] := -1
   %c40o1[1] := -1
   %aebtw[1] := 1
-  %hgu5c[1] := 9378
+  %hgu5c[1] := 84406
   %gndxq[1] := 58
   %ipim0[1] := 11
   declare %jshdi[2] := (get_ui_id($ppaoe), get_ui_id($g2ztw))
@@ -2305,7 +2305,7 @@ on init
     %cqg2m[11] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $ork5f(0, 3126) 
+  declare ui_slider $ork5f(0, 84406) 
   make_persistent($ork5f)
   set_control_par(get_ui_id($ork5f),$CONTROL_PAR_DEFAULT_VALUE,2000)
   set_control_par_str(get_ui_id($ork5f),$CONTROL_PAR_PICTURE,"GE_ADSR_SLIDER")
@@ -2315,7 +2315,7 @@ on init
   set_control_par_str(get_ui_id($uzij3),$CONTROL_PAR_TEXT,"")
   set_control_par_str(get_ui_id($uzij3),$CONTROL_PAR_PICTURE,"MK_Mask" & "")
   %qdiwi[2] := 0
-  %ha0dc[2] := 3126
+  %ha0dc[2] := 84406
   %cy2pa[2] := 1
   !5hawr[2] := "ms"
   !znpd1[2] := ""
@@ -2324,7 +2324,7 @@ on init
   %bjbtn[2] := -1
   %c40o1[2] := -1
   %aebtw[2] := 0
-  %hgu5c[2] := 3126
+  %hgu5c[2] := 84406
   %gndxq[2] := 59
   %ipim0[2] := 12
   declare %oqg14[2] := (get_ui_id($ork5f), get_ui_id($uzij3))
@@ -2363,7 +2363,7 @@ on init
     %cqg2m[13] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $p3vhn(0, 9378) 
+  declare ui_slider $p3vhn(0, 84406) 
   make_persistent($p3vhn)
   set_control_par(get_ui_id($p3vhn),$CONTROL_PAR_DEFAULT_VALUE,3000)
   set_control_par_str(get_ui_id($p3vhn),$CONTROL_PAR_PICTURE,"GE_ADSR_SLIDER")
@@ -2373,7 +2373,7 @@ on init
   set_control_par_str(get_ui_id($l2rkq),$CONTROL_PAR_TEXT,"")
   set_control_par_str(get_ui_id($l2rkq),$CONTROL_PAR_PICTURE,"MK_Mask" & "")
   %qdiwi[4] := 0
-  %ha0dc[4] := 9378
+  %ha0dc[4] := 28135
   %cy2pa[4] := 1
   !5hawr[4] := "ms"
   !znpd1[4] := ""
@@ -2382,7 +2382,7 @@ on init
   %bjbtn[4] := -1
   %c40o1[4] := -1
   %aebtw[4] := 0
-  %hgu5c[4] := 9378
+  %hgu5c[4] := 84406
   %gndxq[4] := 61
   %ipim0[4] := 14
   declare %jxdrd[2] := (get_ui_id($p3vhn), get_ui_id($l2rkq))
