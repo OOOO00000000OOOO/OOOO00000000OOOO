@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<JukeboxPatch version="2.0"  deviceProductID="se.propellerheads.Quartet"  deviceVersion="1.0.1" >
+    <DeviceNameInEnglish>
+        Quartet Chorus Ensemble
+    </DeviceNameInEnglish>
+    <Properties>
+        <Object name="custom_properties" >
+            <Value property="Chorus Delay"  type="number" >
+                0
+            </Value>
+            <Value property="Chorus Depth"  type="number" >
+                0
+            </Value>
+            <Value property="Chorus DryWet"  type="number" >
+                1
+            </Value>
+            <Value property="Chorus Feedback"  type="number" >
+                0.1405999660491943359375
+            </Value>
+            <Value property="Chorus Rate"  type="number" >
+                0
+            </Value>
+            <Value property="Chorus Width"  type="number" >
+                1
+            </Value>
+            <Value property="BBD Delay"  type="number" >
+                0
+            </Value>
+            <Value property="BBD Depth"  type="number" >
+                0
+            </Value>
+            <Value property="BBD DryWet"  type="number" >
+                1
+            </Value>
+            <Value property="BBD Noise"  type="number" >
+                0
+            </Value>
+            <Value property="BBD Rate"  type="number" >
+                0
+            </Value>
+            <Value property="BBD Width"  type="number" >
+                1
+            </Value>
+            <Value property="FFT Depth"  type="number" >
+                0
+            </Value>
+            <Value property="FFT DryWet"  type="number" >
+                1
+            </Value>
+            <Value property="FFT End"  type="number" >
+                1
+            </Value>
+            <Value property="FFT Size"  type="number" >
+                3
+            </Value>
+            <Value property="FFT Start"  type="number" >
+                0
+            </Value>
+            <Value property="FFT Width"  type="number" >
+                1
+            </Value>
+            <Value property="Grain Density"  type="number" >
+                1
+            </Value>
+            <Value property="Grain Depth"  type="number" >
+                0
+            </Value>
+            <Value property="Grain DryWet"  type="number" >
+                1
+            </Value>
+            <Value property="Grain Jitter"  type="number" >
+                0.5
+            </Value>
+            <Value property="Grain Phase"  type="number" >
+                0
+            </Value>
+            <Value property="Grain Size"  type="number" >
+                1
+            </Value>
+            <Value property="Grain Width"  type="number" >
+                1
+            </Value>
+            <Value property="Stereo Mode"  type="number" >
+                0
+            </Value>
+            <Value property="Effect Select"  type="number" >
+                3
+            </Value>
+        </Object>
+        <Object name="transport" />
+    </Properties>
+</JukeboxPatch>
