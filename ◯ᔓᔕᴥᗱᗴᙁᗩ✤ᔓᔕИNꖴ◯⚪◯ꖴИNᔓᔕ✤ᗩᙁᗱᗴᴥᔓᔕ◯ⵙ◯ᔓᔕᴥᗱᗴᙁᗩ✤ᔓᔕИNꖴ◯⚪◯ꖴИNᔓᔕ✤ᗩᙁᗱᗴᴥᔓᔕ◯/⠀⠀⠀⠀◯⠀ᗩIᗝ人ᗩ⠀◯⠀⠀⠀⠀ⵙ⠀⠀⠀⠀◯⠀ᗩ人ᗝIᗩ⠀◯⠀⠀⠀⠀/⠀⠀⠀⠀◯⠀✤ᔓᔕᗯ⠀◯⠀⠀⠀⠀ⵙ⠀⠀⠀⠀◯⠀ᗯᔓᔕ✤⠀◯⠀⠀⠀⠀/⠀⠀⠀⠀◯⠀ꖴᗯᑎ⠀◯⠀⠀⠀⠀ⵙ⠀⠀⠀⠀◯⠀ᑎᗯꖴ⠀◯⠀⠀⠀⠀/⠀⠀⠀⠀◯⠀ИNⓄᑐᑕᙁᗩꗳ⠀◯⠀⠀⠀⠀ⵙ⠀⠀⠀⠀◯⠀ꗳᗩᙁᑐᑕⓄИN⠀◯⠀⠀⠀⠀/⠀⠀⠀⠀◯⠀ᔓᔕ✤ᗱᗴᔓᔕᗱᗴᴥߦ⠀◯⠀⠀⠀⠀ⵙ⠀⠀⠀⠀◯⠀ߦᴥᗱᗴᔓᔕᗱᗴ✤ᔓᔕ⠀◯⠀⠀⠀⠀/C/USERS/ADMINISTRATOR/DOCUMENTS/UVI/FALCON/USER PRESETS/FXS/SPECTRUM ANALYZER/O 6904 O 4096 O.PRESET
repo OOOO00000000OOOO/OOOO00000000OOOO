@@ -1,0 +1,5 @@
+<ModulePreset>
+    <SpectrumAnalyzer Name="InsertFX3" Bypass="0" LogFFTSize="12" GraphType="0" XScaleType="1" WindowType="0" RefreshRate="40" MaxDecibels="0" RangeDecibels="200">
+        <Properties PresetPath="C:/USERS/Administrator/Documents/UVI/Falcon/USER PRESETS/FXS/SPECTRUM ANALYZER/O 48361 O 16384 O.preset"/>
+    </SpectrumAnalyzer>
+</ModulePreset>

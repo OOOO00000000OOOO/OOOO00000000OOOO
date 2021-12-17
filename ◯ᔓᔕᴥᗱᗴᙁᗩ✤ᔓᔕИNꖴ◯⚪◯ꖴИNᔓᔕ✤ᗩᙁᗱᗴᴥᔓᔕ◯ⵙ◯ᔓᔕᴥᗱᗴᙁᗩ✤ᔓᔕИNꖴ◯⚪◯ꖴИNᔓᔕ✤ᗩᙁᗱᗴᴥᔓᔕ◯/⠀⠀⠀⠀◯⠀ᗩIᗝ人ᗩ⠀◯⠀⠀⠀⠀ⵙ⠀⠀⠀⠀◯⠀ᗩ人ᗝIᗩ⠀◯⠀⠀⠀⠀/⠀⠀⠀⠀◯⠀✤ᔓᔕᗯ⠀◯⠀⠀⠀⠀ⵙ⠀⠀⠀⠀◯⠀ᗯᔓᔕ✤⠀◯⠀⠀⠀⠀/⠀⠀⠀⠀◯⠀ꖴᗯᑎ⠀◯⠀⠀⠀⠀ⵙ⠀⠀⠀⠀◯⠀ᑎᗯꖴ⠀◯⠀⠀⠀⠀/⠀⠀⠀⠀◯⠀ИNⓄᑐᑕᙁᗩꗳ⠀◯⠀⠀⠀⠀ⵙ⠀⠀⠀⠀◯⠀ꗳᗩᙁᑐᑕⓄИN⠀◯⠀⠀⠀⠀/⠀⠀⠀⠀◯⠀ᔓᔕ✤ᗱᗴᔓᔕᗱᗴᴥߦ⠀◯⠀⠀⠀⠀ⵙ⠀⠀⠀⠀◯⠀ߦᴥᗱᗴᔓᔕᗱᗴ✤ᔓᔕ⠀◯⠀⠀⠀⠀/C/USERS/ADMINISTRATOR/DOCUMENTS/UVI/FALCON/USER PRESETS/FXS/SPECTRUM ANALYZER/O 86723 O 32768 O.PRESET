@@ -1,0 +1,3 @@
+<ModulePreset>
+    <SpectrumAnalyzer Name="InsertFX3" Bypass="0" LogFFTSize="15" GraphType="0" XScaleType="1" WindowType="0" RefreshRate="40" MaxDecibels="0" RangeDecibels="200"/>
+</ModulePreset>
