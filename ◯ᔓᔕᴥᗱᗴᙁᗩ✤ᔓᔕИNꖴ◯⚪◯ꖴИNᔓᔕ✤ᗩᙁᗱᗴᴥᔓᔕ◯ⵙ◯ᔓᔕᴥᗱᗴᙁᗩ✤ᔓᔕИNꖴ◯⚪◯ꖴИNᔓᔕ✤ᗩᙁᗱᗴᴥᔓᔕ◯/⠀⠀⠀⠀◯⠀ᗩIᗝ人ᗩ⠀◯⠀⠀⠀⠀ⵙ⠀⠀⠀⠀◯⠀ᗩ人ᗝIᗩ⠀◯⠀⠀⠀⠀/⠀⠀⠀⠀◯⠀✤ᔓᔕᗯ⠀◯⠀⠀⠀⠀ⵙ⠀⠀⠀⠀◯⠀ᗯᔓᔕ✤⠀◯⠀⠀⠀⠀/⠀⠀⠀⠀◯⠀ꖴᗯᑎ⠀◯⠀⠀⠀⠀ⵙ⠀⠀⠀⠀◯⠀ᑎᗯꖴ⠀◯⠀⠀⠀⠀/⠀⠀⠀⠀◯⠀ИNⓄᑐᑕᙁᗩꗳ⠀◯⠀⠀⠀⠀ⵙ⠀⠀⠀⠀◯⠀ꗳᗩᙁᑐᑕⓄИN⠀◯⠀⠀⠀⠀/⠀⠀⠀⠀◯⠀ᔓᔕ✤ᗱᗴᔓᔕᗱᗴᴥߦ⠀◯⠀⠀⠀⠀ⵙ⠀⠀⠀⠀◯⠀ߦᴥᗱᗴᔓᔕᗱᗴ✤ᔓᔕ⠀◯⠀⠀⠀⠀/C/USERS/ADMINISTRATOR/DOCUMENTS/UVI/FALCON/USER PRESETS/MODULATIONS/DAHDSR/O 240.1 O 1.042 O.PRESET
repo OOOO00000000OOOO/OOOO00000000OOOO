@@ -1,0 +1,5 @@
+<ModulePreset>
+    <DAHDSR Name="Amp. Env" Bypass="0" DelayTime="0" AttackTime="1.0420499" AttackCurve="0" HoldTime="0" DecayTime="0" DecayCurve="0" SustainLevel="1" ReleaseTime="1.0420496" ReleaseCurve="0" DisplayName="Amp. Env" VelocityAmount="0" VelocitySens="0" Retrigger="1" NoteOffRetrigger="0">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/Modulations/DAHDSR/O 621.3 O 3.126 O.preset"/>
+    </DAHDSR>
+</ModulePreset>

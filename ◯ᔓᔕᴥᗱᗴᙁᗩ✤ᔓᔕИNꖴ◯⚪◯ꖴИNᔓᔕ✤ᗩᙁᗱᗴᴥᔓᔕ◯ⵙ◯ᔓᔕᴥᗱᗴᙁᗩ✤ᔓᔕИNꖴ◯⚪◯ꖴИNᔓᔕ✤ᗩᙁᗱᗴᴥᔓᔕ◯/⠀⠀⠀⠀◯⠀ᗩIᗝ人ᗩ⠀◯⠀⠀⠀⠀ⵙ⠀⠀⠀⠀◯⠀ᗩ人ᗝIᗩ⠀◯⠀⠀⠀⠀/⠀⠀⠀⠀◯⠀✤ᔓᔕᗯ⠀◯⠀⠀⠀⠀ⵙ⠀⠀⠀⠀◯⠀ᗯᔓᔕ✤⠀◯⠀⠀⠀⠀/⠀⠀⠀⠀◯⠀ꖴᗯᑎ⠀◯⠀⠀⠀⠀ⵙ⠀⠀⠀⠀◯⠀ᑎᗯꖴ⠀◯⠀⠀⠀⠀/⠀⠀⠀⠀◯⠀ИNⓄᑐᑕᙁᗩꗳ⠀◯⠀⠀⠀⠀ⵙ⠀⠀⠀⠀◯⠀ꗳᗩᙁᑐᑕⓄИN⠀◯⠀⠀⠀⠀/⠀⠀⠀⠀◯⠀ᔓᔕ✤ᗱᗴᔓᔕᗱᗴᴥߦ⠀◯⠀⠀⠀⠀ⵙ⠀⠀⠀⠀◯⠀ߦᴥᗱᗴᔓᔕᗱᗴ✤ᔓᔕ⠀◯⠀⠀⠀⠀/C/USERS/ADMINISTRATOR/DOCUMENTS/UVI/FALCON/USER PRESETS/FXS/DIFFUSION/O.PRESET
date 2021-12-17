@@ -1,0 +1,3 @@
+<ModulePreset>
+    <Diffusion Name="InsertFX12" Bypass="0" Diffusion="0.5" DiffusionStart="20" Mix="1"/>
+</ModulePreset>

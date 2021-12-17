@@ -1,0 +1,5 @@
+<ModulePreset>
+    <Diffusion Name="InsertFX0" Bypass="0" Diffusion="0.89999998" DiffusionStart="0.63206017" Mix="1">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/FXs/Diffusion/O.preset"/>
+    </Diffusion>
+</ModulePreset>

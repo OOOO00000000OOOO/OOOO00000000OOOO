@@ -1,0 +1,3 @@
+<ModulePreset>
+    <BrickwallFilter Name="InsertFX4" Bypass="0" Freq="699.5827" Type="1" Slope="2" SoftBypass="0"/>
+</ModulePreset>

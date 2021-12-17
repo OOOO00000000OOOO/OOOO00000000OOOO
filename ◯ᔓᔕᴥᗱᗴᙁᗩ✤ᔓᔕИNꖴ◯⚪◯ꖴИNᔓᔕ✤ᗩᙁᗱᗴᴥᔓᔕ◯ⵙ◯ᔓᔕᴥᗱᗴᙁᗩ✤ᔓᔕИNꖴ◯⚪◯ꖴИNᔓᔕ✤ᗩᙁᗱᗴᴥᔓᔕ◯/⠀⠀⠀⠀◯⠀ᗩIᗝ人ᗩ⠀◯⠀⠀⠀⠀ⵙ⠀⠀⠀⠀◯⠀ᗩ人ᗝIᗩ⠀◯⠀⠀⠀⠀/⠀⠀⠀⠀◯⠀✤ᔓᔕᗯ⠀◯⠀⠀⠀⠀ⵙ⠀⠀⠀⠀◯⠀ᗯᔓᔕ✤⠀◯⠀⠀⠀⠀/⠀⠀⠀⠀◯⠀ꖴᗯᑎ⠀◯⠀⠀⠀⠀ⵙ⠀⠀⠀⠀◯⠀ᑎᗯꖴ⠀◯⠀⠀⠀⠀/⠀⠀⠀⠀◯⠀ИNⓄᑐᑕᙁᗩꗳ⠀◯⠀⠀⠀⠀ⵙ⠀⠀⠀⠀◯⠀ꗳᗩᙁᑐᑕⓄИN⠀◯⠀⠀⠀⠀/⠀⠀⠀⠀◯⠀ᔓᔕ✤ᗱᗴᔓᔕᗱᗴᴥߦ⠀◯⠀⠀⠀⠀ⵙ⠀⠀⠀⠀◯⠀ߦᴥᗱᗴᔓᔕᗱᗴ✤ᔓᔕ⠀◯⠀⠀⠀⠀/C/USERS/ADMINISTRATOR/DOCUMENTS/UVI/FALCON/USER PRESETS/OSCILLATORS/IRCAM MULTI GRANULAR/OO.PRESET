@@ -1,0 +1,5 @@
+<ModulePreset>
+    <MultiGrainOscillator Name="Oscillator" Bypass="0" CoarseTune="0" FineTune="0" Gain="0.52083623" Pitch="0" NoteTracking="1" BaseNote="50" DisplayName="Oscillator 1" SamplePath="./../../../../../../../../SUNSET.WAV" Direction="1" Speed="0" Position="0" GrainSize="347.34988" GrainSymmetry="0.5" GrainFade="0" PositionVariation="0" NumVoices="8" PositionSpread="347.34995" Density="10" Jitter="0.25" DurationVariation="0" Detune="0" Window="3" LoopMode="2" Reverse="0" TimeSpread="1" PitchVariation="0" PitchCompMode="2" SamplePurged="0">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/Oscillators/IRCAM Multi Granular/O.preset"/>
+    </MultiGrainOscillator>
+</ModulePreset>

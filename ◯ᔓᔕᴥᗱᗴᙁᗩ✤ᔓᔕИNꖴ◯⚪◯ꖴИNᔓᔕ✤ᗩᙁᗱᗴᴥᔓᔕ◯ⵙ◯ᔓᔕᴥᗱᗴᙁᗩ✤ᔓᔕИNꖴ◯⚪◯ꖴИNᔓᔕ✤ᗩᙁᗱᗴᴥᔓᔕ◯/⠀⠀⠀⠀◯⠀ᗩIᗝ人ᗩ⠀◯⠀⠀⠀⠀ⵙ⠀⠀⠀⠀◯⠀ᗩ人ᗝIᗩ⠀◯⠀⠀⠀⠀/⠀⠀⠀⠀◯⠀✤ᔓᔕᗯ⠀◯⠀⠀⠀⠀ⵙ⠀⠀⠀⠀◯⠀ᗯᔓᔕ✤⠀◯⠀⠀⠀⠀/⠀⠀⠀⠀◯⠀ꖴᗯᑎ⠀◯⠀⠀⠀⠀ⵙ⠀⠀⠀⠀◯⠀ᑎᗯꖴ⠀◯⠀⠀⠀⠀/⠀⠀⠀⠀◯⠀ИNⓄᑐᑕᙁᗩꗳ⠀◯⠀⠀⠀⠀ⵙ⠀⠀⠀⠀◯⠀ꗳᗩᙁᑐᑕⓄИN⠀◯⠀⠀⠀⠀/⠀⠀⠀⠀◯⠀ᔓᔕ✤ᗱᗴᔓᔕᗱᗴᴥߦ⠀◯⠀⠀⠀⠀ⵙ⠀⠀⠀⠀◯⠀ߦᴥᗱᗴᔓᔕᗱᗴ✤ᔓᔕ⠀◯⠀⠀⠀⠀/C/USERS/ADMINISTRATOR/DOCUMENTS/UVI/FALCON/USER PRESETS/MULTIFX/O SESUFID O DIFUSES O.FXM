@@ -1,0 +1,20 @@
+<ModuleMulti>
+    <Diffusion Name="InsertFX0" Bypass="0" Diffusion="0.89999998" DiffusionStart="0.63206017" Mix="1">
+        <Properties PresetPath="C:/USERS/Administrator/Documents/UVI/Falcon/User Presets/FXs/Diffusion/OO.preset"/>
+    </Diffusion>
+    <Diffusion Name="InsertFX1" Bypass="0" Diffusion="0.89999998" DiffusionStart="0.63206017" Mix="1">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/FXs/Diffusion/OO.preset"/>
+    </Diffusion>
+    <Diffusion Name="InsertFX2" Bypass="0" Diffusion="0.89999998" DiffusionStart="0.63206017" Mix="1">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/FXs/Diffusion/OO.preset"/>
+    </Diffusion>
+    <Diffusion Name="InsertFX3" Bypass="0" Diffusion="0.89999998" DiffusionStart="0.63206017" Mix="1">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/FXs/Diffusion/OO.preset"/>
+    </Diffusion>
+    <Diffusion Name="InsertFX4" Bypass="0" Diffusion="0.89999998" DiffusionStart="0.63206017" Mix="1">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/FXs/Diffusion/OO.preset"/>
+    </Diffusion>
+    <Diffusion Name="InsertFX5" Bypass="0" Diffusion="0.89999998" DiffusionStart="0.63206017" Mix="1">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/FXs/Diffusion/OO.preset"/>
+    </Diffusion>
+</ModuleMulti>
