@@ -16,10 +16,10 @@
             </AbsolutePath>
             <RelativePath>
                 <Path>
-                    /O_EWIHCRA_O_ARCHIWE_O/OO_D_OO_D_OO/O/ / /◯IȊ̮IറⓄ✻◯ⵙ◯✻ⓄറIȊ̮I◯/◯8Iꕤߦᗩ◯ⵙ◯ᗩߦꕤI8◯/◯ᗩIᗝ人ᗩ◯ⵙ◯ᗩ人ᗝIᗩ◯/◯ᑐᑕꖴᔓᔕᑎᙏ◯ⵙ◯ᙏᑎᔓᔕꖴᑐᑕ◯/◯ᗩꖴᴥᑎ✤ᴥᗩ◯ⵙ◯ᗩᴥ✤ᑎᴥꖴᗩ◯/SUNSET.WAV
+                    /O/O_EWIHCRA_O_ARCHIWE_O/OO_D_OO_D_OO/O/ / /◯IȊ̮IറⓄ✻◯ⵙ◯✻ⓄറIȊ̮I◯/◯8Iꕤߦᗩ◯ⵙ◯ᗩߦꕤI8◯/◯ᗩIᗝ人ᗩ◯ⵙ◯ᗩ人ᗝIᗩ◯/◯ᑐᑕꖴᔓᔕᑎᙏ◯ⵙ◯ᙏᑎᔓᔕꖴᑐᑕ◯/◯ᗩꖴᴥᑎ✤ᴥᗩ◯ⵙ◯ᗩᴥ✤ᑎᴥꖴᗩ◯/SUNSET.WAV
                 </Path>
                 <StepUp>
-                    9
+                    3
                 </StepUp>
             </RelativePath>
         </SampleReference>
@@ -72,16 +72,16 @@
                 0.5
             </Value>
             <Value property="grain_1_direction"  type="number" >
-                0.49720001220703125
+                0.501100063323974609375
             </Value>
             <Value property="grain_1_position_mod"  type="number" >
-                0.5
+                0.7381999492645263671875
             </Value>
             <Value property="grain_1_shape"  type="number" >
                 0
             </Value>
             <Value property="grain_1_skew"  type="number" >
-                0.5
+                0
             </Value>
             <Value property="grain_1_spread"  type="number" >
                 0.5
@@ -219,7 +219,7 @@
                 0
             </Value>
             <Value property="sample_1_loop_end_position"  type="number" >
-                0
+                1
             </Value>
             <Value property="sample_1_offset_00"  type="number" >
                 0
@@ -540,13 +540,13 @@
                 false
             </Value>
             <Value property="master_level"  type="number" >
-                0.5
+                1
             </Value>
             <Value property="dynamic_enable"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="stereo_width"  type="number" >
-                0.6124999523162841796875
+                1
             </Value>
             <Value property="drift_1_phase_stereo"  type="number" >
                 0
