@@ -27,7 +27,7 @@
     <Properties>
         <Object name="custom_properties" >
             <Value property="grain_1_sample"  type="number" >
-                1
+                0
             </Value>
             <Value property="grain_1_emit_gate"  type="boolean" >
                 true
@@ -42,25 +42,25 @@
                 1
             </Value>
             <Value property="grain_1_emit_jitter"  type="number" >
-                0.4999001026153564453125
+                0.25
             </Value>
             <Value property="grain_1_emit_rate_length_link"  type="boolean" >
-                false
+                true
             </Value>
             <Value property="grain_1_emit_length_scale"  type="number" >
-                1
+                0.811500072479248046875
             </Value>
             <Value property="grain_1_emit_length_free"  type="number" >
-                0.4923000335693359375
+                0.4881999492645263671875
             </Value>
             <Value property="grain_1_loop_gate_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="grain_1_loop_position_mod"  type="number" >
                 0.5
             </Value>
             <Value property="grain_1_loop_size_mod"  type="number" >
-                1
+                0.5
             </Value>
             <Value property="grain_1_loop_enable"  type="number" >
                 0
@@ -81,16 +81,16 @@
                 0
             </Value>
             <Value property="grain_1_skew"  type="number" >
-                0
+                0.5
             </Value>
             <Value property="grain_1_spread"  type="number" >
-                0.495399951934814453125
+                0.5
             </Value>
             <Value property="grain_1_level"  type="number" >
                 0.5
             </Value>
             <Value property="grain_2_sample"  type="number" >
-                0.14161396026611328125
+                0
             </Value>
             <Value property="grain_2_emit_gate"  type="boolean" >
                 false
@@ -99,22 +99,22 @@
                 0.112061023712158203125
             </Value>
             <Value property="grain_2_emit_rate_sync"  type="number" >
-                20
+                30
             </Value>
             <Value property="grain_2_emit_tempo_sync"  type="number" >
                 1
             </Value>
             <Value property="grain_2_emit_jitter"  type="number" >
-                0.7112939357757568359375
+                0.253900051116943359375
             </Value>
             <Value property="grain_2_emit_rate_length_link"  type="boolean" >
-                false
+                true
             </Value>
             <Value property="grain_2_emit_length_scale"  type="number" >
-                0.3675038814544677734375
+                0.8118999004364013671875
             </Value>
             <Value property="grain_2_emit_length_free"  type="number" >
-                0.8094460964202880859375
+                0.442100048065185546875
             </Value>
             <Value property="grain_2_loop_gate_sync"  type="boolean" >
                 false
@@ -138,22 +138,22 @@
                 0.5000998973846435546875
             </Value>
             <Value property="grain_2_position_mod"  type="number" >
-                0.3548109531402587890625
+                0.5
             </Value>
             <Value property="grain_2_shape"  type="number" >
                 0
             </Value>
             <Value property="grain_2_skew"  type="number" >
-                0
+                0.5
             </Value>
             <Value property="grain_2_spread"  type="number" >
-                0
+                0.4960000514984130859375
             </Value>
             <Value property="grain_2_level"  type="number" >
                 0.5
             </Value>
             <Value property="grain_3_sample"  type="number" >
-                0.5452458858489990234375
+                0
             </Value>
             <Value property="grain_3_emit_gate"  type="boolean" >
                 false
@@ -162,19 +162,19 @@
                 0.94398403167724609375
             </Value>
             <Value property="grain_3_emit_rate_sync"  type="number" >
-                23
+                30
             </Value>
             <Value property="grain_3_emit_tempo_sync"  type="number" >
-                0
+                1
             </Value>
             <Value property="grain_3_emit_jitter"  type="number" >
-                0
+                0.2460000514984130859375
             </Value>
             <Value property="grain_3_emit_rate_length_link"  type="boolean" >
                 true
             </Value>
             <Value property="grain_3_emit_length_scale"  type="number" >
-                0.9781730175018310546875
+                0.811500072479248046875
             </Value>
             <Value property="grain_3_emit_length_free"  type="number" >
                 0.5306389331817626953125
@@ -192,7 +192,7 @@
                 0
             </Value>
             <Value property="grain_3_position_pitch_link"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="grain_3_pitch"  type="number" >
                 0.5
@@ -207,10 +207,10 @@
                 0
             </Value>
             <Value property="grain_3_skew"  type="number" >
-                0
+                0.500999927520751953125
             </Value>
             <Value property="grain_3_spread"  type="number" >
-                0
+                0.5
             </Value>
             <Value property="grain_3_level"  type="number" >
                 0.5
@@ -324,13 +324,13 @@
                 450000
             </Value>
             <Value property="loop_lfo_1_phase"  type="number" >
-                0.536429882049560546875
+                0.500999927520751953125
             </Value>
             <Value property="loop_lfo_1_phase_stereo"  type="number" >
-                0.81976604461669921875
+                0
             </Value>
             <Value property="loop_lfo_1_rate_free"  type="number" >
-                0.185985088348388671875
+                0
             </Value>
             <Value property="loop_lfo_1_rate_sync"  type="number" >
                 6
@@ -339,46 +339,46 @@
                 false
             </Value>
             <Value property="loop_lfo_1_waveform"  type="number" >
-                476
+                5
             </Value>
             <Value property="loop_lfo_1_smooth"  type="number" >
                 0
             </Value>
             <Value property="loop_lfo_1_transport_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="loop_lfo_2_phase"  type="number" >
-                0.976893901824951171875
+                0.5
             </Value>
             <Value property="loop_lfo_2_phase_stereo"  type="number" >
-                0.0916941165924072265625
+                0
             </Value>
             <Value property="loop_lfo_2_rate_free"  type="number" >
-                0.050128936767578125
+                0
             </Value>
             <Value property="loop_lfo_2_rate_sync"  type="number" >
                 6
             </Value>
             <Value property="loop_lfo_2_tempo_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="loop_lfo_2_waveform"  type="number" >
-                955
+                5
             </Value>
             <Value property="loop_lfo_2_smooth"  type="number" >
                 0
             </Value>
             <Value property="loop_lfo_2_transport_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="loop_lfo_3_phase"  type="number" >
-                0.3307011127471923828125
+                0.5
             </Value>
             <Value property="loop_lfo_3_phase_stereo"  type="number" >
-                0.1837179660797119140625
+                0
             </Value>
             <Value property="loop_lfo_3_rate_free"  type="number" >
-                0.1262400150299072265625
+                0
             </Value>
             <Value property="loop_lfo_3_rate_sync"  type="number" >
                 0
@@ -387,46 +387,46 @@
                 false
             </Value>
             <Value property="loop_lfo_3_waveform"  type="number" >
-                529
+                5
             </Value>
             <Value property="loop_lfo_3_smooth"  type="number" >
                 0
             </Value>
             <Value property="loop_lfo_3_transport_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="lfo_1_phase"  type="number" >
-                0.29786396026611328125
+                0.5
             </Value>
             <Value property="lfo_1_phase_stereo"  type="number" >
-                0.51535892486572265625
+                0
             </Value>
             <Value property="lfo_1_rate_free"  type="number" >
-                0.1534709930419921875
+                0
             </Value>
             <Value property="lfo_1_rate_sync"  type="number" >
-                8
+                6
             </Value>
             <Value property="lfo_1_tempo_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="lfo_1_waveform"  type="number" >
-                811
+                5
             </Value>
             <Value property="lfo_1_smooth"  type="number" >
-                0.684729099273681640625
+                0
             </Value>
             <Value property="lfo_1_transport_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="lfo_2_phase"  type="number" >
-                0.481678009033203125
+                0.5
             </Value>
             <Value property="lfo_2_phase_stereo"  type="number" >
-                0.1481010913848876953125
+                0
             </Value>
             <Value property="lfo_2_rate_free"  type="number" >
-                0.093437671661376953125
+                0
             </Value>
             <Value property="lfo_2_rate_sync"  type="number" >
                 2
@@ -435,22 +435,22 @@
                 false
             </Value>
             <Value property="lfo_2_waveform"  type="number" >
-                493
+                5
             </Value>
             <Value property="lfo_2_smooth"  type="number" >
                 0
             </Value>
             <Value property="lfo_2_transport_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="lfo_3_phase"  type="number" >
-                0.194653987884521484375
+                0.5
             </Value>
             <Value property="lfo_3_phase_stereo"  type="number" >
-                0.1831200122833251953125
+                0
             </Value>
             <Value property="lfo_3_rate_free"  type="number" >
-                0.231739044189453125
+                0
             </Value>
             <Value property="lfo_3_rate_sync"  type="number" >
                 3
@@ -459,7 +459,7 @@
                 false
             </Value>
             <Value property="lfo_3_waveform"  type="number" >
-                434
+                5
             </Value>
             <Value property="lfo_3_smooth"  type="number" >
                 0
@@ -468,13 +468,13 @@
                 false
             </Value>
             <Value property="lfo_4_phase"  type="number" >
-                0.825150012969970703125
+                0.5
             </Value>
             <Value property="lfo_4_phase_stereo"  type="number" >
-                0.598228931427001953125
+                0
             </Value>
             <Value property="lfo_4_rate_free"  type="number" >
-                0.0780136585235595703125
+                0
             </Value>
             <Value property="lfo_4_rate_sync"  type="number" >
                 4
@@ -483,7 +483,7 @@
                 false
             </Value>
             <Value property="lfo_4_waveform"  type="number" >
-                997
+                5
             </Value>
             <Value property="lfo_4_smooth"  type="number" >
                 0
@@ -492,22 +492,22 @@
                 false
             </Value>
             <Value property="lfo_5_phase"  type="number" >
-                0
+                0.5
             </Value>
             <Value property="lfo_5_phase_stereo"  type="number" >
-                0.59230804443359375
+                0
             </Value>
             <Value property="lfo_5_rate_free"  type="number" >
-                0.1970050334930419921875
+                0
             </Value>
             <Value property="lfo_5_rate_sync"  type="number" >
-                6
+                0
             </Value>
             <Value property="lfo_5_tempo_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="lfo_5_waveform"  type="number" >
-                3
+                5
             </Value>
             <Value property="lfo_5_smooth"  type="number" >
                 0
@@ -516,13 +516,13 @@
                 false
             </Value>
             <Value property="lfo_6_phase"  type="number" >
-                0.6802880764007568359375
+                0.5
             </Value>
             <Value property="lfo_6_phase_stereo"  type="number" >
-                0.9492299556732177734375
+                0
             </Value>
             <Value property="lfo_6_rate_free"  type="number" >
-                0.2537829875946044921875
+                0
             </Value>
             <Value property="lfo_6_rate_sync"  type="number" >
                 3
@@ -531,13 +531,13 @@
                 false
             </Value>
             <Value property="lfo_6_waveform"  type="number" >
-                644
+                5
             </Value>
             <Value property="lfo_6_smooth"  type="number" >
                 0
             </Value>
             <Value property="lfo_6_transport_sync"  type="boolean" >
-                true
+                false
             </Value>
             <Value property="master_level"  type="number" >
                 0.5
@@ -549,22 +549,22 @@
                 0.6124999523162841796875
             </Value>
             <Value property="drift_1_phase_stereo"  type="number" >
-                0.8368070125579833984375
+                0
             </Value>
             <Value property="drift_2_phase_stereo"  type="number" >
-                0.223575115203857421875
+                0
             </Value>
             <Value property="drift_3_phase_stereo"  type="number" >
-                0.620482921600341796875
+                0
             </Value>
             <Value property="noise_1_phase_stereo"  type="number" >
-                0.4535329341888427734375
+                0
             </Value>
             <Value property="noise_2_phase_stereo"  type="number" >
-                0.5342500209808349609375
+                0
             </Value>
             <Value property="noise_3_phase_stereo"  type="number" >
-                0.146892070770263671875
+                0
             </Value>
             <Value property="modmatrix_1_source"  type="number" >
                 0
@@ -573,331 +573,331 @@
                 0
             </Value>
             <Value property="modmatrix_1_dest_2"  type="number" >
-                71
+                0
             </Value>
             <Value property="modmatrix_1_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_1_dest_1_amt"  type="number" >
-                0.050686359405517578125
+                0.5
             </Value>
             <Value property="modmatrix_1_dest_2_amt"  type="number" >
-                0.31445789337158203125
+                0.5
             </Value>
             <Value property="modmatrix_1_scale_amt"  type="number" >
-                0.0248734951019287109375
+                0.5
             </Value>
             <Value property="modmatrix_2_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_2_dest_1"  type="number" >
-                53
+                0
             </Value>
             <Value property="modmatrix_2_dest_2"  type="number" >
-                68
+                0
             </Value>
             <Value property="modmatrix_2_scale"  type="number" >
-                12
+                0
             </Value>
             <Value property="modmatrix_2_dest_1_amt"  type="number" >
-                0.1818730831146240234375
+                0.5
             </Value>
             <Value property="modmatrix_2_dest_2_amt"  type="number" >
-                0.8433170318603515625
+                0.5
             </Value>
             <Value property="modmatrix_2_scale_amt"  type="number" >
-                0.2435400485992431640625
+                0.5
             </Value>
             <Value property="modmatrix_3_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_3_dest_1"  type="number" >
-                63
+                0
             </Value>
             <Value property="modmatrix_3_dest_2"  type="number" >
-                73
+                0
             </Value>
             <Value property="modmatrix_3_scale"  type="number" >
-                12
+                0
             </Value>
             <Value property="modmatrix_3_dest_1_amt"  type="number" >
-                0.8713800907135009765625
+                0.5
             </Value>
             <Value property="modmatrix_3_dest_2_amt"  type="number" >
-                0.5275919437408447265625
+                0.5
             </Value>
             <Value property="modmatrix_3_scale_amt"  type="number" >
-                0.825314998626708984375
+                0.5
             </Value>
             <Value property="modmatrix_4_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_4_dest_1"  type="number" >
-                73
+                0
             </Value>
             <Value property="modmatrix_4_dest_2"  type="number" >
-                80
+                0
             </Value>
             <Value property="modmatrix_4_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_4_dest_1_amt"  type="number" >
-                0.3349568843841552734375
+                0.5
             </Value>
             <Value property="modmatrix_4_dest_2_amt"  type="number" >
-                0.322164058685302734375
+                0.5
             </Value>
             <Value property="modmatrix_4_scale_amt"  type="number" >
-                0.210402011871337890625
+                0.5
             </Value>
             <Value property="modmatrix_5_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_5_dest_1"  type="number" >
-                68
+                0
             </Value>
             <Value property="modmatrix_5_dest_2"  type="number" >
-                70
+                0
             </Value>
             <Value property="modmatrix_5_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_5_dest_1_amt"  type="number" >
-                0.52375888824462890625
+                0.5
             </Value>
             <Value property="modmatrix_5_dest_2_amt"  type="number" >
-                0.1818110942840576171875
+                0.5
             </Value>
             <Value property="modmatrix_5_scale_amt"  type="number" >
-                0.93074893951416015625
+                0.5
             </Value>
             <Value property="modmatrix_6_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_6_dest_1"  type="number" >
-                77
+                0
             </Value>
             <Value property="modmatrix_6_dest_2"  type="number" >
-                50
+                0
             </Value>
             <Value property="modmatrix_6_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_6_dest_1_amt"  type="number" >
-                0.4918498992919921875
+                0.5
             </Value>
             <Value property="modmatrix_6_dest_2_amt"  type="number" >
-                0.492043972015380859375
+                0.5
             </Value>
             <Value property="modmatrix_6_scale_amt"  type="number" >
-                0.2396299839019775390625
+                0.5
             </Value>
             <Value property="modmatrix_7_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_7_dest_1"  type="number" >
-                77
+                0
             </Value>
             <Value property="modmatrix_7_dest_2"  type="number" >
-                45
+                0
             </Value>
             <Value property="modmatrix_7_scale"  type="number" >
-                12
+                0
             </Value>
             <Value property="modmatrix_7_dest_1_amt"  type="number" >
-                0.4853479862213134765625
+                0.5
             </Value>
             <Value property="modmatrix_7_dest_2_amt"  type="number" >
-                0.405375003814697265625
+                0.5
             </Value>
             <Value property="modmatrix_7_scale_amt"  type="number" >
-                0.056091785430908203125
+                0.5
             </Value>
             <Value property="modmatrix_8_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_8_dest_1"  type="number" >
-                63
+                0
             </Value>
             <Value property="modmatrix_8_dest_2"  type="number" >
-                52
+                0
             </Value>
             <Value property="modmatrix_8_scale"  type="number" >
-                12
+                0
             </Value>
             <Value property="modmatrix_8_dest_1_amt"  type="number" >
-                0.4683520793914794921875
+                0.5
             </Value>
             <Value property="modmatrix_8_dest_2_amt"  type="number" >
-                0.01355648040771484375
+                0.5
             </Value>
             <Value property="modmatrix_8_scale_amt"  type="number" >
-                0.7294139862060546875
+                0.5
             </Value>
             <Value property="modmatrix_9_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_9_dest_1"  type="number" >
-                27
+                0
             </Value>
             <Value property="modmatrix_9_dest_2"  type="number" >
-                19
+                0
             </Value>
             <Value property="modmatrix_9_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_9_dest_1_amt"  type="number" >
-                0.163629055023193359375
+                0.5
             </Value>
             <Value property="modmatrix_9_dest_2_amt"  type="number" >
-                0.88613796234130859375
+                0.5
             </Value>
             <Value property="modmatrix_9_scale_amt"  type="number" >
-                0.1368811130523681640625
+                0.5
             </Value>
             <Value property="modmatrix_10_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_10_dest_1"  type="number" >
-                68
+                0
             </Value>
             <Value property="modmatrix_10_dest_2"  type="number" >
-                71
+                0
             </Value>
             <Value property="modmatrix_10_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_10_dest_1_amt"  type="number" >
-                0.5444099903106689453125
+                0.5
             </Value>
             <Value property="modmatrix_10_dest_2_amt"  type="number" >
-                0.626718997955322265625
+                0.5
             </Value>
             <Value property="modmatrix_10_scale_amt"  type="number" >
-                0.0611169338226318359375
+                0.5
             </Value>
             <Value property="modmatrix_11_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_11_dest_1"  type="number" >
-                63
+                0
             </Value>
             <Value property="modmatrix_11_dest_2"  type="number" >
-                56
+                0
             </Value>
             <Value property="modmatrix_11_scale"  type="number" >
-                12
+                0
             </Value>
             <Value property="modmatrix_11_dest_1_amt"  type="number" >
-                0.340917110443115234375
+                0.5
             </Value>
             <Value property="modmatrix_11_dest_2_amt"  type="number" >
-                0.6088390350341796875
+                0.5
             </Value>
             <Value property="modmatrix_11_scale_amt"  type="number" >
-                0.8793430328369140625
+                0.5
             </Value>
             <Value property="modmatrix_12_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_12_dest_1"  type="number" >
-                81
+                0
             </Value>
             <Value property="modmatrix_12_dest_2"  type="number" >
-                52
+                0
             </Value>
             <Value property="modmatrix_12_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_12_dest_1_amt"  type="number" >
-                0.1700229644775390625
+                0.5
             </Value>
             <Value property="modmatrix_12_dest_2_amt"  type="number" >
-                0.496654987335205078125
+                0.5
             </Value>
             <Value property="modmatrix_12_scale_amt"  type="number" >
-                0.7476189136505126953125
+                0.5
             </Value>
             <Value property="modmatrix_13_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_13_dest_1"  type="number" >
-                31
+                0
             </Value>
             <Value property="modmatrix_13_dest_2"  type="number" >
-                45
+                0
             </Value>
             <Value property="modmatrix_13_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_13_dest_1_amt"  type="number" >
-                0.84912395477294921875
+                0.5
             </Value>
             <Value property="modmatrix_13_dest_2_amt"  type="number" >
-                0.6981070041656494140625
+                0.5
             </Value>
             <Value property="modmatrix_13_scale_amt"  type="number" >
-                0.30321407318115234375
+                0.5
             </Value>
             <Value property="modmatrix_14_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_14_dest_1"  type="number" >
-                63
+                0
             </Value>
             <Value property="modmatrix_14_dest_2"  type="number" >
-                57
+                0
             </Value>
             <Value property="modmatrix_14_scale"  type="number" >
-                10
+                0
             </Value>
             <Value property="modmatrix_14_dest_1_amt"  type="number" >
-                0.796327114105224609375
+                0.5
             </Value>
             <Value property="modmatrix_14_dest_2_amt"  type="number" >
-                0.3720910549163818359375
+                0.5
             </Value>
             <Value property="modmatrix_14_scale_amt"  type="number" >
-                0.165782928466796875
+                0.5
             </Value>
             <Value property="modmatrix_15_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_15_dest_1"  type="number" >
-                23
+                0
             </Value>
             <Value property="modmatrix_15_dest_2"  type="number" >
-                58
+                0
             </Value>
             <Value property="modmatrix_15_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_15_dest_1_amt"  type="number" >
-                0.637648105621337890625
+                0.5
             </Value>
             <Value property="modmatrix_15_dest_2_amt"  type="number" >
-                0.4137160778045654296875
+                0.5
             </Value>
             <Value property="modmatrix_15_scale_amt"  type="number" >
-                0.55579090118408203125
+                0.5
             </Value>
             <Value property="modmatrix_16_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_16_dest_1"  type="number" >
-                7
+                0
             </Value>
             <Value property="modmatrix_16_dest_2"  type="number" >
-                7
+                0
             </Value>
             <Value property="modmatrix_16_scale"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_16_dest_1_amt"  type="number" >
-                0.0927612781524658203125
+                0.5
             </Value>
             <Value property="modmatrix_16_dest_2_amt"  type="number" >
-                0.2319850921630859375
+                0.5
             </Value>
             <Value property="modmatrix_16_scale_amt"  type="number" >
                 0.5
@@ -906,124 +906,124 @@
                 0
             </Value>
             <Value property="modmatrix_17_dest_1"  type="number" >
-                50
+                0
             </Value>
             <Value property="modmatrix_17_dest_2"  type="number" >
-                47
+                0
             </Value>
             <Value property="modmatrix_17_scale"  type="number" >
-                10
+                0
             </Value>
             <Value property="modmatrix_17_dest_1_amt"  type="number" >
-                0.72091197967529296875
+                0.5
             </Value>
             <Value property="modmatrix_17_dest_2_amt"  type="number" >
-                0.7036120891571044921875
+                0.5
             </Value>
             <Value property="modmatrix_17_scale_amt"  type="number" >
-                0.59253692626953125
+                0.5
             </Value>
             <Value property="modmatrix_18_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_18_dest_1"  type="number" >
-                54
+                0
             </Value>
             <Value property="modmatrix_18_dest_2"  type="number" >
-                60
+                0
             </Value>
             <Value property="modmatrix_18_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_18_dest_1_amt"  type="number" >
-                0.8585300445556640625
+                0.5
             </Value>
             <Value property="modmatrix_18_dest_2_amt"  type="number" >
-                0.9039208889007568359375
+                0.5
             </Value>
             <Value property="modmatrix_18_scale_amt"  type="number" >
-                0.0933406352996826171875
+                0.5
             </Value>
             <Value property="modmatrix_19_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_19_dest_1"  type="number" >
-                60
+                0
             </Value>
             <Value property="modmatrix_19_dest_2"  type="number" >
-                3
+                0
             </Value>
             <Value property="modmatrix_19_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_19_dest_1_amt"  type="number" >
-                0.269114971160888671875
+                0.5
             </Value>
             <Value property="modmatrix_19_dest_2_amt"  type="number" >
-                0.442554950714111328125
+                0.5
             </Value>
             <Value property="modmatrix_19_scale_amt"  type="number" >
-                0.643640041351318359375
+                0.5
             </Value>
             <Value property="modmatrix_20_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_20_dest_1"  type="number" >
-                7
+                0
             </Value>
             <Value property="modmatrix_20_dest_2"  type="number" >
-                56
+                0
             </Value>
             <Value property="modmatrix_20_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_20_dest_1_amt"  type="number" >
-                0.3578150272369384765625
+                0.5
             </Value>
             <Value property="modmatrix_20_dest_2_amt"  type="number" >
-                0.6920859813690185546875
+                0.5
             </Value>
             <Value property="modmatrix_20_scale_amt"  type="number" >
-                0.8795650005340576171875
+                0.5
             </Value>
             <Value property="modmatrix_21_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_21_dest_1"  type="number" >
-                35
+                0
             </Value>
             <Value property="modmatrix_21_dest_2"  type="number" >
-                81
+                0
             </Value>
             <Value property="modmatrix_21_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_21_dest_1_amt"  type="number" >
-                0.73717594146728515625
+                0.5
             </Value>
             <Value property="modmatrix_21_dest_2_amt"  type="number" >
-                0.47856807708740234375
+                0.5
             </Value>
             <Value property="modmatrix_21_scale_amt"  type="number" >
-                0.5089170932769775390625
+                0.5
             </Value>
             <Value property="modmatrix_22_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_22_dest_1"  type="number" >
-                82
+                0
             </Value>
             <Value property="modmatrix_22_dest_2"  type="number" >
-                64
+                0
             </Value>
             <Value property="modmatrix_22_scale"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_22_dest_1_amt"  type="number" >
-                0.49524211883544921875
+                0.5
             </Value>
             <Value property="modmatrix_22_dest_2_amt"  type="number" >
-                0.44373798370361328125
+                0.5
             </Value>
             <Value property="modmatrix_22_scale_amt"  type="number" >
                 0.5
@@ -1032,40 +1032,40 @@
                 0
             </Value>
             <Value property="modmatrix_23_dest_1"  type="number" >
-                46
+                0
             </Value>
             <Value property="modmatrix_23_dest_2"  type="number" >
-                61
+                0
             </Value>
             <Value property="modmatrix_23_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_23_dest_1_amt"  type="number" >
-                0.9477241039276123046875
+                0.5
             </Value>
             <Value property="modmatrix_23_dest_2_amt"  type="number" >
-                0.6198270320892333984375
+                0.5
             </Value>
             <Value property="modmatrix_23_scale_amt"  type="number" >
-                0.099928379058837890625
+                0.5
             </Value>
             <Value property="modmatrix_24_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_24_dest_1"  type="number" >
-                3
+                0
             </Value>
             <Value property="modmatrix_24_dest_2"  type="number" >
-                74
+                0
             </Value>
             <Value property="modmatrix_24_scale"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_24_dest_1_amt"  type="number" >
-                0.634398937225341796875
+                0.5
             </Value>
             <Value property="modmatrix_24_dest_2_amt"  type="number" >
-                0.687387943267822265625
+                0.5
             </Value>
             <Value property="modmatrix_24_scale_amt"  type="number" >
                 0.5
@@ -1074,82 +1074,82 @@
                 0
             </Value>
             <Value property="modmatrix_25_dest_1"  type="number" >
-                27
+                0
             </Value>
             <Value property="modmatrix_25_dest_2"  type="number" >
-                31
+                0
             </Value>
             <Value property="modmatrix_25_scale"  type="number" >
-                12
+                0
             </Value>
             <Value property="modmatrix_25_dest_1_amt"  type="number" >
-                0.307918071746826171875
+                0.5
             </Value>
             <Value property="modmatrix_25_dest_2_amt"  type="number" >
-                0.816793918609619140625
+                0.5
             </Value>
             <Value property="modmatrix_25_scale_amt"  type="number" >
-                0.3758590221405029296875
+                0.5
             </Value>
             <Value property="modmatrix_26_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_26_dest_1"  type="number" >
-                60
+                0
             </Value>
             <Value property="modmatrix_26_dest_2"  type="number" >
-                71
+                0
             </Value>
             <Value property="modmatrix_26_scale"  type="number" >
-                12
+                0
             </Value>
             <Value property="modmatrix_26_dest_1_amt"  type="number" >
-                0.69089603424072265625
+                0.5
             </Value>
             <Value property="modmatrix_26_dest_2_amt"  type="number" >
-                0.0983104705810546875
+                0.5
             </Value>
             <Value property="modmatrix_26_scale_amt"  type="number" >
-                0.9962329864501953125
+                0.5
             </Value>
             <Value property="modmatrix_27_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_27_dest_1"  type="number" >
-                15
+                0
             </Value>
             <Value property="modmatrix_27_dest_2"  type="number" >
-                35
+                0
             </Value>
             <Value property="modmatrix_27_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_27_dest_1_amt"  type="number" >
-                0.4031178951263427734375
+                0.5
             </Value>
             <Value property="modmatrix_27_dest_2_amt"  type="number" >
-                0.3149669170379638671875
+                0.5
             </Value>
             <Value property="modmatrix_27_scale_amt"  type="number" >
-                0.9469459056854248046875
+                0.5
             </Value>
             <Value property="modmatrix_28_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_28_dest_1"  type="number" >
-                56
+                0
             </Value>
             <Value property="modmatrix_28_dest_2"  type="number" >
-                53
+                0
             </Value>
             <Value property="modmatrix_28_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_28_dest_1_amt"  type="number" >
-                0.0773875713348388671875
+                0.5
             </Value>
             <Value property="modmatrix_28_dest_2_amt"  type="number" >
-                0.5732929706573486328125
+                0.5
             </Value>
             <Value property="modmatrix_28_scale_amt"  type="number" >
                 0.501904964447021484375
@@ -1158,85 +1158,85 @@
                 0
             </Value>
             <Value property="modmatrix_29_dest_1"  type="number" >
-                27
+                0
             </Value>
             <Value property="modmatrix_29_dest_2"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_29_scale"  type="number" >
-                10
+                0
             </Value>
             <Value property="modmatrix_29_dest_1_amt"  type="number" >
-                0.3204059600830078125
+                0.5
             </Value>
             <Value property="modmatrix_29_dest_2_amt"  type="number" >
-                0.402369022369384765625
+                0.5
             </Value>
             <Value property="modmatrix_29_scale_amt"  type="number" >
-                0.5914289951324462890625
+                0.5
             </Value>
             <Value property="modmatrix_30_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_30_dest_1"  type="number" >
-                71
+                0
             </Value>
             <Value property="modmatrix_30_dest_2"  type="number" >
-                68
+                0
             </Value>
             <Value property="modmatrix_30_scale"  type="number" >
-                10
+                0
             </Value>
             <Value property="modmatrix_30_dest_1_amt"  type="number" >
-                0.0503804683685302734375
+                0.5
             </Value>
             <Value property="modmatrix_30_dest_2_amt"  type="number" >
-                0.011453151702880859375
+                0.5
             </Value>
             <Value property="modmatrix_30_scale_amt"  type="number" >
-                0.4486949443817138671875
+                0.5
             </Value>
             <Value property="modmatrix_31_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_31_dest_1"  type="number" >
-                45
+                0
             </Value>
             <Value property="modmatrix_31_dest_2"  type="number" >
-                49
+                0
             </Value>
             <Value property="modmatrix_31_scale"  type="number" >
-                28
+                0
             </Value>
             <Value property="modmatrix_31_dest_1_amt"  type="number" >
-                0.473638057708740234375
+                0.5
             </Value>
             <Value property="modmatrix_31_dest_2_amt"  type="number" >
-                0.6269509792327880859375
+                0.5
             </Value>
             <Value property="modmatrix_31_scale_amt"  type="number" >
-                0.7000300884246826171875
+                0.5
             </Value>
             <Value property="modmatrix_32_source"  type="number" >
                 0
             </Value>
             <Value property="modmatrix_32_dest_1"  type="number" >
-                75
+                0
             </Value>
             <Value property="modmatrix_32_dest_2"  type="number" >
-                15
+                0
             </Value>
             <Value property="modmatrix_32_scale"  type="number" >
-                11
+                0
             </Value>
             <Value property="modmatrix_32_dest_1_amt"  type="number" >
-                0.1560699939727783203125
+                0.5
             </Value>
             <Value property="modmatrix_32_dest_2_amt"  type="number" >
-                0.2888400554656982421875
+                0.5
             </Value>
             <Value property="modmatrix_32_scale_amt"  type="number" >
-                0.006740570068359375
+                0.5
             </Value>
             <Value property="display_zoom_x"  type="number" >
                 0.1949999332427978515625
