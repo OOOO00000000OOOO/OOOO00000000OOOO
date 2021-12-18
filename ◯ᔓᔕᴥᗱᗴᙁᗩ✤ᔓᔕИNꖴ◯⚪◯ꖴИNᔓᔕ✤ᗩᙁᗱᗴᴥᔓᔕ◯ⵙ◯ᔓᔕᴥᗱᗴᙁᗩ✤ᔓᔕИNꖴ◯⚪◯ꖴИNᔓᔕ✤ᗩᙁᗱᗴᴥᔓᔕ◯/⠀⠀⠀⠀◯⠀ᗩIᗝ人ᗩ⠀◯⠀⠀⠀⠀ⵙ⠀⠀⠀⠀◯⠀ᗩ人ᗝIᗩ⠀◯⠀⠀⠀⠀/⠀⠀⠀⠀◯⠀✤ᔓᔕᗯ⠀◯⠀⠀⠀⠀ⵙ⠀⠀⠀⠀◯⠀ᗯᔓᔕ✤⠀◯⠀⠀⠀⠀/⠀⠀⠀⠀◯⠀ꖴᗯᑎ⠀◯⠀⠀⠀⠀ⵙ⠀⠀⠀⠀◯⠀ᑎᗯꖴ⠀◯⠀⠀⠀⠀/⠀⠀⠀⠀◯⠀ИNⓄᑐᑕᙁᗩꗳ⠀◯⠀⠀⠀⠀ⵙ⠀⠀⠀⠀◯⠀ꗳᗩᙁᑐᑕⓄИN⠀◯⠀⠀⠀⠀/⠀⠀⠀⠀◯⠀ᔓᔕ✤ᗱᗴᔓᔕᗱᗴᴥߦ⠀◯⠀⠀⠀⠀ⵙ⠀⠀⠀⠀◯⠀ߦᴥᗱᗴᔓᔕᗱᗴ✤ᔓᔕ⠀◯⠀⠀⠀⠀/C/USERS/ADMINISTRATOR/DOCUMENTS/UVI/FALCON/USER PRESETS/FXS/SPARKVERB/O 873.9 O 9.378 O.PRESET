@@ -1,0 +1,5 @@
+<ModulePreset>
+    <SparkVerb Name="InsertFX2" Bypass="0" ModDepth="0" ModRate="0.25" Diffusion="1" DiffusionStart="1" Width="1" RoomSize="50" DecayTime="1.8756895" DecayLow="1" DecayHigh="1" FreqLow="10" FreqHigh="20000" Shape="1" Mix="1" Quality="4" Mode="2" HiCut="0" LowCut="0" Rolloff="20000" DiffusionOnOff="0" PreDelay="0" MixMode="1" SparkVerbVersion="1">
+        <Properties PresetPath="C:/USERS/Administrator/Documents/UVI/Falcon/USER PRESETS/FXS/SparkVerb/O 621.3 O 3.126 O.PRESET"/>
+    </SparkVerb>
+</ModulePreset>
