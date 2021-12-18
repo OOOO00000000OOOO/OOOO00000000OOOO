@@ -1,0 +1,5 @@
+<ModulePreset>
+    <DAHDSR Name="DAHDSR 1" Bypass="0" DelayTime="0" AttackTime="0.11578332" AttackCurve="0" HoldTime="0" DecayTime="0" DecayCurve="0" SustainLevel="1" ReleaseTime="0.11578328" ReleaseCurve="0" DisplayName="DAHDSR 1" VelocityAmount="0" VelocitySens="0" Retrigger="1" NoteOffRetrigger="0">
+        <Properties PresetPath="C:/Users/Administrator/Documents/UVI/Falcon/User Presets/Modulations/DAHDSR/O 743.0 O 0.347 O.PRESET"/>
+    </DAHDSR>
+</ModulePreset>
