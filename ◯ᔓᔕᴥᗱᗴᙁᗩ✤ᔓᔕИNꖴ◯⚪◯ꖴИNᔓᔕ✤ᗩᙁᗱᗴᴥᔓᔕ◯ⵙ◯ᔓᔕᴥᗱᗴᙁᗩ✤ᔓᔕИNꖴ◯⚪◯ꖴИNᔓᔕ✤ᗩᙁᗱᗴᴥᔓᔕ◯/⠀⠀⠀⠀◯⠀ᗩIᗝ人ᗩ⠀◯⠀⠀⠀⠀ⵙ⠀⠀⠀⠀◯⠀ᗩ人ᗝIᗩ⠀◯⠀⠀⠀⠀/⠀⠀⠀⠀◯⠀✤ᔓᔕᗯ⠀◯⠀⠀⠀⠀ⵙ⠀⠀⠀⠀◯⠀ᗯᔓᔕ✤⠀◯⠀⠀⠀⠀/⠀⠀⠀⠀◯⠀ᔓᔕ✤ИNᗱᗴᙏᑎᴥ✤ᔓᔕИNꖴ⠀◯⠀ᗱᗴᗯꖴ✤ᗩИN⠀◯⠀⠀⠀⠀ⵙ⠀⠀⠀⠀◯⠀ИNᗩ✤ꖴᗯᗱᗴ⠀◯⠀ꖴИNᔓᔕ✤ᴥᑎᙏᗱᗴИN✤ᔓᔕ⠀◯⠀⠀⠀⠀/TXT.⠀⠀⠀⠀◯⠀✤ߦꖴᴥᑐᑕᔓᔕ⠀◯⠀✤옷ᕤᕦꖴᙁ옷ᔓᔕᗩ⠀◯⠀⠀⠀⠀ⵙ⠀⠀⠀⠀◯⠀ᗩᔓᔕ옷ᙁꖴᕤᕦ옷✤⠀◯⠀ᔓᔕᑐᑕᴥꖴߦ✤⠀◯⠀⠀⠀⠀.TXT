@@ -1977,7 +1977,7 @@ on init
     %cqg2m[5] := 2
     inc($g5k3r)
   end while
-  declare ui_slider $kuk42(1, 100) 
+  declare ui_slider $kuk42(0, 100) 
   make_persistent($kuk42)
   declare ui_slider $o5n5m(-100, 100) 
   make_persistent($o5n5m)
@@ -2020,7 +2020,7 @@ on init
   %eujmz[18] := -1
   %fogcg[18] := 0
   %5zak5[18] := 0
-  %dwdw3[18] := 1
+  %dwdw3[18] := 0
   %sbnwu[18] := 100
   %jeswc[18] := 37
   %mnk53[18] := 6
