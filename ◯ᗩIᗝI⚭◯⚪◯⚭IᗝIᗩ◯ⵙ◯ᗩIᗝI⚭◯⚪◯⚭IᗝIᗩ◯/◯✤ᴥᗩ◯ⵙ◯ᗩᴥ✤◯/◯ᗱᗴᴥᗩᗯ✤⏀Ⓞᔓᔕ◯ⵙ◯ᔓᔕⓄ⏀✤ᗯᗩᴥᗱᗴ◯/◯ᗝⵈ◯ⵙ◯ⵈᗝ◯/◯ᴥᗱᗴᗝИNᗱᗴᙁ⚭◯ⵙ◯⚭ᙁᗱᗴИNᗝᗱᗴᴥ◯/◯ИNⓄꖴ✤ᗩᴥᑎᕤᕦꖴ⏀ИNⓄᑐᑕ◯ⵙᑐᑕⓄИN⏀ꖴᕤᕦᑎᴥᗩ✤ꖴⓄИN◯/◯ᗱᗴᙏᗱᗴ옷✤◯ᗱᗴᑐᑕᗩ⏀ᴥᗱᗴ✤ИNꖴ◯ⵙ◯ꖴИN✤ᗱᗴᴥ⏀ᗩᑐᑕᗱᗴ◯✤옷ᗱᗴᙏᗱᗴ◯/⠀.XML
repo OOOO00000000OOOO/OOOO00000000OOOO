@@ -9,6 +9,7 @@
         widget_emboss="#ffffffff"
         editor_outline="#efefef"
         widget_text_cursor="#e6e6e6"
+        panel_roundness="0.4"
         transparent_checker_primary="#555555"
         transparent_checker_secondary="#aaaaaa"
         transparent_checker_size="4"
@@ -433,7 +434,7 @@
             button="#ffffffff"
             button_title="#606060"
             button_text="#606060"
-            button_text_hi="#efefef"
+            button_text_hi="#606060"
             navigation_bar="#ffffff00"
             execution_buts="#ffffff00"
             tab_active="#efefef"
@@ -943,18 +944,19 @@
         node_active="#000000"
         wire="#808080"
         wire_inner="#ffffff"
-        wire_select="#606060"
+        wire_select="#606060b3"
         selected_text="#606060"
         node_backdrop="#ffffffff"
         converter_node="#ffffff"
         color_node="#ffffff"
-        group_node="#ffffffff"
+        group_node="#ffffff"
         group_socket_node="#ffffff"
         frame_node="#ffffffff"
         matte_node="#ffffff"
         distor_node="#ffffff"
         noodle_curving="0"
         grid_levels="2"
+        dash_alpha="0.5"
         input_node="#ffffff"
         output_node="#ffffff"
         filter_node="#ffffff"
@@ -1350,6 +1352,15 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#303030"
+            list_title="#c3c3c3"
+            list_text="#b8b8b8"
+            list_text_hi="#ffaf23"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
       </ThemeSpreadsheet>
     </spreadsheet>
     <bone_color_sets>
@@ -1528,12 +1539,49 @@
         >
       </ThemeCollectionColor>
     </collection_color>
+    <strip_color>
+      <ThemeStripColor
+        color="#e2605b"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#f1a355"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#f1dc55"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#7bcc7b"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#5db6ea"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#8d59da"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#c673b8"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#7a5441"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#5f5f5f"
+        >
+      </ThemeStripColor>
+    </strip_color>
   </Theme>
   <ThemeStyle>
     <panel_title>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1545,7 +1593,6 @@
     <widget_label>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1557,7 +1604,6 @@
     <widget>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="5"
         shadow_offset_x="0"
         shadow_offset_y="0"
