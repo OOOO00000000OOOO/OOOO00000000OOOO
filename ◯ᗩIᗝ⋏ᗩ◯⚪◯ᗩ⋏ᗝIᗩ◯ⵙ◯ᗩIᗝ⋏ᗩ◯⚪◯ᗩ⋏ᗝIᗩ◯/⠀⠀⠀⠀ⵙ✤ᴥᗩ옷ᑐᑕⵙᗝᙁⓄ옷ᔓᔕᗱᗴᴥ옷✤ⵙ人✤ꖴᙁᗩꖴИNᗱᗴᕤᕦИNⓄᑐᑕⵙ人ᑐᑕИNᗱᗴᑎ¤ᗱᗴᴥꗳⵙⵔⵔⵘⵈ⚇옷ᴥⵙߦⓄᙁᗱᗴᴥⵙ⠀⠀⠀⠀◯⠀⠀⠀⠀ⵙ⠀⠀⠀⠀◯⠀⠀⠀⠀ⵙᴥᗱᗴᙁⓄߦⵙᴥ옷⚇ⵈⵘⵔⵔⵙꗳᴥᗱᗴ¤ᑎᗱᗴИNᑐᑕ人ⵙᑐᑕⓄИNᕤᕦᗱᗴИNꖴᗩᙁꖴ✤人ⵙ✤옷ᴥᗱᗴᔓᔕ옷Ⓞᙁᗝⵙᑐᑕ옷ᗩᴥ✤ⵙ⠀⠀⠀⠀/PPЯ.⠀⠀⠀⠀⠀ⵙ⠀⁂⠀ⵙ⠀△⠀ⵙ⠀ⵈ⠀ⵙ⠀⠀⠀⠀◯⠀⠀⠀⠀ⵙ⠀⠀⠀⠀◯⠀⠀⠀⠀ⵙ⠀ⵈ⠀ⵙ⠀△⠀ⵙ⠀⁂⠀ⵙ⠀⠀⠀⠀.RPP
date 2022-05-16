@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.57/win64" 1652636159
+<REAPER_PROJECT 0.1 "6.57/win64" 1652665078
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 129
@@ -10,13 +10,13 @@
   PANLAW 1.38038426460288
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
-  GRID 134271 1 1 8 1 0 0 0
+  GRID 134271 1 2 8 1 0 0 0
   TIMEMODE 3 9 4 69 0 0 0
   VIDEO_CONFIG 0 0 256
   PANMODE 5
-  CURSOR 77.17146117900774
-  ZOOM 1.38225379977692 0 0
-  VZOOMEX 3 255
+  CURSOR 0
+  ZOOM 472.48460888654876 0 0
+  VZOOMEX 0 614
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 17.25 100 40 1000 300 0 0 1 0 0
@@ -217,7 +217,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -257,7 +257,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -297,7 +297,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -337,7 +337,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -377,7 +377,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     TRACKIMGFN "O\O_AIDIW_O_WIDIA_O\GИP....ⵙ....PNG"
@@ -418,7 +418,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -458,7 +458,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -498,7 +498,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -538,7 +538,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -578,7 +578,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -618,7 +618,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -658,7 +658,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -698,7 +698,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -738,7 +738,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -778,7 +778,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -818,7 +818,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -858,7 +858,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -898,7 +898,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -938,7 +938,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -978,7 +978,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1018,7 +1018,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1058,7 +1058,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1098,7 +1098,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1138,7 +1138,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1178,7 +1178,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1218,7 +1218,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1258,7 +1258,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1298,7 +1298,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1338,7 +1338,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1378,7 +1378,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1418,7 +1418,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1458,7 +1458,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1498,7 +1498,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1538,7 +1538,7 @@
     SEL 0
     REC 0 0 0 0 0 0 0
     VU 2
-    TRACKHEIGHT 24 0 0 0 -1 0
+    TRACKHEIGHT 0 0 0 0 -1 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 0
@@ -1560,6 +1560,646 @@
       WAK 0 0
       <COMMENT
         MyAzMjIgLCA2IDYyMTU=
+      >
+    >
+  >
+  <TRACK {E4DDF94B-5BEF-431E-80D8-37B96C4EFE50}
+    NAME "3 321 , 4 592"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {E4DDF94B-5BEF-431E-80D8-37B96C4EFE50}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 321 470372.132625 5572.731876 - 4 592 3069.788321 0.000326 -69.742169 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {BF90BF21-7DFF-46D5-9B42-790D407529D5}
+      WAK 0 0
+      <COMMENT
+        MyAzMjEgLCA0IDU5Mg==
+      >
+    >
+  >
+  <TRACK {E9205475-4677-4031-BD17-F1F202B62293}
+    NAME "3 320 , 4 542"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {E9205475-4677-4031-BD17-F1F202B62293}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 320 451617.150586 5350.532305 - 4 542 1558.077789 0.000642 -63.851783 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {20BBABCF-DA84-4BCC-AD86-3DB3D582A986}
+      WAK 0 0
+      <COMMENT
+        MyAzMjAgLCA0IDU0Mg==
+      >
+    >
+  >
+  <TRACK {56209CB8-2864-4410-98F9-F25E95EBB482}
+    NAME "3 319 , 4 670"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {56209CB8-2864-4410-98F9-F25E95EBB482}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 319 433609.979326 5137.192419 - 4 670 8842.163205 0.000113 -78.931171 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {B7F44F5B-711B-4BCC-A1A1-B202D9D537CE}
+      WAK 0 0
+      <COMMENT
+        MyAzMTkgLCA0IDY3MA==
+      >
+    >
+  >
+  <TRACK {B5A04FD9-B539-4929-B63D-43E4B11B2072}
+    NAME "3 318 , 9 189203"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {B5A04FD9-B539-4929-B63D-43E4B11B2072}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 318 416320.801651 4932.358958 - 9 189203 38577.315247 0.000026 -91.72664 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {45368109-552C-44F5-BD32-E1CC0A17ECBB}
+      WAK 0 0
+      <COMMENT
+        MyAzMTggLCA5IDE4OTIwMw==
+      >
+    >
+  >
+  <TRACK {187A2F64-819B-47BF-9240-8886E7D07EEB}
+    NAME "3 317 , 11 1617286"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {187A2F64-819B-47BF-9240-8886E7D07EEB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 317 399720.989256 4735.69275 - 11 1617286 22695.460404 0.000044 -87.11878 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {9F58342C-44F7-45A8-B96D-D843856F709C}
+      WAK 0 0
+      <COMMENT
+        MyAzMTcgLCAxMSAxNjE3Mjg2
+      >
+    >
+  >
+  <TRACK {67D991BB-4AB6-4C13-84C6-261C1BB2B7CB}
+    NAME "3 316 , 8 57808"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {67D991BB-4AB6-4C13-84C6-261C1BB2B7CB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 316 383783.055321 4546.868145 - 8 57808 15989.863761 0.000063 -84.076895 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {B1F3657C-8EB4-46C2-8BD8-F130B64701A0}
+      WAK 0 0
+      <COMMENT
+        MyAzMTYgLCA4IDU3ODA4
+      >
+    >
+  >
+  <TRACK {5ED8C416-EF7B-4770-A946-900F4286C8FC}
+    NAME "3 315 , 4 590"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {5ED8C416-EF7B-4770-A946-900F4286C8FC}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 315 368480.609002 4365.572476 - 4 590 2987.635821 0.000335 -69.506553 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {44EAAB5B-552B-4F0F-9EEB-7A94BAF90915}
+      WAK 0 0
+      <COMMENT
+        MyAzMTUgLCA0IDU5MA==
+      >
+    >
+  >
+  <TRACK {54879AC1-9FEA-4A00-8A6D-1B9CF64B0C72}
+    NAME "3 314 , 4 844"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {54879AC1-9FEA-4A00-8A6D-1B9CF64B0C72}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 314 353788.311724 4191.505545 - 4 844 93645.231253 0.000011 -99.429713 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {4B2B74D5-3E3F-4313-9392-C28890BD483B}
+      WAK 0 0
+      <COMMENT
+        MyAzMTQgLCA0IDg0NA==
+      >
+    >
+  >
+  <TRACK {7CB498FE-9F85-4EE6-9BBF-04E3922213EE}
+    NAME "3 313 , 3 222"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {7CB498FE-9F85-4EE6-9BBF-04E3922213EE}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 313 339681.835231 4024.379124 - 3 222 8375.234644 0.000119 -78.45994 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {ADAC1DA6-C23A-40B5-A40C-F411CAB6BC55}
+      WAK 0 0
+      <COMMENT
+        MyAzMTMgLCAzIDIyMg==
+      >
+    >
+  >
+  <TRACK {BE78E1F5-EE72-4659-98AB-9278B550F085}
+    NAME "3 312 , 8 66028"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {BE78E1F5-EE72-4659-98AB-9278B550F085}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 312 326137.821296 3863.916475 - 8 66028 63330.052357 0.000016 -96.032197 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {FC9A3E71-FCDC-4FBC-8C5E-22ED9915D2B6}
+      WAK 0 0
+      <COMMENT
+        MyAzMTIgLCA4IDY2MDI4
+      >
+    >
+  >
+  <TRACK {310DB5E1-14DA-45D1-A2C7-53E2109A4DF0}
+    NAME "3 311 , 14 41241199"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {310DB5E1-14DA-45D1-A2C7-53E2109A4DF0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 311 313133.843049 3709.851897 - 14 41241199 13001.183457 0.000077 -82.279658 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {6F83E99D-2537-42A1-8CA1-2B89A54660DB}
+      WAK 0 0
+      <COMMENT
+        MyAzMTEgLCAxNCA0MTI0MTE5OQ==
+      >
+    >
+  >
+  <TRACK {FC0517DC-A805-4678-9B13-B6B82EDEA1B3}
+    NAME "3 310 , 8 64529"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {FC0517DC-A805-4678-9B13-B6B82EDEA1B3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 310 300648.367837 3561.930282 - 8 64529 49272.131283 0.00002 -93.852027 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {27419540-2012-4316-91AD-723B7570F7AE}
+      WAK 0 0
+      <COMMENT
+        MyAzMTAgLCA4IDY0NTI5
+      >
+    >
+  >
+  <TRACK {9D10ABA0-231C-4E7C-9613-956C760C7250}
+    NAME "3 309 , 14 51304471"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {9D10ABA0-231C-4E7C-9613-956C760C7250}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 309 288660.721571 3419.906693 - 14 51304471 131170.614227 0.000008 -102.356731 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {E87C972B-1488-4983-8544-64AACA772D96}
+      WAK 0 0
+      <COMMENT
+        MyAzMDkgLCAxNCA1MTMwNDQ3MQ==
+      >
+    >
+  >
+  <TRACK {5979FF80-5F4A-4E0F-99DB-9F089B1F762E}
+    NAME "3 308 , 10 632032"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {5979FF80-5F4A-4E0F-99DB-9F089B1F762E}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 308 277151.054495 3283.54596 - 10 632032 127901.506611 0.000008 -102.137513 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {60357FA6-FD9C-4C1C-93F1-150D67D586A7}
+      WAK 0 0
+      <COMMENT
+        MyAzMDggLCAxMCA2MzIwMzI=
+      >
+    >
+  >
+  <TRACK {7299A361-A6EB-491B-8E10-BC559011CEAB}
+    NAME "3 307 , 13 15735009"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {7299A361-A6EB-491B-8E10-BC559011CEAB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 307 266100.308312 3152.622291 - 13 15735009 51156.378058 0.00002 -94.177996 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {FE0BCEA0-E2F3-4E3B-9919-087C13E50D88}
+      WAK 0 0
+      <COMMENT
+        MyAzMDcgLCAxMyAxNTczNTAwOQ==
+      >
+    >
+  >
+  <TRACK {59E7C4A2-EF5B-478A-BCDE-C30E29298673}
+    NAME "3 306 , 32 20007359616806424"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 -1 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {59E7C4A2-EF5B-478A-BCDE-C30E29298673}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 497 344 606 471
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS TALE/EXAMPLES/⠀⠀⠀⠀ⵙ⠀ᴥ⠀ⵙ⠀Ⓞ⠀ⵙ⠀✤⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀Ⓞ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ᑎ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ꗳ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ꗳ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᑎ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀◯⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᴥ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀◯⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᑐᑕ⠀ⵙ⠀ꖴ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀✤⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᴥ⠀ⵙ⠀⠀⠀⠀ ""
+        84.406023 84406.02259 0 1 84.406023 84406.02259 - 0.011847 - - - - - - - - - 3 306 255490.184631 3026.918895 - 32 ? 141760.617509 0.000007 -103.031112 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {6690026D-9175-416A-8411-2C0E7181B0CE}
+      WAK 0 0
+      <COMMENT
+        MyAzMDYgLCAzMiAyMDAwNzM1OTYxNjgwNjQyNA==
       >
     >
   >
