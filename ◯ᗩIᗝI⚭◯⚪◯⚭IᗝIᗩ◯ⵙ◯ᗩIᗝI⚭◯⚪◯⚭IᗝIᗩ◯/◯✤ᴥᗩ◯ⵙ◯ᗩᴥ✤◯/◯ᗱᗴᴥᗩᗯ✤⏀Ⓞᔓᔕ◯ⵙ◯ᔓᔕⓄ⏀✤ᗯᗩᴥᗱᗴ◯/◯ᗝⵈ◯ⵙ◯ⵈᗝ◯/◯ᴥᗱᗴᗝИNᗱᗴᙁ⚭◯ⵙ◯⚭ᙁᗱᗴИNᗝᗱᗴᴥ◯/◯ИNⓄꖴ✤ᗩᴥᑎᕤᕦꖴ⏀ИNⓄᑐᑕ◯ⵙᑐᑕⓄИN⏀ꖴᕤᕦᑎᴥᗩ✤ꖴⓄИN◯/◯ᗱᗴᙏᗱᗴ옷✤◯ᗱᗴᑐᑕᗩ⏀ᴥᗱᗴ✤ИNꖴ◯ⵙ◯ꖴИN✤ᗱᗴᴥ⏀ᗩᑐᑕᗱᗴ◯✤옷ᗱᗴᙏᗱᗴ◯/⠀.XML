@@ -336,8 +336,8 @@
           <ThemeWidgetColors
             outline="#9f9f9f"
             inner="#ffffffff"
-            inner_sel="#dfdfdfff"
-            item="#cfcfcfff"
+            inner_sel="#efefefff"
+            item="#efefefff"
             text="#606060"
             text_sel="#606060"
             show_shaded="FALSE"
@@ -941,7 +941,7 @@
       <ThemeNodeEditor
         grid="#ffffff"
         node_selected="#606060"
-        node_active="#000000"
+        node_active="#bfbfbf"
         wire="#808080"
         wire_inner="#ffffff"
         wire_select="#606060b3"
@@ -981,7 +981,7 @@
             button="#ffffff00"
             button_title="#606060"
             button_text="#606060"
-            button_text_hi="#efefef"
+            button_text_hi="#606060"
             navigation_bar="#ffffff00"
             execution_buts="#ffffff00"
             tab_active="#efefef"
