@@ -1,0 +1,12 @@
+shader O____PACTAM___O____MATCAP____O
+(
+string O____EGAMI___O____IMAGE____O="C:\GPJ.GNP.O____EGAMI___O____IMAGE____O.PNG.JPG",
+output color result=1.
+)
+{
+vector O____AREMAC_LAMRON____O____NORMAL_CAMERA____O=transform("common","camera",N);
+float O____U_LAMRON____O____NORMAL_U____O=clamp(O____AREMAC_LAMRON____O____NORMAL_CAMERA____O[0]*.5+.5,.0,1.);
+float O____V_LAMRON____O____NORMAL_V____O=clamp(O____AREMAC_LAMRON____O____NORMAL_CAMERA____O[1]*.5+.5,.0,1.);
+color O____ROLOC_TUPTUO____O____OUTPUT_COLOR____O=texture(O____EGAMI___O____IMAGE____O,O____U_LAMRON____O____NORMAL_U____O,O____V_LAMRON____O____NORMAL_V____O);
+result = O____ROLOC_TUPTUO____O____OUTPUT_COLOR____O;
+}
