@@ -9,7 +9,7 @@
         widget_emboss="#ffffffff"
         editor_outline="#efefef"
         widget_text_cursor="#e6e6e6"
-        panel_roundness="0.4"
+        panel_roundness="1"
         transparent_checker_primary="#555555"
         transparent_checker_secondary="#aaaaaa"
         transparent_checker_size="4"
@@ -445,8 +445,8 @@
             <gradients>
               <ThemeGradientColors
                 background_type="SINGLE_COLOR"
-                high_gradient="#dddddd"
-                gradient="#d9d9d9"
+                high_gradient="#ffffff"
+                gradient="#ffffff"
                 >
               </ThemeGradientColors>
             </gradients>
@@ -773,7 +773,7 @@
             button="#ffffff00"
             button_title="#606060"
             button_text="#606060"
-            button_text_hi="#efefef"
+            button_text_hi="#606060"
             navigation_bar="#ffffff00"
             execution_buts="#ffffff00"
             tab_active="#efefef"
@@ -955,7 +955,7 @@
         matte_node="#ffffff"
         distor_node="#ffffff"
         noodle_curving="0"
-        grid_levels="2"
+        grid_levels="9"
         dash_alpha="0.5"
         input_node="#ffffff"
         output_node="#ffffff"
