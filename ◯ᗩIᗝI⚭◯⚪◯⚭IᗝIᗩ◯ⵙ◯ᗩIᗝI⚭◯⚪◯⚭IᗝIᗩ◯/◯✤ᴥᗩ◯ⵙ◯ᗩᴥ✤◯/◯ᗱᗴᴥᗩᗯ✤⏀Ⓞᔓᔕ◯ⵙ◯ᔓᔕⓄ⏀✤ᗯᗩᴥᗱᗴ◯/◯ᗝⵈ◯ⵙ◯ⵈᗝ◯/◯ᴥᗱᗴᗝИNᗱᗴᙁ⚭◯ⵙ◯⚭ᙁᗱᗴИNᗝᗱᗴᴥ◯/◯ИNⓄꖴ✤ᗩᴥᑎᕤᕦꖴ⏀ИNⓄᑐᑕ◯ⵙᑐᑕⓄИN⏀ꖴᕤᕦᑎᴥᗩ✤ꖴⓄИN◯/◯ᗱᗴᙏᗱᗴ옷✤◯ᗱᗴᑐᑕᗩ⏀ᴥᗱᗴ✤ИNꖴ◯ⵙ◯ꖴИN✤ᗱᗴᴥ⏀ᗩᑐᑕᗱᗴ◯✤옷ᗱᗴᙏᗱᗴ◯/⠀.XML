@@ -770,7 +770,7 @@
             header="#ffffff00"
             header_text="#606060"
             header_text_hi="#606060"
-            button="#ffffff00"
+            button="#ffffffff"
             button_title="#606060"
             button_text="#606060"
             button_text_hi="#606060"
@@ -783,7 +783,7 @@
             >
             <panelcolors>
               <ThemePanelColors
-                header="#ffffffe0"
+                header="#ffffffff"
                 back="#ffffffff"
                 sub_back="#ffffff00"
                 >
