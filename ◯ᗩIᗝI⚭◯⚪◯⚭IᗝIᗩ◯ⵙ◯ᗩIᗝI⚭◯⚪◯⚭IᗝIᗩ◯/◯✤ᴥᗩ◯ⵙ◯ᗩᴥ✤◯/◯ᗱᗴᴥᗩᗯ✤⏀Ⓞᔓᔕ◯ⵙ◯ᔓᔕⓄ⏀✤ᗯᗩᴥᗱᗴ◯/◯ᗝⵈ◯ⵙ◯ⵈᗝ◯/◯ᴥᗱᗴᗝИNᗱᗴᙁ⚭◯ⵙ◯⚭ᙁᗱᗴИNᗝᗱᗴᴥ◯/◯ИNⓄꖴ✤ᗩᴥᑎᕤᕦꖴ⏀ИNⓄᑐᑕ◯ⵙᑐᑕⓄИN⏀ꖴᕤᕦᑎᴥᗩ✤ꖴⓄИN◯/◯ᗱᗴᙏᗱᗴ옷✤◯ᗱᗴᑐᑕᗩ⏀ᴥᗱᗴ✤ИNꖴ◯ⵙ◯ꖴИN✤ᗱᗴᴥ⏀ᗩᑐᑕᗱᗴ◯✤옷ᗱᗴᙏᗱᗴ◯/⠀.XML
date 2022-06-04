@@ -942,9 +942,9 @@
         grid="#ffffff"
         node_selected="#606060"
         node_active="#bfbfbf"
-        wire="#808080"
+        wire="#bfbfbf"
         wire_inner="#ffffff"
-        wire_select="#606060b3"
+        wire_select="#d7d7d780"
         selected_text="#606060"
         node_backdrop="#ffffffff"
         converter_node="#ffffff"
@@ -987,7 +987,7 @@
             tab_active="#efefef"
             tab_inactive="#ffffff"
             tab_back="#ffffff00"
-            tab_outline="#9f9f9f"
+            tab_outline="#bfbfbf"
             >
             <panelcolors>
               <ThemePanelColors
