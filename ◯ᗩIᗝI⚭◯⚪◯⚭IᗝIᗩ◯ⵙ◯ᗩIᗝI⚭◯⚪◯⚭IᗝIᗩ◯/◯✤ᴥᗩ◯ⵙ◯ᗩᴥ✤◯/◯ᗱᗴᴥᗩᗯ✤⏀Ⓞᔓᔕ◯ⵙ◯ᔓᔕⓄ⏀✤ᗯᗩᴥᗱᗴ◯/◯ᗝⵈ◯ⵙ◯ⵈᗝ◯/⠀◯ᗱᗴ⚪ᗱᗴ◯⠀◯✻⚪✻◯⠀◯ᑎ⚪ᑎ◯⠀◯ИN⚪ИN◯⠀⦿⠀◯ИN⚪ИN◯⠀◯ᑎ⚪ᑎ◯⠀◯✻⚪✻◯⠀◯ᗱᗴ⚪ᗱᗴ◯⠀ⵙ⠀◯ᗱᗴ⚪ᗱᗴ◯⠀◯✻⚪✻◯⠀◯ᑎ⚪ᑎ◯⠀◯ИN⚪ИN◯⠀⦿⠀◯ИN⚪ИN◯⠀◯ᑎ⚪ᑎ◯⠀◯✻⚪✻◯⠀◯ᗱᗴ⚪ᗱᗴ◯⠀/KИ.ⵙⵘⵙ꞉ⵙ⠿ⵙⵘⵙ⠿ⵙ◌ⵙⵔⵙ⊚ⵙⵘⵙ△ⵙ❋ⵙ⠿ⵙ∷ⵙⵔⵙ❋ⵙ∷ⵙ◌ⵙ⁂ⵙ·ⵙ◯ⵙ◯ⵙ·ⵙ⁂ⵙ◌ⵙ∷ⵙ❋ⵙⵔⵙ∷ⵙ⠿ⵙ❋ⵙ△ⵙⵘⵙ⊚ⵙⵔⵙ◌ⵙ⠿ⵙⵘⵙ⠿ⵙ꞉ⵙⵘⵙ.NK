@@ -1,0 +1,277 @@
+#! C:/O/O_ERAWTFOS_O_SOFTWARE_O/O_SMARGORP_O_PROGRAMS_O/O_AIDIV_O_VIDIA_O/O_D3_O_3D_O/O_YRDNUOF_O_FOUNDRY_O/O_EKUN_O_NUKE_O/O_6W3.11_O_11.3W6_O/nuke-11.3.6.dll -nx
+#write_info Write1 file:"C:/GИP.KИ.O____1_MORF_52656_0_EGNAR_573432047_9_TOOR_I_N_TOD_4201____O____1024_DOT_N_I_ROOT_9_740234375_RANGE_0_65625_FROM_1____O.NK.PNG" format:"1024 1024 1" chans:":rgba.red:rgba.green:rgba.blue:rgba.alpha:" framerange:"1 5824" fps:"0" colorspace:"default (linear)" datatype:"16 bit" transfer:"unknown" views:"main" colorManagement:"Nuke"
+version 11.3 v6
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="-4" y="-4" w="1680" h="1031" maximized="1" screen="0">
+        <splitter orientation="2">
+            <split size="54"/>
+            <splitter orientation="2">
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.histogram.1">
+                        <page id="uk.co.thefoundry.histogram.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="DopeSheet.1">
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                    <split size="558"/>
+                    <dock id="" activePageId="uk.co.thefoundry.sequenceviewer.1">
+                        <page id="uk.co.thefoundry.sequenceviewer.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="uk.co.thefoundry.spreadsheetview.1">
+                        <page id="uk.co.thefoundry.spreadsheetview.1"/>
+                    </dock>
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.waveformscope.1">
+                        <page id="uk.co.thefoundry.waveformscope.1"/>
+                    </dock>
+                </splitter>
+                <split size="25"/>
+                <splitter orientation="1">
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.timeline.1">
+                        <page id="uk.co.thefoundry.timeline.1" layout="splitter(417,417)"/>
+                    </dock>
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.project.2">
+                        <page id="uk.co.thefoundry.project.2" layout="splitter(406,406)"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="858"/>
+            <splitter orientation="1">
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.2">
+                            <page id="uk.co.thefoundry.histogram.2"/>
+                            <page id="uk.co.thefoundry.waveformscope.2"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.3">
+                            <page id="Viewer.3"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.3">
+                            <page id="uk.co.thefoundry.histogram.3"/>
+                            <page id="uk.co.thefoundry.waveformscope.3"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.4">
+                            <page id="Viewer.4"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+                <split size="558"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <dock id="" activePageId="Properties.1" focus="true">
+                        <page id="Curve Editor.1"/>
+                        <page id="Properties.1"/>
+                        <page id="Pixel Analyzer.1"/>
+                    </dock>
+                    <split size="293"/>
+                    <dock id="" activePageId="DAG.1">
+                        <page id="DAG.1"/>
+                    </dock>
+                    <split size="130"/>
+                    <dock id="" activePageId="Progress.1">
+                        <page id="Progress.1"/>
+                        <page id="uk.co.thefoundry.scripteditor.2"/>
+                    </dock>
+                </splitter>
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.2">
+                            <page id="Viewer.2"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.4">
+                            <page id="uk.co.thefoundry.waveformscope.4"/>
+                            <page id="uk.co.thefoundry.histogram.4"/>
+                        </dock>
+                    </splitter>
+                    <split size="427"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.1">
+                            <page id="Viewer.1"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.5">
+                            <page id="uk.co.thefoundry.waveformscope.5"/>
+                            <page id="uk.co.thefoundry.histogram.5"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+            </splitter>
+            <split size="83"/>
+            <splitter orientation="1">
+                <split size="838"/>
+                <dock id="" activePageId="Error Console.1">
+                    <page id="Error Console.1"/>
+                </dock>
+                <split size="838"/>
+                <dock id="" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+            </splitter>
+        </splitter>
+    </window>
+</layout>
+}
+LiveGroupInfo {
+ inputs 0
+ mapsize {0.1487455197 1}
+ frame 2913
+ last_frame 5824
+ lock_range true
+ fps 69
+ format "1024 1024 0 0 1024 1024 1 square_1K"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ proxySetting never
+ is_live true
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut linear
+ int8Lut linear
+ int16Lut linear
+ logLut linear
+ floatLut linear
+ views_colours true
+}
+Viewer {
+ inputs 0
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙ
+ xpos 0
+ ypos -74
+}
+Viewer {
+ inputs 0
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙⵙ
+ xpos -112
+ ypos -74
+}
+Constant {
+ inputs 0
+ color 1
+ format "1024 1024 0 0 1024 1024 1 square_1K"
+ name Constant1
+ xpos 280
+ ypos -13
+}
+set N322b0800 [stack 0]
+Expression {
+ temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+ temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
+ temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+ temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+ temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+ temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+ channel0 {rgba.red rgba.green rgba.blue -rgba.alpha}
+ expr0 "pow((1.-pow(-(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O-1.),2)),1/9.740234375)\n*\n(1.-.65625)\n+1.\n-\n(1.-.65625)"
+ channel1 {-rgba.red -rgba.green -rgba.blue rgba.alpha}
+ expr1 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))))
+ channel2 {-rgba.red -rgba.green -rgba.blue none}
+ expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+ channel3 {none none none -rgba.alpha}
+ expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+ name ⵔ1
+ help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+ xpos 144
+ ypos -21
+ postage_stamp true
+ addUserKnob {20 O l "" +STARTLINE}
+ addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+ O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+ addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+ O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+ addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+ O_Y_EZIS_O_SIZE_Y_O 2
+ addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+ O_ROSIVID_O_DIVISOR_O 11
+ addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+ O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+ addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+ O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+ addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+ O_1_SNOISIVID_O_DIVISION_1_O 4
+ addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+ O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+ addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+ O_REBMUN_O_NUMBER_O 2.718281828
+ addUserKnob {12 O_NOITISOP_O_POSITION_O}
+ O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+ addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+ O_EZIS_O_SIZE_O 2048
+}
+set N322e5c00 [stack 0]
+push $N322b0800
+Merge2 {
+ inputs 2
+ operation matte
+ metainput All
+ rangeinput All
+ name Merge1
+ xpos 136
+ ypos 91
+ postage_stamp true
+}
+Viewer {
+ frame_range 1-5824
+ fps 69
+ downrez 8
+ full_frame_processing true
+ viewerProcess None
+ name ⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙ
+ xpos 0
+ ypos 6
+}
+Viewer {
+ inputs 0
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙⵙⵙᴥᗱᗴᗯᗱᗴꖴΛⵙΛꖴᗱᗴᗯᗱᗴᴥⵙⵙⵙ
+ xpos -112
+ ypos 6
+}
+push $N322e5c00
+Write {
+ channels all
+ file C:/GИP.KИ.O____1_MORF_52656_0_EGNAR_573432047_9_TOOR_I_N_TOD_4201____O____1024_DOT_N_I_ROOT_9_740234375_RANGE_0_65625_FROM_1____O.NK.PNG
+ raw true
+ file_type png
+ datatype "16 bit"
+ checkHashOnRead false
+ version 10
+ name Write1
+ selected true
+ xpos 128
+ ypos -148
+ postage_stamp true
+}
