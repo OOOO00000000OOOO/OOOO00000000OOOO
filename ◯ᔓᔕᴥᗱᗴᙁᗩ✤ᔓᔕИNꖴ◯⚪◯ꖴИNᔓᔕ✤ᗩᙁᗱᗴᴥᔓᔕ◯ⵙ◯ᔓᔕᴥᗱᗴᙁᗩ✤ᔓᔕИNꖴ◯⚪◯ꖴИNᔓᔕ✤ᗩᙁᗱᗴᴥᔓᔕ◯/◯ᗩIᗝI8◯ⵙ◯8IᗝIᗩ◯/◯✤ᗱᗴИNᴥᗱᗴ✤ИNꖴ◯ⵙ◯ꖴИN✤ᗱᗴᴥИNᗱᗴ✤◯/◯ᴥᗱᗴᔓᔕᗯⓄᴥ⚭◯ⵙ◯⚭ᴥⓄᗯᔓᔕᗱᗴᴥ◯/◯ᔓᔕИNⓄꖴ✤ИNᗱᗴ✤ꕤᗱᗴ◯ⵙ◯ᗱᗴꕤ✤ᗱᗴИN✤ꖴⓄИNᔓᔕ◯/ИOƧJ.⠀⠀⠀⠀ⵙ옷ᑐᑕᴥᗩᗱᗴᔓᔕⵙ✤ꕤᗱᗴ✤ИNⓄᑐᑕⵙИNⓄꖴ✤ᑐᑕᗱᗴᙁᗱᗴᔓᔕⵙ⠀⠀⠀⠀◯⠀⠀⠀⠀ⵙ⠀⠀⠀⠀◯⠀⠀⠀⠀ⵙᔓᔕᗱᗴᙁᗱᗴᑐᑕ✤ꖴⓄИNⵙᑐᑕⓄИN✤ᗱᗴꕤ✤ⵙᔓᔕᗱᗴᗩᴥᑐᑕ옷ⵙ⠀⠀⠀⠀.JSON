@@ -3,6 +3,17 @@
   "websiteList": [
     {
       "type": "link",
+      "name": "⠀⠀⠀⠀ⵙ⠀ᗩ⠀ⵙ⠀ᴥ⠀ⵙ⠀⚭⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀Ⓞ⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀ᗱᗴ⠀ⵙ⠀⚭⠀ⵙ⠀ᴥ⠀ⵙ⠀ᗩ⠀ⵙ⠀⠀⠀⠀",
+      "address": "HTTP://GEⓄGEBRA.ⓄRG/search/",
+      "contexts": [
+        "selection"
+      ],
+      "id": 74,
+      "icon": "HTTP://GEⓄGEBRA.ⓄRG/favicon.ico",
+      "popup": true
+    },
+    {
+      "type": "link",
       "name": "⠀⠀⠀⠀ⵙ⠀✤⠀ⵙ⠀ИN⠀ⵙ⠀ᗩ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ᔓᔕ⠀ⵙ⠀ᙁ⠀ⵙ⠀ᗩ⠀ⵙ⠀ИN⠀ⵙ⠀✤⠀ⵙ⠀⠀⠀⠀",
       "address": "HTTP://SLANT.CⓄ/search?query=",
       "contexts": [
