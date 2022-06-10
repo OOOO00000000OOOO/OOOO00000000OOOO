@@ -25,10 +25,9 @@ keyconfig_data = \
     ("view3d.localview_remove_from", {"type": 'NUMPAD_SLASH', "value": 'PRESS', "alt": True}, None),
     ("view3d.localview_remove_from", {"type": 'SLASH', "value": 'PRESS', "alt": True}, None),
     ("view3d.rotate", {"type": 'MIDDLEMOUSE', "value": 'PRESS', "alt": True}, None),
-    ("view3d.rotate", {"type": 'MIDDLEMOUSE', "value": 'PRESS', "shift": True}, None),
     ("view3d.move", {"type": 'MIDDLEMOUSE', "value": 'ANY'}, None),
     ("view3d.rotate", {"type": 'TRACKPADPAN', "value": 'ANY', "shift": True}, None),
-    ("view3d.move", {"type": 'TRACKPADPAN', "value": 'ANY'}, None),
+    ("view3d.move", {"type": 'MIDDLEMOUSE', "value": 'ANY', "ctrl": True}, None),
     ("view3d.zoom",
      {"type": 'MIDDLEMOUSE', "value": 'PRESS', "shift": True},
      {"properties":
@@ -53,7 +52,7 @@ keyconfig_data = \
      ),
     ("view3d.smoothview", {"type": 'TIMER1', "value": 'ANY', "any": True}, None),
     ("view3d.zoom", {"type": 'TRACKPADZOOM', "value": 'ANY'}, None),
-    ("view3d.zoom", {"type": 'TRACKPADPAN', "value": 'ANY', "ctrl": True}, None),
+    ("view3d.zoom", {"type": 'MIDDLEMOUSE', "value": 'ANY', "shift": True}, None),
     ("view3d.zoom",
      {"type": 'NUMPAD_PLUS', "value": 'PRESS', "repeat": True},
      {"properties":
