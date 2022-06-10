@@ -68,14 +68,14 @@ keyconfig_data = \
       },
      ),
     ("view3d.zoom",
-     {"type": 'EQUAL', "value": 'PRESS', "ctrl": True, "repeat": True},
+     {"type": 'EQUAL', "value": 'PRESS', "repeat": True},
      {"properties":
       [("delta", 1),
        ],
       },
      ),
     ("view3d.zoom",
-     {"type": 'MINUS', "value": 'PRESS', "ctrl": True, "repeat": True},
+     {"type": 'MINUS', "value": 'PRESS', "repeat": True},
      {"properties":
       [("delta", -1),
        ],
