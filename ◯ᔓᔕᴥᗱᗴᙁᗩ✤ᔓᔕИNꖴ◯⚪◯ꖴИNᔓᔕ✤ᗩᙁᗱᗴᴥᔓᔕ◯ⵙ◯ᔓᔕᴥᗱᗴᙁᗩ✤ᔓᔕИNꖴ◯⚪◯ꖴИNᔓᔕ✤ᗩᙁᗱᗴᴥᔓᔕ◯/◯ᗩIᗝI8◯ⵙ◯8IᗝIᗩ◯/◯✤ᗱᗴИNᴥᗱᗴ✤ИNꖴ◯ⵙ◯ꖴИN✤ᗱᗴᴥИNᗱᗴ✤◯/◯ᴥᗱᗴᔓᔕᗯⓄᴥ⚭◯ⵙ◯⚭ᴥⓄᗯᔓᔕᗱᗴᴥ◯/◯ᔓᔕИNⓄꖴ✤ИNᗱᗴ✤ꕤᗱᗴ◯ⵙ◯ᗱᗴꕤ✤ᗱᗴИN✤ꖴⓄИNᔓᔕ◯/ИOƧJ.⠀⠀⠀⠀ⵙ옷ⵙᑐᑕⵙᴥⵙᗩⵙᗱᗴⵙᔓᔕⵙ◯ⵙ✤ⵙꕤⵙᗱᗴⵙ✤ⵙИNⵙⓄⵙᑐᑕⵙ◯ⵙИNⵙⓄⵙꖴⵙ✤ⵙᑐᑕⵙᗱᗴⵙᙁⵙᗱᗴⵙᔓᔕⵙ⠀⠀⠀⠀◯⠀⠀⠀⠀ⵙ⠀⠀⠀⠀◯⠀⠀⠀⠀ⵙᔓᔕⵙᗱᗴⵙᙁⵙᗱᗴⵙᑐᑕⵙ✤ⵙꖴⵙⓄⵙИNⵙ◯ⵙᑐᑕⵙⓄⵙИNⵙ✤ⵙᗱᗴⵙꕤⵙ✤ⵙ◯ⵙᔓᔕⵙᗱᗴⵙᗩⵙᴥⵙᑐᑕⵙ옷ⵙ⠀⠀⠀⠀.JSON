@@ -277,6 +277,17 @@
       "type": "link"
     },
     {
+      "type": "link",
+      "name": "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀ИN⠀ⵙ⠀ꖴ⠀ⵙ⠀ᗯ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀ИN⠀ⵙ⠀ߦ⠀ⵙ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀◯⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ⵙ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀◯⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ⵙ⠀ߦ⠀ⵙ⠀ИN⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀⠀⠀⠀◯⠀⠀⠀⠀ⵙ⠀ᗯ⠀ⵙ⠀ꖴ⠀ⵙ⠀ИN⠀ⵙ⠀ᕤᕦ⠀ⵙ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "address": "HTTP://PNGWING.CⓄM/en/search?q=",
+      "contexts": [
+        "selection"
+      ],
+      "id": 81,
+      "popup": true,
+      "icon": "HTTP://PNGWING.CⓄM/public/css/favicon.ico"
+    },
+    {
       "address": "IMAGES.GⓄⓄGLE.GR/images?q=",
       "contexts": [
         "selection",
