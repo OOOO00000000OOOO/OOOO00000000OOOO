@@ -1,5 +1,4 @@
 #! C:/O/O_ERAWTFOS_O_SOFTWARE_O/O_SMARGORP_O_PROGRAMS_O/O_AIDIV_O_VIDIA_O/O_D3_O_3D_O/O_YRDNUOF_O_FOUNDRY_O/O_EKUN_O_NUKE_O/O_9_W_0_9_O_9_0_W_9_O/nuke-9.0.9.dll -nx
-#write_info O____ᗱᗴTIᖆᖇᗯ____O____ᗯᖆᖇITᗱᗴ____O file:"C:/GNP.KN.O____4201____REDAHS_52656_0_3_EDIWID_57864084_91____O____19_48046875_DIWIDE_3_0_65625_SHADER____1024____O.NK.PNG" format:"1024 1024 1" chans:":rgba.red:rgba.green:rgba.blue:rgba.alpha:" framerange:"1 100" fps:"0" colorspace:"linear" datatype:"16 bit" transfer:"unknown" views:"main"
 version 9.0 v9
 define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 <layout version="1.0">
@@ -84,7 +83,7 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
                         <page id="DAG.1"/>
                     </dock>
                     <split size="130"/>
-                    <dock id="" activePageId="uk.co.thefoundry.scripteditor.2">
+                    <dock id="" activePageId="Progress.1">
                         <page id="Progress.1"/>
                         <page id="uk.co.thefoundry.scripteditor.2"/>
                     </dock>
@@ -134,7 +133,8 @@ define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
 }
 Root {
  inputs 0
- name C:/KN.O____4201____REDAHS_52656_0_4_EDIWID_57864084_91____O____19_48046875_DIWIDE_4_0_65625_SHADER____1024____O.NK
+ name C:/KN.O____HPYLG_SORC____REDAHS_52656_0_4_EDIWID_57864084_91____O____19_48046875_DIWIDE_4_0_65625_SHADER____CROS_GLYPH____O.NK
+ mapsize {0.1756272401 0.4232209738}
  format "1024 1024 0 0 1024 1024 1 square_1K"
  proxy_type scale
  proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
@@ -144,10 +144,11 @@ Constant {
  color 1
  format "1024 1024 0 0 1024 1024 1 square_1K"
  name O____TИNᗩTᔓᔕИNOᑐᑕ____O____ᑐᑕOИNᔓᔕTᗩИNT____O
+ selected true
  xpos -408
- ypos -187
+ ypos -189
 }
-set N34c0400 [stack 0]
+set N36f1c00 [stack 0]
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2)))
@@ -205,8 +206,7 @@ ColorLookup {
  ypos -301
  postage_stamp true
 }
-push $N34c0400
-push $N34c0400
+push $N36f1c00
 Expression {
  temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
  temp_expr0 (clamp(((height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)-(sqrt(((x-((width/2)-.5))**2)+((y-((height/2))+.5)**2))))/(height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)))
@@ -256,8 +256,7 @@ Expression {
  addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
  O_EZIS_O_SIZE_O 2048
 }
-set N34c0000 [stack 0]
-push $N34c0000
+set N90e6e400 [stack 0]
 Grade {
  channels all
  black 0.9375
@@ -268,7 +267,7 @@ Grade {
  disable true
  postage_stamp true
 }
-push $N34c0400
+push $N36f1c00
 Merge2 {
  inputs 2
  operation matte
@@ -277,6 +276,27 @@ Merge2 {
  ypos -413
  postage_stamp true
 }
+push $N36f1c00
+Rectangle {
+ replace true
+ area {{width/2.5} {height/2.5} {width/5*3} {width/5*3}}
+ color {0 1 1 1}
+ name Rectangle1
+ xpos -341
+ ypos -796
+ postage_stamp true
+}
+Viewer {
+ inputs 0
+ frame_range 1-1
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name O____ᖆᖇᗱᗴᗯᗱᗴIᗯ____O____ᗯIᗱᗴᗯᗱᗴᖆᖇ____O
+ xpos -200
+ ypos -1002
+}
+push $N90e6e400
 Write {
  channels all
  file C:/GNP.KN.O____4201____REDAHS_52656_0_3_EDIWID_57864084_91____O____19_48046875_DIWIDE_3_0_65625_SHADER____1024____O.NK.PNG
@@ -288,17 +308,260 @@ Write {
  version 5
  name O____ᗱᗴTIᖆᖇᗯ____O____ᗯᖆᖇITᗱᗴ____O
  xpos -408
- ypos -487
+ ypos -485
  postage_stamp true
 }
-Viewer {
- inputs 3
- frame_range 1-1
- fps 69
- downrez 4
- full_frame_processing true
- viewerProcess None
- name O____ᖆᖇᗱᗴᗯᗱᗴIᗯ____O____ᗯIᗱᗴᗯᗱᗴᖆᖇ____O
- xpos -408
- ypos -506
+push $N36f1c00
+Expression {
+ temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+ temp_expr0 (clamp(((height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)-(sqrt(((x-((width/2)-0))**2)+((y-((height/2))+0)**2))))/(height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)))
+ temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+ temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+ temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+ temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+ channel0 rgb
+ expr0 "pow(    (1.-  pow(-(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O-1),  2  )  )    ,    pow(19.48046875/4,-1.) )         *        (1-.65625)+1-(1-.65625)"
+ channel1 {none none none rgba.alpha}
+ expr1 (clamp(((height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)-(sqrt(((x-((width/2)-0))**2)+((y-((height/2))+0)**2))))))
+ channel2 {-rgba.red -rgba.green -rgba.blue none}
+ expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+ channel3 {none none none -rgba.alpha}
+ expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+ enable_mix_luminance false
+ name ⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙᙁᗩꖴᗝᗩᴥⵙᙁᑎΦⵙᴥᗩᗱᗴИNꖴᙁⵙᙁꖴИN2
+ help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+ xpos -216
+ ypos -477
+ postage_stamp true
+ addUserKnob {20 O l "" +STARTLINE}
+ addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+ O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+ addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+ O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+ addUserKnob {7 O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O}
+ O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O 0.2
+ addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+ O_Y_EZIS_O_SIZE_Y_O 2
+ addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+ O_ROSIVID_O_DIVISOR_O 11
+ addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+ O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+ addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+ O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+ addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+ O_1_SNOISIVID_O_DIVISION_1_O 4
+ addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+ O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+ addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+ O_REBMUN_O_NUMBER_O 2.718281828
+ addUserKnob {12 O_NOITISOP_O_POSITION_O}
+ O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+ addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+ O_EZIS_O_SIZE_O 2048
+}
+set N36f1400 [stack 0]
+push $N36f1c00
+Expression {
+ temp_name0 O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O
+ temp_expr0 (clamp(((height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)-(sqrt(((x-((width/2)+0))**2)+((y-((height/2))+0)**2))))/(height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)))
+ temp_name1 O_TNEIDARG_LAIDAR_LADIOSUNISOC_O_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr1 (-cos(PI*(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O))/2+.5)
+ temp_name2 O_TNEIDARG_LAIDAR_LAITNENOPXE_O_EXPONENTIAL_RADIAL_GRADIENT_O
+ temp_expr2 "(((exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.))-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.))    +    (-(exp(2.*PI))/exp(2.*PI*(    (clamp((  (height/2.)  *(sqrt(4.)-1.)-(sqrt((((x-  (width/2.)  )**2.)*(4.))+(((y-  (height/2.)  )**2.)*(4.)))))/  (height/2.)  ))    ))/(exp(2.*PI))/2.+1.)-0.5)"
+ temp_name3 O_TNEIDARG_LAIDAR_LADIOSUNISOC_TOOR_ERAUQS_O_SQUARE_ROOT_COSINUSOIDAL_RADIAL_GRADIENT_O
+ temp_expr3 "(  (  (    -pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -0.)  ,0.,1.)  )  ,  (1./2.)  )  /2.  )    +    (  pow(  cos(.5*PI*  clamp(  (  (O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O*2.)  -2.)  ,-1.,0.)  )  ,  (1./2.)  )  /2.  )    )+.5  )"
+ channel0 rgb
+ expr0 "pow(    (1.-  pow(-(O_TNEIDARG_LAIDAR_RAENIL_O_LINEAR_RADIAL_GRADIENT_O-1),  2  )  )    ,    pow(19.48046875/4,-1.) )         *        (1-.65625)+1-(1-.65625)"
+ channel1 {none none none rgba.alpha}
+ expr1 (clamp(((height/2*O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O)-(sqrt(((x-((width/2)-0))**2)+((y-((height/2))-0)**2))))))
+ channel2 {-rgba.red -rgba.green -rgba.blue none}
+ expr2 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)"
+ channel3 {none none none -rgba.alpha}
+ expr3 "((exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*1.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2-0)/1)    +    (-(exp(2*PI))/exp(2*PI*(    (clamp((O_EZIS_O_SIZE_O*.75-(sqrt(((x-O_NOITISOP_O_POSITION_O.x)**2)*3+((y-O_NOITISOP_O_POSITION_O.y)**2)*3)))/O_EZIS_O_SIZE_O*1))    ))/(exp(2*PI))/2+1)/1-.5"
+ enable_mix_luminance false
+ name ⵙTИNᗱᗴꖴᗝᗩᴥᕤᕦⵙᙁᗩꖴᗝᗩᴥⵙᙁᑎΦⵙᴥᗩᗱᗴИNꖴᙁⵙᙁꖴИN3
+ help "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯"
+ xpos -96
+ ypos -477
+ postage_stamp true
+ addUserKnob {20 O l "" +STARTLINE}
+ addUserKnob {7 O_REWOP_O_POWER_O R -16 16}
+ O_REWOP_O_POWER_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_REWOP_O_POWER_O}}
+ addUserKnob {7 O_ELACS_O_SCALE_O t "◯ (1- ( (2)trpƨ*2 ) ) ⵙ ( ( 2*sqrt(2) ) -1) ◯" R 0.01 16}
+ O_ELACS_O_SCALE_O {{ⵙИNⵔꖴTᗩᙁᑎᕤᕦᗱᗴᴥⵙᴥᗱᗴᕤᕦᑎᙁᗩTꖴⵔИNⵙ.O_ELACS_O_SCALE_O}}
+ addUserKnob {7 O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O}
+ O_REYLPITLUM_EZIS_O_SIZE_MULTIPLYER_O 0.1
+ addUserKnob {7 O_Y_EZIS_O_SIZE_Y_O R 0 16}
+ O_Y_EZIS_O_SIZE_Y_O 2
+ addUserKnob {7 O_ROSIVID_O_DIVISOR_O R 0.0001 64}
+ O_ROSIVID_O_DIVISOR_O 11
+ addUserKnob {7 O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O R 0 4}
+ O_2_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_2_O 1
+ addUserKnob {7 O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O R 0 4}
+ O_1_REILPITLUM_EZIS_O_SIZE_MULTIPLIER_1_O 1
+ addUserKnob {7 O_1_SNOISIVID_O_DIVISION_1_O R 0 16}
+ O_1_SNOISIVID_O_DIVISION_1_O 4
+ addUserKnob {7 O_REILPITLUM_IP_O_PI_MULTIPLIER_O R 0 4}
+ O_REILPITLUM_IP_O_PI_MULTIPLIER_O 2
+ addUserKnob {7 O_REBMUN_O_NUMBER_O t 2.718281828459 R 0 64}
+ O_REBMUN_O_NUMBER_O 2.718281828
+ addUserKnob {12 O_NOITISOP_O_POSITION_O}
+ O_NOITISOP_O_POSITION_O {2047.5 2047.5}
+ addUserKnob {7 O_EZIS_O_SIZE_O R 0 2048}
+ O_EZIS_O_SIZE_O 2048
+}
+set N36f0400 [stack 0]
+Transform {
+ translate {{-width/20} {height/4-height/10}}
+ center {{width/2} {height/2}}
+ filter Impulse
+ clamp true
+ black_outside false
+ name Transform5
+ xpos 96
+ ypos -557
+ postage_stamp true
+}
+push $N36f0400
+Transform {
+ translate {{width/20} {height/4-height/10}}
+ center {{width/2} {height/2}}
+ filter Impulse
+ clamp true
+ black_outside false
+ name Transform4
+ xpos 32
+ ypos -557
+ postage_stamp true
+}
+push $N36f0400
+Transform {
+ translate {{-width/20} {height/4}}
+ center {{width/2} {height/2}}
+ filter Impulse
+ clamp true
+ black_outside false
+ name Transform3
+ xpos -32
+ ypos -557
+ postage_stamp true
+}
+push 0
+push $N36f0400
+Transform {
+ translate {{width/20} {height/4}}
+ center {{width/2} {height/2}}
+ filter Impulse
+ clamp true
+ black_outside false
+ name Transform2
+ xpos -96
+ ypos -557
+ postage_stamp true
+}
+NoOp {
+ inputs 0
+ name NoOp1
+ xpos -320
+ ypos -610
+}
+set N90dee800 [stack 0]
+Merge2 {
+ inputs 5+1
+ operation matte
+ name O____ᗱᗴᕤᕦᖆᖇᗱᗴᙏ____O____ᙏᗱᗴᖆᖇᕤᕦᗱᗴ____O2
+ xpos -104
+ ypos -677
+ postage_stamp true
+}
+set N90dee400 [stack 0]
+Transform {
+ translate {0 {-height/5}}
+ center {{width/2} {height/2}}
+ filter Impulse
+ clamp true
+ black_outside false
+ name Transform7
+ xpos 32
+ ypos -685
+ postage_stamp true
+}
+push $N90dee400
+push 0
+push $N36f1400
+Transform {
+ translate {0 {height/2.5}}
+ center {{width/2} {height/2}}
+ filter Impulse
+ clamp true
+ black_outside false
+ name Transform1
+ xpos -216
+ ypos -557
+ postage_stamp true
+}
+push $N90dee800
+Merge2 {
+ inputs 3+1
+ operation matte
+ name O____ᗱᗴᕤᕦᖆᖇᗱᗴᙏ____O____ᙏᗱᗴᖆᖇᕤᕦᗱᗴ____O1
+ xpos -232
+ ypos -733
+ postage_stamp true
+}
+set N90e19800 [stack 0]
+Mirror2 {
+ flip true
+ name Mirror2_2
+ xpos 0
+ ypos -773
+ postage_stamp true
+}
+push $N90e19800
+Transform {
+ rotate 90
+ center {{width/2} {width/2}}
+ filter Impulse
+ clamp true
+ black_outside false
+ name Transform6
+ xpos -152
+ ypos -781
+ postage_stamp true
+}
+set N90e19000 [stack 0]
+Mirror2 {
+ flop true
+ name Mirror2_1
+ xpos -8
+ ypos -885
+ postage_stamp true
+}
+push $N90e19000
+push 0
+push $N90e19800
+push $N90dee800
+Merge2 {
+ inputs 7+1
+ operation matte
+ name O____ᗱᗴᕤᕦᖆᖇᗱᗴᙏ____O____ᙏᗱᗴᖆᖇᕤᕦᗱᗴ____O3
+ xpos -200
+ ypos -885
+ postage_stamp true
+}
+Write {
+ channels all
+ file C:/GNP.KN.O____48361____HPYLG_SORC____REDAHS_52656_0_4_EDIWID_57864084_91____O____19_48046875_DIWIDE_4_0_65625_SHADER____CROS_GLYPH____16384____O.NK.PNG
+ colorspace linear
+ raw true
+ file_type png
+ datatype "16 bit"
+ checkHashOnRead false
+ version 11
+ name O____ᗱᗴTIᖆᖇᗯ____O____ᗯᖆᖇITᗱᗴ____O1
+ xpos -200
+ ypos -957
+ postage_stamp true
 }
