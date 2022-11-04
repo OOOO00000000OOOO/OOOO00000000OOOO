@@ -62,4 +62,4 @@ osc.four_update() ? (
 
 @sample
 
-SPL0 = SPL1 = ( ( SPL0 + SPL1 ) /2 ) + OSC.WAVE_LAGRANGE(SLIDER29) * SLIDER26 ;
+SPL0 = SPL1 = SPL0 + OSC.WAVE_LAGRANGE(SLIDER29) * SLIDER26 ;
