@@ -110,8 +110,8 @@
           <ThemeWidgetColors
             outline="#9f9f9f"
             inner="#ffffffff"
-            inner_sel="#efefefff"
-            item="#cfcfcfff"
+            inner_sel="#ffffffff"
+            item="#c7c7c7ff"
             text="#606060"
             text_sel="#606060"
             show_shaded="FALSE"
