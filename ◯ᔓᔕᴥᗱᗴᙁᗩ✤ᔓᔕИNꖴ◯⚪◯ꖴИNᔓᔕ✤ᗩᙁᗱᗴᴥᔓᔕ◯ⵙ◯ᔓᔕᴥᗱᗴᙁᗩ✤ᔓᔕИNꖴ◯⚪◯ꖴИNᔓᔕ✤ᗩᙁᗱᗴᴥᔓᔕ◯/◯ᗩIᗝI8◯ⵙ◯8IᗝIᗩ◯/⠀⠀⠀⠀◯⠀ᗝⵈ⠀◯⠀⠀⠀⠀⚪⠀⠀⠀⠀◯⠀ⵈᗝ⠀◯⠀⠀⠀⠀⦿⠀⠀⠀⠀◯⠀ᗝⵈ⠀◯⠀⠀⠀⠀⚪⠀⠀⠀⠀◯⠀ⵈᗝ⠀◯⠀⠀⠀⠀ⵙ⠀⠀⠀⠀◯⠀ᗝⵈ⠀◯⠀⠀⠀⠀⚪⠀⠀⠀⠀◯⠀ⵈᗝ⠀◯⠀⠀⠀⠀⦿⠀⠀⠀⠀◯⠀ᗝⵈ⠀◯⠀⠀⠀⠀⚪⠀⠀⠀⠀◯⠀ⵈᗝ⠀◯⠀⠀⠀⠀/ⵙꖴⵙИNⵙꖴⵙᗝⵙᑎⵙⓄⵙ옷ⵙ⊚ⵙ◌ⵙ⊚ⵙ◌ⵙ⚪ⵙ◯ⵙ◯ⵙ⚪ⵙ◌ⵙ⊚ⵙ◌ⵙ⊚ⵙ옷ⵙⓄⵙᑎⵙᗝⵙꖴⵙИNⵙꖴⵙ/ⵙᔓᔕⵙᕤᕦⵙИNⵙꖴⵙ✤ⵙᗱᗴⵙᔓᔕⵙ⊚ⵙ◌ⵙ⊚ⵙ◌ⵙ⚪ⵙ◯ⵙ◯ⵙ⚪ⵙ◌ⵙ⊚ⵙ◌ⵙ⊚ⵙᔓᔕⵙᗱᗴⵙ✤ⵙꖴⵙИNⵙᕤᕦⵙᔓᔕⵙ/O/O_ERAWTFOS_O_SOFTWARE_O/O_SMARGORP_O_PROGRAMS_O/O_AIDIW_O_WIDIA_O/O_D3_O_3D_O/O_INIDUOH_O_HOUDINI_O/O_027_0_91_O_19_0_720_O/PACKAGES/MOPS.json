@@ -1,0 +1,12 @@
+{
+	"env": [
+		{
+			"MOPS": "C:\O\O_AIDIW_O_WIDIA_O\O_INIDUOH_O_HOUDINI_O\O_SPOM_O_MOPS_O"
+		},
+		{
+			"HOUDINI_PYTHONWARNINGS": "ignore"
+		},
+	],
+	"path": "$MOPS"
+	
+}
