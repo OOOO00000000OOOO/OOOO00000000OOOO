@@ -1,0 +1,54 @@
+BackgroundColor:	1.00 1.00 1.00	# viewer background
+WireframeColor:		0.33 0.33 0.33	# non-selected primitives
+GhostFillColor:		0.30 0.30 0.30	# hidden-line ghost fill
+SelectedPrimColor:	0.66 0.66 0.66	# selected primitives
+AuxSelectedPrimColor1:	0.94 0.94 0.94	# selected primitives in first tmp. sel
+AuxSelectedPrimColor2:	0.88 1.88 1.88	# selected primitives in second tmp. sel
+PrimClosureColor:	0.50 0.50 0.50	# primitives when in closure (not sel'd)
+AuxGeoColor:		0.60 0.40 0.25	# spline and quadric hulls
+SelectedAuxGeoColor:	0.90 0.50 0.10	# selected spline and quadric hulls
+TemplateColor:		0.50 0.50 0.50	# template geometry or handles
+TargetWireColor:	0.30 0.40 0.70	# templated display SOP colour
+AxesColor:		1.00 0.20 0.20	# coordinate  or c-plane axes
+XaxesColor:		1.00 0.00 0.00	# sticky x axis
+YaxesColor:		0.00 1.00 0.00	# sticky y axis
+ZaxesColor:		0.00 0.00 1.00	# sticky z axis
+SelectedAxesColor:	1.00 0.50 0.50	# selected coordinate axes
+PrimInfoColor:		0.50 0.05 0.30	# prim-vtx, prim-num, prim-normal
+SelectedPrimInfoColor:	0.70 0.40 0.20	# sel'd prim-vtx, prim-num, prim-normal
+PointColor:		0.00 0.00 1.00	# non-selected points and point info
+SelectedPointColor:	1.00 1.00 0.00	# selected points and point info
+AuxSelectedPtColor1:	1.00 1.00 0.00	# selected points in first temp sel
+AuxSelectedPtColor2:	0.00 1.00 1.00	# selected points in second temp sel
+PointClosureColor:	0.00 0.45 1.00	# points when in closure (not sel'd)
+Guide1Color:		0.40 0.40 1.00	# 1st guide geometry
+Guide2Color:		0.20 0.50 0.80	# 2nd guide geometry
+CplaneColor:		0.33 0.48 0.48	# non-selected construction plane
+SelectedCplaneColor:	1.00 1.00 0.00	# selected construction plane
+GridColor:		0.45 0.45 0.45	# reference plane
+HeightVectorColor:	1.00 0.10 0.00	# height motion indicator
+HandleColor:		1.00 0.10 0.00	# handle for direct manip.
+SelectedHandleColor:	1.00 0.10 0.60	# selected handle for direct manip.
+PeanutColor:		0.60 0.40 0.25	# peanut color for orientation picking
+LabelColor:		1.00 1.00 1.00	# labels in viewports
+SelectedLabelColor:	1.00 1.00 0.00	# labels in the selected viewport
+SnapshotColor:		0.4  0.4  0.4   # viewport snapshot color		
+OverlayLabelColor:	1.00 0.00 1.00	# overlay labels in view
+AuxOverlayLabelColor:	1.00 1.00 1.00	# auxiliary overlay labels in view
+HandlePivotColor:	0.45 0.00 0.90	# the pivot of handles
+HandleAxisColor:	1.00 1.00 1.00	# axis lines for the handle
+CPlaneHandleXlateColor: 0.45 0.00 0.90  # translate axes of c-plane handle
+CPlaneHandleRotateColor: 0.65 0.15 0.25 # rotate portion on c-plane handle
+CPlaneHandleBorderColor: 0.45 0.00 0.90 # scale border on c-plane handle
+OrthoGridColor:		0.55 0.55 0.55	# ortho viewport grid lines
+OrthoGridOriginColor:	0.48 0.48 0.48	# ortho viewport origin lines
+UVGridColor:		0.55 0.55 0.55	# uv viewport grid lines
+UVGridOriginColor:	0.48 0.48 0.48	# uv viewport origin lines
+UVGridBoundaryColor:	0.50 0.50 0.50	# uv viewport boundary lines
+ObjectSelectColor:	1.00 1.00 0.00	# object selection highlight color
+ObjectCurrentColor:	1.00 0.85 0.00	# current object highlight color
+ObjectSelectHintColor:	0.80 0.80 0.00	# object selection hint highlight color
+UVBackFaceFillColor:	0.90 0.50 0.90	# fill color for back facing polys
+SelectedUVBackFaceFillColor:	0.90 0.65 0.90	# the selected version
+IKCriticalZoneColor:	0.98 0.35 0.20	# inv. kin. danger zone cone
+ViewMaskOverlayColor:	0.10 0.10 0.10	# view mask overlay
