@@ -1,0 +1,22 @@
+# Defaults settings for a new Composite Project
+# These settings are saved in the .hip file, so these
+# settings apply to new projects only.
+# This are saved from the Settings->Composite Project dialog.
+
+xres         := 256;
+yres         := 256;
+pixel.aspect := 1;
+depth        := 4;
+black.point  := 0;
+white.point  := 1;
+
+# The following applies to the File COP only
+file.res           := 1;
+file.depth         := 1;
+file.last.filename := 1;
+
+# Enables Large Canvas
+large.canvas := 1;
+
+# Default project proxy level
+proxy.zoom.level  := full;

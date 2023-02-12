@@ -1,0 +1,6 @@
+activeParameter := 0;
+helpTags        := 1;
+startupHelp     := 0;
+freezeGUI       := 1;
+autoIncrement   := 2;
+autoSaveIncrement   := 2;

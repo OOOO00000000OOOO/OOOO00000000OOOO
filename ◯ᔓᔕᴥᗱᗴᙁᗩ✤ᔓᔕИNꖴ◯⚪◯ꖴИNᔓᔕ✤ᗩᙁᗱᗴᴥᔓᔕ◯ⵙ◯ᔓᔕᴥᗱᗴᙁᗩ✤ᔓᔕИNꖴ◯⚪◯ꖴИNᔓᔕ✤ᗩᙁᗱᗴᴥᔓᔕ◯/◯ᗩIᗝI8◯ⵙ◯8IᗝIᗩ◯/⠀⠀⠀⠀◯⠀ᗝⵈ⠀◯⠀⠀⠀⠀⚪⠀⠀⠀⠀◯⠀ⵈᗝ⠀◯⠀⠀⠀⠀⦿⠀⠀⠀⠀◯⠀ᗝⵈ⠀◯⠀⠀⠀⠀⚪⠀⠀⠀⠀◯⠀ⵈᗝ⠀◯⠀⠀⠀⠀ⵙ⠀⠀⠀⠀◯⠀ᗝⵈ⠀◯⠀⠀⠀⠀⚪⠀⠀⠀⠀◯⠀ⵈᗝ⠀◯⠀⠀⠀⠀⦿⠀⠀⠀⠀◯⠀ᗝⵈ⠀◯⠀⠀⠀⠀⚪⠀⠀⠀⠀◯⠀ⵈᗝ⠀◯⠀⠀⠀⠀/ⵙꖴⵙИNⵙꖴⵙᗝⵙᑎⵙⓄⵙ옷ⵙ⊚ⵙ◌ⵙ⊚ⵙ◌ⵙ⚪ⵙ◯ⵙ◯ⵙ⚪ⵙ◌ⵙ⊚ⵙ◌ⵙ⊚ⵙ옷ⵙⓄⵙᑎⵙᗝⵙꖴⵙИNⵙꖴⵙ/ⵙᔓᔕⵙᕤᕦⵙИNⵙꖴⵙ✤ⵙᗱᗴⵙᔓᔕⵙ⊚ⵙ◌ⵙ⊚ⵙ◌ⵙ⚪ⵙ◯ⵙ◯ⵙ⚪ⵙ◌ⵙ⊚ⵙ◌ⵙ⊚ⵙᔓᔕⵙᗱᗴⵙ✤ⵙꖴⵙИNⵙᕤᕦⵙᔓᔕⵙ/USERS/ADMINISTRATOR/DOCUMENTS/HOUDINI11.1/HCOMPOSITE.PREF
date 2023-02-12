@@ -1,0 +1,60 @@
+# Houdini Integrated Compositor preferences
+
+cache.size			:= 2048;
+cache.useperformance		:= 1;
+cache.inactive.reduce		:= 1;
+cache.inactive.size		:= 256;
+tile.sizeX			:= 256;
+tile.sizeY			:= 256;
+cache.maxresx			:= 10000;
+cache.maxresy			:= 10000;
+
+cook.multithreaded		:= 1;
+cook.numthreads			:= 2;
+cook.usegpu			:= 1;
+cook.collapsible		:= 1;
+cook.cookonstart		:= 1;
+cook.usefastinteractive		:= 1;
+cook.usefastonslowonly		:= 0;
+cook.interactivefraction	:= 4;
+cook.fastminxres		:= 256;
+cook.fastminyres		:= 256;
+cook.progress			:= 2;
+cook.imageupdatestyle		:= 1;
+
+colorname.val			:= "C";
+alphaname.val			:= "A";
+maskname.val			:= "M";
+depthname.val			:= "Pz";
+lumname.val			:= "L";
+pointname.val			:= "P";
+normalname.val			:= "N";
+
+selector.placecurrent		:= 0;
+selector.newviewforgens		:= 0;
+selector.nogeninputs		:= 0;
+selector.nooptional		:= 0;
+
+color.enable			:= 1;
+generator.enable		:= 1;
+generator.r			:= 1;
+generator.g			:= 1;
+generator.b			:= 1;
+pixel.enable			:= 1;
+pixel.r				:= 1;
+pixel.g				:= 1;
+pixel.b				:= 1;
+timing.enable			:= 1;
+timing.r			:= 1;
+timing.g			:= 1;
+timing.b			:= 1;
+vex.enable			:= 1;
+vex.r				:= 1;
+vex.g				:= 1;
+vex.b				:= 1;
+
+cineon.convert			:= 0;
+cineon.lutfile			:= "";
+cineon.white			:= 685;
+cineon.gamma			:= 0.6;
+cineon.iwhite			:= 95;

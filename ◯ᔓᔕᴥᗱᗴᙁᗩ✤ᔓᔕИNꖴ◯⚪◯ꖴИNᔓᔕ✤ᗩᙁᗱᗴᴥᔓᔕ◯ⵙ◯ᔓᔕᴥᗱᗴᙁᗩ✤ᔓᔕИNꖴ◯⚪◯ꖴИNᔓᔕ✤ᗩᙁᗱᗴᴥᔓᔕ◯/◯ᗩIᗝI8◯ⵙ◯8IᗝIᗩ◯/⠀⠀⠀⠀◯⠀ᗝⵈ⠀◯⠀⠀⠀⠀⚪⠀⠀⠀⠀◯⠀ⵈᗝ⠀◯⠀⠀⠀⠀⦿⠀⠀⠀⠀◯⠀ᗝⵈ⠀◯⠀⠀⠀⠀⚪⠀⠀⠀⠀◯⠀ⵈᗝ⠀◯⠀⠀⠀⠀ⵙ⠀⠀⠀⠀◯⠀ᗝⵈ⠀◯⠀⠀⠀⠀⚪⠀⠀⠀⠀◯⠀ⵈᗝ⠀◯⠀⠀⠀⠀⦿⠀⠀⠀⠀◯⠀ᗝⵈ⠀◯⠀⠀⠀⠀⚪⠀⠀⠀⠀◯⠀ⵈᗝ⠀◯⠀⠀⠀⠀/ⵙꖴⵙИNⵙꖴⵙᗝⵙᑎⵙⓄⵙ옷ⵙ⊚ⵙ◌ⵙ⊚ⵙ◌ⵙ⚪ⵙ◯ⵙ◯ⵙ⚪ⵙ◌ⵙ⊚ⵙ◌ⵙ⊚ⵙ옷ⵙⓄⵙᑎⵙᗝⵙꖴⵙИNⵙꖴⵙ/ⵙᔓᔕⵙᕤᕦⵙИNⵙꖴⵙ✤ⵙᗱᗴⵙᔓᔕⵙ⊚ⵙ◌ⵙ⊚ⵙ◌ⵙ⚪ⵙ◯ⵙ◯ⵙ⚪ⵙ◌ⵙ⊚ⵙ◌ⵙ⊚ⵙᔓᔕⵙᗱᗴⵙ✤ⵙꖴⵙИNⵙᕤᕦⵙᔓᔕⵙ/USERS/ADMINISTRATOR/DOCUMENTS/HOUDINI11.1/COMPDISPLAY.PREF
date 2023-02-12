@@ -1,0 +1,52 @@
+# Compositor viewer and mplay display preferences
+
+display.dither		:= 1;
+display.intscale	:= 0;
+display.force8bit	:= 0;
+display.mipmap		:= 0;
+display.fragmentshaders := 0;
+display.fragment16	:= 1;
+display.hardaccel	:= 1;
+display.hardlut	:= 0;
+display.components	:= 2;
+display.uselumsingle   := 1;
+display.popwindow	:= 1;
+display.renderover	:= 1;
+display.fastaspect	:= 1;
+
+viewport.mode		:= 1;
+viewport.layouthorz	:= 1;
+viewport.showalways	:= 1;
+viewport.r		:= 1;
+viewport.g		:= 1;
+viewport.b		:= 1;
+viewport.x		:= 2;
+viewport.y		:= 2;
+viewport.infolevel	:= 2;
+viewport.guide		:= "";
+viewport.s3dformat	:= 0;
+
+background.premult	:= 1;
+background.filename	:= "";
+background.scale	:= 0;
+background.resx		:= 256;
+background.resy		:= 256;
+
+correct.displaylut	:= "";
+correct.inspectlut	:= "";
+correct.gamma		:= 1;
+correct.gammascope	:= "C Left Right";
+correct.bggamma	:= 0;
+correct.prebright	:= 0;
+
+handle.smooth		:= 1;
+handle.blend		:= 1;
+handle.pick		:= 6;
+handle.r		:= 0.8;
+handle.g		:= 0.8;
+handle.b		:= 0.8;
+handles.follow	:= 1;
+
+memory.limit		:= 1;
+memory.size		:= 10;
+memory.compression	:= 0;
