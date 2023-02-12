@@ -159,12 +159,12 @@ ScrollbarWell:	WHITE
 ScrollbarWellShadow1:	WHITE
 ScrollbarWellShadow2:	WHITE
 ScrollbarWellShadow3:	WHITE
-ScrollbarWellShadowBlend12:	GREY(0.526)
-ScrollbarWellShadowBlend13:	GREY(0.535)
-ScrollbarWellShadowBlend22:	GREY(0.562)
-ScrollbarWellShadowBlend23:	GREY(0.590)
-ScrollbarWellShadowBlend32:	GREY(0.590)
-ScrollbarWellShadowBlend33:	GREY(0.629)
+ScrollbarWellShadowBlend12:		WHITE
+ScrollbarWellShadowBlend13:		WHITE
+ScrollbarWellShadowBlend22:		WHITE
+ScrollbarWellShadowBlend23:		WHITE
+ScrollbarWellShadowBlend32:		WHITE
+ScrollbarWellShadowBlend33:		WHITE
 
 ScrollbarThumbTopBorder:	BORDERBASE
 ScrollbarThumbBottomBorder:	SHADOW4
