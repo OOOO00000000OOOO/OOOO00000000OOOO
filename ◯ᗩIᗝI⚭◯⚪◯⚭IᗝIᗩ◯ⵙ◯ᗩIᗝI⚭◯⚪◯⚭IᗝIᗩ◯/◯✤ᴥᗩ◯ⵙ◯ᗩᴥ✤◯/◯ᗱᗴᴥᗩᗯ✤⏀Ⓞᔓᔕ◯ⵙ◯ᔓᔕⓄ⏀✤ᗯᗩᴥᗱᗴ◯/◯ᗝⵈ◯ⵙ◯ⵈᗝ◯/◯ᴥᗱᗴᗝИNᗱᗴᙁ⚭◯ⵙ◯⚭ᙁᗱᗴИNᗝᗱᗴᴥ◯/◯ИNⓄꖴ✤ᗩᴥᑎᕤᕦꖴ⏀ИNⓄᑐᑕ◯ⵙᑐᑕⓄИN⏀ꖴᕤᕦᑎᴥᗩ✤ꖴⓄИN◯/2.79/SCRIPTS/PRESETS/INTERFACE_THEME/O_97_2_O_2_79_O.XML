@@ -13,7 +13,7 @@
           <ThemeWidgetColors outline="#aaaaaa"
                              inner="#ffffffff"
                              inner_sel="#f0f0f0ff"
-                             item="#f8f8f8ff"
+                             item="#d5d5d5ff"
                              text="#676767"
                              text_sel="#000000"
                              show_shaded="FALSE"
