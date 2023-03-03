@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1675264440173,
-  "version": "1.46.0",
+  "timeStamp": 1677853497057,
+  "version": "1.47.2",
   "userSettings": {
     "advancedUserEnabled": true,
     "cloudStorageEnabled": true,
@@ -12,7 +12,6 @@
       "https://filters.adtidy.org/extension/ublock/filters/3.txt"
     ],
     "popupPanelSections": 63,
-    "showIconBadge": false,
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
