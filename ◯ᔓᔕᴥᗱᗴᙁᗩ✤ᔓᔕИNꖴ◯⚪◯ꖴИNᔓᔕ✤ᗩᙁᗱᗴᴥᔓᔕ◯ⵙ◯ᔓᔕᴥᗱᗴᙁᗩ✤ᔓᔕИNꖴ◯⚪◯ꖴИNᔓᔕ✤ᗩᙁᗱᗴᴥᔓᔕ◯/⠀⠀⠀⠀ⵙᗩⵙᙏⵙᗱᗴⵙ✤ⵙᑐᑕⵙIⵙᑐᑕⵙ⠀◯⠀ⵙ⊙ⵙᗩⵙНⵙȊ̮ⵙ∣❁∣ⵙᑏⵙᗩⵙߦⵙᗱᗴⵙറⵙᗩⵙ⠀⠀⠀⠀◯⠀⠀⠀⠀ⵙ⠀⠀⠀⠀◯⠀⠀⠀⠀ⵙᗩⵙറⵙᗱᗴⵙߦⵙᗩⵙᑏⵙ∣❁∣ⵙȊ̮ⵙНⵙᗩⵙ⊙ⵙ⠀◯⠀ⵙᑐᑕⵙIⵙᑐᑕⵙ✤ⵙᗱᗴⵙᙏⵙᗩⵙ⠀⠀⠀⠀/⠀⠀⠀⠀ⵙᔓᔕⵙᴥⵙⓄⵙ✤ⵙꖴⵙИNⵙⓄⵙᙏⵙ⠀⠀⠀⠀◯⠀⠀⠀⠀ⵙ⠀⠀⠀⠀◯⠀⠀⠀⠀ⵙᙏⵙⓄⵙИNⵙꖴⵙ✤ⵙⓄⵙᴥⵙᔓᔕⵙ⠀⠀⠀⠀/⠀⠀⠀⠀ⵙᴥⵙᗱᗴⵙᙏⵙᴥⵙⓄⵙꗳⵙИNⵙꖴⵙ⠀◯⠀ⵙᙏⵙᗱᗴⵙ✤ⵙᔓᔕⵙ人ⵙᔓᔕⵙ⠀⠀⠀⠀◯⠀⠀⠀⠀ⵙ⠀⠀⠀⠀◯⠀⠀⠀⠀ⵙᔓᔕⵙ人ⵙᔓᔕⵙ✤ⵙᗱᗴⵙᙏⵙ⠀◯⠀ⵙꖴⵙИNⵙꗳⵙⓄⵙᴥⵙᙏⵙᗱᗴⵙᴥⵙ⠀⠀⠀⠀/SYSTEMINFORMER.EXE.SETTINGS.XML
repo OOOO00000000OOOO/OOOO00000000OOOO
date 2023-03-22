@@ -80,8 +80,8 @@
 <setting name="HideDefaultServices">0</setting>
 <setting name="HideDriverServices">0</setting>
 <setting name="HideFreeRegions">1</setting>
-<setting name="HideOnClose">0</setting>
-<setting name="HideOnMinimize">0</setting>
+<setting name="HideOnClose">1</setting>
+<setting name="HideOnMinimize">1</setting>
 <setting name="HideOtherUserProcesses">0</setting>
 <setting name="HideSignedProcesses">0</setting>
 <setting name="HideMicrosoftProcesses">0</setting>
@@ -94,8 +94,8 @@
 <setting name="IconSettings">2|1||3|1||4|1||1|1|ProcessHacker.ExtendedTools|2|1|ProcessHacker.ExtendedTools|3|1|ProcessHacker.ExtendedTools</setting>
 <setting name="IconNotifyMask">0</setting>
 <setting name="IconProcesses">10000</setting>
-<setting name="IconSingleClick">0</setting>
-<setting name="IconTogglesVisibility">0</setting>
+<setting name="IconSingleClick">1</setting>
+<setting name="IconTogglesVisibility">1</setting>
 <setting name="IconTransparencyEnabled">0</setting>
 <setting name="InformationWindowPosition">0,0</setting>
 <setting name="InformationWindowSize">@96|140,190</setting>
