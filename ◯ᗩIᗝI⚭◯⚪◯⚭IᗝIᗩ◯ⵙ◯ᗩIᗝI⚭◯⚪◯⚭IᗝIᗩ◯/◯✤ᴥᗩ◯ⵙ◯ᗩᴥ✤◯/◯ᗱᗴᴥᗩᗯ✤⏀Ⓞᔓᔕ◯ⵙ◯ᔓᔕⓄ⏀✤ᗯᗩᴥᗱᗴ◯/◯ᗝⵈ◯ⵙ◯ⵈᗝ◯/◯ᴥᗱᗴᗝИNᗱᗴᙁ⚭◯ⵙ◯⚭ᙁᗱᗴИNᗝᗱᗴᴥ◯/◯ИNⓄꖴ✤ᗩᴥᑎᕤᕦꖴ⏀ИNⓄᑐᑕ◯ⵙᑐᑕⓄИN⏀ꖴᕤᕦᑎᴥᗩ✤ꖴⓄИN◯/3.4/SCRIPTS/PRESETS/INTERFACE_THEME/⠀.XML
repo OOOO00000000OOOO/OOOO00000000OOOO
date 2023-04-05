@@ -319,11 +319,11 @@
         <wcol_view_item>
           <ThemeWidgetColors
             outline="#2d2d2d"
-            inner="#303030ff"
-            inner_sel="#4772b3ff"
-            item="#4772b3ff"
-            text="#cccccc"
-            text_sel="#ffffff"
+            inner="#dfdfdfff"
+            inner_sel="#f0f0f0ff"
+            item="#ccccccff"
+            text="#606060"
+            text_sel="#606060"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
@@ -371,10 +371,10 @@
         wire="#bfbfbf"
         wire_edit="#606060"
         gp_vertex="#606060"
-        gp_vertex_select="#efefef"
+        gp_vertex_select="#f0f0f0"
         gp_vertex_size="4"
         text_grease_pencil="#606060"
-        object_selected="#efefef"
+        object_selected="#f0f0f0"
         object_active="#dfdfdf"
         text_keyframe="#606060"
         camera="#606060"
@@ -394,8 +394,8 @@
         edge_bevel="#606060"
         edge_facesel="#606060"
         freestyle_edge_mark="#606060"
-        face="#efefef80"
-        face_select="#55555555"
+        face="#f0f0f039"
+        face_select="#55555539"
         face_dot="#606060"
         facedot_size="4"
         freestyle_face_mark="#60606033"
@@ -419,7 +419,7 @@
         extra_edge_angle="#606060"
         extra_face_angle="#606060"
         extra_face_area="#606060"
-        editmesh_active="#bfbfbfff"
+        editmesh_active="#cfcfcfff"
         normal="#606060"
         vertex_normal="#606060"
         split_normal="#606060"
@@ -1378,7 +1378,7 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#303030"
+            list="#000000"
             list_title="#c3c3c3"
             list_text="#b8b8b8"
             list_text_hi="#ffaf23"
@@ -1605,7 +1605,7 @@
   <ThemeStyle>
     <panel_title>
       <ThemeFontStyle
-        points="10"
+        points="13"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1616,7 +1616,7 @@
     </panel_title>
     <widget_label>
       <ThemeFontStyle
-        points="10"
+        points="13"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1627,7 +1627,7 @@
     </widget_label>
     <widget>
       <ThemeFontStyle
-        points="10"
+        points="13"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
