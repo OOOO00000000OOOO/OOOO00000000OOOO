@@ -924,3 +924,33 @@ padding-bottom: 0px;
 
 
 /*** End of: Megabar Styler One-Offs ***/
+
+
+
+
+
+
+
+
+#nav-bar { height:16px!important; padding-top:0px!important; padding-bottom:0px!important; }
+#urlbar-container #back-button {padding-top:0px !important; padding-bottom:0px !important;}
+#urlbar-container #back-button image { padding:0px !important; }
+
+/* Tab bar: adjust height - chrome://browser/skin/browser.css */
+#tabbrowser-tabs,
+.tab-background-start[selected=true]::after,
+.tab-background-start[selected=true]::before,
+.tab-background-start,
+.tab-background-end,
+.tab-background-end[selected=true]::after,
+.tab-background-end[selected=true]::before {
+  min-height: 16px!important;
+}
+#tabbrowser-tabs {height:16px!important;}
+#tabbrowser-tabs toolbar button > .toolbarbutton-icon {padding-bottom:0px!important}
+
+#PersonalToolbar  { height:16px !important; }
+#personal-bookmarks { min-height:16px !important; }
+#personal-bookmarks  toolbarbutton      {padding:0px 0px!important;}
+#personal-bookmarks .toolbarbutton-icon {margin: 0px 0px 0px 0px !important;}
+#personal-bookmarks .toolbarbutton-text {margin: 0px 0px 0px 0px !important;}
