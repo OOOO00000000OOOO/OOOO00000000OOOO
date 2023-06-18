@@ -1,0 +1,926 @@
+@namespace url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
+@namespace htmlNs url('http://www.w3.org/1999/xhtml');
+
+// #region Features
+
+$feature-floating: true !default;
+$feature-floating-alignment: bottom !default;
+$feature-floating-distance: 18px !default;
+
+$feature-buttons: true !default;
+$feature-buttons-grouped: true !default;
+
+// #endregion
+
+$space-unit: 8px;
+
+%bordered-control {
+border: 1px solid ThreeDShadow;
+}
+
+findbar {
+position: absolute;
+contain: content;
+border: 1px solid var(--chrome-content-separator-color);
+
+@if $feature-floating {
+right: $feature-floating-distance;
+#{$feature-floating-alignment}: $feature-floating-distance;
+transform-origin: #{$feature-floating-alignment} center;
+border-radius: var(--toolbarbutton-border-radius);
+} @else {
+border-bottom-left-radius: var(--toolbarbutton-border-radius);
+border-bottom-right-radius: var(--toolbarbutton-border-radius);
+border-top-width: 0 !important;
+top: -1px;
+right: 44px;
+transform-origin: top center;
+}
+
+animation: 0.1s keyframes-scale-in;
+
+&[hidden='true'] {
+animation: 0.1s keyframes-scale-out;
+}
+
+checkbox {
+margin: 0 !important;
+
+@if $feature-buttons {
+@extend %bordered-control;
+
+@if $feature-buttons-grouped {
+&:not(:last-of-type) {
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+&:not(:first-of-type) {
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+
+border-left-width: 0;
+}
+} @else {
+&:not(:first-of-type) {
+margin-inline-start: $space-unit !important;
+}
+}
+
+padding: 3px 6px;
+border-radius: var(--toolbarbutton-border-radius);
+
+color: var(--button-color);
+background-color: var(--button-bgcolor);
+
+&:hover {
+background-color: var(--button-hover-bgcolor);
+}
+
+&:active {
+background-color: var(--button-active-bgcolor);
+}
+
+&[checked='true'] {
+color: var(--button-primary-color);
+background-color: var(--button-primary-bgcolor);
+
+&:hover {
+background-color: var(--button-primary-hover-bgcolor);
+}
+
+&:active {
+background-color: var(--button-primary-active-bgcolor);
+}
+}
+
+&:focus-visible {
+outline: var(--focus-outline);
+outline-offset: var(--focus-outline-inset);
+}
+
+.checkbox-check {
+display: none;
+}
+} @else {
+&:not(:first-of-type) {
+margin-inline-start: $space-unit !important;
+}
+}
+}
+
+[anonid='findbar-textbox-wrapper'] {
+margin-inline-end: $space-unit * if($feature-buttons, 1, 2) !important;
+
+htmlNs|input {
+@extend %bordered-control;
+
+@if $feature-buttons and $feature-buttons-grouped {
+border-top-right-radius: 0 !important;
+border-bottom-right-radius: 0 !important;
+}
+}
+
+toolbarbutton {
+@extend %bordered-control;
+
+color: var(--button-color);
+background-color: var(--button-bgcolor);
+border-width: 1px !important;
+
+margin-inline: 0 !important;
+
+@if $feature-buttons and $feature-buttons-grouped {
+&:last-of-type {
+border-top-left-radius: 0 !important;
+border-bottom-left-radius: 0 !important;
+}
+&:not(:last-of-type) {
+border-radius: 0 !important;
+border-right-width: 0 !important;
+}
+}
+}
+}
+
+.findbar-label {
+margin: 0 !important;
+margin-inline-start: $space-unit !important;
+}
+
+description.findbar-label:empty {
+display: none;
+}
+}
+
+@keyframes keyframes-scale-in {
+0% {
+transform: scaleY(0);
+}
+100% {
+transform: scaleY(1);
+}
+}
+
+@keyframes keyframes-scale-out {
+0% {
+transform: scaleY(1);
+}
+100% {
+transform: scaleY(0);
+}
+}
+
+:root{
+  --toolbarbutton-inner-padding:0px !important;
+  --tab-min-height: 16px !important;
+}
+.titlebar-button{ padding-block: 0px !important; }
+#urlbar-container, #search-container{ padding-block: 1px !important; }
+
+#titlebar{ -moz-appearance:none !important; }
+:root[sizemode="maximized"] #navigator-toolbox{ margin-top: 0px }
+
+/* ROOT - VARS */
+*|*:root {
+ --tab-min-height:      16px !important; /* adjust */
+ --tab-min-width:       1px !important; /* adjust */
+}
+
+/* TABS: height */
+#tabbrowser-tabs,
+#tabbrowser-tabs > #tabbrowser-arrowscrollbox,
+.tabbrowser-tabs .tabbrowser-tab {
+  min-height: var(--tab-min-height) !important;
+  max-height: var(--tab-min-height) !important;
+}
+
+:root {
+  --tab-max-height: 16px !important;
+  --tab-min-height: 0 !important;
+  --urlbar-toolbar-height: var(--tab-max-height) !important;
+}
+
+/* Bar resizing */
+#nav-bar,
+.toolbar-items,
+.titlebar-buttonbox-container,
+.tab-content,
+.tab-background,
+.tab-label-container {
+  height: var(--tab-max-height);
+}
+.tab-background {
+  margin: 0 !important;
+}
+.tab-secondary-label {
+  font-size: .5em !important;
+  margin: -.6em 0 .5em !important;
+}
+
+/* Selection highlight */
+#nav-bar toolbaritem,
+#nav-bar toolbarbutton {
+  --focus-outline: none;
+  --slimbar-highlight-color: color-mix(in srgb, var(--lwt-toolbar-field-highlight) 40%, var(--toolbar-bgcolor));
+  /* --toolbar-field-focus-background-color: var(--slimbar-highlight-color); */
+}
+#nav-bar toolbaritem:focus-visible,
+#nav-bar toolbarbutton:focus-visible,
+#nav-bar toolbaritem #identity-icon-box:focus-visible,
+#nav-bar toolbaritem #star-button-box:focus-visible,
+#nav-bar toolbaritem .unified-extensions-item-action-button:focus-visible {
+  background-color: var(--slimbar-highlight-color) !important;
+}
+
+/*----------------------------------------------------------
+Tabs to Bottom
+source: https://github.com/Arty2/userstyles/blob/master/tabs_to_bottom.userchrome.css
+
+UI model:
+	#navigator-toolbox-background
+		#navigator-toolbox
+			#titlebar
+				#toolbar-menubar
+				#TabsToolbar
+			#nav-bar
+			#PersonalToolbar
+	#browser
+*/
+
+/* bring the browser window to the top */
+#browser {
+	-moz-box-ordinal-group: 0 !important;
+	order: 0 !important;
+}
+
+#navigator-toolbox-background {
+	-moz-box-ordinal-group: 1 !important;
+	order: 1 !important;
+}
+
+/* adjust paddings */
+*|*:root[sizemode="normal"] #browser {
+	padding-top: 0 !important;
+}
+
+/* hide tab toolbar when fullscreen */
+#nav-bar[inFullscreen],
+#TabsToolbar[inFullscreen] {
+	display: none;
+}
+
+/* restore top border */
+*|*:root[sizemode="normal"] #browser {
+	border-top: .0px solid AccentColor !important;
+}
+*|*:root[sizemode="normal"]:-moz-window-inactive #browser {
+	border-top-color: rgb(238,238,238) !important;
+}
+
+/* make toolbar border persist on fullscreen */
+*|*:root[sizemode="maximized"] #navigator-toolbox {
+  border-top: .0px solid AccentColor !important;
+  border-bottom: .0px solid AccentColor !important;
+}
+
+/* hide titlebar buttons */
+#TabsToolbar > .titlebar-buttonbox-container {
+	display: none !important;
+}
+
+/*fix pop-ups opening below window*/
+#urlbar[open]{
+  display: flex !important;
+  flex-direction: column-reverse; /* use 'column' if you want to type the URL in center*/
+  bottom: -2px !important;
+  top: auto !important;
+}
+/*.urlbarView-body-inner { border-top: none !important; }*/
+/*.urlbarView { display: none !important; }*/ /* uncomment this to hidden address bar suggestions */
+
+
+
+/* Removes text from tabs */
+.tabbrowser-tab .tab-label {
+	display:none !important;
+}
+
+/* Resizes tabs to minimum width */
+.tabbrowser-tab:not([pinned]) {
+	max-width: 16px !important;
+	min-width: 16px !important;
+}
+
+.tabbrowser-tab[pinned],
+.tabs-newtab-button {
+  max-width: 16px !important;
+  min-width: 16px !important;
+}
+
+.tabbrowser-tab[pinned=true] .tab-throbber,
+.tabbrowser-tab[pinned=true] .tab-icon-image {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+
+/* Tabs */
+.tabbrowser-tab[pinned] {
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+ * SETUP:
+ * Must go to about:config and change browser.tabs.tabMinWidth to 0. -> this is no longer needed (last checked January 2023)
+ */
+
+
+/* General Rules */
+#main-window:not(#f) .tabbrowser-tab {
+   -moz-box-sizing: border-box !important;
+   height: 16px !important;
+   vertical-align: top !important;
+}
+
+#tabbrowser-tabs .arrowscrollbox-scrollbox {
+  /* overflow: visible !important; */
+  display: block;
+}
+
+.tabbrowser-tab,
+.tab-background {
+  height: var(--tab-min-height);
+}
+
+.tab-stack .tab-content {
+  padding: 0 0px !important;
+}
+
+.tabbrowser-tab:not([pinned]) {
+ min-width: 16px !important;
+ max-width: 16px !important;
+}
+.tabbrowser-tab:not([pinned]):not([fadein]) {
+ max-width: 16px !important;
+ min-width: 16px !important;
+}
+
+/* Pinned Tabs Rules */
+.tabbrowser-tab[pinned][selected] .tab-content:after{
+  /*display: none;*/
+  border-color: var(--tab-line-color) transparent transparent transparent;
+}
+
+.tabbrowser-tab[pinned][selected] .tab-line {
+  display: none !important;
+}
+
+.tabbrowser-tab[pinned] .tab-content {
+  position: relative;
+}
+
+.tabbrowser-tab[pinned] .tab-content:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0px 0 0;
+  border-color: #ffffff transparent transparent transparent;
+  opacity: 0.9;
+}
+
+/* NonPinned Tabs Rules */
+.tab-icon-image:not([pinned]) {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.tab-label-container {
+  display: none;
+}
+
+.tab-close-button {
+  display: none;
+}
+
+/* THIS IS OTHER STUFF - NOT BEING USED BUT HELPED WITH OVERFLOW ISSUES */
+
+/* #main-window:not(#f) .tabbrowser-tab:not([pinned]) {
+   width: auto !important;
+}
+#main-window:not(#f) .titlebar-button {
+   height: 16px !important;
+}
+#main-window:not(#f) #titlebar-buttonbox,
+ .tabbrowser-arrowscrollbox scrollbox > box {
+   display: block !important;
+}
+#main-window:not(#f) #titlebar-buttonbox {
+   vertical-align: top !important;
+}
+.tabbrowser-arrowscrollbox scrollbox {
+   overflow: visible !important;
+}
+.tab-label-container[textoverflow]:not([pinned]) {
+   mask-image: unset !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** Megabar Styler General - version 2023-03-23 ***/
+
+
+
+  /*** General Preferences ***/
+
+  :root {
+
+    /* Number of pixels of enlargement when URL bar is focused */
+
+    --mbarstyler-popout-pixels: 0px; /* [0px - 7px] */
+
+
+
+    /* Top Bar Display or Not */
+
+    --mbarstyler-top-bar-display: none; /* [block,none] */
+
+
+
+    /* Font sizes (default: 13.8px for title, 10.2px for URL) */
+
+    --mbarstyler-title-font-size: 13px; /* [13px - 18px] */
+
+    --mbarstyler-url-font-size: 12px; /* [12px - 16px] */
+
+
+
+    /* Rows to show without scrolling */
+
+    --mbarstyler-max-rows-without-scrolling: 8;
+
+
+
+    /* Bottom border for each result row */
+
+    --mbarstyler-bottom-border-width: 0px; /* [0px or 1px] */
+
+
+
+    /* Height adjustment for labels (Proton) */
+
+    --mbarstyler-label-height-adjustment: /*[[labelheight]]*/; /* [0px or 35px] */
+
+   
+
+    /* Match display style */
+
+    --mbarstyler-match-weight: 400; /* [400,700] */
+
+    --mbarstyler-match-background-opacity: 0.05; /* [0.0,0.05,0.1] */
+
+  }
+
+
+
+  /*** URL bar enlargement or lack thereof ***/
+
+
+
+  /* Compute new position, width, and padding */
+
+  #urlbar[breakout][breakout-extend] {
+
+    top: calc(5px - var(--mbarstyler-popout-pixels) - 1px) !important; /* updated for Proton */
+
+    left: calc(0px - var(--mbarstyler-popout-pixels) + 1px) !important; /* updated for Proton */
+
+    width: calc(100% + (2 * var(--mbarstyler-popout-pixels)) - 2px) !important; /* updated for Proton */
+
+    padding: var(--mbarstyler-popout-pixels) !important;
+
+  }
+
+  [uidensity="compact"] #urlbar[breakout][breakout-extend] {
+
+    top: calc(3px - var(--mbarstyler-popout-pixels) + 1px) !important; /* updated for Proton */
+
+  }
+
+  [uidensity="touch"] #urlbar[breakout][breakout-extend] {
+
+    top: calc(4px - var(--mbarstyler-popout-pixels) + 1px) !important; /* updated for Proton */
+
+  }
+
+
+
+  /* Prevent shift of URL bar contents */
+
+  #urlbar[breakout][breakout-extend] > #urlbar-input-container {
+
+    height: var(--urlbar-height) !important;
+
+    padding: 0 !important;
+
+  }
+
+
+
+  /* Do not animate */
+
+  #urlbar[breakout][breakout-extend] > #urlbar-background {
+
+    animation: none !important;;
+
+  }
+
+
+
+  /* Remove shadows */
+
+  #urlbar[breakout][breakout-extend] > #urlbar-background {
+
+    box-shadow: none !important;
+
+  }
+
+
+
+  /*** Top "Blue Bar" Display ***/
+
+
+
+  .urlbarView-row:first-of-type {
+
+    display: var(--mbarstyler-top-bar-display) !important;
+
+  }
+
+
+
+  /*** Font Sizes and Scrolling ***/
+
+
+
+  /* Title font-size */
+
+  .urlbarView-row .urlbarView-title {
+
+    font-size: var(--mbarstyler-title-font-size) !important;
+
+  }
+
+
+
+  /* URL / action font-size */
+
+  .urlbarView-row .urlbarView-secondary,
+
+  .urlbarView-row .urlbarView-url,
+
+  .urlbarView-row .urlbarView-action {
+
+    font-size: var(--mbarstyler-url-font-size) !important;
+
+  }
+
+
+
+  /* Set max-height for items visible without scrolling */
+
+  #urlbarView-results, #urlbar-results {
+
+    height: unset !important;
+
+    max-height: calc(2.5 * (var(--mbarstyler-title-font-size) + var(--mbarstyler-bottom-border-width)) * var(--mbarstyler-max-rows-without-scrolling) + var(--mbarstyler-label-height-adjustment)) !important;
+
+  }
+
+  #urlbar-results {
+
+    overflow-y: auto !important; 
+
+  }
+
+
+
+  /* Clean up extra spacing at the top and bottom */  
+
+  #urlbar-results {
+
+    padding-top: 0 !important;
+
+    padding-bottom: 0 !important;
+
+  }
+
+  /* Clean up extra vertical spacing on "tip" suggestions, shrink icon */  
+
+  .urlbarView-row[type="tip"]{
+
+    padding-block: 0px !important;
+
+  }
+
+  .urlbarView-row[type="tip"] > .urlbarView-row-inner {
+
+    min-height: 0px !important;
+
+  }
+
+  .urlbarView-row[type="tip"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {
+
+    height: 16px !important;
+
+    width: 16px !important;
+
+	flex-basis: 16px !important;
+
+  }
+
+
+
+  /* Subtle border between results */
+
+  .urlbarView-row:not(:last-of-type) {
+
+    border-bottom: var(--mbarstyler-bottom-border-width) solid rgba(0, 0, 0, 0.1) !important;
+
+  }
+
+
+
+  /* Match Styling Like Fx43-47 */
+
+  [lwt-popup-darktext] .urlbarView-row:not([selected]) .urlbarView-title strong,
+
+  [lwt-popup-darktext] .urlbarView-row:not([selected]) .urlbarView-url strong {
+
+    font-weight: var(--mbarstyler-match-weight) !important;
+
+    box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, calc(var(--mbarstyler-match-background-opacity) * 2));
+
+    background-color: rgba(0, 0, 0, var(--mbarstyler-match-background-opacity));
+
+    border-radius: 2px;
+
+  }
+
+  [lwt-popup-brighttext] .urlbarView-row:not([selected]) .urlbarView-title strong,
+
+  [lwt-popup-brighttext] .urlbarView-row:not([selected]) .urlbarView-url strong {
+
+    font-weight: var(--mbarstyler-match-weight) !important;
+
+    box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, calc(var(--mbarstyler-match-background-opacity) * 2));
+
+    background-color: rgba(255, 255, 255, var(--mbarstyler-match-background-opacity));
+
+    border-radius: 2px;
+
+  }
+
+  /*[[labelhider]]*/
+
+/*** End of: Megabar Styler General ***/
+
+
+
+/*** Megabar Styler Two-Row Flex Layout - version 2021-09-09 ***/
+
+
+
+  /* !!! Requires variables from Megabar Styler General !!! */
+
+
+
+  /* Adjust heights for scrolling */
+
+  #urlbarView-results, #urlbar-results {
+
+    max-height: calc(1.625 * (var(--mbarstyler-title-font-size) + var(--mbarstyler-url-font-size) + var(--mbarstyler-bottom-border-width)) * var(--mbarstyler-max-rows-without-scrolling)) !important;
+
+  }
+
+    /* Wrap the url (adapted from Fx75 narrow bar design) */
+
+  .urlbarView-row-inner {
+
+    flex-wrap: wrap !important;
+
+    padding-block: 2px !important;
+
+  }
+
+  .urlbarView-no-wrap {
+
+    max-width: 100% !important;
+
+    flex-basis: 100% !important;
+
+    position: relative;
+
+  }
+
+    /* Remove Proton excess height from search suggestions */
+
+  :root:not([uidensity="compact"]) .urlbarView-row[type="search"]{
+
+    min-height: unset !important;
+
+  }
+
+
+
+  /* Adjust horizontal and vertical URL position */
+
+  .urlbarView-row[has-url] > .urlbarView-row-inner > .urlbarView-url {
+
+    padding-inline-start: calc(6px + 4px + /* favicon */ 16px) !important;
+
+    margin-top: calc(2px + (var(--mbarstyler-url-font-size) - var(--mbarstyler-title-font-size)));
+
+  }
+
+
+
+  /* Hide the separator if there's a URL */
+
+  .urlbarView[actionoverride] .urlbarView-row[has-url] .urlbarView-title-separator,
+
+  .urlbarView .urlbarView-row[has-url]:not([type$=tab]) .urlbarView-title-separator,
+
+  .urlbarView .urlbarView-row[type=remotetab]:-moz-any(:hover, [selected]) .urlbarView-title-separator {
+
+    display: none !important;
+
+  }
+
+
+
+  /* Move Switch Tab info to URL line :: added 2020-04-12 */
+
+
+
+    /* Make sure URL is always visible */
+
+    .urlbarView-row[type="switchtab"][has-url="true"] .urlbarView-url {
+
+      visibility: visible !important;
+
+    }
+
+    /* Show Switch to Tab or Open depending on [actionoverride] */
+
+    .urlbarView:not([actionoverride]) .urlbarView-row[type="switchtab"][has-url="true"] .urlbarView-url::before {
+
+      content: "Switch to Tab: ";
+
+      font-style: italic;
+
+      color: var(--urlbar-popup-action-color);
+
+    }
+
+    .urlbarView:not([actionoverride]) .urlbarView-row[type="switchtab"][has-url="true"][selected] .urlbarView-url::before {
+
+      color: HighlightText; /* 2020-05-31 improve visibility when selected */
+
+    }
+
+    .urlbarView[actionoverride] .urlbarView-row[type="switchtab"][has-url="true"] .urlbarView-url::before {
+
+      content: "Open: ";
+
+      font-style: italic;
+
+      color: var(--urlbar-popup-action-color);
+
+    }
+
+    .urlbarView[actionoverride] .urlbarView-row[type="switchtab"][has-url="true"][selected] .urlbarView-url::before {
+
+      color: HighlightText; /* 2020-05-31 improve visibility when selected */
+
+    }
+
+    /* Hide the existing Action phrase and separator */
+
+    .urlbarView-row[type="switchtab"][has-url="true"] .urlbarView-action,
+
+    .urlbarView-row[type="switchtab"][has-url="true"] .urlbarView-title-separator {
+
+      display: none !important;
+
+    }
+
+
+
+  /* A little more room for the address bar when drop-down is open :: added 2020-06-02 */
+
+
+
+  .urlbarView {
+
+    margin-block-start: 0 !important;
+
+  }
+
+
+
+/*** End of: Megabar Styler Two-Row Flex Layout ***/
+
+
+
+/*** Megabar Styler One-Offs - version 2020-05-31 ***/
+
+
+
+  /*** One-Off Search Button Preferences ***/
+
+  :root {
+
+    /* One-Offs Display or Not */
+
+    --mbarstyler-oneoffs-display: flex; /* [flex,none] */
+
+  }
+
+
+
+  /* Show or Hide the One-Offs Search Icon Bar */
+
+  #urlbar .search-one-offs:not([hidden]) {
+
+    display: var(--mbarstyler-oneoffs-display) !important;
+
+  }
+
+  /* Shorten the One-Offs Search Icon Bar Vertically */
+
+  #urlbar .search-one-offs:not([hidden]) {
+
+    padding-block: unset !important;
+
+  }
+
+  /* We don't need the text */
+
+  #urlbar .search-one-offs .search-panel-header {
+
+    display: none !important;
+
+  }
+
+
+
+/*** End of: Megabar Styler One-Offs ***/
