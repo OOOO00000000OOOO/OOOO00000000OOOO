@@ -1,88 +1,16 @@
-/*
-https://github.com/Arty2/userstyles
-@version      0.2.5
-
-1. Find your profile folder `about:support > Profile Folder > Open Folder` or locate the exact profile in use by visiting `about:profiles`.
-2. Create a folder named `chrome` then create a file named userChrome.css inside it and paste the following code.
-3. If userChrome.css doesn’t seem to work, open `about:config` and set `toolkit.legacyUserProfileCustomizations.stylesheets=true`.
-4. Restart Firefox.
-
-Other references:
-Firefox Support forum - Tabs below the URL bar: https://support.mozilla.org/en-US/kb/forum-response-tabs-below-url-bar
-Custom CSS tweaks for Firefox Quantum: https://github.com/Aris-t2/CustomCSSforFx
-*/
-
-/*----------------------------------------------------------
-Tabs to Bottom
-source: https://github.com/Arty2/userstyles/blob/master/tabs_to_bottom.userchrome.css
-
-UI model:
-	#navigator-toolbox-background
-		#navigator-toolbox
-			#titlebar
-				#toolbar-menubar
-				#TabsToolbar
-			#nav-bar
-			#PersonalToolbar
-	#browser
-*/
-
 /* bring the browser window to the top */
-#browser {
-	-moz-box-ordinal-group: 0 !important;
-	order: 0 !important;
-}
-
-#navigator-toolbox-background {
-	-moz-box-ordinal-group: 1 !important;
-	order: 1 !important;
-}
-
-/* adjust paddings */
-*|*:root[sizemode="normal"] #browser {
-	padding-top: 0 !important;
-}
-
-/* hide tab toolbar when fullscreen */
-#nav-bar[inFullscreen],
-#TabsToolbar[inFullscreen] {
-	display: none;
-}
-
-/* restore top border */
-*|*:root[sizemode="normal"] #browser {
-	border-top: 0.0px solid AccentColor !important;
-}
-*|*:root[sizemode="normal"]:-moz-window-inactive #browser {
-	border-top-color: rgb(238,238,238) !important;
-}
-
-/* make toolbar border persist on fullscreen */
-*|*:root[sizemode="maximized"] #navigator-toolbox {
-  border-top: 0.0px solid AccentColor !important;
-  border-bottom: 0.0px solid AccentColor !important;
-}
-
-/* hide titlebar buttons */
-#TabsToolbar > .titlebar-buttonbox-container {
-	display: none !important;
+#browser{-moz-box-ordinal-group:0!important;order:0!important;}
+#navigator-toolbox-background{-moz-box-ordinal-group: 1 !important;order: 1 !important;
 }
 
 /*fix pop-ups opening below window*/
 #urlbar[open]{
   display: flex !important;
   flex-direction: column-reverse; /* use 'column' if you want to type the URL in center*/
-  bottom: -2px !important;
+  bottom: -1px !important;
   top: auto !important;
 }
-/*.urlbarView-body-inner { border-top: none !important; }*/
-/*.urlbarView { display: none !important; }*/ /* uncomment this to hidden address bar suggestions */
-
-
-
-
-
-
+.urlbarView-body-inner { border-top: none !important; }
 
 :root{
 --toolbarbutton-outer-padding: 0 !important;
@@ -98,17 +26,59 @@ UI model:
 --urlbar-margin-inline: 0 !important;
 --urlbar-min-height: max(0px, 0em) !important;
 --tabs-navbar-shadow-size: 1px !important;
+--urlbarView-row-gutter: 0px !important;
+--urlbarView-favicon-width: 16px !important;
+--tab-shadow-max-size: 0px !important;
+}
+toolbar .toolbaritem-combined-buttons { margin-inline: 0px !important;}
+
+.toolbarbutton-badge {
+  box-sizing: content-box !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  background-color: #FFFFFFFF !important;
+  font-size: 8px !important;
+  font-weight: initial !important;
+  padding: 0px 0px 0px 0px !important;
+  color: #A8A8A8 !important;
+  text-shadow: black !important;
+  border-radius: 2px !important;
+  box-shadow: 0 1px 0 hsla(0, 100%, 100%, .2) inset,
+              0 -1px 0 hsla(0, 0%, 0%, .1) inset,
+              0 1px 0 hsla(206, 50%, 10%, .2);
+  margin: 0px 0px 0px !important;
+  margin-inline-end: 0px !important;
+  min-width: 0px !important;
+  max-width: 16px !important;
+  line-height: -moz-block-height !important;
+  text-align: center !important;
+  align-self:  center !important;
+  justify-self: center !important;
 }
 
+toolbar {
+  min-height: 0px !important;
+  max-height: 16px !important;
+}
+.titlebar-spacer[type="pre-tabs"],.titlebar-spacer[type="post-tabs"]{width:0px !important;}
 
 
+/* Status panel */
 
+#statuspanel-label {
+  margin: 0px !important;
+  padding: 0px 0px !important;
+  background-color: #FFFFFFFF !important;
+  border: 1px none RGBA(247,247,247,1.0) !important;
+  border-top-style: solid !important;
+  color: RGBA(167,167,167,1.0) !important;
+  text-shadow: none !important;
+}
 
-
-
-
-
-
+.tabbrowser-tab {
+  margin: 0 !important;
+  padding: 0 0px !important;
+}
 
 
 /* ROOT - VARS */
