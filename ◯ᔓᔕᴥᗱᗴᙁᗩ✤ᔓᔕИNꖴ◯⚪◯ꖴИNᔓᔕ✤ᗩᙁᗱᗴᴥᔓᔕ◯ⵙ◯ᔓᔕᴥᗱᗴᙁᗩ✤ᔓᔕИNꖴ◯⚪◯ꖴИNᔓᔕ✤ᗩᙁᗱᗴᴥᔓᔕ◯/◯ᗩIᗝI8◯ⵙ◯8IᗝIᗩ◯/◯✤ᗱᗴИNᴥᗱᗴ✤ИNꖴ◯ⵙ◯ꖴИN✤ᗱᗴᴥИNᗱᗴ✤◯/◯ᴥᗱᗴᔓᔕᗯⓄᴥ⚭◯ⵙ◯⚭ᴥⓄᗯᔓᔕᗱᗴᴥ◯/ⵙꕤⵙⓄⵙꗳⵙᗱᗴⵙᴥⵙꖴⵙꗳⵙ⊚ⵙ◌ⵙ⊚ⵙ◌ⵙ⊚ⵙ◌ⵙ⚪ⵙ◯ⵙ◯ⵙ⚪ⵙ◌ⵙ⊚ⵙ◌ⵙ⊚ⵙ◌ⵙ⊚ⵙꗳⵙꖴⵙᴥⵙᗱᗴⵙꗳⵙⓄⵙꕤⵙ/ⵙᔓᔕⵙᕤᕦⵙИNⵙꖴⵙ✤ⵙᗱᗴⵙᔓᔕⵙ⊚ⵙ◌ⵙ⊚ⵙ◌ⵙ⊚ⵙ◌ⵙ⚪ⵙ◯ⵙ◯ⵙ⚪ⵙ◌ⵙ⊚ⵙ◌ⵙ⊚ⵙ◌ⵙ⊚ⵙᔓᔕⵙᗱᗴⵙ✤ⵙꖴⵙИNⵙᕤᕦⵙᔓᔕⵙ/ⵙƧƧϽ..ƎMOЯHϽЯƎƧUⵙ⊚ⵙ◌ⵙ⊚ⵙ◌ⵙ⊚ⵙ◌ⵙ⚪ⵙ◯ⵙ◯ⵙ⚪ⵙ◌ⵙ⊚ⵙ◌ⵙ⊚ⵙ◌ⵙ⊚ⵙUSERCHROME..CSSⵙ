@@ -1,16 +1,37 @@
 /* bring the browser window to the top */
 #browser{-moz-box-ordinal-group:0!important;order:0!important;}
-#navigator-toolbox-background{-moz-box-ordinal-group: 1 !important;order: 1 !important;
-}
+#navigator-toolbox-background{-moz-box-ordinal-group:1!important;order:1!important;}
+
+#urlbar{--urlbar-height:16px!important;}
 
 /*fix pop-ups opening below window*/
-#urlbar[open]{
-  display: flex !important;
-  flex-direction: column-reverse; /* use 'column' if you want to type the URL in center*/
-  bottom: -1px !important;
-  top: auto !important;
+#urlbar[open]
+{
+width: -moz-available !important;
+display: flex !important;
+flex-direction: column-reverse; /* use 'column' if you want to type the URL in center*/
+bottom: -1px !important;
+top: auto !important;
 }
-.urlbarView-body-inner { border-top: none !important; }
+
+.urlbarView-body-inner { border-top: none !important;}
+.urlbarView-results
+{
+padding-block: 0px !important;
+white-space: nowrap !important;
+}
+.urlbarView-row-inner
+{
+padding-block: 0px !important;
+}
+
+:root toolbarbutton.bookmark-item{margin-inline:0px!important;}
+
+#personal-toolbar-empty-description,toolbarbutton.bookmark-item:not(.subviewbutton)
+{
+margin:0px!important;
+padding:var(--bookmark-block-padding) 0px !important;
+}
 
 :root{
 --toolbarbutton-outer-padding: 0 !important;
@@ -28,6 +49,7 @@
 --tabs-navbar-shadow-size: 1px !important;
 --urlbarView-row-gutter: 0px !important;
 --urlbarView-favicon-width: 16px !important;
+--urlbarView-result-button-size:16PX!important;
 --tab-shadow-max-size: 0px !important;
 }
 toolbar .toolbaritem-combined-buttons { margin-inline: 0px !important;}
@@ -97,11 +119,6 @@ toolbar {
 
 
 
-
-
-
-
-
  :root{
     --toolbarbutton-inner-padding:0px !important;
     --tab-min-height: 16px !important;
@@ -110,20 +127,14 @@ toolbar {
   #urlbar-container, #search-container{ padding-block: 0px !important; }
  
 
- 
 
-
-/* Removes text from tabs */
-.tabbrowser-tab .tab-label {
-	display:none !important;
-}
+.tab-label-container{display:none!important;}
 
 /* Resizes tabs to minimum width */
 .tabbrowser-tab{
 	max-width: 16px !important;
 	min-width: 16px !important;
 }
-
 
 
 .tabbrowser-tab .tab-close-button { display:none !important; }
