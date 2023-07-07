@@ -41,7 +41,7 @@ menupopup > menuitem, menupopup > menu{min-height:unset!IMPORTANT}
 #navigator-toolbox:-moz-any(.toolbarbutton-1, toolbarbutton.bookmark-item:not(.subviewbutton)){border-radius:256PX!IMPORTANT;}
 #tabbrowser-tabs{--tab-overflow-pinned-tabs-width:0px!IMPORTANT;}toolbar .toolbaritem-combined-buttons{margin-inline:0PX!IMPORTANT;}
 toolbarbutton menupopup[placespopup] > :is(menu, menuitem),.subview-subheader,panelview .toolbarbutton-1,.subviewbutton,.widget-overflow-list .toolbarbutton-1{min-height:0!IMPORTANT;}
-menu.bookmark-item,menuitem.bookmark-item{max-width:-moz-available!IMPORTANT;}
+menu.bookmark-item,menuitem.bookmark-item{max-width:-moz-available!IMPORTANT;}#urlbar-input,#urlbar-scheme,.searchbar-textbox{color:RGBA(167,167,167,1.0)!IMPORTANT;}
 .toolbarbutton-badge{background-color:#FFFFFFFF!IMPORTANT;font-size:8PX!IMPORTANT;font-weight:initial!IMPORTANT;padding:0PX 0PX 0PX 0PX!IMPORTANT;color:#A8A8A8!IMPORTANT;margin:0PX 0PX 0PX!IMPORTANT;min-width:0PX!IMPORTANT;max-width:16PX!IMPORTANT;align-self:center!IMPORTANT;justify-self:center!IMPORTANT;}
 toolbar{min-height:0PX!IMPORTANT;max-height:16PX!IMPORTANT;}#statuspanel-label{margin:0PX!IMPORTANT;padding:0PX 0PX!IMPORTANT;background-color:#FFFFFFFF!IMPORTANT;border:1PX NONE RGBA(247,247,247,1.0)!IMPORTANT;color:RGBA(167,167,167,1.0)!IMPORTANT;}
 .tabbrowser-tab{margin:0PX!IMPORTANT;padding:0PX 0PX!IMPORTANT;}.tab-label-container{display:NONE!IMPORTANT;}
