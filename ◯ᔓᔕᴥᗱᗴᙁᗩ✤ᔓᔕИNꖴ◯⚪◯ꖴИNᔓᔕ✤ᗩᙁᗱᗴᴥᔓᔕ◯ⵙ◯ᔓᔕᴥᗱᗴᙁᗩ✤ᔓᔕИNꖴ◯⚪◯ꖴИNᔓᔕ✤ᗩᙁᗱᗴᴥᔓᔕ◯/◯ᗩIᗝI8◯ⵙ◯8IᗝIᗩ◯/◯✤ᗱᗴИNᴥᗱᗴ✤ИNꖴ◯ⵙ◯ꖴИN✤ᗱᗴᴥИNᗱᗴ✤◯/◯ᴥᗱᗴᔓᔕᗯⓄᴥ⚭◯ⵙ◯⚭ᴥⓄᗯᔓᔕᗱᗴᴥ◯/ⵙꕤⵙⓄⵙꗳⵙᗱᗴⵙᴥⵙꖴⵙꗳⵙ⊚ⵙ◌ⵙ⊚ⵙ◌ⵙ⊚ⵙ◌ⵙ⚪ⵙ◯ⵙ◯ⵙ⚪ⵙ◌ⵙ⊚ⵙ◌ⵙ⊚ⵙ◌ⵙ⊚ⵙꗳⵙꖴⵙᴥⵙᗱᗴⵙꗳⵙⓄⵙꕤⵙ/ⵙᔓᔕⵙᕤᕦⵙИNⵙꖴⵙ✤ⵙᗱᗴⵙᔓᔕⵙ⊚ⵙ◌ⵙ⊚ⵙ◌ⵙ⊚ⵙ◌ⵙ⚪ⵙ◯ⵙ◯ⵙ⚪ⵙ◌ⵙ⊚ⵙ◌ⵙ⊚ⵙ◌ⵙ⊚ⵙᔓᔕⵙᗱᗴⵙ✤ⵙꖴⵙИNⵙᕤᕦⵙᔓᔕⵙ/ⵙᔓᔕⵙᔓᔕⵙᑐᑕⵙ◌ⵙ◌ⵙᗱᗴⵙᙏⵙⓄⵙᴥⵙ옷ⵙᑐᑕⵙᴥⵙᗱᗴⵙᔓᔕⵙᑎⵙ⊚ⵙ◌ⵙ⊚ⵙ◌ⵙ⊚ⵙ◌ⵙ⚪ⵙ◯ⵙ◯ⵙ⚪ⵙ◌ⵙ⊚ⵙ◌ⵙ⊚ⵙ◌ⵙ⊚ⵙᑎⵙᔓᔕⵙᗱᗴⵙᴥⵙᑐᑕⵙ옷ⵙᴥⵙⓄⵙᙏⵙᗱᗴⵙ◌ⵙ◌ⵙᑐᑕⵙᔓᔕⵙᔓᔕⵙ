@@ -18,7 +18,7 @@ menupopup > menuitem, menupopup > menu{min-height:unset!IMPORTANT}
 --panel-separator-margin-vertical:0PX!IMPORTANT;
 --arrowpanel-menuitem-border-radius:256PX!IMPORTANT;
 --arrowpanel-header-info-icon-padding:0PX!IMPORTANT;
---toolbarbutton-border-radius:8PX!IMPORTANT;
+--toolbarbutton-border-radius:4PX!IMPORTANT;
 --toolbarbutton-outer-padding:0!IMPORTANT;
 --toolbarbutton-inner-padding:0!IMPORTANT;
 --toolbar-start-end-padding:0!IMPORTANT;
@@ -48,9 +48,11 @@ toolbar{min-height:0PX!IMPORTANT;max-height:16PX!IMPORTANT;}#statuspanel-label{m
 #tabbrowser-tabs,#tabbrowser-tabs>#tabbrowser-arrowscrollbox,.tabbrowser-tabs .tabbrowser-tab{min-height:var(--tab-min-height)!IMPORTANT;max-height:var(--tab-min-height)!IMPORTANT;}
 .tabbrowser-tab{max-width:16PX!IMPORTANT;min-width:16PX!IMPORTANT;}#urlbar,#searchbar{font-size:1EM!IMPORTANT;}
 .tabbrowser-tab .tab-close-button{display:NONE!IMPORTANT;}.titlebar-buttonbox-container{display:NONE!IMPORTANT;}
-.browserContainer > findbar{margin:0!IMPORTANT;padding:0!IMPORTANT;align-self:center!IMPORTANT;width:617PX!IMPORTANT;}
+.browserContainer > findbar{margin:0!IMPORTANT;padding:0!IMPORTANT;align-self:center!IMPORTANT;width:618PX!IMPORTANT;border:0!IMPORTANT;border-radius:256PX!IMPORTANT;}
 .findbar-label,.findbar-container,.findbar-textbox,.find-status-icon,.findbar-case-sensitive,.findbar-closebutton,.findbar-entire-word,.findbar-find-next,.findbar-find-previous,.findbar-find-status,.findbar-highlight,.findbar-match-diacritics
-{PADDING:3PX!IMPORTANT;margin: 1PX!IMPORTANT;height:16PX!IMPORTANT;width: fit-content!IMPORTANT;}
-.findbar-closebutton{width:16PX!IMPORTANT;}
+{PADDING:3PX!IMPORTANT;margin:1PX!IMPORTANT;height:16PX!IMPORTANT;width:fit-content!IMPORTANT;}.findbar-closebutton{width:16PX!IMPORTANT;}
 #downloadsPanel-blockedSubview,#downloadsPanel-mainView{padding:0!IMPORTANT;}.downloadMainArea {padding-block:0PX!IMPORTANT;padding-inline-start:0PX!IMPORTANT;}.downloadTypeIcon{margin-inline-end:0!IMPORTANT;}
 .downloadTypeIcon{width:16PX!IMPORTANT;height:16PX!IMPORTANT;}#downloadsSummaryDetails,.downloadDetails{margin:0 0 0!IMPORTANT;}#downloadsListBox>richlistitem{min-height:16PX!IMPORTANT;}
+.checkbox-check{background-color:#FFFFFF!IMPORTANT;border-radius:8PX!IMPORTANT;margin-inline-end:8PX!IMPORTANT;}.checkbox-check[checked]{border-color:#D5D5D5!IMPORTANT;background-color:#FFFFFF!IMPORTANT;fill:#D5D5D5!IMPORTANT;}
+checkbox:not([disabled="true"]):hover>.checkbox-check[checked]{background-color:#FFFFFF!IMPORTANT;}checkbox:not([disabled="true"]):hover:active > .checkbox-check[checked]{background-color:#FFFFFF!IMPORTANT;}
+input.findbar-textbox[status="notfound"]{background-color:rgba(255,255,255,1.0)!IMPORTANT;}input.findbar-textbox{color:RGB(167,167,167)!IMPORTANT;border-radius:8PX!IMPORTANT;}
