@@ -1,5 +1,5 @@
 #BROWSER{-MOZ-BOX-ORDINAL-GROUP:0!IMPORTANT;ORDER:0!IMPORTANT}#navigator-toolbox-background{-moz-box-ordinal-group:1!IMPORTANT;order:1!IMPORTANT}#titlebar{order:2;-moz-appearance:NONE!IMPORTANT;--tabs-navbar-shadow-size:0;}
-.titlebar-spacer[type="pre-tabs"],.titlebar-spacer[type="post-tabs"]{width:0!IMPORTANT}.titlebar-buttonbox toolbarbutton{margin-top:-0.5PX!IMPORTANT; margin-right:-0.5PX!IMPORTANT}
+.titlebar-spacer[type="pre-tabs"],.titlebar-spacer[type="post-tabs"]{width:0!IMPORTANT}.titlebar-buttonbox toolbarbutton{margin-top:-0.5PX!IMPORTANT;margin-right:-0.5PX!IMPORTANT}
 :ROOT :is(panel, menupopup) {--arrowpanel-header-back-icon-padding:0!IMPORTANT}menupopup>menuitem, menupopup>menu{min-height:unset!IMPORTANT}#private-browsing-indicator-with-label>label{DISPLAY:NONE!IMPORTANT}
 #PlacesToolbarItems>.bookmark-item>.toolbarbutton-icon[label]:not([label=""]){margin-inline-end:0PX!IMPORTANT}.subviewbutton{BORDER-RADIUS:8PX!IMPORTANT;OVERFLOW:CLIP!IMPORTANT}#alltabs-button{LIST-STYLE-IMAGE:url(CHROME://GLOBAL/skin/icons/arrow-up.svg)!IMPORTANT}
 #PlacesToolbar menupopup[placespopup="true"] {--arrowpanel-border-radius:8PX!IMPORTANT}#identity-icon,#tracking-protection-icon{OPACITY:CALC(147/256)!IMPORTANT}#star-button{OPACITY:CALC(69/256)!IMPORTANT}#private-browsing-indicator-with-label{MARGIN:0!IMPORTANT}
@@ -14,7 +14,7 @@
 --toolbarbutton-inner-padding:0!IMPORTANT;--toolbar-start-end-padding:0!IMPORTANT;--identity-box-margin-inline:0!IMPORTANT;--tab-border-radius:256PX!IMPORTANT;--inline-tab-padding:0!IMPORTANT;--tab-block-margin:0!IMPORTANT;--tab-min-height:16PX!IMPORTANT;
 --urlbar-container-padding:0!IMPORTANT;--urlbar-margin-inline:0!IMPORTANT;--urlbar-min-height:0!IMPORTANT;--urlbarView-row-gutter:0PX!IMPORTANT;--urlbarView-result-button-size:16PX!IMPORTANT;--button-hover-bgcolor:#F9F9F9!IMPORTANT;--uei-icon-size:16PX!IMPORTANT;
 }
-#urlbar[focused="true"]>#urlbar-background,#searchbar:focus-within{BOX-SHADOW: 0PX 0PX 0PX RGBA(0, 0, 0, 0.23);OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
+*{TRANSITION:NONE!IMPORTANT}#urlbar[focused="true"]>#urlbar-background,#searchbar:focus-within{BOX-SHADOW: 0PX 0PX 0PX RGBA(0, 0, 0, 0.23);OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
 moz-input-box,#statuspanel,#statuspanel-label{TEXT-ALIGN:CENTER!IMPORTANT;JUSTIFY-CONTENT:CENTER!IMPORTANT;MAX-WIDTH:100%!IMPORTANT;WIDTH:100%!IMPORTANT}.urlbarView-row-inner,.urlbarView-no-wrap{justify-content:center!IMPORTANT}.urlbarView-url{flex-grow:0!IMPORTANT}.urlbarView-button{display:NONE!IMPORTANT}
 .menu-iconic>.menu-iconic-left,.menuitem-iconic>.menu-iconic-left{PADDING:0PX!IMPORTANT}.menu-text,.menu-iconic-text{MARGIN:0!IMPORTANT;PADDING:0!IMPORTANT}.menu-accel,.menu-iconic-accel{MARGIN:0 0!IMPORTANT}.menu-iconic-left{!IMPORTANT;WIDTH:2EM!IMPORTANT}
 #userContext-icons,#urlbar-zoom-button{MARGIN-INLINE:1PX!IMPORTANT}#urlbar-zoom-button{font-size:1EM!IMPORTANT;PADDING:0PX 0PX!IMPORTANT;background-color:#F5F5F5!IMPORTANT;color:RGB(167,167,167)!IMPORTANT}
