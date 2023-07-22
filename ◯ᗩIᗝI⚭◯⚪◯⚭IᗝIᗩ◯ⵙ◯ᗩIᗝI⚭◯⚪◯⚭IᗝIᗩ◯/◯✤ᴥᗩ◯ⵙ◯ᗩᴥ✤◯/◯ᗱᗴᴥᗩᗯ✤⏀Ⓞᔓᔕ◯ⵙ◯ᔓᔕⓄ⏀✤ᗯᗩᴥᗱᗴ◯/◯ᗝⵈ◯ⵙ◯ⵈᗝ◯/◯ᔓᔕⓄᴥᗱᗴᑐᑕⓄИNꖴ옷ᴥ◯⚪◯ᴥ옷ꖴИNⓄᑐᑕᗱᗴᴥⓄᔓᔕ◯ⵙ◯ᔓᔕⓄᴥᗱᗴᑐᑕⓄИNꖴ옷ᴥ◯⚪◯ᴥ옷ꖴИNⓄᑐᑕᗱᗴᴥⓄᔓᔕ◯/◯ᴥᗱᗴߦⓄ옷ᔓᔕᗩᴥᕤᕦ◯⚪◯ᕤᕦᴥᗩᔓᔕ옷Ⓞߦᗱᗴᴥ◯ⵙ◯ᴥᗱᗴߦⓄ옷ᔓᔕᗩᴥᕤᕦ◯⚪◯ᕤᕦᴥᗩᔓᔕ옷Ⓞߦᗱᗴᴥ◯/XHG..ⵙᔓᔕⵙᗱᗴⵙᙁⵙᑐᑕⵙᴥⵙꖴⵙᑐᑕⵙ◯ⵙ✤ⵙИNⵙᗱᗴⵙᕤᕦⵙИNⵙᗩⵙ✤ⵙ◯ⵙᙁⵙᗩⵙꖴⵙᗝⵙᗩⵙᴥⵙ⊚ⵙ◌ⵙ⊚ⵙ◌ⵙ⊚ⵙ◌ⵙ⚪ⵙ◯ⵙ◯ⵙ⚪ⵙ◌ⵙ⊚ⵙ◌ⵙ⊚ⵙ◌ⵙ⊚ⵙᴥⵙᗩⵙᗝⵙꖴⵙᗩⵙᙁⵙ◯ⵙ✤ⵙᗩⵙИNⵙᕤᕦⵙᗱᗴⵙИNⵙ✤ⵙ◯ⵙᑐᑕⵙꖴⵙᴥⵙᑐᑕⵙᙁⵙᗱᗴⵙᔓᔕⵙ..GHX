@@ -37,7 +37,7 @@
           <items count="3">
             <item name="Date" type_name="gh_date" type_code="8">638252831365521843</item>
             <item name="Description" type_name="gh_string" type_code="10"></item>
-            <item name="Name" type_name="gh_string" type_code="10">XHG..⠀⠀⠀⠀◯⠀ᕤᕦИNꖴ✻ᑐᑕᗩߦ⠀◯⠀ᗱᗴᙁᑐᑕᴥꖴᑐᑕ⠀◯⠀⠀⠀⠀ⵙ⠀⠀⠀⠀◯⠀ᑐᑕꖴᴥᑐᑕᙁᗱᗴ⠀◯⠀ߦᗩᑐᑕ✻ꖴИNᕤᕦ⠀◯⠀⠀⠀⠀..GHX</item>
+            <item name="Name" type_name="gh_string" type_code="10">XHG..ⵙᔓᔕⵙᗱᗴⵙᙁⵙᑐᑕⵙᴥⵙꖴⵙᑐᑕⵙ◯ⵙ✤ⵙИNⵙᗱᗴⵙᕤᕦⵙИNⵙᗩⵙ✤ⵙ◯ⵙᙁⵙᗩⵙꖴⵙᗝⵙᗩⵙᴥⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⚪ⵙ◯ⵙ◯ⵙ⚪ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙᴥⵙᗩⵙᗝⵙꖴⵙᗩⵙᙁⵙ◯ⵙ✤ⵙᗩⵙИNⵙᕤᕦⵙᗱᗴⵙИNⵙ✤ⵙ◯ⵙᑐᑕⵙꖴⵙᴥⵙᑐᑕⵙᙁⵙᗱᗴⵙᔓᔕⵙ..GHX</item>
           </items>
           <chunks count="3">
             <chunk name="Revisions">
@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>-385</X>
-                  <Y>1575</Y>
+                  <X>105</X>
+                  <Y>1684</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">0.7269861</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">1</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -135,9 +135,9 @@
         </chunk>
         <chunk name="DefinitionObjects">
           <items count="1">
-            <item name="ObjectCount" type_name="gh_int32" type_code="3">105</item>
+            <item name="ObjectCount" type_name="gh_int32" type_code="3">104</item>
           </items>
-          <chunks count="105">
+          <chunks count="104">
             <chunk name="Object" index="0">
               <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">ac3c856d-819d-4565-a2cc-8d1cbdc05c97</item>
@@ -3409,11 +3409,12 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="8">
+                  <items count="9">
                     <item name="Description" type_name="gh_string" type_code="10">To show the components' advances information.Right click to have advanced options</item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">c54e16b2-ccf6-4f4e-95dc-0fd1ce565c24</item>
                     <item name="Language" type_name="gh_int32" type_code="3">0</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">InfoGlasses</item>
                     <item name="NickName" type_name="gh_string" type_code="10">InfoGlasses</item>
                     <item name="NormalCount" type_name="gh_int32" type_code="3">0</item>
@@ -3464,9 +3465,10 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">Run</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">72e93834-66d7-4933-aef0-991e6bdf6f81</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Run</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Run</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -6115,7 +6117,7 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="815">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvQAADr0BR/uQrQAAAtFJREFUSEu1lF1ojmEYx6/eliRHDiRJEpq1RLSDpUhrSg4IJ0os5Wus5ECxA7UMpRUnSEmjmLWEOZKcKGlpaQc7WNKOlvQerLWDtdb8/vd93c/79bzvmV/vv/f+X89139f9PPeHlXPFbJc3G7HO/zMumm33Zn0umW3pMVvuNtsmT7Fb6GN4WGIVWkRdwcFZszXkLaE7HsrnstkRFTgXB5HvkGd2O0JCiXtoAe0MDsjrUhH6nPdQLcz8sAY8bbbSQ+o4iYbdJgroK5rwdoACfWghZ0IRPaieMR2O+8yaPZRoRcuoM7hIgdxxNOq+BiUUGeyGe1HwtxhyX85P9CA2I/Q/hRZZz9UeqoSBnpKgV8+g4Bl1umC21kOJF+hzbEbo36qvoH8PVULlvUpgwBYPmRad2CyFrnoo8QRVFGAd96s/K73JQzXok8xQoM99gNgQsU9uEyPoQ2xGyBlAv93mQ8Jj9MNtAH8zp+M4ehib8TwwkTnetNdD+eibkzjvNkCshwJ/3AptZZ2Fk8EBz5+jv3UXOEFSd9Vg+kT9aNKt6EDaphtk0hlCR+UbwuAj6IvbAB2/oUG34j6ais2wvad5/tJ9ffaZNZFYsWN0NzHAkmbpITGGnqlBbjN9dIftkW8IA3UqmdO82UOKadF/0UzXQhPShRe+f9qaOeekFgZ6jTS7gO+MeWL8MjYiff92GR60qACLm11+ufiB0mBMKqItR2y2ame0IRUIh+mE2Qrvx4s3gKRDmkn5q9JpGg24TRxAKlCe9wZlb54Ls71LgWwr4ttUMOf61WKqQLZO6Yrh1Q96qBZm8Aq9dasC1+g047YczVwF9CYZ9B1FU3UPmhfQ/RJQMfTObTUqfD02I8x+PflFJvVe6+LhEjy8jdLhkR9Dj9xWo0P1PTZLkN9OgTn+J/jf7eGIH5h+t1r0YWZ1zG01+jzF2KyEflvRIH2ze+o/YvYPvDLEdqaZG+8AAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="815">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAAtFJREFUSEu1lF1ojmEYx6/eliRHDiRJEpq1RLSDpUhrSg4IJ0os5Wus5ECxA7UMpRUnSEmjmLWEOZKcKGlpaQc7WNKOlvQerLWDtdb8/vd93c/79bzvmV/vv/f+X89139f9PPeHlXPFbJc3G7HO/zMumm33Zn0umW3pMVvuNtsmT7Fb6GN4WGIVWkRdwcFZszXkLaE7HsrnstkRFTgXB5HvkGd2O0JCiXtoAe0MDsjrUhH6nPdQLcz8sAY8bbbSQ+o4iYbdJgroK5rwdoACfWghZ0IRPaieMR2O+8yaPZRoRcuoM7hIgdxxNOq+BiUUGeyGe1HwtxhyX85P9CA2I/Q/hRZZz9UeqoSBnpKgV8+g4Bl1umC21kOJF+hzbEbo36qvoH8PVULlvUpgwBYPmRad2CyFrnoo8QRVFGAd96s/K73JQzXok8xQoM99gNgQsU9uEyPoQ2xGyBlAv93mQ8Jj9MNtAH8zp+M4ehib8TwwkTnetNdD+eibkzjvNkCshwJ/3AptZZ2Fk8EBz5+jv3UXOEFSd9Vg+kT9aNKt6EDaphtk0hlCR+UbwuAj6IvbAB2/oUG34j6ais2wvad5/tJ9ffaZNZFYsWN0NzHAkmbpITGGnqlBbjN9dIftkW8IA3UqmdO82UOKadF/0UzXQhPShRe+f9qaOeekFgZ6jTS7gO+MeWL8MjYiff92GR60qACLm11+ufiB0mBMKqItR2y2ame0IRUIh+mE2Qrvx4s3gKRDmkn5q9JpGg24TRxAKlCe9wZlb54Ls71LgWwr4ttUMOf61WKqQLZO6Yrh1Q96qBZm8Aq9dasC1+g047YczVwF9CYZ9B1FU3UPmhfQ/RJQMfTObTUqfD02I8x+PflFJvVe6+LhEjy8jdLhkR9Dj9xWo0P1PTZLkN9OgTn+J/jf7eGIH5h+t1r0YWZ1zG01+jzF2KyEflvRIH2ze+o/YvYPvDLEdqaZG+8AAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">fb4a3cd7-41d4-44c5-9aaf-914e96b16bad</item>
                     <item name="Name" type_name="gh_string" type_code="10">DIFERENCE CURWATURE SHAPED GRAPH</item>
@@ -7314,7 +7316,7 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="245">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAAJdJREFUSEvdk4EKgCAMRPfF9gn9WZ/W6sYWmZqRG0EPRorb3SFGv4P1GwLErdw5i4eZgDBh4zsDnog59Uvbm1QbIL4mWrTmRsmZjjSpG+zJIKDbIQqDU/puuieUBo7pQWbgnR7kBs7pwWEQIQ6uBm5XY4hBVHogqWGge3fkdx+4mm4wxtPU9RsweztvDR4VQqg4CBWvQLQBFW6Sxd+iMagAAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="245">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAAJdJREFUSEvdk4EKgCAMRPfF9gn9WZ/W6sYWmZqRG0EPRorb3SFGv4P1GwLErdw5i4eZgDBh4zsDnog59Uvbm1QbIL4mWrTmRsmZjjSpG+zJIKDbIQqDU/puuieUBo7pQWbgnR7kBs7pwWEQIQ6uBm5XY4hBVHogqWGge3fkdx+4mm4wxtPU9RsweztvDR4VQqg4CBWvQLQBFW6Sxd+iMagAAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">fb371ae8-5b99-4464-8511-d9d8f0b30abf</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
@@ -8335,9 +8337,9 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>108</X>
+                          <X>106</X>
                           <Y>-1408</Y>
-                          <W>168</W>
+                          <W>170</W>
                           <H>61</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -8359,13 +8361,13 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>110</X>
+                              <X>108</X>
                               <Y>-1406</Y>
-                              <W>111</W>
+                              <W>113</W>
                               <H>37</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>165.5</X>
+                              <X>164.5</X>
                               <Y>-1387.5</Y>
                             </item>
                           </items>
@@ -8386,7 +8388,7 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                                     <item name="plane" type_name="gh_plane" type_code="72">
                                       <Ox>0</Ox>
                                       <Oy>0</Oy>
-                                      <Oz>4</Oz>
+                                      <Oz>0.5</Oz>
                                       <Xx>1</Xx>
                                       <Xy>0</Xy>
                                       <Xz>0</Xz>
@@ -8415,13 +8417,13 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>110</X>
+                              <X>108</X>
                               <Y>-1369</Y>
-                              <W>111</W>
+                              <W>113</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>165.5</X>
+                              <X>164.5</X>
                               <Y>-1359</Y>
                             </item>
                           </items>
@@ -12554,9 +12556,11 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="4">
+                  <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Applies a Radial Gradient Fill to a Shape</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">3a0370cf-585f-4e6c-bc66-8a382d0b9e32</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Gradient Radial Fill</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Gradient Radial Fill</item>
                   </items>
@@ -12565,20 +12569,21 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>794</X>
-                          <Y>-1927</Y>
+                          <Y>-1934</Y>
                           <W>150</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                           <X>898</X>
-                          <Y>-1895</Y>
+                          <Y>-1902</Y>
                         </item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape, or a Curve, Brep, Mesh</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">20dfc9c4-85cd-4b70-9df4-0c5b6c345f26</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Shape / Geometry</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Shape / Geometry</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -12590,23 +12595,24 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>796</X>
-                              <Y>-1925</Y>
+                              <Y>-1932</Y>
                               <W>90</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                               <X>841</X>
-                              <Y>-1915</Y>
+                              <Y>-1922</Y>
                             </item>
                           </items>
                         </chunk>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="1">
-                      <items count="8">
+                      <items count="9">
                         <item name="Access" type_name="gh_int32" type_code="3">1</item>
                         <item name="Description" type_name="gh_string" type_code="10">The Gradient Stop colors</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">afcdc8be-c408-4142-8e14-6e96c51a9e0e</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Colors</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Colors</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -12618,13 +12624,13 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>796</X>
-                              <Y>-1905</Y>
+                              <Y>-1912</Y>
                               <W>90</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                               <X>841</X>
-                              <Y>-1895</Y>
+                              <Y>-1902</Y>
                             </item>
                           </items>
                         </chunk>
@@ -12653,10 +12659,11 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="2">
-                      <items count="8">
+                      <items count="9">
                         <item name="Access" type_name="gh_int32" type_code="3">1</item>
                         <item name="Description" type_name="gh_string" type_code="10">The Gradient Stop parameters</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">c1c538de-e368-49f8-9ac4-ae8c712a87cb</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Parameters</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Parameters</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -12668,13 +12675,13 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>796</X>
-                              <Y>-1885</Y>
+                              <Y>-1892</Y>
                               <W>90</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                               <X>841</X>
-                              <Y>-1875</Y>
+                              <Y>-1882</Y>
                             </item>
                           </items>
                         </chunk>
@@ -12701,10 +12708,11 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="0">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape Object</item>
                         <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">43cb7391-ffa5-458d-ae72-bcb11223aa25</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Shape</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Shape</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -12715,13 +12723,13 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                               <X>910</X>
-                              <Y>-1925</Y>
+                              <Y>-1932</Y>
                               <W>32</W>
                               <H>60</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
                               <X>926</X>
-                              <Y>-1895</Y>
+                              <Y>-1902</Y>
                             </item>
                           </items>
                         </chunk>
@@ -12863,10 +12871,12 @@ False = Keeps Canvas Grid, Edge, and Shadow - Canvas uses Canvas_Background_Colo
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="4">
+                  <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Preview a Drawing in canvas.
 Note: Right click on the component to save the image or svg</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">bc1970ed-dd7b-4d38-b5f8-bab39784ee32</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Drawing Viewer</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Drawing Viewer</item>
                   </items>
@@ -12874,22 +12884,23 @@ Note: Right click on the component to save the image or svg</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>605</X>
-                          <Y>-1011</Y>
+                          <X>1366</X>
+                          <Y>-2523</Y>
                           <W>1024</W>
                           <H>1068</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>783</X>
-                          <Y>-989</Y>
+                          <X>1544</X>
+                          <Y>-2501</Y>
                         </item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="8">
+                      <items count="9">
                         <item name="Access" type_name="gh_int32" type_code="3">1</item>
                         <item name="Description" type_name="gh_string" type_code="10">A list of Graphic Plus Drawing, Shapes, or Geometry (Curves, Breps, Meshes).</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">c82f62fe-e186-4950-8e91-0e0e7682c7ff</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Drawings / Shapes / Geometry</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Drawings / Shapes / Geometry</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -12900,23 +12911,24 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>607</X>
-                              <Y>-1009</Y>
+                              <X>1368</X>
+                              <Y>-2521</Y>
                               <W>164</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>689</X>
-                              <Y>-999</Y>
+                              <X>1450</X>
+                              <Y>-2511</Y>
                             </item>
                           </items>
                         </chunk>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="1">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The PPI (Pixels Per Inch) resolution for the image which must be greater than or equal to 72.</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">7c1738eb-ecec-4f5d-8379-22745cf7ce2d</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Resolution</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Resolution</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -12926,14 +12938,14 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>607</X>
-                              <Y>-989</Y>
+                              <X>1368</X>
+                              <Y>-2501</Y>
                               <W>164</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>689</X>
-                              <Y>-979</Y>
+                              <X>1450</X>
+                              <Y>-2491</Y>
                             </item>
                           </items>
                         </chunk>
@@ -12971,10 +12983,11 @@ Note: Right click on the component to save the image or svg</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="5">
+                  <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Constructs a Drawing from a list of Shapes</item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">897064e6-a16f-4c11-b7c2-13a1d699896f</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Construct Drawing</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Construct Drawing</item>
                   </items>
@@ -12982,49 +12995,51 @@ Note: Right click on the component to save the image or svg</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>830</X>
-                          <Y>-2131</Y>
+                          <X>944</X>
+                          <Y>-2110</Y>
                           <W>255</W>
                           <H>155</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1024</X>
-                          <Y>-2053</Y>
+                          <X>1138</X>
+                          <Y>-2032</Y>
                         </item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="8">
+                      <items count="9">
                         <item name="Access" type_name="gh_int32" type_code="3">1</item>
                         <item name="Description" type_name="gh_string" type_code="10">A list of Graphic Plus Shapes, or Curves, Breps, Meshes</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">0923c058-3fad-4c4a-8f2e-b7b2c65b6ebd</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Shapes / Geometry</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Shapes / Geometry</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">6d245542-b1d6-46d1-9114-0a70281c6d1a</item>
+                        <item name="Source" index="0" type_name="gh_guid" type_code="9">6e6f84a1-1046-4f68-8eb3-817c108edbf5</item>
                         <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>832</X>
-                              <Y>-2129</Y>
+                              <X>946</X>
+                              <Y>-2108</Y>
                               <W>180</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>922</X>
-                              <Y>-2119</Y>
+                              <X>1036</X>
+                              <Y>-2098</Y>
                             </item>
                           </items>
                         </chunk>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="1">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">An optional frame for the drawing. If blank, the shapes bounding box will be used</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">1cfb711f-b655-4302-a7e6-cfe398f1f17b</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Boundary</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Boundary</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13034,23 +13049,24 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>832</X>
-                              <Y>-2109</Y>
+                              <X>946</X>
+                              <Y>-2088</Y>
                               <W>180</W>
                               <H>71</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>922</X>
-                              <Y>-2073.5</Y>
+                              <X>1036</X>
+                              <Y>-2052.5</Y>
                             </item>
                           </items>
                         </chunk>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="2">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The width of the output drawing</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">85ece0af-2be9-4a50-a4b8-186b461507d6</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Width</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Width</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13060,14 +13076,14 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>832</X>
-                              <Y>-2038</Y>
+                              <X>946</X>
+                              <Y>-2017</Y>
                               <W>180</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>922</X>
-                              <Y>-2028</Y>
+                              <X>1036</X>
+                              <Y>-2007</Y>
                             </item>
                           </items>
                         </chunk>
@@ -13094,9 +13110,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="3">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The height of the output drawing</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">8ab66ff6-0bd8-4d88-91d3-df69c1fbbd8a</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Height</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Height</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13106,14 +13123,14 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>832</X>
-                              <Y>-2018</Y>
+                              <X>946</X>
+                              <Y>-1997</Y>
                               <W>180</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>922</X>
-                              <Y>-2008</Y>
+                              <X>1036</X>
+                              <Y>-1987</Y>
                             </item>
                           </items>
                         </chunk>
@@ -13140,9 +13157,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="4">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">An optional background color</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">dba02cce-f527-40ca-b8cb-228225f95208</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Color</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Color</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13152,14 +13170,14 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>832</X>
-                              <Y>-1998</Y>
+                              <X>946</X>
+                              <Y>-1977</Y>
                               <W>180</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>922</X>
-                              <Y>-1988</Y>
+                              <X>1036</X>
+                              <Y>-1967</Y>
                             </item>
                           </items>
                         </chunk>
@@ -13188,9 +13206,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="0">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Drawing Object</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">aab4c91b-c8f3-45c3-994e-63fefbac5c2c</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Drawing</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Drawing</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -13200,23 +13219,24 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>1036</X>
-                              <Y>-2129</Y>
+                              <X>1150</X>
+                              <Y>-2108</Y>
                               <W>47</W>
                               <H>75</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1059.5</X>
-                              <Y>-2091.25</Y>
+                              <X>1173.5</X>
+                              <Y>-2070.25</Y>
                             </item>
                           </items>
                         </chunk>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="1">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The bounding rectangle</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">a9a49907-4084-4df3-8359-246f26c5f555</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Boundary</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Boundary</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -13226,14 +13246,14 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>1036</X>
-                              <Y>-2054</Y>
+                              <X>1150</X>
+                              <Y>-2033</Y>
                               <W>47</W>
                               <H>76</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1059.5</X>
-                              <Y>-2015.75</Y>
+                              <X>1173.5</X>
+                              <Y>-1994.75</Y>
                             </item>
                           </items>
                         </chunk>
@@ -13251,9 +13271,11 @@ Note: Right click on the component to save the image or svg</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="4">
+                  <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Applies Stroke properties to a Shape</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">3b62aca3-eb60-4806-8b07-757b07c9c96b</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Stroke</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Stroke</item>
                   </items>
@@ -13273,9 +13295,10 @@ Note: Right click on the component to save the image or svg</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape, or a Curve, Brep, Mesh</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">4030d31f-85c6-49ce-abc4-b737abf1d911</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Shape / Geometry</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Shape / Geometry</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -13300,9 +13323,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="1">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The stroke color</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">19e0212d-1ae7-4bd2-89ff-bc8b9973740a</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Color</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Color</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13348,9 +13372,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="2">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">The stroke weight</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">3ded5006-c0f5-44f0-b5f8-9c5d0bc75ca5</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Weight</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Weight</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13395,10 +13420,11 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="3">
-                      <items count="7">
+                      <items count="8">
                         <item name="Access" type_name="gh_int32" type_code="3">1</item>
                         <item name="Description" type_name="gh_string" type_code="10">The stroke pattern</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">f76a8473-e34e-47a7-b281-e3880e37c6fa</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Pattern</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Pattern</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13442,9 +13468,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="4">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The shape to be used at the end of open path</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">bc5da7b5-947a-4121-b7ad-9cd69f1189c3</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">End Cap</item>
                         <item name="NickName" type_name="gh_string" type_code="10">End Cap</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -13488,10 +13515,11 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="0">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape Object</item>
                         <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">fc8f1eb8-4479-4724-ba40-74767b12e719</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Shape</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Shape</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -13525,8 +13553,9 @@ Note: Right click on the component to save the image or svg</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="4">
+                  <items count="5">
                     <item name="Description" type_name="gh_string" type_code="10">Merge a bunch of data streams</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">e44eaf02-09c5-4ca9-b519-0dbba3eea3b4</item>
                     <item name="Name" type_name="gh_string" type_code="10">Merge</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Merge</item>
@@ -13855,9 +13884,11 @@ Note: Right click on the component to save the image or svg</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="4">
+                  <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Compute Euclidean distance between two point coordinates.</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">4dfa6f82-2462-4b64-acaa-c432ed80052c</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Distance</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Distance</item>
                   </items>
@@ -13877,9 +13908,10 @@ Note: Right click on the component to save the image or svg</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">First point</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">2fed7015-0dc4-4b1e-84d4-65d070986362</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Point A</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Point A</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -13928,9 +13960,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="1">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">Second point</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">4bf86d6d-e035-49ae-9f28-63df5d3ecace</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Point B</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Point B</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -13955,9 +13988,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="0">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">Distance between A and B</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">c74cb0c0-6368-4906-bcbd-e749a7d8fb13</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Distance</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Distance</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -13991,10 +14025,11 @@ Note: Right click on the component to save the image or svg</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="5">
+                  <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Retrieve the base plane, radius and angle domain of an arc.</item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">5b362e0b-edfe-4632-99a1-dbf27430406c</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Deconstruct Arc</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Deconstruct Arc</item>
                   </items>
@@ -14014,9 +14049,10 @@ Note: Right click on the component to save the image or svg</item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">Arc or Circle to deconstruct</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">b20ba683-a90e-45ff-bcf5-86e4e80dce23</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Arc</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Arc</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -14041,9 +14077,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="0">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">Base plane of arc or circle</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">a6f821da-f498-4973-aa14-e2abfa24b1f8</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Base Plane</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Base Plane</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -14067,9 +14104,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="1">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">Radius of arc or circle</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">4654f581-ba2c-4dcc-84fd-f7da8bea95f4</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Radius</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Radius</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -14093,9 +14131,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="2">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">Angle domain (in radians) of arc</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">263e2ac0-9c38-4a0e-9a1d-183127a1dd78</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Angle</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Angle</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -14129,8 +14168,9 @@ Note: Right click on the component to save the image or svg</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="4">
+                  <items count="5">
                     <item name="Description" type_name="gh_string" type_code="10">Mathematical multiplication</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">8bb268bc-8f14-4022-bf54-801ab622105f</item>
                     <item name="Name" type_name="gh_string" type_code="10">Multiplication</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Multiplication</item>
@@ -14286,149 +14326,17 @@ Note: Right click on the component to save the image or svg</item>
             </chunk>
             <chunk name="Object" index="103">
               <items count="3">
-                <item name="GUID" type_name="gh_guid" type_code="9">ae8329c9-147c-4440-b557-2977e71e7195</item>
-                <item name="Lib" type_name="gh_guid" type_code="9">a48ac930-c378-48dc-84da-26b2af9d8302</item>
-                <item name="Name" type_name="gh_string" type_code="10">Blur</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="4">
-                    <item name="Description" type_name="gh_string" type_code="10">Applies a Blur Effect to a Shape</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">15cf01ea-c731-476a-bafc-bbb57fc86d97</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Blur</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Blur</item>
-                  </items>
-                  <chunks count="4">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>970</X>
-                          <Y>-1917</Y>
-                          <W>150</W>
-                          <H>44</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1074</X>
-                          <Y>-1895</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="param_input" index="0">
-                      <items count="7">
-                        <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape, or a Curve, Brep, Mesh</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">b67c1f24-6d05-489c-8c70-66c8f91c1f36</item>
-                        <item name="Name" type_name="gh_string" type_code="10">Shape / Geometry</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">Shape / Geometry</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">43cb7391-ffa5-458d-ae72-bcb11223aa25</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>972</X>
-                              <Y>-1915</Y>
-                              <W>90</W>
-                              <H>20</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1017</X>
-                              <Y>-1905</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="param_input" index="1">
-                      <items count="7">
-                        <item name="Description" type_name="gh_string" type_code="10">The radius of the blur effect</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">9ae09083-3382-437d-9900-ab3d81187b7d</item>
-                        <item name="Name" type_name="gh_string" type_code="10">Blur Radius</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">Blur Radius</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">7d674bcc-ccf9-4209-bf45-8d4272beda48</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
-                      </items>
-                      <chunks count="2">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>972</X>
-                              <Y>-1895</Y>
-                              <W>90</W>
-                              <H>20</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1017</X>
-                              <Y>-1885</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                        <chunk name="PersistentData">
-                          <items count="1">
-                            <item name="Count" type_name="gh_int32" type_code="3">1</item>
-                          </items>
-                          <chunks count="1">
-                            <chunk name="Branch" index="0">
-                              <items count="2">
-                                <item name="Count" type_name="gh_int32" type_code="3">1</item>
-                                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
-                              </items>
-                              <chunks count="1">
-                                <chunk name="Item" index="0">
-                                  <items count="1">
-                                    <item name="number" type_name="gh_double" type_code="6">8</item>
-                                  </items>
-                                </chunk>
-                              </chunks>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="param_output" index="0">
-                      <items count="7">
-                        <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape Object</item>
-                        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
-                        <item name="InstanceGuid" type_name="gh_guid" type_code="9">0dddc4c6-16c9-42c1-82cb-247244e59956</item>
-                        <item name="Name" type_name="gh_string" type_code="10">Shape</item>
-                        <item name="NickName" type_name="gh_string" type_code="10">Shape</item>
-                        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="Attributes">
-                          <items count="2">
-                            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>1086</X>
-                              <Y>-1915</Y>
-                              <W>32</W>
-                              <H>40</H>
-                            </item>
-                            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1102</X>
-                              <Y>-1895</Y>
-                            </item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="104">
-              <items count="3">
                 <item name="GUID" type_name="gh_guid" type_code="9">5881d944-0281-4fc8-b203-ce6a55dbf2a6</item>
                 <item name="Lib" type_name="gh_guid" type_code="9">a48ac930-c378-48dc-84da-26b2af9d8302</item>
                 <item name="Name" type_name="gh_string" type_code="10">Solid Fill</item>
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="4">
+                  <items count="6">
                     <item name="Description" type_name="gh_string" type_code="10">Applies a Solid Fill color to a Shape</item>
+                    <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">34005dd2-41a4-4fda-b7bf-5eba48ac6009</item>
+                    <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                     <item name="Name" type_name="gh_string" type_code="10">Solid Fill</item>
                     <item name="NickName" type_name="gh_string" type_code="10">Solid Fill</item>
                   </items>
@@ -14436,38 +14344,39 @@ Note: Right click on the component to save the image or svg</item>
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1115</X>
+                          <X>1120</X>
                           <Y>-1791</Y>
                           <W>162</W>
                           <H>44</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1231</X>
+                          <X>1236</X>
                           <Y>-1769</Y>
                         </item>
                       </items>
                     </chunk>
                     <chunk name="param_input" index="0">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape, or a Curve, Brep, Mesh</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">654b68f0-6f66-4d66-9c80-8d0d25939ce5</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Shape / Geometry</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Shape / Geometry</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                        <item name="Source" index="0" type_name="gh_guid" type_code="9">fc8f1eb8-4479-4724-ba40-74767b12e719</item>
+                        <item name="Source" index="0" type_name="gh_guid" type_code="9">6e6f84a1-1046-4f68-8eb3-817c108edbf5</item>
                         <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
                       </items>
                       <chunks count="1">
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>1117</X>
+                              <X>1122</X>
                               <Y>-1789</Y>
                               <W>102</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1168</X>
+                              <X>1173</X>
                               <Y>-1779</Y>
                             </item>
                           </items>
@@ -14475,9 +14384,10 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_input" index="1">
-                      <items count="6">
+                      <items count="7">
                         <item name="Description" type_name="gh_string" type_code="10">The solid fill Color</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">20cde91e-968e-4cfc-92f3-af939a769c15</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Color</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Color</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">true</item>
@@ -14487,13 +14397,13 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>1117</X>
+                              <X>1122</X>
                               <Y>-1769</Y>
                               <W>102</W>
                               <H>20</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1168</X>
+                              <X>1173</X>
                               <Y>-1759</Y>
                             </item>
                           </items>
@@ -14523,10 +14433,11 @@ Note: Right click on the component to save the image or svg</item>
                       </chunks>
                     </chunk>
                     <chunk name="param_output" index="0">
-                      <items count="7">
+                      <items count="8">
                         <item name="Description" type_name="gh_string" type_code="10">A Graphic Plus Shape Object</item>
                         <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                         <item name="InstanceGuid" type_name="gh_guid" type_code="9">6d245542-b1d6-46d1-9114-0a70281c6d1a</item>
+                        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
                         <item name="Name" type_name="gh_string" type_code="10">Shape</item>
                         <item name="NickName" type_name="gh_string" type_code="10">Shape</item>
                         <item name="Optional" type_name="gh_bool" type_code="1">false</item>
@@ -14536,13 +14447,13 @@ Note: Right click on the component to save the image or svg</item>
                         <chunk name="Attributes">
                           <items count="2">
                             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                              <X>1243</X>
+                              <X>1248</X>
                               <Y>-1789</Y>
                               <W>32</W>
                               <H>40</H>
                             </item>
                             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                              <X>1259</X>
+                              <X>1264</X>
                               <Y>-1769</Y>
                             </item>
                           </items>
@@ -14560,7 +14471,7 @@ Note: Right click on the component to save the image or svg</item>
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="8606">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</bitmap>
+          <bitmap length="7504">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</bitmap>
         </item>
       </items>
     </chunk>
