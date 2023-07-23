@@ -15,7 +15,7 @@
                              inner_sel="#f0f0f0ff"
                              item="#d5d5d5ff"
                              text="#676767"
-                             text_sel="#000000"
+                             text_sel="#606060"
                              show_shaded="FALSE"
                              shadetop="0"
                              shadedown="0">
@@ -25,7 +25,7 @@
           <ThemeWidgetColors outline="#aaaaaa"
                              inner="#ffffffff"
                              inner_sel="#f0f0f0ff"
-                             item="#f8f8f8ff"
+                             item="#efefefff"
                              text="#676767"
                              text_sel="#606060"
                              show_shaded="FALSE"
@@ -61,7 +61,7 @@
           <ThemeWidgetColors outline="#aaaaaa"
                              inner="#ffffffff"
                              inner_sel="#ffffffff"
-                             item="#606060ff"
+                             item="#676767ff"
                              text="#676767"
                              text_sel="#606060"
                              show_shaded="TRUE"
@@ -183,7 +183,7 @@
                              inner_sel="#f0f0f0ff"
                              item="#cfcfcfff"
                              text="#676767"
-                             text_sel="#606060"
+                             text_sel="#676767"
                              show_shaded="FALSE"
                              shadetop="0"
                              shadedown="0">
@@ -244,10 +244,10 @@
                    wire_edit="#676767"
                    gp_vertex="#606060"
                    gp_vertex_select="#efefef"
-                   gp_vertex_size="4"
+                   gp_vertex_size="2"
                    text_grease_pencil="#606060"
-                   object_selected="#efefef"
-                   object_active="#efefef"
+                   object_selected="#f0f0f0"
+                   object_active="#dfdfdf"
                    object_grouped="#676767"
                    object_grouped_active="#7cbb7c"
                    text_keyframe="#676767"
@@ -257,7 +257,7 @@
                    speaker="#606060"
                    vertex="#676767"
                    vertex_select="#efefef"
-                   vertex_size="4"
+                   vertex_size="2"
                    vertex_bevel="#676767"
                    vertex_unreferenced="#676767"
                    edge_select="#606060"
@@ -270,7 +270,7 @@
                    face="#ffffffff"
                    face_select="#0000000f"
                    face_dot="#cfcfcf"
-                   facedot_size="1"
+                   facedot_size="2"
                    freestyle_face_mark="#5e5e5eff"
                    nurb_uline="#606060"
                    nurb_vline="#606060"
@@ -300,12 +300,12 @@
                    bundle_solid="#a6a6a6"
                    camera_path="#ababab"
                    skin_root="#7a7a7a"
-                   view_overlay="#efefef"
+                   view_overlay="#f0f0f0"
                    transform="#444444"
                    frame_current="#bfbfbf"
                    paint_curve_handle="#7575757f"
                    paint_curve_pivot="#4444447f"
-                   outline_width="4">
+                   outline_width="2">
         <space>
           <ThemeSpaceGradient title="#606060"
                               text="#ffffff"
@@ -323,14 +323,14 @@
                               tab_outline="#9f9f9f">
             <gradients>
               <ThemeGradientColors show_grad="FALSE"
-                                   gradient="#d9d9d9"
-                                   high_gradient="#dddddd">
+                                   gradient="#ffffff"
+                                   high_gradient="#ffffff">
               </ThemeGradientColors>
             </gradients>
             <panelcolors>
               <ThemePanelColors header="#ffffff00"
                                 back="#ffffff00"
-                                show_header="FALSE"
+                                show_header="TRUE"
                                 show_back="FALSE">
               </ThemePanelColors>
             </panelcolors>
@@ -543,16 +543,16 @@
     <image_editor>
       <ThemeImageEditor gp_vertex="#000000"
                         gp_vertex_select="#ff8500"
-                        gp_vertex_size="3"
+                        gp_vertex_size="2"
                         vertex="#000000"
                         vertex_select="#efefef"
-                        vertex_size="4"
+                        vertex_size="2"
                         vertex_bevel="#606060"
                         vertex_unreferenced="#606060"
                         face="#ffffff0a"
                         face_select="#efefef3c"
                         face_dot="#efefef"
-                        facedot_size="4"
+                        facedot_size="2"
                         freestyle_face_mark="#60606033"
                         editmesh_active="#60606080"
                         wire_edit="#9f9f9f"
@@ -579,7 +579,7 @@
                         handle_sel_auto_clamped="#606060"
                         handle_vertex="#606060"
                         handle_vertex_select="#efefef"
-                        handle_vertex_size="4"
+                        handle_vertex_size="2"
                         paint_curve_handle="#6060607f"
                         paint_curve_pivot="#6060607f">
         <space>
