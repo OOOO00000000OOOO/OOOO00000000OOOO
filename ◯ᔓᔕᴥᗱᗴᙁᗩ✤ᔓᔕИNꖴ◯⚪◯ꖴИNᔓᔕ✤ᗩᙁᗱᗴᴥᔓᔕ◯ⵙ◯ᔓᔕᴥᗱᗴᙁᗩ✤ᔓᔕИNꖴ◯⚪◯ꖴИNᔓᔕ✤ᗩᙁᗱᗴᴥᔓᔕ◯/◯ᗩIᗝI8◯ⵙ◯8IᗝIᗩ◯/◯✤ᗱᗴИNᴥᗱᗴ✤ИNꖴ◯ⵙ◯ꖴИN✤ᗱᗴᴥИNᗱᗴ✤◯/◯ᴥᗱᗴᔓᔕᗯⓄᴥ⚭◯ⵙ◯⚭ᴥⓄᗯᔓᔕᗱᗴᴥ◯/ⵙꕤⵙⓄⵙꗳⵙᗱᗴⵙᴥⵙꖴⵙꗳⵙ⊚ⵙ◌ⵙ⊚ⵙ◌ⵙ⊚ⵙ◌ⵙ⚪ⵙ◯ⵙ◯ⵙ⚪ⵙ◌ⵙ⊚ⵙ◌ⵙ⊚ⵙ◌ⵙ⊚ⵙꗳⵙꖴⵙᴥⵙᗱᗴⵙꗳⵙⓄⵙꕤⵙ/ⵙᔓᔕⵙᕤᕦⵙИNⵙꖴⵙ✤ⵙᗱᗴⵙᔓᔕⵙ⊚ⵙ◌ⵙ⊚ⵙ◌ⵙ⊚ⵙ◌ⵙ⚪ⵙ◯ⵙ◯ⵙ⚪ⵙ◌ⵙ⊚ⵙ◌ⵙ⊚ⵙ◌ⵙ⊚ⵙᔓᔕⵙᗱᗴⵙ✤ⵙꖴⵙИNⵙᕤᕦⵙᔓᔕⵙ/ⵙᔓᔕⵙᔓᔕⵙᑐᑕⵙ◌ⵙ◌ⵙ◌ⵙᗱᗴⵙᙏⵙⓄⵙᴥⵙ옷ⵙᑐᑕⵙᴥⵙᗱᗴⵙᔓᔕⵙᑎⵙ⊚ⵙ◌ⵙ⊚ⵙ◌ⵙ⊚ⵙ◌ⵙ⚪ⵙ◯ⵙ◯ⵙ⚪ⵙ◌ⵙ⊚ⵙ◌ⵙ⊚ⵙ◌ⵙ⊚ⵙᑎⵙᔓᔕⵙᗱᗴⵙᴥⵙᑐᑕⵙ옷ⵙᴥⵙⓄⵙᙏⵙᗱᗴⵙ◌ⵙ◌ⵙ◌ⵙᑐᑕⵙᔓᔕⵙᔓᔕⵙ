@@ -14,7 +14,8 @@
 --toolbarbutton-inner-padding:0!IMPORTANT;--toolbar-start-end-padding:0!IMPORTANT;--identity-box-margin-inline:0!IMPORTANT;--tab-border-radius:256PX!IMPORTANT;--inline-tab-padding:0!IMPORTANT;--tab-block-margin:0!IMPORTANT;--tab-min-height:16PX!IMPORTANT;
 --urlbar-container-padding:0!IMPORTANT;--urlbar-margin-inline:0!IMPORTANT;--urlbar-min-height:0!IMPORTANT;--urlbarView-row-gutter:0PX!IMPORTANT;--urlbarView-result-button-size:16PX!IMPORTANT;--button-hover-bgcolor:#F9F9F9!IMPORTANT;--uei-icon-size:16PX!IMPORTANT;
 }
-*{TRANSITION:NONE!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;}#urlbar[focused="true"]>#urlbar-background,#searchbar:focus-within{BOX-SHADOW: 0PX 0PX 0PX RGBA(0, 0, 0, 0.23);OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
+*{TRANSITION:NONE!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;FONT-STYLE:NORMAL!IMPORTANT}#urlbar[focused="true"]>#urlbar-background,#searchbar:focus-within{BOX-SHADOW: 0PX 0PX 0PX RGBA(0, 0, 0, 0.23);OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
+.panel-subview-body,panelview{MIN-WIDTH:FIT-CONTENT!IMPORTANT;DISPLAY:FLEX!IMPORTANT;FLEX-WRAP:WRAP-REVERSE!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT}
 moz-input-box,#statuspanel,#statuspanel-label{TEXT-ALIGN:CENTER!IMPORTANT;JUSTIFY-CONTENT:CENTER!IMPORTANT;MAX-WIDTH:100%!IMPORTANT;WIDTH:100%!IMPORTANT}.urlbarView-row-inner,.urlbarView-no-wrap{JUSTIFY-CONTENT:CENTER!IMPORTANT}.urlbarView-url{FLEX-GROW:0!IMPORTANT}.urlbarView-button{DISPLAY:NONE!IMPORTANT}
 .menu-iconic>.menu-iconic-left,.menuitem-iconic>.menu-iconic-left{PADDING:0PX!IMPORTANT}.menu-text,.menu-iconic-text{MARGIN:0!IMPORTANT;PADDING:0!IMPORTANT}.menu-accel,.menu-iconic-accel{MARGIN:0 0!IMPORTANT}.menu-iconic-left{!IMPORTANT;WIDTH:2EM!IMPORTANT}
 #userContext-icons,#urlbar-zoom-button{MARGIN-INLINE:1PX!IMPORTANT}#urlbar-zoom-button{FONT-SIZE:1EM!IMPORTANT;PADDING:0PX 0PX!IMPORTANT;BACKGROUND-COLOR:#F5F5F5!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
