@@ -1,0 +1,263 @@
+#! C:/O/O_ERAWTFOS_O_SOFTWARE_O/O_SMARGORP_O_PROGRAMS_O/O_AIDIW_O_WIDIA_O/O_D3_O_3D_O/O_YRDNUOF_O_FOUNDRY_O/O_EKUN_O_NUKE_O/O_6W3.11_O_11.3W6_O/nuke-11.3.6.dll -nx
+version 11.3 v6
+define_window_layout_xml {<?xml version="1.0" encoding="UTF-8"?>
+<layout version="1.0">
+    <window x="-4" y="-4" w="1680" h="1003" maximized="1" screen="0">
+        <splitter orientation="2">
+            <split size="52"/>
+            <splitter orientation="2">
+                <split size="24"/>
+                <splitter orientation="1">
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.histogram.1">
+                        <page id="uk.co.thefoundry.histogram.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="DopeSheet.1">
+                        <page id="DopeSheet.1"/>
+                    </dock>
+                    <split size="558"/>
+                    <dock id="" activePageId="uk.co.thefoundry.sequenceviewer.1">
+                        <page id="uk.co.thefoundry.sequenceviewer.1"/>
+                    </dock>
+                    <split size="343"/>
+                    <dock id="" activePageId="uk.co.thefoundry.spreadsheetview.1">
+                        <page id="uk.co.thefoundry.spreadsheetview.1"/>
+                    </dock>
+                    <split size="210"/>
+                    <dock id="" activePageId="uk.co.thefoundry.waveformscope.1">
+                        <page id="uk.co.thefoundry.waveformscope.1"/>
+                    </dock>
+                </splitter>
+                <split size="24"/>
+                <splitter orientation="1">
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.timeline.1">
+                        <page id="uk.co.thefoundry.timeline.1" layout="splitter(417,417)"/>
+                    </dock>
+                    <split size="838"/>
+                    <dock id="" activePageId="uk.co.thefoundry.project.2">
+                        <page id="uk.co.thefoundry.project.2" layout="splitter(406,406)"/>
+                    </dock>
+                </splitter>
+            </splitter>
+            <split size="834"/>
+            <splitter orientation="1">
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="415"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.2">
+                            <page id="uk.co.thefoundry.histogram.2"/>
+                            <page id="uk.co.thefoundry.waveformscope.2"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.2">
+                            <page id="Viewer.2"/>
+                        </dock>
+                    </splitter>
+                    <split size="415"/>
+                    <splitter orientation="1">
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.3">
+                            <page id="uk.co.thefoundry.histogram.3"/>
+                            <page id="uk.co.thefoundry.waveformscope.3"/>
+                        </dock>
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.3">
+                            <page id="Viewer.3"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+                <split size="558"/>
+                <splitter orientation="2">
+                    <split size="415"/>
+                    <dock id="" activePageId="Properties.1" focus="true">
+                        <page id="Curve Editor.1"/>
+                        <page id="Properties.1"/>
+                        <page id="Pixel Analyzer.1"/>
+                    </dock>
+                    <split size="285"/>
+                    <dock id="" activePageId="DAG.1">
+                        <page id="DAG.1"/>
+                    </dock>
+                    <split size="126"/>
+                    <dock id="" activePageId="uk.co.thefoundry.scripteditor.2">
+                        <page id="Progress.1"/>
+                        <page id="uk.co.thefoundry.scripteditor.2"/>
+                    </dock>
+                </splitter>
+                <split size="557"/>
+                <splitter orientation="2">
+                    <split size="415"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.1">
+                            <page id="Viewer.1"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.4">
+                            <page id="uk.co.thefoundry.waveformscope.4"/>
+                            <page id="uk.co.thefoundry.histogram.4"/>
+                        </dock>
+                    </splitter>
+                    <split size="415"/>
+                    <splitter orientation="1">
+                        <split size="343"/>
+                        <dock id="" activePageId="Viewer.4">
+                            <page id="Viewer.4"/>
+                        </dock>
+                        <split size="210"/>
+                        <dock id="" activePageId="uk.co.thefoundry.waveformscope.5">
+                            <page id="uk.co.thefoundry.waveformscope.5"/>
+                            <page id="uk.co.thefoundry.histogram.5"/>
+                        </dock>
+                    </splitter>
+                </splitter>
+            </splitter>
+            <split size="81"/>
+            <splitter orientation="1">
+                <split size="838"/>
+                <dock id="" activePageId="Error Console.1">
+                    <page id="Error Console.1"/>
+                </dock>
+                <split size="838"/>
+                <dock id="" activePageId="Toolbar.1">
+                    <page id="Toolbar.1"/>
+                </dock>
+            </splitter>
+        </splitter>
+    </window>
+</layout>
+}
+Root {
+ inputs 0
+ name C:/KИ.ⵙᗱᗴᑐᑕИNᗱᗴᴥᗱᗴꗳꖴᗝⵙᗱᗴᕤᕦᗩᙏꖴ⊚◌⚪ⵙ◯ⵙ◯ⵙ⚪◌⊚ꖴᙏᗩᕤᕦᗱᗴⵙᗝꖴꗳᗱᗴᴥᗱᗴИNᑐᑕᗱᗴⵙ.NK
+ mapsize {0.01971326165 0.05019305019}
+ last_frame 5824
+ fps 69
+ format "256 256 0 0 256 256 1 square_256"
+ proxy_type scale
+ proxy_format "1024 778 0 0 1024 778 1 1K_Super_35(full-ap)"
+ colorManagement Nuke
+ workingSpaceLUT linear
+ monitorLut sRGB
+ int8Lut sRGB
+ int16Lut sRGB
+ logLut Cineon
+ floatLut linear
+ views_colours true
+}
+Read {
+ inputs 0
+ file_type png
+ file C:/GИP..ⵙ⠿ⵙⵘⵙ꞉ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⚪ⵙ◯ⵙ◯ⵙ⚪ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ꞉ⵙⵘⵙ⠿ⵙ..PNG
+ format "256 256 0 0 256 256 1 square_256"
+ origset true
+ version 21
+ colorspace linear
+ raw true
+ name ⵙᐤⵙᗝⵙᗩⵙᗱᗴⵙᴥⵙᐤⵙᐤⵙᴥⵙᗱᗴⵙᗩⵙᗝⵙᐤⵙ
+ note_font_color 0xff
+ xpos 72
+ ypos 355
+}
+set N7bf56000 [stack 0]
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙᐤⵙᴥⵙᗱᗴⵙᗯⵙᗱᗴⵙꖴⵙᗯⵙᐤⵙᐤⵙᗯⵙꖴⵙᗱᗴⵙᗯⵙᗱᗴⵙᴥⵙᐤⵙ
+ xpos 72
+ ypos 310
+}
+Read {
+ inputs 0
+ file_type png
+ file C:/GИP..ⵙ∷ⵙ꞉ⵙⵔⵙ·ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⚪ⵙ◯ⵙ◯ⵙ⚪ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ◌ⵙ⊚ⵙ·ⵙⵔⵙ꞉ⵙ∷ⵙ..PNG
+ format "256 256 0 0 256 256 1 square_256"
+ origset true
+ version 1
+ colorspace linear
+ raw true
+ name ⵙᐤⵙᐤⵙᗝⵙᗩⵙᗱᗴⵙᴥⵙᐤⵙᐤⵙᴥⵙᗱᗴⵙᗩⵙᗝⵙᐤⵙᐤⵙ
+ xpos -360
+ ypos 355
+}
+set N7bf56400 [stack 0]
+push $N7bf56000
+Merge2 {
+ inputs 2
+ operation difference
+ metainput All
+ rangeinput All
+ name ⵙᗱᗴⵙᕤᕦⵙᴥⵙᗱᗴⵙᙏⵙᐤⵙᐤⵙᙏⵙᗱᗴⵙᴥⵙᕤᕦⵙᗱᗴⵙ
+ xpos -144
+ ypos 291
+ postage_stamp true
+}
+CurveTool {
+ operation "Max Luma Pixel"
+ avgframes 0
+ channels rgba
+ ROI {0 0 {width x1 1024} {height x1 1024}}
+ autocropdata {0 0 {width} {height}}
+ intensitydata {{curve}}
+ maxlumapixdata {{curve x1 611} {curve x1 477}}
+ maxlumapixvalue {{curve x1 0.007934689522} {curve x1 0.007934689522} {curve x1 0.007934689522}}
+ minlumapixdata {{curve x1 0} {curve x1 0}}
+ minlumapixvalue {{curve x1 0} {curve x1 0} {curve x1 0}}
+ name ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ
+ label "\[value ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.O_ECNEREFID_O_DIFERENCE_O]\n\[value ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.minlumapixvalue]\n\[value ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.maxlumapixvalue]"
+ xpos -144
+ ypos 172
+ postage_stamp true
+ addUserKnob {20 User}
+ addUserKnob {18 O_ECNEREFID_O_DIFERENCE_O}
+ O_ECNEREFID_O_DIFERENCE_O {{abs(ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.maxlumapixvalue.r-ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.minlumapixvalue.r)} {abs(ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.maxlumapixvalue.g-ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.minlumapixvalue.g)} {abs(ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.maxlumapixvalue.b-ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.minlumapixvalue.b)}}
+ addUserKnob {6 O_ECNEREFID_O_DIFERENCE_O_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+ addUserKnob {6 O_panelDropped l "panel dropped state" -STARTLINE +HIDDEN}
+}
+Grade {
+ channels rgba
+ blackpoint {{ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.minlumapixvalue}}
+ whitepoint {{0*ⵙᙁⵙⵔⵙTⵙᐤⵙᗱᗴⵙᗯⵙᴥⵙᑎⵙᑐᑕⵙᐤⵙᐤⵙᑐᑕⵙᑎⵙᴥⵙᗯⵙᗱᗴⵙᐤⵙTⵙⵔⵙᙁⵙ.maxlumapixvalue x1 0}}
+ white_clamp true
+ enable_mix_luminance false
+ name ⵙᗱᗴⵙᗝⵙᗩⵙᴥⵙᕤᕦⵙᐤⵙᐤⵙᕤᕦⵙᴥⵙᗩⵙᗝⵙᗱᗴⵙ
+ xpos -144
+ ypos 91
+ postage_stamp true
+}
+set N439e7400 [stack 0]
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙᐤⵙᐤⵙᐤⵙᐤⵙᴥⵙᗱᗴⵙᗯⵙᗱᗴⵙꖴⵙᗯⵙᐤⵙᐤⵙᗯⵙꖴⵙᗱᗴⵙᗯⵙᗱᗴⵙᴥⵙᐤⵙᐤⵙᐤⵙᐤⵙ
+ xpos -328
+ ypos 78
+}
+push $N439e7400
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙᐤⵙᐤⵙᐤⵙᴥⵙᗱᗴⵙᗯⵙᗱᗴⵙꖴⵙᗯⵙᐤⵙᐤⵙᗯⵙꖴⵙᗱᗴⵙᗯⵙᗱᗴⵙᴥⵙᐤⵙᐤⵙᐤⵙ
+ xpos 32
+ ypos 78
+}
+push $N7bf56400
+Viewer {
+ frame_range 1-5824
+ fps 69
+ full_frame_processing true
+ viewerProcess None
+ name ⵙᐤⵙᐤⵙᴥⵙᗱᗴⵙᗯⵙᗱᗴⵙꖴⵙᗯⵙᐤⵙᐤⵙᗯⵙꖴⵙᗱᗴⵙᗯⵙᗱᗴⵙᴥⵙᐤⵙᐤⵙ
+ xpos -360
+ ypos 310
+}
