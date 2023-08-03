@@ -1000,12 +1000,6 @@ keyconfig_data = \
     ],
    },
   ),
- ("Grease Pencil Stroke Sculpt (Twist)",
-  {"space_type": 'EMPTY', "region_type": 'WINDOW'},
-  {"items":
-   [],
-   },
-  ),
  ("Image",
   {"space_type": 'IMAGE_EDITOR', "region_type": 'WINDOW'},
   {"items":
