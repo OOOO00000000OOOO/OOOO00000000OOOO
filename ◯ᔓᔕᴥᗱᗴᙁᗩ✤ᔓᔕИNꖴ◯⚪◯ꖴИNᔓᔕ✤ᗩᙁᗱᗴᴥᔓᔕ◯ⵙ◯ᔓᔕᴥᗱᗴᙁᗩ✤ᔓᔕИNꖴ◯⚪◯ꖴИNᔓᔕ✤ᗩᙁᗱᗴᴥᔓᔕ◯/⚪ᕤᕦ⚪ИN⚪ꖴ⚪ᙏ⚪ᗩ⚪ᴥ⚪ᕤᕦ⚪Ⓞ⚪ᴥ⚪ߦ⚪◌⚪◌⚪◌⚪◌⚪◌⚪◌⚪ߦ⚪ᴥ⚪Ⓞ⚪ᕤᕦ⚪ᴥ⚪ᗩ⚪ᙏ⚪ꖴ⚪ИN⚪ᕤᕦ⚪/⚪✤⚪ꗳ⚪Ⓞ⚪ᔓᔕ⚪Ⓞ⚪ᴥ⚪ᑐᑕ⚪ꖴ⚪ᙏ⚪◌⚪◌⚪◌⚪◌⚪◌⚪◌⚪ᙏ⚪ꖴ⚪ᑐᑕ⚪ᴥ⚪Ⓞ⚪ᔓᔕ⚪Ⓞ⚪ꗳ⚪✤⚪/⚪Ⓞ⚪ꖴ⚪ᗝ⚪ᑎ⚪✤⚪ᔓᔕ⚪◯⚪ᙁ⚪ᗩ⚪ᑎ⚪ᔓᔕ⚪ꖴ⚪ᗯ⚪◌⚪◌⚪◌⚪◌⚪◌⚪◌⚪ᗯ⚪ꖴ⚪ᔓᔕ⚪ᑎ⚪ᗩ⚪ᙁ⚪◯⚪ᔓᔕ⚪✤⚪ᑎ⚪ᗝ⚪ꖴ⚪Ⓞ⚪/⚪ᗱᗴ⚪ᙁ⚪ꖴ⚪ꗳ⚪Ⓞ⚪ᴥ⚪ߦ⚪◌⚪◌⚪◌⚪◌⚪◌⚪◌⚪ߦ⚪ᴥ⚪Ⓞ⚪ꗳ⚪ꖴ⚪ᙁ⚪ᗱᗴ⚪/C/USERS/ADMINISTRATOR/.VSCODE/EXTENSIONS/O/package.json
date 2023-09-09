@@ -1,24 +1,53 @@
 {
-  "name": "o",
-  "displayName": "⠀",
-  "description": "⚪◌⚪◌⚪◌⚪◌⚪◌⚪◌⚪",
-  "version": "0.0.0",
-  "publisher": "⚪∞⚪⁂⚪ᐃ⚪ⵔ⚪꞉⚪ⵘ⚪❋⚪ⵔ⚪ⵔ⚪⁂⚪❋⚪❋⚪ⵔ⚪❋⚪·⚪⁂⚪❋⚪❋⚪ⵈ⚪⁂⚪❋⚪ⵔ⚪⁂⚪❋⚪꞉⚪ⵔ⚪ⵔ⚪ⵔ⚪·⚪⁂⚪ⵔ⚪꞉⚪⁂⚪ⵔ⚪ᐃ⚪·⚪·⚪⁂⚪⁂⚪❋⚪❋⚪⠿⚪ᐃ⚪ⵔ⚪ⵈ⚪ⵔ⚪∷⚪ⵘ⚪⁂⚪⁂⚪❋⚪ⵘ⚪꞉⚪꞉⚪ⵔ⚪⠿⚪ⵔ⚪∷⚪◌⚪∷⚪❋⚪⊚⚪⊚⚪❋⚪∷⚪◌⚪∷⚪ⵔ⚪⠿⚪ⵔ⚪꞉⚪꞉⚪ⵘ⚪❋⚪⁂⚪⁂⚪ⵘ⚪∷⚪ⵔ⚪ⵈ⚪ⵔ⚪ᐃ⚪⠿⚪❋⚪❋⚪⁂⚪⁂⚪·⚪·⚪ᐃ⚪ⵔ⚪⁂⚪꞉⚪ⵔ⚪⁂⚪·⚪ⵔ⚪ⵔ⚪ⵔ⚪꞉⚪❋⚪⁂⚪ⵔ⚪❋⚪⁂⚪ⵈ⚪❋⚪❋⚪⁂⚪·⚪❋⚪ⵔ⚪❋⚪❋⚪⁂⚪ⵔ⚪ⵔ⚪❋⚪ⵘ⚪꞉⚪ⵔ⚪ᐃ⚪⁂⚪∞⚪",
-  "icon": "GNP.PNG",
-  "galleryBanner": {
-		"color": "#FFFFFFFF",
-		"theme": "light"
-	},
-  "engines": {
-    "vscode": "^1.82.0"
-	},
-  "contributes": {
-    "themes": [
-      {
-        "label": "⠀",
-        "uiTheme": "vs",
-        "path": "./O-SEMEHT-O-THEMES-O/nosj.emeht-roloc-etihw-edoc-oiduts-lausiw-o-wisual-studio-code-white-color-theme.json"
-      }
-    ]
-  }
+"name":"O",
+"displayName":"⠀",
+"description":"⚪◌⚪◌⚪◌⚪◌⚪◌⚪◌⚪",
+"version":"0.0.0",
+"publisher":"OOOO",
+"icon":"GNP.PNG",
+"galleryBanner":{
+"color":"#FFFFFFFF",
+"theme":"light"
+}
+,
+"repository"
+:
+{
+"type":"git",
+"url":"http://DAGSHUB.COM/O"
+}
+,
+"engines"
+:
+{
+"vscode":"^1.82.0"
+}
+,
+"categories"
+:
+[
+"THEMES",
+"VISUALIZATION",
+"OTHER"
+]
+,
+"keywords"
+:
+[
+"⚪ᗱᗴ⚪✤⚪ꖴ⚪옷⚪ᗯ⚪◌⚪◌⚪◌⚪◌⚪◌⚪◌⚪ᗯ⚪옷⚪ꖴ⚪✤⚪ᗱᗴ⚪"
+]
+,
+"contributes"
+:
+{
+"themes"
+:
+[
+{
+"label":"⠀",
+"uiTheme":"vs",
+"path":"./O-SEMEHT-O-THEMES-O/nosj.emeht-roloc-etihw-edoc-oiduts-lausiw-o-wisual-studio-code-white-color-theme.json"
+}
+]
+}
 }
