@@ -1,5 +1,5 @@
 {
-  "name": "O",
+  "name": "o",
   "displayName": "⠀",
   "description": "⚪◌⚪◌⚪◌⚪◌⚪◌⚪◌⚪",
   "version": "0.0.0",
@@ -12,15 +12,12 @@
   "engines": {
     "vscode": "^1.82.0"
 	},
-	"categories": [
-		"Themes"
-	],
   "contributes": {
     "themes": [
       {
         "label": "⠀",
         "uiTheme": "vs",
-        "path": "./O_SEMEHT_O_THEMES_O/nosj.o_emeht_roloc_edoc_oiduts_lausiw_o_wisual_studio_code_color_theme_o.json"
+        "path": "./O-SEMEHT-O-THEMES-O/nosj.emeht-roloc-etihw-edoc-oiduts-lausiw-o-wisual-studio-code-white-color-theme.json"
       }
     ]
   }
