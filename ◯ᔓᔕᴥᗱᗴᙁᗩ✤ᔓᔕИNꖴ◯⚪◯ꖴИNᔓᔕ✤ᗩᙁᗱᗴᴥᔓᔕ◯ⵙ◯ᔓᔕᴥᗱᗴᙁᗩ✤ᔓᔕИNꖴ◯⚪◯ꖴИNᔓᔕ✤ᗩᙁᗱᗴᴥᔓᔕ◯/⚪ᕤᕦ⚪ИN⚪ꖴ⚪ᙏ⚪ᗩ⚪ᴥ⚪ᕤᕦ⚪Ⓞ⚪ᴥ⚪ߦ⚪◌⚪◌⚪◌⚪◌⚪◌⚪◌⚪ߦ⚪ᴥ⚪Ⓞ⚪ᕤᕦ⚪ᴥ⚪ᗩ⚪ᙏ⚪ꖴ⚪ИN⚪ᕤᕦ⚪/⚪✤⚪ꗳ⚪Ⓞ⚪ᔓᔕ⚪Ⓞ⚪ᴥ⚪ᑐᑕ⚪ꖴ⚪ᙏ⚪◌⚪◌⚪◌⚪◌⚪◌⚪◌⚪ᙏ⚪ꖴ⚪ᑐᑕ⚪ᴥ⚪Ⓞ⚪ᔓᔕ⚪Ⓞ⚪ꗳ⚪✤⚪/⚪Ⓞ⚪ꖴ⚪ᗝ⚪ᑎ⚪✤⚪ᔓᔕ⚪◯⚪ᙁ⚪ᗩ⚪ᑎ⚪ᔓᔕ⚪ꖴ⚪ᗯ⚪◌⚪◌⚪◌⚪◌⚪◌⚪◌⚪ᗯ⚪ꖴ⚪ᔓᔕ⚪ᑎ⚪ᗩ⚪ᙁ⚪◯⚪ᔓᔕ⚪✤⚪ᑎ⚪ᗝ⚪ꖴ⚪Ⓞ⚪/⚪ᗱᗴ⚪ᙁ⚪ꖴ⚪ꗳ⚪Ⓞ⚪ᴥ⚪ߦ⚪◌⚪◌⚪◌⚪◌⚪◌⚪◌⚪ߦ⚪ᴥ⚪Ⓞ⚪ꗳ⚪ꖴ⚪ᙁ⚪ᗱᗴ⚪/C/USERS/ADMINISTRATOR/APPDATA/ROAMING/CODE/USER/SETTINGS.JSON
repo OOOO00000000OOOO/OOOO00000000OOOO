@@ -18,7 +18,7 @@
     "window.commandCenter": true,
     "notebook.stickyScroll.enabled": true,
     "editor.renderWhitespace": "all",
-    "json.maxItemsComputed": 65536,
+    "json.maxItemsComputed": 4294967296,
     "files.exclude": {
         "**/.DS_Store": false,
         "**/.git": false,
@@ -47,7 +47,6 @@
     "editor.linkedEditing": true,
     "editor.multiCursorPaste": "full",
     "editor.renderLineHighlight": "all",
-    "editor.scrollbar.horizontal": "visible",
     "editor.scrollbar.vertical": "visible",
     "editor.scrollbar.verticalScrollbarSize": 16,
     "editor.scrollbar.horizontalScrollbarSize": 16,
@@ -66,18 +65,34 @@
     "telemetry.telemetryLevel": "off",
     "workbench.reduceMotion": "on",
     "workbench.sideBar.location": "right",
-    "vscode_custom_css.imports": [
-    "file:///C:/USERS/ADMINISTRATOR/.vscode/extensions/O/O-EMEHT-O-THEME-O/ssc.css"],
-"workbench.settings.editor": "json",
 "workbench.editor.closeEmptyGroups": false,
 "editor.suggest.matchOnWordStartOnly": false,
-"window.zoomLevel": -1,
 "apc.activityBar": {
     "itemMargin": 0,
-    "itemSize": 32,
-    "size": 32,
+    "itemSize": 24,
+    "size": 22,
     "position": "bottom"
 },
 "update.enableWindowsBackgroundUpdates": false,
 "update.mode": "none",
+"apc.statusBar": {
+    "position": "editor-bottom"
+},
+"customvscodeuicss.css": "C:\\USERS\\ADMINISTRATOR\\.vscode\\extensions\\O\\O-EMEHT-O-THEME-O\\ssc.css",
+"editor.maxTokenizationLineLength": 4294967296,
+"editor.scrollBeyondLastLine": false,
+"editor.minimap.enabled": false,
+"editor.wordWrap": "on",
+"editor.autoIndent": "none",
+"notebook.showFoldingControls": "always",
+"html.format.wrapAttributes": "preserve",
+"chat.editor.wordWrap": "on",
+"editor.scrollbar.horizontal": "visible",
+"apc.header": {
+"height": 16,
+},
+"apc.sidebar.titlebar": {
+"height": 16,
+},
+"window.zoomLevel": -1,
     }
