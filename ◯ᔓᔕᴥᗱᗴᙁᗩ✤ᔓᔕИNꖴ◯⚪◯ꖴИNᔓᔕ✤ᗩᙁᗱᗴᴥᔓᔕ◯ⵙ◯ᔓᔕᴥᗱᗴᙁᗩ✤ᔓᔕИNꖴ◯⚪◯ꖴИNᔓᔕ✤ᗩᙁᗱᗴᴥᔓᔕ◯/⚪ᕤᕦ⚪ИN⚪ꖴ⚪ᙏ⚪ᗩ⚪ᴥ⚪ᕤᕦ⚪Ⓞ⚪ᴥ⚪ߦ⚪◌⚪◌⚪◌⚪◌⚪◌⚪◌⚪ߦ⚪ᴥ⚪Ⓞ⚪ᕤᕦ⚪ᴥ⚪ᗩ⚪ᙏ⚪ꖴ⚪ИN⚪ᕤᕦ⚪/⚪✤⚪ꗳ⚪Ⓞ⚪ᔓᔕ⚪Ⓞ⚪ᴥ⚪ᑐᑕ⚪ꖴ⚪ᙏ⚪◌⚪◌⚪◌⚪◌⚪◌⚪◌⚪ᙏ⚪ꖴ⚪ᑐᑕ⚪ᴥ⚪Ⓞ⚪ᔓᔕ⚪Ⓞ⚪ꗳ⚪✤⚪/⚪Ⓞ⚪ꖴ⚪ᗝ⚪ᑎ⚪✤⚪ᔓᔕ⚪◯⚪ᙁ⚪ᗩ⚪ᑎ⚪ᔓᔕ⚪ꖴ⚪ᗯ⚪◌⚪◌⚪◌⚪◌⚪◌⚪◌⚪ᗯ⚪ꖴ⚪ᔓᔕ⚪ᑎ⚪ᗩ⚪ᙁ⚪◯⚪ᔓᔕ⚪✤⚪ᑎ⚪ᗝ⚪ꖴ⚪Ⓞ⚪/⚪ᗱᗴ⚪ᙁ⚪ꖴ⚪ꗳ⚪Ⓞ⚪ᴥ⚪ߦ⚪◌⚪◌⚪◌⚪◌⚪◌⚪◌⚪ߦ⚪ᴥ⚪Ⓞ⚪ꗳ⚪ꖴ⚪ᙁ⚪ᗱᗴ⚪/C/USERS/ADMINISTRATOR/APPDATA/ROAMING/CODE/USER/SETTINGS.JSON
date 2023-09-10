@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "⠀",
-    "workbench.sideBar.location": "right",
     "editor.colorDecoratorsLimit": 1000000,
     "workbench.preferredDarkColorTheme": "⠀",
     "workbench.preferredHighContrastColorTheme": "⠀",
@@ -63,8 +62,22 @@
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?◯",
     "editor.cursorBlinking": "solid",
     "workbench.tree.indent": 17,
-    "window.zoomLevel": -1,
     "workbench.startupEditor": "none",
     "telemetry.telemetryLevel": "off",
     "workbench.reduceMotion": "on",
+    "workbench.sideBar.location": "right",
+    "vscode_custom_css.imports": [
+    "file:///C:/USERS/ADMINISTRATOR/.vscode/extensions/O/O-EMEHT-O-THEME-O/ssc.css"],
+"workbench.settings.editor": "json",
+"workbench.editor.closeEmptyGroups": false,
+"editor.suggest.matchOnWordStartOnly": false,
+"window.zoomLevel": -1,
+"apc.activityBar": {
+    "itemMargin": 0,
+    "itemSize": 32,
+    "size": 32,
+    "position": "bottom"
+},
+"update.enableWindowsBackgroundUpdates": false,
+"update.mode": "none",
     }
