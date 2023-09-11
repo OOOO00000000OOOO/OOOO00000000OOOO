@@ -89,12 +89,15 @@
 "chat.editor.wordWrap": "on",
 "editor.scrollbar.horizontal": "visible",
 "apc.header": {
-"height": 16,
+"height": 24,
 },
 "apc.sidebar.titlebar": {
-"height": 16,
+"height": 24,
 },
-"window.zoomLevel": -1,
 "explorer.compactFolders": false,
 "workbench.list.horizontalScrolling": true,
+"editor.autoClosingQuotes": "always",
+"editor.autoClosingOvertype": "always",
+"window.zoomLevel": -1,
+"workbench.editor.enablePreviewFromQuickOpen": true,
     }
