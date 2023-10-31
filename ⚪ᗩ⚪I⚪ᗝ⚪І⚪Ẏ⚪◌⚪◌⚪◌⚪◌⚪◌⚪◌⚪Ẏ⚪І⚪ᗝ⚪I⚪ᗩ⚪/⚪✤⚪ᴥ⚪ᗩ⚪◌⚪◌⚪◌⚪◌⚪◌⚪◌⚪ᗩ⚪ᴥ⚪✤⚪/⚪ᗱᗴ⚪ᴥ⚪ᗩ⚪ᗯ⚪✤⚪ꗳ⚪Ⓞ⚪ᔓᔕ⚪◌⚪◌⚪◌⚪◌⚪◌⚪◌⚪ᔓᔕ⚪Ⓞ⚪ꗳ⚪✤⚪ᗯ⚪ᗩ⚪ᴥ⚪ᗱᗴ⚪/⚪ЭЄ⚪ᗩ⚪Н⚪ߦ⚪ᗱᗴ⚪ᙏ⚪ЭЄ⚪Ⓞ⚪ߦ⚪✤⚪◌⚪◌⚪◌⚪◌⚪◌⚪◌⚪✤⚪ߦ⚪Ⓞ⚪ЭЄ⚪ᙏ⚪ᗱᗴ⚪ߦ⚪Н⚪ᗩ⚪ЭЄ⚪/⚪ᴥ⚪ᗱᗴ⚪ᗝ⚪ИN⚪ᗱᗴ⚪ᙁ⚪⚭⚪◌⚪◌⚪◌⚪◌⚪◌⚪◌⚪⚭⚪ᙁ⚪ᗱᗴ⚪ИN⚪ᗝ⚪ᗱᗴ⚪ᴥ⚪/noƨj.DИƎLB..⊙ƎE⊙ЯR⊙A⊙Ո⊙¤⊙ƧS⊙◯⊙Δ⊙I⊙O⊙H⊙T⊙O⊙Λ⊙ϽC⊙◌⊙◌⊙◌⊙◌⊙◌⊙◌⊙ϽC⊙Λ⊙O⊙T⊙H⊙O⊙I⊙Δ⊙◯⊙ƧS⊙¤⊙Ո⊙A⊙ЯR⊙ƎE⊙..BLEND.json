@@ -8,8 +8,8 @@
             -2085.333251953125,
             -861.3333129882812
           ],
-          "height": 162.6666259765625,
-          "width": 228.0
+          "height": 154.6666259765625,
+          "width": 224.0
         },
         "bl_idname": "NodeFrame"
       },
@@ -19,8 +19,8 @@
             -90.66666412353516,
             340.0
           ],
-          "height": 162.6666717529297,
-          "width": 207.9998779296875
+          "height": 154.6666717529297,
+          "width": 203.9998779296875
         },
         "bl_idname": "NodeFrame"
       },
@@ -965,70 +965,6 @@
         },
         "bl_idname": "SvMergeByDistanceNode"
       },
-      "Merge by Distance": {
-        "attributes": {
-          "location": [
-            -2221.333251953125,
-            997.3333129882812
-          ],
-          "label": " "
-        },
-        "properties": {
-          "distance": 7.62939453125e-06
-        },
-        "inputs": {
-          "Vertices": {
-            "bl_idname": "SvVerticesSocket",
-            "name": "Vertices"
-          },
-          "PolyEdge": {
-            "bl_idname": "SvStringsSocket",
-            "name": "PolyEdge"
-          },
-          "FaceData": {
-            "bl_idname": "SvStringsSocket",
-            "name": "FaceData"
-          },
-          "Mask": {
-            "bl_idname": "SvStringsSocket",
-            "name": "Mask"
-          },
-          "Distance": {
-            "bl_idname": "SvStringsSocket",
-            "name": "Distance",
-            "properties": {
-              "prop_name": "distance"
-            }
-          }
-        },
-        "outputs": {
-          "Vertices": {
-            "bl_idname": "SvVerticesSocket",
-            "name": "Vertices"
-          },
-          "Edges": {
-            "bl_idname": "SvStringsSocket",
-            "name": "Edges"
-          },
-          "Polygons": {
-            "bl_idname": "SvStringsSocket",
-            "name": "Polygons"
-          },
-          "FaceData": {
-            "bl_idname": "SvStringsSocket",
-            "name": "FaceData"
-          },
-          "Doubles": {
-            "bl_idname": "SvVerticesSocket",
-            "name": "Doubles"
-          },
-          "Mask": {
-            "bl_idname": "SvStringsSocket",
-            "name": "Mask"
-          }
-        },
-        "bl_idname": "SvMergeByDistanceNode"
-      },
       "Mirror Mk2.001": {
         "attributes": {
           "location": [
@@ -1161,101 +1097,6 @@
           }
         },
         "bl_idname": "SvListItemNode"
-      },
-      "Spiral": {
-        "attributes": {
-          "location": [
-            -1904.0,
-            702.6666870117188
-          ],
-          "height": 0.0,
-          "width": 220.0,
-          "label": " "
-        },
-        "properties": {
-          "sType": "CORNU",
-          "eRadius": 1.0,
-          "iRadius": 0.7071067690849304,
-          "exponent": 1.0,
-          "turns": 1,
-          "resolution": 21
-        },
-        "inputs": {
-          "R": {
-            "bl_idname": "SvStringsSocket",
-            "name": "R",
-            "properties": {
-              "prop_name": "eRadius"
-            }
-          },
-          "r": {
-            "bl_idname": "SvStringsSocket",
-            "name": "r",
-            "properties": {
-              "prop_name": "iRadius"
-            }
-          },
-          "e": {
-            "bl_idname": "SvStringsSocket",
-            "name": "e",
-            "properties": {
-              "prop_name": "exponent"
-            }
-          },
-          "t": {
-            "bl_idname": "SvStringsSocket",
-            "name": "t",
-            "properties": {
-              "prop_name": "turns"
-            }
-          },
-          "n": {
-            "bl_idname": "SvStringsSocket",
-            "name": "n",
-            "properties": {
-              "prop_name": "resolution"
-            }
-          },
-          "s": {
-            "bl_idname": "SvStringsSocket",
-            "name": "s",
-            "properties": {
-              "prop_name": "scale"
-            }
-          },
-          "h": {
-            "bl_idname": "SvStringsSocket",
-            "name": "h",
-            "properties": {
-              "prop_name": "height"
-            }
-          },
-          "p": {
-            "bl_idname": "SvStringsSocket",
-            "name": "p",
-            "properties": {
-              "prop_name": "phase"
-            }
-          },
-          "a": {
-            "bl_idname": "SvStringsSocket",
-            "name": "a",
-            "properties": {
-              "prop_name": "arms"
-            }
-          }
-        },
-        "outputs": {
-          "Vertices": {
-            "bl_idname": "SvVerticesSocket",
-            "name": "Vertices"
-          },
-          "Edges": {
-            "bl_idname": "SvStringsSocket",
-            "name": "Edges"
-          }
-        },
-        "bl_idname": "SvSpiralNodeMK2"
       },
       "Number Range": {
         "attributes": {
@@ -2034,6 +1875,165 @@
           }
         },
         "bl_idname": "ListJoinNode"
+      },
+      "Merge by Distance": {
+        "attributes": {
+          "location": [
+            -2221.333251953125,
+            997.3333129882812
+          ],
+          "label": " "
+        },
+        "properties": {
+          "distance": 7.62939453125e-06
+        },
+        "inputs": {
+          "Vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vertices"
+          },
+          "PolyEdge": {
+            "bl_idname": "SvStringsSocket",
+            "name": "PolyEdge"
+          },
+          "FaceData": {
+            "bl_idname": "SvStringsSocket",
+            "name": "FaceData"
+          },
+          "Mask": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Mask"
+          },
+          "Distance": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Distance",
+            "properties": {
+              "prop_name": "distance"
+            }
+          }
+        },
+        "outputs": {
+          "Vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vertices"
+          },
+          "Edges": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Edges"
+          },
+          "Polygons": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Polygons"
+          },
+          "FaceData": {
+            "bl_idname": "SvStringsSocket",
+            "name": "FaceData"
+          },
+          "Doubles": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Doubles"
+          },
+          "Mask": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Mask"
+          }
+        },
+        "bl_idname": "SvMergeByDistanceNode"
+      },
+      "Spiral": {
+        "attributes": {
+          "location": [
+            -1904.0,
+            702.6666870117188
+          ],
+          "height": 0.0,
+          "width": 220.0,
+          "label": "\u2800"
+        },
+        "properties": {
+          "sType": "CORNU",
+          "eRadius": 1.0,
+          "iRadius": 0.7071067690849304,
+          "exponent": 1.0,
+          "turns": 1,
+          "resolution": 21
+        },
+        "inputs": {
+          "R": {
+            "bl_idname": "SvStringsSocket",
+            "name": "R",
+            "properties": {
+              "prop_name": "eRadius"
+            }
+          },
+          "r": {
+            "bl_idname": "SvStringsSocket",
+            "name": "r",
+            "properties": {
+              "prop_name": "iRadius"
+            }
+          },
+          "e": {
+            "bl_idname": "SvStringsSocket",
+            "name": "e",
+            "properties": {
+              "prop_name": "exponent"
+            }
+          },
+          "t": {
+            "bl_idname": "SvStringsSocket",
+            "name": "t",
+            "properties": {
+              "prop_name": "turns"
+            }
+          },
+          "n": {
+            "bl_idname": "SvStringsSocket",
+            "name": "n",
+            "properties": {
+              "prop_name": "resolution"
+            }
+          },
+          "s": {
+            "bl_idname": "SvStringsSocket",
+            "name": "s",
+            "properties": {
+              "prop_name": "scale"
+            }
+          },
+          "h": {
+            "bl_idname": "SvStringsSocket",
+            "name": "h",
+            "properties": {
+              "prop_name": "height"
+            }
+          },
+          "p": {
+            "bl_idname": "SvStringsSocket",
+            "name": "p",
+            "properties": {
+              "prop_name": "phase"
+            }
+          },
+          "a": {
+            "bl_idname": "SvStringsSocket",
+            "name": "a",
+            "properties": {
+              "prop_name": "arms"
+            }
+          }
+        },
+        "outputs": {
+          "Vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vertices"
+          },
+          "Edges": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Edges"
+          }
+        },
+        "bl_idname": "SvSpiralNodeMK2"
       }
     },
     "links": [
@@ -2194,12 +2194,6 @@
         "to_socket": "Vertices"
       },
       {
-        "from_node": "List Join",
-        "from_socket": "data.001",
-        "to_node": "Merge by Distance",
-        "to_socket": "Vertices"
-      },
-      {
         "from_node": "Merge by Distance",
         "from_socket": "Vertices",
         "to_node": "Mirror Mk2.001",
@@ -2222,18 +2216,6 @@
         "from_socket": "Vertices",
         "to_node": "List Item.002",
         "to_socket": "Data"
-      },
-      {
-        "from_node": "Scalar Math",
-        "from_socket": "Out",
-        "to_node": "Spiral",
-        "to_socket": "r"
-      },
-      {
-        "from_node": "A Number",
-        "from_socket": "Int",
-        "to_node": "Spiral",
-        "to_socket": "n"
       },
       {
         "from_node": "A Number",
@@ -2372,6 +2354,24 @@
         "from_socket": "Vertices",
         "to_node": "List Join",
         "to_socket": "data 1"
+      },
+      {
+        "from_node": "List Join",
+        "from_socket": "data.001",
+        "to_node": "Merge by Distance",
+        "to_socket": "Vertices"
+      },
+      {
+        "from_node": "Scalar Math",
+        "from_socket": "Out",
+        "to_node": "Spiral",
+        "to_socket": "r"
+      },
+      {
+        "from_node": "A Number",
+        "from_socket": "Int",
+        "to_node": "Spiral",
+        "to_socket": "n"
       }
     ]
   }
