@@ -1,12 +1,18 @@
 import numpy as np
-from ipywidgets import interact
 import plotly.graph_objects as go
 from math import *
+import mpmath
+from ipywidgets import interact, widgets
 
+N_slider = widgets.IntSlider(min=1, max=16, value=8)
+RANGE_FROM_SLIDER=widgets.FloatSlider(min=0, max=4*pi, value=0*pi, step=pi/4)
+RANGE_TO_SLIDER=widgets.FloatSlider(min=0, max=4*pi, value=4*pi,step=pi/4)
+def clamp(x):
+    return max(min(1, x), -1)
 def kappa(formula, x):
-    return eval(formula, {'acos': acos, 'exp': exp, 'cos': cos, 'sin': sin, 'pi': pi, 'x': x})
-
-def plot(formula='(1 + cos(((4)/2)*x))/2', RANGE_FROM=0, RANGE_TO=4*pi, N=10):
+    func_dict = {fn: eval(f'lambda *args: mpmath.{fn}(*args)') for fn in dir(mpmath)}
+    return float(eval(formula, {'x': x, 'clamp': clamp, **func_dict}))
+def plot(formula='(1 - cos(((4)/2)*x))/2', RANGE_FROM=0, RANGE_TO=4*pi, N=10):
     num_points = 1+2**N
 
     # Generate x values with the specified number of points
@@ -35,4 +41,4 @@ def plot(formula='(1 + cos(((4)/2)*x))/2', RANGE_FROM=0, RANGE_TO=4*pi, N=10):
     fig.show()
 
 # Create the interactive plot
-interact(plot, formula='(1 + cos(((4)/2)*x))/2', RANGE_FROM=(0, 4*pi, pi/4), RANGE_TO=(0, 4*pi, pi/4), N=(1,16));
+interact(plot, formula='(1 - cos(((4)/2)*x))/2', RANGE_FROM=RANGE_FROM_SLIDER, RANGE_TO=RANGE_TO_SLIDER, N=N_slider);
