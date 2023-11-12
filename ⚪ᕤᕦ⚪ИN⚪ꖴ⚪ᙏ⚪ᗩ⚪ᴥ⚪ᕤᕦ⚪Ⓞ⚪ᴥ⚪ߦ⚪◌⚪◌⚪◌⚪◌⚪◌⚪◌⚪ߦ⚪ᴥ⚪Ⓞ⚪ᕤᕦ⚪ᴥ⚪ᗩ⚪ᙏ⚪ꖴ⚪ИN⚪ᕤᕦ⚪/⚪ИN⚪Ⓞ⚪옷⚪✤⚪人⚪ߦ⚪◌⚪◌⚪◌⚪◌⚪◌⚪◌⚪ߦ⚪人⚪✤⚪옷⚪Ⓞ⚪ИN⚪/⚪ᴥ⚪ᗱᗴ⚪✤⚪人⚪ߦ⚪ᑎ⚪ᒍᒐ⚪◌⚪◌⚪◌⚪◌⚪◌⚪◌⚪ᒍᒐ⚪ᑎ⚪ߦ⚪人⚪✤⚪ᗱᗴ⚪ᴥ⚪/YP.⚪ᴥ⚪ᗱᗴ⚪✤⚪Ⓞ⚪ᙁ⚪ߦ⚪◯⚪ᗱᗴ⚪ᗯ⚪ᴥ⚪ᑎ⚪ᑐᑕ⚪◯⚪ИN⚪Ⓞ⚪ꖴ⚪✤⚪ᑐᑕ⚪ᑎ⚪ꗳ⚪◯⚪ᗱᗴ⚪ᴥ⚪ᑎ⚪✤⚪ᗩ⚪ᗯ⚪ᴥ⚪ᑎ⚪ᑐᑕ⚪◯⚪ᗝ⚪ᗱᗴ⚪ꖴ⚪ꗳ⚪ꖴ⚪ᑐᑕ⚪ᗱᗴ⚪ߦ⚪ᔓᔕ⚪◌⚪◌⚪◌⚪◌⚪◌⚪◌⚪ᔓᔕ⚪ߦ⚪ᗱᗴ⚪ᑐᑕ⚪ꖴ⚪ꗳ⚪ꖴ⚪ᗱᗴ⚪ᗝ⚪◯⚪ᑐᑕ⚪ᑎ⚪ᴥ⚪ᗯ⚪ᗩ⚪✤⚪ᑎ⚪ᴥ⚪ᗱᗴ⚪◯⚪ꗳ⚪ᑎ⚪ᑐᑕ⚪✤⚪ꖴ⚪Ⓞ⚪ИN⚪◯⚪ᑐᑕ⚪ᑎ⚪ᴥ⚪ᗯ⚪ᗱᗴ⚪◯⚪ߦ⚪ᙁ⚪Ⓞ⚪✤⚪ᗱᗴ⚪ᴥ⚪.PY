@@ -12,7 +12,7 @@ def clamp(x):
 def kappa(formula, x):
     func_dict = {fn: eval(f'lambda *args: mpmath.{fn}(*args)') for fn in dir(mpmath)}
     return float(eval(formula, {'x': x, 'clamp': clamp, **func_dict}))
-def plot(formula='(1 - cos(((4)/2)*x))/2', RANGE_FROM=0, RANGE_TO=4*pi, N=10):
+def plot(formula='(1 - cos(((4)/2)*x))/2', RANGE_FROM=0, RANGE_TO=4*pi, N=8):
     num_points = 1+2**N
 
     # Generate x values with the specified number of points
