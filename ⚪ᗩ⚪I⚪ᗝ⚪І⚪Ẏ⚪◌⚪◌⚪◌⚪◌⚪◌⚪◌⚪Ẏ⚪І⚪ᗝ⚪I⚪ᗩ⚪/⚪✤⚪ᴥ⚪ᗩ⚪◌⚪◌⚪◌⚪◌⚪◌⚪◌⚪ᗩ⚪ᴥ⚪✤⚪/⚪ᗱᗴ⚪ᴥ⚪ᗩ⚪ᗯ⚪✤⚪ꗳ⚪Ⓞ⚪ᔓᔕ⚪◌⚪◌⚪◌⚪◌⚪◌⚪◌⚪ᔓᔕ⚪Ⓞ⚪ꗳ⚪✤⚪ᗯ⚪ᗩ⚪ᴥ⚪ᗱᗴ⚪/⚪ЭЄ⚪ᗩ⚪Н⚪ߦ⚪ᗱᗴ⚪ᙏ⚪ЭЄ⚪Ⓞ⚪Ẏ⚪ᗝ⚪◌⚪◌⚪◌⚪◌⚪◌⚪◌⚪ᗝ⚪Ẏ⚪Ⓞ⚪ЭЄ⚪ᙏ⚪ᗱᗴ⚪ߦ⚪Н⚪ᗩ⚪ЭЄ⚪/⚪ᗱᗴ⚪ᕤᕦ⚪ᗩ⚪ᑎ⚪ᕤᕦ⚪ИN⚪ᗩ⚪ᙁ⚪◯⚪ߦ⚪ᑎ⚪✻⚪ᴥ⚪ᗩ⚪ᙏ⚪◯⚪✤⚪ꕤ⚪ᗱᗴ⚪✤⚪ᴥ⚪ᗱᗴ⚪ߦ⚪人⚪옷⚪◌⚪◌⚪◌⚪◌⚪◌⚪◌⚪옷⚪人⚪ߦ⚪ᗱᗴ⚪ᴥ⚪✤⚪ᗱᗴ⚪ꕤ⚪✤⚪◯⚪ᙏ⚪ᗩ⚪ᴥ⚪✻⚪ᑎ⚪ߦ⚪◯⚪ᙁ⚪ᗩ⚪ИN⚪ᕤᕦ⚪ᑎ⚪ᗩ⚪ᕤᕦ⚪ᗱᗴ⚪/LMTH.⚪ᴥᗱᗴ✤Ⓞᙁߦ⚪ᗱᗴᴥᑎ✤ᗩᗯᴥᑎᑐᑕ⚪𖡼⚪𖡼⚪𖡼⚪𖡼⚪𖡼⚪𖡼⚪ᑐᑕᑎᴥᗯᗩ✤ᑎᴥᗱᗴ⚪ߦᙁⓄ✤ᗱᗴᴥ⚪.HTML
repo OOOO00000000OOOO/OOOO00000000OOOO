@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.1.0/math.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<style>
+		input[type=text]{
+			--O_ROLOC_O_COLOR_O:#F2F2F2;
+			--O_SUIDAR_RULB_O_BLUR_RADIUS_O:0PX;
+			--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:1.0PX;
+			BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
+			BORDER-WIDTH:0;BORDER-RADIUS:65536PX;OVERFLOW:VISIBLE
+		}
+		input[type=text]:focus{
+		  border-color: #CECECE;BORDER-WIDTH:0PX;border-style: solid;outline: 1PX SOLID #E7E7E7;
+		}
+		input[type=range]::-moz-range-track {
+			HEIGHT:0PX;
+			--O_ROLOC_O_COLOR_O:#F2F2F2;
+			--O_SUIDAR_RULB_O_BLUR_RADIUS_O:0PX;
+			--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:1.0PX;
+			BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
+			BORDER-WIDTH:0;BORDER-RADIUS:65536PX;OVERFLOW:HIDDEN
+		}
+
+		input[type=range]::-moz-range-thumb {
+			HEIGHT:16PX;WIDTH:16PX;
+			--O_ROLOC_O_COLOR_O:#F2F2F2;
+			--O_SUIDAR_RULB_O_BLUR_RADIUS_O:0PX;
+			--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:1.0PX;
+			BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
+			BORDER-WIDTH:0;BORDER-RADIUS:65536PX;OVERFLOW:HIDDEN
+	}
+	</style>
+</head>
+<body style="background:#FFFFFF;font-size:16px;MARGIN:0;COLOR:#CECECE">
+<div align="center">
+    𓊗<br><span id="nVal"></span><br><input type="range" id="n" min="1" max="16" value="8" style="width:100%"><br>
+    ✤<br><span id="toVal"></span><br><input type="range" id="to" min="-12.566370614359172953850573533118" max="12.566370614359172953850573533118" value="6.283185307179586476925286766559" step="0.785398163397448" style="width:100%;color:#CECECE"><br>
+    ꗳ<br><span id="fromVal"></span><br><input type="range" id="from" min="-12.566370614359172953850573533118" max="12.566370614359172953850573533118" value="-6.283185307179586476925286766559" step="0.785398163397448" style="width:100%;color:#CECECE"><br>
+    <input type="text" id="formula" value="(1-cos(x*(4)/2))/2 ; acos(cos(x*(4)/2))/pi" style="width:100%; text-align:CENTER;COLOR:#CECECE;FONT-SIZE:16PX"><br>
+    <div id="k-graph"></div>
+    <div id="function-graph"></div>
+    <script>
+		function clamp(x) {return math.max(math.min(x,1),0)}
+		
+        // JS equivalent for the map function
+        function arrayMax(arr) {
+          return Math.max(...arr.map(e => Math.max(...e)));
+        }
+        function arrayMin(arr) {
+            return Math.min(...arr.map(e => Math.min(...e)));
+        }
+
+        function plot() {
+            var formulas = document.getElementById('formula').value.split(";");
+            var fromPIO2 = Number(document.getElementById('from').value);
+            var toPIO2 = Number(document.getElementById('to').value);
+            var N = Number(document.getElementById('n').value);
+
+            var num_points = 0 + 2 ** N;
+            document.getElementById('fromVal').innerText = +fromPIO2;
+            document.getElementById('toVal').innerText = +toPIO2;
+            document.getElementById('nVal').innerText = +N;
+
+            var from = fromPIO2;
+            var to = toPIO2;
+
+            var step = (to - from) / num_points;
+            var x_vals = math.range(from, to, step, true).toArray();
+
+            var k_trace = [];
+            var function_trace = [];
+
+            var all_x = [];
+            var all_y = [];
+
+            formulas.map((formula, i) => {
+				var scope = {
+				  clamp: function(x) { return math.max(math.min(x, 1), 0); }
+				};
+                var kappa_vals = x_vals.map(x => math.evaluate(formula.trim(), { x: x, ...scope}));
+                var theta_vals = math.map(math.cumsum(kappa_vals), x => x * step);
+                var x_coords = math.map(math.cumsum(math.map(theta_vals, math.cos)), x => x * step);
+                var y_coords = math.map(math.cumsum(math.map(theta_vals, math.sin)), x => x * step);
+
+                if (x_coords[0] != 0 || y_coords[0] != 0) {
+                    x_coords.unshift(0);
+                    y_coords.unshift(0);
+                }
+
+                k_trace.push({
+                    x: x_coords,
+                    y: y_coords,
+                    mode: 'lines',
+					// line: { color: '#CECECE' }
+					line: {width: 1},
+                    hovertemplate: 'X:%{x:.256f}' + '<br>Y:%{y:.256f}',
+                    name: ''
+                });
+
+                all_x.push(x_coords);
+                all_y.push(y_coords);
+
+                // Now creating the trace for y=f(x)
+                var y_vals = x_vals.map(x => math.evaluate(formula.trim(), { x: x, ...scope}));
+
+                function_trace.push({
+                    x: x_vals,
+                    y: y_vals,
+                    mode: 'lines',
+                    // optional features
+					// line: { color: '#CECECE' }
+					line: {width: 1},
+                    hovertemplate: 'X:%{x:.256f}' + '<br>Y:%{y:.256f}',
+                    name: ''
+                });
+
+                all_x.push(x_vals);
+                all_y.push(y_vals);
+            });
+
+            var layout = {
+                margin: { l: 0, r: 0, b: 0, t: 0, pad: 0 },
+                autosize: true,
+                height: 312,
+				xaxis: {scaleanchor:'y',scaleratio: 1,			  showgrid:true,zeroline:true,zerolinecolor:'#CECECE',zerolinewidth:2,tick0:0,dtick:1,showticklabels:true ,automargin:true,gridcolor:'#CECECE',tickfont:{color:'#CECECE',size:16}},
+				yaxis: {range: [arrayMin(all_y), arrayMax(all_y)],showgrid:true,zeroline:true,zerolinecolor:'#CECECE',zerolinewidth:2,tick0:0,dtick:1,showticklabels:true ,automargin:true,gridcolor:'#CECECE',tickfont:{color:'#CECECE',size:16}},
+                hovermode: 'closest',
+                showlegend: false,
+                hoverlabel: { bgcolor: "#FFFFFF", font_color: '#9C9C9C', bordercolor: "#CECECE", font_size: 16 }
+            }
+
+            Plotly.newPlot('k-graph', k_trace, layout);
+            Plotly.newPlot('function-graph', function_trace, layout);
+        }
+
+        plot();
+
+        document.getElementById('formula').addEventListener('input', plot);
+        document.getElementById('from').addEventListener('input', plot);
+        document.getElementById('to').addEventListener('input', plot);
+        document.getElementById('n').addEventListener('input', plot);
+    </script>
+</div>
+</body>
+</html>
