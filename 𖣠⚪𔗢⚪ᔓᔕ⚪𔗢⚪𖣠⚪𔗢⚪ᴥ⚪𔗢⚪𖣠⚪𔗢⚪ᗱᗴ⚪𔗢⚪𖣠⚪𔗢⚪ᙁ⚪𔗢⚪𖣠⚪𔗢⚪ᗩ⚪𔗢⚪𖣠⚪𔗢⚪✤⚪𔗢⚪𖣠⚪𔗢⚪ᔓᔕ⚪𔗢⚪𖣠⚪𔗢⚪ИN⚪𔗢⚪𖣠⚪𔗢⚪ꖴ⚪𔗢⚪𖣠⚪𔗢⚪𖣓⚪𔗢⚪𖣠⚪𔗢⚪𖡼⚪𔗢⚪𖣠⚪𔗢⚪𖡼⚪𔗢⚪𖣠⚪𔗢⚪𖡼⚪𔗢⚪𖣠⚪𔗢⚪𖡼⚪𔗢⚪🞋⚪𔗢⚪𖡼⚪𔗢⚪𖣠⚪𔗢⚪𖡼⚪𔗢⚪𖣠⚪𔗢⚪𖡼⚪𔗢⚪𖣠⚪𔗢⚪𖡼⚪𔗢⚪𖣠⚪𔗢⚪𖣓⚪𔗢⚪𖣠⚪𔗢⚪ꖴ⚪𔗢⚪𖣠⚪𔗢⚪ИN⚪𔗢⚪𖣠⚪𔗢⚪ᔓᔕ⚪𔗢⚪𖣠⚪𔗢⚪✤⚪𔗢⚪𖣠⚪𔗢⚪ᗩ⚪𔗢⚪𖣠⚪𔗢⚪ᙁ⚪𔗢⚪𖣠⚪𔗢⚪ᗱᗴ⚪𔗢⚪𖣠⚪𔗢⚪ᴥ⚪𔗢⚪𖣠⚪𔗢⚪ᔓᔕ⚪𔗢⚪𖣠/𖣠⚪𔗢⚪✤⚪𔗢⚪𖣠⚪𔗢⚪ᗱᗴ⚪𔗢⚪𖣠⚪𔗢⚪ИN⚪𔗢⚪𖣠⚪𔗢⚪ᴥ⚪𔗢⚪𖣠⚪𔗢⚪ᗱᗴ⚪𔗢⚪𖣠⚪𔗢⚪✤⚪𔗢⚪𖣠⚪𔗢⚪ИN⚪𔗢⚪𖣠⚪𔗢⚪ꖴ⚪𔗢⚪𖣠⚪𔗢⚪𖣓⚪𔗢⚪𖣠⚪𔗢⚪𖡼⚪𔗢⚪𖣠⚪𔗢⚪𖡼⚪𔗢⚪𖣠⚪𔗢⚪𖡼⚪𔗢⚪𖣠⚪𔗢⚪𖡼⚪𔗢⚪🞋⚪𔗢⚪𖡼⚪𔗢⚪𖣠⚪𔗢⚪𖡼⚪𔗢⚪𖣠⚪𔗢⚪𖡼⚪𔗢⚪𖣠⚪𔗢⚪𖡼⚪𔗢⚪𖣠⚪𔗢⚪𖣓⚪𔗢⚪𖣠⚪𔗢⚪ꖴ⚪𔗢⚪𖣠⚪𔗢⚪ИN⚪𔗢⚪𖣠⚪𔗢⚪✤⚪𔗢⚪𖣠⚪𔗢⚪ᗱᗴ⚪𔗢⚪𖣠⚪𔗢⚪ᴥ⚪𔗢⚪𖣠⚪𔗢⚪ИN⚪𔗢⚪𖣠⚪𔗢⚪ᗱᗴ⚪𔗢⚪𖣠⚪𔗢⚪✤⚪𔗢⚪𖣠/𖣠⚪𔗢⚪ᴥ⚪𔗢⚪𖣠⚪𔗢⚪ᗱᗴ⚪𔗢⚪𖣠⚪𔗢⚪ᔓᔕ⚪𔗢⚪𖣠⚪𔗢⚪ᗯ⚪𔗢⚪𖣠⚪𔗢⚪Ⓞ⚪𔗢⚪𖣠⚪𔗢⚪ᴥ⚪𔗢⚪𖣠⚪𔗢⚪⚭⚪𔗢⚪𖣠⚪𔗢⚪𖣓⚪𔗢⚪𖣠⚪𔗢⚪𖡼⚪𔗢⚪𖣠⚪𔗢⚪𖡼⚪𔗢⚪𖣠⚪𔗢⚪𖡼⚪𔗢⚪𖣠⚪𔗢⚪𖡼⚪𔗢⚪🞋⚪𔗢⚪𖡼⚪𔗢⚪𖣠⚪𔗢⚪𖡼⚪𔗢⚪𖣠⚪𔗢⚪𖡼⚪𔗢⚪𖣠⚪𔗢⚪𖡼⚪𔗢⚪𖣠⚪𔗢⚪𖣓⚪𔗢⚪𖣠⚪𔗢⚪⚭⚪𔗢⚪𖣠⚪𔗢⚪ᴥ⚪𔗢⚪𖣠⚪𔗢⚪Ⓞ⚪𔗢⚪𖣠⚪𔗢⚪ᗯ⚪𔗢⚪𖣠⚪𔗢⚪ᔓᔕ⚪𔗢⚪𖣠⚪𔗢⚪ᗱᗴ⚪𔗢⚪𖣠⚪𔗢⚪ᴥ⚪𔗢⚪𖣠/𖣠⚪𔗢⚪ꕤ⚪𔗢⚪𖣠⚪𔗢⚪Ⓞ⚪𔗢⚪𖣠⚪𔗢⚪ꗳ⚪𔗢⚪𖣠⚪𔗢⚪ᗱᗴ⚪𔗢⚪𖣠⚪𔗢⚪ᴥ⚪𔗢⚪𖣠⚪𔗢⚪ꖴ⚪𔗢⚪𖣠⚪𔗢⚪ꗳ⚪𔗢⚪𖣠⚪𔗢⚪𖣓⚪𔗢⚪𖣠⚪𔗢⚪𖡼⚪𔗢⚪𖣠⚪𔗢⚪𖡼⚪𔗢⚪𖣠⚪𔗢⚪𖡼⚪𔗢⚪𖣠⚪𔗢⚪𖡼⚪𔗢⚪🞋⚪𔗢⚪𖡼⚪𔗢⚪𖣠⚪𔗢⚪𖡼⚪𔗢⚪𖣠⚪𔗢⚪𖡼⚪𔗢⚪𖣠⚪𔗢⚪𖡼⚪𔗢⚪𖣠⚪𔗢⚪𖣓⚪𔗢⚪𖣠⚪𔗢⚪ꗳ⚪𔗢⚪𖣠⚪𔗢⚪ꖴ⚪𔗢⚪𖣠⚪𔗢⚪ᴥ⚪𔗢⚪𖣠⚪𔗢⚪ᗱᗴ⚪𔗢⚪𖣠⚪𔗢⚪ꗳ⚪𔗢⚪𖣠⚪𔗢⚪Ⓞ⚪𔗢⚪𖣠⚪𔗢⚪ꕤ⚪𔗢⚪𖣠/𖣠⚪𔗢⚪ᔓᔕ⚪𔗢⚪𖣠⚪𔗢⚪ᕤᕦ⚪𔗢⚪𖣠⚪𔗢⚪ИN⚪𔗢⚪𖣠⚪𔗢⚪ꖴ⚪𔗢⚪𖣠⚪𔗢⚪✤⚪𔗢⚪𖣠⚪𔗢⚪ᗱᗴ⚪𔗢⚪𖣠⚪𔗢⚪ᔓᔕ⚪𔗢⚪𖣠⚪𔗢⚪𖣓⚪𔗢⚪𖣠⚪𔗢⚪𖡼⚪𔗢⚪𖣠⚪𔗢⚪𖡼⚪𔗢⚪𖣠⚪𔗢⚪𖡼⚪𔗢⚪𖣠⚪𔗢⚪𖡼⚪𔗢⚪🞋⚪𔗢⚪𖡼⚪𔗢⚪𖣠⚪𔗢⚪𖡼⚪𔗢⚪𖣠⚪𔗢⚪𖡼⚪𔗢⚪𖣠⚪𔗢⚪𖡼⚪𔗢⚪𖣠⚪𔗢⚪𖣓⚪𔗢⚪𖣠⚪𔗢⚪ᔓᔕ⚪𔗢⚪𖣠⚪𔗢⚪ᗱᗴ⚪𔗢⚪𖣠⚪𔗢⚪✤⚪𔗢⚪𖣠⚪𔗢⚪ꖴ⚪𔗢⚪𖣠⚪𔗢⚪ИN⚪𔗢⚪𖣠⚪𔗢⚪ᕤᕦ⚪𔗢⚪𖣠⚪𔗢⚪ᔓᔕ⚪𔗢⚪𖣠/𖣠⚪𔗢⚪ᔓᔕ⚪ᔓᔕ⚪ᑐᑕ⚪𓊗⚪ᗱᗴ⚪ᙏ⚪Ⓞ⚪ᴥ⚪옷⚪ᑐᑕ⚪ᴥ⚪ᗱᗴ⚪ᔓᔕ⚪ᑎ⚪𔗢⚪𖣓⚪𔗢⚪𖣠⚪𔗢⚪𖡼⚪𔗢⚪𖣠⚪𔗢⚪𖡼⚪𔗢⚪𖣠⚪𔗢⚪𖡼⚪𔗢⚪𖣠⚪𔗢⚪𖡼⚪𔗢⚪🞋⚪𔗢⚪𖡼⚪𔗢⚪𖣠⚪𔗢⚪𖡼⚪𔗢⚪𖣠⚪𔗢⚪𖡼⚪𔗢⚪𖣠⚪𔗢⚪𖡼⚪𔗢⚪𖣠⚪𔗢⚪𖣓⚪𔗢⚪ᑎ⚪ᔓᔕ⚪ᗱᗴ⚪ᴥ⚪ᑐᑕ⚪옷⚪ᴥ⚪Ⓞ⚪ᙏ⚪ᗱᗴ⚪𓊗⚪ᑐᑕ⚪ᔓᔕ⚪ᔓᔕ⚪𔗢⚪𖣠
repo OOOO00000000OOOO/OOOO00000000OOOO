@@ -41,4 +41,4 @@ toolbar{MIN-HEIGHT:0!IMPORTANT;MAX-HEIGHT:16PX!IMPORTANT}#statuspanel-label{MARG
 .checkbox-check{BACKGROUND-COLOR:#FFFFFF!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;MARGIN-INLINE-END:8PX!IMPORTANT}.checkbox-check[checked]{BORDER-COLOR:#D5D5D5!IMPORTANT;BACKGROUND-COLOR:#FFFFFF!IMPORTANT;FILL:#D5D5D5!IMPORTANT}
 checkbox:not([disabled="true"]):hover>.checkbox-check[checked]{BACKGROUND-COLOR:#FFFFFF!IMPORTANT}checkbox:not([disabled="true"]):hover:active>.checkbox-check[checked]{BACKGROUND-COLOR:#FFFFFF!IMPORTANT}.checkbox-check{MARGIN:0!IMPORTANT}
 input.findbar-textbox[status="notfound"]{BACKGROUND-COLOR:RGBA(255,255,255,1.0)!IMPORTANT}input.findbar-textbox{COLOR:RGB(167,167,167)!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT}.downloadTypeIcon{MARGIN-INLINE-END:0!IMPORTANT}
-#urlbar:NOT(.SEARCHBUTTON)>#urlbar-input-container>#identity-box[pageproxystate="invalid"] #identity-icon{DISPLAY:NONE}!IMPORTANT
+#urlbar:NOT(.SEARCHBUTTON)>#urlbar-input-container>#identity-box[pageproxystate="invalid"] #identity-icon{DISPLAY:NONE!IMPORTANT} popupnotification{DISPLAY:NONE!IMPORTANT}
