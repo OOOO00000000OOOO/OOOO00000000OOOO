@@ -37,7 +37,7 @@
           <items count="3">
             <item name="Date" type_name="gh_date" type_code="8">638440181684034983</item>
             <item name="Description" type_name="gh_string" type_code="10"></item>
-            <item name="Name" type_name="gh_string" type_code="10">XHG.Ω.GHX</item>
+            <item name="Name" type_name="gh_string" type_code="10">XHG.⚪⚪ИN⚪Ⓞ⚪ᔓᔕ⚪ꖴ⚪ᴥ⚪ᗩ⚪ߦ⚪ᙏ⚪Ⓞ⚪ᑐᑕ⚪⚪ᗱᗴ⚪ᗯ⚪ᴥ⚪ᑎ⚪ᑐᑕ⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪⚪ᑐᑕ⚪ᑎ⚪ᴥ⚪ᗯ⚪ᗱᗴ⚪⚪ᑐᑕ⚪Ⓞ⚪ᙏ⚪ߦ⚪ᗩ⚪ᴥ⚪ꖴ⚪ᔓᔕ⚪Ⓞ⚪ИN⚪⚪.GHX</item>
           </items>
           <chunks count="3">
             <chunk name="Revisions">
@@ -1328,7 +1328,7 @@
                           <items count="7">
                             <item name="Description" type_name="gh_string" type_code="10">Expression variable</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">7ecdea7f-0f93-40d6-8931-a086334ae2d1</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Variable Variable x</item>
+                            <item name="Name" type_name="gh_string" type_code="10">Variable N</item>
                             <item name="NickName" type_name="gh_string" type_code="10">N</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="Source" index="0" type_name="gh_guid" type_code="9">262c30fe-27e2-4d85-ab9e-97c61e273cba</item>
@@ -1873,7 +1873,7 @@
                           <items count="7">
                             <item name="Description" type_name="gh_string" type_code="10">Expression variable</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">4172d6f8-0262-47fa-b2fa-b487930372f8</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Variable x</item>
+                            <item name="Name" type_name="gh_string" type_code="10">Variable L</item>
                             <item name="NickName" type_name="gh_string" type_code="10">L</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="Source" index="0" type_name="gh_guid" type_code="9">7fbc35ee-c93d-4288-b414-b6d63a02edf6</item>
@@ -1966,7 +1966,7 @@
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">e186075d-d2c2-449d-87c8-80fdeafbef90</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Panel</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
                     <item name="Source" index="0" type_name="gh_guid" type_code="9">871baec3-457c-4734-ae89-c9dc38a72254</item>
@@ -2051,7 +2051,7 @@
                           <items count="7">
                             <item name="Description" type_name="gh_string" type_code="10">Expression variable</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">47b5aec6-b919-47fa-aa50-c4074fdd094f</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Variable L</item>
+                            <item name="Name" type_name="gh_string" type_code="10">Variable R</item>
                             <item name="NickName" type_name="gh_string" type_code="10">R</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="Source" index="0" type_name="gh_guid" type_code="9">23d9f3a2-1454-4364-a19c-8801a4aa8e4a</item>
@@ -2278,7 +2278,7 @@
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">bc8d16e7-6518-4d54-9e28-8feae351da64</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Panel</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
                     <item name="Source" index="0" type_name="gh_guid" type_code="9">0623a205-c072-466d-92db-0da0f552f93b</item>
@@ -3357,7 +3357,7 @@
                     <item name="Description" type_name="gh_string" type_code="10">A panel for custom notes and text values</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">21c33c2f-9fca-4a36-986e-1011355096ea</item>
                     <item name="Name" type_name="gh_string" type_code="10">Panel</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Panel</item>
+                    <item name="NickName" type_name="gh_string" type_code="10"></item>
                     <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                     <item name="ScrollRatio" type_name="gh_double" type_code="6">0</item>
                     <item name="Source" index="0" type_name="gh_guid" type_code="9">bcb37e0b-3c8a-405f-aa6f-dcd2e5bb07ca</item>
@@ -3420,7 +3420,7 @@
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>752</X>
                           <Y>493</Y>
-                          <W>95</W>
+                          <W>77</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -3565,7 +3565,7 @@
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">733e62a8-108b-451e-a02f-fefecafbcf4e</item>
                             <item name="Mutable" type_name="gh_bool" type_code="1">false</item>
                             <item name="Name" type_name="gh_string" type_code="10">Item</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">Item</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">i</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
                           </items>
@@ -3575,11 +3575,11 @@
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>821</X>
                                   <Y>495</Y>
-                                  <W>24</W>
+                                  <W>6</W>
                                   <H>60</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>833</X>
+                                  <X>824</X>
                                   <Y>525</Y>
                                 </item>
                               </items>
@@ -7671,7 +7671,7 @@ acos(cos(x*M/(4)^N))/pi/M*2
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">69d1541f-422f-4fd8-ae5b-1cebcb7501b6</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
@@ -8957,7 +8957,7 @@ acos(cos(x*M/(4)^N))/pi/M*2
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
+                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">888bc43d-bf25-48c3-aa36-9d17285125d3</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
@@ -14778,7 +14778,7 @@ acos(cos(x*M/(4)^N))/pi/M*2
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">1d3929f4-53e5-4579-ad62-84b2dcfe9025</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
@@ -16064,7 +16064,7 @@ acos(cos(x*M/(4)^N))/pi/M*2
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
+                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">3640aa4f-62eb-4d63-8052-a0e09732f02d</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
@@ -23934,7 +23934,7 @@ False for input values on the X Axis which do not intersect a graph curve</item>
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvwAADr8BOAVTJAAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">1e8725f4-37c6-4b42-8707-fa6926b11169</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
@@ -25220,7 +25220,7 @@ False for input values on the X Axis which do not intersect a graph curve</item>
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
+                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvwAADr8BOAVTJAAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">1ef12e12-a315-4adc-8a69-1049182100f2</item>
                     <item name="Locked" type_name="gh_bool" type_code="1">true</item>
@@ -33399,7 +33399,7 @@ False for input values on the X Axis which do not intersect a graph curve</item>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvwAADr8BOAVTJAAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
+                      <bitmap length="824">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAAtpJREFUSEu1lF9ojXEYx59OS5IrF5IkiTVriWgXS5HWlFwQbpRYyr+xkgvFLpQMpRU3SEmjmLWEuZLcKGlpaRe7WNKulnQu1trFWms+39/ved9zzvu+59z5dr6d3/d5n3+/v1aNy2Y7fdgI6/w/xQWzbT6sj4tmW3rNlnvMmqUpdvOS2cfwsYJVcBF2BwXOmK0hZgn/O24qBskOq8DZmES6U5rutgeHCu7BBbgjKIBft4oQc85NeeBwSAlPma10kwIn4bDLBCX4FU74OIAZ3CLHQkFDEfqQ7ZigY95Zi5sStMFl2BVURAm/cWJGXedQIlkZp+uuhZLPYsh1NX7CB3EYQfKT5FhkP1e7qRYkeoqDpp6CgqcVdN5srZsSvICf4zCC+Datgv7dVAsq75EDnbS6ybTp2GYpdMVNCZ7AmgI0sk/x7PQmN+WgJZnRhrkOwDaE7ZPLBCPwQxxG4DNAkd8ui4HTY/jDZQD6RkHgOHwYh/E+0MgcM+1zUzG05jjOuwzA1kuRPy4FHWXdhRNBAXyew791NzgBiXoyybRE/XDSpdAJdUw3SDC7cIfgEemGIPkI/OIygMBvcNClcB9OxWE43tN8f+m6PvaaNeFYc2IIboZL6tJNwhh8pgG+LcToDdst3RB03iVnbvNmN4VNJ8kvhsmz0AT14IX1J3E4mgX3JA+SvYbqLsBPxjw2fik2Qq1/hwQfWlWAzU0fv0L4hVIymoqg8z5ss5mT0Q5VIFym42YrPI6JNwBOB9VJ9VSpNE3ggMsE+6EKpH74vIHpzAtBt3cpkB5FdLsKFjy/2kwVSPcpeWJo6ICb8iDhK7p461L6KkEzLquhzlVAM0lB7CicqnvRvIDelwAVg+9cZqHC1+Iwgu7XwzJNvde+uLkCkt1WBy6lx+Ajl1noUn2Pwwrw76DAHIUm+N/l5ghmoAvT71KbPozjUZdZaHnKcVgL4rbCQWLTd+o/wuwf9N7EUShQvi8AAAAASUVORK5CYII=</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">314fd0aa-b899-4f85-bf12-5b9e9659f93e</item>
                     <item name="Name" type_name="gh_string" type_code="10">DIFERENCE CURWATURE SHAPED GRAPH</item>
@@ -34646,7 +34646,7 @@ False for input values on the X Axis which do not intersect a graph curve</item>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10"></item>
                     <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
-                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvwAADr8BOAVTJAAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
+                      <bitmap length="246">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAAJhJREFUSEvdk4EKgCAMRPfF9gn9WX9Wq5MtEmdKbQQ9GClud4cY/Q6WbwgQ13LnKh5mAsKEle8MeCLm1C9pb2I2QHxNtKC2RLNVeiYjTWyDIxkEZPuKykDTj6QboTZwTA8KA+/0oDRwTg9OgwhxUBh4Xo2SDaLSg5waBrJ3J//uL66mG4zxNGX9BMzezmuDR4UQKg5CxQ2IduVGkrvn0vkHAAAAAElFTkSuQmCC</bitmap>
                     </item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">7a79adc7-72ae-46b0-89d1-0d7c27485b7f</item>
                     <item name="Name" type_name="gh_string" type_code="10">DIFERENCE CURWATURE LINEAR GRAPH</item>
