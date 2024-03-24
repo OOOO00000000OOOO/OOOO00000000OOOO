@@ -1,0 +1,762 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     29251,        754]
+NotebookOptionsPosition[     27548,        714]
+NotebookOutlinePosition[     28951,        750]
+CellTagsIndexPosition[     28908,        747]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", 
+  RowBox[{"iCurvaturePlotHelper", ",", " ", "CurvaturePlot"}], "]"}], "\n", 
+ RowBox[{
+  RowBox[{"iCurvaturePlotHelper", "[", 
+   RowBox[{
+    RowBox[{"f_", "?", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Head", "[", "#", "]"}], " ", "=!=", " ", "List"}], " ", 
+       "&"}], ")"}]}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"t_", ",", " ", "tmin_", ",", " ", "tmax_"}], "}"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"x0_", ",", " ", "y0_"}], "}"}], ",", " ", "\[Theta]0_"}], 
+     "}"}], ",", " ", 
+    RowBox[{"opts", " ", ":", " ", 
+     RowBox[{"OptionsPattern", "[", "]"}]}]}], "]"}], " ", ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "sol", ",", " ", "\[Theta]", ",", " ", "x", ",", " ", "y", ",", " ", 
+      "if"}], "}"}], ",", "\n", "  ", 
+    RowBox[{
+     RowBox[{"sol", " ", "=", " ", 
+      RowBox[{"NDSolve", "[", 
+       RowBox[{
+        RowBox[{"{", "\n", "     ", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"\[Theta]", "'"}], "[", "t", "]"}], " ", "==", " ", "f"}],
+           ",", "\n", "     ", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"x", "'"}], "[", "t", "]"}], " ", "==", " ", 
+           RowBox[{"Cos", "[", 
+            RowBox[{"\[Theta]", "[", "t", "]"}], "]"}]}], ",", "\n", "     ", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"y", "'"}], "[", "t", "]"}], " ", "==", " ", 
+           RowBox[{"Sin", "[", 
+            RowBox[{"\[Theta]", "[", "t", "]"}], "]"}]}], ",", "\n", "     ", 
+          RowBox[{
+           RowBox[{"\[Theta]", "[", "tmin", "]"}], " ", "==", " ", 
+           "\[Theta]0"}], ",", "\n", "     ", 
+          RowBox[{
+           RowBox[{"x", "[", "tmin", "]"}], " ", "==", " ", "x0"}], ",", "\n",
+           "     ", 
+          RowBox[{
+           RowBox[{"y", "[", "tmin", "]"}], " ", "==", " ", "y0"}]}], "\n", 
+         "     ", "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", " ", "y"}], "}"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"t", ",", " ", "tmin", ",", " ", "tmax"}], "}"}], ",", " ", 
+        "opts"}], "]"}]}], ";", "\n", "  ", 
+     RowBox[{"if", " ", "=", " ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"x", "[", "#", "]"}], ",", " ", 
+          RowBox[{"y", "[", "#", "]"}]}], "}"}], " ", "&"}], " ", "/.", " ", 
+       RowBox[{"First", "[", "sol", "]"}]}]}], ";", "\n", "  ", "if"}]}], 
+   "\n", "  ", "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"CurvaturePlot", "[", 
+   RowBox[{"f_", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"t_", ",", " ", "tmin_", ",", " ", "tmax_"}], "}"}], ",", " ", 
+    RowBox[{"opts", " ", ":", " ", 
+     RowBox[{"OptionsPattern", "[", "]"}]}]}], "]"}], " ", ":=", " ", 
+  RowBox[{"CurvaturePlot", "[", 
+   RowBox[{"f", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"t", ",", " ", "tmin", ",", " ", "tmax"}], "}"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"0", ",", " ", "0"}], "}"}], ",", " ", "0"}], "}"}], ",", " ", 
+    "opts"}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"CurvaturePlot", "[", 
+   RowBox[{"f_", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"t_", ",", " ", "tmin_", ",", " ", "tmax_"}], "}"}], ",", " ", 
+    RowBox[{"p", " ", ":", " ", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"x0_", ",", " ", "y0_"}], "}"}], ",", " ", "\[Theta]0_"}], 
+      "}"}]}], ",", " ", 
+    RowBox[{"opts", " ", ":", " ", 
+     RowBox[{"OptionsPattern", "[", "]"}]}]}], "]"}], " ", ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "\[Theta]", ",", " ", "x", ",", " ", "y", ",", " ", "sol", ",", " ", 
+      "rlsplot", ",", " ", "rlsndsolve", ",", " ", "if", ",", " ", "ifs"}], 
+     "}"}], ",", "\n", "  ", 
+    RowBox[{
+     RowBox[{"rlsplot", " ", "=", " ", 
+      RowBox[{"FilterRules", "[", 
+       RowBox[{
+        RowBox[{"{", "opts", "}"}], ",", " ", 
+        RowBox[{"Options", "[", "ParametricPlot", "]"}]}], "]"}]}], ";", "\n",
+      "  ", 
+     RowBox[{"rlsndsolve", " ", "=", " ", 
+      RowBox[{"FilterRules", "[", 
+       RowBox[{
+        RowBox[{"{", "opts", "}"}], ",", " ", 
+        RowBox[{"Options", "[", "NDSolve", "]"}]}], "]"}]}], ";", "\n", "  ", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Head", "[", "f", "]"}], " ", "===", " ", "List"}], ",", "\n",
+        "   ", 
+       RowBox[{
+        RowBox[{"ifs", " ", "=", " ", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"iCurvaturePlotHelper", "[", 
+            RowBox[{"#", ",", " ", 
+             RowBox[{"{", 
+              RowBox[{"t", ",", " ", "tmin", ",", " ", "tmax"}], "}"}], ",", 
+             " ", "p", ",", " ", 
+             RowBox[{"Evaluate", "@", 
+              RowBox[{"(", 
+               RowBox[{"Sequence", " ", "@@", " ", "rlsndsolve"}], ")"}]}]}], 
+            "]"}], " ", "&"}], " ", "/@", " ", "f"}]}], ";", "\n", "   ", 
+        RowBox[{"ParametricPlot", "[", 
+         RowBox[{
+          RowBox[{"Evaluate", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"#", "[", "tplot", "]"}], " ", "&"}], " ", "/@", " ", 
+            "ifs"}], "]"}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"tplot", ",", " ", "tmin", ",", " ", "tmax"}], "}"}], ",", 
+          " ", 
+          RowBox[{"Evaluate", "@", 
+           RowBox[{"(", 
+            RowBox[{"Sequence", " ", "@@", " ", "rlsplot"}], ")"}]}]}], 
+         "]"}]}], "\n", "   ", ",", "\n", "   ", 
+       RowBox[{
+        RowBox[{"if", " ", "=", " ", 
+         RowBox[{"iCurvaturePlotHelper", "[", 
+          RowBox[{"f", ",", " ", 
+           RowBox[{"{", 
+            RowBox[{"t", ",", " ", "tmin", ",", " ", "tmax"}], "}"}], ",", 
+           " ", "p", ",", " ", 
+           RowBox[{"Evaluate", "@", 
+            RowBox[{"(", 
+             RowBox[{"Sequence", " ", "@@", " ", "rlsndsolve"}], ")"}]}]}], 
+          "]"}]}], ";", "\n", "   ", 
+        RowBox[{"ParametricPlot", "[", 
+         RowBox[{
+          RowBox[{"Evaluate", "[", 
+           RowBox[{"if", "[", "tplot", "]"}], "]"}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"tplot", ",", " ", "tmin", ",", " ", "tmax"}], "}"}], ",", 
+          " ", 
+          RowBox[{"Evaluate", "@", 
+           RowBox[{"(", 
+            RowBox[{"Sequence", " ", "@@", " ", "rlsplot"}], ")"}]}]}], 
+         "]"}]}]}], "\n", "   ", "]"}]}]}], "\n", "  ", "]"}]}]}], "Input",
+ TextAlignment->Center,
+ FontFamily->"Segoe UI Symbol",
+ FontSize->10,
+ FontWeight->"Normal",
+ CellLabel->
+  "3/24/24 14:22:34 \
+In[760]:=",ExpressionUUID->"296ee68d-611b-4f39-8505-8dc995c0ca11"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"ariasD", "[", "0", "]"}], " ", "=", " ", "1"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"ariasD", "[", 
+    RowBox[{"n_Integer", "?", "Positive"}], "]"}], " ", ":=", " ", 
+   RowBox[{
+    RowBox[{"ariasD", "[", "n", "]"}], " ", "=", " ", 
+    RowBox[{
+     RowBox[{"Sum", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"2", "^", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"k", " ", 
+              RowBox[{"(", 
+               RowBox[{"k", " ", "-", " ", "1"}], ")"}]}], " ", "-", " ", 
+             RowBox[{"n", " ", 
+              RowBox[{"(", 
+               RowBox[{"n", " ", "-", " ", "1"}], ")"}]}]}], ")"}], "/", 
+           "2"}], ")"}]}], " ", 
+        RowBox[{
+         RowBox[{"ariasD", "[", "k", "]"}], "/", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"n", " ", "-", " ", "k", " ", "+", " ", "1"}], ")"}], 
+          "!"}]}]}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"k", ",", " ", "0", ",", " ", 
+         RowBox[{"n", " ", "-", " ", "1"}]}], "}"}]}], "]"}], "/", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", "^", "n"}], " ", "-", " ", "1"}], ")"}]}]}]}], 
+  ";"}], "\n", 
+ RowBox[{
+  RowBox[{"iFabiusF", "[", "x_", "]"}], " ", ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"prec", " ", "=", " ", 
+       RowBox[{"Precision", "[", "x", "]"}]}], ",", " ", "n", ",", " ", "p", 
+      ",", " ", "q", ",", " ", "s", ",", " ", "tol", ",", " ", "w", ",", " ", 
+      "y", ",", " ", "z"}], "}"}], ",", "\n", "  ", 
+    RowBox[{
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"x", " ", "<", " ", "0"}], ",", " ", 
+       RowBox[{"Return", "[", 
+        RowBox[{"0", ",", " ", "Module"}], "]"}]}], "]"}], ";", " ", 
+     RowBox[{"tol", " ", "=", " ", 
+      RowBox[{"10", "^", 
+       RowBox[{"(", 
+        RowBox[{"-", "prec"}], ")"}]}]}], ";", "\n", "  ", 
+     RowBox[{"z", " ", "=", " ", 
+      RowBox[{"SetPrecision", "[", 
+       RowBox[{"x", ",", " ", "Infinity"}], "]"}]}], ";", " ", 
+     RowBox[{"s", " ", "=", " ", "1"}], ";", " ", 
+     RowBox[{"y", " ", "=", " ", "0"}], ";", "\n", "  ", 
+     RowBox[{"z", " ", "=", " ", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"0", " ", "<=", " ", "z", " ", "<=", " ", "2"}], ",", " ", 
+        RowBox[{"1", " ", "-", " ", 
+         RowBox[{"Abs", "[", 
+          RowBox[{"1", " ", "-", " ", "z"}], "]"}]}], ",", "\n", "    ", 
+        RowBox[{
+         RowBox[{"q", " ", "=", " ", 
+          RowBox[{"Quotient", "[", 
+           RowBox[{"z", ",", " ", "2"}], "]"}]}], ";", "\n", "    ", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"ThueMorse", "[", "q", "]"}], " ", "==", " ", "1"}], ",", 
+           " ", 
+           RowBox[{"s", " ", "=", " ", 
+            RowBox[{"-", "1"}]}]}], "]"}], ";", "\n", "    ", 
+         RowBox[{"1", " ", "-", " ", 
+          RowBox[{"Abs", "[", 
+           RowBox[{"1", " ", "-", " ", "z", " ", "+", " ", 
+            RowBox[{"2", " ", "q"}]}], "]"}]}]}]}], "]"}]}], ";", "\n", "  ", 
+     RowBox[{"While", "[", 
+      RowBox[{
+       RowBox[{"z", " ", ">", " ", "0"}], ",", "\n", "   ", 
+       RowBox[{
+        RowBox[{"n", " ", "=", " ", 
+         RowBox[{"-", 
+          RowBox[{"Floor", "[", 
+           RowBox[{"RealExponent", "[", 
+            RowBox[{"z", ",", " ", "2"}], "]"}], "]"}]}]}], ";", " ", 
+        RowBox[{"p", " ", "=", " ", 
+         RowBox[{"2", "^", "n"}]}], ";", "\n", "   ", 
+        RowBox[{"z", " ", "-=", " ", 
+         RowBox[{"1", "/", "p"}]}], ";", " ", 
+        RowBox[{"w", " ", "=", " ", "1"}], ";", "\n", "   ", 
+        RowBox[{"Do", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"w", " ", "=", " ", 
+            RowBox[{
+             RowBox[{"ariasD", "[", "m", "]"}], " ", "+", " ", 
+             RowBox[{"p", " ", "z", " ", 
+              RowBox[{"w", "/", 
+               RowBox[{"(", 
+                RowBox[{"n", " ", "-", " ", "m", " ", "+", " ", "1"}], 
+                ")"}]}]}]}]}], ";", " ", 
+           RowBox[{"p", " ", "/=", " ", "2"}]}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"m", ",", " ", "n"}], "}"}]}], "]"}], ";", "\n", "   ", 
+        RowBox[{"y", " ", "=", " ", 
+         RowBox[{"w", " ", "-", " ", "y"}]}], ";", "\n", "   ", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"Abs", "[", "w", "]"}], " ", "<", " ", 
+           RowBox[{
+            RowBox[{"Abs", "[", "y", "]"}], " ", "tol"}]}], ",", " ", 
+          RowBox[{"Break", "[", "]"}]}], "]"}]}]}], "]"}], ";", "\n", "  ", 
+     RowBox[{"SetPrecision", "[", 
+      RowBox[{
+       RowBox[{"s", " ", 
+        RowBox[{"Abs", "[", "y", "]"}]}], ",", " ", "prec"}], "]"}]}]}], 
+   "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"FabiusF", "[", "Infinity", "]"}], " ", "=", " ", 
+   RowBox[{"Interval", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", "1"}], ",", " ", "1"}], "}"}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"FabiusF", "[", 
+    RowBox[{"x_", "?", "NumberQ"}], "]"}], " ", "/;", " ", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Im", "[", "x", "]"}], " ", "==", " ", "0"}], ",", " ", 
+     RowBox[{"TrueQ", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Composition", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"BitAnd", "[", 
+            RowBox[{"#", ",", " ", 
+             RowBox[{"#", " ", "-", " ", "1"}]}], "]"}], " ", "&"}], ",", " ",
+           "Denominator"}], "]"}], "[", "x", "]"}], " ", "==", " ", "0"}], 
+      "]"}], ",", " ", "False"}], "]"}]}], " ", ":=", " ", 
+  RowBox[{"iFabiusF", "[", "x", "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"Derivative", "[", "n_Integer", "]"}], "[", "FabiusF", "]"}], " ", 
+  ":=", " ", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"2", "^", 
+     RowBox[{"(", 
+      RowBox[{"n", " ", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"n", " ", "+", " ", "1"}], ")"}], "/", "2"}]}], ")"}]}], " ", 
+    RowBox[{"FabiusF", "[", 
+     RowBox[{
+      RowBox[{"2", "^", "n"}], " ", "#"}], "]"}]}], " ", "&"}]}], "\n", 
+ RowBox[{
+  RowBox[{"SetAttributes", "[", 
+   RowBox[{"FabiusF", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"NumericFunction", ",", " ", "Listable"}], "}"}]}], "]"}], 
+  ";"}]}], "Input",
+ TextAlignment->Center,
+ FontFamily->"Segoe UI Symbol",
+ FontSize->10,
+ FontWeight->"Normal",
+ CellLabel->"3/24/24 14:53:08 In[986]:=",
+ CellID->161896613,ExpressionUUID->"0d96d3fd-dac5-4a15-921c-c113c196ee35"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"\:1513\:1515", "=", 
+   RowBox[{"{", "    ", 
+    RowBox[{
+     RowBox[{"WorkingPrecision", "\[Rule]", "10"}], ",", 
+     RowBox[{"MaxRecursion", "\[Rule]", "0"}], ",", 
+     RowBox[{"Ticks", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"Automatic", ",", "Automatic"}], "}"}]}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "320"}], ",", 
+     RowBox[{"PlotRange", "\[Rule]", "Full"}], ",", 
+     RowBox[{"Frame", "\[Rule]", " ", "True"}], ",", 
+     RowBox[{"Axes", "\[Rule]", " ", "False"}], ",", 
+     RowBox[{"GridLines", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", "0", "}"}], ",", 
+        RowBox[{"{", "0", "}"}]}], "}"}]}], " ", ",", 
+     RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"GrayLevel", "[", 
+       RowBox[{"168", "/", "256"}], "]"}]}], ",", 
+     RowBox[{"FrameStyle", "\[Rule]", " ", 
+      RowBox[{"GrayLevel", "[", 
+       RowBox[{"178", "/", "256"}], "]"}]}]}], "  ", "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[CapitalPi]", "=", "2"}], ";", 
+  RowBox[{"\:1450\:1455", "=", "4"}], ";", 
+  RowBox[{"M", "=", ".5"}], ";", 
+  RowBox[{"\[CapitalPi]\[CapitalPi]", "=", "4"}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"\:15f1\:15f4", "=", 
+   RowBox[{"Evaluate", "[", 
+    RowBox[{"SetPrecision", "[", 
+     RowBox[{
+      RowBox[{"SetAccuracy", "[", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "-", 
+          RowBox[{"Abs", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"(", 
+                 RowBox[{"-", "1"}], ")"}], "^", 
+                RowBox[{"Floor", "[", 
+                 RowBox[{
+                  RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{"x", " ", "/", "Pi"}], "*", "\:1450\:1455"}], "+",
+                     "1"}], ")"}], "/", "2"}], "]"}]}], " ", 
+               RowBox[{
+                RowBox[{"Abs", "[", 
+                 RowBox[{"(", 
+                  RowBox[{"1", "-", 
+                   RowBox[{
+                    RowBox[{"Abs", "[", 
+                    RowBox[{
+                    RowBox[{"Mod", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"x", " ", "/", "Pi"}], "*", "\:1450\:1455"}], "+",
+                     "1"}], ",", "2"}], "]"}], "-", "1"}], "]"}], "^", 
+                    "\[CapitalPi]"}]}], ")"}], "]"}], "^", 
+                RowBox[{"(", 
+                 RowBox[{"1", "/", "\[CapitalPi]"}], ")"}]}]}], ")"}], "/", 
+             "2"}], "+", ".5"}], "]"}]}], ")"}], ",", "Infinity"}], "]"}], 
+      ",", "Infinity"}], "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Grid", "[", 
+  RowBox[{"{", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{"Manipulate", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"Column", "[", 
+       RowBox[{"{", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"CurvaturePlot", "[", 
+          RowBox[{
+           RowBox[{"Evaluate", "[", 
+            RowBox[{"SetPrecision", "[", 
+             RowBox[{
+              RowBox[{"SetAccuracy", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"(", 
+                  RowBox[{"1", "-", 
+                   RowBox[{"Abs", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], "^", 
+                    RowBox[{"Floor", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"x", " ", "/", "Pi"}], "*", "\:1450\:1455"}], "+",
+                     "1"}], ")"}], "/", "2"}], "]"}]}], " ", 
+                    RowBox[{
+                    RowBox[{"Abs", "[", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "-", 
+                    RowBox[{
+                    RowBox[{"Abs", "[", 
+                    RowBox[{
+                    RowBox[{"Mod", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"x", " ", "/", "Pi"}], "*", "\:1450\:1455"}], "+",
+                     "1"}], ",", "2"}], "]"}], "-", "1"}], "]"}], "^", 
+                    "\[CapitalPi]"}]}], ")"}], "]"}], "^", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "/", "\[CapitalPi]"}], ")"}]}]}], ")"}], "/",
+                     "2"}], "+", ".5"}], "]"}]}], ")"}], "-", "M"}], ",", 
+                "Infinity"}], "]"}], ",", "Infinity"}], "]"}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "0", ",", 
+             RowBox[{"4", "\[Pi]"}]}], "}"}], ",", 
+           RowBox[{"Evaluate", "[", "\:1513\:1515", "]"}], ",", 
+           RowBox[{"FrameTicks", "\[Rule]", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"Range", "[", 
+               RowBox[{
+                RowBox[{"-", "16"}], ",", "16", ",", 
+                RowBox[{"1", "/", "2"}]}], "]"}], ",", 
+              RowBox[{"Range", "[", 
+               RowBox[{
+                RowBox[{"-", "4"}], ",", "4", ",", 
+                RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}]}], " ", ",", 
+           RowBox[{"PlotPoints", "\[Rule]", 
+            RowBox[{"1", "+", 
+             RowBox[{"2", "^", "\[CapitalPi]\[CapitalPi]"}]}]}]}], "]"}], 
+         "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+         RowBox[{"Plot", "[", 
+          RowBox[{
+           RowBox[{"Evaluate", "[", 
+            RowBox[{"SetPrecision", "[", 
+             RowBox[{
+              RowBox[{"SetAccuracy", "[", 
+               RowBox[{
+                RowBox[{".5", "-", 
+                 RowBox[{"(", 
+                  RowBox[{"1", "-", 
+                   RowBox[{"Abs", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{"-", "1"}], ")"}], "^", 
+                    RowBox[{"Floor", "[", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"x", " ", "/", "Pi"}], "*", "\:1450\:1455"}], "+",
+                     "1"}], ")"}], "/", "2"}], "]"}]}], " ", 
+                    RowBox[{
+                    RowBox[{"Abs", "[", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "-", 
+                    RowBox[{
+                    RowBox[{"Abs", "[", 
+                    RowBox[{
+                    RowBox[{"Mod", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"x", " ", "/", "Pi"}], "*", "\:1450\:1455"}], "+",
+                     "1"}], ",", "2"}], "]"}], "-", "1"}], "]"}], "^", 
+                    "\[CapitalPi]"}]}], ")"}], "]"}], "^", 
+                    RowBox[{"(", 
+                    RowBox[{"1", "/", "\[CapitalPi]"}], ")"}]}]}], ")"}], "/",
+                     "2"}], "+", ".5"}], "]"}]}], ")"}], "-", "M"}], ",", 
+                "Infinity"}], "]"}], ",", "Infinity"}], "]"}], "]"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"x", ",", "0", ",", 
+             RowBox[{"4", "\[Pi]"}]}], "}"}], ",", 
+           RowBox[{"Evaluate", "[", "\:1513\:1515", "]"}], ",", 
+           RowBox[{"AspectRatio", "\[Rule]", 
+            RowBox[{"1", "/", "8"}]}], ",", 
+           RowBox[{"FrameTicks", "\[Rule]", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"Range", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"-", "16"}], "*", "Pi"}], ",", 
+                RowBox[{"16", "*", "Pi"}], ",", 
+                RowBox[{"Pi", "/", "2"}]}], "]"}], ",", 
+              RowBox[{"Range", "[", 
+               RowBox[{
+                RowBox[{"-", "1"}], ",", "1", ",", 
+                RowBox[{"1", "/", "2"}]}], "]"}]}], "}"}]}], "  ", ",", 
+           RowBox[{"PlotPoints", "\[Rule]", 
+            RowBox[{"1", "+", 
+             RowBox[{"2", "^", "\[CapitalPi]\[CapitalPi]"}]}]}]}], " ", 
+          "]"}]}], "\[IndentingNewLine]", "}"}], "]"}], "\[IndentingNewLine]",
+       ",", "\[IndentingNewLine]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\[CapitalPi]", ",", "1"}], "}"}], ",", "0", ",", "16", ",", 
+        ".25"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\:1450\:1455", ",", "4"}], "}"}], ",", "0", ",", "16", ",", 
+        ".25"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"M", ",", "0"}], "}"}], ",", "0", ",", "1", ",", ".125"}], 
+       "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\[CapitalPi]\[CapitalPi]", ",", "8"}], "}"}], ",", "0", ",",
+         "16", ",", "1"}], "}"}], "\[IndentingNewLine]", ",", 
+      RowBox[{"FrameMargins", "\[Rule]", "0"}]}], "\[IndentingNewLine]", 
+     "]"}], "\[IndentingNewLine]", "}"}], "}"}], "]"}]}], "Input",
+ TextAlignment->Center,
+ FontFamily->"Segoe UI Symbol",
+ FontSize->10,
+ FontWeight->"Normal",ExpressionUUID->"e9af63b5-ce7c-4f02-8437-ec7c3b69790f"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     TagBox[
+      StyleBox[
+       DynamicModuleBox[{$CellContext`\:1450\:1455$$ = 4, $CellContext`M$$ = 
+        0, $CellContext`\[CapitalPi]$$ = 
+        1, $CellContext`\[CapitalPi]\[CapitalPi]$$ = 8, Typeset`show$$ = True,
+         Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+        Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+        "\"untitled\"", Typeset`specs$$ = {{{
+           Hold[$CellContext`\[CapitalPi]$$], 1}, 0, 16, 0.25}, {{
+           Hold[$CellContext`\:1450\:1455$$], 4}, 0, 16, 0.25}, {{
+           Hold[$CellContext`M$$], 0}, 0, 1, 0.125}, {{
+           Hold[$CellContext`\[CapitalPi]\[CapitalPi]$$], 8}, 0, 16, 1}}, 
+        Typeset`size$$ = {320., {222., 227.}}, Typeset`update$$ = 0, 
+        Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
+        DynamicBox[Manipulate`ManipulateBoxes[
+         1, StandardForm, 
+          "Variables" :> {$CellContext`\:1450\:1455$$ = 4, $CellContext`M$$ = 
+            0, $CellContext`\[CapitalPi]$$ = 
+            1, $CellContext`\[CapitalPi]\[CapitalPi]$$ = 8}, 
+          "ControllerVariables" :> {}, 
+          "OtherVariables" :> {
+           Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+            Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+            Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+            Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> Column[{
+             $CellContext`CurvaturePlot[
+              Evaluate[
+               SetPrecision[
+                
+                SetAccuracy[(1 - 
+                  Abs[((-1)^
+                    Floor[(($CellContext`x/Pi) $CellContext`\:1450\:1455$$ + 
+                    1)/2] Abs[
+                    1 - Abs[
+                    Mod[($CellContext`x/Pi) $CellContext`\:1450\:1455$$ + 1, 
+                    2] - 1]^$CellContext`\[CapitalPi]$$]^(
+                    1/$CellContext`\[CapitalPi]$$))/2 + 
+                   0.5]) - $CellContext`M$$, Infinity], 
+                Infinity]], {$CellContext`x, 0, 4 Pi}, 
+              Evaluate[$CellContext`\:1513\:1515], FrameTicks -> {
+                Range[-16, 16, 1/2], 
+                Range[-4, 4, 1/2]}, PlotPoints -> 
+              1 + 2^$CellContext`\[CapitalPi]\[CapitalPi]$$], 
+             Plot[
+              Evaluate[
+               SetPrecision[
+                SetAccuracy[
+                0.5 - (1 - 
+                 Abs[((-1)^
+                    Floor[(($CellContext`x/Pi) $CellContext`\:1450\:1455$$ + 
+                    1)/2] Abs[
+                    1 - Abs[
+                    Mod[($CellContext`x/Pi) $CellContext`\:1450\:1455$$ + 1, 
+                    2] - 1]^$CellContext`\[CapitalPi]$$]^(
+                    1/$CellContext`\[CapitalPi]$$))/2 + 
+                  0.5]) - $CellContext`M$$, Infinity], 
+                Infinity]], {$CellContext`x, 0, 4 Pi}, 
+              Evaluate[$CellContext`\:1513\:1515], AspectRatio -> 1/8, 
+              FrameTicks -> {
+                Range[(-16) Pi, 16 Pi, Pi/2], 
+                Range[-1, 1, 1/2]}, PlotPoints -> 
+              1 + 2^$CellContext`\[CapitalPi]\[CapitalPi]$$]}], 
+          "Specifications" :> {{{$CellContext`\[CapitalPi]$$, 1}, 0, 16, 
+             0.25}, {{$CellContext`\:1450\:1455$$, 4}, 0, 16, 
+             0.25}, {{$CellContext`M$$, 0}, 0, 1, 
+             0.125}, {{$CellContext`\[CapitalPi]\[CapitalPi]$$, 8}, 0, 16, 
+             1}}, "Options" :> {FrameMargins -> 0}, "DefaultOptions" :> {}],
+         ImageSizeCache->{345., {340., 345.}},
+         SingleEvaluation->True],
+        Deinitialization:>None,
+        DynamicModuleValues:>{},
+        SynchronousInitialization->True,
+        UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+        UnsavedVariables:>{Typeset`initDone$$},
+        UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+       Deployed->True,
+       StripOnInput->False],
+      Manipulate`InterpretManipulate[1]]}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ FontFamily->"Segoe UI Symbol",
+ FontSize->10,
+ CellLabel->
+  "3/24/24 17:03:33 \
+Out[1958]=",ExpressionUUID->"d798a34d-f2da-42c6-8aa3-1c805195e5c5"]
+}, Open  ]]
+},
+WindowToolbars->"EditBar",
+WindowSize->{1680, 984},
+WindowMargins->{{-4, Automatic}, {Automatic, -4}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"], TextAlignment -> Center, 
+    FontFamily -> "Segoe UI Symbol", FontSize -> 12, FontWeight -> "Normal", 
+    FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData[All], TextAlignment -> Center, FontFamily -> 
+       "Segoe UI Symbol", FontSize -> 12, FontWeight -> "Normal", FontSlant -> 
+       "Plain", FontTracking -> "Plain", 
+       FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}], 
+      Cell[
+       BoxData[""], "Input", TextAlignment -> Center, FontFamily -> 
+       "Segoe UI Symbol", FontSize -> 12, FontWeight -> "Normal"]}, Open]]}, 
+  WindowSize -> {786, 884}, 
+  WindowMargins -> {{140, Automatic}, {-107, Automatic}}, FrontEndVersion -> 
+  "12.2 for Microsoft Windows (64-bit) (December 12, 2020)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"5ef6097c-72c8-4d11-b3dd-efe77ae843c3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 6715, 178, 400, "Input",ExpressionUUID->"296ee68d-611b-4f39-8505-8dc995c0ca11"],
+Cell[7276, 200, 6600, 181, 325, "Input",ExpressionUUID->"0d96d3fd-dac5-4a15-921c-c113c196ee35",
+ CellID->161896613],
+Cell[CellGroupData[{
+Cell[13901, 385, 9380, 235, 236, "Input",ExpressionUUID->"e9af63b5-ce7c-4f02-8437-ec7c3b69790f"],
+Cell[23284, 622, 4248, 89, 718, "Output",ExpressionUUID->"d798a34d-f2da-42c6-8aa3-1c805195e5c5"]
+}, Open  ]]
+}
+]
+*)
+
