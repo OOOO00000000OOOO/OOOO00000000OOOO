@@ -1,0 +1,1952 @@
+{
+  "export_version": "1.0",
+  "main_tree": {
+    "nodes": {
+      "Scalar Math.001": {
+        "attributes": {
+          "location": [
+            -725.3333129882812,
+            1493.3333740234375
+          ],
+          "label": " "
+        },
+        "properties": {
+          "y_": 0.25
+        },
+        "inputs": {
+          "x": {
+            "bl_idname": "SvStringsSocket",
+            "name": "x",
+            "properties": {
+              "prop_name": "x_"
+            }
+          },
+          "y": {
+            "bl_idname": "SvStringsSocket",
+            "name": "y",
+            "properties": {
+              "prop_name": "y_"
+            }
+          }
+        },
+        "outputs": {
+          "Out": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Out"
+          }
+        },
+        "bl_idname": "SvScalarMathNodeMK4"
+      },
+      "Scalar Math.003": {
+        "attributes": {
+          "location": [
+            -874.6666870117188,
+            1493.3333740234375
+          ],
+          "width": 120.0,
+          "label": " "
+        },
+        "properties": {
+          "current_op": "POW2",
+          "y_": 2.0,
+          "x_": 2.0
+        },
+        "inputs": {
+          "x": {
+            "bl_idname": "SvStringsSocket",
+            "name": "x",
+            "properties": {
+              "prop_name": "x_"
+            }
+          }
+        },
+        "outputs": {
+          "Out": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Out"
+          }
+        },
+        "bl_idname": "SvScalarMathNodeMK4"
+      },
+      "Scalar Math.005": {
+        "attributes": {
+          "location": [
+            -1045.3333740234375,
+            1536.0
+          ],
+          "label": " "
+        },
+        "properties": {
+          "current_op": "DIV",
+          "y_": 3.1415927410125732,
+          "x_": 214.66700744628906
+        },
+        "inputs": {
+          "x": {
+            "bl_idname": "SvStringsSocket",
+            "name": "x",
+            "properties": {
+              "prop_name": "x_"
+            }
+          },
+          "y": {
+            "bl_idname": "SvStringsSocket",
+            "name": "y",
+            "properties": {
+              "prop_name": "y_"
+            }
+          }
+        },
+        "outputs": {
+          "Out": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Out"
+          }
+        },
+        "bl_idname": "SvScalarMathNodeMK4"
+      },
+      "Vector In.002": {
+        "attributes": {
+          "location": [
+            -1770.6666259765625,
+            1472.0
+          ],
+          "width": 120.0,
+          "label": "\u2180"
+        },
+        "properties": {
+          "x_": 1.0
+        },
+        "inputs": {
+          "X": {
+            "bl_idname": "SvStringsSocket",
+            "name": "X",
+            "properties": {
+              "prop_name": "x_"
+            }
+          },
+          "Y": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Y",
+            "properties": {
+              "prop_name": "y_"
+            }
+          },
+          "Z": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Z",
+            "properties": {
+              "prop_name": "z_"
+            }
+          }
+        },
+        "outputs": {
+          "Vectors": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vectors"
+          }
+        },
+        "bl_idname": "GenVectorsNode"
+      },
+      "Vector In.001": {
+        "attributes": {
+          "location": [
+            -1770.6666259765625,
+            1621.3333740234375
+          ],
+          "width": 120.0,
+          "label": "O"
+        },
+        "inputs": {
+          "X": {
+            "bl_idname": "SvStringsSocket",
+            "name": "X",
+            "properties": {
+              "prop_name": "x_"
+            }
+          },
+          "Y": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Y",
+            "properties": {
+              "prop_name": "y_"
+            }
+          },
+          "Z": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Z",
+            "properties": {
+              "prop_name": "z_"
+            }
+          }
+        },
+        "outputs": {
+          "Vectors": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vectors"
+          }
+        },
+        "bl_idname": "GenVectorsNode"
+      },
+      "Formula.005": {
+        "attributes": {
+          "location": [
+            -1194.6666259765625,
+            1536.0
+          ],
+          "width": 120.0,
+          "label": " "
+        },
+        "properties": {
+          "formula1": "214.662514",
+          "wrapping": "+1"
+        },
+        "outputs": {
+          "Result": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Result"
+          }
+        },
+        "bl_idname": "SvFormulaNodeMk5"
+      },
+      "A Number.001": {
+        "attributes": {
+          "location": [
+            -1621.3333740234375,
+            1408.0
+          ],
+          "label": " "
+        },
+        "properties": {
+          "float_": 5.000000953674316,
+          "int_": 4,
+          "selected_mode": "int"
+        },
+        "inputs": {
+          "Float": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Int",
+            "properties": {
+              "prop_name": "int_"
+            }
+          }
+        },
+        "outputs": {
+          "Int": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Int",
+            "properties": {
+              "custom_draw": "mode_custom_draw"
+            }
+          }
+        },
+        "bl_idname": "SvNumberNode"
+      },
+      "Input Switch MOD": {
+        "attributes": {
+          "location": [
+            -725.3333129882812,
+            1344.0
+          ],
+          "label": " "
+        },
+        "properties": {
+          "num_sockets_per_set": 1,
+          "selected": 1,
+          "num_switches": 3
+        },
+        "inputs": {
+          "Selected": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Selected",
+            "properties": {
+              "prop_name": "selected"
+            }
+          },
+          "Separator 0": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 0"
+          },
+          "Alpha 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 0"
+          },
+          "Alpha 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Alpha 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Alpha 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Alpha 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Alpha 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Alpha 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Alpha 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Alpha 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Alpha 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 1": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 1"
+          },
+          "Beta 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 0"
+          },
+          "Beta 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Beta 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Beta 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Beta 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Beta 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Beta 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Beta 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Beta 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Beta 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 2": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 2"
+          },
+          "Gamma 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 0"
+          },
+          "Gamma 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Gamma 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Gamma 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Gamma 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Gamma 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Gamma 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Gamma 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Gamma 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Gamma 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 3": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 0",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Delta 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Delta 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 4": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 0",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Epsilon 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Epsilon 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 5": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 0",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Zeta 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Zeta 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 6": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 0",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Eta 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Eta 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 7": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 0",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Theta 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Theta 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Separator 8": {
+            "bl_idname": "SvSeparatorSocket",
+            "name": "Separator 8",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 0",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Iota 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iota 8",
+            "attributes": {
+              "hide": true
+            }
+          }
+        },
+        "outputs": {
+          "Data 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 0"
+          },
+          "Data 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 1",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Data 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 2",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Data 3": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 3",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Data 4": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 4",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Data 5": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 5",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Data 6": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 6",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Data 7": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 7",
+            "attributes": {
+              "hide": true
+            }
+          },
+          "Data 8": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 8",
+            "attributes": {
+              "hide": true
+            }
+          }
+        },
+        "bl_idname": "SvInputSwitchNodeMOD"
+      },
+      "A Number.002": {
+        "attributes": {
+          "location": [
+            -725.3333129882812,
+            1066.6666259765625
+          ],
+          "label": " "
+        },
+        "properties": {
+          "int_": 1,
+          "selected_mode": "int",
+          "int_min": 0,
+          "int_max": 1
+        },
+        "inputs": {
+          "Float": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Int",
+            "properties": {
+              "prop_name": "int_"
+            }
+          }
+        },
+        "outputs": {
+          "Int": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Int",
+            "properties": {
+              "custom_draw": "mode_custom_draw"
+            }
+          }
+        },
+        "bl_idname": "SvNumberNode"
+      },
+      "Note": {
+        "attributes": {
+          "location": [
+            -1450.6666259765625,
+            960.0
+          ],
+          "width": 700.0,
+          "label": " ",
+          "hide": true
+        },
+        "properties": {
+          "n_id": "-7035127021110051186",
+          "text": "T*(0.5-0.5*(-1)**floor((2*O*X)/T)+(-1)**floor((2*O*X)/T)/(1+e**(T/(2*O*np.mod(X,T/(2*O)))-T/(T-2*O*np.mod(X,T/(2*O))))))/64"
+        },
+        "inputs": {
+          "Text In": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Text In",
+            "attributes": {
+              "hide": true
+            }
+          }
+        },
+        "outputs": {
+          "Text Out": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Text Out",
+            "properties": {
+              "use_flatten": true,
+              "use_unwrap": true
+            }
+          }
+        },
+        "bl_idname": "NoteNode"
+      },
+      "Formula.006": {
+        "attributes": {
+          "location": [
+            -1450.6666259765625,
+            1365.3333740234375
+          ],
+          "width": 700.0,
+          "label": " "
+        },
+        "properties": {
+          "formula1": "(T*(0.5+(-1)**floor((2*O*X)/T)*(-0.5+np.mod((2*O*X)/T,1))))/64"
+        },
+        "inputs": {
+          "O": {
+            "bl_idname": "SvFormulaSocket",
+            "name": "O"
+          },
+          "T": {
+            "bl_idname": "SvFormulaSocket",
+            "name": "T"
+          },
+          "X": {
+            "bl_idname": "SvFormulaSocket",
+            "name": "X"
+          }
+        },
+        "outputs": {
+          "Result": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Result"
+          }
+        },
+        "bl_idname": "SvFormulaNodeMk5"
+      },
+      "Formula.002": {
+        "attributes": {
+          "location": [
+            -1450.6666259765625,
+            1152.0
+          ],
+          "width": 700.0,
+          "label": " "
+        },
+        "properties": {
+          "formula1": "T*(0.5-0.5*(-1)**floor((2*O*X)/T)+(-1)**floor((2*O*X)/T)/(1+e**(T/(2*O*np.mod(X,T/(2*O)))-T/(T-2*O*np.mod(X,T/(2*O))))))/64"
+        },
+        "inputs": {
+          "O": {
+            "bl_idname": "SvFormulaSocket",
+            "name": "O"
+          },
+          "T": {
+            "bl_idname": "SvFormulaSocket",
+            "name": "T"
+          },
+          "X": {
+            "bl_idname": "SvFormulaSocket",
+            "name": "X"
+          }
+        },
+        "outputs": {
+          "Result": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Result"
+          }
+        },
+        "bl_idname": "SvFormulaNodeMk5"
+      },
+      "Rotate.001": {
+        "attributes": {
+          "location": [
+            -554.6666870117188,
+            1728.0
+          ],
+          "label": " "
+        },
+        "properties": {
+          "axis_": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "inputs": {
+          "Vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vertices"
+          },
+          "Centers": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Centers",
+            "properties": {
+              "prop_name": "centers_"
+            }
+          },
+          "Axis": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Axis",
+            "properties": {
+              "prop_name": "axis_",
+              "expanded": true
+            }
+          },
+          "Angle": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Angle",
+            "properties": {
+              "prop_name": "angle_"
+            }
+          }
+        },
+        "outputs": {
+          "Vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vertices"
+          }
+        },
+        "bl_idname": "SvRotationNodeMk3"
+      },
+      "Line": {
+        "attributes": {
+          "location": [
+            -384.0,
+            1685.3333740234375
+          ],
+          "width": 180.0,
+          "label": " "
+        },
+        "properties": {
+          "direction": "OD",
+          "size": 0.25300002098083496
+        },
+        "inputs": {
+          "Num": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Num",
+            "properties": {
+              "prop_name": "num"
+            }
+          },
+          "Steps": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Steps",
+            "attributes": {
+              "hide": true
+            },
+            "properties": {
+              "prop_name": "step"
+            }
+          },
+          "Size": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Size",
+            "properties": {
+              "prop_name": "size"
+            }
+          },
+          "Origin": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Origin",
+            "properties": {
+              "prop_name": "v3_origin",
+              "expanded": true
+            }
+          },
+          "Direction": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Direction",
+            "properties": {
+              "prop_name": "v3_dir",
+              "expanded": true
+            }
+          }
+        },
+        "outputs": {
+          "Verts": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Verts"
+          },
+          "Edges": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Edges"
+          }
+        },
+        "bl_idname": "SvLineNodeMK4"
+      },
+      "Stethoscope MK2": {
+        "attributes": {
+          "location": [
+            -1706.6666259765625,
+            1152.0
+          ],
+          "width": 100.0,
+          "label": " ",
+          "hide": true
+        },
+        "properties": {
+          "location_theta": 0.7559999823570251,
+          "num_elements": 123,
+          "rounding": 0,
+          "terminal_text": "data[0] = ['T*(0.5-0.5*(-1)**floor((2*O*X)/T)+(-1)**floor((2*O*X)/T)/(1+e**(T/(2*O*np.mod(X,T/(2*O)))-T/(T-2*O*np.mod(X,T/(2*O))))))/64']",
+          "num_rows": 1,
+          "terminal_width": 137,
+          "element_index": 49
+        },
+        "inputs": {
+          "Data": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data"
+          }
+        },
+        "bl_idname": "SvStethoscopeNodeMK2"
+      },
+      "List Item": {
+        "attributes": {
+          "location": [
+            -170.6666717529297,
+            1770.6666259765625
+          ],
+          "label": " "
+        },
+        "properties": {
+          "index": -1
+        },
+        "inputs": {
+          "Data": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data"
+          },
+          "Index": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Index",
+            "properties": {
+              "prop_name": "index"
+            }
+          }
+        },
+        "outputs": {
+          "Item_001": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Item"
+          },
+          "Other_001": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Other"
+          }
+        },
+        "bl_idname": "SvListItemNode"
+      },
+      "Loop Out.002": {
+        "attributes": {
+          "location": [
+            170.6666717529297,
+            1898.6666259765625
+          ],
+          "width": 100.0,
+          "label": " "
+        },
+        "inputs": {
+          "Loop In": {
+            "bl_idname": "SvLoopControlSocket",
+            "name": "Loop In"
+          },
+          "Break": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Break",
+            "properties": {
+              "label": "Break"
+            }
+          },
+          "Data": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "O"
+            }
+          },
+          "Data_001": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "\u2180"
+            }
+          },
+          "Data_002": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "O"
+            }
+          }
+        },
+        "outputs": {
+          "Data_001": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "O"
+            }
+          },
+          "Data_002": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "\u2180"
+            }
+          },
+          "Data_003": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "O"
+            }
+          }
+        },
+        "bl_idname": "SvLoopOutNode"
+      },
+      "UV Connection.001": {
+        "attributes": {
+          "location": [
+            298.6666564941406,
+            2005.3333740234375
+          ],
+          "width": 200.0,
+          "label": " "
+        },
+        "properties": {
+          "polygons": "Edges",
+          "dir_check": "V_dir",
+          "slice_check": false
+        },
+        "inputs": {
+          "vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "vertices"
+          },
+          "vertices 1": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "vertices 1"
+          }
+        },
+        "outputs": {
+          "vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "vertices"
+          },
+          "data": {
+            "bl_idname": "SvStringsSocket",
+            "name": "data"
+          }
+        },
+        "bl_idname": "LineConnectNodeMK2"
+      },
+      "Mesh Viewer": {
+        "attributes": {
+          "location": [
+            533.3333129882812,
+            2005.3333740234375
+          ],
+          "label": " ",
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "use_custom_color": true
+        },
+        "properties": {
+          "base_data_name": " ",
+          "is_merge": true,
+          "show_wireframe": true,
+          "apply_matrices_to": "mesh"
+        },
+        "inputs": {
+          "vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "vertices"
+          },
+          "edges": {
+            "bl_idname": "SvStringsSocket",
+            "name": "edges",
+            "properties": {
+              "custom_draw": "draw_edges_props"
+            }
+          },
+          "faces": {
+            "bl_idname": "SvStringsSocket",
+            "name": "faces"
+          },
+          "material_idx": {
+            "bl_idname": "SvStringsSocket",
+            "name": "material_idx"
+          },
+          "matrix": {
+            "bl_idname": "SvMatrixSocket",
+            "name": "matrix",
+            "properties": {
+              "custom_draw": "draw_matrix_props"
+            }
+          }
+        },
+        "outputs": {
+          "Objects": {
+            "bl_idname": "SvObjectSocket",
+            "name": "Objects"
+          }
+        },
+        "bl_idname": "SvMeshViewer"
+      },
+      "Loop In.001": {
+        "attributes": {
+          "location": [
+            -1621.3333740234375,
+            1749.3333740234375
+          ],
+          "label": " "
+        },
+        "properties": {
+          "linked_to_loop_out": true,
+          "iterations": 57,
+          "max_iterations": 65536,
+          "print_to_console": true
+        },
+        "inputs": {
+          "Iterations": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Iterations",
+            "properties": {
+              "prop_name": "iterations"
+            }
+          },
+          "Data 0": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data 0",
+            "properties": {
+              "label": "O"
+            }
+          },
+          "Data": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data",
+            "properties": {
+              "label": "\u2180"
+            }
+          },
+          "Data_001": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data",
+            "properties": {
+              "label": "O"
+            }
+          },
+          "Data_002": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Data"
+          }
+        },
+        "outputs": {
+          "Loop Out": {
+            "bl_idname": "SvLoopControlSocket",
+            "name": "Loop Out"
+          },
+          "Loop Number": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Loop Number",
+            "properties": {
+              "label": "Loop Number"
+            }
+          },
+          "Total Loops": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Total Loops",
+            "properties": {
+              "label": "Total Loops"
+            }
+          },
+          "Data_001": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "O"
+            }
+          },
+          "Data_002": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "\u2180"
+            }
+          },
+          "Data_003": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Data",
+            "properties": {
+              "label": "O"
+            }
+          }
+        },
+        "bl_idname": "SvLoopInNode"
+      },
+      "A Number": {
+        "attributes": {
+          "location": [
+            -1941.3333740234375,
+            1450.6666259765625
+          ],
+          "label": " "
+        },
+        "properties": {
+          "float_": 256.0,
+          "int_": 64,
+          "selected_mode": "int",
+          "float_min": 0.0,
+          "float_max": 16384.0,
+          "int_min": 0,
+          "int_max": 16384
+        },
+        "inputs": {
+          "Float": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Int",
+            "properties": {
+              "prop_name": "int_"
+            }
+          }
+        },
+        "outputs": {
+          "Int_001": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Int",
+            "properties": {
+              "custom_draw": "mode_custom_draw"
+            }
+          }
+        },
+        "bl_idname": "SvNumberNode"
+      },
+      "Viewer Index+.001": {
+        "attributes": {
+          "location": [
+            341.3333435058594,
+            1493.3333740234375
+          ],
+          "label": " ",
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "use_custom_color": true
+        },
+        "properties": {
+          "numid_verts_col": [
+            0.3619113564491272,
+            0.3619113564491272,
+            0.3619113564491272,
+            1.0
+          ]
+        },
+        "inputs": {
+          "verts": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "verts"
+          },
+          "edges": {
+            "bl_idname": "SvStringsSocket",
+            "name": "edges"
+          },
+          "faces": {
+            "bl_idname": "SvStringsSocket",
+            "name": "faces"
+          },
+          "matrix": {
+            "bl_idname": "SvMatrixSocket",
+            "name": "matrix"
+          },
+          "text": {
+            "bl_idname": "SvStringsSocket",
+            "name": "text"
+          }
+        },
+        "bl_idname": "SvIDXViewer28"
+      },
+      "List Join.001": {
+        "attributes": {
+          "location": [
+            0.0,
+            1685.3333740234375
+          ],
+          "label": " "
+        },
+        "inputs": {
+          "data": {
+            "bl_idname": "SvStringsSocket",
+            "name": "data"
+          },
+          "data 1": {
+            "bl_idname": "SvStringsSocket",
+            "name": "data 1"
+          },
+          "data 2": {
+            "bl_idname": "SvStringsSocket",
+            "name": "data 2"
+          }
+        },
+        "outputs": {
+          "data_001": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "data"
+          }
+        },
+        "bl_idname": "ListJoinNode"
+      },
+      "Temporal Viewer": {
+        "attributes": {
+          "location": [
+            341.3333435058594,
+            1770.6666259765625
+          ],
+          "label": " ",
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "use_custom_color": true
+        },
+        "properties": {
+          "point_size": 3,
+          "vector_color": [
+            0.5850808620452881,
+            0.5850808620452881,
+            0.5850808620452881,
+            1.0
+          ],
+          "edge_color": [
+            0.5153557062149048,
+            0.5153557062149048,
+            0.5153557062149048,
+            1.0
+          ],
+          "polygon_color": [
+            0.8100000023841858,
+            0.8100000023841858,
+            0.8100000023841858,
+            1.0
+          ]
+        },
+        "inputs": {
+          "Vertices": {
+            "bl_idname": "SvVerticesSocket",
+            "name": "Vertices",
+            "properties": {
+              "custom_draw": "draw_property_socket"
+            }
+          },
+          "Edges": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Edges",
+            "properties": {
+              "custom_draw": "draw_property_socket"
+            }
+          },
+          "Polygons": {
+            "bl_idname": "SvStringsSocket",
+            "name": "Polygons"
+          },
+          "Matrix": {
+            "bl_idname": "SvMatrixSocket",
+            "name": "Matrix"
+          },
+          "Vector Color": {
+            "bl_idname": "SvColorSocket",
+            "name": "Vector Color",
+            "properties": {
+              "custom_draw": "draw_color_socket",
+              "prop_name": "vector_color"
+            }
+          },
+          "Edge Color": {
+            "bl_idname": "SvColorSocket",
+            "name": "Edge Color",
+            "properties": {
+              "custom_draw": "draw_color_socket",
+              "prop_name": "edge_color"
+            }
+          },
+          "Polygon Color": {
+            "bl_idname": "SvColorSocket",
+            "name": "Polygon Color",
+            "properties": {
+              "custom_draw": "draw_color_socket",
+              "prop_name": "polygon_color"
+            }
+          },
+          "attrs": {
+            "bl_idname": "SvStringsSocket",
+            "name": "attrs",
+            "attributes": {
+              "hide": true
+            },
+            "properties": {
+              "quick_link_to_node": "SvVDAttrsNodeMk2"
+            }
+          }
+        },
+        "bl_idname": "SvViewerDrawMk4"
+      }
+    },
+    "links": [
+      {
+        "from_node": "Scalar Math.003",
+        "from_socket": "Out",
+        "to_node": "Scalar Math.001",
+        "to_socket": "x"
+      },
+      {
+        "from_node": "Input Switch MOD",
+        "from_socket": "Data 0",
+        "to_node": "Scalar Math.001",
+        "to_socket": "y"
+      },
+      {
+        "from_node": "Scalar Math.005",
+        "from_socket": "Out",
+        "to_node": "Scalar Math.003",
+        "to_socket": "x"
+      },
+      {
+        "from_node": "Formula.005",
+        "from_socket": "Result",
+        "to_node": "Scalar Math.005",
+        "to_socket": "x"
+      },
+      {
+        "from_node": "A Number",
+        "from_socket": "Int_001",
+        "to_node": "Scalar Math.005",
+        "to_socket": "y"
+      },
+      {
+        "from_node": "A Number.002",
+        "from_socket": "Int",
+        "to_node": "Input Switch MOD",
+        "to_socket": "Selected"
+      },
+      {
+        "from_node": "Formula.006",
+        "from_socket": "Result",
+        "to_node": "Input Switch MOD",
+        "to_socket": "Alpha 0"
+      },
+      {
+        "from_node": "Formula.002",
+        "from_socket": "Result",
+        "to_node": "Input Switch MOD",
+        "to_socket": "Beta 0"
+      },
+      {
+        "from_node": "A Number.001",
+        "from_socket": "Int",
+        "to_node": "Formula.006",
+        "to_socket": "O"
+      },
+      {
+        "from_node": "A Number",
+        "from_socket": "Int_001",
+        "to_node": "Formula.006",
+        "to_socket": "T"
+      },
+      {
+        "from_node": "Loop In.001",
+        "from_socket": "Loop Number",
+        "to_node": "Formula.006",
+        "to_socket": "X"
+      },
+      {
+        "from_node": "A Number.001",
+        "from_socket": "Int",
+        "to_node": "Formula.002",
+        "to_socket": "O"
+      },
+      {
+        "from_node": "A Number",
+        "from_socket": "Int_001",
+        "to_node": "Formula.002",
+        "to_socket": "T"
+      },
+      {
+        "from_node": "Loop In.001",
+        "from_socket": "Loop Number",
+        "to_node": "Formula.002",
+        "to_socket": "X"
+      },
+      {
+        "from_node": "Loop In.001",
+        "from_socket": "Data_002",
+        "to_node": "Rotate.001",
+        "to_socket": "Vertices"
+      },
+      {
+        "from_node": "Scalar Math.001",
+        "from_socket": "Out",
+        "to_node": "Rotate.001",
+        "to_socket": "Angle"
+      },
+      {
+        "from_node": "Scalar Math.005",
+        "from_socket": "Out",
+        "to_node": "Line",
+        "to_socket": "Size"
+      },
+      {
+        "from_node": "Loop In.001",
+        "from_socket": "Data_001",
+        "to_node": "Line",
+        "to_socket": "Origin"
+      },
+      {
+        "from_node": "Rotate.001",
+        "from_socket": "Vertices",
+        "to_node": "Line",
+        "to_socket": "Direction"
+      },
+      {
+        "from_node": "Note",
+        "from_socket": "Text Out",
+        "to_node": "Stethoscope MK2",
+        "to_socket": "Data"
+      },
+      {
+        "from_node": "Line",
+        "from_socket": "Verts",
+        "to_node": "List Item",
+        "to_socket": "Data"
+      },
+      {
+        "from_node": "Loop In.001",
+        "from_socket": "Loop Out",
+        "to_node": "Loop Out.002",
+        "to_socket": "Loop In"
+      },
+      {
+        "from_node": "List Item",
+        "from_socket": "Item_001",
+        "to_node": "Loop Out.002",
+        "to_socket": "Data"
+      },
+      {
+        "from_node": "Rotate.001",
+        "from_socket": "Vertices",
+        "to_node": "Loop Out.002",
+        "to_socket": "Data_001"
+      },
+      {
+        "from_node": "List Join.001",
+        "from_socket": "data_001",
+        "to_node": "Loop Out.002",
+        "to_socket": "Data_002"
+      },
+      {
+        "from_node": "Loop Out.002",
+        "from_socket": "Data_003",
+        "to_node": "UV Connection.001",
+        "to_socket": "vertices"
+      },
+      {
+        "from_node": "UV Connection.001",
+        "from_socket": "vertices",
+        "to_node": "Mesh Viewer",
+        "to_socket": "vertices"
+      },
+      {
+        "from_node": "UV Connection.001",
+        "from_socket": "data",
+        "to_node": "Mesh Viewer",
+        "to_socket": "edges"
+      },
+      {
+        "from_node": "A Number",
+        "from_socket": "Int_001",
+        "to_node": "Loop In.001",
+        "to_socket": "Iterations"
+      },
+      {
+        "from_node": "Vector In.001",
+        "from_socket": "Vectors",
+        "to_node": "Loop In.001",
+        "to_socket": "Data 0"
+      },
+      {
+        "from_node": "Vector In.002",
+        "from_socket": "Vectors",
+        "to_node": "Loop In.001",
+        "to_socket": "Data"
+      },
+      {
+        "from_node": "Vector In.001",
+        "from_socket": "Vectors",
+        "to_node": "Loop In.001",
+        "to_socket": "Data_001"
+      },
+      {
+        "from_node": "UV Connection.001",
+        "from_socket": "vertices",
+        "to_node": "Viewer Index+.001",
+        "to_socket": "verts"
+      },
+      {
+        "from_node": "UV Connection.001",
+        "from_socket": "data",
+        "to_node": "Viewer Index+.001",
+        "to_socket": "edges"
+      },
+      {
+        "from_node": "Loop In.001",
+        "from_socket": "Data_003",
+        "to_node": "List Join.001",
+        "to_socket": "data"
+      },
+      {
+        "from_node": "List Item",
+        "from_socket": "Item_001",
+        "to_node": "List Join.001",
+        "to_socket": "data 1"
+      },
+      {
+        "from_node": "UV Connection.001",
+        "from_socket": "vertices",
+        "to_node": "Temporal Viewer",
+        "to_socket": "Vertices"
+      },
+      {
+        "from_node": "UV Connection.001",
+        "from_socket": "data",
+        "to_node": "Temporal Viewer",
+        "to_socket": "Edges"
+      }
+    ]
+  }
+}
