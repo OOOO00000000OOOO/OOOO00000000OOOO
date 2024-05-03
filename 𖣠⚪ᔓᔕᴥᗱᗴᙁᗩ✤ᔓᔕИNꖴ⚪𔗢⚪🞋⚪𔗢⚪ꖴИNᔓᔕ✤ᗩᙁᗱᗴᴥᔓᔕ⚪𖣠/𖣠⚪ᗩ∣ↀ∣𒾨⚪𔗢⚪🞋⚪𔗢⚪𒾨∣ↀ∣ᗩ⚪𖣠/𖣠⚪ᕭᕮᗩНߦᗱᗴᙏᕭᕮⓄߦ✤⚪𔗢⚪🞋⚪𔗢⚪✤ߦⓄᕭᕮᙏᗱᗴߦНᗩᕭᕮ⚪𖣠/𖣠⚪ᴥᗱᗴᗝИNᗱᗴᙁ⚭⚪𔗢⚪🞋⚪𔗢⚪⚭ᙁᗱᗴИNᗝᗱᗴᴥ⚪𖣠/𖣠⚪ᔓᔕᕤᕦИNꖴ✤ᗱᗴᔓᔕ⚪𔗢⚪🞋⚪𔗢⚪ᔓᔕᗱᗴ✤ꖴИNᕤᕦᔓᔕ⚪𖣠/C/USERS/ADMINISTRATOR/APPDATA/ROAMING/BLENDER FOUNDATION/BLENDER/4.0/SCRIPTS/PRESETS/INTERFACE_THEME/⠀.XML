@@ -355,7 +355,7 @@
         clipping_border_3d="#6d6d6dff"
         wire="#c8c8c8"
         wire_edit="#6d6d6d"
-        edge_width="0"
+        edge_width="1"
         gp_vertex="#6d6d6d"
         gp_vertex_select="#f0f0f0"
         gp_vertex_size="3"
@@ -373,7 +373,8 @@
         vertex_size="3"
         vertex_bevel="#6d6d6d"
         vertex_unreferenced="#6d6d6d"
-        edge_select="#404040"
+        edge_select="#ff9900"
+        edge_mode_select="#ffd800"
         edge_seam="#6d6d6d"
         edge_sharp="#6d6d6d"
         edge_crease="#6d6d6d"
@@ -381,7 +382,8 @@
         edge_facesel="#6d6d6d"
         freestyle_edge_mark="#6d6d6d"
         face="#f0f0f039"
-        face_select="#e8e8e896"
+        face_select="#ffa30033"
+        face_mode_select="#ffb70033"
         face_dot="#6d6d6d"
         facedot_size="3"
         freestyle_face_mark="#60606033"
@@ -430,7 +432,7 @@
           <ThemeSpaceGradient
             title="#6d6d6d"
             text="#6d6d6d"
-            text_hi="#6d6d6d"
+            text_hi="#ffffff"
             header="#ffffffff"
             header_text="#6d6d6d"
             header_text_hi="#6d6d6d"
@@ -740,6 +742,7 @@
         vertex_unreferenced="#6d6d6d"
         face="#ffffff0a"
         face_select="#f4f4f43c"
+        face_mode_select="#00000000"
         face_dot="#f4f4f4"
         facedot_size="3"
         freestyle_face_mark="#60606033"
@@ -748,7 +751,7 @@
         face_front="#00000000"
         editmesh_active="#60606080"
         wire_edit="#b0b0b0"
-        edge_width="0"
+        edge_width="1"
         edge_select="#f4f4f4"
         scope_back="#ffffffff"
         preview_stitch_face="#60606033"
@@ -970,7 +973,7 @@
     </text_editor>
     <node_editor>
       <ThemeNodeEditor
-        grid="#ffffff"
+        grid="#979797"
         node_selected="#6d6d6d"
         node_active="#c8c8c8"
         wire="#c8c8c8ff"
@@ -999,8 +1002,8 @@
         layout_node="#ffffff"
         geometry_node="#ffffff"
         attribute_node="#ffffff"
-        simulation_zone="#66416233"
-        repeat_zone="#76512f33"
+        simulation_zone="#b4b4b400"
+        repeat_zone="#b4b4b400"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1008,7 +1011,7 @@
             title="#6d6d6d"
             text="#6d6d6d"
             text_hi="#6d6d6d"
-            header="#ffffff00"
+            header="#ffffffff"
             header_text="#6d6d6d"
             header_text_hi="#f4f4f4"
             button="#ffffff00"
@@ -1615,6 +1618,7 @@
     <panel_title>
       <ThemeFontStyle
         points="12.875"
+        character_weight="400"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1626,6 +1630,7 @@
     <widget_label>
       <ThemeFontStyle
         points="12.875"
+        character_weight="400"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1637,6 +1642,7 @@
     <widget>
       <ThemeFontStyle
         points="12.875"
+        character_weight="400"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
