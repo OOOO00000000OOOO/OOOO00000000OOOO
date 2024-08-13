@@ -147,8 +147,13 @@ BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_
 BORDER-RADIUS:31%!IMPORTANT;
 }
 
-.titleContainer,label:not(#statuspanel-label),.popup-notification-description,popupnotificationcontent,.popup-notification-button-container,description
+.titleContainer,label:not(#statuspanel-label),.popup-notification-description,popupnotificationcontent,.popup-notification-button-container,description,#editBookmarkPanelTitle
 {TEXT-TRANSFORM:UPPERCASE!IMPORTANT;FONT-FAMILY:"GO NOTO AFRICA MIDDLE EAST"!IMPORTANT;FONT-WEIGHT:1!IMPORTANT;ALIGN-SELF:CENTER!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT;ALIGN-CONTENT:CENTER!IMPORTANT;
+JUSTIFY-CONTENT:CENTER!IMPORTANT;JUSTIFY-ITEMS:CENTER!IMPORTANT;JUSTIFY-SELF:CENTER!IMPORTANT;TEXT-ALIGN:CENTER!IMPORTANT}
+
+.editBMPanel_nameRow,.editBMPanel_folderRow,.panel-button,.editBMPanel_tagsRow,.checkbox-label-box,.folder-icon,#editBookmarkPanelBottomButtons,#editBMPanel_newFolderBox,
+#editBookmarkPanel_showForNewBookmarks,#editBookmarkPanelContent,#editBMPanel_tagsField,#editBMPanel_tagsSelectorExpander,#editBookmarkPanelFaviconContainer
+{PADDING:0!IMPORTANT;MARGIN:0!IMPORTANT;FONT-FAMILY:"GO NOTO AFRICA MIDDLE EAST"!IMPORTANT;FONT-WEIGHT:1!IMPORTANT;ALIGN-SELF:CENTER!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT;ALIGN-CONTENT:CENTER!IMPORTANT;
 JUSTIFY-CONTENT:CENTER!IMPORTANT;JUSTIFY-ITEMS:CENTER!IMPORTANT;JUSTIFY-SELF:CENTER!IMPORTANT;TEXT-ALIGN:CENTER!IMPORTANT}
 
 label:focus-visible{
