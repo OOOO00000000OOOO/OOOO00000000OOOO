@@ -1,0 +1,81 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2304,         71]
+NotebookOptionsPosition[      1318,         45]
+NotebookOutlinePosition[      2228,         70]
+CellTagsIndexPosition[      2185,         67]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+  "\|0168e0\|0145e2\|01f78b\|0145e2\|0168e0", "=", 
+   "\"\<\|0168e0\:26aa\|0145e2\:26aa\|01f78b\:26aa\|0145e2\:26aa\|0168e0\>\""}\
+], ";"}], "\n", 
+ RowBox[{"Print", "[", "\|0168e0\|0145e2\|01f78b\|0145e2\|0168e0", 
+  "]"}]}], "Input",
+ FontFamily->"Go Noto Africa Middle East",
+ FontSize->12,
+ FontWeight->"Normal",
+ CellLabel->
+  "8/19/24 12:13:14 \
+In[18]:=",ExpressionUUID->"3cac25e5-e451-4bf9-9b80-c7d0250163a8"],
+
+Cell[BoxData["\<\"\|0168e0\:26aa\|0145e2\:26aa\|01f78b\:26aa\|0145e2\:26aa\
+\|0168e0\"\>"], "Print",
+ FontFamily->"Go Noto Africa Middle East",
+ CellLabel->
+  "8/19/24 12:13:14 During evaluation of \
+In[18]:=",ExpressionUUID->"8146d083-e81d-4914-997d-f769452d16d6"]
+}, Open  ]]
+},
+WindowSize->{777, 838},
+WindowMargins->{{447, Automatic}, {Automatic, 69}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[All], TextAlignment -> Center, FontFamily -> 
+    "Go Noto Africa Middle East", FontSize -> 12, FontWeight -> "Normal", 
+    FontSlant -> "Plain", FontTracking -> "Plain", 
+    FontVariations -> {"StrikeThrough" -> False, "Underline" -> False}]}, 
+  WindowSize -> {785, 884}, WindowMargins -> {{0, Automatic}, {Automatic, 0}},
+   Visible -> False, FrontEndVersion -> 
+  "12.2 for Microsoft Windows (64-bit) (December 12, 2020)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"4d48813f-4869-4315-bbde-219ad5de4763"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 454, 13, 69, "Input",ExpressionUUID->"3cac25e5-e451-4bf9-9b80-c7d0250163a8"],
+Cell[1037, 37, 265, 5, 26, "Print",ExpressionUUID->"8146d083-e81d-4914-997d-f769452d16d6"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
