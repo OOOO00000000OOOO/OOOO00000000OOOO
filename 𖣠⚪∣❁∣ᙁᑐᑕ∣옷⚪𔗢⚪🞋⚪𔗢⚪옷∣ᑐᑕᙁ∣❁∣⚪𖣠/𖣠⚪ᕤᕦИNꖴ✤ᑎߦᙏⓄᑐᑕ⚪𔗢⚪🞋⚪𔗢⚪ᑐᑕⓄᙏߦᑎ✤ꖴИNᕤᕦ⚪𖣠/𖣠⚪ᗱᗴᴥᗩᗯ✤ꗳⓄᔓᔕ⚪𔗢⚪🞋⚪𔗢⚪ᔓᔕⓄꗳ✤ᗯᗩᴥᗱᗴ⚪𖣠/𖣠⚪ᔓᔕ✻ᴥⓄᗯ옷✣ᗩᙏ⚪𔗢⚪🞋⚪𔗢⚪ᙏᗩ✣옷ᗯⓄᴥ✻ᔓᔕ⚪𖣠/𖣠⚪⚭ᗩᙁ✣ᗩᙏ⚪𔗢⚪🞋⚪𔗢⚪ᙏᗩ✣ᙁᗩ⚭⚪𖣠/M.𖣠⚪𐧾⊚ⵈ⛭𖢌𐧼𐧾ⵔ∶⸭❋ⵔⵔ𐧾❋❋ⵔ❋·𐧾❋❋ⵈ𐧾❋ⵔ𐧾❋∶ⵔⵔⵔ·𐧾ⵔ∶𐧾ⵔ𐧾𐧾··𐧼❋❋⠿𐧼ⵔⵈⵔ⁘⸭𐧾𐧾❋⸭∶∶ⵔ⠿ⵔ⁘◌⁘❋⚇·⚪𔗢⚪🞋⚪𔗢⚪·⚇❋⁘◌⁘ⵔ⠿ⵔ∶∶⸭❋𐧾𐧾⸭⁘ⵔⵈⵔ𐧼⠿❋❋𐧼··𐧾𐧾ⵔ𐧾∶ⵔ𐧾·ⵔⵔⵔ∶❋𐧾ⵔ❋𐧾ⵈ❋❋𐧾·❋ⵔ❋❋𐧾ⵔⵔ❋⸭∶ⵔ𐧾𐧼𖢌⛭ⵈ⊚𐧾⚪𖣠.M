@@ -1,3 +1,5 @@
+%pkg install -forge symbolic%
+%pkg load symbolic%
 %tic%
 digits(2^16);
 %toc%
