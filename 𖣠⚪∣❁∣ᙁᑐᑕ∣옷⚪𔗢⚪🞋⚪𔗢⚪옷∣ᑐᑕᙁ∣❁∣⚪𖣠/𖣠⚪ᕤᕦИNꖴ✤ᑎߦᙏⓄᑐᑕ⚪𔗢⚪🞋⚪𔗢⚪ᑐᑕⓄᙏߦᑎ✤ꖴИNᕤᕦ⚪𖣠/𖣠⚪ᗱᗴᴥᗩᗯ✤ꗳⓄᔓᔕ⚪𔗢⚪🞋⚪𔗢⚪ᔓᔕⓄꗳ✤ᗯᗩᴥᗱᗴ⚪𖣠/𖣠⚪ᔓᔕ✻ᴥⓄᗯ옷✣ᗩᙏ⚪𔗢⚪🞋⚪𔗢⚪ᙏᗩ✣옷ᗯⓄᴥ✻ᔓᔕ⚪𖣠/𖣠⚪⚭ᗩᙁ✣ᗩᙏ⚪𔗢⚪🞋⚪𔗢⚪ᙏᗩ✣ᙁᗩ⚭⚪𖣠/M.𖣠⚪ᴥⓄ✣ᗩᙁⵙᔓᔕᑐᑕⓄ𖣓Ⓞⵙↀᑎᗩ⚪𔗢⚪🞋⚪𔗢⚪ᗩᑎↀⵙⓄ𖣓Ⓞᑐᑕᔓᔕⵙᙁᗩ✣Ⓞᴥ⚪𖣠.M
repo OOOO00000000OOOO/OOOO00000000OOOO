@@ -7,10 +7,10 @@ O_EDUTILPMA_O_AMPLITUDE_O    =    1    /    M    ^    ((((    2    ))))    ;
 O_SYCNEUQERF_O_FREQUENCYS_O    =    1    /    O    *    M.^((    ((((    0    ))))    *M^A    :    ((((    13    ))))    *M^A    )/M^A);
 for O_SEULAW_YCNEUQERF_O_FREQUENCY_WALUES_O=1:length(O_SYCNEUQERF_O_FREQUENCYS_O)  fprintf(['%d    :    %.' num2str(2^4) 'f\n'],O_SEULAW_YCNEUQERF_O_FREQUENCY_WALUES_O,O_SYCNEUQERF_O_FREQUENCYS_O(O_SEULAW_YCNEUQERF_O_FREQUENCY_WALUES_O));end
 
-fprintf('%s','≡');
+fprintf('%s','<>');
 O_ETAR_ELPMAS_O_SAMPLE_RATE_O=ceil(    4    /    O    *    M    ^    ((((    13    ))))    );
 fprintf('\n%s\n',sprintf('%.d',O_ETAR_ELPMAS_O_SAMPLE_RATE_O));
-fprintf('%s\n','×'); 
+fprintf('%s\n','*'); 
 O_NOITARUD_O_DURATION_O    =    O    /    M    ^    ((((    4    ))))    ;
 fprintf('%s\n',sprintf('%.16f',O_NOITARUD_O_DURATION_O));
 fprintf('%s\n','=');
@@ -30,10 +30,10 @@ O_EPAHS_EDAF_LAITNENOPXE_O_EXPONENTIAL_FADE_SHAPE_O    =    (0.5-0.5*(-1).^floor
 O_EPAHS_EDAF_O_FADE_SHAPE_O    =    ((((    O_EPAHS_EDAF_ENISOC_O_COSINE_FADE_SHAPE_O    ))))    ;
 for O_XEDNI_ELPMAS_O_SAMPLE_INDEX_O=1:O_YTITNAUQ_ELPMAS_O_SAMPLE_QUANTITY_O O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O(O_XEDNI_ELPMAS_O_SAMPLE_INDEX_O)=O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O(O_XEDNI_ELPMAS_O_SAMPLE_INDEX_O)*O_EDUTILPMA_O_AMPLITUDE_O*O_EPAHS_EDAF_O_FADE_SHAPE_O(O_XEDNI_ELPMAS_O_SAMPLE_INDEX_O);end
 
-fprintf('%s','¤');
+fprintf('%s','|');
 fprintf('\n%s%s%s\n',sprintf('%.16f',max(abs(O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O))),'=',sprintf('%.16f',20*log10(max(abs(O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O)))));
 O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O=(O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O/max(abs(O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O)))*O_EDUTILPMA_O_AMPLITUDE_O;
-fprintf('%s\n','═');
+fprintf('%s\n','-');
 fprintf('%s%s%s\n',sprintf('%.16f',max(abs(O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O))),'=',sprintf('%.16f',20*log10(max(abs(O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O)))));
 
 try sound(O_LANGIS_OIDUA_O_AUDIO_SIGNAL_O,O_ETAR_ELPMAS_O_SAMPLE_RATE_O,24);end
