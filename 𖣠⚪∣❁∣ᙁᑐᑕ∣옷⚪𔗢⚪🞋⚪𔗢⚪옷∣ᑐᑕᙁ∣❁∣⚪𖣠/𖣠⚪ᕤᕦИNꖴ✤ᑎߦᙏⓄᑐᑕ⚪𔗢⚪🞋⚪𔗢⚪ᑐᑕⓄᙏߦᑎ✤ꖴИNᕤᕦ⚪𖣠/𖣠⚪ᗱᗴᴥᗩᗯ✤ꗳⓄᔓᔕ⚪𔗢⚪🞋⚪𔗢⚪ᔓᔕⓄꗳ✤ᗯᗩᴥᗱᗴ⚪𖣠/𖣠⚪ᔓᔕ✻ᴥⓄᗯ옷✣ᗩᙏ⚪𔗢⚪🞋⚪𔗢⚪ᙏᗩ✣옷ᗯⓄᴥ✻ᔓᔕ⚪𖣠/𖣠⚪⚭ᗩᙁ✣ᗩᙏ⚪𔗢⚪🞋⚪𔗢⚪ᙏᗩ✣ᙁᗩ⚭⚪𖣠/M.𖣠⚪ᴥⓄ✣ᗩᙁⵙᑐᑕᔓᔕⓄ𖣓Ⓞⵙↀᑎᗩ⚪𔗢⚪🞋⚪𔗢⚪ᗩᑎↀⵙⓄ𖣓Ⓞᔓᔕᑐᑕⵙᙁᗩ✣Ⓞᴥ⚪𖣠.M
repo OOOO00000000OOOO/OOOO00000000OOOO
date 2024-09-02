@@ -3,12 +3,12 @@ O    =    84.406022589954030768899117092091000289089388918088900852079    ;
 A    =    ((((    0    ))))    ;
 M    =    ((((    3    ))))    ;
 I    =    ((((    0    ))))    ;
-O_EDUTILPMA_O_AMPLITUDE_O    =    1    /    M    ^    ((((    1    ))))    ;
+O_EDUTILPMA_O_AMPLITUDE_O    =    1    /    M    ^    ((((    0    ))))    ;
 O_SYCNEUQERF_O_FREQUENCYS_O    =    1    /    O    *    M.^((    ((((    0    ))))    *M^A    :    ((((    13    ))))    *M^A    )/M^A);
 for O_SEULAW_YCNEUQERF_O_FREQUENCY_WALUES_O=1:length(O_SYCNEUQERF_O_FREQUENCYS_O)  fprintf(['%d    :    %.' num2str(2^4) 'f\n'],O_SEULAW_YCNEUQERF_O_FREQUENCY_WALUES_O,O_SYCNEUQERF_O_FREQUENCYS_O(O_SEULAW_YCNEUQERF_O_FREQUENCY_WALUES_O));end
 
 fprintf('%s','<>');
-O_ETAR_ELPMAS_O_SAMPLE_RATE_O=ceil(    4    /    O    *    M    ^    ((((    13    ))))    );
+O_ETAR_ELPMAS_O_SAMPLE_RATE_O=ceil(    4    *    2    ^    ((((    0    ))))    /    O    *    M    ^    ((((    13    ))))    )    ;
 fprintf('\n%s\n',sprintf('%.d',O_ETAR_ELPMAS_O_SAMPLE_RATE_O));
 fprintf('%s\n','*');
 O_NOITARUD_O_DURATION_O    =    O    /    M    ^    ((((    4    ))))    ;
