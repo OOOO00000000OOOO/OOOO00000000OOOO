@@ -276,7 +276,7 @@
             outline="#b0b0b0ff"
             inner="#ffffffff"
             inner_sel="#f4f4f4ff"
-            item="#f8f8f8ff"
+            item="#eeeeeeff"
             text="#6d6d6d"
             text_sel="#404040"
             show_shaded="FALSE"
@@ -359,7 +359,7 @@
         gp_vertex="#6d6d6d"
         gp_vertex_select="#f0f0f0"
         gp_vertex_size="3"
-        text_grease_pencil="#6d6d6d"
+        text_grease_pencil="#7a9b14"
         object_selected="#f0f0f0"
         object_active="#dfdfdf"
         text_keyframe="#6d6d6d"
@@ -369,7 +369,6 @@
         speaker="#6d6d6d"
         vertex="#d5d5d5"
         vertex_select="#c8c8c8"
-        vertex_active="#000000"
         vertex_size="3"
         vertex_bevel="#6d6d6d"
         vertex_unreferenced="#6d6d6d"
@@ -682,6 +681,8 @@
         keyframe_jitter_selected="#f4f4f4"
         keyframe_movehold="#6d6d6d"
         keyframe_movehold_selected="#f4f4f4"
+        keyframe_generated="#585858"
+        keyframe_generated_selected="#a28962"
         keyframe_border="#6d6d6dff"
         keyframe_border_selected="#f4f4f4ff"
         keyframe_scale_factor="0.8"
@@ -736,7 +737,6 @@
         grid="#878787ff"
         vertex="#000000"
         vertex_select="#f4f4f4"
-        vertex_active="#000000"
         vertex_size="3"
         vertex_bevel="#6d6d6d"
         vertex_unreferenced="#6d6d6d"
@@ -808,23 +808,30 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <asset_shelf>
+          <ThemeAssetShelf
+            header_back="#1d1d1dff"
+            back="#303030ff"
+            >
+          </ThemeAssetShelf>
+        </asset_shelf>
       </ThemeImageEditor>
     </image_editor>
     <sequence_editor>
       <ThemeSequenceEditor
         grid="#6d6d6d"
         window_sliders="#c8c8c8"
-        movie_strip="#dfdfdf"
-        movieclip_strip="#dfdfdf"
-        image_strip="#dfdfdf"
-        scene_strip="#dfdfdf"
-        audio_strip="#dfdfdf"
-        effect_strip="#dfdfdf"
-        transition_strip="#e2e2e2"
-        color_strip="#dfdfdf"
-        meta_strip="#dfdfdf"
-        mask_strip="#b1b1b1"
-        text_strip="#dfdfdf"
+        movie_strip="#6282a3"
+        movieclip_strip="#8f6e56"
+        image_strip="#8c548c"
+        scene_strip="#999999"
+        audio_strip="#568f6d"
+        effect_strip="#7b5f80"
+        transition_strip="#867acc"
+        color_strip="#99995c"
+        meta_strip="#7b995c"
+        mask_strip="#8f5656"
+        text_strip="#9f926f"
         active_strip="#c8c8c8"
         selected_strip="#f4f4f4"
         frame_current="#f4f4f4"
@@ -837,6 +844,8 @@
         keyframe_breakdown_selected="#ededed"
         keyframe_movehold="#808080"
         keyframe_movehold_selected="#f1f1f1"
+        keyframe_generated="#585858"
+        keyframe_generated_selected="#a28962"
         keyframe_border="#000000ff"
         keyframe_border_selected="#000000ff"
         draw_action="#6d6d6d"
@@ -929,7 +938,7 @@
         line_numbers="#d0d0d0"
         line_numbers_background="#ffffff"
         selected_text="#dfdfdf"
-        cursor="#c8c8c8"
+        cursor="#71a8ff"
         syntax_builtin="#6d6d6d"
         syntax_symbols="#6d6d6d"
         syntax_special="#6d6d6d"
@@ -1177,7 +1186,7 @@
         line_input="#6d6d6d"
         line_info="#6d6d6d"
         line_error="#6d6d6d"
-        cursor="#6d6d6d"
+        cursor="#71a8ff"
         select="#bfbfbf60"
         >
         <space>
