@@ -3,6 +3,7 @@
 .urlbarView-row[tip-type="intervention_update_web"]
 {DISPLAY:NONE!IMPORTANT}
 *{TRANSITION:NONE!IMPORTANT;FONT-STYLE:NORMAL!IMPORTANT}
+#permissions-granted-icon,#blocked-permissions-container{Z-INDEX:1!IMPORTANT}
 
 #identity-icon-box,.menu-iconic>.menu-iconic-left,.menuitem-iconic>.menu-iconic-left,#personal-toolbar-empty-description,toolbarbutton.bookmark-item:not(.subviewbutton),
 #appMenu-zoom-controls>.subviewbutton,.toolbarbutton-text
@@ -26,7 +27,7 @@
 /*! --O_YTICAPO_O_OPACITY_O:CALC(256/256)!IMPORTANT; */
 --O_EZIS_NOCI_O_ICON_SIZE_O:16PX!IMPORTANT;
 --O_SUIDAR_REDROB_RESWORB_O_BROWSER_BORDER_RADIUS_O:CALC(100%/3.168125/3.168125/3.168125)!IMPORTANT;
---O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O:11.65625/*11.5625*//*6.9375*/!IMPORTANT;
+--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O:CALC(100/729*86)/*11.65625*//*11.5625*//*6.9375*/!IMPORTANT;
 --panel-separator-margin-vertical:0!IMPORTANT;--arrowpanel-menuitem-border-radius:CALC(VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)/2/1.6)!IMPORTANT;--arrowpanel-header-info-icon-padding:0!IMPORTANT;--toolbarbutton-border-radius:5PX!IMPORTANT;--toolbarbutton-outer-padding:0!IMPORTANT;
 --toolbarbutton-inner-padding:0!IMPORTANT;--toolbar-start-end-padding:0!IMPORTANT;--identity-box-margin-inline:0!IMPORTANT;--tab-border-radius:256PX!IMPORTANT;--inline-tab-padding:0!IMPORTANT;--tab-block-margin:0!IMPORTANT;--tab-min-height:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT;
 --urlbar-container-padding:0!IMPORTANT;--urlbar-margin-inline:0!IMPORTANT;--urlbar-min-height:0!IMPORTANT;--urlbarView-row-gutter:0PX!IMPORTANT;--urlbarView-result-button-size:16PX!IMPORTANT;--button-hover-bgcolor:#F9F9F9!IMPORTANT;--uei-icon-size:16PX!IMPORTANT;
@@ -39,25 +40,41 @@
 MARGIN-TOP:4PX!IMPORTANT;BACKGROUND:
 /*LINEAR-GRADIENT(TO TOP,RGBA(255,255,255,CALC(190/256)),RGBA(255,255,255,CALC(190/256))),*/
 
-URL("ꓨИꟼ..𖣠⚪꞉ⵈ·⊚ⵙ⊚ⵔ𐧾·⊚⠿𐧾ⵔ⁘𖥕⸭꞉·ⵈⵔ◌ⵔ⊚ᗱᗴᙏᗩᴥꗳ🟗ↀⵙᙁᑐᑕᑎᗱᗴ𖥞옷ߦᗩᴥᕤᕦᗱᗴߦᗩ옷ᔓᔕ🝊ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ🝊ᔓᔕ옷ᗩߦᗱᗴᕤᕦᴥᗩߦ옷𖥞ᗱᗴᑎᑐᑕᙁⵙↀ🟗ꗳᴥᗩᙏᗱᗴ⊚ⵔ◌ⵔⵈ·꞉⸭𖥕⁘ⵔ𐧾⠿⊚·𐧾ⵔ⊚ⵙ⊚·ⵈ꞉⚪𖣠..PNG")
+ URL("ꓨИꟼ..𖣠⚪꞉ⵈ·⊚ⵙ⊚ⵔ𐧾·⊚⠿𐧾ⵔ⁘𖥕⸭꞉·ⵈⵔ◌ⵔ⊚ᗱᗴᙏᗩᴥꗳ🟗ↀⵙᙁᑐᑕᑎᗱᗴ𖥞옷ߦᗩᴥᕤᕦᗱᗴߦᗩ옷ᔓᔕ🝊ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ🝊ᔓᔕ옷ᗩߦᗱᗴᕤᕦᴥᗩߦ옷𖥞ᗱᗴᑎᑐᑕᙁⵙↀ🟗ꗳᴥᗩᙏᗱᗴ⊚ⵔ◌ⵔⵈ·꞉⸭𖥕⁘ⵔ𐧾⠿⊚·𐧾ⵔ⊚ⵙ⊚·ⵈ꞉⚪𖣠..PNG")
+,URL("1ꓨИꟼ..𖣠⚪⸭⸭꞉⊚꞉ⵈ꞉⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚꞉ⵈ꞉⊚꞉⸭⸭⚪𖣠..PNG")
+,URL("1ꓨИꟼ..𖣠⚪⸭⸭꞉⊚꞉ⵈ꞉⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚꞉ⵈ꞉⊚꞉⸭⸭⚪𖣠..PNG")
+,URL("1ꓨИꟼ..𖣠⚪⸭⸭꞉⊚꞉ⵈ꞉⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚꞉ⵈ꞉⊚꞉⸭⸭⚪𖣠..PNG")
+,URL("1ꓨИꟼ..𖣠⚪⸭⸭꞉⊚꞉ⵈ꞉⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚꞉ⵈ꞉⊚꞉⸭⸭⚪𖣠..PNG")
 /*,URL("ꓨИꟼ.𖣠⚪⠿⸭꞉⊚ⵈ⁘꞉⊚✤ⵙ⚭𖣓⠿·⊚⠿𐧾ⵔ⁘⊚ⵔ⁘·⁘·𖥕✤ИNᗱᗴⵙↀᗩᴥᕤᕦ𖤞ᗱᗴᙁᑐᑕᴥⵙᑎ¤ᔓᔕ▢ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ▢ᔓᔕ¤ᑎⵙᴥᑐᑕᙁᗱᗴ𖤞ᕤᕦᴥᗩↀⵙᗱᗴИN✤𖥕·⁘·⁘ⵔ⊚⁘ⵔ𐧾⠿⊚·⠿𖣓⚭ⵙ✤⊚꞉⁘ⵈ⊚꞉⸭⠿⚪𖣠.PNG")*/
 !IMPORTANT;
-BACKGROUND-REPEAT:NO-REPEAT,NO-REPEAT!IMPORTANT;
-BACKGROUND-SIZE:100% 96.53125%,CALC(100%/1.1625) CALC(96.53125%/1.1625)!IMPORTANT;
 BACKGROUND-POSITION:
-CALC(50%) CALC(0%),CALC(50%) CALC(39.5625%)!IMPORTANT;
+CALC(50%) CALC(0%)
+,CALC(50%) CALC(48.265625%/18)
+,CALC(50%) CALC(48.265625%*1.9375)
+,CALC(5%) CALC(48%)
+,CALC(95%) CALC(48%)
+!IMPORTANT;
+BACKGROUND-SIZE:
+CALC(100%) CALC(96.53125%)
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO 
+/*,CALC(100%/1.1625) CALC(96.53125%/1.1625)*/
+!IMPORTANT;
+BACKGROUND-REPEAT:NO-REPEAT,NO-REPEAT,NO-REPEAT,NO-REPEAT,NO-REPEAT!IMPORTANT;
 OPACITY:CALC(VAR(--O_YTICAPO_O_OPACITY_O)*1);
 ANIMATION:O CALC(84.406022589954030768899117092091000289089388918088900852079s/3/3/3/3) INFINITE;ANIMATION-TIMING-FUNCTION:STEPS(1)!IMPORTANT;
-Z-INDEX:0!IMPORTANT;
 /*MIX-BLEND-MODE:DARKEN!IMPORTANT;*/
-/*FILTER:DROP-SHADOW(0 0 .5PX HSLA(0,0%,0%,1.1));*/
+/*FILTER:DROP-SHADOW(0 0 1PX HSLA(0,0%,0%,1.1));*/
 /*BACKGROUND-BLEND-MODE:DARKEN!IMPORTANT;*/
+Z-INDEX:0!IMPORTANT
 }
 
 .browserContainer
 {
---O_ROLOC_O_COLOR_O:#F9F9F9!IMPORTANT;
---O_SUIDAR_RULB_O_BLUR_RADIUS_O:CALC(MAX(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VH,VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VW)/3.168125/3.168125/2)!IMPORTANT;
+--O_ROLOC_O_COLOR_O:#FBFBFB!IMPORTANT;
+--O_SUIDAR_RULB_O_BLUR_RADIUS_O:CALC(MAX(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VH,VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VW)/3/3/3)!IMPORTANT;
 --O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:0!IMPORTANT;
 BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
 MARGIN:CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VH) CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VW) CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VH) CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VW)!IMPORTANT;
@@ -81,6 +98,8 @@ OVERFLOW:HIDDEN!IMPORTANT;
 .urlbarView-row[selected]{BACKGROUND-COLOR:RGB(244,244,244)!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
 .urlbarView-row:hover{BACKGROUND-COLOR:RGB(247,247,247)!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
 .urlbarView-action{BACKGROUND-COLOR:RGB(247,247,247)!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
+.urlbarView-row::before{DISPLAY:NONE!IMPORTANT}
+.urlbarView-row{MARGIN:0!IMPORTANT}
 
 .urlbarView{outline:1PX SOLID #E6E6E6!IMPORTANT;BORDER-RADIUS:5PX!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT;TOP:1PX!IMPORTANT;PADDING:1PX!IMPORTANT;}
 
@@ -111,7 +130,7 @@ ANIMATION:OO CALC(84.406022589954030768899117092091000289089388918088900852079s/
 .tab-background
 {
 BACKGROUND:
-URL("ꓨИꟼ.𖣠⚪⠿⸭꞉⊚ⵈ⁘꞉⊚✤ⵙ⚭𖣓⠿·⊚⠿𐧾ⵔ⁘⊚ⵔ⁘·⁘·𖥕✤ИNᗱᗴⵙↀᗩᴥᕤᕦ𖤞ᗱᗴᙁᑐᑕᴥⵙᑎ¤ᔓᔕ▢ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ▢ᔓᔕ¤ᑎⵙᴥᑐᑕᙁᗱᗴ𖤞ᕤᕦᴥᗩↀⵙᗱᗴИN✤𖥕·⁘·⁘ⵔ⊚⁘ⵔ𐧾⠿⊚·⠿𖣓⚭ⵙ✤⊚꞉⁘ⵈ⊚꞉⸭⠿⚪𖣠.PNG")
+URL(".ꓨИꟼ.𖣠⚪⠿⸭꞉⊚ⵈ⁘꞉⊚✤ⵙ⚭𖣓⠿·⊚⠿𐧾ⵔ⁘⊚ⵔ⁘·⁘·𖥕✤ИNᗱᗴⵙↀᗩᴥᕤᕦ𖤞ᗱᗴᙁᑐᑕᴥⵙᑎ¤ᔓᔕ▢ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ▢ᔓᔕ¤ᑎⵙᴥᑐᑕᙁᗱᗴ𖤞ᕤᕦᴥᗩↀⵙᗱᗴИN✤𖥕·⁘·⁘ⵔ⊚⁘ⵔ𐧾⠿⊚·⠿𖣓⚭ⵙ✤⊚꞉⁘ⵈ⊚꞉⸭⠿⚪𖣠.PNG.")
 CENTER/COVER!IMPORTANT;Z-INDEX:1;OUTLINE:NONE!IMPORTANT;BORDER-RADIUS:0PX!IMPORTANT;
 BACKGROUND-SIZE:100% 100%!IMPORTANT;
 OPACITY:1;
@@ -193,7 +212,7 @@ toolbarbutton{!IMPORTANT;FILL:HSL(150,0%,CALC(100%/256*194))!IMPORTANT}toolbar,#
 #PlacesToolbarItems{WIDTH:61.125PX!IMPORTANT}
 #protections-popup-footer-protection-type-label{MARGIN-LEFT:4PX!IMPORTANT}#protections-popup-show-report-button{MARGIN-RIGHT:71PX!IMPORTANT}
 .protections-popup-switch-section-header{MIN-HEIGHT:0!IMPORTANT}
-
+#editBMPanel_folderTreeRow{MIN-WIDTH:-MOZ-AVAILABLE!IMPORTANT}
 @keyframes OO
 {
 0% {OPACITY:CALC(0)}
