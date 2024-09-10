@@ -1,0 +1,120 @@
+{
+  "What is this?": "This is save file with preset values for fusion-ai-image-generator, where you can generate images with Stable Diffusion 1.5, unlimited , uncensored and Images for free. Load this save file at https://perchance.org/fusion-ai-image-generator",
+  "format": "fusion-ai-image-generator-v2",
+  "prefix": "",
+  "suffix": "",
+  "main": "𖣠⚪ ƧI⅃OꟼOИƎMUϽƎ YЯTƎMYƧ ᗡ⅃OꟻЯUOꟻ ИAIꟼOTU ϽITƧIЯUTUꟻ ƎTIHW ⚪𔗢⚪🞋⚪𔗢⚪ WHITE FUTURISTIC UTOPIAN FOURFOLD SYMETRY ECUMENOPOLIS ⚪𖣠",
+  "base": "",
+  "promptA": "",
+  "promptB": "",
+  "promptC": "",
+  "negative": "",
+  "_userSymbolText": "",
+  "saveName": "",
+  "_seed": "",
+  "numImages": "n1",
+  "_shape": "512x512",
+  "_main": "Prompt input only ✏️",
+  "_promptA": "Prompt input ✏️",
+  "_promptB": "OFF",
+  "_promptC": "OFF",
+  "_negative": "OFF",
+  "numTokensNegative": "default",
+  "numTokensMain": "default",
+  "numTokensPrompt": "default",
+  "numTokensBase": "default",
+  "shiftPercentage": "0%",
+  "_comma": "default",
+  "shiftPercentageNegative": "r1t4",
+  "Mode": "default",
+  "artStyleNegative": "_negative",
+  "artStylePreposition": "_whitespace",
+  "artStyleBase": "_NONE",
+  "artStyleArt": "_randomStyle",
+  "artStyleMain": "_none",
+  "artStylePrompt": "_tokensa",
+  "prefix_visibility": "hidden",
+  "suffix_visibility": "hidden",
+  "main_visibility": "visible",
+  "base_visibility": "hidden",
+  "promptA_visibility": "hidden",
+  "promptB_visibility": "hidden",
+  "promptC_visibility": "hidden",
+  "negative_visibility": "visible",
+  "_userSymbolText_visibility": "hidden",
+  "saveName_visibility": "hidden",
+  "_seed_visibility": "hidden",
+  "numImages_visibility": "hidden",
+  "_shape_visibility": "hidden",
+  "_main_visibility": "visible",
+  "_base_visibility": "hidden",
+  "_promptA_visibility": "hidden",
+  "_promptB_visibility": "hidden",
+  "_promptC_visibility": "hidden",
+  "_negative_visibility": "visible",
+  "numTokensNegative_visibility": "visible",
+  "numTokensMain_visibility": "visible",
+  "numTokensPrompt_visibility": "hidden",
+  "numTokensBase_visibility": "hidden",
+  "shiftPercentage_visibility": "visible",
+  "_comma_visibility": "hidden",
+  "shiftPercentageNegative_visibility": "visible",
+  "Mode_visibility": "hidden",
+  "artStyleNegative_visibility": "visible",
+  "artStylePreposition_visibility": "hidden",
+  "artStyleBase_visibility": "hidden",
+  "artStyleArt_visibility": "hidden",
+  "artStyleMain_visibility": "visible",
+  "artStylePrompt_visibility": "hidden",
+  "prefix_evaluated": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "suffix_evaluated": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "base_evaluated": [
+    [
+      " ",
+      " "
+    ]
+  ],
+  "main_evaluated": [
+    [
+      "𖣠⚪ ƧI⅃OꟼOИƎMUϽƎ YЯTƎMYƧ ᗡ⅃OꟻЯUOꟻ ИAIꟼOTU ϽITƧIЯUTUꟻ ƎTIHW ⚪𔗢⚪🞋⚪𔗢⚪ WHITE FUTURISTIC UTOPIAN FOURFOLD SYMETRY ECUMENOPOLIS ⚪𖣠",
+      "𖣠⚪ ƧI⅃OꟼOИƎMUϽƎ YЯTƎMYƧ ᗡ⅃OꟻЯUOꟻ ИAIꟼOTU ϽITƧIЯUTUꟻ ƎTIHW ⚪𔗢⚪🞋⚪𔗢⚪ WHITE FUTURISTIC UTOPIAN FOURFOLD SYMETRY ECUMENOPOLIS ⚪𖣠"
+    ]
+  ],
+  "negative_evaluated": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "promptA_evaluated": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "promptB_evaluated": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "promptC_evaluated": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "seed_evaluated": [
+    0
+  ]
+}
