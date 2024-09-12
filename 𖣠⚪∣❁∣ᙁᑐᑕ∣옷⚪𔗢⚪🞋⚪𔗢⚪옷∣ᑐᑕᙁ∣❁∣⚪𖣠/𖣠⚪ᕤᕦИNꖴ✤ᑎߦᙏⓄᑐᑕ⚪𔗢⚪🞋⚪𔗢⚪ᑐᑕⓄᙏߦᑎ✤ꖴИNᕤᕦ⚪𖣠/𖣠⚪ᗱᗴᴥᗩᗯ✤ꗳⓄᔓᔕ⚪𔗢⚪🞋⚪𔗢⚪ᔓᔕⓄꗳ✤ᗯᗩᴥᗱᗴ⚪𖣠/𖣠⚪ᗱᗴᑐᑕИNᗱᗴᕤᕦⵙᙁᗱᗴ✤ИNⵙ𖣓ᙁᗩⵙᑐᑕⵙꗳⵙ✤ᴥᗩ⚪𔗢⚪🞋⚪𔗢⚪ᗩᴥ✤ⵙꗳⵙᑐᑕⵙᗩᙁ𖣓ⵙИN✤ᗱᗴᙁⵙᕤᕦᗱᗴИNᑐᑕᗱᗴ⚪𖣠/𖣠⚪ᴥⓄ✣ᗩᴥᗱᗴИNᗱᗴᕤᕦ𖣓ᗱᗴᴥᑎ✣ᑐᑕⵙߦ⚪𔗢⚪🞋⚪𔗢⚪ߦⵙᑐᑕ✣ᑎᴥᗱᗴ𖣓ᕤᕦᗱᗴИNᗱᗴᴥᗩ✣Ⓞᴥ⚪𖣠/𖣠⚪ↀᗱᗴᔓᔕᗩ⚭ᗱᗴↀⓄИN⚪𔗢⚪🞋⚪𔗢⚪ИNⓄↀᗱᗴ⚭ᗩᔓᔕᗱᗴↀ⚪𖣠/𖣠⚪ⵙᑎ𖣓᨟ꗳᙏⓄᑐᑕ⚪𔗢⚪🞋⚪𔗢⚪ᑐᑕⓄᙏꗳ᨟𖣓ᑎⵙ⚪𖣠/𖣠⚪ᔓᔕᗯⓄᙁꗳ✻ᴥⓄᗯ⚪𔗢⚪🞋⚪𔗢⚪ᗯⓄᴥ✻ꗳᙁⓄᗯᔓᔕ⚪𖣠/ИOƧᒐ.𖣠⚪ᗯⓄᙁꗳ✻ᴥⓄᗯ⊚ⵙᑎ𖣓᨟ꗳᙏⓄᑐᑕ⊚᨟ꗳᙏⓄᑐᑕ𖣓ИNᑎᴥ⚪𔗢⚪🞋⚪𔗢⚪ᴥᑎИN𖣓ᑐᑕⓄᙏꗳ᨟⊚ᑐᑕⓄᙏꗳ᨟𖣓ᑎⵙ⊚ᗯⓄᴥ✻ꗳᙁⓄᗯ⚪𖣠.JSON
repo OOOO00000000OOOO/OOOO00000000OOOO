@@ -1,6 +1,6 @@
 {
-  "last_node_id": 159,
-  "last_link_id": 186,
+  "last_node_id": 163,
+  "last_link_id": 192,
   "nodes": [
     {
       "id": 4,
@@ -22,7 +22,8 @@
           "name": "MODEL",
           "type": "MODEL",
           "links": [
-            35
+            35,
+            189
           ],
           "slot_index": 0,
           "shape": 3
@@ -55,62 +56,6 @@
       },
       "widgets_values": [
         "RealVisXL_V4.0_Lightning.safetensors"
-      ]
-    },
-    {
-      "id": 74,
-      "type": "PerpNegGuider",
-      "pos": [
-        560,
-        96
-      ],
-      "size": {
-        "0": 304,
-        "1": 144
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 35
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 131
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 132
-        },
-        {
-          "name": "empty_conditioning",
-          "type": "CONDITIONING",
-          "link": 133
-        }
-      ],
-      "outputs": [
-        {
-          "name": "GUIDER",
-          "type": "GUIDER",
-          "links": [
-            114
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "title": " ",
-      "properties": {
-        "Node name for S&R": "PerpNegGuider"
-      },
-      "widgets_values": [
-        8,
-        0
       ]
     },
     {
@@ -399,46 +344,6 @@
       ]
     },
     {
-      "id": 159,
-      "type": "SDTurboScheduler",
-      "pos": [
-        560,
-        576
-      ],
-      "size": [
-        304,
-        80
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "SIGMAS",
-          "type": "SIGMAS",
-          "links": [
-            186
-          ],
-          "shape": 3
-        }
-      ],
-      "title": " ",
-      "properties": {
-        "Node name for S&R": "SDTurboScheduler"
-      },
-      "widgets_values": [
-        1,
-        1
-      ]
-    },
-    {
       "id": 5,
       "type": "EmptyLatentImage",
       "pos": [
@@ -450,7 +355,7 @@
         "1": 112
       },
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -486,7 +391,7 @@
         80
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -519,7 +424,7 @@
         "1": 48
       },
       "flags": {},
-      "order": 13,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -560,7 +465,7 @@
         "1": 112
       },
       "flags": {},
-      "order": 12,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -628,7 +533,7 @@
         "1": 48
       },
       "flags": {},
-      "order": 14,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -670,7 +575,7 @@
         "1": 288
       },
       "flags": {},
-      "order": 16,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -697,7 +602,7 @@
         "1": 288
       },
       "flags": {},
-      "order": 15,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -711,6 +616,197 @@
       "properties": {
         "Node name for S&R": "PreviewImage"
       }
+    },
+    {
+      "id": 159,
+      "type": "SDTurboScheduler",
+      "pos": [
+        560,
+        576
+      ],
+      "size": [
+        304,
+        80
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 189,
+          "slot_index": 0
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "link": 190,
+          "widget": {
+            "name": "steps"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            186
+          ],
+          "shape": 3
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "SDTurboScheduler"
+      },
+      "widgets_values": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 74,
+      "type": "PerpNegGuider",
+      "pos": [
+        560,
+        96
+      ],
+      "size": [
+        304,
+        144
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 35
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 131
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 132
+        },
+        {
+          "name": "empty_conditioning",
+          "type": "CONDITIONING",
+          "link": 133
+        },
+        {
+          "name": "cfg",
+          "type": "FLOAT",
+          "link": 191,
+          "widget": {
+            "name": "cfg"
+          },
+          "slot_index": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            114
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "PerpNegGuider"
+      },
+      "widgets_values": [
+        8,
+        0
+      ]
+    },
+    {
+      "id": 161,
+      "type": "Int to float",
+      "pos": [
+        208,
+        496
+      ],
+      "size": [
+        208,
+        32
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 188,
+          "widget": {
+            "name": "Value"
+          },
+          "label": " "
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            191
+          ],
+          "shape": 3
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Int to float"
+      },
+      "widgets_values": [
+        1
+      ]
+    },
+    {
+      "id": 162,
+      "type": "Integer",
+      "pos": [
+        208,
+        560
+      ],
+      "size": [
+        208,
+        64
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            188,
+            190
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "Integer"
+      },
+      "widgets_values": [
+        8
+      ]
     }
   ],
   "links": [
@@ -881,16 +977,48 @@
       72,
       3,
       "SIGMAS"
+    ],
+    [
+      188,
+      162,
+      0,
+      161,
+      0,
+      "INT"
+    ],
+    [
+      189,
+      4,
+      0,
+      159,
+      0,
+      "MODEL"
+    ],
+    [
+      190,
+      162,
+      0,
+      159,
+      1,
+      "INT"
+    ],
+    [
+      191,
+      161,
+      0,
+      74,
+      4,
+      "FLOAT"
     ]
   ],
   "groups": [],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7227509090909108,
+      "scale": 0.7950260000000023,
       "offset": [
-        -27.0568242112671,
-        218.11164239585366
+        140.6152988705367,
+        106.65041935143569
       ]
     }
   },

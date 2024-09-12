@@ -77,7 +77,10 @@
   },
   "74": {
     "inputs": {
-      "cfg": 8,
+      "cfg": [
+        "162",
+        0
+      ],
       "neg_scale": 0,
       "model": [
         "4",
@@ -104,7 +107,7 @@
   "91": {
     "inputs": {
       "text": [
-        "92",
+        "156",
         0
       ],
       "clip": [
@@ -113,15 +116,6 @@
       ]
     },
     "class_type": "Text to Conditioning",
-    "_meta": {
-      "title": " "
-    }
-  },
-  "92": {
-    "inputs": {
-      "Text": "⚪"
-    },
-    "class_type": "DF_DynamicPrompts_Text_Box",
     "_meta": {
       "title": " "
     }
@@ -129,7 +123,7 @@
   "95": {
     "inputs": {
       "text": [
-        "96",
+        "155",
         0
       ],
       "clip": [
@@ -138,15 +132,6 @@
       ]
     },
     "class_type": "Text to Conditioning",
-    "_meta": {
-      "title": " "
-    }
-  },
-  "96": {
-    "inputs": {
-      "Text": ""
-    },
-    "class_type": "DF_DynamicPrompts_Text_Box",
     "_meta": {
       "title": " "
     }
@@ -154,7 +139,7 @@
   "122": {
     "inputs": {
       "text": [
-        "123",
+        "154",
         0
       ],
       "clip": [
@@ -163,15 +148,6 @@
       ]
     },
     "class_type": "Text to Conditioning",
-    "_meta": {
-      "title": " "
-    }
-  },
-  "123": {
-    "inputs": {
-      "Text": ""
-    },
-    "class_type": "DF_DynamicPrompts_Text_Box",
     "_meta": {
       "title": " "
     }
@@ -183,7 +159,7 @@
       "batch_seed_mode": "comfy",
       "variation_seed": 0,
       "variation_strength": 0,
-      "variation_method": "slerp"
+      "variation_method": "linear"
     },
     "class_type": "RandomNoise //Inspire",
     "_meta": {
@@ -211,7 +187,10 @@
   "142": {
     "inputs": {
       "coeff": 1,
-      "steps": 8,
+      "steps": [
+        "161",
+        0
+      ],
       "denoise": 1
     },
     "class_type": "GITSScheduler",
@@ -245,6 +224,54 @@
     "class_type": "PreviewImage",
     "_meta": {
       "title": "  "
+    }
+  },
+  "154": {
+    "inputs": {
+      "Text": ""
+    },
+    "class_type": "DF_Text_Box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "155": {
+    "inputs": {
+      "Text": ""
+    },
+    "class_type": "DF_Text_Box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "156": {
+    "inputs": {
+      "Text": "⚪"
+    },
+    "class_type": "DF_Text_Box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "161": {
+    "inputs": {
+      "Value": 8
+    },
+    "class_type": "DF_Integer",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "162": {
+    "inputs": {
+      "a": [
+        "161",
+        0
+      ]
+    },
+    "class_type": "CM_IntToFloat",
+    "_meta": {
+      "title": " "
     }
   }
 }

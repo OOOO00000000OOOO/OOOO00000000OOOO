@@ -77,7 +77,10 @@
   },
   "74": {
     "inputs": {
-      "cfg": 8,
+      "cfg": [
+        "161",
+        0
+      ],
       "neg_scale": 0,
       "model": [
         "4",
@@ -233,10 +236,38 @@
   },
   "159": {
     "inputs": {
-      "steps": 1,
-      "denoise": 1
+      "steps": [
+        "162",
+        0
+      ],
+      "denoise": 1,
+      "model": [
+        "4",
+        0
+      ]
     },
     "class_type": "SDTurboScheduler",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "161": {
+    "inputs": {
+      "Value": [
+        "162",
+        0
+      ]
+    },
+    "class_type": "Int to float",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "162": {
+    "inputs": {
+      "Value": 8
+    },
+    "class_type": "Integer",
     "_meta": {
       "title": " "
     }

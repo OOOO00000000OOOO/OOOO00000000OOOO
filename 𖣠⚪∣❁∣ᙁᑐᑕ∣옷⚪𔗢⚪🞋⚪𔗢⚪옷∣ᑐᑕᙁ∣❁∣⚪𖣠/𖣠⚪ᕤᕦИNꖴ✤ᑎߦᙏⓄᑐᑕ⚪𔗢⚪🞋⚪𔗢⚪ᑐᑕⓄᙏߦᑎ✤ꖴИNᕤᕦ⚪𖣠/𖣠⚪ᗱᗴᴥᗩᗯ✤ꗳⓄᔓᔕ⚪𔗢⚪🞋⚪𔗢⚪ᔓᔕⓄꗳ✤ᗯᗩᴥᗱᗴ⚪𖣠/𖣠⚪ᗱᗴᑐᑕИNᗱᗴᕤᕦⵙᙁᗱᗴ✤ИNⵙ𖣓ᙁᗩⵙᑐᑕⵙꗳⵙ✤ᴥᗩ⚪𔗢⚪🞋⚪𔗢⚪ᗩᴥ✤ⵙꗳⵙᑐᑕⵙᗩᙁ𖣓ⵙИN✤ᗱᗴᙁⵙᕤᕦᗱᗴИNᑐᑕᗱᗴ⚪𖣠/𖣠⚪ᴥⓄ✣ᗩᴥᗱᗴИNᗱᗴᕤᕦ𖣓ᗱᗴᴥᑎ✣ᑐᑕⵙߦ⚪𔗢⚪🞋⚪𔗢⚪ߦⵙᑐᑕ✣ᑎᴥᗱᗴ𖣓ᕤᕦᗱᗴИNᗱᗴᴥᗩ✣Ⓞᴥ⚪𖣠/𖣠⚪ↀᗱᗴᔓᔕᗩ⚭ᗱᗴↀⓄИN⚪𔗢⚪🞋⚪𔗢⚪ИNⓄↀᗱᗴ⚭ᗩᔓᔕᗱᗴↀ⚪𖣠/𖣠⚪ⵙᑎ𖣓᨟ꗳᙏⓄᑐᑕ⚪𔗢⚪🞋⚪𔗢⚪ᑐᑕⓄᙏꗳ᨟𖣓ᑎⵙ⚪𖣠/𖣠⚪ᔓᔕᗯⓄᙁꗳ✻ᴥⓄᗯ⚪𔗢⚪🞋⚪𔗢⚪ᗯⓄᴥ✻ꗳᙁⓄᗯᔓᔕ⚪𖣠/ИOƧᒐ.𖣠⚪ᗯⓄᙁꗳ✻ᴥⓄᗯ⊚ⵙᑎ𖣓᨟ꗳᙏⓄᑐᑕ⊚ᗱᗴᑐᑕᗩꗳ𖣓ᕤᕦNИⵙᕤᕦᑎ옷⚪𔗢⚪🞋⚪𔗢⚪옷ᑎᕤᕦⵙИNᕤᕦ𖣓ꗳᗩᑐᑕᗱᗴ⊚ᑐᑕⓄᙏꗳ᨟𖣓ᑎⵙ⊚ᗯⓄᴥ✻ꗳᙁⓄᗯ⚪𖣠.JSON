@@ -1,20 +1,20 @@
 {
-  "last_node_id": 153,
-  "last_link_id": 180,
+  "last_node_id": 162,
+  "last_link_id": 188,
   "nodes": [
     {
       "id": 4,
       "type": "CheckpointLoaderSimple",
       "pos": {
         "0": 80,
-        "1": 368
+        "1": 384
       },
       "size": {
         "0": 448,
         "1": 98
       },
       "flags": {},
-      "order": 7,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -105,7 +105,7 @@
         "1": 48
       },
       "flags": {},
-      "order": 13,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -146,7 +146,7 @@
         "1": 288
       },
       "flags": {},
-      "order": 15,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -173,7 +173,7 @@
         "1": 112
       },
       "flags": {},
-      "order": 12,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -234,12 +234,12 @@
         "0": 560,
         "1": 112
       },
-      "size": {
-        "0": 304,
-        "1": 144
-      },
+      "size": [
+        304,
+        144
+      ],
       "flags": {},
-      "order": 11,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -261,6 +261,14 @@
           "name": "empty_conditioning",
           "type": "CONDITIONING",
           "link": 133
+        },
+        {
+          "name": "cfg",
+          "type": "FLOAT",
+          "link": 188,
+          "widget": {
+            "name": "cfg"
+          }
         }
       ],
       "outputs": [
@@ -306,7 +314,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 76,
+          "link": 183,
           "widget": {
             "name": "text"
           }
@@ -332,40 +340,6 @@
       ]
     },
     {
-      "id": 92,
-      "type": "DF_DynamicPrompts_Text_Box",
-      "pos": {
-        "0": 80,
-        "1": 32
-      },
-      "size": {
-        "0": 210,
-        "1": 76
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            76
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "title": " ",
-      "properties": {
-        "Node name for S&R": "DF_DynamicPrompts_Text_Box"
-      },
-      "widgets_values": [
-        "⚪"
-      ]
-    },
-    {
       "id": 95,
       "type": "Text to Conditioning",
       "pos": {
@@ -388,7 +362,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 81,
+          "link": 182,
           "widget": {
             "name": "text"
           }
@@ -408,42 +382,6 @@
       "title": " ",
       "properties": {
         "Node name for S&R": "Text to Conditioning"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 96,
-      "type": "DF_DynamicPrompts_Text_Box",
-      "pos": {
-        "0": 80,
-        "1": 144
-      },
-      "size": {
-        "0": 210,
-        "1": 76
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            81
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "title": " ",
-      "properties": {
-        "Node name for S&R": "DF_DynamicPrompts_Text_Box"
       },
       "widgets_values": [
         ""
@@ -472,7 +410,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 134,
+          "link": 181,
           "widget": {
             "name": "text"
           }
@@ -498,40 +436,6 @@
       ]
     },
     {
-      "id": 123,
-      "type": "DF_DynamicPrompts_Text_Box",
-      "pos": {
-        "0": 80,
-        "1": 256
-      },
-      "size": {
-        "0": 210,
-        "1": 76
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            134
-          ],
-          "slot_index": 0,
-          "shape": 3
-        }
-      ],
-      "title": " ",
-      "properties": {
-        "Node name for S&R": "DF_DynamicPrompts_Text_Box"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
       "id": 131,
       "type": "RandomNoise //Inspire",
       "pos": {
@@ -543,7 +447,7 @@
         "1": 208
       },
       "flags": {},
-      "order": 1,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -567,7 +471,7 @@
         "comfy",
         0,
         0,
-        "slerp"
+        "linear"
       ]
     },
     {
@@ -582,7 +486,7 @@
         "1": 274
       },
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -619,14 +523,23 @@
         "0": 560,
         "1": 592
       },
-      "size": {
-        "0": 304,
-        "1": 112
-      },
+      "size": [
+        304,
+        112
+      ],
       "flags": {},
-      "order": 3,
+      "order": 11,
       "mode": 0,
-      "inputs": [],
+      "inputs": [
+        {
+          "name": "steps",
+          "type": "INT",
+          "link": 186,
+          "widget": {
+            "name": "steps"
+          }
+        }
+      ],
       "outputs": [
         {
           "name": "SIGMAS",
@@ -660,7 +573,7 @@
         "1": 48
       },
       "flags": {},
-      "order": 14,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -702,7 +615,7 @@
         "1": 288
       },
       "flags": {},
-      "order": 16,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -716,6 +629,187 @@
       "properties": {
         "Node name for S&R": "PreviewImage"
       }
+    },
+    {
+      "id": 154,
+      "type": "DF_Text_Box",
+      "pos": {
+        "0": 80,
+        "1": 272
+      },
+      "size": [
+        210,
+        76
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            181
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "DF_Text_Box"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 155,
+      "type": "DF_Text_Box",
+      "pos": {
+        "0": 80,
+        "1": 160
+      },
+      "size": [
+        210,
+        75.99998474121094
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            182
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "DF_Text_Box"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 156,
+      "type": "DF_Text_Box",
+      "pos": {
+        "0": 80,
+        "1": 48
+      },
+      "size": [
+        210,
+        76
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            183
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "DF_Text_Box"
+      },
+      "widgets_values": [
+        "⚪"
+      ]
+    },
+    {
+      "id": 161,
+      "type": "DF_Integer",
+      "pos": {
+        "0": 192,
+        "1": 528
+      },
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            186,
+            187
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "DF_Integer"
+      },
+      "widgets_values": [
+        8
+      ]
+    },
+    {
+      "id": 162,
+      "type": "CM_IntToFloat",
+      "pos": {
+        "0": 192,
+        "1": 624
+      },
+      "size": [
+        210,
+        34
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "a",
+          "type": "INT",
+          "link": 187,
+          "widget": {
+            "name": "a"
+          },
+          "label": " "
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            188
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": " ",
+      "properties": {
+        "Node name for S&R": "CM_IntToFloat"
+      },
+      "widgets_values": [
+        0
+      ]
     }
   ],
   "links": [
@@ -750,22 +844,6 @@
       72,
       4,
       "LATENT"
-    ],
-    [
-      76,
-      92,
-      0,
-      91,
-      1,
-      "STRING"
-    ],
-    [
-      81,
-      96,
-      0,
-      95,
-      1,
-      "STRING"
     ],
     [
       98,
@@ -814,14 +892,6 @@
       74,
       3,
       "CONDITIONING"
-    ],
-    [
-      134,
-      123,
-      0,
-      122,
-      1,
-      "STRING"
     ],
     [
       135,
@@ -886,16 +956,64 @@
       153,
       0,
       "IMAGE"
+    ],
+    [
+      181,
+      154,
+      0,
+      122,
+      1,
+      "STRING"
+    ],
+    [
+      182,
+      155,
+      0,
+      95,
+      1,
+      "STRING"
+    ],
+    [
+      183,
+      156,
+      0,
+      91,
+      1,
+      "STRING"
+    ],
+    [
+      186,
+      161,
+      0,
+      142,
+      0,
+      "INT"
+    ],
+    [
+      187,
+      161,
+      0,
+      162,
+      0,
+      "INT"
+    ],
+    [
+      188,
+      162,
+      0,
+      74,
+      4,
+      "FLOAT"
     ]
   ],
   "groups": [],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.6570462809917361,
+      "scale": 0.7780462809917372,
       "offset": [
-        -51.06661144390915,
-        124.89011288826038
+        278.3426771304982,
+        150.27732146315077
       ]
     }
   },
