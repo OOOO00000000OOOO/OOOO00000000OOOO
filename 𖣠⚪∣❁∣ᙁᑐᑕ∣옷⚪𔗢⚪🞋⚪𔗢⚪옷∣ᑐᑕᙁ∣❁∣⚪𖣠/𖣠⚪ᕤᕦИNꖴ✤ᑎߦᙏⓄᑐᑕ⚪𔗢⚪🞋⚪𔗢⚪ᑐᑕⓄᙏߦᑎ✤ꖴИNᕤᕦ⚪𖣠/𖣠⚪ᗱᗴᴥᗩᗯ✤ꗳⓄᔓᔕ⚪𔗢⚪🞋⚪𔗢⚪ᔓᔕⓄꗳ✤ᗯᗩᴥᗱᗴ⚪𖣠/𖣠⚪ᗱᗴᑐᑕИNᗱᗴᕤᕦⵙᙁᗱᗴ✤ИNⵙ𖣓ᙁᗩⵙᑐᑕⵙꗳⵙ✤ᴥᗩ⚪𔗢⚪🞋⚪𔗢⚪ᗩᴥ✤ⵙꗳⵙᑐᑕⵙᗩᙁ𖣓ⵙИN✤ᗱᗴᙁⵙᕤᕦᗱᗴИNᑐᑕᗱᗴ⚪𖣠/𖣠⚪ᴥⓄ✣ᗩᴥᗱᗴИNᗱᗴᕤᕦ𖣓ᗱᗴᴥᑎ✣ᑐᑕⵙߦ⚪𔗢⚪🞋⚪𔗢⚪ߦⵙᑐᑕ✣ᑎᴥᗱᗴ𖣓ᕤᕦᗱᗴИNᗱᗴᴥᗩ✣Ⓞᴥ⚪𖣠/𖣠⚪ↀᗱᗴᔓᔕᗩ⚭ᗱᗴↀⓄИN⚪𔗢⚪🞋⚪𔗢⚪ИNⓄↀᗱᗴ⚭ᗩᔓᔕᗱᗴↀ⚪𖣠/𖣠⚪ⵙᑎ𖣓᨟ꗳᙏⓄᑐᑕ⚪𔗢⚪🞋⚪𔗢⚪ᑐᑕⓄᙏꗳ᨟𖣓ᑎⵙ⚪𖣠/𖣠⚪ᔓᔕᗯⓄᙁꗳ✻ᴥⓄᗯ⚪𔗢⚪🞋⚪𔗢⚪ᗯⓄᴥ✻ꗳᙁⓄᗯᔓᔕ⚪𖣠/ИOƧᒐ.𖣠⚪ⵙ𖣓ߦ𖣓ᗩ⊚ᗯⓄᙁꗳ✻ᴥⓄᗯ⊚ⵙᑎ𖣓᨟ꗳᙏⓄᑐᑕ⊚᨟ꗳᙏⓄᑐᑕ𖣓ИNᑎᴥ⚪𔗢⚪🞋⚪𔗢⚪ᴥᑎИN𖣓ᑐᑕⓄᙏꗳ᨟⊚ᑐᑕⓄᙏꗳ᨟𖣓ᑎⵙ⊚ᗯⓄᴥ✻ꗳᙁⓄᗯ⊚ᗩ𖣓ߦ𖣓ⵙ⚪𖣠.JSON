@@ -1,0 +1,244 @@
+{
+  "4": {
+    "inputs": {
+      "ckpt_name": "RealVisXL_V4.0_Lightning.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "5": {
+    "inputs": {
+      "width": 256,
+      "height": 256,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "8": {
+    "inputs": {
+      "samples": [
+        "72",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "61": {
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "  "
+    }
+  },
+  "72": {
+    "inputs": {
+      "noise": [
+        "158",
+        0
+      ],
+      "guider": [
+        "74",
+        0
+      ],
+      "sampler": [
+        "132",
+        0
+      ],
+      "sigmas": [
+        "159",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "74": {
+    "inputs": {
+      "cfg": 8,
+      "neg_scale": 0,
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "91",
+        0
+      ],
+      "negative": [
+        "95",
+        0
+      ],
+      "empty_conditioning": [
+        "122",
+        0
+      ]
+    },
+    "class_type": "PerpNegGuider",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "91": {
+    "inputs": {
+      "text": [
+        "154",
+        0
+      ],
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "Text to Conditioning",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "95": {
+    "inputs": {
+      "text": [
+        "156",
+        0
+      ],
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "Text to Conditioning",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "122": {
+    "inputs": {
+      "text": [
+        "155",
+        0
+      ],
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "Text to Conditioning",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "132": {
+    "inputs": {
+      "order": 2,
+      "rtol": 100,
+      "atol": 100,
+      "h_init": 100,
+      "pcoeff": 0,
+      "icoeff": 0,
+      "dcoeff": 0,
+      "accept_safety": 0,
+      "eta": 0,
+      "s_noise": 0
+    },
+    "class_type": "SamplerDPMAdaptative",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "151": {
+    "inputs": {
+      "samples": [
+        "72",
+        1
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "153": {
+    "inputs": {
+      "images": [
+        "151",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "  "
+    }
+  },
+  "154": {
+    "inputs": {
+      "Text": "⚪"
+    },
+    "class_type": "Text box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "155": {
+    "inputs": {
+      "Text": ""
+    },
+    "class_type": "Text box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "156": {
+    "inputs": {
+      "Text": ""
+    },
+    "class_type": "Text box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "158": {
+    "inputs": {
+      "noise_seed": 0
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "159": {
+    "inputs": {
+      "steps": 1,
+      "denoise": 1
+    },
+    "class_type": "SDTurboScheduler",
+    "_meta": {
+      "title": " "
+    }
+  }
+}
