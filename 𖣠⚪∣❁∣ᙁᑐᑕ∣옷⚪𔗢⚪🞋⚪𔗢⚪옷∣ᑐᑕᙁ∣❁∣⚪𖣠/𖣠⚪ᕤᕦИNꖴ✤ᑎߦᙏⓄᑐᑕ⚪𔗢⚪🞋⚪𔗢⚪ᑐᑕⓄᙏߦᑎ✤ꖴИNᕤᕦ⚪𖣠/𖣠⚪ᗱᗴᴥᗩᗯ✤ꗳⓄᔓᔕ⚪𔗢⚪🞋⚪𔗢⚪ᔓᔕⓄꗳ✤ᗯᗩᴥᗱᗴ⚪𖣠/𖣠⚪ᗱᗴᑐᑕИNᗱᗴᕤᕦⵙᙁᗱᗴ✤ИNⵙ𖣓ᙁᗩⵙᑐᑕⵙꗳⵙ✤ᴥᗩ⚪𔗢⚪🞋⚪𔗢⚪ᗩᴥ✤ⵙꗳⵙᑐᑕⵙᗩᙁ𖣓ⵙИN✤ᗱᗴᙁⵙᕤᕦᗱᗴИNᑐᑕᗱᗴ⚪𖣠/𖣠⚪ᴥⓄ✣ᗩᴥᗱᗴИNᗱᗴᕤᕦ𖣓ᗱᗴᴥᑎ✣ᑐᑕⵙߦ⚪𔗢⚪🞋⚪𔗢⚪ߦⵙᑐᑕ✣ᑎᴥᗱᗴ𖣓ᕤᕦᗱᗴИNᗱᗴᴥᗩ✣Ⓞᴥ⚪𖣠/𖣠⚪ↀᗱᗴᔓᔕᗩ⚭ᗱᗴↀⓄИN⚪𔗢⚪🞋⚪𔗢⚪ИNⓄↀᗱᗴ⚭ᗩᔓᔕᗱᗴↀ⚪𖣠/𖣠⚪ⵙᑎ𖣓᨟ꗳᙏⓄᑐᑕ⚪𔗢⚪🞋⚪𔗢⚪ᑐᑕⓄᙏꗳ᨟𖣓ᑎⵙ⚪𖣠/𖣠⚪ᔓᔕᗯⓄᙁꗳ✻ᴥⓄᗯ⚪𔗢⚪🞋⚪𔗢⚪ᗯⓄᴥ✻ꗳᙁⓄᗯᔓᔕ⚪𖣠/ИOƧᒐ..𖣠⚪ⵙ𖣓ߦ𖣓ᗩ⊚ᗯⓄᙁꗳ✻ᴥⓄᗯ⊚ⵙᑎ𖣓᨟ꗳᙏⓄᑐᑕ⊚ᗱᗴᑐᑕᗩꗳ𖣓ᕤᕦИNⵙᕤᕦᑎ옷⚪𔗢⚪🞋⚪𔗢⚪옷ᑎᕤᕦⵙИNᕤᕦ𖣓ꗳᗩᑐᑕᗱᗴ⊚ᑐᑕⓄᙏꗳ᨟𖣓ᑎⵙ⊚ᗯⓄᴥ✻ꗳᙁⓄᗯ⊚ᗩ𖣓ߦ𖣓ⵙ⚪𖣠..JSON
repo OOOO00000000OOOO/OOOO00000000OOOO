@@ -1,0 +1,308 @@
+{
+  "4": {
+    "inputs": {
+      "ckpt_name": "RealVisXL_V4.0_Lightning.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "5": {
+    "inputs": {
+      "width": [
+        "214",
+        0
+      ],
+      "height": [
+        "214",
+        0
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "8": {
+    "inputs": {
+      "samples": [
+        "72",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "61": {
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "  "
+    }
+  },
+  "72": {
+    "inputs": {
+      "noise": [
+        "131",
+        0
+      ],
+      "guider": [
+        "74",
+        0
+      ],
+      "sampler": [
+        "132",
+        0
+      ],
+      "sigmas": [
+        "185",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "74": {
+    "inputs": {
+      "cfg": [
+        "224",
+        0
+      ],
+      "neg_scale": 0,
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "91",
+        0
+      ],
+      "negative": [
+        "95",
+        0
+      ],
+      "empty_conditioning": [
+        "122",
+        0
+      ]
+    },
+    "class_type": "PerpNegGuider",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "91": {
+    "inputs": {
+      "text": [
+        "156",
+        0
+      ],
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "Text to Conditioning",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "95": {
+    "inputs": {
+      "text": [
+        "155",
+        0
+      ],
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "Text to Conditioning",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "122": {
+    "inputs": {
+      "text": [
+        "154",
+        0
+      ],
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "Text to Conditioning",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "131": {
+    "inputs": {
+      "noise_seed": 0,
+      "noise_mode": "CPU",
+      "batch_seed_mode": "comfy",
+      "variation_seed": 0,
+      "variation_strength": 0,
+      "variation_method": "linear"
+    },
+    "class_type": "RandomNoise //Inspire",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "132": {
+    "inputs": {
+      "order": 3,
+      "rtol": 0,
+      "atol": 0,
+      "h_init": 1,
+      "pcoeff": 0,
+      "icoeff": 0,
+      "dcoeff": 0,
+      "accept_safety": 0,
+      "eta": 0,
+      "s_noise": 0
+    },
+    "class_type": "SamplerDPMAdaptative",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "151": {
+    "inputs": {
+      "samples": [
+        "72",
+        1
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "153": {
+    "inputs": {
+      "images": [
+        "151",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "  "
+    }
+  },
+  "154": {
+    "inputs": {
+      "Text": ""
+    },
+    "class_type": "DF_Text_Box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "155": {
+    "inputs": {
+      "Text": ""
+    },
+    "class_type": "DF_Text_Box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "156": {
+    "inputs": {
+      "Text": "⚪"
+    },
+    "class_type": "DF_Text_Box",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "161": {
+    "inputs": {
+      "Value": 8
+    },
+    "class_type": "DF_Integer",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "162": {
+    "inputs": {
+      "a": [
+        "161",
+        0
+      ]
+    },
+    "class_type": "CM_IntToFloat",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "185": {
+    "inputs": {
+      "steps": [
+        "161",
+        0
+      ],
+      "denoise": 1,
+      "model": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "SDTurboScheduler",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "214": {
+    "inputs": {
+      "int": 256
+    },
+    "class_type": "int _O",
+    "_meta": {
+      "title": " "
+    }
+  },
+  "224": {
+    "inputs": {
+      "Value_A": [
+        "162",
+        0
+      ],
+      "Value_B": 1
+    },
+    "class_type": "DF_Multiply",
+    "_meta": {
+      "title": " "
+    }
+  }
+}
