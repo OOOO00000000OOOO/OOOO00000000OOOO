@@ -212,7 +212,7 @@ toolbarbutton{!IMPORTANT;FILL:HSL(150,0%,CALC(100%/256*194))!IMPORTANT}toolbar,#
 #PlacesToolbarItems{WIDTH:77.125PX!IMPORTANT}
 #protections-popup-footer-protection-type-label{MARGIN-LEFT:4PX!IMPORTANT}#protections-popup-show-report-button{MARGIN-RIGHT:71PX!IMPORTANT}
 .protections-popup-switch-section-header{MIN-HEIGHT:0!IMPORTANT}
-#editBMPanel_folderTreeRow{MIN-WIDTH:-MOZ-AVAILABLE!IMPORTANT}
+#editBMPanel_folderTreeRow{WIDTH:90.625VW!IMPORTANT}
 @keyframes OO
 {
 0% {OPACITY:CALC(0)}
