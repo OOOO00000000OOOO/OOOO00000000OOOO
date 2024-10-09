@@ -18,6 +18,7 @@
 --panel-separator-margin-vertical:0!IMPORTANT;--arrowpanel-menuitem-border-radius:256PX!IMPORTANT;--arrowpanel-header-info-icon-padding:0!IMPORTANT;--toolbarbutton-border-radius:8PX!IMPORTANT;--toolbarbutton-outer-padding:0!IMPORTANT;
 --toolbarbutton-inner-padding:0!IMPORTANT;--toolbar-start-end-padding:0!IMPORTANT;--identity-box-margin-inline:0!IMPORTANT;--tab-border-radius:256PX!IMPORTANT;--inline-tab-padding:0!IMPORTANT;--tab-block-margin:0!IMPORTANT;--tab-min-height:16PX!IMPORTANT;
 --urlbar-container-padding:0!IMPORTANT;--urlbar-margin-inline:0!IMPORTANT;--urlbar-min-height:0!IMPORTANT;--urlbarView-row-gutter:0PX!IMPORTANT;--urlbarView-result-button-size:16PX!IMPORTANT;--button-hover-bgcolor:#F9F9F9!IMPORTANT;--uei-icon-size:16PX!IMPORTANT;
+--toolbar-non-lwt-bgcolor:#FFFFFF!IMPORTANT
 }
 *{TRANSITION:NONE!IMPORTANT;FONT-STYLE:NORMAL!IMPORTANT}#urlbar[focused="true"]>#urlbar-background,#searchbar:focus-within{BOX-SHADOW: 0PX 0PX 0PX RGBA(0, 0, 0, 0.23);OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
 panelview{MIN-WIDTH:FIT-CONTENT!IMPORTANT;DISPLAY:FLEX!IMPORTANT;FLEX-WRAP:WRAP-REVERSE!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT}#contentAreaContextMenu,#appMenu-popup,#customizationui-widget-panel,#unified-extensions-panel,#downloadsPanel,#identity-popup,#protections-popup{TEXT-TRANSFORM:UPPERCASE!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
