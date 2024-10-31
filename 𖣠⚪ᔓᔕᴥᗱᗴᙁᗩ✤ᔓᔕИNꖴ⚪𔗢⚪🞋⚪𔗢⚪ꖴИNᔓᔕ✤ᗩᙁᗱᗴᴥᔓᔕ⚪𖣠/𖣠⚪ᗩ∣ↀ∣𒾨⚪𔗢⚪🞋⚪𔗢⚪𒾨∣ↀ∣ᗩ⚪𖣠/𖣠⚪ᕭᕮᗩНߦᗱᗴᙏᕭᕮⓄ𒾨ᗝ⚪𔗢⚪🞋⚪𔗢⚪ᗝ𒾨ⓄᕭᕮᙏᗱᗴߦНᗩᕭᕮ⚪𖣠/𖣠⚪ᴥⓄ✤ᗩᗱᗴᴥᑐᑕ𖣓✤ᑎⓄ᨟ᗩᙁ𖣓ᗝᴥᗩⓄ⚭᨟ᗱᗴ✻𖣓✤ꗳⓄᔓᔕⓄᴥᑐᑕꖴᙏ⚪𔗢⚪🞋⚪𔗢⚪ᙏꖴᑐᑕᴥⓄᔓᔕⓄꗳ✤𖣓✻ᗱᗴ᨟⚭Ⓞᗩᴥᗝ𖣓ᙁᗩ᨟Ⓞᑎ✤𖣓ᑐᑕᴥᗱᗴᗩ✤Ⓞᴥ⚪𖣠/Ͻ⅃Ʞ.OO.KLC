@@ -1,0 +1,210 @@
+﻿KBD	OO	"OO"
+
+COMPANY	"⚪𖡼⚪𖡼⚪𖡼⚪𖡼⚪𖡼⚪𖡼⚪"
+
+LOCALENAME	"ii-CN"
+
+LOCALEID	"00000478"
+
+VERSION	1.0
+
+ATTRIBUTES
+LRM_RLM
+
+SHIFTSTATE
+
+0	//Column 4
+1	//Column 5 : Shft
+2	//Column 6 :       Ctrl
+3	//Column 7 : Shft  Ctrl
+6	//Column 8 :       Ctrl Alt
+7	//Column 9 : Shft  Ctrl Alt
+
+LAYOUT		;an extra '@' at the end is a dead key
+
+//SC	VK_		Cap	0	1	2	3	6	7
+//--	----		----	----	----	----	----	----	----
+
+02	1		0	00b7	1	-1	-1	-1	-1		// MIDDLE DOT, DIGIT ONE, <none>, <none>, <none>, <none>
+03	2		0	a789	2	2236	200c	-1	-1		// <null>, DIGIT TWO, RATIO, ZERO WIDTH NON-JOINER, <none>, <none>
+04	3		0	2d48	%%	%%	200e	-1	-1		// TIFINAGH LETTER TUAREG YAQ, <null>, <null>, LEFT-TO-RIGHT MARK, <none>, <none>
+05	4		0	2058	4	2237	200f	-1	-1		// FOUR DOT PUNCTUATION, DIGIT FOUR, PROPORTION, RIGHT-TO-LEFT MARK, <none>, <none>
+06	5		0	2e2d	%%	2d58	-1	-1	-1		// <null>, <null>, TIFINAGH LETTER AYER YAGH (Adrar yaj), <none>, <none>, <none>
+07	6		0	283f	%%	-1	-1	-1	-1		// BRAILLE PATTERN DOTS-123456, <null>, <none>, <none>, <none>, <none>
+08	7		0	109fc	1403	1401	%%	-1	-1		// <null>, CANADIAN SYLLABICS I, CANADIAN SYLLABICS E, <null>, <none>, <none>
+09	8		0	274b	8	-1	-1	-1	-1		// HEAVY EIGHT TEARDROP-SPOKED PROPELLER ASTERISK, DIGIT EIGHT, <none>, <none>, <none>, <none>
+0a	9		0	2042	10121	130d1	145e0	109fe	-1		// ASTERISM, AEGEAN NUMBER NINE HUNDRED, <null>, <null>, <null>, <none>
+0b	0		0	2d54	0	-1	-1	-1	-1		// TIFINAGH LETTER YAR, DIGIT ZERO, <none>, <none>, <none>, <none>
+0c	OEM_MINUS	0	2687	29b6	2296	-1	-1	-1		// WHITE CIRCLE WITH TWO DOTS, CIRCLED VERTICAL BAR, CIRCLED MINUS, <none>, <none>, <none>
+0d	OEM_PLUS	0	229a	13297	1f78b	-1	-1	-1		// CIRCLED RING OPERATOR, <null>, <null>, <none>, <none>, <none>
+10	Q		0	00a4	a10d	-1	-1	-1	-1		// CURRENCY SIGN, YI SYLLABLE DOT, <none>, <none>, <none>, <none>
+11	W		0	15ef	15f0	-1	-1	-1	-1		// CANADIAN SYLLABICS CARRIER GU, CANADIAN SYLLABICS CARRIER GO, <none>, <none>, <none>, <none>
+12	E		0	%%	%%	-1	%%	-1	-1		// <null>, <null>, <none>, <null>, <none>, <none>
+13	R		0	1d25	%%	%%	%%	-1	-1		// LATIN LETTER AIN, <null>, <null>, <null>, <none>, <none>
+14	T		0	2723	22a4	-1	22a5	-1	169f7		// FOUR BALLOON-SPOKED ASTERISK, DOWN TACK, <none>, UP TACK, <none>, <null>
+15	Y		0	1a1f	22cf	22ce	4eba	-1	-1		// BUGINESE END OF SECTION, CURLY LOGICAL AND, CURLY LOGICAL OR, CJK Ideograph , <none>, <none>
+16	U		0	0548	144e	144c	-1	-1	-1		// ARMENIAN CAPITAL LETTER VO, CANADIAN SYLLABICS TI, CANADIAN SYLLABICS TE, <none>, <none>, <none>
+17	I		0	a5b4	2299	1e827	-1	-1	-1		// <null>, CIRCLED DOT OPERATOR, <null>, <none>, <none>, <none>
+18	O		0	24c4	2d54	-1	-1	-1	-1		// CIRCLED LATIN CAPITAL LETTER O, TIFINAGH LETTER YAR, <none>, <none>, <none>, <none>
+19	P		0	07e6	%%	%%	%%	03a0	273f		// NKO LETTER YA, <null>, <null>, LATIN CAPITAL LETTER P, GREEK CAPITAL LETTER PI, BLACK FLORETTE
+1a	OEM_4		0	005b	007b	001b	-1	-1	-1		// LEFT SQUARE BRACKET, LEFT CURLY BRACKET, ESCAPE, <none>, <none>, <none>
+1b	OEM_6		0	005d	007d	001d	-1	-1	-1		// RIGHT SQUARE BRACKET, RIGHT CURLY BRACKET, INFORMATION SEPARATOR THREE, <none>, <none>, <none>
+1e	A		0	15e9	15e8	-1	-1	-1	-1		// CANADIAN SYLLABICS CARRIER PO, CANADIAN SYLLABICS CARRIER PU, <none>, <none>, <none>, <none>
+1f	S		0	%%	%%	%%	%%	-1	-1		// <null>, <null>, <null>, <null>, <none>, <none>
+20	D		0	2180	15dd	15dc	%%	0394	-1		// ROMAN NUMERAL ONE THOUSAND C D, CANADIAN SYLLABICS CARRIER THO, CANADIAN SYLLABICS CARRIER THU, <null>, GREEK CAPITAL LETTER DELTA, <none>
+21	F		0	a5f3	0398	03a6	%%	-1	-1		// <null>, GREEK CAPITAL LETTER THETA, GREEK CAPITAL LETTER PHI, LATIN CAPITAL LETTER F, <none>, <none>
+22	G		0	%%	%%	%%	%%	2c19	-1		// <null>, <null>, <null>, LATIN CAPITAL LETTER G, GLAGOLITIC CAPITAL LETTER OTU, <none>
+23	H		0	c637	1f6b9	157c	-1	-1	-1		// Hangul Syllable Ieung OSios, <null>, CANADIAN SYLLABICS NUNAVUT H, <none>, <none>, <none>
+24	J		0	%%	%%	-1	-1	-1	-1		// <null>, <null>, <none>, <none>, <none>, <none>
+25	K		0	273b	0416	2d63	%%	-1	-1		// TEARDROP-SPOKED ASTERISK, CYRILLIC CAPITAL LETTER ZHE, TIFINAGH LETTER YAZ, LATIN CAPITAL LETTER K, <none>, <none>
+26	L		0	1641	1640	%%	%%	03a9	-1		// CANADIAN SYLLABICS CARRIER ZO, CANADIAN SYLLABICS CARRIER ZU, <null>, <null>, GREEK CAPITAL LETTER OMEGA, <none>
+27	OEM_1		0	003b	003a	-1	-1	-1	-1		// SEMICOLON, COLON, <none>, <none>, <none>, <none>
+28	OEM_7		0	0027	0022	-1	-1	-1	-1		// APOSTROPHE, QUOTATION MARK, <none>, <none>, <none>, <none>
+29	OEM_3		0	2d59	29bf	168e0	1f78b	-1	-1		// TIFINAGH LETTER YAS, CIRCLED BULLET, <null>, <null>, <none>, <none>
+2b	OEM_5		0	25ef	26aa	168d3	1012a	-1	-1		// LARGE CIRCLE, MEDIUM WHITE CIRCLE, <null>, AEGEAN NUMBER NINE THOUSAND, <none>, <none>
+2c	Z		0	2d35	%%	-1	-1	-1	-1		// TIFINAGH LETTER BERBER ACADEMY YAJ, <null>, <none>, <none>, <none>, <none>
+2d	X		0	a564	2318	-1	16857	-1	-1		// <null>, PLACE OF INTEREST SIGN, <none>, <null>, <none>, <none>
+2e	C		0	%%	%%	-1	%%	-1	-1		// <null>, <null>, <none>, <null>, <none>, <none>
+2f	V		0	1431	039b	-1	-1	-1	-1		// CANADIAN SYLLABICS PI, GREEK CAPITAL LETTER LAMDA, <none>, <none>, <none>, <none>
+30	B		0	26ad	1688c	221e	%%	-1	-1		// MARRIAGE SYMBOL, <null>, INFINITY, <null>, <none>, <none>
+31	N		0	%%	%%	%%	%%	-1	-1		// <null>, <null>, <null>, <null>, <none>, <none>
+32	M		0	164f	164e	-1	-1	-1	-1		// CANADIAN SYLLABICS CARRIER SO, CANADIAN SYLLABICS CARRIER SU, <none>, <none>, <none>, <none>
+33	OEM_COMMA	0	1424	26ac	%%	1cc0	-1	-1		// CANADIAN SYLLABICS FINAL RING, MEDIUM SMALL WHITE CIRCLE, VARIATION SELECTOR-16, <null>, <none>, <none>
+34	OEM_PERIOD	0	25cc	273a	1687c	145e2	-1	-1		// DOTTED CIRCLE, SIXTEEN POINTED ASTERISK, <null>, <null>, <none>, <none>
+35	OEM_2		0	2800	200c	200a	-1	-1	-1		// BRAILLE PATTERN BLANK, ZERO WIDTH NON-JOINER, HAIR SPACE, <none>, <none>, <none>
+39	SPACE		0	0020	0020	0020	-1	-1	-1		// SPACE, SPACE, SPACE, <none>, <none>, <none>
+53	DECIMAL	0	2092	00b0	-1	-1	-1	-1		// LATIN SUBSCRIPT SMALL LETTER O, DEGREE SIGN, , , , 
+
+LIGATURE
+
+//VK_	Mod#	Char0	Char1	Char2	Char3
+//----		----	----	----	----	----
+
+3		1	d834	de06	d834	de21		// Non Private Use High Surrogate  + Low Surrogate  + Non Private Use High Surrogate  + Low Surrogate 
+3		2	0417	0510		// CYRILLIC CAPITAL LETTER ZE + CYRILLIC CAPITAL LETTER REVERSED ZE
+5		1	0a1f	0035		// GURMUKHI LETTER TTA + DIGIT FIVE
+6		1	10db	0036		// GEORGIAN LETTER MAN + DIGIT SIX
+7		3	07d6	0037		// NKO LETTER JA + DIGIT SEVEN
+B		3	15fa	15f7		// CANADIAN SYLLABICS CARRIER KHA + CANADIAN SYLLABICS CARRIER KHE
+C		0	1450	1455		// CANADIAN SYLLABICS TO + CANADIAN SYLLABICS TA
+C		1	03fd	0043		// GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL + LATIN CAPITAL LETTER C
+C		3	2184	0063		// LATIN SMALL LETTER REVERSED C + LATIN SMALL LETTER C
+D		3	15e1	15de		// CANADIAN SYLLABICS CARRIER THA + CANADIAN SYLLABICS CARRIER THE
+E		0	15f1	15f4		// CANADIAN SYLLABICS CARRIER GE + CANADIAN SYLLABICS CARRIER GA
+E		1	018e	0045		// LATIN CAPITAL LETTER REVERSED E + LATIN CAPITAL LETTER E
+E		3	0258	0065		// LATIN SMALL LETTER REVERSED E + LATIN SMALL LETTER E
+F		3	a7fb	0046		// LATIN CAPITAL LETTER F
+G		0	1564	1566		// CANADIAN SYLLABICS THO + CANADIAN SYLLABICS THA
+G		1	1548	154b		// CANADIAN SYLLABICS RO + CANADIAN SYLLABICS RA
+G		2	154a	154d		// CANADIAN SYLLABICS WEST-CREE LO + CANADIAN SYLLABICS WEST-CREE LA
+G		3	a4e8	0047		// LATIN CAPITAL LETTER G
+J		0	148d	1490		// CANADIAN SYLLABICS CO + CANADIAN SYLLABICS CA
+J		1	1489	148b		// CANADIAN SYLLABICS CE + CANADIAN SYLLABICS CI
+K		3	a7b0	004b		// LATIN CAPITAL LETTER K
+L		2	14a7	14aa		// CANADIAN SYLLABICS MO + CANADIAN SYLLABICS MA
+L		3	2143	004c		// REVERSED SANS-SERIF CAPITAL L + LATIN CAPITAL LETTER L
+N		0	0418	004e		// CYRILLIC CAPITAL LETTER I + LATIN CAPITAL LETTER N
+N		1	004e	0418		// LATIN CAPITAL LETTER N + CYRILLIC CAPITAL LETTER I
+N		2	1d0e	0274		// LATIN LETTER SMALL CAPITAL REVERSED N + LATIN LETTER SMALL CAPITAL N
+N		3	1d3b	1d3a		// MODIFIER LETTER CAPITAL REVERSED N + MODIFIER LETTER CAPITAL N
+P		1	146b	146d		// CANADIAN SYLLABICS KE + CANADIAN SYLLABICS KI
+P		2	146f	1472		// CANADIAN SYLLABICS KO + CANADIAN SYLLABICS KA
+P		3	a7fc	0050		// LATIN CAPITAL LETTER P
+R		1	1586	1587		// CANADIAN SYLLABICS TLHE + CANADIAN SYLLABICS TLHI
+R		2	1588	1589		// CANADIAN SYLLABICS TLHO + CANADIAN SYLLABICS TLHA
+R		3	042f	0052		// CYRILLIC CAPITAL LETTER YA + LATIN CAPITAL LETTER R
+S		0	1513	1515		// CANADIAN SYLLABICS SHO + CANADIAN SYLLABICS SHA
+S		1	1515	1513		// CANADIAN SYLLABICS SHA + CANADIAN SYLLABICS SHO
+S		2	01a7	0053		// LATIN CAPITAL LETTER TONE TWO + LATIN CAPITAL LETTER S
+S		3	01a8	0073		// LATIN SMALL LETTER TONE TWO + LATIN SMALL LETTER S
+Z		1	29c4	29c5		// SQUARED RISING DIAGONAL SLASH + SQUARED FALLING DIAGONAL SLASH
+OEM_COMMA		2	23fa	fe0f		// VARIATION SELECTOR-16
+
+KEYNAME
+
+01	Esc
+0e	Backspace
+0f	Tab
+1c	Enter
+1d	Ctrl
+2a	Shift
+36	"Right Shift"
+37	"Num *"
+38	Alt
+39	Space
+3a	"Caps Lock"
+3b	F1
+3c	F2
+3d	F3
+3e	F4
+3f	F5
+40	F6
+41	F7
+42	F8
+43	F9
+44	F10
+45	Pause
+46	"Scroll Lock"
+47	"Num 7"
+48	"Num 8"
+49	"Num 9"
+4a	"Num -"
+4b	"Num 4"
+4c	"Num 5"
+4d	"Num 6"
+4e	"Num +"
+4f	"Num 1"
+50	"Num 2"
+51	"Num 3"
+52	"Num 0"
+53	"Num Del"
+54	"Sys Req"
+57	F11
+58	F12
+7c	F13
+7d	F14
+7e	F15
+7f	F16
+80	F17
+81	F18
+82	F19
+83	F20
+84	F21
+85	F22
+86	F23
+87	F24
+
+KEYNAME_EXT
+
+1c	"Num Enter"
+1d	"Right Ctrl"
+35	"Num /"
+37	"Prnt Scrn"
+38	"Right Alt"
+45	"Num Lock"
+46	Break
+47	Home
+48	Up
+49	"Page Up"
+4b	Left
+4d	Right
+4f	End
+50	Down
+51	"Page Down"
+52	Insert
+53	Delete
+54	<00>
+56	Help
+5b	"Left Windows"
+5c	"Right Windows"
+5d	Application
+
+DESCRIPTIONS
+
+0409	ⓄⓄⓄⓄ
+
+LANGUAGENAMES
+
+0409	English (New Zealand)
+
+ENDKBD
