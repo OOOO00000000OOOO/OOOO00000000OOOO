@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox = " 0 0 729 729">
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 729 729">
+<DEFS>
 <style>
 *{SHAPE-RENDERING:GEOMETRICPRECISION;VECTOR-EFFECT:NON-SCALING-STROKE}
-.OOOO{STROKE:NONE;STROKE-LINECAP:ROUND;STROKE-LINEJOIN:ROUND;FILL:#00F47C;FILL-OPACITY:1;}
+.OOOO{STROKE:NONE;STROKE-LINECAP:ROUND;STROKE-LINEJOIN:ROUND;FILL:#00F47C;FILL-OPACITY:1}
 </style>
-</defs>
-<rect x="0" y="0" width="729" height="729" style="FILL:NONE;STROKE:NONE;" />
+</DEFS>
+<rect x="0" y="0" width="729" height="729" style="FILL:NONE;STROKE:NONE"/>
 <circle cx="364.5" cy="364.5" r="121.5"  class="OOOO"></circle>
 <circle cx="121.5" cy="607.5" r="40.5"  class="OOOO"></circle>
 <circle cx="364.5" cy="607.5" r="40.5"  class="OOOO"></circle>
