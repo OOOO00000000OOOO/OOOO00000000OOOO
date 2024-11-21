@@ -811,7 +811,7 @@
         <asset_shelf>
           <ThemeAssetShelf
             header_back="#1d1d1dff"
-            back="#8b8b8bff"
+            back="#303030ff"
             >
           </ThemeAssetShelf>
         </asset_shelf>
@@ -829,7 +829,7 @@
         effect_strip="#808080"
         transition_strip="#cccccc"
         color_strip="#999999"
-        meta_strip="#a6a6a6"
+        meta_strip="#999999"
         mask_strip="#8f8f8f"
         text_strip="#9f9f9f"
         active_strip="#c8c8c8"
@@ -845,7 +845,7 @@
         keyframe_movehold="#808080"
         keyframe_movehold_selected="#f1f1f1"
         keyframe_generated="#585858"
-        keyframe_generated_selected="#a2a2a2"
+        keyframe_generated_selected="#a28962"
         keyframe_border="#000000ff"
         keyframe_border_selected="#000000ff"
         draw_action="#6d6d6d"
@@ -938,7 +938,7 @@
         line_numbers="#d0d0d0"
         line_numbers_background="#ffffff"
         selected_text="#dfdfdf"
-        cursor="#aaaaaa"
+        cursor="#f4f4f4"
         syntax_builtin="#6d6d6d"
         syntax_symbols="#6d6d6d"
         syntax_special="#6d6d6d"
@@ -1186,7 +1186,7 @@
         line_input="#6d6d6d"
         line_info="#6d6d6d"
         line_error="#6d6d6d"
-        cursor="#ffffff"
+        cursor="#f4f4f4"
         select="#bfbfbf60"
         >
         <space>
@@ -1638,12 +1638,12 @@
     </panel_title>
     <widget_label>
       <ThemeFontStyle
-        points="12.875"
+        points="11"
         character_weight="400"
         shadow="0"
         shadow_offset_x="0"
         shadow_offset_y="0"
-        shadow_alpha="1"
+        shadow_alpha="0"
         shadow_value="0"
         >
       </ThemeFontStyle>
