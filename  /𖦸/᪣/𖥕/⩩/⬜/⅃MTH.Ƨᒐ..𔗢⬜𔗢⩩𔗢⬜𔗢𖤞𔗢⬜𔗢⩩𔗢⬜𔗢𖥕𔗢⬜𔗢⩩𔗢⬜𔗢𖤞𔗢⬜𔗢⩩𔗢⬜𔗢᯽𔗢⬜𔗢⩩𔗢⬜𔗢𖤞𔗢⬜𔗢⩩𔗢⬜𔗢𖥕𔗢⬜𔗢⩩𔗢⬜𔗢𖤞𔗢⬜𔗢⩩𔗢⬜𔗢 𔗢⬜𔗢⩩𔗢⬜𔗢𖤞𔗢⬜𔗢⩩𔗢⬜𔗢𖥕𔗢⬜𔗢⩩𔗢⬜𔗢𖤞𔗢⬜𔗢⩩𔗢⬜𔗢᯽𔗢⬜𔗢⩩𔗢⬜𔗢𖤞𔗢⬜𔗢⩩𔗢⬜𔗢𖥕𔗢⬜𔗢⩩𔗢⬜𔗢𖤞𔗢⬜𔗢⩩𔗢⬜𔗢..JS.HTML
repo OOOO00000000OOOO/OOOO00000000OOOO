@@ -1,0 +1,408 @@
+﻿<HTML>
+<HEAD>
+<META CHARSET="UTF-8">
+
+<TITLE>𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢𖥕𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢᯽𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢𖥕𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢 𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢𖥕𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢᯽𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢𖥕𔗢⬜𔗢⩩𔗢⬜𔗢𖤞𔗢⬜𔗢⩩𔗢⬜𔗢</TITLE>
+
+</HEAD>
+
+<BODY STYLE=BACKGROUND:#00F47C00>
+<DIV DATA-PALINDROME DATA-MAX-LINES="364" DATA-G="window.ꕤ/Math.pow(3,0)" STYLE="--I:1PX;FONT-SIZE:VAR(--I);DISPLAY:NONE"></DIV>
+<CANVAS ID="⩩" STYLE=POSITION:FIXED;LEFT:50%;TOP:50%;TRANSFORM:TRANSLATE(-50%,-50%)></CANVAS>
+
+<SCRIPT>
+const COLOR_STEP = "1";
+
+const GG = Math.pow(3, 6);
+const PIXEL_SIZE = Math.pow(3, 0);
+const STEP = PIXEL_SIZE + 0 * PIXEL_SIZE;
+const GAP = (STEP - PIXEL_SIZE) / 2;
+
+const canvas = document.getElementById("⩩");
+canvas.width = GG * STEP;
+canvas.height = GG * STEP;
+
+const ctx = canvas.getContext("2d",{alpha:true});
+
+const totalPixels = GG * GG;
+const onesCount = new Uint8Array(totalPixels);
+let maxOnes = 0;
+
+for (let i = 1; i < totalPixels; i++) {
+onesCount[i] = onesCount[(i / 3) | 0] + (i % 3 === 1 ? 1 : 0);
+if (onesCount[i] > maxOnes) maxOnes = onesCount[i];
+}
+
+const center = GG >> 1;
+const centerIdx = center * GG + center;
+const target = onesCount[centerIdx];
+
+for (let y = 0; y < GG; y++) {
+for (let x = 0; x < GG; x++) {
+const idx = y * GG + x;
+const val = onesCount[idx];
+
+let v;
+if (COLOR_STEP === "O") {
+v = Math.round(255 * (val / maxOnes));
+} else if (COLOR_STEP === "0" || COLOR_STEP === 0) {
+v = 255;
+} else {
+v = 255 - (target - val) * Number(COLOR_STEP);
+v = v < 0 ? 0 : v > 255 ? 255 : v;
+}
+
+ctx.fillStyle = `rgba(${v},${v},${v},${v / 255})`;
+ctx.fillRect(x * STEP + GAP, y * STEP + GAP, PIXEL_SIZE, PIXEL_SIZE);
+}
+}
+</SCRIPT>
+
+<SCRIPT>
+<!--𖢌𐧾፨ⵔ꞉⸭❋ⵔⵔ𐧾❋❋ⵔ❋·𐧾❋❋⋮𐧾❋ⵔ𐧾❋꞉ⵔⵔⵔ·𐧾ⵔ꞉𐧾ⵔ፨··𐧾𐧾❋❋⠿፨ⵔ⋮ⵔ⁘⸭𐧾𐧾❋⸭∶∶ⵔ⠿ⵔ⁘◌⁘❋𖥕᪣𓇬 𓇬᪣𖥕❋⁘◌⁘ⵔ⠿ⵔ∶∶⸭❋𐧾𐧾⸭⁘ⵔ⋮ⵔ፨⠿❋❋𐧾𐧾··፨ⵔ𐧾꞉ⵔ𐧾·ⵔⵔⵔ꞉❋𐧾ⵔ❋𐧾⋮❋❋𐧾·❋ⵔ❋❋𐧾ⵔⵔ❋⸭꞉ⵔ፨𐧾𖢌--!>
+ⵙꖅᑎᙁᗩᗯⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙᗯᗩᙁᑎꖅⵙ=(1/3**3);
+ⵙИNⵔITᗩᴥᑎↀⵙↀⵔꖴᴥꖅᑫᑭⵙᑫᑭꖅᴥꖴⵔↀⵙↀᑎᴥᗩTIⵔИNⵙ=84.406022589954030768899117092091000289089388918088900852079/3**0
+ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ = new (window.AudioContext || window.webkitAudioContext)();
+ⵙⵔⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵔⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ𓃊ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃊ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙⵈⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵈⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙꗺⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙꗺⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙⵘⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵘⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ𓃎ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃎ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ𓃏ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃏ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ𓃐ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃐ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ𓃑ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃑ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙⵔ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵔⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ··ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ··ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ𓃊·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃊ⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙⵈ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵈⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙꗺ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ꗺⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙⵘ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵘⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙ𓃎·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃎ⵙ= ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createOscillator();
+ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ = ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.createGain();
+ⵙⵔⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵔⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**0;
+ⵙ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**1;
+ⵙ𓃊ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃊ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**2;
+ⵙⵈⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵈⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**3;
+ⵙꗺⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙꗺⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**4;
+ⵙⵘⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵘⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**5;
+ⵙ𓃎ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃎ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**6;
+ⵙ𓃏ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃏ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**7;
+ⵙ𓃐ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃐ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**8;
+ⵙ𓃑ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃑ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**9;
+ⵙⵔ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵔⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**10;
+ⵙ··ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ··ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**11;
+ⵙ𓃊·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃊ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**12;
+ⵙⵈ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵈⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**13;
+ⵙꗺ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ꗺⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**14;
+ⵙⵘ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵘⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**15;
+ⵙ𓃎·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃎ⵙ.frequency.value = 1/84.406022589954030768899117092091000289089388918088900852079*3**16;
+function ⵙИNⵔꖴTᗩᙁᑎↀⵔᙏⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙᙏⵔↀᑎᙁᗩTꖴⵔИNⵙ()
+{
+requestAnimationFrame(ⵙИNⵔꖴTᗩᙁᑎↀⵔᙏⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙᙏⵔↀᑎᙁᗩTꖴⵔИNⵙ);
+ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ.gain.value=
+//(-Math.cos((performance.now()/1000)*(Math.atan(1)*8)/(ⵙИNⵔITᗩᴥᑎↀⵙↀⵔꖴᴥꖅᑫᑭⵙᑫᑭꖅᴥꖴⵔↀⵙↀᑎᴥᗩTIⵔИNⵙ))/2+.5)
+(0.5-0.5*(-1)**Math.floor((performance.now()/1000)/   (.5*ⵙИNⵔITᗩᴥᑎↀⵙↀⵔꖴᴥꖅᑫᑭⵙᑫᑭꖅᴥꖴⵔↀⵙↀᑎᴥᗩTIⵔИNⵙ)   )+((-1)**Math.floor((performance.now()/1000)/   (.5*ⵙИNⵔITᗩᴥᑎↀⵙↀⵔꖴᴥꖅᑫᑭⵙᑫᑭꖅᴥꖴⵔↀⵙↀᑎᴥᗩTIⵔИNⵙ)   ))/(1+Math.exp((1)/(-1+((performance.now()/1000)/   (.5*ⵙИNⵔITᗩᴥᑎↀⵙↀⵔꖴᴥꖅᑫᑭⵙᑫᑭꖅᴥꖴⵔↀⵙↀᑎᴥᗩTIⵔИNⵙ)   %1))+(1)/(((performance.now()/1000)/   (.5*ⵙИNⵔITᗩᴥᑎↀⵙↀⵔꖴᴥꖅᑫᑭⵙᑫᑭꖅᴥꖴⵔↀⵙↀᑎᴥᗩTIⵔИNⵙ)   %1)))))
+*ⵙꖅᑎᙁᗩᗯⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙᗯᗩᙁᑎꖅⵙ
+}
+ⵙИNⵔꖴTᗩᙁᑎↀⵔᙏⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙᙏⵔↀᑎᙁᗩTꖴⵔИNⵙ();
+ⵙⵔⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵔⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ𓃊ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃊ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙⵈⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵈⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙꗺⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙꗺⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙⵘⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵘⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ𓃎ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃎ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ𓃏ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃏ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ𓃐ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃐ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ𓃑ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃑ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙⵔ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵔⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ··ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ··ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ𓃊·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃊ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙⵈ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵈⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙꗺ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ꗺⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙⵘ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵘⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙ𓃎·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃎ⵙ.connect(ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ);
+ⵙꖅↀⵔИNⵙИNꖴᗩⰙⵙⰙᗩꖴИNⵙИNⵔↀꖅⵙ.connect(ⵙTꕤꖅTИNⵔᑐᑕⵙⵔꖴↀᑎᗩⵙᗩᑎↀꖴⵔⵙᑐᑕⵔИNTꖅꕤTⵙ.destination);
+ⵙⵔⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵔⵙ.start();
+ⵙ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵙ.start();
+ⵙ𓃊ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃊ⵙ.start();
+ⵙⵈⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵈⵙ.start();
+ⵙꗺⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙꗺⵙ.start();
+ⵙⵘⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙⵘⵙ.start();
+ⵙ𓃎ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃎ⵙ.start();
+ⵙ𓃏ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃏ⵙ.start();
+ⵙ𓃐ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃐ⵙ.start();
+ⵙ𓃑ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ𓃑ⵙ.start();
+ⵙⵔ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵔⵙ.start();
+ⵙ··ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ··ⵙ.start();
+ⵙ𓃊·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃊ⵙ.start();
+ⵙⵈ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵈⵙ.start();
+ⵙꗺ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ꗺⵙ.start();
+ⵙⵘ·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·ⵘⵙ.start();
+ⵙ𓃎·ⵙꖅↀⵔИNⵙᴥⵔTᗩᙁꖴᑐᑕᔓᔕⵔⵙⵔᔓᔕᑐᑕꖴᙁᗩTⵔᴥⵙИNⵔↀꖅⵙ·𓃎ⵙ.start();
+<!--𖢌𐧾፨ⵔ꞉⸭❋ⵔⵔ𐧾❋❋ⵔ❋·𐧾❋❋⋮𐧾❋ⵔ𐧾❋꞉ⵔⵔⵔ·𐧾ⵔ꞉𐧾ⵔ፨··𐧾𐧾❋❋⠿፨ⵔ⋮ⵔ⁘⸭𐧾𐧾❋⸭∶∶ⵔ⠿ⵔ⁘◌⁘❋𖥕᪣𓇬 𓇬᪣𖥕❋⁘◌⁘ⵔ⠿ⵔ∶∶⸭❋𐧾𐧾⸭⁘ⵔ⋮ⵔ፨⠿❋❋𐧾𐧾··፨ⵔ𐧾꞉ⵔ𐧾·ⵔⵔⵔ꞉❋𐧾ⵔ❋𐧾⋮❋❋𐧾·❋ⵔ❋❋𐧾ⵔⵔ❋⸭꞉ⵔ፨𐧾𖢌--!>
+</SCRIPT>
+
+<SCRIPT>
+window.ꕤ=(84.406022589954030768899117092091000289089388918088900852079/Math.pow(3,6))
+window.𖧷=()=>performance.now()/1000/ꕤ
+T=document.title;setInterval(()=>{ᙏ=(performance.now()/1000/(84.406022589954030768899117092091000289089388918088900852079/Math.pow(3,0))).toString(3) //.replace(/(\..{}).*/,'$1') \\
+.split('')
+.map
+(
+(O,I,H)=>
+{if(O==='.') return ' ⚙ ';OO=H.slice(0,I).filter(X=>['0','1','2'].includes(X)).length;OOO=OO%3===0
+if(O==='2') return OOO?'🟠':'🟧'
+if(O==='1') return OOO?'🟢':'🟩'
+if(O==='0') return OOO?'🟣':'🟪'
+return O}).join('')
+ᙏ=[...ᙏ].slice(0,6).join('')+''+[...ᙏ].slice(6).join('');ᙏᙏ=[...ᙏ];MOM=ᙏᙏ[0];XMMX=ᙏᙏ.slice(1);window.TᙏT=[...XMMX].reverse().join``+MOM+XMMX.join``
+document.title =window.TᙏT + ' 𖥕 ' + T + ' 𖥕 ' + window.TᙏT;},window.ꕤ*1000)
+</SCRIPT>
+
+<SCRIPT>
+window.ꕤ=(84.406022589954030768899117092091000289089388918088900852079/Math.pow(3,6))
+
+function renderInstance(container)
+{
+MAX_LINES=parseInt(container.dataset.maxLines) || 40
+container.textContent=""
+
+G=performance.now()/1000/parseFloat(eval(container.dataset.g))
+
+columns=[]
+maxColHeight=0
+
+for (i=Math.floor(G);i>=0;i--)
+{
+t=i.toString(3) //.replace(/(\..{}).*/,'$1')\\
+bars=[...t].map((O,I,H)=>
+{
+if (O!=='1') return ' '
+OO=H.slice(0,I).filter(X=>X==='0'||X==='1'||X==='2').length
+return (OO%3===0) ? '🟢' : '🟩'
+}
+)
+columns.push(bars)
+maxColHeight=Math.max(maxColHeight,bars.length)
+
+if (columns.length>MAX_LINES*1) break
+}
+
+totalRows=maxColHeight
+
+rows=[]
+for (row=0;row<totalRows;row++)
+{
+line=Array(MAX_LINES*2+1).fill(' ')
+
+columns.forEach((col,idx)=>
+{
+colHeight=col.length
+bar=col[colHeight-totalRows+row]
+if (!bar) return
+L=MAX_LINES-idx
+R=MAX_LINES+idx
+if (L>= 0) line[L]=bar
+if (R<MAX_LINES*2+1) line[R]=bar
+}
+)
+
+line[MAX_LINES]=(row%3 === 0) ? '⚪' : '⬜'
+//' ' : ' '\\
+//'⚪' : '⬜'\\
+//'🟢' : '🟩'\\
+rows.push(line.join(''))
+}
+
+//middleRow=rows[0]
+middleRow=rows.reverse()[0]
+upward=rows.slice(1)
+downward=rows.slice(1).reverse()
+;
+
+[...downward, middleRow, ...upward].forEach(line=>
+{
+div=document.createElement("DIV")
+div.textContent=line
+div.style.cssText=`WHITE-SPACE:NOWRAP;LINE-HEIGHT:1;COLOR:RGBA(0,244,124,1.148125);TEXT-ALIGN:CENTER;FILTER:SATURATE(2)`
+container.appendChild(div)
+}
+)
+}
+
+function animate()
+{
+document.querySelectorAll("[data-palindrome]").forEach(el => renderInstance(el))
+requestAnimationFrame(animate)
+}
+animate()
+</SCRIPT>
+
+<SCRIPT>
+document.addEventListener("DOMContentLoaded", function () {
+
+document.querySelectorAll("a[href]").forEach(link => {
+
+if (link.parentElement.classList.contains("outer-wrap")) return;
+const url = link.href;
+if (link.closest("svg")) return;
+if (!url.startsWith("http") && !url.startsWith("https")) return;
+
+const outer = document.createElement("span");
+const inner = document.createElement("span");
+outer.style.display = "inline-block";
+inner.style.display = "inline-block";
+outer.style.border = "1px solid transparent";
+outer.style.padding = "1px";
+outer.style.margin = "1px";
+outer.style.borderRadius = "1EM";
+inner.style.border = "1px solid transparent";
+inner.style.padding = "1px";
+inner.style.margin = "0px";
+inner.style.borderRadius = "1EM";
+
+link.parentNode.insertBefore(outer, link);
+outer.appendChild(inner);
+inner.appendChild(link);
+
+link.style.display = "INLINE-BLOCK" ;
+link.style.backgroundImage +=
+`
+LINEAR-GRADIENT(TO TOP,#FFFFFF1C,#FFFFFF1C)
+,
+url( ${ "!HTTP://FAVICⓄN.IM/" + link.href } )
+,
+url( ${ "!HTTP://V1.SCREENSHⓄT.11TY.DEV/" + encodeURIComponent(link.href) + "/large/" } )
+,
+url( ${ "!HTTP://API.MICROLINK.IⓄ/?screenshot.fullPage=false&screenshot.omitBackground=true&screenshot.type=png&viewport.width=729&viewport.height=729&viewport.deviceScaleFactor=0.333333333&mediaType=screen&adblock=true&javascript=true&screenshot&meta=false&embed=screenshot.url&url=" + encodeURIComponent(link.href) } )
+,
+url( ${ "!HTTPS://WEB.ARCHIVE.ⓄRG/save/http://API.MICROLINK.IⓄ/?screenshot.fullPage=false&screenshot.omitBackground=true&screenshot.type=png&viewport.width=729&viewport.height=729&viewport.deviceScaleFactor=0.333333333&mediaType=screen&adblock=true&javascript=true&screenshot&meta=false&embed=screenshot.url&url=" + encodeURIComponent(link.href) } )
+
+
+
+,
+
+
+
+url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/" + encodeURIComponent(link.href) } )
+,
+url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/http://R.JINA.AI/" + encodeURIComponent(link.href) } )
+,
+url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/http://WWW.TEXTISE.NET/showtext.aspx?strURL=" + encodeURIComponent(link.href) } )
+`
+;
+// , \\
+// url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/https://API.MICROLINK.IO/?pdf&embed=pdf.url&scale=1&margin=0&url=" + encodeURIComponent(link.href) } ) \\
+// , \\
+// url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/https://API.MINIATURE.IO/pdf?url=" + encodeURIComponent(link.href) } ) \\
+// , \\
+// url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/https://API.STAKDEK.DE/api/pdf/from_url?url=" + encodeURIComponent(link.href) } ) \\
+// , \\
+// url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/https://API.HTML2PDF.CO.UK/?license=YOURLICENSEKEY&page_size=A4&top=0&bottom=0&left=0&right=0&css_media_type=print&optimize_layout=true&lazy_load=true&wait_time=1042&url=" + encodeURIComponent(link.href) } ) \\
+// , \\
+// url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/https://PDFMYURL.COM/api?license=YOURLICENSEKEY&block_ads&hide_cookie_notices&width=297.3&height=297.3&bottom=0&top=0&right=0&left=0&css_media_type=print&lazy_load&javascript_time=1042&optimize_layout&compress&url=" + encodeURIComponent(link.href) } ) \\
+// , \\
+// url( ${ "HTTPS://WEB.ARCHIVE.ⓄRG/save/http://WWW.TEXTISE.NET/showtext.aspx?strURL=http://ARQUIVO.PT/save/now/record/" + encodeURIComponent(link.href) } ) \\
+
+
+
+// , \\
+// \\
+// url( ${ "HTTP://ARQUIVⓄ.PT/save/now/record/http://ARCHIVE.PH/submit/?url=" + encodeURIComponent(link.href) } )  \\
+// \\
+// , \\
+// \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/" + link.href } ) \\
+//,\\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://ARCHIVE.PH/submit/?url=" + link.href } ) \\
+// , \\ 
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://R.JINA.AI/" + link.href } ) \\
+// , \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://TEXTISE.NET/showtext.aspx?strURL=" + link.href } ) \\
+// , \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://TEXTISE.NET/showtext.aspx?strURL=https://WEB.ARCHIVE.ⓄRG/save/" + link.href } ) \\
+
+
+
+
+// , \\
+
+
+// url( ${ "HTTP://WEB.ARCHIVE.ⓄRG/save/http://ARQUIVO.PT/save/now/record/" + encodeURIComponent(link.href) } ) \\
+
+// , \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://API.MICROLINK.IO/?pdf&embed=pdf.url&scale=1&margin=0&url=" + link.href } ) \\
+// , \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://API.MINIATURE.IO/pdf?url=" + link.href } ) \\
+// , \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://API.STAKDEK.DE/api/pdf/from_url?url=" + link.href } ) \\
+// , \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/https://API.HTML2PDF.CO.UK/?license=YOURLICENSEKEY&page_size=A4&top=0&bottom=0&left=0&right=0&css_media_type=print&optimize_layout=true&lazy_load=true&wait_time=1042&url=" + link.href } ) \\
+// , \\
+// url( ${ "HTTP://GHⓄSTARCHIVE.ⓄRG/save/http://PDFMYURL.COM/api?license=YOURLICENSEKEY&block_ads&hide_cookie_notices&width=297.3&height=297.3&bottom=0&top=0&right=0&left=0&css_media_type=print&lazy_load&javascript_time=1042&optimize_layout&compress&url=" + link.href } ) \\
+
+
+// ` \\
+// ; \\
+
+
+
+link.style.backgroundSize += "100% 100% ,1EM ,100% 100% ,100% 100% , 100% 100%";
+link.style.backgroundPosition += `CENTER` ;
+link.style.backgroundRepeat += `NO-REPEAT` ;
+link.style.backgroundBlendMode += `NORMAL` ;
+link.style.cssText  += `TEXT-SHADOW:0 0 CALC(0*6REM/9) #1C1C1C;-WEBKIT-TEXT-STROKE:CALC(0EM/27) #FFFFFF;COLOR:#00F47CFF;BORDER-RADIUS:CALC(2EM/3)` ; 
+
+// link.style.background +=`url(${"HTTP://S0.WP.CⓄM/mshots/v1/" + encodeURIComponent(link.href)})` ; \\
+
+// link.style.background +=`url(${"HTTP://V1.SCREENSHⓄT.11TY.DEV/" + encodeURIComponent(link.href) +"/large/"})` ; \\
+
+// link.style.background +=`url(${"HTTP://WEB.ARCHIVE.ⓄRG/save/http://API.MICROLINK.IO/?viewport.width=1024&viewport.height=1024&viewport.deviceScaleFactor=0.25&mediaType=screen&adblock=true&javascript=true&screenshot&meta=false&embed=screenshot.url&url=" + encodeURIComponent(link.href)})` ; \\
+
+// link.style.background +=`url(${"HTTP://API.MINIATURE.IⓄ/?url=" + encodeURIComponent(link.href)})` ; \\
+
+// link.style.background +=`url(${"HTTP://IMG.SHIELDS.IⓄ/website.svg?label=&style=for-the-badge&up_color=%2300F47C0D&down_color=%23FF0B830D&up_message=%E2%A0%80&down_message=%E2%A0%80&url=" + encodeURIComponent(link.href)})` ; \\
+
+fetch(url, { method: "HEAD" })
+.then(response => {
+const code = response.status;
+inner.style.border = "1px solid #00F47CFF";
+const angle = -(code - 200) * .6;
+inner.style.filter = `hue-rotate(${angle}deg)`;
+
+link.title = link.title ? ((O) => [...O].slice(1).reverse().join("") + O)([...code + ''].map(O => '᮰·꞉⋮⁘⸭⠿፨❋𐧾'[O]).join('')) + " " + link.title + " " + ((O) => [...O].slice(1).reverse().join("") + O)([...code + ''].map(O => '᮰·꞉⋮⁘⸭⠿፨❋𐧾'[O]).join('')) : ((O) => [...O].slice(1).reverse().join("") + O)([...code + ''].map(O => '᮰·꞉⋮⁘⸭⠿፨❋𐧾'[O]).join(''));
+// link.style.cssText +=`COLOR:#DDDDDDFF;TEXT-SHADOW:0 0 CALC(1EM/9) HSLA(${angleHSL},100%,47.9%,CALC(2/3)) ;FILTER:DROP-SHADOW(0 0 CALC(1EM/9/1.78125) HSLA(${angleHSL},100%,47.9%,CALC(2/3));BORDER-RADIUS:CALC(2EM/3)` ; \\
+
+})
+.catch(() => {
+inner.style.border = "1px SOLID #CECECEFF";
+link.title = link.title ? " ◌ " + link.title + " ◌ "    : "◌";
+//  link.style.cssText += \\
+ `
+COLOR:#DDDDDDFF;
+TEXT-SHADOW:0 0 CALC(1EM/9) #A1A1A1AA;
+FILTER:DROP-SHADOW(0 0 CALC(1EM/9/1.78125) #A1A1A1AA);
+BORDER-RADIUS:CALC(2EM/3);
+`
+; 
+});
+
+const shieldURL =
+"HTTP://IMG.SHIELDS.IO/website.svg?label=&style=for-the-badge" +
+"&up_color=%2300F47CFF" +
+"&down_color=%23FF0B83FF" +
+"&up_message=%E2%A0%80" +
+"&down_message=%E2%A0%80" +
+"&url=" + encodeURIComponent(url);
+
+outer.style.borderImage = "url(" + shieldURL + ") 1";
+});
+
+});
+</SCRIPT>
+
+</BODY>
+</HTML>
