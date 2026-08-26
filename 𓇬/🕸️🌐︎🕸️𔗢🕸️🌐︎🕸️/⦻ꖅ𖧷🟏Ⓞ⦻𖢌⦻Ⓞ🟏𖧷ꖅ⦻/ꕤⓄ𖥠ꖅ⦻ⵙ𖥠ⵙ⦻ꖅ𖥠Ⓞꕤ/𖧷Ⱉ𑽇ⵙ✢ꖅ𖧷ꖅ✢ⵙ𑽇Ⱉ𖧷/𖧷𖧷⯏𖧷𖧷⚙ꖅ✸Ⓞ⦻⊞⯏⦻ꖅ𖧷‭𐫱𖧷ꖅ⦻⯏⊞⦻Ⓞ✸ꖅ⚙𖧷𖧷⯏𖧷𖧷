@@ -1,0 +1,827 @@
+[id="appMenu-update-manual-notification"],[id="appMenu-update-available-notification"],.autocomplete-richlistitem[type="insecureWarning"],#private-browsing-indicator-with-label,#tabs-newtab-button,#new-tab-button
+,.urlbarView-button,.tab-label-container,#urlbar:NOT(.SEARCHBUTTON)>#urlbar-input-container>#identity-box[pageproxystate="invalid"],.tabbrowser-tab .tab-close-button,.titlebar-buttonbox-container,#identity-icon-label
+,.urlbarView-row[tip-type="intervention_update_web"],#context-sep-bidi,#context-bidi-text-direction-toggle,#inspect-separator,#spell-check-enabled,#context-bidi-page-direction-toggle,#context-take-screenshot
+,#context-sep-screenshots,#context-searchselect-private,#context-viewpartialsource-selection,#context-print-selection,#context-viewsource,#context-savepage,#context-reload,#context-back,#context-forward
+,#context-bookmarkpage,#context-sep-navigation,#context-selectall,#context-sep-selectall,#link-extractor_cssnr_com-menuitem-18,#_49bd4b24-e5b9-4238-a241-3487486f9235_-menuitem-_\{\"format\"\:\"png\"\,\"region\"\:\"full\"\,\"topmenu\"\:true\}
+,#_531906d3-e22f-4a6c-a102-8057b88a1a63_-menuitem-24,#extension_one-tab_com-menuitem-_fklNcXyMkhMh_Lp4-posJ8,#context_openANewTab,#context_reloadTab,#context_undoCloseTab,#webpagescanner_waldemar_b-menuitem-_addThis
+,#_d4c9d93a-c00c-49da-b57e-424c20160155_-menuitem-_sss,#_531906d3-e22f-4a6c-a102-8057b88a1a63_-menuitem-23,#extension_one-tab_com-menuitem-_euKmCv6_PxN3vyrd1HMmum,#link-extractor_cssnr_com-menuitem-21
+,#context-sendvideo
+{DISPLAY:NONE!IMPORTANT}
+*{TRANSITION:NONE!IMPORTANT;FONT-STYLE:NORMAL!IMPORTANT}
+#permissions-granted-icon,#blocked-permissions-container{Z-INDEX:1!IMPORTANT}
+
+#identity-icon-box,.menu-iconic>.menu-iconic-left,.menuitem-iconic>.menu-iconic-left,#personal-toolbar-empty-description,toolbarbutton.bookmark-item:not(.subviewbutton),
+#appMenu-zoom-controls>.subviewbutton,.toolbarbutton-text
+{PADDING:0!IMPORTANT}
+
+:ROOT toolbarbutton.bookmark-item
+{MARGIN:0!IMPORTANT}
+.menu-accel,.menu-iconic-accel,#PlacesToolbarItems>.bookmark-item>.toolbarbutton-icon[label]:not([label=""]),#unified-extensions-panel,.unified-extensions-item,.unified-extensions-item-icon,
+.unified-extensions-item .webextension-browser-action.subviewbutton>.toolbarbutton-badge-stack,#downloadsSummaryDetails,.downloadDetails
+{MARGIN:0!IMPORTANT}
+
+:ROOT
+{PADDING:0!IMPORTANT;MARGIN:0!IMPORTANT;--arrowpanel-menuitem-padding:0!IMPORTANT;--arrowpanel-menuitem-margin-inline:0!IMPORTANT;--panel-subview-body-padding-block:0!IMPORTANT}
+.unified-extensions-item-action-button,.menu-text,.menu-iconic-text,.tabbrowser-tab
+{PADDING:0!IMPORTANT;MARGIN:0!IMPORTANT}
+
+#appcontent,#browser,#tabbrowser-tabbox,#tabbrowser-tabpanels,.browserSidebarContainer{MARGIN-TOP:.0875VH!IMPORTANT}
+
+:ROOT
+{
+/*! --O_YTICAPO_O_OPACITY_O:CALC(256/256)!IMPORTANT; */
+--O_EZIS_NOCI_O_ICON_SIZE_O:16PX!IMPORTANT;
+--OO:CALC(0.00666666666/6);
+--O_SUIDAR_REDROB_RESWORB_O_BROWSER_BORDER_RADIUS_O:CALC(100%/3.168125/3.168125/3.168125)!IMPORTANT;
+--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O:CALC(100/729*86)/*11.65625*//*11.5625*//*6.9375*/!IMPORTANT;
+--panel-separator-margin-vertical:0!IMPORTANT;--arrowpanel-menuitem-border-radius:CALC(VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)/2/1.6)!IMPORTANT;--arrowpanel-header-info-icon-padding:0!IMPORTANT;--toolbarbutton-border-radius:8PX!IMPORTANT;--toolbarbutton-outer-padding:0!IMPORTANT;
+--toolbarbutton-inner-padding:0!IMPORTANT;--toolbar-start-end-padding:0!IMPORTANT;--identity-box-margin-inline:0!IMPORTANT;--tab-border-radius:256PX!IMPORTANT;--inline-tab-padding:0!IMPORTANT;--tab-block-margin:0!IMPORTANT;--tab-min-height:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT;
+--urlbar-container-padding:0!IMPORTANT;--urlbar-margin-inline:0!IMPORTANT;--urlbar-min-height:0!IMPORTANT;--urlbarView-row-gutter:0PX!IMPORTANT;--urlbarView-result-button-size:16PX!IMPORTANT;--button-hover-bgcolor:#F9F9F9!IMPORTANT;--uei-icon-size:16PX!IMPORTANT;
+--toolbarbutton-active-background:RGB(244,244,244)!IMPORTANT;
+}
+
+!#fullscreen-and-pointerlock-wrapper
+{
+/*MARGIN-TOP:0PX!IMPORTANT;BACKGROUND:URL("ꓨVƧ.SVG") TOP NO-REPEAT!IMPORTANT;BACKGROUND-SIZE:100% 96.9375%!IMPORTANT;*/
+MARGIN-TOP:4PX!IMPORTANT;BACKGROUND:
+/*LINEAR-GRADIENT(TO TOP,RGBA(255,255,255,CALC(190/256)),RGBA(255,255,255,CALC(190/256))),*/
+
+ URL("ꓨИꟼ.𖣠⚪⁘❋·⊚⠿𐧾ⵔ⁘𖥕⸭꞉·ⵈⵔ◌ⵔ⊚ᗱᗴᙏᗩᴥꗳ🟗ↀⵙᙁᑐᑕᑎᗱᗴ𖥞옷ߦᗩᴥᕤᕦᗱᗴߦᗩ옷ᔓᔕ🝊ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ🝊ᔓᔕ옷ᗩߦᗱᗴᕤᕦᴥᗩߦ옷𖥞ᗱᗴᑎᑐᑕᙁⵙↀ🟗ꗳᴥᗩᙏᗱᗴ⊚ⵔ◌ⵔⵈ·꞉⸭𖥕⁘ⵔ𐧾⠿⊚·❋⁘⚪𖣠.PNG")
+,URL("ꓨИꟼ..𖣠⚪⸭⸭꞉⊚ⵔ𐧼⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚𐧼ⵔ⊚꞉⸭⸭⚪𖣠..PNG")
+,URL("ꓨИꟼ..𖣠⚪⸭⸭꞉⊚ⵔ𐧼⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚𐧼ⵔ⊚꞉⸭⸭⚪𖣠..PNG")
+,URL("ꓨИꟼ..𖣠⚪⸭⸭꞉⊚ⵔ𐧼⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚𐧼ⵔ⊚꞉⸭⸭⚪𖣠..PNG")
+,URL("ꓨИꟼ..𖣠⚪⸭⸭꞉⊚ⵔ𐧼⊚✤ⵙ⚭𖣓❋⊚⠿𐧾ⵔ⁘𖥕𖢌◌⁘❋⚪𔗢⚪🞋⚪𔗢⚪❋⁘◌𖢌𖥕⁘ⵔ𐧾⠿⊚❋𖣓⚭ⵙ✤⊚𐧼ⵔ⊚꞉⸭⸭⚪𖣠..PNG")
+/*,URL("ꓨИꟼ.𖣠⚪⠿⸭꞉⊚ⵈ⁘꞉⊚✤ⵙ⚭𖣓⠿·⊚⠿𐧾ⵔ⁘⊚ⵔ⁘·⁘·𖥕✤ИNᗱᗴⵙↀᗩᴥᕤᕦ𖤞ᗱᗴᙁᑐᑕᴥⵙᑎ¤ᔓᔕ▢ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ▢ᔓᔕ¤ᑎⵙᴥᑐᑕᙁᗱᗴ𖤞ᕤᕦᴥᗩↀⵙᗱᗴИN✤𖥕·⁘·⁘ⵔ⊚⁘ⵔ𐧾⠿⊚·⠿𖣓⚭ⵙ✤⊚꞉⁘ⵈ⊚꞉⸭⠿⚪𖣠.PNG")*/
+!IMPORTANT;
+BACKGROUND-POSITION:
+CALC(50%) CALC(0%)
+,CALC(50%) CALC(48.265625%/18)
+,CALC(50%) CALC(48.265625%*1.9375)
+,CALC(5%) CALC(48%)
+,CALC(95%) CALC(48%)
+!IMPORTANT;
+BACKGROUND-SIZE:
+CALC(100%) CALC(96.53125%)
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO
+,CALC(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*100%/243) AUTO 
+/*,CALC(100%/1.1625) CALC(96.53125%/1.1625)*/
+!IMPORTANT;
+BACKGROUND-REPEAT:NO-REPEAT,NO-REPEAT,NO-REPEAT,NO-REPEAT,NO-REPEAT!IMPORTANT;
+OPACITY:CALC(VAR(--O_YTICAPO_O_OPACITY_O)*1);
+ANIMATION:O CALC(84.406022589954030768899117092091000289089388918088900852079s/3/3/3/3) INFINITE;ANIMATION-TIMING-FUNCTION:STEPS(1)!IMPORTANT;
+/*MIX-BLEND-MODE:DARKEN!IMPORTANT;*/
+/*FILTER:DROP-SHADOW(0 0 1PX HSLA(0,0%,0%,1.1));*/
+/*BACKGROUND-BLEND-MODE:DARKEN!IMPORTANT;*/
+Z-INDEX:0!IMPORTANT
+}
+
+.browserContainer
+{
+BORDER-RADIUS:VAR(--O_SUIDAR_REDROB_RESWORB_O_BROWSER_BORDER_RADIUS_O)!IMPORTANT;
+/*MIX-BLEND-MODE: MULTIPLY!IMPORTANT;*/
+}
+.browserStack,browser[contextmenu="contentAreaContextMenu"]
+{
+BORDER-RADIUS:CALC(MIN(100VW,100VH)/3/3/3/3)!IMPORTANT;
+--O_ROLOC_O_COLOR_O:#F6F6F6!IMPORTANT;
+--O_SUIDAR_RULB_O_BLUR_RADIUS_O:CALC(MAX(VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VH,VAR(--O_NIGRAM_RESWORB_O_BROWSER_MARGIN_O)*1VW)/3/3/3)!IMPORTANT;
+--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:0!IMPORTANT;
+BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
+/*BOTTOM:16PX!IMPORTANT;TOP:16PX!IMPORTANT;RIGHT:16PX!IMPORTANT;LEFT:16PX!IMPORTANT*/
+}
+.browserStack
+{
+MARGIN:AUTO!IMPORTANT;WIDTH:CALC(MIN(96.45125VW,96.45125VH)/1)!IMPORTANT;HEIGHT:CALC(MIN(92.53125VW,92.53125VH)/1)!IMPORTANT;    
+}
+
+.urlbarView-favicon{BORDER-RADIUS:CALC(VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)/2/1.6)!IMPORTANT}
+#BROWSER{-MOZ-BOX-ORDINAL-GROUP:0!IMPORTANT;ORDER:0!IMPORTANT}#navigator-toolbox-background{-MOZ-BOX-ORDINAL-GROUP:1!IMPORTANT;ORDER:1!IMPORTANT;Z-INDEX:1}#titlebar{ORDER:2;-MOZ-APPEARANCE:NONE!IMPORTANT;--tabs-navbar-shadow-size:0!IMPORTANT}
+.titlebar-spacer[type="pre-tabs"],.titlebar-spacer[type="post-tabs"]{WIDTH:0!IMPORTANT}.titlebar-buttonbox toolbarbutton{MARGIN-TOP:-0.5PX!IMPORTANT;MARGIN-RIGHT:-0.5PX!IMPORTANT}
+:ROOT :is(panel, menupopup) {--arrowpanel-header-back-icon-padding:0!IMPORTANT}menupopup>menuitem, menupopup>menu{MIN-HEIGHT:UNSET!IMPORTANT}
+.subviewbutton{BORDER-RADIUS:8PX!IMPORTANT;OVERFLOW:CLIP!IMPORTANT}#alltabs-button{LIST-STYLE-IMAGE:url(CHROME://GLOBAL/skin/icons/arrow-up.svg)!IMPORTANT}
+#PlacesToolbar menupopup[placespopup="true"]{--arrowpanel-BORDER-RADIUS:8PX!IMPORTANT}
+#identity-icon,#tracking-protection-icon{OPACITY:CALC(107/256)!IMPORTANT;filter:saturate(1)!IMPORTANT}
+#star-button,.urlbarView-type-icon,#appMenu-fxa-separator{OPACITY:CALC(69/256)!IMPORTANT;FILTER:SATURATE(0)!IMPORTANT}
+#tabbrowser-arrowscrollbox:not([overflowing]){--uc-flex-justify:CENTER!IMPORTANT}scrollbox[orient="horizontal"]{justify-content:VAR(--uc-flex-justify,INITIAL)!IMPORTANT}#allTabsMenu-allTabsView{MAX-WIDTH:-MOZ-AVAILABLE!IMPORTANT}
+#urlbar{--urlbar-height:16PX!IMPORTANT}#urlbar[open]>#urlbar-background{BOX-SHADOW:NONE!IMPORTANT;OUTLINE:SOLID 0PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
+#urlbar[open]{WIDTH:-MOZ-AVAILABLE!IMPORTANT;DISPLAY:FLEX!IMPORTANT;FLEX-DIRECTION:COLUMN-REVERSE;BOTTOM:0PX!IMPORTANT;TOP:0!IMPORTANT;}
+.urlbarView-body-inner,.urlbarView-body-outer{BORDER-WIDTH:0PX!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT}.urlbarView-results{PADDING:0!IMPORTANT;MARGIN:0!IMPORTANT;BACKGROUND-COLOR:#FFFFFF!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;BORDER-WIDTH:0PX!IMPORTANT}
+.urlbarView-row-inner,.urlbarView-no-wrap{PADDING-BLOCK:0!IMPORTANT;MIN-HEIGHT:16PX!IMPORTANT;JUSTIFY-CONTENT:CENTER!IMPORTANT}
+.urlbarView-row[selected]{BACKGROUND-COLOR:RGB(244,244,244)!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
+.urlbarView-row:hover{BACKGROUND-COLOR:RGB(247,247,247)!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
+.urlbarView-action{BACKGROUND-COLOR:RGB(247,247,247)!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
+.urlbarView-row::before{DISPLAY:NONE!IMPORTANT}
+.urlbarView-row{MARGIN:0!IMPORTANT}
+
+.urlbarView{outline:1PX SOLID #E6E6E6!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT;TOP:1PX!IMPORTANT;PADDING:1PX!IMPORTANT;}
+
+#urlbar[focused="true"]>#urlbar-background,#searchbar:focus-within{BOX-SHADOW:NONE!IMPORTANT;OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
+panelview{MIN-WIDTH:FIT-CONTENT!IMPORTANT;DISPLAY:FLEX!IMPORTANT;FLEX-WRAP:WRAP-REVERSE!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT}
+#contentAreaContextMenu,#appMenu-popup,#customizationui-widget-panel,#unified-extensions-panel,#downloadsPanel,#identity-popup,#protections-popup
+{TEXT-TRANSFORM:UPPERCASE!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
+#appMenu-popup{TRANSFORM:TRANSLATEY(1PX)!IMPORTANT}
+moz-input-box,#statuspanel,#statuspanel-label{TEXT-ALIGN:CENTER!IMPORTANT;JUSTIFY-CONTENT:CENTER!IMPORTANT;MAX-WIDTH:100%!IMPORTANT;WIDTH:100%!IMPORTANT}.urlbarView-url{FLEX-GROW:0!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
+.menu-iconic-left{!IMPORTANT;WIDTH:2EM!IMPORTANT}
+#userContext-icons,#urlbar-zoom-button{MARGIN-INLINE:1PX!IMPORTANT}#urlbar-zoom-button{FONT-SIZE:1EM!IMPORTANT;PADDING:0!IMPORTANT;BACKGROUND-COLOR:#F5F5F5!IMPORTANT;COLOR:RGB(167,167,167)!IMPORTANT}
+#nav-bar{BOX-SHADOW:NONE!IMPORTANT}#urlbar-input-container{BORDER:0!IMPORTANT;PADDING:2PX!IMPORTANT}menupopup,panel{--panel-shadow-margin:.3125PX!IMPORTANT}
+label,.dialog-button-box,menu,menuitem{ALIGN-SELF:CENTER!IMPORTANT;TEXT-ALIGN:CENTER!IMPORTANT}hbox{BACKGROUND:TRANSPARENT!IMPORTANT}#identity-box{MARGIN:0!IMPORTANT;WIDTH:16PX!IMPORTANT}
+
+#tabbrowser-tabs,#tabbrowser-tabs>#tabbrowser-arrowscrollbox,.tabbrowser-tabs .tabbrowser-tab{MIN-HEIGHT:VAR(--tab-min-height)!IMPORTANT;MAX-HEIGHT:VAR(--tab-min-height)!IMPORTANT}.tab-icon-overlay{Z-INDEX:-1!IMPORTANT}
+toolbar.toolbarbutton-1>.toolbarbutton-text,.toolbarbutton-1,.tab-icon-image{BORDER-RADIUS:8PX!IMPORTANT}toolbar .toolbarbutton-1>.toolbarbutton-icon{BORDER-RADIUS:4PX!IMPORTANT}@MEDIA{:root:-moz-lwtheme{--focus-outline-color:#D3D3D3!IMPORTANT}}
+
+.tabbrowser-tab:is([visuallyselected="true"],[multiselected])>.tab-stack>.tab-background,tab.tabbrowser-tab:is([selected="true"],[multiselected])
+{
+BOX-SHADOW:NONE!IMPORTANT;
+BACKGROUND:
+URL("ꓨИꟼ.𖣠⚪✤ⵙ⚭𖣓⠿·⊚⠿𐧾ⵔ⁘⊚ⵔ⁘·⁘·𖥕✤ИNᗱᗴⵙↀᗩᴥᕤᕦ𖤞ᗱᗴᙁᑐᑕᴥⵙᑎ¤ᔓᔕ▢ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ▢ᔓᔕ¤ᑎⵙᴥᑐᑕᙁᗱᗴ𖤞ᕤᕦᴥᗩↀⵙᗱᗴИN✤𖥕·⁘·⁘ⵔ⊚⁘ⵔ𐧾⠿⊚·⠿𖣓⚭ⵙ✤⚪𖣠.PNG")
+CENTER/COVER!IMPORTANT;Z-INDEX:1!IMPORTANT;OUTLINE:NONE!IMPORTANT;
+OPACITY:CALC(VAR(--O_YTICAPO_O_OPACITY_O)*1);
+ANIMATION:◦୦◦◯◦୦◦ CALC(84.406022589954030768899117092091000289089388918088900852079s/3/3/3/3/3) EASE-IN-OUT INFINITE;Z-INDEX:1!IMPORTANT;
+/*MIX-BLEND-MODE:DIFFERENCE!IMPORTANT*/
+}
+
+.tab-background
+{
+BACKGROUND:
+URL(".ꓨИꟼ.𖣠⚪⠿⸭꞉⊚ⵈ⁘꞉⊚✤ⵙ⚭𖣓⠿·⊚⠿𐧾ⵔ⁘⊚ⵔ⁘·⁘·𖥕✤ИNᗱᗴⵙↀᗩᴥᕤᕦ𖤞ᗱᗴᙁᑐᑕᴥⵙᑎ¤ᔓᔕ▢ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ▢ᔓᔕ¤ᑎⵙᴥᑐᑕᙁᗱᗴ𖤞ᕤᕦᴥᗩↀⵙᗱᗴИN✤𖥕·⁘·⁘ⵔ⊚⁘ⵔ𐧾⠿⊚·⠿𖣓⚭ⵙ✤⊚꞉⁘ⵈ⊚꞉⸭⠿⚪𖣠.PNG.")
+CENTER/COVER!IMPORTANT;Z-INDEX:1;OUTLINE:NONE!IMPORTANT;BORDER-RADIUS:0PX!IMPORTANT;
+BACKGROUND-SIZE:100% 100%!IMPORTANT;
+OPACITY:1;
+ANIMATION:O CALC(84.406022589954030768899117092091000289089388918088900852079s/3/3/3/3/3) INFINITE;ANIMATION-TIMING-FUNCTION:STEPS(1)!IMPORTANT;Z-INDEX:1!IMPORTANT;
+}
+
+button
+{
+BACKGROUND:
+URL("ꓨИꟼ.𖣠⚪⠿⸭꞉⊚ⵈ⁘꞉⊚✤ⵙ⚭𖣓⠿·⊚⠿𐧾ⵔ⁘⊚ⵔ⁘·⁘·𖥕✤ИNᗱᗴⵙↀᗩᴥᕤᕦ𖤞ᗱᗴᙁᑐᑕᴥⵙᑎ¤ᔓᔕ▢ᔓᔕᑎⵙ⚭ᗩꗳ𖡗⚪𔗢⚪🞋⚪𔗢⚪𖡗ꗳᗩ⚭ⵙᑎᔓᔕ▢ᔓᔕ¤ᑎⵙᴥᑐᑕᙁᗱᗴ𖤞ᕤᕦᴥᗩↀⵙᗱᗴИN✤𖥕·⁘·⁘ⵔ⊚⁘ⵔ𐧾⠿⊚·⠿𖣓⚭ⵙ✤⊚꞉⁘ⵈ⊚꞉⸭⠿⚪𖣠.PNG")
+,#FAFAFA
+CENTER/COVER!IMPORTANT;Z-INDEX:1;OUTLINE:NONE!IMPORTANT;BORDER-RADIUS:31%;
+BACKGROUND-SIZE:100% 100%!IMPORTANT;
+ANIMATION:O CALC(84.406022589954030768899117092091000289089388918088900852079s/3/3/3/3) INFINITE;ANIMATION-TIMING-FUNCTION:STEPS(1)!IMPORTANT;Z-INDEX:1!IMPORTANT;
+
+}
+.button-text{TEXT-TRANSFORM:UPPERCASE!IMPORTANT;COLOR:#9D9D9D!IMPORTANT;FONT-SIZE:12PX!IMPORTANT;FONT-FAMILY:"GO NOTO AFRICA MIDDLE EAST"FONT-FAMILY:"GO NOTO AFRICA MIDDLE EAST";FONT-WEIGHT:1!IMPORTANT;FONT-WEIGHT:1!IMPORTANT}
+
+button:focus {
+--O_ROLOC_O_COLOR_O:#E8E8E8!IMPORTANT;
+--O_SUIDAR_RULB_O_BLUR_RADIUS_O:12PX!IMPORTANT;
+--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:0!IMPORTANT;
+BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
+BORDER-RADIUS:31%!IMPORTANT;
+}
+
+button:focus-visible{
+OUTLINE:NONE!IMPORTANT;
+--O_ROLOC_O_COLOR_O:#E8E8E8!IMPORTANT;
+--O_SUIDAR_RULB_O_BLUR_RADIUS_O:12PX!IMPORTANT;
+--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:0!IMPORTANT;
+BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
+BORDER-RADIUS:31%!IMPORTANT;
+}
+
+.titleContainer,label:not(#statuspanel-label),.popup-notification-description,popupnotificationcontent,.popup-notification-button-container,description,#editBookmarkPanelTitle
+{TEXT-TRANSFORM:UPPERCASE!IMPORTANT;FONT-FAMILY:"GO NOTO AFRICA MIDDLE EAST"!IMPORTANT;FONT-WEIGHT:1!IMPORTANT;ALIGN-SELF:CENTER!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT;ALIGN-CONTENT:CENTER!IMPORTANT;
+JUSTIFY-CONTENT:CENTER!IMPORTANT;JUSTIFY-ITEMS:CENTER!IMPORTANT;JUSTIFY-SELF:CENTER!IMPORTANT;TEXT-ALIGN:CENTER!IMPORTANT}
+
+.editBMPanel_nameRow,.editBMPanel_folderRow,.panel-button,.editBMPanel_tagsRow,.checkbox-label-box,.folder-icon,#editBookmarkPanelBottomButtons,#editBMPanel_newFolderBox,
+#editBookmarkPanel_showForNewBookmarks,#editBookmarkPanelContent,#editBMPanel_tagsField,#editBMPanel_tagsSelectorExpander,#editBookmarkPanelFaviconContainer
+{PADDING:0!IMPORTANT;MARGIN:0!IMPORTANT;FONT-FAMILY:"GO NOTO AFRICA MIDDLE EAST"!IMPORTANT;FONT-WEIGHT:1!IMPORTANT;ALIGN-SELF:CENTER!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT;ALIGN-CONTENT:CENTER!IMPORTANT;
+JUSTIFY-CONTENT:CENTER!IMPORTANT;JUSTIFY-ITEMS:CENTER!IMPORTANT;JUSTIFY-SELF:CENTER!IMPORTANT;TEXT-ALIGN:CENTER!IMPORTANT}
+
+label:focus-visible{
+OUTLINE:NONE!IMPORTANT;
+--O_ROLOC_O_COLOR_O:#F0F0F0!IMPORTANT;
+--O_SUIDAR_RULB_O_BLUR_RADIUS_O:0PX!IMPORTANT;
+--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O:.5PX!IMPORTANT;
+BOX-SHADOW:INSET 0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O),0 0 VAR(--O_SUIDAR_RULB_O_BLUR_RADIUS_O) VAR(--O_SUIDAR_DAERPS_O_SPREAD_RADIUS_O) VAR(--O_ROLOC_O_COLOR_O)!IMPORTANT;
+BORDER-RADIUS:5PX
+}
+
+.tab-icon-image{width:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT;HEIGHT:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT}
+tab{min-width:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT;min-height:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT}
+.tabbrowser-tab{MAX-WIDTH:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT;MIN-WIDTH:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT}
+toolbar{MIN-HEIGHT:0!IMPORTANT;MAX-HEIGHT:VAR(--O_EZIS_NOCI_O_ICON_SIZE_O)!IMPORTANT}
+.unified-extensions-item-menu-button.subviewbutton{PADDING:0PX!IMPORTANT;BORDER:0PX SOLID TRANSPARENT!IMPORTANT}menupopup,panel{MARGIN:0PX!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;OUTLINE:SOLID 1PX #E6E6E6!IMPORTANT;OUTLINE-OFFSET:-1PX!IMPORTANT}
+description,.ac-title{MAX-WIDTH:-MOZ-AVAILABLE!IMPORTANT;HEIGHT:-MOZ-AVAILABLE!IMPORTANT;PADDING:0!IMPORTANT;MARGIN:0!IMPORTANT;BORDER-WIDTH:0!IMPORTANT}#editBookmarkPanel{WIDTH:-MOZ-AVAILABLE!IMPORTANT}#editBMPanel_folderTree{MIN-HEIGHT:376PX!IMPORTANT}
+#navigator-toolbox:-moz-any(.toolbarbutton-1, toolbarbutton.bookmark-item:not(.subviewbutton)){BORDER-RADIUS:256PX!IMPORTANT}#navigator-toolbox{BORDER-BOTTOM:0!IMPORTANT}span,.C{FONT-WEIGHT:NORMAL!IMPORTANT}
+#tabbrowser-tabs{--tab-overflow-pinned-tabs-width:0!IMPORTANT}toolbar .toolbaritem-combined-buttons{MARGIN-INLINE:0PX!IMPORTANT}#urlbar,#searchbar{FONT-SIZE:1EM!IMPORTANT}
+toolbarbutton menupopup[placespopup]>:is(menu,menuitem),.subview-subheader,panelview .toolbarbutton-1,.subviewbutton,.widget-overflow-list .toolbarbutton-1{MIN-HEIGHT:0!IMPORTANT}
+.autocomplete-richlistitem{MIN-HEIGHT:16PX!IMPORTANT;WIDTH:-MOZ-AVAILABLE!IMPORTANT;JUSTIFY-CONTENT:CENTER!IMPORTANT} .autocomplete-richlistbox{HEIGHT:FIT-CONTENT!IMPORTANT;ALIGN-ITEMS:CENTER!IMPORTANT}
+menu.bookmark-item,menuitem.bookmark-item{max-width:-moz-available!IMPORTANT}#urlbar-input,#urlbar-scheme,.searchbar-textbox{COLOR:#A7A7A7FF!IMPORTANT;BACKGROUND:WHITE!IMPORTANT}
+.menu-iconic.bookmark-item>.menu-iconic-left>.menu-iconic-icon{BORDER-RADIUS:4PX!IMPORTANT;OPACITY:CALC(4/9)!IMPORTANT}menupopup,.menu-iconic-icon{BORDER-RADIUS:8PX!IMPORTANT}.menuitem-iconic{HEIGHT:16PX!IMPORTANT}
+.toolbarbutton-badge{BACKGROUND-COLOR:#FFFFFFFF!IMPORTANT;FONT-SIZE:8PX!IMPORTANT;FONT-WEIGHT:INITIAL!IMPORTANT;PADDING:0!IMPORTANT;COLOR:#A8A8A8!IMPORTANT;MARGIN:0!IMPORTANT;MIN-WIDTH:0PX!IMPORTANT;MAX-WIDTH:16PX!IMPORTANT;ALIGN-SELF:CENTER!IMPORTANT;JUSTIFY-SELF:CENTER!IMPORTANT}
+#statuspanel-label{MARGIN:0!IMPORTANT;PADDING:0!IMPORTANT;BACKGROUND-COLOR:#FFFFFFFF!IMPORTANT;BORDER:0 SOLID #F7F7F7FF!IMPORTANT;COLOR:#A7A7A7FF!IMPORTANT}
+.browserContainer>findbar{MARGIN:0!IMPORTANT;PADDING:0!IMPORTANT;ALIGN-SELF:CENTER!IMPORTANT;WIDTH:435PX!IMPORTANT;BORDER:0!IMPORTANT;BORDER-RADIUS:16PX!IMPORTANT}#appMenu-header-description{MARGIN:-5PX!IMPORTANT;PADDING-LEFT:26PX!IMPORTANT}
+.findbar-label,.findbar-container,.findbar-textbox,.find-status-icon,.findbar-case-sensitive,.findbar-closebutton,.findbar-entire-word,.findbar-find-next,.findbar-find-previous,.findbar-highlight,.findbar-match-diacritics
+{PADDING:0PX!IMPORTANT;MARGIN:0PX!IMPORTANT;HEIGHT:16PX!IMPORTANT;WIDTH:FIT-CONTENT!IMPORTANT}.findbar-closebutton{WIDTH:16PX!IMPORTANT}toolbarbutton,toolbaritem{ALIGN-SELF:CENTER!IMPORTANT;BORDER-WIDTH:0!IMPORTANT;MARGIN:0!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT}
+#downloadsPanel-blockedSubview,#downloadsPanel-mainView{PADDING:0!IMPORTANT;MARGIN-LEFT:3PX!IMPORTANT}.downloadMainArea{PADDING-BLOCK:0!IMPORTANT;PADDING-INLINE-START:0!IMPORTANT}
+
+.downloadTypeIcon{WIDTH:16PX!IMPORTANT;HEIGHT:16PX!IMPORTANT}#downloadsListBox>richlistitem{MIN-HEIGHT:16PX!IMPORTANT}#urlbar-container{ALIGN-SELF:NORMAL!IMPORTANT}
+.checkbox-check{BACKGROUND-COLOR:#FFFFFF!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;MARGIN-INLINE-END:8PX!IMPORTANT}.checkbox-check[checked]{BORDER-COLOR:#D5D5D5!IMPORTANT;BACKGROUND-COLOR:#FFFFFF!IMPORTANT;FILL:#D5D5D5!IMPORTANT}
+checkbox:not([disabled="true"]):hover>.checkbox-check[checked]{BACKGROUND-COLOR:#FFFFFF!IMPORTANT}checkbox:not([disabled="true"]):hover:active>.checkbox-check[checked]{BACKGROUND-COLOR:#FFFFFF!IMPORTANT}.checkbox-check{MARGIN:0!IMPORTANT}
+input.findbar-textbox[status="notfound"]{BACKGROUND-COLOR:#FFFFFFFF!IMPORTANT}input.findbar-textbox{COLOR:RGB(167,167,167)!IMPORTANT;BORDER-RADIUS:8PX!IMPORTANT;PADDING-LEFT:2.5PX!IMPORTANT}.downloadTypeIcon{MARGIN-INLINE-END:0!IMPORTANT}
+
+!menu,!menuitem,!.subviewbutton{WIDTH:-MOZ-AVAILABLE!IMPORTANT;TEXT-ALIGN:CENTER!IMPORTANT;MARGIN:0!IMPORTANT;DISPLAY:BLOCK RUBY!IMPORTANT}
+toolbarbutton{!IMPORTANT;FILL:HSL(150,0%,CALC(100%/256*194))!IMPORTANT}toolbar,#identity-icon-box{BACKGROUND:NONE!IMPORTANT}
+#PlacesToolbarItems{WIDTH:77.125PX!IMPORTANT}
+#protections-popup-footer-protection-type-label{MARGIN-LEFT:4PX!IMPORTANT}#protections-popup-show-report-button{MARGIN-RIGHT:71PX!IMPORTANT}
+.protections-popup-switch-section-header{MIN-HEIGHT:0!IMPORTANT}
+#editBMPanel_folderTreeRow{WIDTH:90.625VW!IMPORTANT}
+@keyframes OO
+{
+0% {OPACITY:CALC(0)}
+1.5625% {OPACITY:CALC(19/33177600)}
+3.125% {OPACITY:CALC(143/2073600)}
+4.6875% {OPACITY:CALC(25219/33177600)}
+6.25% {OPACITY:CALC(1/288)}
+7.8125% {OPACITY:CALC(334781/33177600)}
+9.375% {OPACITY:CALC(46657/2073600)}
+10.9375% {OPACITY:CALC(1396781/33177600)}
+12.5% {OPACITY:CALC(5/72)}
+14.0625% {OPACITY:CALC(3470381/33177600)}
+15.625% {OPACITY:CALC(305857/2073600)}
+17.1875% {OPACITY:CALC(6555581/33177600)}
+18.75% {OPACITY:CALC(73/288)}
+20.3125% {OPACITY:CALC(10393219/33177600)}
+21.875% {OPACITY:CALC(777743/2073600)}
+23.4375% {OPACITY:CALC(14515219/33177600)}
+25% {OPACITY:CALC(1/2)}
+26.5625% {OPACITY:CALC(18662381/33177600)}
+28.125% {OPACITY:CALC(1295857/2073600)}
+29.6875% {OPACITY:CALC(22784381/33177600)}
+31.25% {OPACITY:CALC(215/288)}
+32.8125% {OPACITY:CALC(26622019/33177600)}
+34.375% {OPACITY:CALC(1767743/2073600)}
+35.9375% {OPACITY:CALC(29707219/33177600)}
+37.5% {OPACITY:CALC(67/72)}
+39.0625% {OPACITY:CALC(31780819/33177600)}
+40.625% {OPACITY:CALC(2026943/2073600)}
+42.1875% {OPACITY:CALC(32842819/33177600)}
+43.75% {OPACITY:CALC(287/288)}
+45.3125% {OPACITY:CALC(33152381/33177600)}
+46.875% {OPACITY:CALC(2073457/2073600)}
+48.4375% {OPACITY:CALC(33177581/33177600)}
+50% {OPACITY:CALC(1)}
+51.5625% {OPACITY:CALC(33177581/33177600)}
+53.125% {OPACITY:CALC(2073457/2073600)}
+54.6875% {OPACITY:CALC(33152381/33177600)}
+56.25% {OPACITY:CALC(287/288)}
+57.8125% {OPACITY:CALC(32842819/33177600)}
+59.375% {OPACITY:CALC(2026943/2073600)}
+60.9375% {OPACITY:CALC(31780819/33177600)}
+62.5% {OPACITY:CALC(67/72)}
+64.0625% {OPACITY:CALC(29707219/33177600)}
+65.625% {OPACITY:CALC(1767743/2073600)}
+67.1875% {OPACITY:CALC(26622019/33177600)}
+68.75% {OPACITY:CALC(215/288)}
+70.3125% {OPACITY:CALC(22784381/33177600)}
+71.875% {OPACITY:CALC(1295857/2073600)}
+73.4375% {OPACITY:CALC(18662381/33177600)}
+75% {OPACITY:CALC(1/2)}
+76.5625% {OPACITY:CALC(14515219/33177600)}
+78.125% {OPACITY:CALC(777743/2073600)}
+79.6875% {OPACITY:CALC(10393219/33177600)}
+81.25% {OPACITY:CALC(73/288)}
+82.8125% {OPACITY:CALC(6555581/33177600)}
+84.375% {OPACITY:CALC(305857/2073600)}
+85.9375% {OPACITY:CALC(3470381/33177600)}
+87.5% {OPACITY:CALC(5/72)}
+89.0625% {OPACITY:CALC(1396781/33177600)}
+90.625% {OPACITY:CALC(46657/2073600)}
+92.1875% {OPACITY:CALC(334781/33177600)}
+93.75% {OPACITY:CALC(1/288)}
+95.3125% {OPACITY:CALC(25219/33177600)}
+96.875% {OPACITY:CALC(143/2073600)}
+98.4375% {OPACITY:CALC(19/33177600)}
+100% {OPACITY:CALC(0)}
+}
+
+@KEYFRAMES ⠀⠀⠀⠀⠀⠀◦୦◦◯◦୦◦⠀⠀⠀⠀⠀⠀
+{
+100%                        {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+66.666666666%                        {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+
+
+					66.62094193%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					66.59807956%    {    OPACITY:CALC(1)    }
+					66.57521719%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				66.52949246%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				66.46090535%    {    OPACITY:CALC(1)    }
+				66.39231824%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					66.34659351%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					66.32373114%    {    OPACITY:CALC(1)    }
+					66.30086877%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			66.25514403%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			66.04938272%    {    OPACITY:CALC(1)    }
+			65.84362140%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					65.79789666%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					65.77503429%    {    OPACITY:CALC(1)    }
+					65.75217193%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				65.70644719%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				65.63786008%    {    OPACITY:CALC(1)    }
+				65.56927298%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					65.52354824%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					65.50068587%    {    OPACITY:CALC(1)    }
+					65.47782350%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		65.43209877%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		64.81481481%    {    OPACITY:CALC(1)    }
+		64.19753086%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					64.15180613%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					64.12894376%    {    OPACITY:CALC(1)    }
+					64.10608139%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				64.06035665%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				63.99176955%    {    OPACITY:CALC(1)    }
+				63.92318244%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					63.87745770%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					63.85459534%    {    OPACITY:CALC(1)    }
+					63.83173297%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			63.78600823%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			63.58024691%    {    OPACITY:CALC(1)    }
+			63.37448560%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					63.32876086%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					63.30589849%    {    OPACITY:CALC(1)    }
+					63.28303612%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				63.23731139%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				63.16872428%    {    OPACITY:CALC(1)    }
+				63.10013717%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					63.05441244%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					63.03155007%    {    OPACITY:CALC(1)    }
+					63.00868770%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+	62.96296296%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+	61.11111111%    {    OPACITY:CALC(1)    }
+	59.25925926%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					59.21353452%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					59.19067215%    {    OPACITY:CALC(1)    }
+					59.16780979%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				59.12208505%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				59.05349794%    {    OPACITY:CALC(1)    }
+				58.98491084%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					58.93918610%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					58.91632373%    {    OPACITY:CALC(1)    }
+					58.89346136%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			58.84773663%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			58.64197531%    {    OPACITY:CALC(1)    }
+			58.43621399%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					58.39048925%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					58.36762689%    {    OPACITY:CALC(1)    }
+					58.34476452%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				58.29903978%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				58.23045267%    {    OPACITY:CALC(1)    }
+				58.16186557%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					58.11614083%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					58.09327846%    {    OPACITY:CALC(1)    }
+					58.07041610%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		58.02469136%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		57.40740741%    {    OPACITY:CALC(1)    }
+		56.79012346%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					56.74439872%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					56.72153635%    {    OPACITY:CALC(1)    }
+					56.69867398%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				56.65294925%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				56.58436214%    {    OPACITY:CALC(1)    }
+				56.51577503%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					56.47005030%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					56.44718793%    {    OPACITY:CALC(1)    }
+					56.42432556%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			56.37860082%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			56.17283951%    {    OPACITY:CALC(1)    }
+			55.96707819%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					55.92135345%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					55.89849108%    {    OPACITY:CALC(1)    }
+					55.87562872%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				55.82990398%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				55.76131687%    {    OPACITY:CALC(1)    }
+				55.69272977%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					55.64700503%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					55.62414266%    {    OPACITY:CALC(1)    }
+					55.60128029%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+55.555555555%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+50%                          {    FILTER    :    SATURATE(CALC(6/6))    ;    OPACITY:CALC(1)    }
+44.444444444%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					44.39871971%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					44.37585734%    {    OPACITY:CALC(1)    }
+					44.35299497%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				44.30727023%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				44.23868313%    {    OPACITY:CALC(1)    }
+				44.17009602%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					44.12437128%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					44.10150892%    {    OPACITY:CALC(1)    }
+					44.07864655%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			44.03292181%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			43.82716049%    {    OPACITY:CALC(1)    }
+			43.62139918%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					43.57567444%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					43.55281207%    {    OPACITY:CALC(1)    }
+					43.52994970%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				43.48422497%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				43.41563786%    {    OPACITY:CALC(1)    }
+				43.34705075%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					43.30132602%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					43.27846365%    {    OPACITY:CALC(1)    }
+					43.25560128%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		43.20987654%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		42.59259259%    {    OPACITY:CALC(1)    }
+		41.97530864%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					41.92958390%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					41.90672154%    {    OPACITY:CALC(1)    }
+					41.88385917%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				41.83813443%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				41.76954733%    {    OPACITY:CALC(1)    }
+				41.70096022%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					41.65523548%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					41.63237311%    {    OPACITY:CALC(1)    }
+					41.60951075%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			41.56378601%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			41.35802469%    {    OPACITY:CALC(1)    }
+			41.15226337%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					41.10653864%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					41.08367627%    {    OPACITY:CALC(1)    }
+					41.06081390%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				41.01508916%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				40.94650206%    {    OPACITY:CALC(1)    }
+				40.87791495%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					40.83219022%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					40.80932785%    {    OPACITY:CALC(1)    }
+					40.78646548%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+	40.740740740%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+	38.888888888%    {    OPACITY:CALC(1)    }
+	37.037037037%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					36.99131230%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					36.96844993%    {    OPACITY:CALC(1)    }
+					36.94558756%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				36.89986283%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				36.83127572%    {    OPACITY:CALC(1)    }
+				36.76268861%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					36.71696388%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					36.69410151%    {    OPACITY:CALC(1)    }
+					36.67123914%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			36.62551440%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			36.41975309%    {    OPACITY:CALC(1)    }
+			36.21399177%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					36.16826703%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					36.14540466%    {    OPACITY:CALC(1)    }
+					36.12254230%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				36.07681756%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				36.00823045%    {    OPACITY:CALC(1)    }
+				35.93964335%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					35.89391861%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					35.87105624%    {    OPACITY:CALC(1)    }
+					35.84819387%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		35.80246914%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		35.18518519%    {    OPACITY:CALC(1)    }
+		34.56790123%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					34.52217650%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					34.49931413%    {    OPACITY:CALC(1)    }
+					34.47645176%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				34.43072702%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				34.36213992%    {    OPACITY:CALC(1)    }
+				34.29355281%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					34.24782808%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					34.22496571%    {    OPACITY:CALC(1)    }
+					34.20210334%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			34.15637860%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			33.95061728%    {    OPACITY:CALC(1)    }
+			33.74485597%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					33.69913123%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					33.67626886%    {    OPACITY:CALC(1)    }
+					33.65340649%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				33.60768176%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				33.53909465%    {    OPACITY:CALC(1)    }
+				33.47050754%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					33.42478281%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					33.40192044%    {    OPACITY:CALC(1)    }
+					33.37905807%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+
+
+33.333333333%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+0%                            {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+}
+
+@KEYFRAMES ◦୦◦◯◦୦◦
+{
+100%                        {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+
+
+					99.86282579%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					99.79423868%    {    OPACITY:CALC(1)    }
+					99.72565158%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				99.58847737%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				99.38271605%    {    OPACITY:CALC(1)    }
+				99.17695473%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					99.03978052%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					98.97119342%    {    OPACITY:CALC(1)    }
+					98.90260631%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			98.76543210%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			98.14814815%    {    OPACITY:CALC(1)    }
+			97.53086420%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					97.39368999%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					97.32510288%    {    OPACITY:CALC(1)    }
+					97.25651578%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				97.11934156%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				96.91358025%    {    OPACITY:CALC(1)    }
+				96.70781893%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					96.57064472%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					96.50205761%    {    OPACITY:CALC(1)    }
+					96.43347051%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		96.29629630%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		94.44444444%    {    OPACITY:CALC(1)    }
+		92.59259259%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					92.45541838%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					92.38683128%    {    OPACITY:CALC(1)    }
+					92.31824417%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				92.18106996%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				91.97530864%    {    OPACITY:CALC(1)    }
+				91.76954733%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					91.63237311%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					91.56378601%    {    OPACITY:CALC(1)    }
+					91.49519890%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			91.35802469%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			90.74074074%    {    OPACITY:CALC(1)    }
+			90.12345679%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					89.98628258%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					89.91769547%    {    OPACITY:CALC(1)    }
+					89.84910837%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				89.71193416%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				89.50617284%    {    OPACITY:CALC(1)    }
+				89.30041152%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					89.16323731%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					89.09465021%    {    OPACITY:CALC(1)    }
+					89.02606310%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+	88.88888889%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+	83.33333333%    {    OPACITY:CALC(1)    }
+	77.77777778%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					77.64060357%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					77.57201646%    {    OPACITY:CALC(1)    }
+					77.50342936%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				77.36625514%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				77.16049383%    {    OPACITY:CALC(1)    }
+				76.95473251%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					76.81755830%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					76.74897119%    {    OPACITY:CALC(1)    }
+					76.68038409%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			76.54320988%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			75.92592593%    {    OPACITY:CALC(1)    }
+			75.30864198%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					75.17146776%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					75.10288066%    {    OPACITY:CALC(1)    }
+					75.03429355%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				74.89711934%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				74.69135802%    {    OPACITY:CALC(1)    }
+				74.48559671%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					74.34842250%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					74.27983539%    {    OPACITY:CALC(1)    }
+					74.21124829%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		74.07407407%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		72.22222222%    {    OPACITY:CALC(1)    }
+		70.37037037%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					70.23319616%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					70.16460905%    {    OPACITY:CALC(1)    }
+					70.09602195%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				69.95884774%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				69.75308642%    {    OPACITY:CALC(1)    }
+				69.54732510%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					69.41015089%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					69.34156379%    {    OPACITY:CALC(1)    }
+					69.27297668%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			69.13580247%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			68.51851852%    {    OPACITY:CALC(1)    }
+			67.90123457%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					67.76406036%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					67.69547325%    {    OPACITY:CALC(1)    }
+					67.62688615%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				67.48971193%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				67.28395062%    {    OPACITY:CALC(1)    }
+				67.07818930%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					66.94101509%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					66.87242798%    {    OPACITY:CALC(1)    }
+					66.80384088%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+66.66666667%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+50%                          {    FILTER    :    SATURATE(CALC(6/6))    ;    OPACITY:CALC(1)    }
+33.33333333%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					33.19615912%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					33.12757202%    {    OPACITY:CALC(1)    }
+					33.05898491%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				32.92181070%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				32.71604938%    {    OPACITY:CALC(1)    }
+				32.51028807%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					32.37311385%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					32.30452675%    {    OPACITY:CALC(1)    }
+					32.23593964%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			32.09876543%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			31.48148148%    {    OPACITY:CALC(1)    }
+			30.86419753%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					30.72702332%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					30.65843621%    {    OPACITY:CALC(1)    }
+					30.58984911%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				30.45267490%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				30.24691358%    {    OPACITY:CALC(1)    }
+				30.04115226%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					29.90397805%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					29.83539095%    {    OPACITY:CALC(1)    }
+					29.76680384%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		29.62962963%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		27.77777778%    {    OPACITY:CALC(1)    }
+		25.92592593%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					25.78875171%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					25.72016461%    {    OPACITY:CALC(1)    }
+					25.65157750%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				25.51440329%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				25.30864198%    {    OPACITY:CALC(1)    }
+				25.10288066%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					24.96570645%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					24.89711934%    {    OPACITY:CALC(1)    }
+					24.82853224%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			24.69135802%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			24.07407407%    {    OPACITY:CALC(1)    }
+			23.45679012%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					23.31961591%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					23.25102881%    {    OPACITY:CALC(1)    }
+					23.18244170%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				23.04526749%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				22.83950617%    {    OPACITY:CALC(1)    }
+				22.63374486%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					22.49657064%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					22.42798354%    {    OPACITY:CALC(1)    }
+					22.35939643%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+	22.22222222%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+	16.66666667%    {    OPACITY:CALC(1)    }
+	11.11111111%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					10.97393690%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					10.90534979%    {    OPACITY:CALC(1)    }
+					10.83676269%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				10.69958848%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				10.49382716%    {    OPACITY:CALC(1)    }
+				10.28806584%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					10.15089163%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					10.08230453%    {    OPACITY:CALC(1)    }
+					10.01371742%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			9.87654321%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			9.25925926%    {    OPACITY:CALC(1)    }
+			8.64197531%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					8.50480110%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					8.43621399%    {    OPACITY:CALC(1)    }
+					8.36762689%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				8.23045267%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				8.02469136%    {    OPACITY:CALC(1)    }
+				7.81893004%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					7.68175583%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					7.61316872%    {    OPACITY:CALC(1)    }
+					7.54458162%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+		7.40740741%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+		5.55555556%    {    OPACITY:CALC(1)    }
+		3.70370370%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					3.56652949%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					3.49794239%    {    OPACITY:CALC(1)    }
+					3.42935528%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				3.29218107%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				3.08641975%    {    OPACITY:CALC(1)    }
+				2.88065844%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					2.74348423%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					2.67489712%    {    OPACITY:CALC(1)    }
+					2.60631001%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+			2.46913580%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+			1.85185185%    {    OPACITY:CALC(1)    }
+			1.23456790%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					1.09739369%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					1.02880658%    {    OPACITY:CALC(1)    }
+					0.96021948%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+				0.82304527%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+				0.61728395%    {    OPACITY:CALC(1)    }
+				0.41152263%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+					0.27434842%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+					0.20576132%    {    OPACITY:CALC(1)    }
+					0.13717421%    {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+
+
+
+0%                            {    FILTER    :    SATURATE(CALC(0/6))    ;    OPACITY:VAR(--OO)    }
+}
