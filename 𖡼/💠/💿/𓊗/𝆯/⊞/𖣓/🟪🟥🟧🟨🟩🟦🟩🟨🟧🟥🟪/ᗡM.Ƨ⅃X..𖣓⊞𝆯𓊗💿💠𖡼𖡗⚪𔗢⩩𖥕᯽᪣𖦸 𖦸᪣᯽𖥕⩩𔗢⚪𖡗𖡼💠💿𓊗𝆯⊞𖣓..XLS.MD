@@ -2,5 +2,4 @@
 [![](https://img.shields.io/gitea/last-commit/O/O?cacheSeconds=0&color=00F47C&label=&style=for-the-badge&gitea_url=https://gitea.viperlance.net)](https://gitea.viperlance.net/O/O)
 [![](https://img.shields.io/gitea/last-commit/O/O?cacheSeconds=0&color=00F47C&label=&style=for-the-badge&gitea_url=https://a-t-g.ru)](https://a-t-g.ru/O/O)
 [![](https://img.shields.io/gitea/last-commit/O/O?cacheSeconds=0&color=00F47C&label=&style=for-the-badge&gitea_url=https://gitea.ns5001k.sigma2.no)](https://gitea.ns5001k.sigma2.no/O/O)
-[![](https://img.shields.io/gitea/last-commit/O/O?cacheSeconds=0&color=00F47C&label=&style=for-the-badge&gitea_url=https://fzsimo.com)](https://fzsimo.com/O/O)
 [![](https://img.shields.io/gitea/last-commit/O/O?cacheSeconds=0&color=00F47C&label=&style=for-the-badge&gitea_url=https://git.resacachile.cl)](https://git.resacachile.cl/O/O)
