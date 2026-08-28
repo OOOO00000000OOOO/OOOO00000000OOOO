@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Fractal FilterWeight="Weight3x3" FilterPower="-1" BackgroundVisible="True" BackColor="FFFFFFFF" BorderWidth="0" StripBorder="True" PixelSize="0.00548779710473845" Pixels.X="729" Pixels.Y="729" ClassicProcessing="None" OrbitTrapProcessing="ActivateControllers" ClassicMaxDwell="1" CycleDetectionActive="False" SolidGuessing="None">
+  <FractalNotes><![CDATA[]]></FractalNotes>
+  <FractalEquation Id="adb85431-618d-491f-b8c5-08555b119814" Title="Pixel" MaxPower="1">
+    <Instructions><![CDATA[
+comment:
+  
+  This equation can be used when no equation is necessary.
+  By setting the MinDwell/MaxDwell to 1 below, we limit
+  the iteration to a single step for best performance.
+  
+global:
+  
+  FSK.OverrideValue("MinDwell", 1)
+  FSK.OverrideValue("MaxDwell", 1)
+  
+iterate:
+  
+  z = c
+]]></Instructions>
+    <PropertyValueOverrides />
+  </FractalEquation>
+  <TransformationArray>
+    <Transformation Id="7fc4bc2c-b961-4431-b074-277d7b29842b" Title="Identity">
+      <Instructions><![CDATA[]]></Instructions>
+      <PropertyValueOverrides />
+    </Transformation>
+  </TransformationArray>
+  <TransformationArray>
+    <Transformation Id="7fc4bc2c-b961-4431-b074-277d7b29842b" Title="Identity">
+      <Instructions><![CDATA[]]></Instructions>
+      <PropertyValueOverrides />
+    </Transformation>
+  </TransformationArray>
+  <AlternateValueInfo />
+  <AlternateValueInfo />
+  <OrbitTrapInfo TrapValueNTrapPreProcessing="CenterReflect" TrapValueNTrapStyle="Flat" TrapValueNSmoothing="Linear" TrapValueNTrapPreProcessing1="CenterReflect" TrapValueNTrapStyle1="Flat" TrapValueNSmoothing1="Linear" TrapValueNTrapPreProcessing2="CenterReflect" TrapValueNTrapStyle2="Flat" TrapValueNSmoothing2="Linear" TrapValueNTrapPreProcessing3="CenterReflect" TrapValueNTrapStyle3="Flat" TrapValueNSmoothing3="Linear">
+    <OrbitTrapArray TrapIndexMapping="CombinedIndex" TrapDeltaMapping="TrapDelta" BlendValues="False">
+      <OrbitTransform />
+      <OrbitTransform />
+      <TransformationArray>
+        <Transformation Id="7fc4bc2c-b961-4431-b074-277d7b29842b" Title="Identity">
+          <Instructions><![CDATA[]]></Instructions>
+          <PropertyValueOverrides />
+        </Transformation>
+      </TransformationArray>
+      <TransformationArray>
+        <Transformation Id="7fc4bc2c-b961-4431-b074-277d7b29842b" Title="Identity">
+          <Instructions><![CDATA[]]></Instructions>
+          <PropertyValueOverrides />
+        </Transformation>
+      </TransformationArray>
+      <SymmetryTransformation Id="8301dc6c-2273-4fb9-ada8-2ded2833031f" Title="Identity">
+        <Instructions><![CDATA[]]></Instructions>
+        <PropertyValueOverrides />
+      </SymmetryTransformation>
+      <OrbitTrapItem>
+        <OrbitTrap Id="098874d7-1e7c-4775-86a4-efefbc2017bf" Title="⁜">
+          <Instructions><![CDATA[comment:
+
+trappedPoint.Index is the base circle index: 0 (center), 1-N (in ring)
+trappedPoint.Delta is the level: 0 - Steps-1
+
+See the paper:
+"Evolution of Math into Art via Mobius Transformations"
+by Anne M. Burns, Department of Mathematics,
+Long Island University.
+http://myweb.cwpost.liu.edu/aburns/
+
+Also, see pages 88-89 in the book:
+"Indra's Pearls, The Vision of Felix Klein"
+by David Mumford, Caroline Series, David Wright.
+http://klein.math.okstate.edu/IndrasPearls/
+
+global:
+
+Complex ShowCenter[] = LC1,LC2,LC3,LC4,LC5,LC6,LC7,LC8,LC9,LC10,LC11,LC12,LC13,LC14,LC15,LC16
+Complex ShowRing[] = LR1,LR2,LR3,LR4,LR5,LR6,LR7,LR8,LR9,LR10,LR11,LR12,LR13,LR14,LR15,LR16
+AbsV = Sqrt(AbsU^2 - 1)
+u = AbsU * Cis(DegreeToRadian(ArgU))
+v = AbsV * Cis(DegreeToRadian(ArgV))
+Mobius UnitCircleGroup = Mobius(u, v, Conj(v), Conj(u))
+
+totalGen = 1 + N + 68
+Mobius m[totalGen]
+
+'
+' Given N, find radius R such that N circles with radius R can be 
+' placed along the inside of the unit circle, each tangent to the 
+' unit circle and each of its two adjacent neighbors.
+'
+r = 1/(1+1/Sin(Math.PI/N))
+
+step = 2*Math.PI/N
+ang = IIf(Shift, step/2, 0)
+'
+' Center generator (index 0)
+'
+m[0] = Mobius(1-2*r, 0, 0, 1)
+'
+' Ring generators (indices 1..N)
+'
+for (i = 1, i <= N, i += 1) {
+rotate = Cis(ang)
+m[i] = Mobius.Multiply( \
+Mobius(r*rotate, (1-r)*rotate, 0, 1), \
+UnitCircleGroup \
+)
+ang += step
+}
+'
+' Custom generators (keep if needed – they increase totalGen)
+'
+m[N+1]=Mobius(0.08578644*2,Complex( 0.29289322*2, 0.29289322*2),0,1)
+m[N+2]=Mobius(0.08578644*2,Complex(-0.29289322*2,-0.29289322*2),0,1)
+m[N+3]=Mobius(0.08578644*2,Complex( 0.29289322*2,-0.29289322*2),0,1)
+m[N+4]=Mobius(0.08578644*2,Complex(-0.29289322*2, 0.29289322*2),0,1)
+
+'m[N+5]=Mobius(0.02240775*2,Complex( 0.07650484*2,  0.07650484*2), 0, 1)
+'m[N+6]=Mobius(0.02240775*2,Complex(-0.07650484*2, -0.07650484*2), 0, 1)
+'m[N+7]=Mobius(0.02240775*2,Complex( 0.07650484*2, -0.07650484*2), 0, 1)
+'m[N+8]=Mobius(0.02240775*2,Complex(-0.07650484*2,  0.07650484*2), 0, 1)
+
+m[N+5]=Mobius(0.04142136*2,Complex(0.40000000*2,0.22426407*2), 0, 1)
+m[N+6]=Mobius(0.04142136*2,Complex(0.22426407*2,0.40000000*2), 0, 1)
+
+m[N+7]=Mobius(0.04142136*2,Complex(-0.40000000*2,0.22426407*2), 0, 1)
+m[N+8]=Mobius(0.04142136*2,Complex(-0.22426407*2,0.40000000*2), 0, 1)
+
+m[N+9]=Mobius(0.04142136*2,Complex(-0.40000000*2,-0.22426407*2), 0, 1)
+m[N+10]=Mobius(0.04142136*2,Complex(-0.22426407*2,-0.40000000*2), 0, 1)
+
+m[N+11]=Mobius(0.04142136*2,Complex(0.40000000*2,-0.22426407*2), 0, 1)
+m[N+12]=Mobius(0.04142136*2,Complex(0.22426407*2,-0.40000000*2), 0, 1)
+
+
+
+m[N+13]=Mobius(0.02364946*2,Complex(0.44290516*2,0.17534212*2), 0, 1)
+m[N+14]=Mobius(0.02364946*2,Complex(0.17534212*2,0.44290516*2), 0, 1)
+
+m[N+15]=Mobius(0.02364946*2,Complex(-0.44290516*2,0.17534212*2), 0, 1)
+m[N+16]=Mobius(0.02364946*2,Complex(-0.17534212*2,0.44290516*2), 0, 1)
+
+m[N+17]=Mobius(0.02364946*2,Complex(-0.44290516*2,-0.17534212*2), 0, 1)
+m[N+18]=Mobius(0.02364946*2,Complex(-0.17534212*2,-0.44290516*2), 0, 1)
+
+m[N+19]=Mobius(0.02364946*2,Complex(0.44290516*2,-0.17534212*2), 0, 1)
+m[N+20]=Mobius(0.02364946*2,Complex(0.17534212*2,-0.44290516*2), 0, 1)
+
+
+
+m[N+21]=Mobius(0.01513243*2,Complex(0.46346709*2,0.14245988*2), 0, 1)
+m[N+22]=Mobius(0.01513243*2,Complex(0.14245988*2,0.46346709*2), 0, 1)
+
+m[N+23]=Mobius(0.01513243*2,Complex(-0.46346709*2,0.14245988*2), 0, 1)
+m[N+24]=Mobius(0.01513243*2,Complex(-0.14245988*2,0.46346709*2), 0, 1)
+
+m[N+25]=Mobius(0.01513243*2,Complex(-0.46346709*2,-0.14245988*2), 0, 1)
+m[N+26]=Mobius(0.01513243*2,Complex(-0.14245988*2,-0.46346709*2), 0, 1)
+
+m[N+27]=Mobius(0.01513243*2,Complex(0.46346709*2,-0.14245988*2), 0, 1)
+m[N+28]=Mobius(0.01513243*2,Complex(0.14245988*2,-0.46346709*2), 0, 1)
+
+
+
+m[N+29]=Mobius(0.01046692*2,Complex(0.47473062*2,0.11947164*2), 0, 1)
+m[N+30]=Mobius(0.01046692*2,Complex(0.11947164*2,0.47473062*2), 0, 1)
+
+m[N+31]=Mobius(0.01046692*2,Complex(-0.47473062*2,0.11947164*2), 0, 1)
+m[N+32]=Mobius(0.01046692*2,Complex(-0.11947164*2,0.47473062*2), 0, 1)
+
+m[N+33]=Mobius(0.01046692*2,Complex(-0.47473062*2,-0.11947164*2), 0, 1)
+m[N+34]=Mobius(0.01046692*2,Complex(-0.11947164*2,-0.47473062*2), 0, 1)
+
+m[N+35]=Mobius(0.01046692*2,Complex(0.47473062*2,-0.11947164*2), 0, 1)
+m[N+36]=Mobius(0.01046692*2,Complex(0.11947164*2,-0.47473062*2), 0, 1)
+
+
+
+m[N+37]=Mobius(0.00765393*2,Complex(0.48152177*2,0.10267148*2), 0, 1)
+m[N+38]=Mobius(0.00765393*2,Complex(0.10267148*2,0.48152177*2), 0, 1)
+
+m[N+39]=Mobius(0.00765393*2,Complex(-0.48152177*2,0.10267148*2), 0, 1)
+m[N+40]=Mobius(0.00765393*2,Complex(-0.10267148*2,0.48152177*2), 0, 1)
+
+m[N+41]=Mobius(0.00765393*2,Complex(-0.48152177*2,-0.10267148*2), 0, 1)
+m[N+42]=Mobius(0.00765393*2,Complex(-0.10267148*2,-0.48152177*2), 0, 1)
+
+m[N+43]=Mobius(0.00765393*2,Complex(0.48152177*2,-0.10267148*2), 0, 1)
+m[N+44]=Mobius(0.00765393*2,Complex(0.10267148*2,-0.48152177*2), 0, 1)
+
+
+
+m[N+45]=Mobius(0.00583358*2,Complex(0.48591649*2,0.08992003*2), 0, 1)
+m[N+46]=Mobius(0.00583358*2,Complex(0.08992003*2,0.48591649*2), 0, 1)
+
+m[N+47]=Mobius(0.00583358*2,Complex(-0.48591649*2,0.08992003*2), 0, 1)
+m[N+48]=Mobius(0.00583358*2,Complex(-0.08992003*2,0.48591649*2), 0, 1)
+
+m[N+49]=Mobius(0.00583358*2,Complex(-0.48591649*2,-0.08992003*2), 0, 1)
+m[N+50]=Mobius(0.00583358*2,Complex(-0.08992003*2,-0.48591649*2), 0, 1)
+
+m[N+51]=Mobius(0.00583358*2,Complex(0.48591649*2,-0.08992003*2), 0, 1)
+m[N+52]=Mobius(0.00583358*2,Complex(0.08992003*2,-0.48591649*2), 0, 1)
+
+
+
+m[N+53]=Mobius(0.00459036*2,Complex(0.48891789*2,0.07993754*2), 0, 1)
+m[N+54]=Mobius(0.00459036*2,Complex(0.07993754*2,0.48891789*2), 0, 1)
+
+m[N+55]=Mobius(0.00459036*2,Complex(-0.48891789*2,0.07993754*2), 0, 1)
+m[N+56]=Mobius(0.00459036*2,Complex(-0.07993754*2,0.48891789*2), 0, 1)
+
+m[N+57]=Mobius(0.00459036*2,Complex(-0.48891789*2,-0.07993754*2), 0, 1)
+m[N+58]=Mobius(0.00459036*2,Complex(-0.07993754*2,-0.48891789*2), 0, 1)
+
+m[N+59]=Mobius(0.00459036*2,Complex(0.48891789*2,-0.07993754*2), 0, 1)
+m[N+60]=Mobius(0.00459036*2,Complex(0.07993754*2,-0.48891789*2), 0, 1)
+
+
+
+m[N+61]=Mobius(0.00370465*2,Complex(0.49105618*2,0.07192287*2), 0, 1)
+m[N+62]=Mobius(0.00370465*2,Complex(0.07192287*2,0.49105618*2), 0, 1)
+
+m[N+63]=Mobius(0.00370465*2,Complex(-0.49105618*2,0.07192287*2), 0, 1)
+m[N+64]=Mobius(0.00370465*2,Complex(-0.07192287*2,0.49105618*2), 0, 1)
+
+m[N+65]=Mobius(0.00370465*2,Complex(-0.49105618*2,-0.07192287*2), 0, 1)
+m[N+66]=Mobius(0.00370465*2,Complex(-0.07192287*2,-0.49105618*2), 0, 1)
+
+m[N+67]=Mobius(0.00370465*2,Complex(0.49105618*2,-0.07192287*2), 0, 1)
+m[N+68]=Mobius(0.00370465*2,Complex(0.07192287*2,-0.49105618*2), 0, 1)
+
+
+
+
+
+
+
+'
+' ---- Compute maximum possible number of center circles ----
+'
+Complex MaxTotal = 0
+count = 1   ' at level 0, only the center circle
+for (i = 0, i < Steps, i += 1) {
+    MaxTotal += count
+    count *= totalGen
+}
+'
+' Allocate arrays of size MaxTotal
+'
+Complex Total = MaxTotal   ' will be overwritten with actual count after generation
+Circle c[Total]
+Complex index[Total]
+Complex level[Total]
+Circle UnitCircle = CircleC(0, 1)
+'
+' ---- Generate only center circles ----
+'
+' Initialize level 0: the single center circle
+c[0] = Mobius.TransformCircle(m[0], UnitCircle)
+index[0] = 0
+level[0] = 0
+count = 1
+start = 0
+end = 1   ' circles from previous level are at indices start..end-1
+
+if (Steps > 1) {
+    for (lev = 1, lev < Steps, lev += 1) {
+        for (j = start, j < end, j += 1) {
+            ' All circles in the array have index = 0, so no need to check.
+            ' Apply all generators to each existing center circle.
+            for (k = 0, k < totalGen, k += 1) {
+                c[count] = Mobius.TransformCircle(m[k], c[j])
+                if (c[count].Radius >= RadiusMin) {
+                    index[count] = 0   ' inherited from parent (always 0)
+                    level[count] = lev
+                    count += 1
+                }
+            }
+        }
+        start = end
+        end = count   ' new circles for next level start at the old end
+    }
+}
+Total = count   ' actual number used
+
+CurveTrap.Initialize( \
+Center, DegreeToRadian(Angle), Scale, AlternateAngle, 6, False, LineWidth \
+)
+'
+' Add the circles to the trap.
+'
+for (i = 0, i < Total, i += 1) {
+    lev = level[i]
+    idx = index[i]   ' always 0 now
+    if (idx = 0) {
+        if (ShowCenter[lev]) {
+            CurveTrap.AddCircle2(c[i], Solid, IIf(Solid, lev, 0), idx, lev)
+        }
+    } else {
+        ' This branch will never be taken because we only have idx=0
+        if (ShowRing[lev]) {
+            CurveTrap.AddCircle2(c[i], Solid, IIf(Solid, lev, 0), idx, lev)
+        }
+    }
+}
+
+trap:
+
+trappedPoint = CurveTrap.Apply(z)
+
+properties:
+
+divider {
+caption = "General Options"
+}
+option Center {
+type = Complex
+caption = "Center"
+details = "Center of trap"
+default = 0
+}
+option Angle {
+type = Float
+caption = "Angle"
+details = "Angle of rotation"
+default = 0
+range = [-360,360]
+}
+option Scale {
+type = Float
+caption = "Scale"
+details = "Scale factor applied to trap"
+range = (0,)
+default = 2
+}
+option Solid {
+type = Boolean
+caption = "Solid"
+details = "Check to create solid trap"
+default = False
+}
+option AlternateAngle {
+type = Boolean
+caption = "Alternate Angle"
+details = "Use alternate angle calculation"
+default = False
+}
+option LineWidth {
+type = Float
+caption = "Line Width"
+details = "Extent of trap on either side of curve (> 0)"
+range = (0,)
+default = 0.00411522633744855967078189300413
+enabled = ~Solid
+}
+divider {
+caption = "U/V Controls"
+}
+option AbsU {
+type = Float
+caption = "Abs(U)"
+details = "Magnitude of U (1-2)"
+default = 1.1
+range = [1,2]
+}
+option ArgU {
+type = Float
+caption = "Arg(U)"
+details = "Angle of U"
+default = 0
+range = [-360,360]
+}
+option ArgV {
+type = Float
+caption = "Arg(V)"
+details = "Angle of V"
+default = 180
+range = [-360,360]
+}
+divider {
+caption = "Circle Controls"
+}
+option N {
+type = IntegerEnum(3,12)
+caption = "N"
+details = "Number of base circles"
+default = 4
+}
+option Steps {
+type = IntegerEnum(1,16)
+caption = "Steps"
+details = "Number of inversion steps"
+default = 4   ' you can increase to 7 now, but set RadiusMin > 0 to avoid memory issues
+}
+option Shift {
+type = Boolean
+caption = "Shift"
+details = "Check to rotate initial chain by pi/N"
+default = False
+}
+option RadiusMin {
+type = Float
+caption = "Radius Min"
+details = "Minimum acceptable circle radius"
+default = 0.001   ' set to a small positive value to prune tiny circles
+range = [0,)
+}
+#define ShowLevel(Index)
+
+divider {
+caption = "Level #Index# Options"
+}
+option LR#Index# {
+type = Boolean
+caption = "Show Ring"
+details = "Show ring of circles at level #Index#"
+default = True
+enabled = Steps >= #Index#
+}
+option LC#Index# {
+type = Boolean
+caption = "Show Center"
+details = "Show center circle at level #Index#"
+default = True
+enabled = Steps >= #Index#
+}
+#end
+
+#include ShowLevel("1")
+#include ShowLevel("2")
+#include ShowLevel("3")
+#include ShowLevel("4")
+#include ShowLevel("5")
+#include ShowLevel("6")
+#include ShowLevel("7")
+#include ShowLevel("8")
+#include ShowLevel("9")
+#include ShowLevel("10")
+#include ShowLevel("11")
+#include ShowLevel("12")
+#include ShowLevel("13")
+#include ShowLevel("14")
+#include ShowLevel("15")
+#include ShowLevel("16")]]></Instructions>
+          <PropertyValueOverrides>
+            <Option Name="Solid" Type="BooleanOption" Value="True" />
+            <Option Name="Steps" Type="IntegerEnumOption" Value="5" />
+            <Option Name="RadiusMin" Type="FloatOption" Value="1E-05" />
+            <Option Name="LR1" Type="BooleanOption" Value="False" />
+            <Option Name="LR2" Type="BooleanOption" Value="False" />
+            <Option Name="LR3" Type="BooleanOption" Value="False" />
+            <Option Name="LR4" Type="BooleanOption" Value="False" />
+            <Option Name="LR5" Type="BooleanOption" Value="False" />
+            <Option Name="LR6" Type="BooleanOption" Value="False" />
+            <Option Name="LR7" Type="BooleanOption" Value="False" />
+          </PropertyValueOverrides>
+        </OrbitTrap>
+      </OrbitTrapItem>
+    </OrbitTrapArray>
+    <OrbitTrapMasterController Id="891d4c82-e603-4114-b2a3-f23668c471d1" Title="Blend">
+      <Instructions><![CDATA[
+comment:
+  
+  Blends the colors returned by controller 0 and 
+  controller 1 based on a fixed value or a blending
+  curve defined by a sample point value.
+  
+color:
+  
+  if (VariableBlend) {
+    r = Blend
+    
+    if (Power <> 1) {
+      r = r^Power
+    }
+    if (Factor <> 1 || Offset <> 0) {
+      r = Clip(Offset + Factor*r)
+    }
+    if (Invert) {
+      r = 1-r
+    }
+  } else {
+    r = BlendPower
+  }
+  color = Color.Blend( \
+    ColorBlendType, \
+    Controller.Color(0), \
+    Controller.Color(1), \
+    r \
+  )
+  
+properties:
+  
+#include ColorBlendTypes
+
+  divider {
+    caption = "Color Blend Options"
+  }
+  option ColorBlendType {
+    type = ColorBlendTypes
+    caption = "Blend Type"
+    details = "Type of blend"
+    default = ColorBlendTypes.SoftLight
+  }
+  option VariableBlend {
+    type = Boolean
+    caption = "Variable Blend"
+    details = "Blend strength defined by blending curve"
+    default = True
+  }
+  divider {
+    caption = "Constant Blend"
+    enabled = ~VariableBlend
+  }
+  option BlendPower {
+    type = Float
+    caption = "Power"
+    details = "Power applied to blend (0-1)"
+    default = 1
+    range = [0,1]
+    enabled = ~VariableBlend
+  }
+  divider {
+    caption = "Variable Blend"
+    enabled = VariableBlend
+  }
+  option Blend {
+    type = SamplePointValue
+    caption = "Blend"
+    default = Sample.TrapDwell
+    enabled = VariableBlend
+  }
+  option Power {
+    type = Float
+    caption = "Power"
+    details = "Alters shape of blending curve (> 0)"
+    default = 0.5
+    range = (0,)
+    enabled = VariableBlend
+  }
+  option Factor {
+    type = Float
+    caption = "Factor"
+    details = "Alters shape of blending curve (> 0)"
+    default = 1
+    range = (0,)
+    enabled = VariableBlend
+  }
+  option Offset {
+    type = Float
+    caption = "Offset"
+    details = "Alters position of blending curve"
+    default = 0
+    enabled = VariableBlend
+  }
+  option Invert {
+    type = Boolean
+    caption = "Invert"
+    details = "Inverts blending curve"
+    default = True
+    enabled = VariableBlend
+  }
+]]></Instructions>
+      <PropertyValueOverrides>
+        <Option Name="ColorBlendType" Type="EnumOption" Value="ColorBlendTypes.Difference" />
+        <Option Name="BlendPower" Type="FloatOption" Value="0.3" />
+        <Option Name="Blend" Type="SamplePointValueOption" Value="Sample.TrapDelta" />
+        <Option Name="Power" Type="FloatOption" Value="0.555555555" />
+      </PropertyValueOverrides>
+    </OrbitTrapMasterController>
+    <OrbitTrapControllerArray>
+      <OrbitTrapController Id="29fbd0db-b470-4d0d-ad93-e4d5d937ef86" Title="ⵔ·ⵔ" ApplyDepth="False" Apply3D="False">
+        <GradientArray />
+        <TextureArray />
+        <Instructions><![CDATA[
+comment:
+  
+  This controller colors each trap based on the
+  property 'Index Map' and the point's 'Trap Dwell'
+  'Trap Index' or 'Trap Delta'. You can define up to
+  16 colors and these are mapped to the index map
+  values. Offset can be used to shift the set of 
+  colors with respect to value 0.
+  
+  If Cutouts are active, the trap is divided into
+  N sectors and a user defined percent of each 
+  sector is inverted with respect to the 3D shading
+  effect. This gives the appearance that part of
+  the trap surface has been cutout or folded over.
+  
+  The Cutout effect only looks good if the trap 
+  is a solid shape. For example, the 'Shape', 
+  'Tangent Circles', 'Shapes' and 'Squares'
+  traps support a 'Solid' property that is used to 
+  produce a solid figure. You should check this
+  property to display Cutouts.
+  
+  Also note that the Cutout effect only works if
+  the trap's angle is given relative to the center 
+  of the solid shape. This is always the case when
+  the trap is composed of a single shape. However, 
+  when the trap is composed of several shapes arranged
+  in a pattern like the 'Tangent Circles', 'Shapes' and
+  'Squares' traps, the angle is given relative to the 
+  center of the pattern not the individual shapes. 
+  In those cases, you will need to check the 
+  'Alternate Angle' property on the properties page 
+  for the specific trap so the angle is given relative 
+  to the individual shapes.
+  
+global:
+  
+  const Complex angleShift = SectorAngle / 360
+  const Complex percentSolid = 1 - PercentCutout
+  
+color:
+  
+  switch (IndexMap) {
+    case IndexMapTypes.TrapDwell: index = Sample.TrapDwellRaw
+    case IndexMapTypes.TrapIndex: index = Sample.TrapIndexRaw
+    case IndexMapTypes.TrapDelta: index = Sample.TrapDeltaRaw
+    case IndexMapTypes.Alternate1Index: index = Sample.Alternate1IndexRaw
+  }
+  color = Colors[WrapIndex(Offset + index, Count)]
+  
+  if (ApplyCutouts) {
+    r = Sectors * Wrap(Sample.TrapAngle - angleShift)
+    r = r - Int(r)
+    v = Abs(Sample.TrapValue)
+    
+    compositeHeight = IIf(r < percentSolid, v, Blend(0.75, 0.25, v))
+  } else {
+    compositeHeight = Sample.TrapValue
+  }
+  
+properties:
+  
+  divider {
+    caption = "Index Map"
+  }
+  enum IndexMapTypes {
+    TrapDwell, "Trap Dwell"
+    TrapIndex, "Trap Index"
+    TrapDelta, "Trap Delta"
+    Alternate1Index , "Alternate 1 Index"
+  }
+  option IndexMap {
+    type = IndexMapTypes
+    caption = "Index Map"
+    details = "Color index map"
+    default = IndexMapTypes.TrapDwell
+  }
+  divider {
+    caption = "Color Map"
+  }
+  option Count {
+    type = IntegerEnum(1,32)
+    caption = "Count"
+    details = "Number of colors to use"
+    default = 8
+  }
+  option Colors {
+    type = ColorSet[Count]
+    caption = "Colors"
+    default = FF00AE, FF2020, FF8200, FFFF00, 00FF6C, 00FFFF, 4040FF, AE60FF
+  }
+  option Offset {
+    type = IntegerEnum(0,31)
+    caption = "Offset"
+    details = "Offset into set of colors"
+    default = 0
+  }
+  divider {
+    caption = "Cutouts (Solid traps only)"
+  }
+  option ApplyCutouts {
+    type = Boolean
+    caption = "Active"
+    details = "Activate cutout effects"
+    default = False
+  }
+  option Sectors {
+    type = IntegerEnum(2,16)
+    caption = "Sectors"
+    details = "Number of sectors"
+    default = 2
+    enabled = ApplyCutouts
+  }
+  option SectorAngle {
+    type = Float
+    caption = "Angle"
+    details = "Starting angle of 1st sector"
+    default = 0
+    range = [-360,360]
+    enabled = ApplyCutouts
+  }
+  option PercentCutout {
+    type = Float
+    caption = "Percent Cutout"
+    details = "Percent of sector that is cutout"
+    range = [0,1]
+    default = 0.5
+    enabled = ApplyCutouts
+  }
+]]></Instructions>
+        <PropertyValueOverrides>
+          <Option Name="IndexMap" Type="EnumOption" Value="IndexMapTypes.TrapDelta" />
+          <Option Name="Count" Type="IntegerEnumOption" Value="1" />
+          <Option Name="Colors" Type="ColorSetOption" Value="FFFFFF" />
+        </PropertyValueOverrides>
+      </OrbitTrapController>
+    </OrbitTrapControllerArray>
+    <SampleDataNormalizer>
+      <NormalizerDescriptor />
+    </SampleDataNormalizer>
+    <SampleDataNormalizer>
+      <NormalizerDescriptor />
+    </SampleDataNormalizer>
+    <SampleDataNormalizer>
+      <NormalizerDescriptor />
+    </SampleDataNormalizer>
+  </OrbitTrapInfo>
+  <TransformationArray>
+    <Transformation Id="7fc4bc2c-b961-4431-b074-277d7b29842b" Title="Identity">
+      <Instructions><![CDATA[]]></Instructions>
+      <PropertyValueOverrides />
+    </Transformation>
+  </TransformationArray>
+  <TriangleMetricSet>
+    <Instructions><![CDATA[metric = p1]]></Instructions>
+    <TriangleMetric />
+    <TriangleMetric />
+    <TriangleMetric />
+  </TriangleMetricSet>
+</Fractal>

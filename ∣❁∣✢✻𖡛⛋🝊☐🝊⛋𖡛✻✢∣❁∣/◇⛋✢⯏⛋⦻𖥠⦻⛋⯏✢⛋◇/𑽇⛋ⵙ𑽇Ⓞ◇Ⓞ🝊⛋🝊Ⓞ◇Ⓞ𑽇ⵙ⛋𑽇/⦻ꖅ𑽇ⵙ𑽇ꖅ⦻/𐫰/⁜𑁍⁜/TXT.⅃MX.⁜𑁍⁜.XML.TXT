@@ -1,0 +1,271 @@
+﻿comment:
+  
+  trappedPoint.Index is the base circle index: 0 (center), 1-N (in ring)
+  trappedPoint.Delta is the level: 0 - Steps-1
+  
+  See the paper:
+    "Evolution of Math into Art via Mobius Transformations"
+  by Anne M. Burns, Department of Mathematics,
+  Long Island University.
+  http://myweb.cwpost.liu.edu/aburns/
+  
+  Also, see pages 88-89 in the book:
+    "Indra's Pearls, The Vision of Felix Klein"
+  by David Mumford, Caroline Series, David Wright.
+  http://klein.math.okstate.edu/IndrasPearls/
+  
+global:
+  
+  Complex ShowCenter[] = LC1,LC2,LC3,LC4,LC5,LC6,LC7,LC8,LC9,LC10,LC11,LC12,LC13,LC14,LC15,LC16
+  Complex ShowRing[] = LR1,LR2,LR3,LR4,LR5,LR6,LR7,LR8,LR9,LR10,LR11,LR12,LR13,LR14,LR15,LR16
+  AbsV = Sqrt(AbsU^2 - 1)
+  u = AbsU * Cis(DegreeToRadian(ArgU))
+  v = AbsV * Cis(DegreeToRadian(ArgV))
+  Mobius UnitCircleGroup = Mobius(u, v, Conj(v), Conj(u))
+  
+  ' =============================================
+  ' DEFINE FOUR APOLLONIAN CIRCLES AS GENERATORS
+  ' (scaled by 2 to match default trap Scale=2)
+  ' =============================================
+  scaleFactor = 2
+  customRadius = 0.08578644 * scaleFactor
+  
+  ' Total generators = 1 (center) + N (ring) + 4 custom
+  totalGen = 1 + N + 4
+  Mobius m[totalGen]
+  '
+  ' Given N, find radius R such that N circles with radius R can be 
+  ' placed along the inside of the unit circle, each tangent to the 
+  ' unit circle and each of its two adjacent neighbors.
+  '
+  r = 1/(1+1/Sin(Math.PI/N))
+  
+  step = 2*Math.PI/N
+  ang = IIf(Shift, step/2, 0)
+  '
+  ' Center generator (index 0)
+  '
+  m[0] = Mobius(1-2*r, 0, 0, 1)
+  '
+  ' Ring generators (indices 1..N)
+  '
+  for (i = 1, i <= N, i += 1) {
+    rotate = Cis(ang)
+    m[i] = Mobius.Multiply( \
+      Mobius(r*rotate, (1-r)*rotate, 0, 1), \
+      UnitCircleGroup \
+    )
+    ang += step
+  }
+  '
+  ' Custom generators (indices N+1 .. N+4)
+  '
+  m[N+1] = Mobius(customRadius, Complex( 0.29289322*scaleFactor,  0.29289322*scaleFactor), 0, 1)
+  m[N+2] = Mobius(customRadius, Complex(-0.29289322*scaleFactor, -0.29289322*scaleFactor), 0, 1)
+  m[N+3] = Mobius(customRadius, Complex( 0.29289322*scaleFactor, -0.29289322*scaleFactor), 0, 1)
+  m[N+4] = Mobius(customRadius, Complex(-0.29289322*scaleFactor,  0.29289322*scaleFactor), 0, 1)
+
+  '
+  ' Assign Total = the total number of circles.
+  '
+  const Complex Total = 0
+  count = totalGen
+  
+  for (i = 0, i < Steps, i += 1) {
+    Total += count
+    count *= totalGen
+  }
+  const Circle c[Total]
+  const Complex index[Total]
+  const Complex level[Total]
+  Circle UnitCircle = CircleC(0, 1)
+  '
+  ' Generate the base circles (all generators applied to unit circle)
+  '
+  for (i = 0, i < totalGen, i += 1) {
+    c[i] = Mobius.TransformCircle(m[i], UnitCircle)
+    index[i] = i
+    level[i] = 0
+  }
+  count = totalGen
+  max = 0
+  '
+  ' Generate the remaining circles by applying all generators iteratively.
+  '
+  if (Steps > 1) {
+    for (i = 1, i < Steps, i += 1) {
+      min = max
+      max = count
+    
+      for (j = min, j < max, j += 1) {
+        for (k = 0, k < totalGen, k += 1) {
+          c[count] = Mobius.TransformCircle(m[k], c[j])
+          if (c[count].Radius >= RadiusMin) {
+            index[count] = index[j]
+            level[count] = i
+            count += 1
+          }
+        }
+      }
+    }
+  }
+  Total = count
+  
+  CurveTrap.Initialize( \
+    Center, DegreeToRadian(Angle), Scale, AlternateAngle, 6, False, LineWidth \
+  )
+  '
+  ' Add the circles to the trap.
+  '
+  for (i = 0, i < Total, i += 1) {
+    lev = level[i]
+    idx = index[i]
+    if (idx = 0) {
+      if (ShowCenter[lev]) {
+        CurveTrap.AddCircle2(c[i], Solid, IIf(Solid, lev, 0), idx, lev)
+      }
+    } else {
+      if (ShowRing[lev]) {
+        CurveTrap.AddCircle2(c[i], Solid, IIf(Solid, lev, 0), idx, lev)
+      }
+    }
+  }
+
+trap:
+  
+  trappedPoint = CurveTrap.Apply(z)
+  
+properties:
+  
+  divider {
+    caption = "General Options"
+  }
+  option Center {
+    type = Complex
+    caption = "Center"
+    details = "Center of trap"
+    default = 0
+  }
+  option Angle {
+    type = Float
+    caption = "Angle"
+    details = "Angle of rotation"
+    default = 0
+    range = [-360,360]
+  }
+  option Scale {
+    type = Float
+    caption = "Scale"
+    details = "Scale factor applied to trap"
+    range = (0,)
+    default = 2
+  }
+  option Solid {
+    type = Boolean
+    caption = "Solid"
+    details = "Check to create solid trap"
+    default = False
+  }
+  option AlternateAngle {
+    type = Boolean
+    caption = "Alternate Angle"
+    details = "Use alternate angle calculation"
+    default = False
+  }
+  option LineWidth {
+    type = Float
+    caption = "Line Width"
+    details = "Extent of trap on either side of curve (> 0)"
+    range = (0,)
+    default = 0.00411522633744855967078189300413
+    enabled = ~Solid
+  }
+  divider {
+    caption = "U/V Controls"
+  }
+  option AbsU {
+    type = Float
+    caption = "Abs(U)"
+    details = "Magnitude of U (1-2)"
+    default = 1.1
+    range = [1,2]
+  }
+  option ArgU {
+    type = Float
+    caption = "Arg(U)"
+    details = "Angle of U"
+    default = 0
+    range = [-360,360]
+  }
+  option ArgV {
+    type = Float
+    caption = "Arg(V)"
+    details = "Angle of V"
+    default = 180
+    range = [-360,360]
+  }
+  divider {
+    caption = "Circle Controls"
+  }
+  option N {
+    type = IntegerEnum(3,12)
+    caption = "N"
+    details = "Number of base circles"
+    default = 4
+  }
+  option Steps {
+    type = IntegerEnum(1,16)
+    caption = "Steps"
+    details = "Number of inversion steps"
+    default = 4   ' <-- REDUCED from 8 to 4 to avoid memory crash
+  }
+  option Shift {
+    type = Boolean
+    caption = "Shift"
+    details = "Check to rotate initial chain by pi/N"
+    default = False
+  }
+  option RadiusMin {
+    type = Float
+    caption = "Radius Min"
+    details = "Minimum acceptable circle radius"
+    default = 0
+    range = [0,)
+  }
+  #define ShowLevel(Index)
+  
+  divider {
+    caption = "Level #Index# Options"
+  }
+  option LR#Index# {
+    type = Boolean
+    caption = "Show Ring"
+    details = "Show ring of circles at level #Index#"
+    default = True
+    enabled = Steps >= #Index#
+  }
+  option LC#Index# {
+    type = Boolean
+    caption = "Show Center"
+    details = "Show center circle at level #Index#"
+    default = True
+    enabled = Steps >= #Index#
+  }
+  #end
+  
+  #include ShowLevel("1")
+  #include ShowLevel("2")
+  #include ShowLevel("3")
+  #include ShowLevel("4")
+  #include ShowLevel("5")
+  #include ShowLevel("6")
+  #include ShowLevel("7")
+  #include ShowLevel("8")
+  #include ShowLevel("9")
+  #include ShowLevel("10")
+  #include ShowLevel("11")
+  #include ShowLevel("12")
+  #include ShowLevel("13")
+  #include ShowLevel("14")
+  #include ShowLevel("15")
+  #include ShowLevel("16")
