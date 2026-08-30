@@ -1,0 +1,532 @@
+{
+  "version": "2.6",
+  "groups": [
+    {
+      "name": "​ ​",
+      "urls": [],
+      "substitutions": [
+        {
+          "input": "0",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "ⵔ",
+          "caseSensitive": false
+        },
+        {
+          "input": "1",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "·",
+          "caseSensitive": false
+        },
+        {
+          "input": "2",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "꞉",
+          "caseSensitive": false
+        },
+        {
+          "input": "3",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "ꔹ",
+          "caseSensitive": false
+        },
+        {
+          "input": "4",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⁘",
+          "caseSensitive": false
+        },
+        {
+          "input": "5",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⸭",
+          "caseSensitive": false
+        },
+        {
+          "input": "6",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⠿",
+          "caseSensitive": false
+        },
+        {
+          "input": "7",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "፨",
+          "caseSensitive": false
+        },
+        {
+          "input": "8",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "❋",
+          "caseSensitive": false
+        },
+        {
+          "input": "9",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "‭𐧾‭",
+          "caseSensitive": false
+        },
+        {
+          "input": "A",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⛋",
+          "caseSensitive": false
+        },
+        {
+          "input": "B",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖢌",
+          "caseSensitive": false
+        },
+        {
+          "input": "C",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⯏",
+          "caseSensitive": false
+        },
+        {
+          "input": "D",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🟗",
+          "caseSensitive": false
+        },
+        {
+          "input": "E",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🜊",
+          "caseSensitive": false
+        },
+        {
+          "input": "F",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖥠",
+          "caseSensitive": false
+        },
+        {
+          "input": "G",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "Ⱉ",
+          "caseSensitive": false
+        },
+        {
+          "input": "H",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⊞",
+          "caseSensitive": false
+        },
+        {
+          "input": "I",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "ⵙ",
+          "caseSensitive": false
+        },
+        {
+          "input": "J",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "‭𐫰‭",
+          "caseSensitive": false
+        },
+        {
+          "input": "K",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✻",
+          "caseSensitive": false
+        },
+        {
+          "input": "L",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "◇",
+          "caseSensitive": false
+        },
+        {
+          "input": "M",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✸",
+          "caseSensitive": false
+        },
+        {
+          "input": "N",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𑽇",
+          "caseSensitive": false
+        },
+        {
+          "input": "O",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "Ⓞ",
+          "caseSensitive": false
+        },
+        {
+          "input": "P",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🝊",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "¤",
+          "caseSensitive": false
+        },
+        {
+          "input": "R",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⦻",
+          "caseSensitive": false
+        },
+        {
+          "input": "S",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖧷",
+          "caseSensitive": false
+        },
+        {
+          "input": "T",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✢",
+          "caseSensitive": false
+        },
+        {
+          "input": "U",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "‭𐫱‭",
+          "caseSensitive": false
+        },
+        {
+          "input": "V",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🟅",
+          "caseSensitive": false
+        },
+        {
+          "input": "W",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🟏",
+          "caseSensitive": false
+        },
+        {
+          "input": "X",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "ꕤ",
+          "caseSensitive": false
+        },
+        {
+          "input": "Y",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✧",
+          "caseSensitive": false
+        },
+        {
+          "input": "Z",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🝱",
+          "caseSensitive": false
+        },
+        {
+          "input": "А",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⛋",
+          "caseSensitive": false
+        },
+        {
+          "input": "Б",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⧲",
+          "caseSensitive": false
+        },
+        {
+          "input": "В",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖢌",
+          "caseSensitive": false
+        },
+        {
+          "input": "Г",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🮻",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ґ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "·🮻·",
+          "caseSensitive": false
+        },
+        {
+          "input": "Д",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🟗",
+          "caseSensitive": false
+        },
+        {
+          "input": "Е",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🜊",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ё",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🜋",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ж",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𐋅",
+          "caseSensitive": false
+        },
+        {
+          "input": "З",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "᪥",
+          "caseSensitive": false
+        },
+        {
+          "input": "І",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "∣",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ї",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "Ï̤",
+          "caseSensitive": false
+        },
+        {
+          "input": "И",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "∣",
+          "caseSensitive": false
+        },
+        {
+          "input": "Й",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "·Ȋ̮·",
+          "caseSensitive": false
+        },
+        {
+          "input": "К",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✻",
+          "caseSensitive": false
+        },
+        {
+          "input": "Л",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "◇",
+          "caseSensitive": false
+        },
+        {
+          "input": "М",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✸",
+          "caseSensitive": false
+        },
+        {
+          "input": "Н",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⊞",
+          "caseSensitive": false
+        },
+        {
+          "input": "О",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "Ⓞ",
+          "caseSensitive": false
+        },
+        {
+          "input": "П",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "☐",
+          "caseSensitive": false
+        },
+        {
+          "input": "Р",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "🝊",
+          "caseSensitive": false
+        },
+        {
+          "input": "С",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⯏",
+          "caseSensitive": false
+        },
+        {
+          "input": "Т",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✢",
+          "caseSensitive": false
+        },
+        {
+          "input": "У",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✧",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ў",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "✦",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ф",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖥠",
+          "caseSensitive": false
+        },
+        {
+          "input": "Х",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "ꕤ",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ц",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⧮",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ч",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⑄",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ш",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "◫",
+          "caseSensitive": false
+        },
+        {
+          "input": "Щ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "⎅",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ъ",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "❂",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ы",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "∣❁∣",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ь",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "❁",
+          "caseSensitive": false
+        },
+        {
+          "input": "Э",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖡛",
+          "caseSensitive": false
+        },
+        {
+          "input": "Є",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖡛",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ю",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "𖥤",
+          "caseSensitive": false
+        },
+        {
+          "input": "Я",
+          "inputType": "text",
+          "outputType": "text",
+          "output": "ⵙ",
+          "caseSensitive": false
+        }
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
+    }
+  ]
+}

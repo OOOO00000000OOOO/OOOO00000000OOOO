@@ -1,0 +1,810 @@
+{
+  "version": 1,
+  "data": {
+    "matchers": [
+      {
+        "active": true,
+        "identifier": "6292e37d-37dc-4f81-bf0a-91fbfc546d21",
+        "queries": [
+          "0"
+        ],
+        "queryPatterns": [],
+        "replacement": "ⵔ",
+        "sortIndex": 1,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "fec4c3cd-a903-4ffa-81a8-bf394adca083",
+        "queries": [
+          "1"
+        ],
+        "queryPatterns": [],
+        "replacement": "·",
+        "sortIndex": 2,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "676d96bc-889b-49b3-9b71-943b8e0edeff",
+        "queries": [
+          "2"
+        ],
+        "queryPatterns": [],
+        "replacement": "꞉",
+        "sortIndex": 3,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "e9b931db-619a-4445-ac0d-c5783e8bf1e1",
+        "queries": [
+          "3"
+        ],
+        "queryPatterns": [],
+        "replacement": "ꔹ",
+        "sortIndex": 4,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "bae55c47-88c2-4a99-941a-af7864ea0d24",
+        "queries": [
+          "4"
+        ],
+        "queryPatterns": [],
+        "replacement": "⁘",
+        "sortIndex": 5,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ab40749a-4768-4a78-be16-51ce8b058c27",
+        "queries": [
+          "5"
+        ],
+        "queryPatterns": [],
+        "replacement": "⸭",
+        "sortIndex": 6,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "738146ce-1117-4e87-9eb5-bcb3339ae57b",
+        "queries": [
+          "6"
+        ],
+        "queryPatterns": [],
+        "replacement": "⠿",
+        "sortIndex": 7,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "4296514a-bf5b-4e4c-9e82-9ae8a9fa7c10",
+        "queries": [
+          "7"
+        ],
+        "queryPatterns": [],
+        "replacement": "፨",
+        "sortIndex": 8,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "9ca1c4e8-6e28-49ab-9e88-5b90bb6a6ba7",
+        "queries": [
+          "8"
+        ],
+        "queryPatterns": [],
+        "replacement": "❋",
+        "sortIndex": 9,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ab396af8-d0f5-4380-acd5-1fbed6d2bacf",
+        "queries": [
+          "9"
+        ],
+        "queryPatterns": [],
+        "replacement": "‭𐧾‭",
+        "sortIndex": 10,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "a27994df-2270-400a-af23-a739bb6ff149",
+        "queries": [
+          "A"
+        ],
+        "queryPatterns": [],
+        "replacement": "⛋",
+        "sortIndex": 11,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "5853bb35-242b-4200-b6f6-a1dc6ea2d2af",
+        "queries": [
+          "B"
+        ],
+        "queryPatterns": [],
+        "replacement": "𖢌",
+        "sortIndex": 12,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "945bb184-cbbb-4ae7-81b5-53dec2580fd3",
+        "queries": [
+          "C"
+        ],
+        "queryPatterns": [],
+        "replacement": "⯏",
+        "sortIndex": 13,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "6a04d401-1627-4e16-8aaf-d2b2e36916a2",
+        "queries": [
+          "D"
+        ],
+        "queryPatterns": [],
+        "replacement": "🟗",
+        "sortIndex": 14,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "5b7f1cab-97e3-4e41-937d-e85ef3e09ed6",
+        "queries": [
+          "E"
+        ],
+        "queryPatterns": [],
+        "replacement": "🜊",
+        "sortIndex": 15,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "7cd58cec-6789-4d5f-96dc-bbd61385618e",
+        "queries": [
+          "F"
+        ],
+        "queryPatterns": [],
+        "replacement": "𖥠",
+        "sortIndex": 16,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "e9e61482-3592-444b-97f5-699773367782",
+        "queries": [
+          "G"
+        ],
+        "queryPatterns": [],
+        "replacement": "Ⱉ",
+        "sortIndex": 17,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ac21a36c-7fc4-46ac-bd3f-f99772edf0a9",
+        "queries": [
+          "H"
+        ],
+        "queryPatterns": [],
+        "replacement": "⊞",
+        "sortIndex": 18,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "8e75dd7f-5a39-4cf6-b01e-4d152f6288ab",
+        "queries": [
+          "I"
+        ],
+        "queryPatterns": [],
+        "replacement": "ⵙ",
+        "sortIndex": 19,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "f694d3b5-d809-4c6c-abf8-e1a3e199af2b",
+        "queries": [
+          "J"
+        ],
+        "queryPatterns": [],
+        "replacement": "‭𐫰‭",
+        "sortIndex": 20,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "6eb97746-dace-4bdb-80d2-12b041b46bf6",
+        "queries": [
+          "K"
+        ],
+        "queryPatterns": [],
+        "replacement": "✻",
+        "sortIndex": 21,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "d172576b-0ce7-4e81-b061-c071c2e04374",
+        "queries": [
+          "L"
+        ],
+        "queryPatterns": [],
+        "replacement": "◇",
+        "sortIndex": 22,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ecf481a8-09d9-4f07-a53a-27f252bf1050",
+        "queries": [
+          "M"
+        ],
+        "queryPatterns": [],
+        "replacement": "✸",
+        "sortIndex": 23,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "1fad8f83-15f0-41bf-bba8-67e8c62ec3c4",
+        "queries": [
+          "N"
+        ],
+        "queryPatterns": [],
+        "replacement": "𑽇",
+        "sortIndex": 24,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "d92ed97a-6521-4095-86d4-30ca2307a8e1",
+        "queries": [
+          "O"
+        ],
+        "queryPatterns": [],
+        "replacement": "Ⓞ",
+        "sortIndex": 25,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "7b6122e1-fcb5-475c-8b7c-98fd25d64799",
+        "queries": [
+          "P"
+        ],
+        "queryPatterns": [],
+        "replacement": "🝊",
+        "sortIndex": 26,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ab9aa3ec-01ae-4d49-9631-ca94d88f8aa5",
+        "queries": [
+          "Q"
+        ],
+        "queryPatterns": [],
+        "replacement": "¤",
+        "sortIndex": 27,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "f1a088d6-3439-4826-9e63-57e2c39ee7a9",
+        "queries": [
+          "R"
+        ],
+        "queryPatterns": [],
+        "replacement": "⦻",
+        "sortIndex": 28,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "5551a7c4-8829-40eb-8083-70341b5a8874",
+        "queries": [
+          "S"
+        ],
+        "queryPatterns": [],
+        "replacement": "𖧷",
+        "sortIndex": 29,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "b5487e8a-3321-4547-9b95-10129e630432",
+        "queries": [
+          "T"
+        ],
+        "queryPatterns": [],
+        "replacement": "✢",
+        "sortIndex": 30,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "6085cb18-1883-4b54-8152-295c8b4e1f2b",
+        "queries": [
+          "U"
+        ],
+        "queryPatterns": [],
+        "replacement": "‭𐫱‭",
+        "sortIndex": 31,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "5db5b914-446e-4a5d-95a6-c200cefc5c93",
+        "queries": [
+          "V"
+        ],
+        "queryPatterns": [],
+        "replacement": "🟅",
+        "sortIndex": 31,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "f3ccad52-4813-49f1-8198-935150faae89",
+        "queries": [
+          "А"
+        ],
+        "queryPatterns": [],
+        "replacement": "⛋",
+        "sortIndex": 32,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "6eeb847d-b200-46fc-a1ba-9f95dff47792",
+        "queries": [
+          "Y"
+        ],
+        "queryPatterns": [],
+        "replacement": "✧",
+        "sortIndex": 32,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "6ea6cbce-36db-4d76-9333-faf87a11e563",
+        "queries": [
+          "Б"
+        ],
+        "queryPatterns": [],
+        "replacement": "⧲",
+        "sortIndex": 32,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "835ed3ce-44a5-4ff3-8803-fee99c4a0628",
+        "queries": [
+          "W"
+        ],
+        "queryPatterns": [],
+        "replacement": "🟏",
+        "sortIndex": 32,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "69e6b66f-55e4-47b7-aacf-ca7c133ab038",
+        "queries": [
+          "Z"
+        ],
+        "queryPatterns": [],
+        "replacement": "🝱",
+        "sortIndex": 32,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "a357ebe8-cfc2-45c3-bae4-1ccc6c6dde46",
+        "queries": [
+          "X"
+        ],
+        "queryPatterns": [],
+        "replacement": "ꕤ",
+        "sortIndex": 32,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "5d82d534-485b-487a-bb95-809cbe48f124",
+        "queries": [
+          "В"
+        ],
+        "queryPatterns": [],
+        "replacement": "𖢌",
+        "sortIndex": 33,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "6290fae8-d984-4611-b896-0328d3f00fc1",
+        "queries": [
+          "Г"
+        ],
+        "queryPatterns": [],
+        "replacement": "🮻",
+        "sortIndex": 34,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "963fdbf1-bf92-4686-8b84-6deb9dfe3ac7",
+        "queries": [
+          "Д"
+        ],
+        "queryPatterns": [],
+        "replacement": "🟗",
+        "sortIndex": 35,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "e359bf20-8e97-4d64-87d2-1224def6c9b7",
+        "queries": [
+          "Е"
+        ],
+        "queryPatterns": [],
+        "replacement": "🜊",
+        "sortIndex": 36,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "9b23aa60-53b1-42a1-8b10-7e4ef332f6e9",
+        "queries": [
+          "Ё"
+        ],
+        "queryPatterns": [],
+        "replacement": "🜋",
+        "sortIndex": 37,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "c6fdb182-abe6-4d14-80c2-bc649d2b82f1",
+        "queries": [
+          "Ж"
+        ],
+        "queryPatterns": [],
+        "replacement": "𐋅",
+        "sortIndex": 38,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "883d83d1-e7d0-4ef1-97ea-5e74e46dda6f",
+        "queries": [
+          "З"
+        ],
+        "queryPatterns": [],
+        "replacement": "᪥",
+        "sortIndex": 39,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "1976b179-9455-4acb-b194-6c65e7104213",
+        "queries": [
+          "І"
+        ],
+        "queryPatterns": [],
+        "replacement": "∣",
+        "sortIndex": 40,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "63db4141-d1d9-40f5-8c0d-2c2e665abc62",
+        "queries": [
+          "И"
+        ],
+        "queryPatterns": [],
+        "replacement": "∣",
+        "sortIndex": 41,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "1ec1a33d-9818-43e6-b27e-47bd8c321347",
+        "queries": [
+          "Й"
+        ],
+        "queryPatterns": [],
+        "replacement": "·Ȋ̮·",
+        "sortIndex": 42,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ed7035d9-b2bb-4397-8360-05f7e85c0ccd",
+        "queries": [
+          "К"
+        ],
+        "queryPatterns": [],
+        "replacement": "✻",
+        "sortIndex": 43,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "43ef1f2d-ecea-4f33-b6cd-d963f675c59f",
+        "queries": [
+          "Л"
+        ],
+        "queryPatterns": [],
+        "replacement": "◇",
+        "sortIndex": 44,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "2915e081-71ff-4744-8cfb-ef2dd1b8c657",
+        "queries": [
+          "М"
+        ],
+        "queryPatterns": [],
+        "replacement": "✸",
+        "sortIndex": 45,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "015197b8-44b6-477e-ad3a-253f281468eb",
+        "queries": [
+          "Н"
+        ],
+        "queryPatterns": [],
+        "replacement": "⊞",
+        "sortIndex": 46,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ad103f85-c8a7-4b49-9bfe-1418aa0199d2",
+        "queries": [
+          "О"
+        ],
+        "queryPatterns": [],
+        "replacement": "Ⓞ",
+        "sortIndex": 47,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "477fad74-8da6-4c02-ad5c-27c8e8d1f317",
+        "queries": [
+          "П"
+        ],
+        "queryPatterns": [],
+        "replacement": "☐",
+        "sortIndex": 48,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "33c6e3d1-c779-4e9c-b8c2-1153e411727c",
+        "queries": [
+          "Р"
+        ],
+        "queryPatterns": [],
+        "replacement": "🝊",
+        "sortIndex": 49,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "ace1bc42-cdd9-4b0e-a42e-ba7bbf257585",
+        "queries": [
+          "С"
+        ],
+        "queryPatterns": [],
+        "replacement": "⯏",
+        "sortIndex": 50,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "54cb6233-ab92-4ae4-b717-3a447d075a87",
+        "queries": [
+          "Т"
+        ],
+        "queryPatterns": [],
+        "replacement": "✢",
+        "sortIndex": 51,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "88745c1b-530f-4239-b8af-d2f6dfbe3210",
+        "queries": [
+          "У"
+        ],
+        "queryPatterns": [],
+        "replacement": "✧",
+        "sortIndex": 52,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "0ceaf7b1-a5b5-4df6-a13f-e0e7bdf2090d",
+        "queries": [
+          "Ў"
+        ],
+        "queryPatterns": [],
+        "replacement": "✦",
+        "sortIndex": 53,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "94066532-826b-4612-acf3-c305730e92f2",
+        "queries": [
+          "Ф"
+        ],
+        "queryPatterns": [],
+        "replacement": "𖥠",
+        "sortIndex": 54,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "75721e29-94b2-4c5e-87a5-192c1139f0b0",
+        "queries": [
+          "Х"
+        ],
+        "queryPatterns": [],
+        "replacement": "ꕤ",
+        "sortIndex": 55,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "8c90f7b6-00c4-4ece-8466-abf0c1b160e4",
+        "queries": [
+          "Ц"
+        ],
+        "queryPatterns": [],
+        "replacement": "⧮",
+        "sortIndex": 56,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "50745b78-7646-4332-89e0-11ae056fb977",
+        "queries": [
+          "Ч"
+        ],
+        "queryPatterns": [],
+        "replacement": "⑄",
+        "sortIndex": 57,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "c3b8d598-12f2-4fe0-b42f-9ceb7feeeaf2",
+        "queries": [
+          "Ш"
+        ],
+        "queryPatterns": [],
+        "replacement": "◫",
+        "sortIndex": 58,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "3803e324-6346-4745-9fae-cbe9780ea181",
+        "queries": [
+          "Щ"
+        ],
+        "queryPatterns": [],
+        "replacement": "⎅",
+        "sortIndex": 59,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "5cc3b61a-aa89-4b30-96c2-fb2ab00ff832",
+        "queries": [
+          "Ъ"
+        ],
+        "queryPatterns": [],
+        "replacement": "❂",
+        "sortIndex": 60,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "52858843-0175-48d3-bed8-9bf63c7579a4",
+        "queries": [
+          "Ы"
+        ],
+        "queryPatterns": [],
+        "replacement": "∣❁∣",
+        "sortIndex": 61,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "d43ba554-1a13-4d87-9eea-53c2d5cd9dc8",
+        "queries": [
+          "Ь"
+        ],
+        "queryPatterns": [],
+        "replacement": "❁",
+        "sortIndex": 62,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "4288e97a-ffd3-4149-94a7-31400243b2c7",
+        "queries": [
+          "Э"
+        ],
+        "queryPatterns": [],
+        "replacement": "𖡛",
+        "sortIndex": 63,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "3324fcf1-f6bb-496a-9c32-8fa68e19fba3",
+        "queries": [
+          "Ю"
+        ],
+        "queryPatterns": [],
+        "replacement": "𖥤",
+        "sortIndex": 64,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "b92b26fe-3d8b-4d98-a2bc-4154551e4bd7",
+        "queries": [
+          "Я"
+        ],
+        "queryPatterns": [],
+        "replacement": "ⵙ",
+        "sortIndex": 65,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "53098703-f6d6-4a51-9c0d-adac6f613b58",
+        "queries": [
+          " "
+        ],
+        "queryPatterns": [],
+        "replacement": " ",
+        "sortIndex": 66,
+        "useGlobalReplacementStyle": true
+      },
+      {
+        "active": true,
+        "identifier": "b6f64114-e787-46e4-a6a0-371534a06883",
+        "queries": [
+          "."
+        ],
+        "queryPatterns": [],
+        "replacement": "⚙",
+        "sortIndex": 67,
+        "useGlobalReplacementStyle": true
+      }
+    ]
+  }
+}
